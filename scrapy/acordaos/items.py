@@ -1,4 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from scrapy.item import Item, Field
+import scrapy
 
 class AcordaoItem(Item):
     acordaoId   = Field()
@@ -28,6 +32,8 @@ class AcordaoItem(Item):
     notas       = Field()
     similaresTexto = Field()
     similares   = Field()
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
 
 class LawItem(Item):
     sigla  = Field()

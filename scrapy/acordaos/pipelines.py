@@ -1,55 +1,66 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # Define your item pipelines here
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import pymongo
+import scrapy
 
 #from scrapy.stf import settings
 from scrapy.exceptions import DropItem
 from scrapy import log
 from acordaos.items import AcordaoItem
 from CorpusBuilder import CorpusBuilder
+from scrapy.pipelines.files import FilesPipeline
 
-class MongoDBPipeline( object):
 
-    def __init__( self):
-        connection = pymongo.Connection(
-            'localhost',
-            27017
+class MongoDBPipeline(object):
+
+    def __init__(self, mongo_uri, mongo_db, mongo_collection):
+        self.mongo_uri = mongo_uri
+        self.mongo_db = mongo_db
+        self.collection_name = mongo_collection
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            mongo_uri=crawler.settings.get('MONGO_URI'),
+            mongo_db=crawler.settings.get('MONGO_DATABASE'),
+            mongo_collection=crawler.settings.get('MONGO_COLLECTION')
         )
-        db = connection['DJs']
-        self.collection = db['all']
-        self.corpus = None
 
-    def process_item( self, item, spider):
-        valid = True
-#        print 'processing item'
+    def open_spider(self, spider):
+        self.client = pymongo.MongoClient(self.mongo_uri)
+        self.db = self.client[self.mongo_db]
+
+    def close_spider(self, spider):
+        self.client.close()
+
+    def process_item(self, item, spider):
         for data in item:
             if not data:
-                valid = False
-                raise DropItem("Missing {0}!".format(data))
-        if valid:
-            self.collection.insert(dict(item))
-            log.msg("acordao added to MongoDB database!",
-                    level=log.DEBUG, spider=spider)
- #           self.addItemToCorpus( item, self.corpus)
+                raise DropItem("Missing {0} in:\n{1}!".format(data, item))
+
+        self.db[self.collection_name].insert(dict(item))
+        # corrigir em todo o código usado a forma como são realizados os logs
+        log.msg("Acordao added to MongoDB database!", level=log.DEBUG, spider=spider)
         return item
 
-    def open_spider( self, spider):
-        self.corpus = CorpusBuilder()
 
-    def close_spider( self, spider):
-        self.corpus.print2File( "corpusSTF")
+class InteiroTeorPipeline(FilesPipeline):
 
-    def addItemToCorpus( self, item, corpus):
-   #     corpus.addWords( item['local'])
-        for key in item["partes"].keys():
-            corpus.addWords( key)
-#        corpus.addWords( item['ementa'])
-        corpus.addWords( item['partesTexto'])
- #       corpus.addWords( item['decisao'])
-  #      corpus.addWords( item['observacao'])
-   #     for w in item["tags"]:
-    #        corpus.addWords( w)
+    def get_media_requests(self, item, info):
+        for image_url in item['file_urls']:
+            yield scrapy.Request(image_url)
 
+    def item_completed(self, results, item, info):
+        file_paths = [x['path'] for ok, x in results if ok]
+        if not file_paths:
+            log.msg("Acordao nao possui inteiro teor!", level=log.WARNING, spider=spider)
+
+        del item['file_urls']
+        item['files'] = file_paths[0]
+        return item

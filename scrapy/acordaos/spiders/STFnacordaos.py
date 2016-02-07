@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from scrapy.selector import Selector
-from scrapy.spider import BaseSpider
+from scrapy.spiders import Spider
 import re
 from acordaos.items import AcordaoItem
 
 FILE_NDOCS='temp'
-class STFSpider(BaseSpider):
+class STFSpider(Spider):
 
     name = 'stf_get_nacordaos'
     
