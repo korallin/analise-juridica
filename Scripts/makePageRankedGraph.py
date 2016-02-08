@@ -26,11 +26,6 @@ if queryRaw:
         value = pairSplit[1].strip()
         query[ field] = value
 
-#collectionInName = raw_input( "colecao in: ")
-#collectionOutName = raw_input( "colecao out: ")
-#query = raw_input( "query: ")
-#pageRankMode = raw_input( "modo page rank: ")
-
 quotes = {}
 quotedBy = {}
 similars = {}

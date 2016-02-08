@@ -5,9 +5,10 @@ from pymongo import MongoClient
 from Acordao import Acordao
 import sys
 
-class GraphMaker():
 
-    def __init__( self, dbName, collectionInName, collectionOutName):
+class GraphMaker:
+
+    def __init__(self, dbName, collectionInName, collectionOutName):
         client = MongoClient('localhost', 27017)
         db = client[ dbName]
         self.collectionIn = db[ collectionInName]
@@ -16,12 +17,13 @@ class GraphMaker():
         self.onePercent = self.collectionIn.count()/100
         self.count = 0
         self.progress = 0
-#
+
     def __addElemSetToDict( self, aDict, elemKey, elemValue):
         if elemKey not in aDict:
             aDict[ elemKey] = set()
         aDict[ elemKey].add( elemValue)
         return aDict
+
 
     def removeInvalidAcordaosFromDicts( self, validAcordaos, quotes, quotedBy):
         for docId, quotesId in quotes.items():
@@ -96,42 +98,11 @@ class GraphMaker():
             self.collectionOut.insert( docs2Insert)
         
 
-    def addAcordaosSimilaresNormalizados( self, collection, collectionOut):
-        for acordao in collection.find( no_cursor_timeout=False):
-            similarsIds = set()
-            for similar in acordao['similares']:
-                similarsIds.add( similar['acordaoId'])
-            collectionOut.update_one( 
-                                {'acordaoId': acordao['acordaoId']}
-                                ,{  '$set': {'relator': acordao['relator']
-                                ,'acordaoType': acordao['dataJulg']
-                                ,'ementa'  : acordao['ementa']
-                                ,'decisao' : acordao['decisao']
-                                ,'citacoes': acordao['citacoes']
-                                ,'legislacao': acordao['legislacao']
-                                ,'tags'    : acordao['tags']
-                                ,'partes'  : acordao['partes']
-                                ,'tribunal': acordao['tribunal']
-                                ,'dataJulg': acordao['dataJulg']
-                                ,'orgaoJulg': acordao['orgaoJulg']
-                                ,'localSigla': acordao['localSigla']
-                                ,'local'   : acordao['local']
-                                ,'virtual' : False },
-                                '$addToSet': {'similares':{'$each':list( similarsIds)}}
-                                }
-                                ,upsert=True )
-            self.printProgress()
-
-
     def __printProgress( self):
         self.count += 1
         if self.count >= self.onePercent:
             self.count = 0
             self.progress += 1
-#            if not percentage % 10:
             sys.stdout.write("\r%d%%" % self.progress)
             sys.stdout.flush()
 
-#collectionNormalized.drop()
-#addVirtualNodes( collectionAcordaos, collectionNormalized)
-#addAcordaosSimilaresNormalizados( collectionAcordaos, collectionNormalized)
