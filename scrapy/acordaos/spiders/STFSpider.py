@@ -51,12 +51,12 @@ class STFSpider(Spider):
             '/div[@id="divImpressao"]'+
             '/div[@class="abasAcompanhamento"]'
         )
-        # não precisa imprimir a saída se estiver tudo OK
+        # TODO não precisa imprimir a saída se estiver tudo OK - ENTENDER YIELD
         for doc in body:
             yield self.parseDoc(doc, response)
 
     def parseDoc(self, doc, response):
-        # construir os elementos em outro método e instanciar o item aqui
+        # TODO construir os elementos em outro método e instanciar o item aqui
         parser = self.parser
         self.fIndex += 1
         textDoc = doc.xpath('div[@class="processosJurisprudenciaAcordaos"]')

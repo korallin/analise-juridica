@@ -30,7 +30,7 @@ MONGO_URI = 'mongodb://localhost:27017'
 MONGO_DATABASE = "DJs"
 MONGO_COLLECTION = "all"
 
-
+# TODO change log level to INFO
 LOG_LEVEL = 'DEBUG'
 LOG_FILE = 'log_test'
 LOG_ENABLED = True

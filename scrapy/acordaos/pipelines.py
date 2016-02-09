@@ -11,7 +11,7 @@ import scrapy
 
 #from scrapy.stf import settings
 from scrapy.exceptions import DropItem
-from scrapy import log
+import logging
 from acordaos.items import AcordaoItem
 from CorpusBuilder import CorpusBuilder
 from scrapy.pipelines.files import FilesPipeline
@@ -45,8 +45,7 @@ class MongoDBPipeline(object):
                 raise DropItem("Missing {0} in:\n{1}!".format(data, item))
 
         self.db[self.collection_name].insert(dict(item))
-        # corrigir em todo o código usado a forma como são realizados os logs
-        log.msg("Acordao added to MongoDB database!", level=log.DEBUG, spider=spider)
+        logging.debug("Acordao added to MongoDB database!")
         return item
 
 
@@ -59,7 +58,7 @@ class InteiroTeorPipeline(FilesPipeline):
     def item_completed(self, results, item, info):
         file_paths = [x['path'] for ok, x in results if ok]
         if not file_paths:
-            log.msg("Acordao nao possui inteiro teor!", level=log.WARNING, spider=spider)
+            logging.warning("Acordao nao possui inteiro teor!")
 
         del item['file_urls']
         item['files'] = file_paths[0]
