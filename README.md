@@ -6,8 +6,16 @@ Code used here is meant to support my master project at IME-USP.
 
 The instructions should are meant for those use Debian and other Linux distributions.
 
-You must have python 2.7 installed and the `libxml2-dev` e "libxslt1-dev" packages.
+You must have python 2.7 installed and the `libxml2-dev` e `libxslt1-dev` packages.
 May be necessary install other packages that I had already installed at my machine.
+
+You also must have a mongo database installed at your machine and you have to create
+a database to crawl the Brazilian Supreme Court data.
+To do that type these:
+`mongo`
+`use DJs`
+`db.createCollection("acordaos")`
+`db.createCollection("decisoes_monocraticas")`
 
 I advise you create a virtual environment using the virtualenv[1] module. 
 

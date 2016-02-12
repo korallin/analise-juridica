@@ -1,3 +1,4 @@
 scrapy/inteiros_teores/
 scrapy/log_test
 scrapy/**/*.pyc
+scrapy/decisao.log

@@ -9,11 +9,8 @@
 import pymongo
 import scrapy
 
-#from scrapy.stf import settings
 from scrapy.exceptions import DropItem
 import logging
-from acordaos.items import AcordaoItem
-from CorpusBuilder import CorpusBuilder
 from scrapy.pipelines.files import FilesPipeline
 
 
@@ -40,9 +37,10 @@ class MongoDBPipeline(object):
         self.client.close()
 
     def process_item(self, item, spider):
-        for data in item:
-            if not data:
-                raise DropItem("Missing {0} in:\n{1}!".format(data, item))
+        if ('files' not in item) and ('file_urls' not in item):
+            for data in item:
+                if not data:
+                    raise DropItem("Missing {0} in:\n{1}!".format(data, item))
 
         self.db[self.collection_name].insert(dict(item))
         logging.debug("Acordao added to MongoDB database!")
@@ -52,14 +50,19 @@ class MongoDBPipeline(object):
 class InteiroTeorPipeline(FilesPipeline):
 
     def get_media_requests(self, item, info):
-        for image_url in item['file_urls']:
-            yield scrapy.Request(image_url)
+        for data in item:
+            if not data:
+                raise DropItem("Missing {0} in:\n{1}!".format(data, item))
+
+        for file_url in item['file_urls']:
+            yield scrapy.Request(file_url)
 
     def item_completed(self, results, item, info):
         file_paths = [x['path'] for ok, x in results if ok]
-        if not file_paths:
+        if file_paths:
+            del item['file_urls']
+            item['files'] = file_paths[0]
+        else:
             logging.warning("Acordao nao possui inteiro teor!")
 
-        del item['file_urls']
-        item['files'] = file_paths[0]
         return item

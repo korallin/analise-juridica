@@ -1,14 +1,22 @@
-import re
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-class AcordaoParser():
-   
-    def extendAbv( self, abv):
-        abv = abv.replace('.', '').lower()
+import re
+import logging
+
+class DecisaoParser():
+
+    def extendAbv(self, abrev):
+        abv = abrev.replace('.', '').lower()
         abv = re.sub("\(.*\)", '', abv)
         word = re.sub(r'([ao]?s?)$', '', abv, flags=re.IGNORECASE)
-        word = self.abbreviationsTable.get( word, abv)
+        word = self.abbreviationsTable.get(word, abv)
+
+        if word == abv:
+            logging.warning(u"[NEW ABV] Doesn't exist abreviation for {}".format(unicode(abrev, 'utf-8')))
+
         return word
-        
+
     def parseUf( self, text):
         return self.getMatchText( text, '.*\/.*-\s*(.*)').upper().strip()
 
@@ -36,17 +44,7 @@ class AcordaoParser():
         partesDict ={} 
         partes = filter( None, partes)
         for l in partes:
-#            temp = l.split(:)
             temp = re.split('[:;]', l)
-            if len(temp) < 2:
-#                print 'temp:'
-#                print temp  
-#                print 'parte:'  
-#                print l  
-#                print 'partes:'
-#                print partes  
-#                print '------'  
-		continue
             t = temp[0].strip()
             n = temp[1].strip()
             tipo = self.extendAbv( t)
@@ -116,7 +114,7 @@ class AcordaoParser():
         desc = re.sub("[\*]+", '', text)
         return desc.strip()
         
-    def parseLaws( self, text):    
+    def parseLaws( self, text):
         laws = []
         law = {}
         refs = {}
@@ -155,8 +153,8 @@ class AcordaoParser():
             laws.append( law)
         return laws
 
-    def getMatchText( self, text, regexExp):
-        match = re.match( regexExp, text)
+    def getMatchText(self, text, regexExp):
+        match = re.search(regexExp, text)
         if  match == None:
             return ''
         else:
@@ -168,28 +166,28 @@ class AcordaoParser():
     abbreviationsTable = {
         "advd":   "advogado",
         "adv":    "advogado",
-        "impte":  "impetrante",
-        "recte":  "recorrente",
-        "proc":   "procurador",
-        "relator": "relator",
-        #acusante
         "agd":    "agravado",
         "agdv":   "agravado",
-        "reqte":  "requerente",
-        "reclte": "reclamante",
-        "pacte":  "paciente",
+        "agte":   "agravante",
+        "autore": "autor",
+        "coator": "coator",
+        "embd":   "embargado",
+        "embgd":  "embargado",
+        "embte":  "embargante",
         "impd":   "impetrado",
         "imptd":  "impetrado",
         "impt":   "impetrado",
-        "embte":  "embargante",
+        "impte":  "impetrante",
         "intd":   "intimado",
-        "coator": "coator",
+        "pacte":  "paciente",
+        "proc":   "procurador",
+        "recd":  "recorrido",
+        "recld": "reclamado",
+        "reclte": "reclamante",
+        "recte":  "recorrente",
+        "relator": "relator",
+        "reqte":  "requerente"
+        #acusante
         #acusado
-        "agte":   "agravante",
-        "recdo":  "recorrido",
-        "recldo": "reclamado",
-        "embd":   "embargado",
-        "embgd":  "embargado",
-        "autore": "autor"
     }
  

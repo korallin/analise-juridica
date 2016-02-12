@@ -1,0 +1,11 @@
+- No futuro coisas do STJ serão colocadas em outro scrapy project
+
+- Em algum momento deve ser feita validacao dos spiders - talvez usando unit testing
+
+- Ver como extrair o PDF dos inteiros teores de forma satisfatória
+    https://www.google.com/search?q=extract+text+pdf&ie=utf-8&oe=utf-8#safe=off&q=extract%20text%20pdf%20python
+    https://github.com/dhcolumbia/opensyllabus/issues/14
+
+- Fazer amostragem de acórdãos e ver se as informações deles estão conforme as do site
+
+- mudar USER_AGENT do scraper

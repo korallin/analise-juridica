@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-from AcordaoParser import AcordaoParser
+from DecisaoParser import DecisaoParser
 
 #from stf.items import StfLawItem
 import re
 #import time
 from datetime import datetime, timedelta
 
-class STJParser( AcordaoParser):
+class STJParser( DecisaoParser):
 
     def parseId( self, text):
         acId = self.getMatchText( text, r"\s*([^\/]*).*")
