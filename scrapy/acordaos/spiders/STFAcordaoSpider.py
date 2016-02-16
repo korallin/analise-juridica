@@ -39,6 +39,7 @@ class STFAcordaoSpider(Spider):
         r = re.search(r"([0-9]+)", str(body))
         if r:
             npagesFound = int(r.group(1))/10 + 1
+
         for p in range(self.page, npagesFound+1):
             yield Request(self.urlPage(p), callback = self.parsePage)
 

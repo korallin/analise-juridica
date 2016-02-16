@@ -44,7 +44,6 @@ class STFDecMonocSpider(Spider):
 
         for p in range(self.page, npagesFound+1):
             yield Request(self.urlPage(p), callback = self.parsePage)
-        # yield Request(self.urlPage(self.page), callback = self.parsePage)
 
     def parsePage(self, response):
         unicode(response.body.decode(response.encoding)).encode('utf-8')
@@ -54,19 +53,12 @@ class STFDecMonocSpider(Spider):
             '/div[@id="conteiner"]'+
             '/div[@id="corpo"]'+
             '/div[@class="conteudo"]'+
-            '/div[@id="divImpressao"]'+
-            '/div[@class="abasAcompanhamento"]'
+            '/div[@id="divImpressao"]'
         )
 
-        # TODO
-        # abasAcompanhamento estão dentro de si recursivamente
-        # após a primeira todas as outras podem começar dentro de uma tag strong ou já dentro de outra div abasAcompanhamento
-        # ver se é possível extrair todas de uma vez sem precisar iterar -> pensar em como foi feito pra pegar texto dentro de tag pre e de tag a dentrodd e tag pre
-
-        # from IPython import embed; embed()
-
-        # Marcar quando len(body) < 10 e quanto é
-        for doc in body:
+        corrected_body = body.xpath('.//div[@class="abasAcompanhamento"]')
+        
+        for doc in corrected_body:
             yield self.parseDoc(doc, response)
 
     def parseDoc(self, doc, response):

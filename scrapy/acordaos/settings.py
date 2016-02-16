@@ -22,8 +22,9 @@ FILES_STORE = 'inteiros_teores'
 SPIDER_MODULES = ['acordaos.spiders']
 NEWSPIDER_MODULE = 'acordaos.spiders_dev'
 
+# DOWNLOAD_HANDLERS = {'s3': None}
 
-DOWNLOAD_DELAY = 5
+DOWNLOAD_DELAY = 2
 
 
 MONGO_URI = 'mongodb://localhost:27017'

@@ -8,4 +8,18 @@
 
 - Fazer amostragem de acórdãos e ver se as informações deles estão conforme as do site
 
+- Examinar em algum momento se todos os tipos de partes armazenadas no BD fazem sentido
+
 - mudar USER_AGENT do scraper
+    Deve ser algo que ajude os programadores do STF a saberem quem está fazendo as análises
+
+###########################################################
+- Partes será carregado por meio de um arquivo json e (atributo estático da classe) e os
+    nomes das partes serão continuamente carregados e a verificação de se já estão presentes
+    também será modificada.
+
+###########################################################
+- Fazer análise de linhas das partes para saber se elas possuem as informações esperadas
+
+###########################################################
+- Analisar posteriormente se similares e legislação estãos endo produzidos de forma correta
