@@ -10,6 +10,7 @@ import time
 from datetime import datetime, timedelta
 from scrapy.http import Request
 from STFDecisaoParser import STFDecisaoParser
+import logging
 
 
 class STFAcordaoSpider(Spider):
@@ -43,6 +44,7 @@ class STFAcordaoSpider(Spider):
         for p in range(self.page, npagesFound+1):
             yield Request(self.urlPage(p), callback = self.parsePage)
 
+
     def parsePage(self, response):
         unicode(response.body.decode(response.encoding)).encode('utf-8')
         sel = Selector(response)
@@ -54,6 +56,9 @@ class STFAcordaoSpider(Spider):
             '/div[@id="divImpressao"]'+
             '/div[@class="abasAcompanhamento"]'
         )
+
+        if len(body) < 10:
+            logging.warning("Acórdão possui menos de 10 documentos na página {}".format(response.url))
 
         for doc in body:
             yield self.parseDoc(doc, response)
@@ -105,7 +110,7 @@ class STFAcordaoSpider(Spider):
         law_fields_dict['dataPublic']  = parser.parseDataPublicacao(law_fields_dict['publicacao'])
 
         law_fields_dict['inteiro_teor'] = \
-            [response.urljoin(inteiro_teor.strip()) 
+            [response.urljoin(re.sub(r"(\d+)[^\d]+$", r"\1", inteiro_teor.strip())) 
                 for inteiro_teor in doc.xpath('ul[@class="abas"]/li[2]/a/@href').extract()
             ]
 

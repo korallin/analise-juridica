@@ -43,7 +43,6 @@ class MongoDBPipeline(object):
                     raise DropItem("Missing {0} in:\n{1}!".format(data, item))
 
         self.db[self.collection_name].insert(dict(item))
-        logging.debug("Acordao added to MongoDB database!")
         return item
 
 
@@ -63,6 +62,6 @@ class InteiroTeorPipeline(FilesPipeline):
             del item['file_urls']
             item['files'] = file_paths[0]
         else:
-            logging.warning("Acordao nao possui inteiro teor!")
+            logging.warning("Acordao {} nao possui inteiro teor!".format(item['acordaoId']))
 
         return item

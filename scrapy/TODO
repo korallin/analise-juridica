@@ -8,8 +8,6 @@
 
 - Fazer amostragem de acórdãos e ver se as informações deles estão conforme as do site
 
-- Examinar em algum momento se todos os tipos de partes armazenadas no BD fazem sentido
-
 - mudar USER_AGENT do scraper
     Deve ser algo que ajude os programadores do STF a saberem quem está fazendo as análises
 
@@ -22,4 +20,4 @@
 - Fazer análise de linhas das partes para saber se elas possuem as informações esperadas
 
 ###########################################################
-- Analisar posteriormente se similares e legislação estãos endo produzidos de forma correta
+- Analisar posteriormente se similares, legislação estão sendo produzidos de forma correta

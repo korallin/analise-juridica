@@ -34,8 +34,9 @@ class DecisaoParser():
         return []
 
     def parsePartes(self, text):
-        text += "\n"
-        partes = [match[0] for match in re.findall('([^\\n]+(;|:| {3,}).+?\\n([^\\n\.:;]+\\n)*)', text)]
+        text = text.lstrip() + "\n"
+        text = re.sub(r"\\n\s+", r"\n", text)
+        partes = [match[0] for match in re.findall('([^\\n]+(;|:| {3,}).+?\\n([^\\n:;]+\\n)*)', text)]
         partesDict = {}
 
         for parte in partes:
@@ -43,10 +44,10 @@ class DecisaoParser():
             t = temp[0].strip()
 
             if t.find(".") == -1:
-                logging.warning(u"[LOOK ABBRV] A abreviação {} não possui ponto".format(t))
+                logging.warning(u"[LOOK ABBRV] A abreviação {} não possui ponto".format(unicode(t, 'utf-8')))
 
             tipo = self.extendAbv(t)
-            nome = re.sub(r"([\n\r]| {2,})", " ", temp[2].strip())
+            nome = re.sub(r"([\n\r]| {2,})", " ", temp[-1].strip())
 
             if tipo in partesDict:
                 partesDict[tipo].append(nome)

@@ -1,3 +1,12 @@
 https://docs.mongodb.org/manual/reference/operator/update/set/
 
 db.acordaos.find({similares:{$exists: true}}, {similares:1, similaresTexto:1, _id:0}).pretty()
+
+db.acordaos.remove({})
+
+# Para saber se existem acórdaos repetidos na base de dados
+db.acordaos.aggregate(
+    {"$group" : { "_id": "$acordaoId", "count": { "$sum": 1 } } },
+    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }, 
+    {"$project": {"acordaoId" : "$_id", "_id" : 0} }
+)
