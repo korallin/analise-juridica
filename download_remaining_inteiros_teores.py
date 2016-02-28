@@ -53,12 +53,14 @@ coll = db['acordaos']
 dir_path = '/home/jackson/analise-juridica/scrapy/inteiros_teores/'
 
 cursor = coll.find({"files":{"$exists":True}})
+print "There are {} inteiros teores".format(cursor.count())
 for document in cursor:
     if not os.path.exists(dir_path + document['files']):
         print u"Doesn't exists the inteiro teor {} for acórdão {}".format(document['files'], document['acordaoId']).encode('utf-8')
 
 
 cursor = coll.find({"file_urls":{"$exists":True}})
+print "There are {} urls".format(cursor.count())
 for document in cursor:
     file_path = download_inteiro_teor(document['file_urls'][0], dir_path)
 

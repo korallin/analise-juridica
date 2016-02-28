@@ -5,8 +5,33 @@ db.acordaos.find({similares:{$exists: true}}, {similares:1, similaresTexto:1, _i
 db.acordaos.remove({})
 
 # Para saber se existem acórdaos repetidos na base de dados
-db.acordaos.aggregate(
-    {"$group" : { "_id": "$acordaoId", "count": { "$sum": 1 } } },
+db.decisoes_monocraticas.aggregate(
+    {"$group" : { "_id": {cabecalho: "$cabecalho", acordaoId: "$acordaoId"}, "count": { "$sum": 1 } } },
     {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }, 
-    {"$project": {"acordaoId" : "$_id", "_id" : 0} }
+    {"$project": {"cabecalho" : "$_id", "_id" : 0} }
 )
+
+db.decisoes_monocraticas.aggregate(
+    {"$group" : { "_id": {cabecalho: "$cabecalho", publicacao: "$publicacao", acordaoId: "$acordaoId"}, uniqueIds: { $addToSet: "$_id" }, "count": { "$sum": 1 } } },
+    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }
+)
+
+db.acordaos.aggregate(
+    {"$group" : { "_id": {acordaoId: "$acordaoId"}, uniqueIds: { $addToSet: "$_id" }, "count": { "$sum": 1 } } },
+    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }
+)
+
+db.decisoes_monocraticas.aggregate(
+    { $group : {_id : "$acordaoId", total : { $sum : 1 } } },
+    { $match : { total : { $gte : 2 } } },
+    { $sort : {total : -1} },
+    { $limit : 5 }
+    );
+
+
+mongodump --db DJs | gzip > dump_`date "+%Y-%m-%d"`.gz
+
+mongorestore --gzip --archive=dump_2016-02-26.gz
+
+
+db.decisoes_monocraticas.createIndex( { cabecalho: 1, publicacao: 1, acordaoId: 1 }, { unique: true } )

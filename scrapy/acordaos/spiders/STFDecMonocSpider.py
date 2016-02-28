@@ -9,6 +9,7 @@ import time
 from datetime import datetime, timedelta
 from scrapy.http import Request
 from STFDecisaoParser import STFDecisaoParser
+import logging
 
 class STFDecMonocSpider(Spider):
 
@@ -57,6 +58,9 @@ class STFDecMonocSpider(Spider):
         )
 
         corrected_body = body.xpath('.//div[@class="abasAcompanhamento"]')
+        if len(corrected_body) > 10:
+            logging.warning(u"Decisões monocráticas possui mais de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
+            corrected_body = body.xpath('div[@class="abasAcompanhamento"]')
         
         for doc in corrected_body:
             yield self.parseDoc(doc, response)

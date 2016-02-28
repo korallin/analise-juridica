@@ -16,7 +16,12 @@ import logging
 class STFAcordaoSpider(Spider):
 
     name = 'stf_acordao'
-    custom_settings = {'MONGO_COLLECTION': "acordaos"}
+    custom_settings = {'MONGO_COLLECTION': "acordaos",
+        'ITEM_PIPELINES': {
+                'acordaos.pipelines.InteiroTeorPipeline': 1,
+                'acordaos.pipelines.MongoDBPipeline': 1
+            }
+    }
 
     def __init__ (self, iDate, fDate, page, index):
         self.domain = 'stf.jus.br'
@@ -58,7 +63,7 @@ class STFAcordaoSpider(Spider):
         )
 
         if len(body) < 10:
-            logging.warning("Acórdão possui menos de 10 documentos na página {}".format(response.url))
+            logging.warning(u"Acórdão possui menos de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
 
         for doc in body:
             yield self.parseDoc(doc, response)
@@ -110,7 +115,7 @@ class STFAcordaoSpider(Spider):
         law_fields_dict['dataPublic']  = parser.parseDataPublicacao(law_fields_dict['publicacao'])
 
         law_fields_dict['inteiro_teor'] = \
-            [response.urljoin(re.sub(r"(\d+)[^\d]+$", r"\1", inteiro_teor.strip())) 
+            [response.urljoin(re.sub(r"([^\s])[\s]*$", r"\1", inteiro_teor.strip())) 
                 for inteiro_teor in doc.xpath('ul[@class="abas"]/li[2]/a/@href').extract()
             ]
 

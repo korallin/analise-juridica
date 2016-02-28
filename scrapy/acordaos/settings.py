@@ -11,12 +11,6 @@
 
 BOT_NAME = 'acordaos'
 
-ITEM_PIPELINES = {
-    'acordaos.pipelines.InteiroTeorPipeline': 1,
-    'acordaos.pipelines.MongoDBPipeline': 1
-}
-
-
 FILES_STORE = 'inteiros_teores'
 
 SPIDER_MODULES = ['acordaos.spiders']
