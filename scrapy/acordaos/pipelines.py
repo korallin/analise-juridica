@@ -59,8 +59,8 @@ class InteiroTeorPipeline(FilesPipeline):
     def item_completed(self, results, item, info):
         file_paths = [x['path'] for ok, x in results if ok]
         if file_paths:
-            del item['file_urls']
             item['files'] = file_paths[0]
+            del item['file_urls']
         else:
             logging.warning("Acordao {} nao possui inteiro teor!".format(item['acordaoId']))
 

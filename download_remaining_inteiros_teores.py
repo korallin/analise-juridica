@@ -9,7 +9,8 @@ import re
 import os
 
 def download_inteiro_teor(url, dir_path):
-    url = re.sub(ur"(\d+)[^\d]*", r"\1", url)
+    # a expressão regular ainda precisa melhorar
+    url = re.sub(ur"([^\s%]+)([\s%.\\]|[^\W_])*", ur"\1", url)
     file_name = url.split('asp?')[-1]
     
     new_dir_path = dir_path + "full/"

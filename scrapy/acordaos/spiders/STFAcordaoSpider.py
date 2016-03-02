@@ -19,7 +19,7 @@ class STFAcordaoSpider(Spider):
     custom_settings = {'MONGO_COLLECTION': "acordaos",
         'ITEM_PIPELINES': {
                 'acordaos.pipelines.InteiroTeorPipeline': 1,
-                'acordaos.pipelines.MongoDBPipeline': 1
+                'acordaos.pipelines.MongoDBPipeline': 2
             }
     }
 
@@ -115,7 +115,7 @@ class STFAcordaoSpider(Spider):
         law_fields_dict['dataPublic']  = parser.parseDataPublicacao(law_fields_dict['publicacao'])
 
         law_fields_dict['inteiro_teor'] = \
-            [response.urljoin(re.sub(r"([^\s])[\s]*$", r"\1", inteiro_teor.strip())) 
+            [response.urljoin(re.sub(r"([^\s%]+)([\s%.\\]|[^\W_])*", r"\1", inteiro_teor.strip())) 
                 for inteiro_teor in doc.xpath('ul[@class="abas"]/li[2]/a/@href').extract()
             ]
 
