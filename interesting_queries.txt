@@ -17,7 +17,7 @@ db.decisoes_monocraticas.aggregate(
 )
 
 db.acordaos.aggregate(
-    {"$group" : { "_id": {acordaoId: "$acordaoId"}, uniqueIds: { $addToSet: "$_id" }, "count": { "$sum": 1 } } },
+    {"$group" : { "_id": {files: "$files"}, uniqueIds: { $addToSet: "$_id" }, "count": { "$sum": 1 } } },
     {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }
 )
 
@@ -29,7 +29,8 @@ db.decisoes_monocraticas.aggregate(
     );
 
 
-mongodump --db DJs | gzip > dump_`date "+%Y-%m-%d"`.gz
+mongodump --db DJs 
+tar -zcvf dump_`date "+%Y-%m-%d"`.tar.gz dump/
 
 mongorestore --gzip --archive=dump_2016-02-26.gz
 
