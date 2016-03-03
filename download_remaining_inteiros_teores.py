@@ -16,7 +16,7 @@ def download_inteiro_teor(url, dir_path):
     new_dir_path = dir_path + "full/"
     if os.path.exists(new_dir_path + file_name):
         return "full/" + file_name
-    from IPython import embed; embed()	
+
     u = urllib2.urlopen(url)
     f = open(file_name, 'wb')
     meta = u.info()
