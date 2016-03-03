@@ -1,0 +1,117 @@
+[LOOK ABBRV] A abreviação 00733-2009-058-19-00-4 não possui ponto
+[LOOK ABBRV] A abreviação 00748-2009-058-19-00-2 não possui ponto
+[LOOK ABBRV] A abreviação 3RELATORA não possui ponto
+[LOOK ABBRV] A abreviação ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação ADDO(A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADV (A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVD(A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVDI, não possui ponto
+[LOOK ABBRV] A abreviação ADVDO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVDO(A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVDOA/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVDO não possui ponto
+[LOOK ABBRV] A abreviação ADVDO, não possui ponto
+[LOOK ABBRV] A abreviação ADVDOS não possui ponto
+[LOOK ABBRV] A abreviação ADV não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADA não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADO(A/S) não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADO não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADO (S) não possui ponto
+[LOOK ABBRV] A abreviação ADVOGADOS não possui ponto
+[LOOK ABBRV] A abreviação AGDA não possui ponto
+[LOOK ABBRV] A abreviação AGDO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação AGDO não possui ponto
+[LOOK ABBRV] A abreviação AGRAVADA não possui ponto
+[LOOK ABBRV] A abreviação AGRAVADO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação AGRAVADO não possui ponto
+[LOOK ABBRV] A abreviação AGRAVANTE não possui ponto
+[LOOK ABBRV] A abreviação AGRAVANTE (S) não possui ponto
+[LOOK ABBRV] A abreviação AGTE não possui ponto
+[LOOK ABBRV] A abreviação AGTE (S) não possui ponto
+[LOOK ABBRV] A abreviação APELADOS não possui ponto
+[LOOK ABBRV] A abreviação APELANTE não possui ponto
+[LOOK ABBRV] A abreviação AUTORA não possui ponto
+[LOOK ABBRV] A abreviação AUTOR(A/S)(A/S) não possui ponto
+[LOOK ABBRV] A abreviação AUTOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação AUTORAS não possui ponto
+[LOOK ABBRV] A abreviação AUTORES não possui ponto
+[LOOK ABBRV] A abreviação AUTOR não possui ponto
+[LOOK ABBRV] A abreviação COATORA (A/S) (ES) não possui ponto
+[LOOK ABBRV] A abreviação COATOR (A/S) (ES) não possui ponto
+[LOOK ABBRV] A abreviação COATOR (A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação COATOR(A/S)(ES não possui ponto
+[LOOK ABBRV] A abreviação COATOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação COATOR (A/S) não possui ponto
+[LOOK ABBRV] A abreviação COATORES não possui ponto
+[LOOK ABBRV] A abreviação COATOR não possui ponto
+[LOOK ABBRV] A abreviação CURADORA não possui ponto
+[LOOK ABBRV] A abreviação CURADOR(A/S)(ES)  ESPECIAL (AIS) não possui ponto
+[LOOK ABBRV] A abreviação CURADOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação CURADOR ESPECIAL não possui ponto
+[LOOK ABBRV] A abreviação CURADOR não possui ponto
+[LOOK ABBRV] A abreviação DOS ÍNDIOS (PROCESSOS NºS 00343-2009-063-19-00-0 não possui ponto
+[LOOK ABBRV] A abreviação DP não possui ponto
+[LOOK ABBRV] A abreviação DPU não possui ponto
+[LOOK ABBRV] A abreviação EMBARGADA não possui ponto
+[LOOK ABBRV] A abreviação EMBARGADO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação EMBARGANTE não possui ponto
+[LOOK ABBRV] A abreviação EMBARGANTE (S) não possui ponto
+[LOOK ABBRV] A abreviação EMBDO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação EMBTE (A/S) não possui ponto
+[LOOK ABBRV] A abreviação EMBTES não possui ponto
+[LOOK ABBRV] A abreviação IMPETRANTE não possui ponto
+[LOOK ABBRV] A abreviação IMPETRANTE (S) não possui ponto
+[LOOK ABBRV] A abreviação INTDA não possui ponto
+[LOOK ABBRV] A abreviação INTERESSADO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação INTERESSADO não possui ponto
+[LOOK ABBRV] A abreviação INTERPDA não possui ponto
+[LOOK ABBRV] A abreviação INTERPDO não possui ponto
+[LOOK ABBRV] A abreviação INTERPTE não possui ponto
+[LOOK ABBRV] A abreviação LITISDENS não possui ponto
+[LOOK ABBRV] A abreviação  não possui ponto
+[LOOK ABBRV] A abreviação O ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação OPOENTE não possui ponto
+[LOOK ABBRV] A abreviação OPOSTO não possui ponto
+[LOOK ABBRV] A abreviação PACIENTE não possui ponto
+[LOOK ABBRV] A abreviação PACIENTE (S) não possui ponto
+[LOOK ABBRV] A abreviação PARTE PAS não possui ponto
+[LOOK ABBRV] A abreviação PARTE(S) não possui ponto
+[LOOK ABBRV] A abreviação POLO PAS não possui ponto
+[LOOK ABBRV] A abreviação PTCO não possui ponto
+[LOOK ABBRV] A abreviação RECLAMADO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação RECLAMANTE (S) não possui ponto
+[LOOK ABBRV] A abreviação RECORRENTE não possui ponto
+[LOOK ABBRV] A abreviação RECORRENTE (S) não possui ponto
+[LOOK ABBRV] A abreviação RECORRIDA não possui ponto
+[LOOK ABBRV] A abreviação RECORRIDO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação RECORRIDO não possui ponto
+[LOOK ABBRV] A abreviação REDATORA DO ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação REDATORA DO não possui ponto
+[LOOK ABBRV] A abreviação REDATORA PARA O ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação REDATOR DO ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação REDATOR DO ACÓRDÃO RISTF não possui ponto
+[LOOK ABBRV] A abreviação REDATOR DO não possui ponto
+[LOOK ABBRV] A abreviação REDATOR não possui ponto
+[LOOK ABBRV] A abreviação REDATOR PARA O ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação REGISTRADO não possui ponto
+[LOOK ABBRV] A abreviação RELATORA não possui ponto
+[LOOK ABBRV] A abreviação RELATOR DO INCIDENTE não possui ponto
+[LOOK ABBRV] A abreviação RELATOR não possui ponto
+[LOOK ABBRV] A abreviação REMETENTE não possui ponto
+[LOOK ABBRV] A abreviação REMETENTE(S) não possui ponto
+[LOOK ABBRV] A abreviação RÉ não possui ponto
+[LOOK ABBRV] A abreviação REQDA não possui ponto
+[LOOK ABBRV] A abreviação REQDO não possui ponto
+[LOOK ABBRV] A abreviação REQTE não possui ponto
+[LOOK ABBRV] A abreviação REQTES não possui ponto
+[LOOK ABBRV] A abreviação REQUERIDO (A/S) não possui ponto
+[LOOK ABBRV] A abreviação RÉS não possui ponto
+[LOOK ABBRV] A abreviação REU(É)(S) não possui ponto
+[LOOK ABBRV] A abreviação RÉU(É)(S) não possui ponto
+[LOOK ABBRV] A abreviação REU não possui ponto
+[LOOK ABBRV] A abreviação RÉU não possui ponto
+[LOOK ABBRV] A abreviação RÉUS não possui ponto
+[LOOK ABBRV] A abreviação REVISORA não possui ponto
+[LOOK ABBRV] A abreviação REVISOR não possui ponto
+[LOOK ABBRV] A abreviação RRRELATOR não possui ponto

@@ -1,0 +1,76 @@
+Foram coletados 70974 acórdãos (e respectivos inteiros teores) escritos entre
+01/01/2001 e 01/01/2016 foram coletados entre 0:52 de 01/03/2016 e 05:54 de
+02/03/2016.
+Porém, este não é o tempo real de coleta dos arquivos dado que os
+inteiros teores demoram para ser baixados.
+Alguns deles ja tinham sido baixados em execuções anteriores do scraper.
+O scraper foi executado algumas vezes devido à necessidade de corrigir
+error no download dos acórdãos fez com que nem todos os inteiros teores
+fossem baixados na execução acima, pois uma vez que eles já foram baixados
+anteriormente o download deles não é necessário.
+
+Para saber se todos os acórdãos foram coletados adequadamente foi feita uma 
+consulta no dia 032/03/2016 usando um navegador e o númerod e acórdãos encointrados
+para o período consultado foi de 70977.
+
+Foram baixadas 232279 decisões monocráticas realizadas no período entre 01/01/2001 e 01/01/2016.
+
+As decisões monocráticas foram baixadas entre os dias 24/02/2016 e 25/02/2016.
+Eles tiveram que ser baixados por partes (períodos de 2 anos), pois era selecionado um período de tempo
+que gerava mais de 9999 páginas as páginas de número maior ou igual a 10000 retornavam
+erro HTTP 500 (Internal server error)
+
+Infelizmente, ao comparar com a busca em um navegador foi verificado que o número de
+documentos retornados foi diferente nos dois períodos abaixo:
+Diferença
+
+entre 2009/01/02 2011/01/01
+scrapy: 54770 documentos
+navegador: 54758 documentos
+
+entre 2011/01/02 2013/01/01
+scrapy: 59249 documentos
+navegador: 59250 documentos
+
+entre 2013/01/02 2015/01/01
+scrapy: 44096 documentos
+navegador: 44076 documentos
+
+entre 2015/01/02 2016/01/01
+scrapy: 26097 documentos
+navegador: 25844 documentos
+
+Gostaria de observar que o fato de fazer algumas correções no scraper após algumas
+recuperações de decisões me fez perceber que as buscas retornam resultados diferentes
+em dias diferentes. para os períodos em que foram mostradas diferenças.
+
+
+Ao fazer algumas buscas no banco de dados eu percebi algumas carcaterísticas do dados.
+Por exemplo:
+acordaoId não é índice único em decisões monocráticas nem em acordaos 
+campo "cabecalho" parece ser um índice melhor
+
+acordaos publicados em momentos diferentes com mesmo arquivo possuem link para arquivo da primeira decisão
+http://stf.jus.br/portal/inteiroTeor/obterInteiroTeor.asp?numero=335614&classe=AI-AgR-ED-ED
+pode buscar por acordaoId AI 335614 AgR-ED-ED
+cabecalho pode ajudar a entender melhor a diferença entre os acórdãos
+
+
+O mesmo ocorrido acima também ocorreu com os acórdãos cujo acordaoId é ED AGR AI 603952
+http://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=479756
+e com os acórdãos AGR AP 493, AGR ACO 312 e AGR RCL 872.
+
+Para saber quais são todas as abreviações de partes utilizadas nos acórdãos foram adicionadas algumas mensagens
+no scraper e posteriomente as mensagens geradas na coleta das decisões (acṍrdãos e decisões monocráticas) foram
+coletadas dos arquivos de log.
+O arquivo gerado esá em /home/jackson/analise-juridica/scrapy/last_logs/abreviacoes_nao_previstas.txt
+
+O mesmo foi feito para tentar detectar posteriormente problemas na coleta de abreviações pelo scraper a fim de
+melhorá-lo. O resultado da coleta está em /home/jackson/analise-juridica/scrapy/last_logs/inpecionar_abreviacoes.txt
+
+Foi gerado um backup da base de dados atual e ele está em: /home/jackson/analise-juridica/dump_2016-03-02.tar.gz
+Também foi gerado um backup dos inteiros teores em: /home/jackson/analise-juridica/inteiros_teores.tar.gz
+
+
+Na próxima execução do scraper pretendo executar o script em modo debug para tentar descorbrir diferenças
+inspecionando mensagens do scrapy

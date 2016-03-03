@@ -16,7 +16,7 @@ FILES_STORE = 'inteiros_teores'
 SPIDER_MODULES = ['acordaos.spiders']
 NEWSPIDER_MODULE = 'acordaos.spiders_dev'
 
-# DOWNLOAD_HANDLERS = {'s3': None}
+DOWNLOAD_HANDLERS = {'s3': None}
 
 DOWNLOAD_DELAY = 2
 

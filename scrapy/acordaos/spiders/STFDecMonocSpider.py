@@ -62,6 +62,9 @@ class STFDecMonocSpider(Spider):
             logging.warning(u"Decisões monocráticas possui mais de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
             corrected_body = body.xpath('div[@class="abasAcompanhamento"]')
         
+        if len(corrected_body) < 10:
+            logging.warning(u"Acórdão possui menos de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
+
         for doc in corrected_body:
             yield self.parseDoc(doc, response)
 

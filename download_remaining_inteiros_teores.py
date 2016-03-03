@@ -9,13 +9,14 @@ import re
 import os
 
 def download_inteiro_teor(url, dir_path):
-    url = re.sub(ur"(\d+)[^\d]*", r"\1", url)
+    # a expressão regular ainda precisa melhorar
+    url = re.sub(ur"([^\s%]+)([\s%.\\]|[^\W_])*", ur"\1", url)
     file_name = url.split('asp?')[-1]
     
     new_dir_path = dir_path + "full/"
     if os.path.exists(new_dir_path + file_name):
         return "full/" + file_name
-
+    from IPython import embed; embed()	
     u = urllib2.urlopen(url)
     f = open(file_name, 'wb')
     meta = u.info()
@@ -64,7 +65,7 @@ print "There are {} urls".format(cursor.count())
 for document in cursor:
     file_path = download_inteiro_teor(document['file_urls'][0], dir_path)
 
-    coll.update(
+    coll.replace_one(
         {"_id": document['_id']},
         {
             "$set": {
@@ -79,7 +80,7 @@ cursor = coll.find(
             }
         )
 for document in cursor:
-    coll.update(
+    coll.replace_one(
         {"_id": document['_id']},
         {
             "$unset": {
