@@ -1,0 +1,2 @@
+contar inteiros teores
+ls -l | wc -l
