@@ -21,3 +21,16 @@
 
 ###########################################################
 - Analisar posteriormente se similares, legislação estão sendo produzidos de forma correta
+
+
+###########################################################
+Corrigir expressão regular que captura legislação citada (parseAcordaoQuotes analise-juridica/scrapy/acordaos/spiders/STFDecisaoParser.py)
+verificar se funciona melhor fazer com que seja capturado até o 2º '-'.
+
+String que é corretamente tratada: "- Acórdão(s) citado(s): (PRINCÍPIOS DO DEVIDO PROCESSO LEGAL, DO CONTRADITÓRIO, DA AMPLA DEFESA) ARE 748371 RG. (MINISTÉRIO PÚBLICO, PODER DE INVESTIGAÇÃO) RE 593727 RG. Número de páginas: 7. Análise: 12/02/2016, MJC."
+
+String que é incorretamente tratada: "- Acórdão(s) citado(s): (REGIME INICIAL DE CUMPRIMENTO DE PENAL, CRIME HEDIONDO) STF: HC 111840 (TP). (HC, SUBSTITUIÇÃO, RHC) STF: HC 109956 (1ªT), HC 108715 (1ªT). (HC, CABIMENTO) STF: HC 3536. (HC, REEXAME, FATO, PROVA) STF: HC 101209 (2ªT). - Legislação estrangeira citada: Magna Carta de 1215 da Inglaterra; Habeas Corpus Act, de 1679; artigo I, seção 9, da Constituição norte-americana de 1787; Decreto-lei nº 35.043, de 20.10.1945 de Portugual. - Decisões estrangeiras citadas: Caso James Somerset da King's Bench; Buschel's Case, de 1670, da Court of Common Pleas; Acórdão de 26.04.1989, processo 10/89, BMJ 386, p. 422, do Superior Tribunal de Justiça português. - Termo(s) de resgate: Doutrina brasileira do habeas corpus. - Veja HC 167915 do STJ. Número de páginas: 16. Análise: 08/01/2012, SEV. Análise: 07/02/2013, AAT."
+
+
+
+Considerar que apenas legislação nacional deve ser capturada
