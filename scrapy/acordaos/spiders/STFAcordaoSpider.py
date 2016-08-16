@@ -151,6 +151,7 @@ class STFAcordaoSpider(Spider):
             citacoes    = law_fields_dict['quotes'],
             doutrinas   = law_fields_dict['doutrines'],
             tags        = law_fields_dict['tags'],
+            tagsTexto   = law_fields_dict['tagsRaw'],
 
             similaresTexto = re.sub('[\r\t ]+', ' ', law_fields_dict['similarRaw']).strip(),
 	        similares   = law_fields_dict['similarAcordaos'],

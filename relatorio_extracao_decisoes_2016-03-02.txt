@@ -1,16 +1,17 @@
 Foram coletados 70974 acórdãos (e respectivos inteiros teores) escritos entre
 01/01/2001 e 01/01/2016 foram coletados entre 0:52 de 01/03/2016 e 05:54 de
 02/03/2016.
+
 Porém, este não é o tempo real de coleta dos arquivos dado que os
 inteiros teores demoram para ser baixados.
-Alguns deles ja tinham sido baixados em execuções anteriores do scraper.
+Alguns deles já tinham sido baixados em execuções anteriores do scraper.
 O scraper foi executado algumas vezes devido à necessidade de corrigir
 error no download dos acórdãos fez com que nem todos os inteiros teores
 fossem baixados na execução acima, pois uma vez que eles já foram baixados
 anteriormente o download deles não é necessário.
 
 Para saber se todos os acórdãos foram coletados adequadamente foi feita uma 
-consulta no dia 032/03/2016 usando um navegador e o númerod e acórdãos encointrados
+consulta no dia 03/03/2016 usando um navegador e o número de acórdãos encontrados
 para o período consultado foi de 70977.
 
 Foram baixadas 232279 decisões monocráticas realizadas no período entre 01/01/2001 e 01/01/2016.
@@ -61,9 +62,9 @@ http://redir.stf.jus.br/paginadorpub/paginador.jsp?docTP=AC&docID=479756
 e com os acórdãos AGR AP 493, AGR ACO 312 e AGR RCL 872.
 
 Para saber quais são todas as abreviações de partes utilizadas nos acórdãos foram adicionadas algumas mensagens
-no scraper e posteriomente as mensagens geradas na coleta das decisões (acṍrdãos e decisões monocráticas) foram
+no scraper e posteriomente as mensagens geradas na coleta das decisões (acórdãos e decisões monocráticas) foram
 coletadas dos arquivos de log.
-O arquivo gerado esá em /home/jackson/analise-juridica/scrapy/last_logs/abreviacoes_nao_previstas.txt
+O arquivo gerado está em /home/jackson/analise-juridica/scrapy/last_logs/abreviacoes_nao_previstas.txt
 
 O mesmo foi feito para tentar detectar posteriormente problemas na coleta de abreviações pelo scraper a fim de
 melhorá-lo. O resultado da coleta está em /home/jackson/analise-juridica/scrapy/last_logs/inpecionar_abreviacoes.txt
@@ -72,5 +73,5 @@ Foi gerado um backup da base de dados atual e ele está em: /home/jackson/analis
 Também foi gerado um backup dos inteiros teores em: /home/jackson/analise-juridica/inteiros_teores.tar.gz
 
 
-Na próxima execução do scraper pretendo executar o script em modo debug para tentar descorbrir diferenças
+Na próxima execução do scraper pretendo executar o script em modo debug para tentar descobrir diferenças
 inspecionando mensagens do scrapy

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cat decisao_* | sed -nr  's/.*(\[NEW ABV\].*)/\1/p' | sort | uniq > abreviacoes_nao_previstas.txt
-cat decisao_* | sed -nr  's/.*(\[LOOK ABBRV\].*)/\1/p' | sort | uniq > inpecionar_abreviacoes.txt
+cat decisao_* | sed -nr  's/.*(\[LOOK ABBRV\].*)/\1/p' | sort | uniq > inspecionar_abreviacoes.txt
 
 # outras buscas
 # "possui mais de 10 documentos na"

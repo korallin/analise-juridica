@@ -63,15 +63,19 @@ class DecisaoParser():
         lawRefs = []
         nCaputs = nArt = nPar = nInc = nAli = 0
         refs = filter(None, refs)
+
+
         for r in refs:
             r = r.strip()
-            if r.startswith("ART"):
+            if r.startswith("ART"): 
                 if nArt or nCaputs:
                     lawRefs.append(dict(ref))
                     ref.pop("inciso", None)
                     ref.pop("alinea", None)
                     ref.pop("paragrafo", None)
                     ref.pop("caput", None)
+                    ref.pop("redacao", None)
+                    ref.pop("incluido", None)
                     nInc = nCaputs = nPar = nAli = 0
                 ref["artigo"] = self.getMatchText(r, "ART[-: ]+(.+)")
                 nArt = 1
@@ -106,6 +110,10 @@ class DecisaoParser():
                 ref.pop("inciso", None)
                 ref.pop("alinea", None)
                 ref.pop("paragrafo", None)
+            elif r.startswith("REDAÇÃO"):
+                ref['redacao'] = self.getMatchText(r, "REDAÇÃO\s*(.+)")
+            elif r.startswith("INCLUÍDO"):
+                ref['incluido'] = self.getMatchText(r, "INCLUÍDO\s*(.+)")
         if ref:
             lawRefs.append(dict(ref))
         return lawRefs 
@@ -123,6 +131,7 @@ class DecisaoParser():
         lawLines = []
         text = text.replace('\r', ' ')
         lines = text.split("\n")
+
         for l in lines:
             l = l.encode("utf-8").upper()
             if l.startswith("LEG"):
@@ -132,8 +141,9 @@ class DecisaoParser():
                         law["descricao"] = description
                         lawLines.pop()
                     law["refs"] = self.parseLawReferences(''.join(lawLines))
-                laws.append(law)
-                law = {}
+                if any(law):
+                    laws.append(law)
+                    law = {}
                 lawLines = [] 
                 law["descricao"] = ""
                 law["refs"] = []

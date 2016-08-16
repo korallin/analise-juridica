@@ -53,10 +53,16 @@ class STFDecisaoParser(DecisaoParser):
     def parseAcordaosQuotes(self, txt):
         quotes = []
         data = []
+        # O ideal é que as classes processuais fossem todas conhecidas para que apenas elas fossem reconhecidas
 
-        decisoes_monoc = re.search(("[Dd]ecis(ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])").decode("utf-8"), txt)
+        # quando decisões do STF são prefixadas por pela string "STF:" a expressão regular abaixo não funciona.
+        # Então remove-se a string sem prejuízo para a detecção das decisões citadas em txt
+        txt = txt.replace("STF:", "")
+        # remoção de citações a revista trimestral de jurisprudência do STF
+        txt = re.sub(r"RTJ\d+\/\d+,\s+", "", txt)
+        decisoes_monoc = re.search(("[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])").decode("utf-8"), txt)
         acordaos = re.search(("[Aa]córdão(?:\s*\(?s\)?)? citado(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])").decode("utf-8"), txt)
-
+        
         if decisoes_monoc:
             data.append(decisoes_monoc)
         if acordaos:

@@ -36,6 +36,7 @@ class AcordaoItem(DecisaoItem):
     notas       = Field()
     file_urls = scrapy.Field()
     files = scrapy.Field()
+    tagsTexto = Field()
 
 
 class LawItem(Item):
