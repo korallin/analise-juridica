@@ -26,7 +26,7 @@ class DecisaoParser():
     def parseTags(self, text):
         tags = []
         if text:
-            tagsRaw = re.split(r'[\n,\-.]+', text)
+            tagsRaw = re.split(r'[,\-.]+', text)
             for tag in tagsRaw:
                 t = (re.sub('\s+', ' ', tag)).strip()
                 tags.append(t.upper())
