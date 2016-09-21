@@ -1,0 +1,224 @@
+{
+    "_id" : ObjectId("57c585923413e97f3971e754"),
+    "index" : 440,
+    "tribunal" : "STF",
+    
+    "cabecalho" : "ADI 2202 AgR / DF - DISTRITO FEDERAL AG.REG.NA AÇÃO DIRETA DE INCONSTITUCIONALIDADE Relator(a):&nbsp Min. CELSO DE MELLO Julgamento:&nbsp 27/02/2003&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Órgão Julgador:&nbsp Tribunal Pleno",
+
+    "acordaoId" : "AGR ADI 2202",
+    "acordaoType" : "AGR ADI",
+    "localSigla" : "DF",
+    "orgaoJulg" : "TRIBUNAL PLENO",
+    "relator" : "CELSO DE MELLO",
+    "local" : "DISTRITO FEDERAL",
+    "dataJulg" : ISODate("2003-02-27T00:00:00Z"),
+    
+    "publicacao" : "DJ 29-08-2003 PP-00018          EMENT VOL-02121-02 PP-00338\r\n          RTJ   VOL-00191-01 PP-00105",
+    "dataPublic" : "",
+
+    "partesTexto" : "AGTE.(S) : PARTIDO SOCIAL LIBERAL - PSL \nADVDO. : WLADIMIR SÉRGIO REALE \nAGDO.(A/S) : PRESIDENTE DA REPÚBLICA \nAGDO.(A/S) : CONGRESSO NACIONAL",
+    "partes" : {
+        "agravante" : [
+            "PARTIDO SOCIAL LIBERAL - PSL"
+        ],
+        "advogado" : [
+            "WLADIMIR SÉRGIO REALE"
+        ],
+        "agravado" : [
+            "PRESIDENTE DA REPÚBLICA",
+            "CONGRESSO NACIONAL"
+        ]
+    },
+
+    "ementa" : "E M E N T A: AÇÃO DIRETA DE INCONSTITUCIONALIDADE - PARTIDO POLÍTICO QUE, NO CURSO DO PROCESSO, VEM A PERDER A REPRESENTAÇÃO PARLAMENTAR NO CONGRESSO NACIONAL - FATO SUPERVENIENTE QUE DESCARACTERIZA A LEGITIMIDADE ATIVA DA AGREMIAÇÃO PARTIDÁRIA (CF, ART. 103, VIII) - MATÉRIA DE ORDEM PÚBLICA - POSSIBILIDADE DE RECONHECIMENTO EX OFFICIO PELO RELATOR DA CAUSA - AÇÃO DIRETA DE QUE NÃO SE CONHECE - RECURSO DE AGRAVO IMPROVIDO. - A perda superveniente da bancada legislativa no Congresso Nacional descaracteriza a legitimidade ativa do partido político para prosseguir no processo de controle abstrato de constitucionalidade, eis que, para esse efeito, não basta a mera existência jurídica da agremiação partidária, sobre quem incide o ônus de manter, ao longo da causa, representação parlamentar em qualquer das Câmaras que integram o Poder Legislativo da União. - A extinção anômala do processo de fiscalização normativa abstrata, motivada pela perda superveniente de bancada parlamentar, não importa em ofensa aos postulados da indisponibilidade do interesse público e da inafastabilidade da prestação jurisdicional, eis que inexiste, em favor do partido político que perdeu a qualidade para agir, direito de permanecer no pólo ativo da relação processual, não obstante atendesse, quando do ajuizamento da ação direta, ao que determina o art. 103, VIII da Constituição da República.",
+
+    "decisao" : "O Tribunal, por maioria, vencido o Presidente, o Senhor Ministro Marco Aurélio, desproveu o agravo. Impedido o Senhor Ministro Gilmar Mendes. Ausentes, justificadamente, neste julgamento, a Senhora Ministra Ellen Gracie e o Senhor Ministro Nelson Jobim. Plenário, 27.02.2003.",
+
+    "tagsTexto" : "- IMPOSSIBILIDADE, PROSSEGUIMENTO, AÇÃO DIRETA DE\r\n INCONSTITUCIONALIDADE,\r\nAUSÊNCIA, LEGITIMIDADE ATIVA \"AD CAUSAM\", PARTIDO POLÍTICO,\r\n DECORRÊNCIA,\r\nPERDA, REPRESENTAÇÃO PARLAMENTAR, CASA LEGISLATIVA. NECESSIDADE,\r\nMANUTENÇÃO, REPRESENTAÇÃO, TOTALIDADE, DURAÇÃO, PROCESSO, CONTROLE\r\nNORMATIVO ABSTRATO. POSSIBILIDADE, JUIZ, RECONHECIMENTO, \"EX\r\n OFFICIO\",\r\nEXISTÊNCIA, FATO SUPERVENIENTE, DESCARACTERIZAÇÃO, REQUISITO,\r\nADMISSIBILIDADE, AÇÃO.\r\n- COMPETÊNCIA, RELATOR, JULGAMENTO MONOCRÁTICO, HIPÓTESE, AUSÊNCIA,\r\nCONDIÇÃO DA AÇÃO. INOCORRÊNCIA, OFENSA, PRINCÍPIO DA COLEGIALIDADE,\r\nPOSSIBILIDADE, SUBMISSÃO, DECISÃO SINGULAR, ÓRGÃO COLEGIADO.\r\n- DESCABIMENTO, (STF), PROVOCAÇÃO, PROCURADORIA-GERAL DA REPÚBLICA,\r\nPROSSEGUIMENTO, PROCESSO. IMPOSSIBILIDADE, APLICAÇÃO  ANALÓGICA,\r\nPROCESSO OBJETIVO, AÇÃO DIRETA DE INCONSTITUCIONALIDADE, NORMA,\r\nDISCIPLINA, PROCESSO SUBJETIVO, AÇÃO POPULAR.\r\n- VOTO VENCIDO, MIN. MARCO AURÉLIO: EXIGÊNCIA, REPRESENTAÇÃO\r\nPARLAMENTAR, CONGRESSO NACIONAL, EXCLUSIVIDADE, MOMENTO, PROPOSITURA,\r\nAÇÃO DIRETA.  IRRELEVÂNCIA, PERDA, REPRESENTAÇÃO POSTERIORIDADE,\r\nAJUIZAMENTO, AÇÃO.",
+    "tags" : [
+        "IMPOSSIBILIDADE",
+        "PROSSEGUIMENTO",
+        "AÇÃO DIRETA DE INCONSTITUCIONALIDADE",
+        "AUSÊNCIA",
+        "LEGITIMIDADE ATIVA \"AD CAUSAM\"",
+        "PARTIDO POLÍTICO",
+        "DECORRÊNCIA",
+        "PERDA",
+        "REPRESENTAÇÃO PARLAMENTAR",
+        "CASA LEGISLATIVA",
+        "NECESSIDADE",
+        "MANUTENÇÃO",
+        "REPRESENTAÇÃO",
+        "TOTALIDADE",
+        "DURAÇÃO",
+        "PROCESSO",
+        "CONTROLE NORMATIVO ABSTRATO",
+        "POSSIBILIDADE",
+        "JUIZ",
+        "RECONHECIMENTO",
+        "\"EX OFFICIO\"",
+        "EXISTÊNCIA",
+        "FATO SUPERVENIENTE",
+        "DESCARACTERIZAÇÃO",
+        "REQUISITO",
+        "ADMISSIBILIDADE",
+        "AÇÃO",
+        "COMPETÊNCIA",
+        "RELATOR",
+        "JULGAMENTO MONOCRÁTICO",
+        "HIPÓTESE",
+        "AUSÊNCIA",
+        "CONDIÇÃO DA AÇÃO",
+        "INOCORRÊNCIA",
+        "OFENSA",
+        "PRINCÍPIO DA COLEGIALIDADE",
+        "POSSIBILIDADE",
+        "SUBMISSÃO",
+        "DECISÃO SINGULAR",
+        "ÓRGÃO COLEGIADO",
+        "DESCABIMENTO",
+        "(STF)",
+        "PROVOCAÇÃO",
+        "PROCURADORIA",
+        "GERAL DA REPÚBLICA",
+        "PROSSEGUIMENTO",
+        "PROCESSO",
+        "IMPOSSIBILIDADE",
+        "APLICAÇÃO ANALÓGICA",
+        "PROCESSO OBJETIVO",
+        "AÇÃO DIRETA DE INCONSTITUCIONALIDADE",
+        "NORMA",
+        "DISCIPLINA",
+        "PROCESSO SUBJETIVO",
+        "AÇÃO POPULAR",
+        "VOTO VENCIDO",
+        "MIN",
+        "MARCO AURÉLIO: EXIGÊNCIA",
+        "REPRESENTAÇÃO PARLAMENTAR",
+        "CONGRESSO NACIONAL",
+        "EXCLUSIVIDADE",
+        "MOMENTO",
+        "PROPOSITURA",
+        "AÇÃO DIRETA",
+        "IRRELEVÂNCIA",
+        "PERDA",
+        "REPRESENTAÇÃO POSTERIORIDADE",
+        "AJUIZAMENTO",
+        "AÇÃO"
+    ],
+
+
+    "legislacaoTexto" : "LEG-FED CF ANO-1988 ART-00103 INC-00008 CF-1988 CONSTITUIÇÃO FEDERAL LEG-FED LEI-005869 ANO-1973 ART-00267 PAR-00003 ART-00462 CPC-1973 CÓDIGO DE PROCESSO CIVIL LEG-FED LEI-004717 ANO-1965 ART-00009 (LEI QUE REGULA A AÇÃO POPULAR) LEG-FED LEI-007347 ANO-1985 ART-00003 PAR-00003 (LEI DE AÇÃO CIVIL PÚBLICA)",
+    "legislacao" : [
+        {
+            "refs" : [
+                {
+                    "artigo" : "00103",
+                    "inciso" : "00008"
+                }
+            ],
+            "ano" : "1988",
+            "tipo" : "FED",
+            "descricao" : "CF-1988 CONSTITUIÇÃO FEDERAL",
+            "sigla" : "CF"
+        },
+        {
+            "refs" : [
+                {
+                    "artigo" : "00267",
+                    "paragrafo" : "00003"
+                },
+                {
+                    "artigo" : "00462"
+                }
+            ],
+            "ano" : "1973",
+            "tipo" : "FED",
+            "descricao" : "CPC-1973 CÓDIGO DE PROCESSO CIVIL",
+            "sigla" : "LEI-005869"
+        },
+        {
+            "refs" : [
+                {
+                    "artigo" : "00009"
+                }
+            ],
+            "ano" : "1965",
+            "tipo" : "FED",
+            "descricao" : "(LEI QUE REGULA A AÇÃO POPULAR)",
+            "sigla" : "LEI-004717"
+        },
+        {
+            "refs" : [
+                {
+                    "artigo" : "00003",
+                    "paragrafo" : "00003"
+                }
+            ],
+            "ano" : "1985",
+            "tipo" : "FED",
+            "descricao" : "(LEI DE AÇÃO CIVIL PÚBLICA)",
+            "sigla" : "LEI-007347"
+        }
+    ],
+
+    "observacao" : "- Acórdãos citados: ADI 65, ADI 138 (RTJ-133/1020), ADI 459, ADI 563, ADI 593, ADI 1063, ADI 1350, ADI 2060, ADI 2070, AI 159892 AgR, RE 222285 AgR (RTJ 181/1133); RTJ 48/156, RTJ 59/333, RTJ 112/1404, RTJ 113/22, RTJ 131/1001, RTJ 139/53, RTJ 139/67, RTJ 153/765, RTJ 158/441, RTJ 168/174, RTJ 168/486. - Decisões monocráticas: ADI 1063, ADI 1813, ADI 2060, ADI 2234, ADI 2287, ADI 2460, ADI 2575. - Legislação estrangeira citada: da República Federal da Alemanha - Lei Fundamental de Bonn, 1949, (art. 93 (1) 2º); do Chile, 1981 (art.82, §§ 2º, 3º, 5º); Espanha, 1978 (art. 162, nº 1); de Portugal, 1976 (redação dada pela 4ª Revisão Constitucional (art. 281 nº 2); da Áustria, 1920 (Redação dada por sucessivas leis constitucionais de atualização, art. 140 (1); do Peru, 1993 (art.203, nº 4); de Cabo Verde, 1992 (art. 303); de Federação Russa, 1993 (art.125, nº 2), e da Romênia, 1991, (art.144, \"a\", \"b\"). Número de páginas: (26). Análise:(ANA). Revisão:(VAS/RCO). Inclusão: 02/03/04, (MLR). Alteração: 10/10/05, (AAS).",
+    "citacoes" : [
+        "ADI 65",
+        "ADI 138",
+        "ADI 459",
+        "ADI 563",
+        "ADI 593",
+        "ADI 1063",
+        "ADI 1350",
+        "ADI 2060",
+        "ADI 2070",
+        "AI 159892",
+        "RE 222285",
+        "RTJ 181",
+        "RTJ 48",
+        "RTJ 59",
+        "RTJ 112",
+        "RTJ 113",
+        "RTJ 131",
+        "RTJ 139",
+        "RTJ 139",
+        "RTJ 153",
+        "RTJ 158",
+        "RTJ 168",
+        "RTJ 168"
+    ],
+
+    "doutrinas" : "OBRA:  A FISCALIZAÇÃO ABSTRATA DA CONSTITUCIONALIDADE NO DIREITO\r\nBRASILEIRO\r\nAUTOR: CLÈMERSON MERLIN CLÈVE\r\nEDITORA: RT\r\nANO: 2000  EDIÇÃO: 2ª    PÁGINAS: 141/145, 171/172\r\nOBRA:  JURISDIÇÃO CONSTITUCIONAL\r\nAUTOR: GILMAR FERREIRA MENDES\r\nEDITORA: SARAIVA\r\nANO: 1998  EDIÇÃO: 2ª    PÁGINA: 129/130\r\nOBRA:  AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE\r\nAUTOR: NAGIB SLAIBI FILHO\r\nEDITORA: FORENSE\r\nANO: 1995  EDIÇÃO: 2ª    PÁGINA: 106\r\nOBRA:  REVISTA DE PROCESSO\r\nAUTOR: NELSON NERY JÚNIOR\r\nPÁGINAS: 42/201",
+    
+    "similaresTexto" : "ADI 2346 AgR-AgR \n ANO-2003 UF-RJ TURMA-TP MIN-CELSO DE MELLO N.PÁG-026 \n DJ 29-08-2003 PP-00018 EMENT VOL-02121-03 PP-00463 \nADI 2465 AgR \n ANO-2003 UF-RJ TURMA-TP MIN-CELSO DE MELLO N.PÁG-026 \n DJ 29-08-2003 PP-00017 EMENT VOL-02121-03 PP-00489 \nADI 2837 AgR \n ANO-2003 UF-RS TURMA-TP MIN-CELSO DE MELLO N.PÁG-026 \n DJ 29-08-2003 PP-00021 EMENT VOL-02121-03 PP-00502",
+    "similares" : [
+        {
+            "dataJulg" : [
+                "2003"
+            ],
+            "acordaoId" : "AGR AGR ADI 2346",
+            "relator" : "CELSO DE MELLO",
+            "orgaoJulg" : "TP",
+            "localSigla" : "RJ"
+        },
+        {
+            "dataJulg" : [
+                "2003"
+            ],
+            "acordaoId" : "AGR ADI 2465",
+            "relator" : "CELSO DE MELLO",
+            "orgaoJulg" : "TP",
+            "localSigla" : "RJ"
+        },
+        {
+            "dataJulg" : [
+                "2003"
+            ],
+            "acordaoId" : "AGR ADI 2837",
+            "relator" : "CELSO DE MELLO",
+            "orgaoJulg" : "TP",
+            "localSigla" : "RS"
+        }
+    ]
+}
