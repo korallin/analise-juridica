@@ -1,3 +1,31 @@
+##############################################
+Criar backup de base de dados
+mongodump --db DJs 
+tar -zcvf newdump_`date "+%Y-%m-%d"`.tar.gz dump/
+
+descompactar tar.gz
+mongorestore --db DJs dump/DJs/
+
+# se mongo for 3.2+ usar linha abaixo
+mongorestore --gzip --archive=dump_2016-02-26.gz
+
+compactar inteiros teores
+ir para diretório scrapy/inteiros_teores
+tar -cvzf inteiros_teores.tar.gz full/
+
+descompactar:
+tar -xvzf inteiros_teores.tar.gz
+###############################################
+
+#####   Como entrar no mongodb ##########
+mongo
+use DJs
+
+########    Para remover database    ###########
+use DJs
+db.dropDatabase()
+
+
 https://docs.mongodb.org/manual/reference/operator/update/set/
 
 db.acordaos.find({similares:{$exists: true}}, {similares:1, similaresTexto:1, _id:0}).pretty()
@@ -29,32 +57,70 @@ db.decisoes_monocraticas.aggregate(
     );
 
 
-mongodump --db DJs 
-tar -zcvf dump_`date "+%Y-%m-%d"`.tar.gz dump/
-
-mongorestore --gzip --archive=dump_2016-02-26.gz
+######## Comando para alterar ou inserir informações de um documento do db ##############
+db.acordaos.update({ "_id" : ObjectId("57c9f2c13413e92206cf0e71")}, {"$set": {"similares" : [ { "dataJulg" : ISODate("2014-11-11T00:00:00Z"), "acordaoId" : "INQ 3696", "relator" : "TEORI ZAVASCKI", "orgaoJulg" : "02", "localSigla" : "DF" } ]} })
 
 
 db.decisoes_monocraticas.createIndex( { cabecalho: 1, publicacao: 1, acordaoId: 1 }, { unique: true } )
 
-Como entrar no mongodb
-mongo
-use DJs
 
 db.acordaos.find({$and: [{citacoes:{$eq:[]}}, {observacao:{$ne:""}}]}, {citacoes:1, observacao:1}).pretty()
 
-
-
-NÃO DETECTA ACÓRDÃOS CITADOS NOS CASOS ABAIXO
-"observacao" : "- Decisão monocrática citada: (SERVIDOR PÚBLICO, AMPLIAÇÃO DE CARGA HORÁRIA) ARE 759055. Número de páginas: 5. Análise: 19/02/2016, MJC.",
-
-HC105802
-"observacao" : "- Acórdão(s) citado(s): (REGIME INICIAL DE CUMPRIMENTO DE PENAL, CRIME HEDIONDO) STF: HC 111840 (TP). (HC, SUBSTITUIÇÃO, RHC) STF: HC 109956 (1ªT), HC 108715 (1ªT). (HC, CABIMENTO) STF: HC 3536. (HC, REEXAME, FATO, PROVA) STF: HC 101209 (2ªT). - Legislação estrangeira citada: Magna Carta de 1215 da Inglaterra; Habeas Corpus Act, de 1679; artigo I, seção 9, da Constituição norte-americana de 1787; Decreto-lei nº 35.043, de 20.10.1945 de Portugual. - Decisões estrangeiras citadas: Caso James Somerset da King's Bench; Buschel's Case, de 1670, da Court of Common Pleas; Acórdão de 26.04.1989, processo 10/89, BMJ 386, p. 422, do Superior Tribunal de Justiça português. - Termo(s) de resgate: Doutrina brasileira do habeas corpus. - Veja HC 167915 do STJ. Número de páginas: 16. Análise: 08/01/2012, SEV. Análise: 07/02/2013, AAT."
-
-"observacao" : "- Decisões monocráticas citadas: (SÚMULA 279, SÚMULA 454) RE 875905, ARE 913195, ARE 921360. Número de páginas: 7. Análise: 22/02/2016, BMP."
-
-"observacao" : "- Decisões monocráticas citadas: (MATÉRIA INFRACONSTITUCIONAL) AI 750543, AI 739345, AI 774245, RE 560069, ARE 687148. Número de páginas: 5. Análise: 22/02/2016, MAD."
-
-"observacao" : "- Decisões monocráticas citadas: (SÚMULA 280) RE 628585, RE 635733, RE 602638. Número de páginas: 6. Análise: 29/01/2016, BMP."
-
 db.decisoes_monocraticas.find({citacoes:{$ne:[]}}, {citacoes:1, observacao:1}).pretty()
+
+
+acórdãos que possui todos os atributos não nulos
+db.acordaos.find({ $and: [
+    { observacao: { $exists: true, $ne: "" } },
+    { decisao: { $exists: true, $ne: "" } },
+    { doutrinas: { $exists: true, $ne: "" } },
+    { citacoes: { $exists: true, $ne:[] } },
+    { legislacao: { $exists: true, $ne:[] } },
+    { similares: { $exists: true, $ne:[] } },
+    { partes: { $exists: true, $ne:[] } },
+    { tags: { $exists: true, $ne:[ "VIDE EMENTA" ] } },
+    { ementa: { $exists: true, $ne: "" } },
+    { acordaoId: { $exists: true } },
+    { acordaoType: { $exists: true } },
+    { cabecalho: { $exists: true } },
+    { dataJulg: { $exists: true } },
+    { dataPublic: { $exists: true } },
+    { local: { $exists: true } },
+    { localSigla: { $exists: true } },
+    { orgaoJulg: { $exists: true } },
+    { publicacao: { $exists: true } },
+    { relator: { $exists: true } },
+    { tribunal: { $exists: true } },
+] })
+
+db.decisoes_monocraticas.find({ $and: [
+    { observacao: { $exists: true, $ne: "" } },
+    { decisao: { $exists: true, $ne: "" } },
+    { legislacao: { $exists: true, $ne:[] } },
+    { similares: { $exists: true, $ne:[] } },
+    { acordaoId: { $exists: true }},
+    { acordaoType: { $exists: true }},
+    { cabecalho: { $exists: true }},
+    { dataJulg: { $exists: true }},
+    { dataPublic: { $exists: true }},
+    { index: { $exists: true }},
+    { local: { $exists: true }},
+    { localSigla: { $exists: true }},
+    { partes: { $exists: true }},
+    { publicacao: { $exists: true }},
+    { relator: { $exists: true }},
+    { tribunal: { $exists: true }}
+] })
+
+
+######    obter chaves//campos/atributos de uma collection do db    ########
+mr = db.runCommand({
+  "mapreduce" : "decisoes_monocraticas",
+  "map" : function() {
+    for (var key in this) { emit(key, null); }
+  },
+  "reduce" : function(key, stuff) { return null; }, 
+  "out": "decisoes_monocraticas" + "_keys"
+})
+
+

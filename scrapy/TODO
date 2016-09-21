@@ -11,17 +11,34 @@
 - mudar USER_AGENT do scraper
     Deve ser algo que ajude os programadores do STF a saberem quem está fazendo as análises
 
-###########################################################
+
+[ISSUE]###########################################################
+- Analisar posteriormente se similares, legislação estão sendo produzidos de forma correta
+
+[BUG]#######################################################
+tag descrição de legislação não capta direito a descrição de uma dada lei
+depender apenas de quebra de linha é ruim
+Exemplo: AGR AI 371984
+
+
+[NEW FEATURE]###########################################################
 - Partes será carregado por meio de um arquivo json e (atributo estático da classe) e os
     nomes das partes serão continuamente carregados e a verificação de se já estão presentes
     também será modificada.
 
-###########################################################
+[NEW FEATURE]###########################################################
 - Fazer análise de linhas das partes para saber se elas possuem as informações esperadas
 
-###########################################################
-- Analisar posteriormente se similares, legislação estão sendo produzidos de forma correta
-
-
-######################################################
+[NEW FEATURE]######################################################
 Criar uma forma de checar diferenças nos dados coletados a cada mudança no scraper
+
+
+Seção ementa de acórdãos muitas vezes começa com a pŕopria palavra "ementa"
+Faz sentido manter isso?
+
+
+decisões monocráticas citadas em observção podem começar como:
+"Decisões monocráticas:" (ADI 2202 AgR)
+
+Publicação não foi extraída adequadamente de (ADI 2202 AgR)
+padrão diferente
