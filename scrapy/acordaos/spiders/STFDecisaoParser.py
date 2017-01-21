@@ -59,7 +59,7 @@ class STFDecisaoParser(DecisaoParser):
         # Então remove-se a string sem prejuízo para a detecção das decisões citadas em txt
         txt = txt.replace("STF:", "")
         # remoção de citações a revista trimestral de jurisprudência do STF
-        txt = re.sub(r"RTJ\-?\d+\/\d+,\s+|[^\s]*RTJ\-\d+\/\d+[^\s]*\s+", "", txt)
+        txt = re.sub(r"RTJ(\-|\s+)?\d+\/\d+", "", txt)
         decisoes_monoc = re.search(("[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])").decode("utf-8"), txt)
         acordaos = re.search(("[Aa]córdão(?:\s*\(?s\)?)? citado(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])").decode("utf-8"), txt)
         
