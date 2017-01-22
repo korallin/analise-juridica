@@ -38,10 +38,16 @@ class STFDecisaoParser(DecisaoParser):
 
     def parseDataPublicacao(self, text):
         text = text.replace('&nbsp', '').strip()
-        date = re.search('PUBLIC (\d+)[-\/](\d+)[-\/](\d+)', text)
-        if date:
-            return datetime(int(date.group(3)), int(date.group(2)), int(date.group(1)))
-        return ''
+        date = re.search('(PUBLIC|DJ)\s+(\d+)[-\/](\d+)[-\/](\d{4})', text)
+        try:
+            if date:
+                date = datetime(int(date.group(4)), int(date.group(3)), int(date.group(2)))
+            else:
+                date = ""
+        except Exception as e:
+            date = ""
+
+        return date
 
     def parseOrgaoJulgador(self, text):
         text = text.replace('&nbsp', '').strip()
