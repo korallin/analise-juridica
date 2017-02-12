@@ -35,7 +35,8 @@ for coll in [acordaos, decisoes_monocraticas]:
                                     "citacoesDec": list(citacoesDec)
                                 }
                             })
-        except:
+        except Exception as e:
+            print e
             from IPython import embed; embed()
 
 
