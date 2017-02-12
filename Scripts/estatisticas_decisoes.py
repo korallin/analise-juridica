@@ -55,20 +55,27 @@ cursor = coll_a.find({})
 total_a = cursor.count()
 
 citac_a = np.zeros(total_a)
+citac_dec = np.zeros(total_a)
 simil_a = np.zeros(total_a)
 legis_a = np.zeros(total_a)
 decision_types_a = defaultdict(int)
 org_julg = defaultdict(lambda: defaultdict(int))
 
 citados_a = defaultdict(int)
+citados_dec = defaultdict(int)
 for i, document in enumerate(cursor):
     simil_a[i] += len(document['similares'])
     citac_a[i] += len(document['citacoes'])
+    citac_dec[i] += len(document['citacoesDec'])
+
     legis_a[i] += len(document['legislacao'])
 
     decision_types_a[document['acordaoType']] += 1
     for acordaoId in document['citacoes']:
         citados_a[acordaoId] += 1
+
+    for acordaoId in document['citacoesDec']:
+        citados_dec[acordaoId] += 1
 
     # tipo de corte
     org_julg[document['orgaoJulg']][document['acordaoType']] += 1
@@ -76,6 +83,7 @@ for i, document in enumerate(cursor):
 
 # imprimir tabela de dados relacionados a dicionarios
 sorted(citados_a.items(), key=operator.itemgetter(1))[-40:]
+print sorted(citados_dec.items(), key=operator.itemgetter(1))[-40:]
 sorted(decision_types_a.items(), key=operator.itemgetter(1))
 
 # ver quais dos tipos aqui estão previstos nos relatórios
@@ -86,14 +94,20 @@ for key, dict_vals in org_julg.iteritems():
 
 
 # número de acórdãos sem citações, legislação e similares
-print "Número de acórdãos sem legislação citações e similares: ", len(filter(lambda (x, y, z): x == y == z == 0, zip(simil_a, citac_a, legis_a)))
+print "Número de acórdãos sem legislação, citações e similares: ", len(filter(lambda (x, y, z): x == y == z == 0, zip(simil_a, citac_a, legis_a)))
 print "Número de acórdãos com apenas legislação ou citações ou similares: ", len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_a, citac_a, legis_a)))
 print "Número de acórdãos com legislação, citações e similares: ", len(filter(lambda (x, y, z): (x != 0) and (y != 0) and (x != 0), zip(simil_a, citac_a, legis_a)))
 # número de acórdãos em que pelo menos dois tipos de dados são não zeros
 print "Número de acórdãos em que apenas um dos tipos de dados (legislação, citações e similares) não está presente: ", total_a - len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_a, citac_a, legis_a)))
 
+print "Número de acórdãos sem legislação, citações de DECISAO e similares: ", len(filter(lambda (x, y, z): x == y == z == 0, zip(simil_a, citac_dec, legis_a)))
+print "Número de acórdãos com apenas legislação ou citações de DECISAO ou similares: ", len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_a, citac_dec, legis_a)))
+print "Número de acórdãos com legislação, citações de DECISAO e similares: ", len(filter(lambda (x, y, z): (x != 0) and (y != 0) and (x != 0), zip(simil_a, citac_dec, legis_a)))
+# número de acórdãos em que pelo menos dois tipos de dados são não zeros
+print "Número de acórdãos em que apenas um dos tipos de dados (legislação, citações de DECISAO e similares) não está presente: ", total_a - len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_a, citac_dec, legis_a)))
 
-for list_t, info_t in zip([simil_a, citac_a, legis_a], ['Similares', 'Citacoes', 'Legislacao']):
+
+for list_t, info_t in zip([simil_a, citac_a, citac_dec, legis_a], ['Similares', 'Citacoes', 'Citacoes DEC', 'Legislacao']):
     mean = np.mean(list_t)
     std = np.std(list_t)
     median = np.median(list_t)
@@ -112,22 +126,25 @@ total_dc = cursor.count()
 
 simil_dc = np.zeros(total_dc)
 legis_dc = np.zeros(total_dc)
+citac_dc = np.zeros(total_dc)
 
 decision_types_dc = defaultdict(int)
 for i, document in enumerate(cursor):
     simil_dc[i] += len(document['similares'])
     legis_dc[i] += len(document['legislacao'])
+    citac_dc[i] += len(document['citacoesDec'])
 
     decision_types_dc[document['acordaoType']] += 1
 
-sorted(decision_types_dc.items(), key=operator.itemgetter(1))
+print sorted(decision_types_dc.items(), key=operator.itemgetter(1))
 
 # número de acórdãos sem legislação e similares
-print "Número de dec. monocs. sem legislação e similares: ", len(filter(lambda (x, z): x == z == 0, zip(simil_dc,  legis_dc)))
-print "Número de dec. monocs. apenas com legislação ou similares: ", len(filter(lambda (x, z): (x != 0) or (z != 0), zip(simil_dc,  legis_dc)))
-print "Número de dec. monocs. com legislação e similares: ", len(filter(lambda (x, z): (x != 0) and (z != 0), zip(simil_dc,  legis_dc)))
+print "Número de dec. monocs. sem legislação, citacoes de DECISÃO e similares: ", len(filter(lambda (x, y, z): x == z == y == 0, zip(simil_dc,  citac_dc, legis_dc)))
+print "Número de dec. monocs. apenas com legislação ou citacoes de DECISÃO ou similares: ", len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_dc, citac_dc, legis_dc)))
+print "Número de dec. monocs. com legislação citacoes de DECISÃO e similares: ", len(filter(lambda (x, y, z): (x != 0) and (y != 0) and (x != 0), zip(simil_dc, citac_dc, legis_dc)))
+print "Número de acórdãos em que apenas um dos tipos de dados (legislação, citações de DECISAO e similares) não está presente: ", total_dc - len(filter(lambda (x, y, z): (x == y == 0) or (y == z == 0) or (x == z == 0), zip(simil_dc, citac_dc, legis_dc)))
 
-for list_t, info_t in zip([simil_dc, legis_dc], ['Similares', 'Legislacao']):
+for list_t, info_t in zip([simil_dc, citac_dc, legis_dc], ['Similares', 'Citacoes Dec', 'Legislacao']):
     mean = np.mean(list_t)
     std = np.std(list_t)
     median = np.median(list_t)
