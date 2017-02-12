@@ -27,7 +27,7 @@ for coll in [acordaos, decisoes_monocraticas]:
                 classes_processuais_list = classes_processuais_str.split('-')[::-1]
 
                 decisao_codigo = " ".join(classes_processuais_list) + " " + acao_originaria + " " + decisao_numero
-                citacoesDec.append(decisao_codigo.strip())
+                citacoesDec.add(decisao_codigo.strip())
 
             db.coll.update_one({ "_id" : doc['_id']},
                             {
