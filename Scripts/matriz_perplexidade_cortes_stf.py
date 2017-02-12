@@ -4,6 +4,8 @@
 from pymongo import MongoClient
 from collections import defaultdict
 
+# ver onde encaixar ED (embargo declaratório) e EDv (embargo de divergência)
+
 # {
 #     "AC": "AÇÃO CAUTELAR",
 #     "ACO": "AÇÃO CÍVEL ORDINÁRIA",
