@@ -14,7 +14,7 @@ decisoes_monocraticas = db.decisoes_monocraticas
 for coll in [acordaos, decisoes_monocraticas]:
     for doc in coll.find({}):
         try:
-            citacoes = re.findall(r"([A-Z][a-zA-Z]+)\s+([nN].\s+)?([0-9]+((\.[0-9]{3})+)?)((\/[A-Z]+)((\s+|\-|–)[A-Z][a-zA-Z]+(((\-|–)[A-Z][a-zA-Z]+)+)?)?|((\-|–|\s+)[A-Z][a-zA-Z]+(((\-|–)[A-Z][a-zA-Z]+)+)?))", doc['decisao'])
+            citacoes = re.findall(r"([A-Z][a-zA-Z]+)\s+([nN].\s+)?([0-9]+((\.[0-9]{3})+)?)((\/\s*[A-Z]+)((\s+|\-|–)[A-Z][a-zA-Z]+(((\-|–)[A-Z][a-zA-Z]+)+)?)?|((\-|–|\s+)[A-Z][a-zA-Z]+(((\-|–)[A-Z][a-zA-Z]+)+)?))", doc['decisao'])
 
             citacoesDec = set()
             for citacao in citacoes:
