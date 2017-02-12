@@ -63,8 +63,8 @@ org_julg = defaultdict(lambda: defaultdict(int))
 
 citados_a = defaultdict(int)
 citados_dec = defaultdict(int)
-try:
-    for i, document in enumerate(cursor):
+for i, document in enumerate(cursor):
+    try:
         simil_a[i] += len(document['similares'])
         citac_a[i] += len(document['citacoes'])
         citac_dec[i] += len(document['citacoesDec'])
@@ -80,8 +80,8 @@ try:
 
         # tipo de corte
         org_julg[document['orgaoJulg']][document['acordaoType']] += 1
-except:
-    from IPython import embed; embed()
+    except:
+        from IPython import embed; embed()
 
 
 # imprimir tabela de dados relacionados a dicionarios
