@@ -63,22 +63,25 @@ org_julg = defaultdict(lambda: defaultdict(int))
 
 citados_a = defaultdict(int)
 citados_dec = defaultdict(int)
-for i, document in enumerate(cursor):
-    simil_a[i] += len(document['similares'])
-    citac_a[i] += len(document['citacoes'])
-    citac_dec[i] += len(document['citacoesDec'])
+try:
+    for i, document in enumerate(cursor):
+        simil_a[i] += len(document['similares'])
+        citac_a[i] += len(document['citacoes'])
+        citac_dec[i] += len(document['citacoesDec'])
 
-    legis_a[i] += len(document['legislacao'])
+        legis_a[i] += len(document['legislacao'])
 
-    decision_types_a[document['acordaoType']] += 1
-    for acordaoId in document['citacoes']:
-        citados_a[acordaoId] += 1
+        decision_types_a[document['acordaoType']] += 1
+        for acordaoId in document['citacoes']:
+            citados_a[acordaoId] += 1
 
-    for acordaoId in document['citacoesDec']:
-        citados_dec[acordaoId] += 1
+        for acordaoId in document['citacoesDec']:
+            citados_dec[acordaoId] += 1
 
-    # tipo de corte
-    org_julg[document['orgaoJulg']][document['acordaoType']] += 1
+        # tipo de corte
+        org_julg[document['orgaoJulg']][document['acordaoType']] += 1
+except:
+    from IPython import embed; embed()
 
 
 # imprimir tabela de dados relacionados a dicionarios
