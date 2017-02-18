@@ -27,6 +27,7 @@ from collections import defaultdict
 #     "CA": "CONFLITO DE ATRIBUIÇÕES",
 #     "CC": "CONFLITO DE COMPETÊNCIA",
 #     "CJ": "CONFLITO DE JURISDIÇÃO",
+#     "ED": "EMBARGO DECLARATÓRIO",
 #     "EV": "EXCEÇÃO DA VERDADE",
 #     "EI": "EXCEÇÃO DE INCOMPETÊNCIA",
 #     "EL": "EXCEÇÃO DE LITISPENDÊNCIA",
