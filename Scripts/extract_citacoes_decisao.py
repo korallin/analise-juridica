@@ -82,7 +82,7 @@ def get_acao_originaria(acao_originaria):
         # checa se acao_originaria é uma sigla e se ela possui
         # correspondência idêntica nas chaves do dicionário
         for value in classes_processuais_dict.values():
-            if re.search(value.split(" ")[-1], acao_originaria):
+            if re.search(value.split(" ")[-1], acao_originaria, re.UNICODE):
                 existe_ac_orig = True
                 break
 
@@ -90,11 +90,11 @@ def get_acao_originaria(acao_originaria):
         # ente que não é classe processual
         if not existe_ac_orig:
             for word in words_black_list_regex:
-                if re.search(word, acao_originaria):
+                if re.search(word, acao_originaria, re.UNICODE):
                     return ""
 
             for word in words_black_list_absolut:
-                if re.search(acao_originaria, word):
+                if re.search(acao_originaria, word, re.UNICODE):
                     return ""
 
     if existe_ac_orig is False:
