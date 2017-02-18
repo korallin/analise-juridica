@@ -3,7 +3,7 @@
 
 import json
 import re
-from collections import defaultdict
+from collections import defaultdict, OrderedDict
 import pymongo
 from pymongo import MongoClient
 client = MongoClient()
@@ -140,5 +140,6 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
         if contador % 10000 == 0:
             print contador
 
+
 with open("decisoes_extracao.json", 'w') as outfile:
-    json.dump(acao_orig_dict, outfile)
+    json.dump(OrderedDict(acao_orig_dict, reverse=True), outfile)
