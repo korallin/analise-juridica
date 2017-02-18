@@ -140,6 +140,6 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
             print contador
 
 f = open("decisoes_extracao.log.", 'w')
-fwrite(len(acao_orig_dict))
+f.write(len(acao_orig_dict))
 f.write(acao_orig_dict)
 f.close()
