@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from collections import defaultdict
+import json
 import re
+from collections import defaultdict
 import pymongo
 from pymongo import MongoClient
 client = MongoClient()
@@ -139,7 +140,5 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
         if contador % 10000 == 0:
             print contador
 
-f = open("decisoes_extracao.log.", 'w')
-f.write(len(acao_orig_dict))
-f.write(acao_orig_dict)
-f.close()
+with open("decisoes_extracao.json", 'w') as outfile:
+    json.dump(data, outfile)
