@@ -85,9 +85,9 @@ for i, document in enumerate(cursor):
 
 
 # imprimir tabela de dados relacionados a dicionarios
-sorted(citados_a.items(), key=operator.itemgetter(1))[-40:]
-print sorted(citados_dec.items(), key=operator.itemgetter(1))[-40:]
-sorted(decision_types_a.items(), key=operator.itemgetter(1))
+print sorted(citados_a.items(), key=operator.itemgetter(1), reverse=True)[-40:]
+print sorted(citados_dec.items(), key=operator.itemgetter(1), reverse=True)[-40:]
+print sorted(decision_types_a.items(), key=operator.itemgetter(1), reverse=True)
 
 # ver quais dos tipos aqui estão previstos nos relatórios
 for key, dict_vals in org_julg.iteritems():
@@ -139,7 +139,7 @@ for i, document in enumerate(cursor):
 
     decision_types_dc[document['acordaoType']] += 1
 
-print sorted(decision_types_dc.items(), key=operator.itemgetter(1))
+print sorted(decision_types_dc.items(), key=operator.itemgetter(1), reverse=True)
 
 # número de acórdãos sem legislação e similares
 print "Número de dec. monocs. sem legislação, citacoes de DECISÃO e similares: ", len(filter(lambda (x, y, z): x == z == y == 0, zip(simil_dc,  citac_dc, legis_dc)))
