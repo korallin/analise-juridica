@@ -141,4 +141,4 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
             print contador
 
 with open("decisoes_extracao.json", 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(acao_orig_dict, outfile)
