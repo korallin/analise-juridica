@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+from operator import itemgetter
 from collections import defaultdict, OrderedDict
 import pymongo
 from pymongo import MongoClient
@@ -141,5 +142,6 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
 
 
 with open("decisoes_extracao.txt", 'w') as outfile:
-    for key, value in sorted(acao_orig_dict, key=acao_orig_dict.get reverse=True):
+    for key in sorted(acao_orig_dict, key=itemgetter(1), reverse=True):
         outfile.write("{}: {}\n".format(key, acao_orig_dict[key]))
+
