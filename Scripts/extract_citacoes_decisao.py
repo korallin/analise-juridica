@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import json
 import re
 from collections import defaultdict, OrderedDict
 import pymongo
@@ -141,5 +140,6 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
             print contador
 
 
-with open("decisoes_extracao.json", 'w') as outfile:
-    json.dump(OrderedDict(acao_orig_dict, reverse=True), outfile)
+with open("decisoes_extracao.txt", 'w') as outfile:
+    for key, value in sorted(acao_orig_dict, key=acao_orig_dict.get reverse=True):
+        outfile.write("{}: {}\n".format(key, acao_orig_dict[key]))
