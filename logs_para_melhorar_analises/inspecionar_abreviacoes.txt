@@ -1,0 +1,40 @@
+[LOOK ABBRV] A abreviação 00733-2009-058-19-00-4 não possui ponto
+[LOOK ABBRV] A abreviação 00748-2009-058-19-00-2 não possui ponto
+[LOOK ABBRV] A abreviação AUTORA não possui ponto
+[LOOK ABBRV] A abreviação AUTOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação AUTORAS não possui ponto
+[LOOK ABBRV] A abreviação AUTORES não possui ponto
+[LOOK ABBRV] A abreviação AUTOR não possui ponto
+[LOOK ABBRV] A abreviação COATOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação COATORES não possui ponto
+[LOOK ABBRV] A abreviação COATOR não possui ponto
+[LOOK ABBRV] A abreviação CURADOR(A/S)(ES) não possui ponto
+[LOOK ABBRV] A abreviação CURADOR não possui ponto
+[LOOK ABBRV] A abreviação DOS ÍNDIOS (PROCESSOS NºS 00343-2009-063-19-00-0 não possui ponto
+[LOOK ABBRV] A abreviação DP não possui ponto
+[LOOK ABBRV] A abreviação DPU não possui ponto
+[LOOK ABBRV] A abreviação INTERPDA não possui ponto
+[LOOK ABBRV] A abreviação INTERPDO não possui ponto
+[LOOK ABBRV] A abreviação INTERPTE não possui ponto
+[LOOK ABBRV] A abreviação LITISDENS não possui ponto
+[LOOK ABBRV] A abreviação  não possui ponto
+[LOOK ABBRV] A abreviação ) não possui ponto
+[LOOK ABBRV] A abreviação OPOENTE não possui ponto
+[LOOK ABBRV] A abreviação OPOSTO não possui ponto
+[LOOK ABBRV] A abreviação PARTE PAS não possui ponto
+[LOOK ABBRV] A abreviação PARTE(S) não possui ponto
+[LOOK ABBRV] A abreviação POLO PAS não possui ponto
+[LOOK ABBRV] A abreviação REDATORA PARA O ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação REDATOR PARA O ACÓRDÃO não possui ponto
+[LOOK ABBRV] A abreviação RELATORA não possui ponto
+[LOOK ABBRV] A abreviação RELATOR não possui ponto
+[LOOK ABBRV] A abreviação REMETENTE não possui ponto
+[LOOK ABBRV] A abreviação REMETENTE(S) não possui ponto
+[LOOK ABBRV] A abreviação RÉ não possui ponto
+[LOOK ABBRV] A abreviação RÉS não possui ponto
+[LOOK ABBRV] A abreviação REU(É)(S) não possui ponto
+[LOOK ABBRV] A abreviação RÉU(É)(S) não possui ponto
+[LOOK ABBRV] A abreviação REU não possui ponto
+[LOOK ABBRV] A abreviação RÉUS não possui ponto
+[LOOK ABBRV] A abreviação REVISORA não possui ponto
+[LOOK ABBRV] A abreviação REVISOR não possui ponto
