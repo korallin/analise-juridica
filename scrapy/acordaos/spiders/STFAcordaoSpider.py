@@ -110,6 +110,7 @@ class STFAcordaoSpider(Spider):
         law_fields_dict['partes'] = parser.parsePartes(law_fields_dict['partesRaw'])
         law_fields_dict['tags']   = parser.parseTags(law_fields_dict['tagsRaw'])
         law_fields_dict['quotes'] = parser.parseAcordaosQuotes(law_fields_dict['obs'])
+        law_fields_dict['decision_quotes'] = parser.parseAcordaosDecisionQuotes(law_fields_dict['ementa'])
         law_fields_dict['laws']   = parser.parseLaws(law_fields_dict['lawsRaw'])
         law_fields_dict['similarAcordaos'] = parser.parseSimilarAcordaos(law_fields_dict['similarRaw'])
         law_fields_dict['dataPublic']  = parser.parseDataPublicacao(law_fields_dict['publicacao'])
@@ -148,7 +149,8 @@ class STFAcordaoSpider(Spider):
             decisao     = parser.removeExtraSpaces(law_fields_dict['decision']),
 
             observacao  = parser.removeExtraSpaces(law_fields_dict['obs']),
-            citacoes    = law_fields_dict['quotes'],
+            citacoesObs = law_fields_dict['quotes'],
+            citacoesDec = law_fields_dict['decision_quotes'],
             doutrinas   = law_fields_dict['doutrines'],
             tags        = law_fields_dict['tags'],
             tagsTexto   = law_fields_dict['tagsRaw'],
