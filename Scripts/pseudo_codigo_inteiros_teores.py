@@ -5,7 +5,11 @@ import os
 import re
 
 # O script foi criado com o propósito de remover inteiros teores baixados que possuem
-# nomes que possuem uma padrão estranho 
+# nomes que possuem uma padrão estranho
+# Incorporar este código no script de downalods de inteiros teores e dar nome parecido com
+# auditoria/checagem de inteiros teores
+
+
 path = "/home/jackson/analise-juridica/scrapy/inteiros_teores/full/*"
 files = glob.glob(path)
 

@@ -5,6 +5,8 @@ from pymongo import MongoClient
 import shutil
 import os
 
+# Script criado para verificar quais e quantos acórdãos possuem o mesmo inteiro teor
+
 dir_path = "/home/jackson/analise-juridica/scrapy/inteiros_teores/"
 dir_backup = "/home/jackson/analise-juridica/scrapy/inteiros_teores/full_backup"
 

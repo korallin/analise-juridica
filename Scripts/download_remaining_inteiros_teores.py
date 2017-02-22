@@ -8,6 +8,9 @@ import shutil
 import re
 import os
 
+# Script para baixar inteiros teores que ainda não foram baixados de acórdaõs
+# Fazer o mesmo para decisões monocráticas
+
 def download_inteiro_teor(url, dir_path):
     # a expressão regular ainda precisa melhorar
     url = re.sub(ur"([^\s%]+)([\s%.\\]|[^\W_])*", ur"\1", url)
@@ -70,21 +73,25 @@ for document in cursor:
         {
             "$set": {
                 "files": file_path
-            }
-        }
-    )
-
-cursor = coll.find(
-            {
-                "$and": [{"file_urls":{"$exists":True}}, {"files":{"$exists":True}}]
-            }
-        )
-for document in cursor:
-    coll.replace_one(
-        {"_id": document['_id']},
-        {
+            },
             "$unset": {
                 "file_urls": ""
             }
         }
     )
+
+# Pegar trecho abaixo e incorporar no bloco acima para tornar código mais eficiente
+# cursor = coll.find(
+#             {
+#                 "$and": [{"file_urls":{"$exists":True}}, {"files":{"$exists":True}}]
+#             }
+#         )
+# for document in cursor:
+#     coll.replace_one(
+#         {"_id": document['_id']},
+#         {
+#             "$unset": {
+#                 "file_urls": ""
+#             }
+#         }
+#     )

@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+
+# SCRIPT que checa diferenças entre duas bases de dados:
+# a antiga cujo nome é DJTest e a nova cujo nome é DJs
+# Serve poara verificar o impacto de determinadas mudanças
+# no script que faz o scraping dos dados
+
 import pymongo
 from pymongo import MongoClient
 client = MongoClient()

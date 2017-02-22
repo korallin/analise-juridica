@@ -4,6 +4,9 @@
 from pymongo import MongoClient
 from collections import defaultdict
 
+# Nome do script é auto explicativo
+
+
 # ver onde encaixar ED (embargo declaratório) e EDv (embargo de divergência)
 
 # {
@@ -146,6 +149,7 @@ not_fgv_dict = {
     "CA": "PROCESSOS ORDINÁRIOS",
     "CC": "PROCESSOS ORDINÁRIOS",
     "CJ": "PROCESSOS ORDINÁRIOS",
+    "ED": "PROCESSOS RECURSAIS",
     "EV": "PROCESSOS ORDINÁRIOS",
     "EI": "PROCESSOS ORDINÁRIOS",
     "EL": "PROCESSOS ORDINÁRIOS",
@@ -185,7 +189,7 @@ not_fgv_dict = {
 
 
 client = MongoClient('mongodb://localhost:27017')
-db = client['DJTest']
+db = client['DJs']
 
 coll_a = db['acordaos']
 cursor = coll_a.find({})
@@ -196,6 +200,9 @@ cortes_not_fgv_acordaos = defaultdict(lambda: defaultdict(int))
 
 cortes_sum_fgv = defaultdict(int)
 cortes_sum_not_fgv = defaultdict(int)
+
+matriz_file = open("matriz_perplexidade.txt", 'w')
+
 for doc in cursor:
     # pegar similares se houver
     # lista de similares cuja ação é primária
@@ -209,20 +216,20 @@ for doc in cursor:
                 cortes_not_fgv_acordaos[not_fgv_dict[dec_type]][not_fgv_dict[doc['acordaoType']]] += 1
 
 cortes = cortes_fgv_acordaos.keys()
-print "                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2])
+matriz_file.write("                     {} | {} | {}\n".format(cortes[0], cortes[1], cortes[2]))
 for corte_1 in cortes:
-    print corte_1,
+    matriz_file.write(corte_1)
     for corte_2 in cortes:
-        print "| {0:g} ({1:.2f}%)".format(cortes_fgv_acordaos[corte_1][corte_2], 100*(cortes_fgv_acordaos[corte_1][corte_2]/float(cortes_sum_fgv[corte_1]))),
-    print " "
+        matriz_file.write("| {0:g} ({1:.2f}%)".format(cortes_fgv_acordaos[corte_1][corte_2], 100*(cortes_fgv_acordaos[corte_1][corte_2]/float(cortes_sum_fgv[corte_1]))))
+    matriz_file.write("\n")
 
 cortes = cortes_not_fgv_acordaos.keys()
-print "                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2])
+matriz_file.write("                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2]))
 for corte_1 in cortes:
-    print corte_1,
+    matriz_file.write(corte_1)
     for corte_2 in cortes:
-        print "| {0:g} ({1:.2f}%)".format(cortes_not_fgv_acordaos[corte_1][corte_2], 100*(cortes_not_fgv_acordaos[corte_1][corte_2]/float(cortes_sum_not_fgv[corte_1]))),
-    print " "
+        matriz_file.write("| {0:g} ({1:.2f}%)".format(cortes_not_fgv_acordaos[corte_1][corte_2], 100*(cortes_not_fgv_acordaos[corte_1][corte_2]/float(cortes_sum_not_fgv[corte_1]))))
+    matriz_file.write("\n")
 
 
 coll_dc = db['decisoes_monocraticas']
@@ -247,17 +254,17 @@ for doc in cursor:
                 cortes_not_fgv_dec_monoc[not_fgv_dict[dec_type]][not_fgv_dict[doc['acordaoType']]] += 1
 
 cortes = cortes_fgv_dec_monoc.keys()
-print "                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2])
+matriz_file.write("                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2]))
 for corte_1 in cortes:
-    print corte_1,
+    matriz_file.write(corte_1)
     for corte_2 in cortes:
-        print "| {0:g} ({1:.2f}%)".format(cortes_fgv_dec_monoc[corte_1][corte_2], 100*(cortes_fgv_dec_monoc[corte_1][corte_2]/float(cortes_sum_fgv[corte_1]))),
-    print " "
+        matriz_file.write("| {0:g} ({1:.2f}%)".format(cortes_fgv_dec_monoc[corte_1][corte_2], 100*(cortes_fgv_dec_monoc[corte_1][corte_2]/float(cortes_sum_fgv[corte_1]))))
+    matriz_file.write("\n")
 
 cortes = cortes_not_fgv_dec_monoc.keys()
-print "                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2])
+matriz_file.write("                     {} | {} | {}".format(cortes[0], cortes[1], cortes[2]))
 for corte_1 in cortes:
-    print corte_1,
+    matriz_file.write(corte_1)
     for corte_2 in cortes:
-        print "| {0:g} ({1:.2f}%)".format(cortes_not_fgv_dec_monoc[corte_1][corte_2], 100*(cortes_not_fgv_dec_monoc[corte_1][corte_2]/float(cortes_sum_not_fgv[corte_1]))),
-    print " "
+        matriz_file.write("| {0:g} ({1:.2f}%)".format(cortes_not_fgv_dec_monoc[corte_1][corte_2], 100*(cortes_not_fgv_dec_monoc[corte_1][corte_2]/float(cortes_sum_not_fgv[corte_1]))))
+    matriz_file.write("\n")

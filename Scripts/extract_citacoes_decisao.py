@@ -8,6 +8,11 @@ import pymongo
 from pymongo import MongoClient
 client = MongoClient()
 
+# Script criado para extrair citações a decisões presentes nas seções
+# decisão e ementa de decisões monocráticas e acórdãos respectivamente
+# É criado ao final arquivo com palavras imprevistas e sua frequência
+
+
 classes_processuais_dict = {
     u"AC": u"AÇÃO CAUTELAR",
     u"ACO": u"AÇÃO CÍVEL ORDINÁRIA",

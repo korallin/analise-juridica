@@ -3,6 +3,12 @@
 
 # import subprocess
 
+
+# Script criado para fazer estatísticas de atributos que possuem listas como leis,
+# citações da seção de observações e de decisões e de similares
+# Ao final são plotados gráficos com as estatísticas
+# É necessário haver um diretório chamado graficos para armazenar os gráficos gerados nele
+
 # quando der algum problema na matplotlib relacionado a 'DISPLAY is undefined' executar:
 import matplotlib
 matplotlib.use('Agg')
