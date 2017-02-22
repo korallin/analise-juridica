@@ -14,8 +14,8 @@ for decisao in $decisoes
             anoI=$i$secondDay
             anoF=$J$firstDay
             if ((J > 2016)); then
-                J="2016"
-                firstDay="0630"
+                J="2017"
+                # firstDay="0101"
                 anoF=$J$firstDay
             fi;
             acordaoLogFileName=$decisao"_$i-$((i+1)).log"
@@ -23,3 +23,28 @@ for decisao in $decisoes
             wait ${!}
     done
 done
+
+if [ "$?" -ne "0" ]; then
+    echo "Erro na execução do scraper" | mail -s "Erro na execução do scraper" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
+    exit 1
+fi
+
+
+# - Envia e-mail quando scraper acabar
+echo "Scraping realizado com sucesso!" | mail -s "Scraping realizado com sucesso!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
+
+python ../Scripts/create_citations_graphs.py
+wait ${!}
+echo "return status is $?"
+python ../Scripts/download_remaining_inteiros_teores.py
+wait ${!}
+echo "return status is $?"
+python ../Scripts/pseudo_codigo_inteiros_teores.py
+wait ${!}
+echo "return status is $?"
+python ../Scripts/matriz_perplexidade_cortes_stf.py
+wait ${!}
+echo "return status is $?"
+
+# - Envia e-mail quando script inteiro acabar
+echo 'Scripts de processamento realizados.\nConferir resultado.' | mail -s "Scripts de processamento realizados" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
