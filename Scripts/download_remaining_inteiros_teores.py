@@ -54,7 +54,7 @@ client = MongoClient('mongodb://localhost:27017')
 db = client['DJs']
 coll = db['acordaos']
 
-dir_path = '/home/jackson/analise-juridica/scrapy/inteiros_teores/'
+dir_path = os.path.dirname(os.getcwd()) + '/scrapy/inteiros_teores/'
 
 cursor = coll.find({"files":{"$exists":True}})
 print "There are {} inteiros teores".format(cursor.count())
