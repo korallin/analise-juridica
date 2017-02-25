@@ -16,7 +16,7 @@ for coll, coll_abrev in zip([acordaos, decisoes_monocraticas], ["A", "DM"]):
     for doc in coll.find({}):
         citacao_doc = { "decisaoId": doc['acordaoId'],              # acórdão que cita
                         "decisoesCitadasObs": doc['citacoesObs'],   # acórdãos citados na seção observação
-                        "acordaosCitadosDec": doc['citacoes'],      # acórdãos citados na seção decisão
+                        "acordaosCitadosDec": doc['citacoesDec'],      # acórdãos citados na seção decisão
                         "decisaoFonteDecTipo": coll_abrev,          # tipo de decisão de origem da decisão citante
                                                                     # (A - acórdão ou DM - decisão monocrática)
                         "dataPublic": doc['dataPublic']             # Foi adotada a data de publicação de acórdão
