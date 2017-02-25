@@ -46,6 +46,16 @@ class STFDecMonocSpider(Spider):
         for p in range(self.page, npagesFound+1):
             yield Request(self.urlPage(p), callback = self.parsePage)
 
+
+    def getAcompProcBody(self, response):
+        sel = Selector(response)
+        item = response.meta['item']
+        acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[2]/span/text()'
+        item['acompanhamentoProcessual'] = sel.xpath(acom_proc_path).extract()
+
+        return item
+
+
     def parsePage(self, response):
         unicode(response.body.decode(response.encoding)).encode('utf-8')
         sel = Selector(response)
@@ -66,7 +76,11 @@ class STFDecMonocSpider(Spider):
             logging.warning(u"Acórdão possui menos de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
 
         for doc in corrected_body:
-            yield self.parseDoc(doc, response)
+            item = self.parseDoc(doc, response)
+            acomp_proc_url = 'http://www.stf.jus.br/portal/' + doc.xpath('ul[@class="abas"]/li/a/@href').extract()[0][3:]
+
+            yield Request(acomp_proc_url, callback = self.getAcompProcBody, meta={'item': item})
+
 
     def parseDoc(self, doc, response):
         parser = self.parser
@@ -120,12 +134,14 @@ class STFDecMonocSpider(Spider):
 
         law_fields_dict['partes'] = parser.parsePartes(law_fields_dict['partesRaw'])
         law_fields_dict['quotes'] = parser.parseAcordaosQuotes(law_fields_dict['obs'])
+        law_fields_dict['decision_quotes'] = parser.parseAcordaosDecisionQuotes(law_fields_dict['decision'])
         law_fields_dict['laws']   = parser.parseLaws(law_fields_dict['lawsRaw'])
         law_fields_dict['dataPublic']  = parser.parseDataPublicacao(law_fields_dict['publicacao'])
 
         law_fields_dict['similarDecisoes'] = parser.parseSimilarDecisoes(law_fields_dict['similarRaw'])
 
         item = self.buildItem(law_fields_dict)
+
         return item
 
 
@@ -152,7 +168,8 @@ class STFDecMonocSpider(Spider):
             decisao     = parser.removeExtraSpaces(law_fields_dict['decision']),
 
             observacao  = parser.removeExtraSpaces(law_fields_dict['obs']),
-            citacoes    = law_fields_dict['quotes'],
+            citacoesObs = law_fields_dict['quotes'],
+            citacoesDec = law_fields_dict['decision_quotes'],
 
             similaresTexto = re.sub('[\r\t ]+', ' ', law_fields_dict['similarRaw']).strip(),
             similares   = law_fields_dict['similarDecisoes'],

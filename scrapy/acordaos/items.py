@@ -20,6 +20,7 @@ class DecisaoItem(Item):
     tribunal    = Field()
     index       = Field()
     legislacao  = Field()
+    acompanhamentoProcessual = Field()
     legislacaoTexto  = Field()
     citacoesObs    = Field()
     citacoesDec    = Field()

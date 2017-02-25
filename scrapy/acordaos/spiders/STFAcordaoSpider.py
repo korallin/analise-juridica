@@ -50,6 +50,15 @@ class STFAcordaoSpider(Spider):
             yield Request(self.urlPage(p), callback = self.parsePage)
 
 
+    def getAcompProcBody(self, response):
+        sel = Selector(response)
+        item = response.meta['item']
+        acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[2]/span/text()'
+        item['acompanhamentoProcessual'] = sel.xpath(acom_proc_path).extract()
+
+        return item
+
+
     def parsePage(self, response):
         unicode(response.body.decode(response.encoding)).encode('utf-8')
         sel = Selector(response)
@@ -66,7 +75,11 @@ class STFAcordaoSpider(Spider):
             logging.warning(u"Acórdão possui menos de 10 documentos na página {}".format(unicode(response.url, 'utf-8')))
 
         for doc in body:
-            yield self.parseDoc(doc, response)
+            item = self.parseDoc(doc, response)
+            acomp_proc_url = 'http://www.stf.jus.br/portal/' + doc.xpath('ul[@class="abas"]/li/a/@href').extract()[0][3:]
+
+            yield Request(acomp_proc_url, callback = self.getAcompProcBody, meta={'item': item})
+
 
     def parseDoc(self, doc, response):
         parser = self.parser
