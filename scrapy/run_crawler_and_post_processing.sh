@@ -49,7 +49,7 @@ python ../Scripts/matriz_perplexidade_cortes_stf.py
 echo "return status is $?"
 wait ${!}
 
-mv abreviacoes_nao_previstas.txt inspecionar_abreviacoes.txt ../logs_para_melhorar_analises
+mv abreviacoes_nao_previstas.txt inspecionar_abreviacoes.txt matriz_perplexidade.txt ../logs_para_melhorar_analises
 echo "return status is $?"
 wait ${!}
 
