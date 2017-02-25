@@ -27,11 +27,14 @@ done
 if [ "$?" -ne "0" ]; then
     echo "Erro na execução do scraper" | mail -s "Erro na execução do scraper" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
     exit 1
+else
+    # - Envia e-mail quando scraper acabar
+    echo "Scraping realizado com sucesso!" | mail -s "Scraping realizado com sucesso!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
 fi
 
-
-# - Envia e-mail quando scraper acabar
-echo "Scraping realizado com sucesso!" | mail -s "Scraping realizado com sucesso!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
+sh get_new_abbreviations.sh
+echo "return status is $?"
+wait ${!}
 
 python ../Scripts/create_citations_graphs.py
 echo "return status is $?"
@@ -43,6 +46,10 @@ python ../Scripts/remove_inteiros_teores_estranhos.py
 echo "return status is $?"
 wait ${!}
 python ../Scripts/matriz_perplexidade_cortes_stf.py
+echo "return status is $?"
+wait ${!}
+
+mv abreviacoes_nao_previstas.txt inspecionar_abreviacoes.txt ../logs_para_melhorar_analises
 echo "return status is $?"
 wait ${!}
 
