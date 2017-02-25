@@ -34,17 +34,17 @@ fi
 echo "Scraping realizado com sucesso!" | mail -s "Scraping realizado com sucesso!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
 
 python ../Scripts/create_citations_graphs.py
-wait ${!}
 echo "return status is $?"
+wait ${!}
 python ../Scripts/download_remaining_inteiros_teores.py
-wait ${!}
 echo "return status is $?"
-python ../Scripts/pseudo_codigo_inteiros_teores.py
 wait ${!}
+python ../Scripts/remove_inteiros_teores_estranhos.py
 echo "return status is $?"
+wait ${!}
 python ../Scripts/matriz_perplexidade_cortes_stf.py
-wait ${!}
 echo "return status is $?"
+wait ${!}
 
 # - Envia e-mail quando script inteiro acabar
 echo 'Scripts de processamento realizados.\nConferir resultado.' | mail -s "Scripts de processamento realizados" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br
