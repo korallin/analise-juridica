@@ -69,14 +69,13 @@ class STFDecisaoParser(DecisaoParser):
     words_black_list_regex = [u'OFÍCIO', u'LEI', u'ARTIGO', u'SÚMULA', u'DJ']
     words_black_list_absolut = [u'DE', u'EM', u'MP', u'DO']
 
-    def get_acao_originaria(acao_originaria):
-        global acao_orig_dict
+    def get_acao_originaria(self, acao_originaria):
         existe_ac_orig = True
-        if acao_originaria not in classes_processuais_dict:
+        if acao_originaria not in self.classes_processuais_dict:
             existe_ac_orig = False
             # checa se acao_originaria é uma sigla e se ela possui
             # correspondência idêntica nas chaves do dicionário
-            for value in classes_processuais_dict.values():
+            for value in self.classes_processuais_dict.values():
                 if re.search(value.split(" ")[-1], acao_originaria, re.UNICODE):
                     existe_ac_orig = True
                     break
@@ -84,16 +83,13 @@ class STFDecisaoParser(DecisaoParser):
             # verifica se possivel ação originária é na verdade um
             # ente que não é classe processual
             if not existe_ac_orig:
-                for word in words_black_list_regex:
+                for word in self.words_black_list_regex:
                     if re.search(word, acao_originaria, re.UNICODE):
                         return ""
 
-                for word in words_black_list_absolut:
+                for word in self.words_black_list_absolut:
                     if re.search(acao_originaria, word, re.UNICODE):
                         return ""
-
-        if existe_ac_orig is False:
-            acao_orig_dict[acao_originaria] += 1
 
         return acao_originaria
 
