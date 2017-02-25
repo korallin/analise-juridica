@@ -89,12 +89,14 @@ class STFDecMonocSpider(Spider):
 
         textDoc = doc.xpath('div[@class="processosJurisprudenciaAcordaos"]')
         
-        law_fields_dict['docHeader'] = textDoc.xpath('p[1]/strong/text()').extract()
+        law_fields_dict['docHeader'] = textDoc.xpath('p[1]/strong//text()').extract()
 
         law_fields_dict['acordaoId']    = parser.parseId(law_fields_dict['docHeader'][0])
         law_fields_dict['acordaoType']  = parser.parseType(law_fields_dict['acordaoId'])
-        law_fields_dict['ufShort']      = parser.parseUfShort(law_fields_dict['docHeader'][0])
-        law_fields_dict['uf']           = parser.parseUf(law_fields_dict['docHeader'][0])
+        law_fields_dict['ufShort']      = parser.parseUfShort(''.join(law_fields_dict['docHeader'][:2]))
+        law_fields_dict['uf']           = parser.parseUf(''.join(law_fields_dict['docHeader'][:2]))
+
+        dh_relator_index = 2 if textDoc.xpath('p[1]/strong/a').extract() == [] else 3
         law_fields_dict['relator']      = parser.parseRelator(law_fields_dict['docHeader'][2])
         law_fields_dict['dataJulg']     = parser.parseDataJulgamento(''.join(law_fields_dict['docHeader'][1:]))
 
