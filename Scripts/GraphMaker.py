@@ -21,81 +21,104 @@ class GraphMaker:
     def __addElemSetToDict( self, aDict, elemKey, elemValue):
         if elemKey not in aDict:
             aDict[ elemKey] = set()
-        aDict[ elemKey].add( elemValue)
+
+        aDict[elemKey].add(elemValue)
         return aDict
 
-
-    def removeInvalidAcordaosFromDicts( self, validAcordaos, quotes, quotedBy):
+    def removeInvalidAcordaosFromDicts(self, validAcordaos, quotes, quotedBy):
+        """
+            Remove do quotedBy acórdãos que não estão presentes no BD e reconstrói
+            quotes apenas com decisões citadas presentes no BD para uma determinada decisão.
+        """
+        # BEGIN PARALLELIZABLE
         for docId, quotesId in quotes.items():
             newQuotesId = set()
             for q in quotesId:
                 if q in validAcordaos:
-                    newQuotesId.add( q)
+                    newQuotesId.add(q)
                 else:
-                    quotedBy.pop(q,0)
-            quotes[ docId] = newQuotesId
-        return [quotes, quotedBy]
+                    quotedBy.pop(q, 0)
+
+            quotes[docId] = newQuotesId
         
-    def buildDicts( self, query):
+        # END PARALLELIZABLE
+        return [quotes, quotedBy]
+
+
+    def buildDicts(self, query):
         acordaos = {}
         quotes = {}
         quotedBy = {}
         similars = {}
+
         print "building map"
-        docsFound = self.collectionIn.find( query, no_cursor_timeout=True)
+
+        docsFound = self.collectionIn.find(query, no_cursor_timeout=True)
         nDocs = docsFound.count()
         self.onePercent = nDocs/100 
         self.count = self.progress = 0
+
+        # BEGIN PARALLELIZABLE -> generator
         for doc in docsFound:
             docId = doc['acordaoId']
             for quotedId in doc['citacoes']:
-                queryWithId = query.copy()
-                queryWithId['acordaoId'] = quotedId
-       #         if self.collectionIn.find_one( queryWithId):
-                quotes = self.__addElemSetToDict( quotes, docId, quotedId)
-                quotedBy = self.__addElemSetToDict( quotedBy, quotedId, docId)
+                # queryWithId = query.copy()
+                # queryWithId['acordaoId'] = quotedId
+                # if self.collectionIn.find_one( queryWithId):
+                quotes = self.__addElemSetToDict(quotes, docId, quotedId)
+                quotedBy = self.__addElemSetToDict(quotedBy, quotedId, docId)
+
+            # similares funcionam como um grafo não dirigido
             for similar in doc['similares']:
                 similarId = similar['acordaoId']
-                similars = self.__addElemSetToDict( similars, similarId, docId)
-                similars = self.__addElemSetToDict( similars, docId, similarId)
-                acordaos[ similarId] = Acordao( similarId, doc['tribunal'], similar['relator'], True)
-            acordaos[ docId] = Acordao( docId, doc['tribunal'], doc['relator'], False)
-            self.__printProgress()
+                similars = self.__addElemSetToDict(similars, similarId, docId)
+                similars = self.__addElemSetToDict(similars, docId, similarId)
+
+                # DECISÃO MONOCRÁTICA DÁ PAU NAS 2 LINHAS ABAIXO
+                # Também é necessário checar se acórdão já existe
+                acordaos[similarId] = Acordao(similarId, doc['tribunal'], similar['relator'], True)
+
+            acordaos[docId] = Acordao(docId, doc['tribunal'], doc['relator'], False)
+            self.__printProgress() # esta linha não é facilmente paralelizável (precisa de exclusão mútua)
+
+        # END PARALLELIZABLE
+
         return [acordaos, quotes, quotedBy, similars]
 
     def insertNodes( self, acordaos, quotes, quotedBy, similars, pageRanks):
         nDocs = len(acordaos)
-        self.onePercent = nDocs/100 
+        self.onePercent = nDocs/100
         self.count = self.progress = 0
         insertStep = nDocs
         if nDocs > 10000:
             insertStep = 10000
         print "n acordaos %s to be inserted" % nDocs
-        i = 0 
+        i = 0
         docs2Insert = []
         for docId, doc in acordaos.items():
-            docQuotedBy = list( quotedBy.get( docId, set()))
-            docQuotes = list( quotes.get( docId, set()))
-            docSimilars = list( similars.get( docId, set()))
-            docPageRank = float( pageRanks.get( docId, 0.0))
-            docs2Insert.append (
-                      { 'acordaoId': docId
-                        ,'citacoes' : docQuotes
-                        ,'citadoPor': docQuotedBy
-                        ,'similares': docSimilars
-                        ,'relator':  doc.getRelator()
-                        ,'tribunal': doc.getTribunal()
-                        ,'pageRank': docPageRank
-                        ,'virtual': doc.getVirtual()
+            docQuotedBy = list(quotedBy.get(docId, set()))
+            docQuotes = list(quotes.get(docId, set()))
+            docSimilars = list(similars.get(docId, set()))
+            docPageRank = float(pageRanks.get(docId, 0.0))
+            docs2Insert.append({
+                                'acordaoId': docId,
+                                'citacoes' : docQuotes,
+                                'citadoPor': docQuotedBy,
+                                'similares': docSimilars,
+                                'relator':  doc.getRelator(),
+                                'tribunal': doc.getTribunal(),
+                                'pageRank': docPageRank,
+                                'virtual': doc.getVirtual()
                         })
             i += 1
             self.__printProgress()
             if i >= insertStep:
-                self.collectionOut.insert( docs2Insert)
+                self.collectionOut.insert(docs2Insert)
                 docs2Insert = []
                 i = 0
+
         if i > 0:
-            self.collectionOut.insert( docs2Insert)
+            self.collectionOut.insert(docs2Insert)
         
 
     def __printProgress( self):
