@@ -8,15 +8,20 @@ import sys
 
 class GraphMaker:
 
-    def __init__(self, dbName, collectionInName, collectionOutName):
+    def __init__(self, dbName, collections_in, collectionOutName):
         client = MongoClient('localhost', 27017)
-        db = client[ dbName]
-        self.collectionIn = db[ collectionInName]
-        self.collectionOut = db[ collectionOutName]
+        db = client[dbName]
+        self.collectionsIn = collections_in
+        self.collectionOut = db[collectionOutName]
         self.collectionOut.drop()
-        self.onePercent = self.collectionIn.count()/100
+        self.onePercent = sum([coll.count() for coll in self.collectionsIn])/100
         self.count = 0
         self.progress = 0
+
+    def set_collection_out(self, collection_out_name):
+        self.collectionOut = db[collection_out_name]
+        self.collectionOut.drop()
+
 
     def __addElemSetToDict( self, aDict, elemKey, elemValue):
         if elemKey not in aDict:
@@ -25,12 +30,13 @@ class GraphMaker:
         aDict[elemKey].add(elemValue)
         return aDict
 
+
     def removeInvalidAcordaosFromDicts(self, validAcordaos, quotes, quotedBy):
         """
-            Remove do quotedBy acórdãos que não estão presentes no BD e reconstrói
-            quotes apenas com decisões citadas presentes no BD para uma determinada decisão.
+            Remove do 'quotedBy' acórdãos que não estão presentes no BD ou nos similares apontados
+            por decisões do BD. 'quotes' fica apenas com decisões citadas presentes no BD ou nos
+            similares de uma determinada decisão.
         """
-        # BEGIN PARALLELIZABLE
         for docId, quotesId in quotes.items():
             newQuotesId = set()
             for q in quotesId:
@@ -41,11 +47,10 @@ class GraphMaker:
 
             quotes[docId] = newQuotesId
         
-        # END PARALLELIZABLE
         return [quotes, quotedBy]
 
 
-    def buildDicts(self, query):
+    def buildDicts(self, query, removed_decisions):
         acordaos = {}
         quotes = {}
         quotedBy = {}
@@ -53,49 +58,58 @@ class GraphMaker:
 
         print "building map"
 
-        docsFound = self.collectionIn.find(query, no_cursor_timeout=True)
-        nDocs = docsFound.count()
-        self.onePercent = nDocs/100 
         self.count = self.progress = 0
 
-        # BEGIN PARALLELIZABLE -> generator
-        for doc in docsFound:
-            docId = doc['acordaoId']
-            for quotedId in doc['citacoes']:
-                # queryWithId = query.copy()
-                # queryWithId['acordaoId'] = quotedId
-                # if self.collectionIn.find_one( queryWithId):
-                quotes = self.__addElemSetToDict(quotes, docId, quotedId)
-                quotedBy = self.__addElemSetToDict(quotedBy, quotedId, docId)
+        for coll in self.collectionsIn:
+            docsFound = coll.find(query, no_cursor_timeout=True)
+            for doc in docsFound:
+                if doc['acordaoId'] in removed_decisions:
+                    continue
 
-            # similares funcionam como um grafo não dirigido
-            for similar in doc['similares']:
-                similarId = similar['acordaoId']
-                similars = self.__addElemSetToDict(similars, similarId, docId)
-                similars = self.__addElemSetToDict(similars, docId, similarId)
+                docId = doc['acordaoId']
+                for quotedId in doc['citacoes']:
+                    # queryWithId = query.copy()
+                    # queryWithId['acordaoId'] = quotedId
+                    # if self.collectionsIn.find_one( queryWithId):
+                    if quotedId not in removed_decisions:
+                        quotes = self.__addElemSetToDict(quotes, docId, quotedId)
+                        quotedBy = self.__addElemSetToDict(quotedBy, quotedId, docId)
 
-                # DECISÃO MONOCRÁTICA DÁ PAU NAS 2 LINHAS ABAIXO
-                # Também é necessário checar se acórdão já existe
-                acordaos[similarId] = Acordao(similarId, doc['tribunal'], similar['relator'], True)
+                # similares são decisões (nós) virtuais que apontam para citacoes de 'docId' 
+                for similar in doc['similares']:
+                    similarId = similar['acordaoId']
+                    if similarId not in removed_decisions:
+                        for quotedId in doc['citacoes']:
+                            quotes = self.__addElemSetToDict(quotes, similarId, quotedId)
+                            quotedBy = self.__addElemSetToDict(quotedBy, quotedId, similarId)
 
-            acordaos[docId] = Acordao(docId, doc['tribunal'], doc['relator'], False)
-            self.__printProgress() # esta linha não é facilmente paralelizável (precisa de exclusão mútua)
+                            similars = self.__addElemSetToDict(similars, similarId, docId)
+                            similars = self.__addElemSetToDict(similars, docId, similarId)
 
-        # END PARALLELIZABLE
+                        if similarId not in acordaos:
+                            acordaos[similarId] = Acordao(similarId, doc['tribunal'], similar['relator'], True)
+
+                acordaos[docId] = Acordao(docId, doc['tribunal'], doc['relator'], False)
+                self.__printProgress()
+
+            print ""
 
         return [acordaos, quotes, quotedBy, similars]
 
-    def insertNodes( self, acordaos, quotes, quotedBy, similars, pageRanks):
+
+    def insertNodes(self, acordaos, quotes, quotedBy, similars, pageRanks):
         nDocs = len(acordaos)
         self.onePercent = nDocs/100
         self.count = self.progress = 0
         insertStep = nDocs
         if nDocs > 10000:
             insertStep = 10000
+
         print "n acordaos %s to be inserted" % nDocs
+
         i = 0
         docs2Insert = []
-        for docId, doc in acordaos.items():
+        for docId, doc in acordaos.iteritems():
             docQuotedBy = list(quotedBy.get(docId, set()))
             docQuotes = list(quotes.get(docId, set()))
             docSimilars = list(similars.get(docId, set()))
@@ -117,6 +131,7 @@ class GraphMaker:
                 docs2Insert = []
                 i = 0
 
+        print ""
         if i > 0:
             self.collectionOut.insert(docs2Insert)
         
