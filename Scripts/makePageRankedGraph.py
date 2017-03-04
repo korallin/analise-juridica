@@ -125,6 +125,7 @@ try:
 
         removed_decisions = get_removed_decisions(decisions_ids, 10)
 
+    os.system('echo "Page ranker finalizou!" | mail -s "Page ranker finalizou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
 
 except Exception as e:
     with open('page_ranking_error.log', 'a') as f:
