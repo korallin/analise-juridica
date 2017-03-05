@@ -10,22 +10,32 @@ class GraphMaker:
 
     def __init__(self, dbName, collections_in, collectionOutName):
         client = MongoClient('localhost', 27017)
-        db = client[dbName]
+        self.db = client[dbName]
         self.collectionsIn = collections_in
-        self.collectionOut = db[collectionOutName]
+        self.collectionOut = self.db[collectionOutName]
         self.collectionOut.drop()
         self.onePercent = sum([coll.count() for coll in self.collectionsIn])/100
         self.count = 0
         self.progress = 0
 
-    def set_collection_out(self, collection_out_name):
-        self.collectionOut = db[collection_out_name]
+    def set_collections_out(self, collection_out_name):
+        self.collectionOut = self.db[collection_out_name]
         self.collectionOut.drop()
+
+
+    def save_removed_decisions(self, i, removed_decisions, collection_out_name):
+        removed_coll = self.db[collection_out_name + "_removed_%d" % i]
+        removed_coll.drop()
+
+        removed_coll.insert_one({
+                            'iteration': i,
+                            'removed_decisions': removed_decisions
+                            })
 
 
     def __addElemSetToDict( self, aDict, elemKey, elemValue):
         if elemKey not in aDict:
-            aDict[ elemKey] = set()
+            aDict[elemKey] = set()
 
         aDict[elemKey].add(elemValue)
         return aDict

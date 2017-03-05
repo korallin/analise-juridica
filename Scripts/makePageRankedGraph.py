@@ -96,6 +96,8 @@ try:
         f.write("cálculo do page rank o tipo de decisões: %s \n" % collections_name)
 
     for i in xrange(1, 11):
+        graphMaker.save_removed_decisions(i, removed_decisions, collectionOutName)
+
         [acordaos, quotes, quotedBy, similars] = graphMaker.buildDicts(query, removed_decisions)    
         [quotes, quotedBy] = graphMaker.removeInvalidAcordaosFromDicts(acordaos, quotes, quotedBy)
         # quotesPlusSimilars = mergeDictsSets(quotes, similars)
@@ -104,19 +106,16 @@ try:
         with open('page_ranking_status.log', 'a') as f:
             f.write("Number of decisions in DB: %d\n" % len(decisions_ids))
             total_quotes = sum([len(q) for q in quotes.values()])
-            f.write("Number of decisions in been pointed (links): %d\n" % total_quotes)
-
-        with open('page_ranking_status.log', 'a') as f:
-            f.write("REMOVED DECISIONS in iteration %d (%d decisions)\n" % (i, len(removed_decisions)))
-            for r in removed_decisions:
-                f.write("%s\n" % r)
+            f.write("Number of decisions been pointed (links): %d\n" % total_quotes)
+            f.write("Decisions from DB used in calculations %d + REMOVED DECISIONS %d (%d) = total decisions from DB %d \n" %
+                                (len(quotes), len(removed_decisions), len(quotes) + len(removed_decisions), len(decisions_ids)))            
 
         t1 = datetime.now()
         pageRanks = pageRanker.calculatePageRanks(acordaos, quotes, quotedBy, pageRankMode)
         with open('page_ranking_status.log', 'a') as f:
             f.write("calculated page rank in iteration %d in %d seconds\n" % (i, (datetime.now() - t1).seconds))
 
-        graphMaker.set_collection_out(collectionOutName + "_{}".format(i))
+        graphMaker.set_collections_out(collectionOutName + "_{}".format(i))
 
         t1 = datetime.now()
         graphMaker.insertNodes(acordaos, quotes, quotedBy, similars, pageRanks)
@@ -128,5 +127,7 @@ try:
     os.system('echo "Page ranker finalizou!" | mail -s "Page ranker finalizou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
 
 except Exception as e:
+    os.system('echo "Houve um erro na execução do page ranking!" | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
+
     with open('page_ranking_error.log', 'a') as f:
         f.write("%d: %s"%( (datetime.now()-tini).seconds, e))
