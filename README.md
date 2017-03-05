@@ -6,7 +6,8 @@ Code used here is meant to support my master project at IME-USP.
 
 The instructions should are meant for those use Debian and other Linux distributions.
 
-You must have python 2.7 installed and the `libxml2-dev` e `libxslt1-dev` packages.
+You must have python 2.7 installed and the `libxml2-dev`, `libxslt1-dev`, `libmpfr-dev`
+e `libmpc-dev` packages.
 May be necessary install other packages that I had already installed at my machine.
 
 You also must have a mongo database installed at your machine and you have to create
