@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import sys
+import os
 
 from random import randint
 from datetime import datetime
@@ -70,11 +71,11 @@ def get_decisions_ids(dbName, collections):
 
 def get_removed_decisions(decisions_ids, percentage):
     removed_decisons_len = ceil(len(decisions_ids) * (percentage/100.))
-
+    decisions_ids_len = len(decisions_ids)
     removed_decisions = []
     i = 0
     while (i < removed_decisons_len):
-        x = randint(0, removed_decisons_len - 1)
+        x = randint(0, decisions_ids_len - 1)
         if decisions_ids[x] not in removed_decisions:
             removed_decisions.append(decisions_ids[x])
             i += 1
@@ -127,7 +128,7 @@ try:
     os.system('echo "Page ranker finalizou!" | mail -s "Page ranker finalizou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
 
 except Exception as e:
-    os.system('echo "Houve um erro na execução do page ranking!" | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
+    os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br', % e)
 
     with open('page_ranking_error.log', 'a') as f:
         f.write("%d: %s"%( (datetime.now()-tini).seconds, e))
