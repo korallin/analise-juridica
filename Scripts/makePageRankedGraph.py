@@ -4,6 +4,7 @@
 import sys
 import os
 
+from math import ceil
 from random import randint
 from datetime import datetime
 from pymongo import MongoClient
@@ -128,7 +129,7 @@ try:
     os.system('echo "Page ranker finalizou!" | mail -s "Page ranker finalizou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
 
 except Exception as e:
-    os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br', % e)
+    os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br' % e)
 
     with open('page_ranking_error.log', 'a') as f:
         f.write("%d: %s"%( (datetime.now()-tini).seconds, e))
