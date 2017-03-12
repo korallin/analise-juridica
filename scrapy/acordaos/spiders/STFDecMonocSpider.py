@@ -51,8 +51,13 @@ class STFDecMonocSpider(Spider):
         try:
             sel = Selector(response)
             item = response.meta['item']
+            acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[1]/span/text()'
+            item['acompProcData'] = sel.xpath(acom_proc_path).extract()
             acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[2]/span/text()'
-            item['acompanhamentoProcessual'] = sel.xpath(acom_proc_path).extract()
+            item['acompProcAndamento'] = sel.xpath(acom_proc_path).extract()
+            acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[3]/span'
+            orgJulg = sel.xpath(acom_proc_path).extract()
+            item['acompProcOrgJulg'] = [oj.replace("<span>", "").replace("</span>", "") for oj in orgJulg]
         except Exception as e:
             print "Houve um problema na extração de acompanhamento processual {}".format(e)
             item = response.meta['item']
