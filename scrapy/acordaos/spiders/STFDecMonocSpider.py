@@ -48,10 +48,14 @@ class STFDecMonocSpider(Spider):
 
 
     def getAcompProcBody(self, response):
-        sel = Selector(response)
-        item = response.meta['item']
-        acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[2]/span/text()'
-        item['acompanhamentoProcessual'] = sel.xpath(acom_proc_path).extract()
+        try:
+            sel = Selector(response)
+            item = response.meta['item']
+            acom_proc_path = './/div[@class="abasAcompanhamento"]/table[@class="resultadoAndamentoProcesso"]/tr/td[2]/span/text()'
+            item['acompanhamentoProcessual'] = sel.xpath(acom_proc_path).extract()
+        except Exception as e:
+            print "Houve um problema na extração de acompanhamento processual {}".format(e)
+            item = response.meta['item']
 
         return item
 
