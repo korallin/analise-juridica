@@ -129,6 +129,7 @@ frequent_decisions_sorted = sorted(frequent_decisions, key=lambda x: x[1][-1], r
 
 print "Number of items whose frequency is higher than 1: %d" % len(frequent_decisions)
 
+could_be_all_iterations = 0
 # precisa ver tipo exato aqui
 columns = get_columns_len_tup(frequent_decisions_sorted, None)
 print "Most frequent decisions by invserse order"
@@ -138,11 +139,12 @@ print "RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REM
 for i, (key, value) in enumerate(frequent_decisions_sorted):
     virtual = "S" if value[2] is True else "N"
     times_removed = removed_decisions_freq[key] if key in removed_decisions_freq else 0
+    could_be_all_iterations += 1 if (times_removed < 10) and (times_removed + value[3]) == 10 else 0
     string = construct_string([key, value[1], virtual], columns)
     string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {} | {}".format(value[3], times_removed) 
     print string
 
-
+print "\n\nNumber of decisions which could be in all iterations: %d" % could_be_all_iterations
 # -----  ver como a ordem dos acórdãos se alterna em cada iteração do page rank
 # talvez adicionar informação (tupla) referente a iteração e último rank em que acórdão apareceu
 # pode ser usado um dict para armazenar ambas as informações
