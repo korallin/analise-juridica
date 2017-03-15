@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from pymongo import MongoClient
-
+import sys
 
 # python compare_top_page_rank_decisions.py DJs stf_pr_1_acordaos
 # python compare_top_page_rank_decisions.py DJs stf_pr_2_acordaos
@@ -53,7 +53,11 @@ for i in xrange(1, 11):
     page_ranks_iters.append(list(page_ranks_cursor))
 
     removed_decisions_cursor = db[coll_removed].find({})
-    removed_decisions_iters.append(list(removed_decisions_cursor)[0]['removed_decisions'])
+    rem_decs = list(removed_decisions_cursor)
+    if rem_decs != []:
+        removed_decisions_iters.append(rem_decs[0]['removed_decisions'])
+    else:
+	removed_decisions_iters.append([])
 
 
 
