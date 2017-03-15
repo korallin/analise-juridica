@@ -41,7 +41,7 @@ def construct_string(values, lengths):
 
     return string
 
-
+removed_decisions_freq = {}
 removed_decisions_iters = []
 page_ranks_iters = []
 
@@ -54,10 +54,16 @@ for i in xrange(1, 11):
 
     removed_decisions_cursor = db[coll_removed].find({})
     rem_decs = list(removed_decisions_cursor)
+
     if rem_decs != []:
         removed_decisions_iters.append(rem_decs[0]['removed_decisions'])
+        for rd in rem_decs[0]['removed_decisions']:
+            if rd in removed_decisions_freq:
+                removed_decisions_freq[rd] += 1
+            else:
+                removed_decisions_freq[rd] = 1
     else:
-	removed_decisions_iters.append([])
+        removed_decisions_iters.append([])
 
 
 
@@ -126,13 +132,14 @@ print "Number of items whose frequency is higher than 1: %d" % len(frequent_deci
 # precisa ver tipo exato aqui
 columns = get_columns_len_tup(frequent_decisions_sorted, None)
 print "Most frequent decisions by invserse order"
-print "RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES"
+print "RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED"
 # apesar de também serem armazenadas as iterações nas quais
 # os IDs aparecem ache que a informação não era tão relevante 
 for i, (key, value) in enumerate(frequent_decisions_sorted):
     virtual = "S" if value[2] is True else "N"
+    times_removed = removed_decisions_freq[key] if key in removed_decisions_freq else 0
     string = construct_string([key, value[1], virtual], columns)
-    string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {}".format(value[3])
+    string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {} | {}".format(value[3], times_removed) 
     print string
 
 
