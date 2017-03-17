@@ -1,0 +1,57 @@
+Tarefas mais urgentes
+
+- Acabar de inserir mais análises no script que processa informações do processamento do PR
+- Analisar relatórios do PR
+- Produzir visualização de rede de acórdãos do mesmo período da rede que está em DJTest (início de 2016 até última data presente no BD).
+    fazer isso destacando relatores por cores, etc.
+
+- Ver procentagem de relatores de decisões apontadas por uma dada decisão.
+    Classes:
+        - próprio relator
+        - outro relator
+        - relator desconhecido
+    - calcular individual
+    - calcular para rede incluindo porcentagem média de citações de "decisões próprias" por relator
+    - fazer análise para decisões monocráticas e acórdãos
+
+    - fazer isso com atributos similares e citacoes (dec.monoc. não tem citacoes)
+
+
+
+
+######## Sobre grafo de decisões ####### 
+- contar componentes conexas da rede e seus respectivos tamanhos
+- capturar nó com maior grau em cada rede
+- obter distribuição de grau de links e nós da rede
+
+
+######## Page rank #################
+Pode ser simulado depois de terem sido corretamente filtradas decisões de admissibilidade
+
+
+
+######## Consulta de softwares e bibliotecas ##########
+- ver como a VivaGraphJS plota a visualização do grafo.
+    Talvez a D3 seja responsável por fazer isso por baixo.
+- Ver como fazer simulações/visualização usando o Gephi
+
+
+
+####### Sobre detectar decisões de admissibilidade ###########
+Talvez seja necessário checar acompanhamento processual e ementa para verificar se é de admissibilidade
+Isso se aplica quando se trata de um processo que teve recursos e alguma das decisões envolvidas foi negada
+
+Checar quantas decisões cuja admissibilidade foi negada foram recorridas (decisões subsequentes a de admissibilidade indicariam isso)
+
+Argumentos de admissibilidade aceitos: "não conhecido" ou "não admitido"
+
+
+
+
+############## Robustez de redes complexas #####################
+Para saber se a rede é robusta, ou seja, não depende muito de um ou dois nós específicos deve-se submetê-la à remoção de nós da rede.
+Bolar experimento com a remoção de 1 e 2 nós da rede de acórdãos -> fazer milhares de execuções com remoção aleatória de nós
+    - Fazer isso para grafod e decisões
+    - Fazer isso para citações entre relatores
+
+Livro: Characterization of Complex Networks - Application to Robustness Analysis
