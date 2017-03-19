@@ -49,6 +49,7 @@ Argumentos de admissibilidade aceitos: "não conhecido" ou "não admitido"
 
 
 ############## Robustez de redes complexas #####################
+Precisa provar qual o tipo de rede do grafo -> hipótese é a Barabási-Albert
 Para saber se a rede é robusta, ou seja, não depende muito de um ou dois nós específicos deve-se submetê-la à remoção de nós da rede.
 Bolar experimento com a remoção de 1 e 2 nós da rede de acórdãos -> fazer milhares de execuções com remoção aleatória de nós
     - Fazer isso para grafod e decisões
