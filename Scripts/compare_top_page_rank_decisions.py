@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 from pymongo import MongoClient
+from operator import itemgetter
 import sys
+import numpy as np
 
 # python compare_top_page_rank_decisions.py DJs stf_pr_1_acordaos
 # python compare_top_page_rank_decisions.py DJs stf_pr_2_acordaos
@@ -13,6 +15,13 @@ collection_name = sys.argv[2]
 client = MongoClient('localhost', 27017)
 db = client[dbName]
 
+def virtual_dec(dec):
+    if dec['virtual'] == True:
+        return 1
+    return 0
+
+def relator_dec(rel_dict):
+    if 
 
 def get_columns_len_tup(page_ranks_iter, data_type):
 
@@ -73,6 +82,9 @@ page_rank_ids_relatores_lists = [[(pr['acordaoId'], pr['relator'], pr['virtual']
 print "Descrição de informações da simulação do page rank por iteração\n"
 # DESCRIÇÃO POR ITERAÇÃO
 decisoes_removidas_no_top100 = []
+virtual_decs = []
+rel_freq_iter_dict = {}
+rel_freqs_iter = []
 for i in xrange(10):
 
     columns = get_columns_len_tup(decisoes_removidas_no_top100, list)
@@ -86,6 +98,9 @@ for i in xrange(10):
         print string[:-2]
     print ""
     
+    virtual_decs.append(sum(map(virtual_dec, page_ranks_iters[i])))
+    rel_freq_dict = {}
+    
     columns = get_columns_len_tup(page_ranks_iters[i], dict)
     print "RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK"
     for j, pr_it in enumerate(page_ranks_iters[i]):
@@ -94,10 +109,60 @@ for i in xrange(10):
         string = " {}{} |".format(j+1, " " * (4 - len(str(j+1)))) + string + " {0:.6f}".format(pr_it['pageRank'])
         print string
 
+        relator = pr_it['relator']
+        if relator in rel_freq_dict:
+            rel_freq_dict[relator] += 1
+        else:
+            rel_freq_dict[relator] += 1
+
+        if relator in rel_freq_iter_dict:
+            rel_it_dict = rel_freq_iter_dict
+            if pr_it['acordaoId'] in rel_it_dict:
+                rel_it_dict[pr_it['acordaoId']] += 1
+            else:
+                rel_it_dict[pr_it['acordaoId']] = 1
+        else:
+            rel_freq_iter_dict[relator] = {pr_it['acordaoId']: 1}
+
+
+        rel_freqs_iter.append(sorted(rel_freq_dict.iteritems(), key=itemgetter(1), reverse=True))
+
     if (i+1) < 10:
         decisoes_removidas_no_top100 = filter(lambda v: v[0] in removed_decisions_iters[i+1], page_rank_ids_relatores_lists[i])
 
     print "\n"
+
+
+virtual_decs_a = np.array(virtual_decs)
+print "Virtual decisions in each iteration"
+for i, vd_number in enumerate(virtual_decs_a):
+    print "%d: %d" % (i, vd_number)
+print "Mean of virtual decisions: %d" % np.mean(virtual_decs_a)
+print "Standard deviation of virtual decisions: %d" % np.std(virtual_decs_a)
+print "\n"
+
+
+rel_freqs_dict = {}
+print "Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência"
+for i in xrange(10):
+    print "iteração %d:", i+1 
+    for r, f in rel_freqs_iter[i]:
+        print "%s: %d" % (r, f)
+        if f in rel_freqs_dict:
+            rel_freqs_dict[r].append(f)
+        else:
+            rel_freqs_dict[r] = [f]
+
+
+print "\nRelator | freq absol | iterações presente | média | std"
+for (r, f_lst) in sorted(rel_freqs_dict, key=sum(itemgetter(1)), reverse=True):
+    f_lst_array = np.array(f)
+    print "%s | %d | %d | %d | %d" % (r, sum(f_lst), len(f_lst), np.mean(f_lst_array), np.std(f_lst_array))
+
+
+print "\nRelator | freq dec únicas"
+for (r, f) in sorted(rel_freq_iter_dict.iteritems(), key=len(itemgetter(1)), reverse=True):
+    print "%s | %d" % (r, len(f))
 
 
 # DESCRIÇÃO GERAL após da por iteração
