@@ -15,13 +15,12 @@ collection_name = sys.argv[2]
 client = MongoClient('localhost', 27017)
 db = client[dbName]
 
+
 def virtual_dec(dec):
     if dec['virtual'] == True:
         return 1
     return 0
 
-def relator_dec(rel_dict):
-    if 
 
 def get_columns_len_tup(page_ranks_iter, data_type):
 
@@ -113,10 +112,10 @@ for i in xrange(10):
         if relator in rel_freq_dict:
             rel_freq_dict[relator] += 1
         else:
-            rel_freq_dict[relator] += 1
+            rel_freq_dict[relator] = 1
 
         if relator in rel_freq_iter_dict:
-            rel_it_dict = rel_freq_iter_dict
+            rel_it_dict = rel_freq_iter_dict[relator]
             if pr_it['acordaoId'] in rel_it_dict:
                 rel_it_dict[pr_it['acordaoId']] += 1
             else:
@@ -125,7 +124,7 @@ for i in xrange(10):
             rel_freq_iter_dict[relator] = {pr_it['acordaoId']: 1}
 
 
-        rel_freqs_iter.append(sorted(rel_freq_dict.iteritems(), key=itemgetter(1), reverse=True))
+    rel_freqs_iter.append(sorted(rel_freq_dict.iteritems(), key=itemgetter(1), reverse=True))
 
     if (i+1) < 10:
         decisoes_removidas_no_top100 = filter(lambda v: v[0] in removed_decisions_iters[i+1], page_rank_ids_relatores_lists[i])
@@ -137,32 +136,31 @@ virtual_decs_a = np.array(virtual_decs)
 print "Virtual decisions in each iteration"
 for i, vd_number in enumerate(virtual_decs_a):
     print "%d: %d" % (i, vd_number)
-print "Mean of virtual decisions: %d" % np.mean(virtual_decs_a)
-print "Standard deviation of virtual decisions: %d" % np.std(virtual_decs_a)
+print "Mean of virtual decisions: %.2f" % np.mean(virtual_decs_a)
+print "Standard deviation of virtual decisions: %.2f" % np.std(virtual_decs_a)
 print "\n"
 
 
 rel_freqs_dict = {}
 print "Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência"
 for i in xrange(10):
-    print "iteração %d:", i+1 
+    print "\nIteração %d:" % (i+1) 
     for r, f in rel_freqs_iter[i]:
-        print "%s: %d" % (r, f)
-        if f in rel_freqs_dict:
+        print "{}: {}".format(r.encode('utf-8'), f)
+        if r in rel_freqs_dict:
             rel_freqs_dict[r].append(f)
         else:
             rel_freqs_dict[r] = [f]
 
-
-print "\nRelator | freq absol | iterações presente | média | std"
-for (r, f_lst) in sorted(rel_freqs_dict, key=sum(itemgetter(1)), reverse=True):
-    f_lst_array = np.array(f)
-    print "%s | %d | %d | %d | %d" % (r, sum(f_lst), len(f_lst), np.mean(f_lst_array), np.std(f_lst_array))
+print "\nRelator | freq absol | iterações presente | média em iterações presente | std"
+for (r, f_lst) in sorted(rel_freqs_dict.iteritems(), key=lambda i: sum(i[1]), reverse=True):
+    f_lst_array = np.array(f_lst)
+    print "{} | {} ({:.2f}%) | {} | {:.2f} | {:.2f}".format(r.encode('utf-8'), sum(f_lst), 100 * sum(f_lst) / 1000., len(f_lst), np.mean(f_lst_array), np.std(f_lst_array))
 
 
 print "\nRelator | freq dec únicas"
-for (r, f) in sorted(rel_freq_iter_dict.iteritems(), key=len(itemgetter(1)), reverse=True):
-    print "%s | %d" % (r, len(f))
+for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), reverse=True):
+    print "{} | {} ({:.2f}%)".format(r.encode('utf-8'), len(f), 100 * len(f) / 1000.)
 
 
 # DESCRIÇÃO GERAL após da por iteração
