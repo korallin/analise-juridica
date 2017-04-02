@@ -1,7 +1,5 @@
 Tarefas mais urgentes
 
-- Acabar de inserir mais análises no script que processa informações do processamento do PR
-- Analisar relatórios do PR
 - Produzir visualização de rede de acórdãos do mesmo período da rede que está em DJTest (início de 2016 até última data presente no BD).
     fazer isso destacando relatores por cores, etc.
 
@@ -10,7 +8,7 @@ Tarefas mais urgentes
         - próprio relator
         - outro relator
         - relator desconhecido
-    - calcular individual
+    - calcular para cada relator
     - calcular para rede incluindo porcentagem média de citações de "decisões próprias" por relator
     - fazer análise para decisões monocráticas e acórdãos
 
