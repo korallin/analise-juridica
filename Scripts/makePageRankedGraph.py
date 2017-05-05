@@ -10,21 +10,29 @@ from datetime import datetime
 from pymongo import MongoClient
 from GraphMaker import GraphMaker
 from PageRanker import PageRanker
+
 # example of command line command
 #makePageRankedGraph DJs acordaos "tribunal: STF, localSigla: SP" STF_SP_PR1 1
 
 
-# python makePageRankedGraph.py DJs acordaos "" stf_pr_1_acordaos 1
-# python makePageRankedGraph.py DJs decisoes "" stf_pr_1_decisoes 1
-# python makePageRankedGraph.py DJs acordaos "" stf_pr_2_acordaos 2
-# python makePageRankedGraph.py DJs decisoes "" stf_pr_2_decisoes 2
+# python makePageRankedGraph.py DJTest acordaos 80 S "" stf_pr_1_acordaos_80 1
+# dbName = "DJTest"
+# collections_name = "acordaos"
+# percentage = "90"
+# all_relatores = "N"
+# queryRaw = ""
+# collectionOutName = "stf_pr_1_acordaos_90"
+# pageRankMode = "1"
 
 dbName = sys.argv[1]
 collections_name = sys.argv[2]
-queryRaw = sys.argv[3]
-collectionOutName = sys.argv[4]
-pageRankMode = sys.argv[5]
+percentage = int(sys.argv[3])
+all_relatores = sys.argv[4]
+queryRaw = sys.argv[5]
+collectionOutName = sys.argv[6]
+pageRankMode = sys.argv[7]
 query = {}
+
 if queryRaw:
     queryPairs = queryRaw.split(',')
     if not queryPairs:
@@ -38,7 +46,7 @@ if queryRaw:
 quotes = {}
 quotedBy = {}
 similars = {}
-acordaos = {} 
+acordaos = {}
 
 
 # def mergeDictsSets(h1, h2):
@@ -48,7 +56,7 @@ acordaos = {}
 #     return h1
 
 
-def get_decisions_ids(dbName, collections):
+def get_decisions_ids(dbName, collections, query):
     client = MongoClient('localhost', 27017)
     db = client[dbName]
 
@@ -69,6 +77,13 @@ def get_decisions_ids(dbName, collections):
 
     return decisions_ids, colls
 
+def get_top_10_relatores(dbName):
+    client = MongoClient('localhost', 27017)
+    db = client[dbName]
+    docs = db['acordaos'].aggregate([{"$group" : {"_id": '$relator', "count": {"$sum": 1}}}, {"$sort": {"count": -1}}, {"$limit": 10}])
+    relatores = [doc['_id'] for doc in docs]
+
+    return relatores
 
 def get_removed_decisions(decisions_ids, percentage):
     removed_decisons_len = ceil(len(decisions_ids) * (percentage/100.))
@@ -85,51 +100,70 @@ def get_removed_decisions(decisions_ids, percentage):
 
 
 try:
-    decisions_ids, collections = get_decisions_ids(dbName, collections_name)
+    # o referencial adotado aqui para calcular maiores relatores é o
+    # número de acórdãos em que os ministros são relatores
+    if all_relatores == 'S':
+        relatores = [None]
+    elif all_relatores == 'N':
+        relatores = get_top_10_relatores(dbName)
+    else:
+        print "parâmetro Nº 5 deve ser 'S' ou 'N'"
+        exit(1)
 
-    graphMaker = GraphMaker(dbName, collections, collectionOutName)
-    pageRanker = PageRanker()
-
-    removed_decisions = []
+    with open('page_ranking_status.log', 'a') as f:
+        f.write("\n\n\nBanco de dados: %s \n" % dbName)
+        relats = "\n".join(relatores) if len(relatores) > 1 else "TODOS"
+        f.write("Principais relatores:\n%s\n" % relats.encode('utf-8'))
 
     tini = datetime.now()
 
-    with open('page_ranking_status.log', 'a') as f:
-        f.write("cálculo do page rank o tipo de decisões: %s \n" % collections_name)
+    for j, rel in enumerate(relatores):
+        if rel != None:
+            query['relator'] = rel
+            collection_out_iter_name = collectionOutName + ('_rel_%d' % (j+1))
+        else:
+            collection_out_iter_name = collectionOutName
 
-    for i in xrange(1, 11):
-        graphMaker.save_removed_decisions(i, removed_decisions, collectionOutName)
+        decisions_ids, collections = get_decisions_ids(dbName, collections_name, query)
+        graphMaker = GraphMaker(dbName, collections, collection_out_iter_name)
+        pageRanker = PageRanker()
 
-        [acordaos, quotes, quotedBy, similars] = graphMaker.buildDicts(query, removed_decisions)    
-        [quotes, quotedBy] = graphMaker.removeInvalidAcordaosFromDicts(acordaos, quotes, quotedBy)
-        # quotesPlusSimilars = mergeDictsSets(quotes, similars)
-        # quotedByPlusSimilars = mergeDictsSets(quotedBy, similars) 
+        removed_decisions = []
 
         with open('page_ranking_status.log', 'a') as f:
-            f.write("Number of decisions in DB: %d\n" % len(decisions_ids))
-            total_quotes = sum([len(q) for q in quotes.values()])
-            f.write("Number of decisions been pointed (links): %d\n" % total_quotes)
-            f.write("Decisions from DB used in calculations %d + REMOVED DECISIONS %d (%d) = total decisions from DB %d \n" %
-                                (len(quotes), len(removed_decisions), len(quotes) + len(removed_decisions), len(decisions_ids)))            
+            f.write("Collection: %s \n\n" % collection_out_iter_name)
 
-        t1 = datetime.now()
-        pageRanks = pageRanker.calculatePageRanks(acordaos, quotes, quotedBy, pageRankMode)
-        with open('page_ranking_status.log', 'a') as f:
-            f.write("calculated page rank in iteration %d in %d seconds\n" % (i, (datetime.now() - t1).seconds))
+        for i in xrange(1, 11):
+            graphMaker.save_removed_decisions(i, removed_decisions, collection_out_iter_name)
 
-        graphMaker.set_collections_out(collectionOutName + "_{}".format(i))
+            [acordaos, quotes, quotedBy, similars] = graphMaker.buildDicts(query, removed_decisions)
+            [quotes, quotedBy] = graphMaker.removeInvalidAcordaosFromDicts(acordaos, quotes, quotedBy)
+            # quotesPlusSimilars = mergeDictsSets(quotes, similars)
+            # quotedByPlusSimilars = mergeDictsSets(quotedBy, similars)
 
-        t1 = datetime.now()
-        graphMaker.insertNodes(acordaos, quotes, quotedBy, similars, pageRanks)
-        with open('page_ranking_status.log', 'a') as f:
-            f.write("Time to insert nodes %d" % (datetime.now() - t1).seconds)
+            with open('page_ranking_status.log', 'a') as f:
+                f.write("Number of decisions in DB: %d\n" % len(decisions_ids))
+                total_quotes = sum([len(q) for q in quotes.values()])
+                f.write("Number of decisions been pointed (links): %d\n" % total_quotes)
+                f.write("Decisions from DB used in calculations %d + REMOVED DECISIONS %d (%d) = total decisions from DB %d \n" %
+                                    (len(quotes), len(removed_decisions), len(quotes) + len(removed_decisions), len(decisions_ids)))
 
-        removed_decisions = get_removed_decisions(decisions_ids, 10)
+            t1 = datetime.now()
+            pageRanks = pageRanker.calculatePageRanks(acordaos, quotes, quotedBy, pageRankMode)
+            with open('page_ranking_status.log', 'a') as f:
+                f.write("calculated page rank in iteration %d in %d seconds\n" % (i, (datetime.now() - t1).seconds))
 
-    os.system('echo "Page ranker finalizou!" | mail -s "Page ranker finalizou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br')
+            graphMaker.set_collections_out(collection_out_iter_name + "_{}".format(i))
+
+            t1 = datetime.now()
+            graphMaker.insertNodes(acordaos, quotes, quotedBy, similars, pageRanks)
+            with open('page_ranking_status.log', 'a') as f:
+                f.write("Time to insert nodes %d\n" % (datetime.now() - t1).seconds)
+
+            removed_decisions = get_removed_decisions(decisions_ids, 100-percentage)
 
 except Exception as e:
-    os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br' % e)
+    # os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br' % e)
 
     with open('page_ranking_error.log', 'a') as f:
-        f.write("%d: %s"%( (datetime.now()-tini).seconds, e))
+        f.write("%d: %s\n\n"%( (datetime.now()-tini).seconds, e))
