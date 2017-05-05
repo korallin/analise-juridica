@@ -7,6 +7,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 import matplotlib.colors as col
+from math import log, log10
 
 from pymongo import MongoClient
 from operator import itemgetter
@@ -16,7 +17,7 @@ import os
 import numpy as np
 import re
 
-reload(sys)  
+reload(sys)
 sys.setdefaultencoding('utf8')
 
 # python compare_top_page_rank_decisions.py DJTest stf_pr_1_acordaos
@@ -25,22 +26,36 @@ sys.setdefaultencoding('utf8')
 dbName = sys.argv[1]
 collection_name = sys.argv[2]
 
-dbName = "DJTest"
-collection_name = "stf_pr_1_acordaos"
+# __file__ = '/home/jackson/analise-juridica/Scripts/'
+# dbName = "DJTest"
+# collection_name = "stf_pr_2_acordaos"
 
 
 client = MongoClient('localhost', 27017)
 db = client[dbName]
 
 
-def check_dir_existence(dir):
+def num_rel_decs_citadas_lst(relator_decs_citadas_dict, dec_ids):
+    t_df_lst = []
+    for dec_id in dec_ids:
+        t_df = 0
+        for citados_lst in relator_decs_citadas_dict.values():
+            if dec_id in citados_lst:
+                t_df += 1
+        t_df_lst.append(t_df)
+
+    return t_df_lst
+
+def get_dir_path(dir):
     dir_path = os.path.dirname(os.path.abspath(__file__))
     graficos_dir = os.path.join(dir_path, dir)
     if not os.path.exists(graficos_dir):
         os.makedirs(graficos_dir)
 
+    return graficos_dir
 
-def generate_histogram(array, title, xlabel, ylabel, file_name, pr_number):
+
+def generate_histogram(array, title, xlabel, ylabel, file_name, sim_descr):
     fig, ax = plt.subplots(1)
 
     result = ax.hist(array, color='c')
@@ -54,20 +69,21 @@ def generate_histogram(array, title, xlabel, ylabel, file_name, pr_number):
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    
+
     N = len(array)
     ax.set_xticks(N)
     xtickNames = ax.set_xticklabels(xtick_names)
     plt.setp(xtickNames, rotation=45, fontsize=10)
     plt.tight_layout()
 
-    dir = "graficos_%d" % pr_number
-    check_dir_existence(dir)
+    dir_path = "graficos_%s" % sim_descr
+    dir_path = get_dir_path(dir_path)
 
-    plt.savefig(dir + '/{}.png'.format(file_name))
+    plt.savefig(dir_path + '/{}.png'.format(file_name))
+    plt.close()
 
 
-def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, pr_number):
+def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, sim_descr):
     fig, ax = plt.subplots(1)
 
     n = len(array)
@@ -100,10 +116,11 @@ def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, pr_nu
     # ax.set_xticklabels(xtick_names, rotation=45, fontsize=8, ha='center')
     plt.tight_layout()
 
-    dir = "graficos_%d" % pr_number
-    check_dir_existence(dir)
+    dir_path = "graficos_%s" % sim_descr
+    dir_path = get_dir_path(dir_path)
 
-    plt.savefig(dir + '/{}.png'.format(file_name))
+    plt.savefig(dir_path + '/{}.png'.format(file_name))
+    plt.close()
 
 
 # função tá errada -> são olhadas aqui apenas decisão no top 100 do page ranking
@@ -114,7 +131,7 @@ def percentage_citations(cit, c):
     other_author_len = cit_len - own_author_len
     return (100 * own_author_len/float(cit_len), 100 * other_author_len/float(cit_len))
 
-# recebe uma lista de tuplas e retorna uma tupla com o valor médio de cada posição da tupla 
+# recebe uma lista de tuplas e retorna uma tupla com o valor médio de cada posição da tupla
 def lst_tuples_mean(tuple_lst):
     t_len = len(tuple_lst[0])
     lst_len = len(tuple_lst)
@@ -206,10 +223,10 @@ for i in xrange(10):
         string = construct_string([pr_it[0], pr_it[1], virtual], columns)
         print string[:-2]
     print ""
-    
+
     virtual_decs.append(sum(map(virtual_dec, page_ranks_iters[i])))
     rel_freq_dict = {}
-    
+
     columns = get_columns_len_tup(page_ranks_iters[i], dict)
     print "RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK"
     for j, pr_it in enumerate(page_ranks_iters[i]):
@@ -254,7 +271,7 @@ print "\n"
 rel_freqs_dict = {}
 print "Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência"
 for i in xrange(10):
-    print "\nIteração %d:" % (i+1) 
+    print "\nIteração %d | # de relatores na iteração %d" % (i+1, len(rel_freqs_iter[i]))
     for r, f in rel_freqs_iter[i]:
         print "{}: {}".format(r.encode('utf-8'), f)
         if r in rel_freqs_dict:
@@ -269,21 +286,25 @@ print "\nRelator | freq absol | iterações presente | média em iterações pre
 for (r, f_lst) in sorted(rel_freqs_dict.iteritems(), key=lambda i: sum(i[1]), reverse=True):
     f_lst_array = np.array(f_lst)
     print "{} | {} ({:.2f}%) | {} | {:.2f} | {:.2f}".format(r.encode('utf-8'), sum(f_lst), 100 * sum(f_lst) / 1000., len(f_lst), np.mean(f_lst_array), np.std(f_lst_array))
-    relatores.append(r)
+    relatores.append(r.encode('utf-8'))
     relat_freqs.append(sum(f_lst))
 
-page_rank_number = int(re.findall('\d+', collection_name)[0])
+sim_descr = re.search('(\d.+)', collection_name).groups()[0]
 
 xlabel = 'Ministros'
 ylabel = 'Número de decisões'
-title = "Número de ocorrência de decisões por ministro \ncom repetição de ocorrência de decisões (%d)" % page_rank_number
-file_name = "ocorrências_de_ministros_com_repet_%d" % page_rank_number
-generate_barplot(np.array(relat_freqs), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Número de ocorrência de decisões por ministro \ncom repetição de ocorrência de decisões (%s)" % sim_descr
+file_name = "ocorrências_de_ministros_com_repet_%s" % sim_descr
+generate_barplot(np.array(relat_freqs), title, xlabel, ylabel, file_name, relatores, sim_descr)
 # generate_histogram(np.array(relat_freqs), title, xlabel, ylabel, file_name, xtick_names=np.array(relatores))
 
+relator_decs_citadas_dict = {}
+for k, v in rel_freq_iter_dict.iteritems():
+    relator_decs_citadas_dict[k] = sum([cit[1] for cit in v.values()], [])
 
-print "\nRelator | freq dec únicas"
-# Fazer a análise das auto 'citações' e 'citados por'
+# soma tf-idf de decisões do relator (geral) | soma tf-idf de decisões do relator (top 100)
+# cria dicionário de decisões citadas por cada relator no top 100 | obtém decisões citadas por relator no BD -> criar função que checa # de relatores que citam uma dada decisão
+print "\nRelator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator"
 relatores = []
 relat_dec_num = []
 citacoes_top100 =[]
@@ -291,12 +312,26 @@ porc_cit_mesmo_rel = []
 porc_cit_por_mesmo_rel = []
 coll_all_ids = collection_name + "_%d" % 1
 for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), reverse=True):
-    print "{} | {} ({:.2f}%)".format(r.encode('utf-8'), len(f), 100 * len(f) / 1000.)
-    citacoes = f.values()
+    dec_ids = f.keys()
+    citacoes = [f[k] for k in dec_ids]
     relat_dec_num.append(len(citacoes))
 
+    f_unica = len(citacoes)
+    f_absol = sum(rel_freqs_dict[r])
+
     r_ids = [obj['acordaoId'] for obj in list(db[coll_all_ids].find({'relator': r}, {'acordaoId':1}))]
-    
+
+    N = float(len(r_ids))
+    N_rel = len(rel_freq_iter_dict)
+    # N_top100 = f_unica
+
+    t_fd_lst = num_rel_decs_citadas_lst(relator_decs_citadas_dict, dec_ids)
+    sum_tf_idf = sum([(1 + log(1 + len(cit[2]))) * log10(N_rel/t_fd) if t_fd > 0 else 0 for cit, t_fd in zip(citacoes, t_fd_lst)])
+
+    print "{} | {} ({:.2f}%) | {:.2f} | {:.4f} | {:.4f} | {:.4f} ".format(r.encode('utf-8'), len(f),
+                                                                            100 * len(f) / 1000.,
+                                                                            f_unica/float(f_absol), f_unica/N,
+                                                                            f_absol/N, sum_tf_idf)
     # listas de tuplas com porcentagem de citações a decisões do autor e de outros autores para cada decisão
     porcentagem_cit = []
     # listas de tuplas com porcentagem de citações à uma decisão feitas pelo próprio relator ou por outros relatores para cada decisão
@@ -323,29 +358,30 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
     # gerar histograma com 3 arrays acima
 
 
+
 citacoes_top100 = set(sum(citacoes_top100, []))
 
 xlabel = 'Decisões'
 ylabel = 'Número de ocorrências'
 
-relatores = []
+# relatores = []
 porc_cit_mesmo_rel_top100 = []
 porc_cit_alavancadas_para_top100 = []
 porc_cit_alavancamento_para_top100 = []
 top100_ids = sum([id.keys() for id in rel_freq_iter_dict.values()], [])
 # Fazer a análise que verifica se citados estão no top 100
-# Fazer a análise se acórdão é 'citado pelos' que estão no top 100 
+# Fazer a análise se acórdão é 'citado pelos' que estão no top 100
 for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), reverse=True):
     r_top100_ids = f.keys()
-    citacoes = f.values()
+    citacoes = [f[k] for k in r_top100_ids]
 
     # frequência de ocorrência de cada acórdão no page_rank
     rel_acordaos_freq = [cit[0] for cit in citacoes]
     # invocar método que constrói histograma passando como parâmetro 'rel_acordaos_freq' e 'r.encode('utf-8')'
 
-    title = "Número de ocorrência de decisões de %s (%d)" % (r.encode('utf-8'), page_rank_number)
-    file_name = "histograma_ministro_%s_%d" % (r.encode('utf-8'), page_rank_number)
-    generate_barplot(np.array(rel_acordaos_freq), title, xlabel, ylabel, file_name, r_top100_ids, page_rank_number)
+    title = "Número de ocorrência de decisões de %s (%s)" % (r.encode('utf-8'), sim_descr)
+    file_name = "histograma_ministro_%s_%s" % (r.encode('utf-8'), sim_descr)
+    generate_barplot(np.array(rel_acordaos_freq), title, xlabel, ylabel, file_name, r_top100_ids, sim_descr)
 
     # listas de tuplas com porcentagem de citações a decisões do autor e de outros autores para cada decisão
     porcentagem_cit = []
@@ -372,34 +408,34 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
 
 xlabel = 'Ministros'
 ylabel = 'Número de decisões'
-title = "Número de ocorrência de decisões por ministro \ncom repetição de ocorrência de decisões (%d)" % page_rank_number
-file_name = "ocorrências_de_ministros_com_repet_%d" % page_rank_number
-generate_barplot(np.array(relat_freqs), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Número de ocorrência de decisões por ministro \ncom repetição de ocorrência de decisões (%s)" % sim_descr
+file_name = "ocorrências_de_ministros_com_repet_%s" % sim_descr
+generate_barplot(np.array(relat_freqs), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
-title = "Número de ocorrências de decisões por ministro \nsem repetição de decisões (%d)" % page_rank_number
-file_name = "ocorrências_de_ministros_sem_repet_%d" % page_rank_number
-generate_barplot(np.array(relat_dec_num), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Número de ocorrências de decisões por ministro \nsem repetição de decisões (%s)" % sim_descr
+file_name = "ocorrências_de_ministros_sem_repet_%s" % sim_descr
+generate_barplot(np.array(relat_dec_num), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
 ylabel = 'Porcentagem'
-title = "Porcentual médio de acórdãos que citam decisões do próprio relator (%d)" % page_rank_number
-file_name = "porc_medio_cit_por_rel_%d" % page_rank_number
-generate_barplot(np.array(porc_cit_por_mesmo_rel), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Porcentual médio de acórdãos que citam \n decisões do próprio relator [citação inversa] - (%s)" % sim_descr
+file_name = "1porc_medio_cit_por_rel_%s" % sim_descr
+generate_barplot(np.array(porc_cit_por_mesmo_rel), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
-title = "Porcentual médio de acórdãos que citam uma \ndada decisão e que pertencem ao mesmo relator (%d)" % page_rank_number
-file_name = "porc_medio_cit_rel_%d" % page_rank_number
-generate_barplot(np.array(porc_cit_mesmo_rel), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Porcentual médio de acórdãos citados \n por decisões do relator e que estão no top 100 \n em alguma iteração [citação direta] - (%s)" % sim_descr
+file_name = "2porc_medio_cit_top100_%s" % sim_descr
+generate_barplot(np.array(porc_cit_alavancadas_para_top100), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
-title = "Porcentual de decisões do relator \nque são citados por decisões presentes no top 100 \nde decisões de alguma iteração (%d)" % page_rank_number
-file_name = "porc_medio_citado_por_top100_%d" % page_rank_number
-generate_barplot(np.array(porc_cit_mesmo_rel_top100), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Porcentual médio de acórdãos citados que \n pertencem ao mesmo relator [citação direta] - (%s)" % sim_descr
+file_name = "3porc_medio_cit_rel_%s" % sim_descr
+generate_barplot(np.array(porc_cit_mesmo_rel), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
-title = "Porcentual médio de acórdãos citados por decisões do \nrelator e que estão presentes no top 100 \nde decisões de alguma iteração (%d)" % page_rank_number
-file_name = "porc_medio_cit_top100_%d" % page_rank_number
-generate_barplot(np.array(porc_cit_alavancadas_para_top100), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Porcentual médio de acórdãos que citam decisões \n do próprio relator e que estão no top 100 \n em alguma iteração [citação inversa] - (%s)" % sim_descr
+file_name = "4porc_medio_cit_por_top100_%s" % sim_descr
+generate_barplot(np.array(porc_cit_alavancamento_para_top100), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
-title = "Porcentual médio de acórdãos que citam uma dada \ndecisão e que estão presentes no top 100 \nde decisões de alguma iteração (%d)" % page_rank_number
-file_name = "porc_medio_cit_por_top100_%d" % page_rank_number
-generate_barplot(np.array(porc_cit_alavancamento_para_top100), title, xlabel, ylabel, file_name, relatores, page_rank_number)
+title = "Porcentual de decisões do relator \n citadas por decisões no top 100 em \n alguma iteração [citação direta] - (%s)" % sim_descr
+file_name = "5porc_cit_por_top100_%s" % sim_descr
+generate_barplot(np.array(porc_cit_mesmo_rel_top100), title, xlabel, ylabel, file_name, relatores, sim_descr)
 
 
 # DESCRIÇÃO GERAL após da por iteração
@@ -428,9 +464,7 @@ for i, pr_list in enumerate(page_ranks_iters):
 frequent_decisions = filter(lambda (k, v): v[-1] > 1, decisions_occurance.iteritems())
 
 # ver se tem algum problema nos critérios de ordenação
-frequent_decisions_sorted = sorted(frequent_decisions, key=lambda x: (x[1][-1], x[1][1]), reverse=True)
-
-print "Number of items whose frequency is higher than 1: %d" % len(frequent_decisions)
+frequent_decisions_sorted = sorted(frequent_decisions, key=lambda x: (x[1][-1], removed_decisions_freq[x[0]] if x[0] in removed_decisions_freq else 0, x[1][1]), reverse=True)
 
 could_be_all_iterations = 0
 # precisa ver tipo exato aqui+
@@ -438,16 +472,31 @@ columns = get_columns_len_tup(frequent_decisions_sorted, None)
 print "Most frequent decisions by invserse order"
 print "RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED"
 # apesar de também serem armazenadas as iterações nas quais
-# os IDs aparecem ache que a informação não era tão relevante 
+# os IDs aparecem ache que a informação não era tão relevante
 for i, (key, value) in enumerate(frequent_decisions_sorted):
     virtual = "S" if value[2] is True else "N"
     times_removed = removed_decisions_freq[key] if key in removed_decisions_freq else 0
     could_be_all_iterations += 1 if (times_removed < 10) and (times_removed + value[3]) == 10 else 0
     string = construct_string([key, value[1], virtual], columns)
-    string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {} | {}".format(value[3], times_removed) 
+    string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {} | {}".format(value[3], times_removed)
     print string
 
-print "\n\nNumber of decisions which could be in all iterations: %d" % could_be_all_iterations
+print "\n", collection_name
+print "Number of decisions which appear on simulations: %d" % len(decisions_occurance)
+print "Number of items whose frequency is higher than 1: %d" % len(frequent_decisions)
+print "Number of decisions which could be in all iterations: %d" % could_be_all_iterations
+
+dec_10_times = len(filter(lambda x: x[1][-1] == 10, frequent_decisions_sorted))
+dec_9_times = len(filter(lambda x: x[1][-1] == 9, frequent_decisions_sorted))
+dec_8_times = len(filter(lambda x: x[1][-1] == 8, frequent_decisions_sorted))
+
+print "decisões que aparecem pelo menos 10 vezes |", dec_10_times
+print "decisões que aparecem pelo menos 9 vezes |", dec_10_times + dec_9_times
+print "decisões que aparecem pelo menos 8 vezes |", dec_10_times + dec_9_times + dec_8_times
+
+# capturar este número pelo script sh para extrair valor dele em script bash para concatenar finais de arquivos
+print len(frequent_decisions_sorted) + 12
+
 # -----  ver como a ordem dos acórdãos se alterna em cada iteração do page rank
 # talvez adicionar informação (tupla) referente a iteração e último rank em que acórdão apareceu
 # pode ser usado um dict para armazenar ambas as informações
