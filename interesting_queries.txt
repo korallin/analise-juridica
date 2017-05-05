@@ -50,11 +50,16 @@ db.acordaos.aggregate(
 )
 
 db.decisoes_monocraticas.aggregate(
-    { $group : {_id : "$acordaoId", total : { $sum : 1 } } },
+    { $group : {_id : "$acordaoId", total : { $sum : 1 } },
     { $match : { total : { $gte : 2 } } },
     { $sort : {total : -1} },
     { $limit : 5 }
     );
+
+db.decisoes_monocraticas.aggregate(
+    { $group : {_id : "$acordaoId", total : { $sum : 1 } },
+    { $match : { total : { $gte : 2 } } }
+    ).toArray().length;
 
 
 ######## Comando para alterar ou inserir informações de um documento do db ##############
