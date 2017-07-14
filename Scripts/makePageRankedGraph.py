@@ -15,7 +15,7 @@ from PageRanker import PageRanker
 #makePageRankedGraph DJs acordaos "tribunal: STF, localSigla: SP" STF_SP_PR1 1
 
 
-# python makePageRankedGraph.py DJTest acordaos 80 S "" stf_pr_1_acordaos_80 1
+# python makePageRankedGraph.py $mongo_user $mongo_password DJs acordaos 90 S "" stf_pr_1_acordaos_90 1
 # dbName = "DJTest"
 # collections_name = "acordaos"
 # percentage = "90"
@@ -24,13 +24,15 @@ from PageRanker import PageRanker
 # collectionOutName = "stf_pr_1_acordaos_90"
 # pageRankMode = "1"
 
-dbName = sys.argv[1]
-collections_name = sys.argv[2]
-percentage = int(sys.argv[3])
-all_relatores = sys.argv[4]
-queryRaw = sys.argv[5]
-collectionOutName = sys.argv[6]
-pageRankMode = sys.argv[7]
+mongo_user = sys.argv[1]
+mongo_password = sys.argv[2]
+dbName = sys.argv[3]
+collections_name = sys.argv[4]
+percentage = int(sys.argv[5])
+all_relatores = sys.argv[6]
+queryRaw = sys.argv[7]
+collectionOutName = sys.argv[8]
+pageRankMode = sys.argv[9]
 query = {}
 
 if queryRaw:
@@ -56,8 +58,8 @@ acordaos = {}
 #     return h1
 
 
-def get_decisions_ids(dbName, collections, query):
-    client = MongoClient('localhost', 27017)
+def get_decisions_ids(dbName, user, password, collections, query):
+    client = MongoClient('mongodb://{}:{}@127.0.0.1:57017'.format(user, password))
     db = client[dbName]
 
     decisions_ids = []
@@ -77,8 +79,8 @@ def get_decisions_ids(dbName, collections, query):
 
     return decisions_ids, colls
 
-def get_top_10_relatores(dbName):
-    client = MongoClient('localhost', 27017)
+def get_top_10_relatores(dbName, user, password):
+    client = MongoClient('mongodb://{}:{}@127.0.0.1:57017'.format(user, password))
     db = client[dbName]
     docs = db['acordaos'].aggregate([{"$group" : {"_id": '$relator', "count": {"$sum": 1}}}, {"$sort": {"count": -1}}, {"$limit": 10}])
     relatores = [doc['_id'] for doc in docs]
@@ -98,14 +100,13 @@ def get_removed_decisions(decisions_ids, percentage):
 
     return removed_decisions
 
-
 try:
     # o referencial adotado aqui para calcular maiores relatores é o
     # número de acórdãos em que os ministros são relatores
     if all_relatores == 'S':
         relatores = [None]
     elif all_relatores == 'N':
-        relatores = get_top_10_relatores(dbName)
+        relatores = get_top_10_relatores(dbName, mongo_user, mongo_password)
     else:
         print "parâmetro Nº 5 deve ser 'S' ou 'N'"
         exit(1)
@@ -124,8 +125,8 @@ try:
         else:
             collection_out_iter_name = collectionOutName
 
-        decisions_ids, collections = get_decisions_ids(dbName, collections_name, query)
-        graphMaker = GraphMaker(dbName, collections, collection_out_iter_name)
+        decisions_ids, collections = get_decisions_ids(dbName, mongo_user, mongo_password, collections_name, query)
+        graphMaker = GraphMaker(mongo_user, mongo_password, dbName, collections, collection_out_iter_name)
         pageRanker = PageRanker()
 
         removed_decisions = []
@@ -161,6 +162,12 @@ try:
                 f.write("Time to insert nodes %d\n" % (datetime.now() - t1).seconds)
 
             removed_decisions = get_removed_decisions(decisions_ids, 100-percentage)
+
+        with open('page_ranking_status.log', 'a') as f:
+            f.write("PageRank simulation took %d seconds to run\n" % (datetime.now() - tini).seconds)
+
+        tini = datetime.now()
+
 
 except Exception as e:
     # os.system('echo %s | mail -s "Page ranker falhou!" -r "Jackson<jackson@ime.usp.br>" jackson@ime.usp.br' % e)

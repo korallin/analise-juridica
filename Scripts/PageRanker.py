@@ -4,7 +4,6 @@
 import gmpy2
 
 from gmpy2 import mpfr
-from pymongo import MongoClient
 from Acordao import Acordao
 from datetime import datetime
 
