@@ -8,8 +8,8 @@ import sys
 
 class GraphMaker:
 
-    def __init__(self, dbName, collections_in, collectionOutName):
-        client = MongoClient('localhost', 27017)
+    def __init__(self, mongo_user, mongo_password, dbName, collections_in, collectionOutName):
+        client = MongoClient('mongodb://{}:{}@127.0.0.1:57017'.format(mongo_user, mongo_password))
         self.db = client[dbName]
         self.collectionsIn = collections_in
         self.collectionOut = self.db[collectionOutName]
@@ -77,7 +77,7 @@ class GraphMaker:
                     continue
 
                 docId = doc['acordaoId']
-                for quotedId in doc['citacoes']:
+                for quotedId in doc['citacoesObs']:
                     # queryWithId = query.copy()
                     # queryWithId['acordaoId'] = quotedId
                     # if self.collectionsIn.find_one( queryWithId):
@@ -89,7 +89,7 @@ class GraphMaker:
                 for similar in doc['similares']:
                     similarId = similar['acordaoId']
                     if similarId not in removed_decisions:
-                        for quotedId in doc['citacoes']:
+                        for quotedId in doc['citacoesObs']:
                             quotes = self.__addElemSetToDict(quotes, similarId, quotedId)
                             quotedBy = self.__addElemSetToDict(quotedBy, quotedId, similarId)
 
