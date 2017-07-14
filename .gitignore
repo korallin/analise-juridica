@@ -3,6 +3,7 @@ scrapy/log_test
 scrapy/**/*.pyc
 scrapy/decisao.log
 scrapy/acordaos/settings.py
-dump*.tar.gz
-inteiros_teores.tar.gz
 Scripts/*.pyc
+logs/*
+backups/*
+automation_scripts/backup_database.sh
