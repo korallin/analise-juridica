@@ -1,13 +1,14 @@
 ##############################################
 Criar backup de base de dados
-mongodump --db DJs 
+mongodump --port 57017 --username user --password pass dump/
 tar -zcvf newdump_`date "+%Y-%m-%d"`.tar.gz dump/
 
 descompactar tar.gz
-mongorestore --db DJs dump/DJs/
 
 # se mongo for 3.2+ usar linha abaixo
 mongorestore --gzip --archive=dump_2016-02-26.gz
+
+mongorestore --port 57017 --username user --password pass dump/
 
 compactar inteiros teores
 ir para diretório scrapy/inteiros_teores
@@ -25,6 +26,13 @@ use DJs
 use DJs
 db.dropDatabase()
 
+use admin
+db.createUser(
+   {
+       user: "jackson", 
+       pwd: "632799saozei", 
+       roles:["root"]
+   })
 
 https://docs.mongodb.org/manual/reference/operator/update/set/
 

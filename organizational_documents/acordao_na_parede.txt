@@ -14,7 +14,7 @@
     "dataJulg" : ISODate("2003-02-27T00:00:00Z"),
     
     "publicacao" : "DJ 29-08-2003 PP-00018          EMENT VOL-02121-02 PP-00338\r\n          RTJ   VOL-00191-01 PP-00105",
-    "dataPublic" : "",
+    "dataPublic" : ISODate("2003-08-29T00:00:00Z"),
 
     "partesTexto" : "AGTE.(S) : PARTIDO SOCIAL LIBERAL - PSL \nADVDO. : WLADIMIR SÉRGIO REALE \nAGDO.(A/S) : PRESIDENTE DA REPÚBLICA \nAGDO.(A/S) : CONGRESSO NACIONAL",
     "partes" : {
