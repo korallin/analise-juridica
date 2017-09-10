@@ -319,6 +319,11 @@ for k, v in rel_freq_iter_dict.iteritems():
 # soma tf-idf de decisões do relator (geral) | soma tf-idf de decisões do relator (top 100)
 # cria dicionário de decisões citadas por cada relator no top 100 | obtém decisões citadas por relator no BD -> criar função que checa # de relatores que citam uma dada decisão
 print "\nRelator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator"
+ws['A' + str(ws.max_row + 2)] = ''
+ws.append(["Relator", "freq dec únicas", "(freq dec únicas)/(freq absol)",
+            "(freq dec únicas)/(# decs relator)", "(freq absol)/(# decs relator)",
+            "soma tf-idf de decisões do relator"])
+
 relatores = []
 relat_dec_num = []
 citacoes_top100 =[]
@@ -346,6 +351,7 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
                                                                             100 * len(f) / 1000.,
                                                                             f_unica/float(f_absol), f_unica/N,
                                                                             f_absol/N, sum_tf_idf)
+    ws.append([r.encode('utf-8'), len(f), f_unica/float(f_absol), f_unica/N, f_absol/N, sum_tf_idf])
     # listas de tuplas com porcentagem de citações a decisões do autor e de outros autores para cada decisão
     porcentagem_cit = []
     # listas de tuplas com porcentagem de citações a uma decisão feita pelo próprio relator ou por outros relatores para cada decisão
