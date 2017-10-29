@@ -150,7 +150,7 @@ try:
                                     (len(quotes), len(removed_decisions), len(quotes) + len(removed_decisions), len(decisions_ids)))
 
             t1 = datetime.now()
-            pageRanks = pageRanker.calculatePageRanks(acordaos, quotes, quotedBy, pageRankMode)
+            pageRanks = pageRanker.calculatePageRanks(acordaos, quotes, quotedBy, int(pageRankMode))
             with open('page_ranking_status.log', 'a') as f:
                 f.write("calculated page rank in iteration %d in %d seconds\n" % (i, (datetime.now() - t1).seconds))
 
