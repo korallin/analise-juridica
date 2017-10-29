@@ -39,7 +39,6 @@ do
 done
 
 
-
 files_content_to_concat=()
 for f in ${file_names[@]}
 do

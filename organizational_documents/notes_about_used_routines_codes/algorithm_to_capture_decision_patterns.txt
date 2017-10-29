@@ -1,0 +1,79 @@
+################### Reflexões de como capturar siglas de decisões ##########################
+Ver se isso está incorporado a algum script do scraper
+
+Exemplos de padrões a serem capturados
+RE nº 463.759/PR
+RE n° 629.080/DF-AgR
+MS 25405/ DF-AgR
+RE nº 864.941/SC-ED-AgR
+AI nº 550.244/MG-AgR-ED
+
+AI 335.046-AgR-ED-EDv-AgR/MG
+RE 146.747-AgR-Edv
+AI 567.171 AgR-ED-EDv-ED/SE
+
+
+para cada tupla
+pega 0º e 2º e 5º (se houver) valores
+
+exemplo: AI nº 567.171/SE-AgR-ED-EDv-ED
+acao_originaria = [0]
+decisao_numero = [2].replace('.', '')
+se 6º valor começa com '-' remove '-', se começa com / remove '/[A-Z]+\-'
+    ex: -AgR-ED-EDv-ED    
+    classes_processuais_str = re.sub('^(\/[A-Z]+\s*(\-|–)|(\-|–|\s+))|(\/[A-Z]+\s*)$)', '', [5])
+    (depois faz split em '-'): classes_processuais_list = [4].split('-')[::-1]
+
+
+para construir código do acórdão:  " ".join(classes_processuais_list) + acao_originaria + decisao_numero
+
+lembrar que acórdãos podem ser mencionados na decisão mais de uma vez
+
+
+citacoesDec = []
+for citacao in citacoes:
+    acao_originaria = citacao[0]
+    decisao_numero = citacao[2].replace('.', '')
+    classes_processuais_str = re.sub('^(\/[A-Z]+\s*(\-|–)|(\-|–|\s+))', '', citacao[7])
+    if classes_processuais_str == "":
+        classes_processuais_str = re.sub('^(\/[A-Z]+\s*(\-|–)|(\-|–|\s+))', '', citacao[12])
+
+    classes_processuais_list = classes_processuais_str.split('-')[::-1]
+
+    decisao_codigo = " ".join(classes_processuais_list) + " " + acao_originaria + " " + decisao_numero
+    citacoesDec.append(decisao_codigo.strip())
+
+
+
+
+
+padrões capturados incorretamente
+padrão | padrão transformado
+RE 227378-SP | SP RE 227378
+
+
+
+([A-Z]\w+)\s+
+([nN].\s+)?
+([0-9]+
+    (
+        (\.[0-9]{3})+
+    )?
+)
+(
+    (
+        (\/\s*[A-Z]+)?
+        (
+            (\-|–|\s+)[A-Z]\w+
+            (
+                (
+                    (\-|–)[A-Z]\w+
+                )+
+            )?
+        )?
+    )
+)
+(?!\/\d+|\.|\d+)
+
+
+([A-Z]\w+)\s+([nN].\s+)?([0-9]+((\.[0-9]{3})+)?)(((\/\s*[A-Z]+)?((\-|–|\s+)[A-Z]\w+(((\-|–)[A-Z]\w+)+)?)?))(?!\/\d+|\.|\d+)

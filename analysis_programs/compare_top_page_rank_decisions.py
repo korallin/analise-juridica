@@ -17,21 +17,33 @@ import os
 import numpy as np
 import re
 
+from openpyxl import Workbook, load_workbook
+
 reload(sys)
 sys.setdefaultencoding('utf8')
 
 # python compare_top_page_rank_decisions.py DJTest stf_pr_1_acordaos
 # python compare_top_page_rank_decisions.py DJTest stf_pr_2_acordaos
+mongo_user = sys.argv[1]
+mongo_password = sys.argv[2]
+dbName = sys.argv[3]
+collection_name = sys.argv[4]
 
-dbName = sys.argv[1]
-collection_name = sys.argv[2]
+spreadsheet_name = "page_ranker_analysis.xlsx"
+if os.path.isfile(spreadsheet_name):
+    wb = load_workbook(spreadsheet_name)
+else:
+    wb = Workbook()
+
+ws = wb.create_sheet(collection_name)
+
 
 # __file__ = '/home/jackson/analise-juridica/Scripts/'
 # dbName = "DJTest"
 # collection_name = "stf_pr_2_acordaos"
 
 
-client = MongoClient('localhost', 27017)
+client = MongoClient('mongodb://{}:{}@127.0.0.1:57017'.format(mongo_user, mongo_password))
 db = client[dbName]
 
 
@@ -95,11 +107,13 @@ def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, sim_d
     bar_width = 0.85
     bars = plt.bar(index, array, bar_width, alpha=0.5, color=cmap.to_rgba(values))
 
-    mean = np.mean(array)
-    median = np.median(array)
+    mean = np.mean(array[~np.isnan(array)])
+    median = np.median(array[~np.isnan(array)])
 
     props = dict(boxstyle='round', facecolor='wheat', alpha=0.5)
     textstr = '$\mu=%.2f$\n$\mathrm{median}=%.2f$\n' % (mean, median)
+    # if there is nan values at array add string to say that xtick x_i is null
+    # think of index of nan to get x_i names
     ax.text(0.95, 0.95, textstr, transform=ax.transAxes, fontsize=14,
             verticalalignment='top', horizontalalignment='right', bbox=props)
 
@@ -123,8 +137,6 @@ def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, sim_d
     plt.close()
 
 
-# função tá errada -> são olhadas aqui apenas decisão no top 100 do page ranking
-# porém, é necessário olhar todas as decisões que tem fulano como relator
 def percentage_citations(cit, c):
     cit_len = len(cit)
     own_author_len = len(filter(lambda x: x in c, cit))
@@ -258,14 +270,16 @@ for i in xrange(10):
 
     print "\n"
 
-
 virtual_decs_a = np.array(virtual_decs)
 print "Virtual decisions in each iteration"
 for i, vd_number in enumerate(virtual_decs_a):
     print "%d: %d" % (i, vd_number)
+
 print "Mean of virtual decisions: %.2f" % np.mean(virtual_decs_a)
 print "Standard deviation of virtual decisions: %.2f" % np.std(virtual_decs_a)
 print "\n"
+ws.append(["Mean of virtual decisions", np.mean(virtual_decs_a)])
+ws.append(["Standard deviation of virtual decisions", np.std(virtual_decs_a)])
 
 
 rel_freqs_dict = {}
@@ -305,6 +319,11 @@ for k, v in rel_freq_iter_dict.iteritems():
 # soma tf-idf de decisões do relator (geral) | soma tf-idf de decisões do relator (top 100)
 # cria dicionário de decisões citadas por cada relator no top 100 | obtém decisões citadas por relator no BD -> criar função que checa # de relatores que citam uma dada decisão
 print "\nRelator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator"
+ws['A' + str(ws.max_row + 2)] = ''
+ws.append(["Relator", "freq dec únicas", "(freq dec únicas)/(freq absol)",
+            "(freq dec únicas)/(# decs relator)", "(freq absol)/(# decs relator)",
+            "soma tf-idf de decisões do relator"])
+
 relatores = []
 relat_dec_num = []
 citacoes_top100 =[]
@@ -332,9 +351,10 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
                                                                             100 * len(f) / 1000.,
                                                                             f_unica/float(f_absol), f_unica/N,
                                                                             f_absol/N, sum_tf_idf)
+    ws.append([r.encode('utf-8'), len(f), f_unica/float(f_absol), f_unica/N, f_absol/N, sum_tf_idf])
     # listas de tuplas com porcentagem de citações a decisões do autor e de outros autores para cada decisão
     porcentagem_cit = []
-    # listas de tuplas com porcentagem de citações à uma decisão feitas pelo próprio relator ou por outros relatores para cada decisão
+    # listas de tuplas com porcentagem de citações a uma decisão feita pelo próprio relator ou por outros relatores para cada decisão
     porcentagem_cit_por = []
 
     # casos em que não há citações são desconsiderados
@@ -351,12 +371,13 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
     citacoes_top100.extend([cit[1] for cit in citacoes])
 
     relatores.append(r.encode('utf-8'))
-    # porcentagem de acórdãos citados que pertencem ao relator
-    porc_cit_mesmo_rel.append(lst_tuples_mean(porcentagem_cit)[0])
-    # porcentagem de acórdãos do relator que citam as decisões dele
-    porc_cit_por_mesmo_rel.append(lst_tuples_mean(porcentagem_cit_por)[0])
-    # gerar histograma com 3 arrays acima
 
+    p_cit = lst_tuples_mean(porcentagem_cit)[0] if porcentagem_cit != [] else np.nan
+    p_cit_por = lst_tuples_mean(porcentagem_cit_por)[0] if porcentagem_cit_por != [] else np.nan
+    porc_cit_mesmo_rel.append(p_cit)
+    # porcentagem de acórdãos do relator que citam as decisões dele
+    porc_cit_por_mesmo_rel.append(p_cit_por)
+    # gerar histograma com 3 arrays acima
 
 
 citacoes_top100 = set(sum(citacoes_top100, []))
@@ -401,10 +422,15 @@ for (r, f) in sorted(rel_freq_iter_dict.items(), key=lambda i: len(i[1]), revers
 
     # porcentagem de acórdãos do relator que são citados por decisões presentes no top 100
     porc_cit_mesmo_rel_top100.append(percentage_citations(r_top100_ids, citacoes_top100)[0])
+
+    p_cit = lst_tuples_mean(porcentagem_cit)[0] if porcentagem_cit != [] else np.nan
+    p_cit_por = lst_tuples_mean(porcentagem_cit_por)[0] if porcentagem_cit_por != [] else np.nan
+
     # porcentagem de acórdãos citados pelo relator que estão no top 100 de alguma iteração
-    porc_cit_alavancadas_para_top100.append(lst_tuples_mean(porcentagem_cit)[0])
+    porc_cit_alavancadas_para_top100.append(p_cit)
     # porcentagem de acórdãos que citam os acórdãos do relator e que estão no top100
-    porc_cit_alavancamento_para_top100.append(lst_tuples_mean(porcentagem_cit_por)[0])
+    porc_cit_alavancamento_para_top100.append(p_cit_por)
+
 
 xlabel = 'Ministros'
 ylabel = 'Número de decisões'
@@ -444,10 +470,14 @@ ids_relatores_intersect = reduce(set.intersection, map(set, page_rank_ids_relato
 columns = get_columns_len_tup(ids_relatores_intersect, list)
 print "\nDecisões presentes em todos as iterações do page rank"
 print "DECISION ID | RELATOR | VIRTUAL"
+ws['A' + str(ws.max_row + 2)] = ''
+ws.append(["DECISION ID", "RELATOR", "VIRTUAL"])
 for pr_it in sorted(ids_relatores_intersect, key=lambda x: x[1]):
     virtual = "S" if pr_it[2] is True else "N"
     string = construct_string([pr_it[0], pr_it[1], virtual], columns)
     print string[:-2]
+    ws.append([pr_it[0], pr_it[1], virtual])
+
 print "\n"
 
 
@@ -466,11 +496,13 @@ frequent_decisions = filter(lambda (k, v): v[-1] > 1, decisions_occurance.iterit
 # ver se tem algum problema nos critérios de ordenação
 frequent_decisions_sorted = sorted(frequent_decisions, key=lambda x: (x[1][-1], removed_decisions_freq[x[0]] if x[0] in removed_decisions_freq else 0, x[1][1]), reverse=True)
 
+ws['A' + str(ws.max_row + 2)] = ''
 could_be_all_iterations = 0
 # precisa ver tipo exato aqui+
 columns = get_columns_len_tup(frequent_decisions_sorted, None)
-print "Most frequent decisions by invserse order"
+print "Most frequent decisions by inverse order"
 print "RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED"
+ws.append(["RANK", "DECISION ID", "RELATOR", "VIRTUAL", "NUMBER OF OCCURANCES", "TIMES REMOVED"])
 # apesar de também serem armazenadas as iterações nas quais
 # os IDs aparecem ache que a informação não era tão relevante
 for i, (key, value) in enumerate(frequent_decisions_sorted):
@@ -480,11 +512,16 @@ for i, (key, value) in enumerate(frequent_decisions_sorted):
     string = construct_string([key, value[1], virtual], columns)
     string = " {}{} |".format(i+1, " " * (4 - len(str(j)))) + string + " {} | {}".format(value[3], times_removed)
     print string
+    ws.append([i+1, key, value[1], virtual, value[3], times_removed])
+
 
 print "\n", collection_name
 print "Number of decisions which appear on simulations: %d" % len(decisions_occurance)
 print "Number of items whose frequency is higher than 1: %d" % len(frequent_decisions)
 print "Number of decisions which could be in all iterations: %d" % could_be_all_iterations
+ws.append(["Number of decisions which appear on simulations", len(decisions_occurance)])
+ws.append(["Number of items whose frequency is higher than 1", len(frequent_decisions)])
+ws.append(["Number of decisions which could be in all iterations", could_be_all_iterations])
 
 dec_10_times = len(filter(lambda x: x[1][-1] == 10, frequent_decisions_sorted))
 dec_9_times = len(filter(lambda x: x[1][-1] == 9, frequent_decisions_sorted))
@@ -493,6 +530,11 @@ dec_8_times = len(filter(lambda x: x[1][-1] == 8, frequent_decisions_sorted))
 print "decisões que aparecem pelo menos 10 vezes |", dec_10_times
 print "decisões que aparecem pelo menos 9 vezes |", dec_10_times + dec_9_times
 print "decisões que aparecem pelo menos 8 vezes |", dec_10_times + dec_9_times + dec_8_times
+ws.append(["decisões que aparecem pelo menos 10 vezes", dec_10_times])
+ws.append(["decisões que aparecem pelo menos 9 vezes", dec_10_times + dec_9_times])
+ws.append(["decisões que aparecem pelo menos 8 vezes", dec_10_times + dec_9_times + dec_8_times])
+
+wb.save(spreadsheet_name)
 
 # capturar este número pelo script sh para extrair valor dele em script bash para concatenar finais de arquivos
 print len(frequent_decisions_sorted) + 12
