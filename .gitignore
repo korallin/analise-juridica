@@ -7,3 +7,4 @@ Scripts/*.pyc
 logs/*
 backups/*
 automation_scripts/backup_database.sh
+*.pyc
