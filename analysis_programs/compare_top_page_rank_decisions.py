@@ -534,11 +534,32 @@ ws.append(["decisões que aparecem pelo menos 10 vezes", dec_10_times])
 ws.append(["decisões que aparecem pelo menos 9 vezes", dec_10_times + dec_9_times])
 ws.append(["decisões que aparecem pelo menos 8 vezes", dec_10_times + dec_9_times + dec_8_times])
 
-wb.save(spreadsheet_name)
 
 # capturar este número pelo script sh para extrair valor dele em script bash para concatenar finais de arquivos
 print len(frequent_decisions_sorted) + 12
 
+
+dec_ocur_at_leats_8_times = [acord[0] for acord in filter(lambda (k, v): v[-1] >= 8, decisions_occurance.iteritems())]
+counts_iter = []
+for pr_list in page_ranks_iters:
+    count = 0
+    for pr_it in pr_list:
+        dec_id = pr_it['acordaoId']
+        if dec_id in dec_ocur_at_leats_8_times:
+            count += 1
+
+    counts_iter.append(count) 
+
+
+ws['A' + str(ws.max_row + 2)] = ''
+ws.append(["Número médio de ocorrência por iteração das decisões que aparecem pelo menos 8 vezes", 
+            np.mean(np.array(counts_iter))])
+
+ws.append(["Desvio padrão de ocorrência das decisões que aparecem pelo menos 8 vezes nas 10 iterações", 
+            np.std(np.array(counts_iter))])
+
+
+wb.save(spreadsheet_name)
 # -----  ver como a ordem dos acórdãos se alterna em cada iteração do page rank
 # talvez adicionar informação (tupla) referente a iteração e último rank em que acórdão apareceu
 # pode ser usado um dict para armazenar ambas as informações
