@@ -16,7 +16,8 @@ wb = load_workbook(file_name)
 
 def calc_qui_square_test(wb, file_name, sheet_name, skiprows=None):
     df = pd.read_excel(file_name, sheet_name, index_col=0, header=0, skiprows=skiprows)
-    quisq_test, p_value, dof, _ = stats.chi2_contingency(np.array([df["Alg 1"].values, df["Alg 2"].values]))
+    columns = df.columns
+    quisq_test, p_value, dof, _ = stats.chi2_contingency(np.array([df[columns[0]].values, df[columns[1]].values]))
 
     print sheet_name, quisq_test, p_value, dof, _
 

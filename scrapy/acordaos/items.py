@@ -32,15 +32,15 @@ class DecisaoItem(Item):
 
 class AcordaoItem(DecisaoItem):
     orgaoJulg   = Field()
-    fontePublic = Field()
+    # fontePublic = Field() -> não é usada de fato
     ementa      = Field()
     doutrinas   = Field()
-    resumo      = Field()
-    tags        = Field()
-    notas       = Field()
-    file_urls = scrapy.Field()
-    files = scrapy.Field()
+    # resumo      = Field() -> não é usado de fato
     tagsTexto = Field()
+    tags        = Field()
+    # notas       = Field() -> não é usado de fato
+    file_urls = scrapy.Field()
+    # files = scrapy.Field() -> não é usado de fato
 
 
 class LawItem(Item):
