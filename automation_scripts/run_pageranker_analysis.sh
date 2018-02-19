@@ -17,25 +17,31 @@ echo -n "Enter your MongoDB password and press [ENTER]: "
 read -s mongo_password
 
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_90 > page_rank_1_acordaos_90.txt
+run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_90_replaced_col > page_rank_1_acordaos_90_replaced_col.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_90 > page_rank_2_acordaos_90.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_90_par > page_rank_2_acordaos_90_par.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_80 > page_rank_1_acordaos_80.txt
+run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_80_replaced_col > page_rank_1_acordaos_80_replaced_col.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_80 > page_rank_2_acordaos_80.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_80_par > page_rank_2_acordaos_80_par.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_70 > page_rank_1_acordaos_70.txt
+run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_70_replaced_col > page_rank_1_acordaos_70_replaced_col.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_70 > page_rank_2_acordaos_70.txt
 run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_70_par > page_rank_2_acordaos_70_par.txt
 
 
 file_names=("page_rank_1_acordaos_90.txt" "page_rank_2_acordaos_90.txt" "page_rank_1_acordaos_80.txt"
             "page_rank_2_acordaos_80.txt" "page_rank_1_acordaos_70.txt" "page_rank_2_acordaos_70.txt",
-            "page_rank_2_acordaos_80_par.txt" "page_rank_1_acordaos_70_par.txt" "page_rank_2_acordaos_70_par.txt")
+            "page_rank_2_acordaos_80_par.txt" "page_rank_1_acordaos_70_par.txt" "page_rank_2_acordaos_70_par.txt"
+	"page_rank_1_acordaos_90_replaced_col.txt" "page_rank_1_acordaos_80_replaced_col.txt" "page_rank_1_acordaos_70_replaced_col.txt")
 for i in {1..10}
 do
     run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_90_rel_"$i" > page_rank_1_acordaos_90_rel_"$i".txt
+    run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_1_acordaos_90_replaced_col_rel_"$i" > page_rank_1_acordaos_90_replaced_col_rel_"$i".txt
     run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_90_rel_"$i" > page_rank_2_acordaos_90_rel_"$i".txt
     run_script python compare_top_page_rank_decisions.py $mongo_user $mongo_password DJs stf_pr_2_acordaos_90_par_rel_"$i" > page_rank_2_acordaos_90_par_rel_"$i".txt
-    file_names+=("page_rank_1_acordaos_90_rel_"$i".txt" "page_rank_2_acordaos_90_rel_"$i".txt" "page_rank_2_acordaos_90_par_rel_"$i".txt")
+    file_names+=("page_rank_1_acordaos_90_rel_"$i".txt" "page_rank_1_acordaos_90_replaced_col_rel_"$i".txt" 
+		"page_rank_2_acordaos_90_rel_"$i".txt" "page_rank_2_acordaos_90_par_rel_"$i".txt")
 done
 
 
