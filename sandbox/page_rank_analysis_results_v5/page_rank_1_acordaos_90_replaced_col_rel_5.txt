@@ -1,0 +1,1384 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002460
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001330
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001330
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001330
+ 5    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 6    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000201
+ 7    | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 8    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 9    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 10   | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 11   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 12   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000201
+ 13   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 14   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 15   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000201
+ 16   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 17   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 18   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 19   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000201
+ 20   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000201
+ 21   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 22   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 23   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000201
+ 24   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 25   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 26   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 27   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 28   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 29   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 30   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000201
+ 31   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000201
+ 32   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 33   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 34   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 35   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000201
+ 36   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 37   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 38   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 39   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 40   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 41   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 42   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 43   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 44   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 45   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 46   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 47   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 48   | ED ARE 807093                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 49   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 50   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 51   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 52   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 53   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 54   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 55   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 56   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 57   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 58   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 59   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 60   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000201
+ 61   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 62   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 63   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 64   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 65   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 66   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 67   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 68   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 69   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 70   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 71   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 72   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 73   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000201
+ 74   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 75   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 76   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000201
+ 77   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 78   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 79   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000201
+ 80   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 81   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 82   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 83   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 84   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 85   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 86   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000201
+ 87   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000201
+ 88   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 89   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 90   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 91   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 92   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 93   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 94   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 95   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 96   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 97   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 0.000201
+ 98   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 99   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000201
+ 100  | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000201
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 541584 | RICARDO LEWANDOWSKI | N
+ AGR AI 591532 | RICARDO LEWANDOWSKI | N
+ HC 89223      | RICARDO LEWANDOWSKI | N
+ ED ARE 695504 | RICARDO LEWANDOWSKI | N
+ HC 109073     | RICARDO LEWANDOWSKI | N
+ HC 92340      | RICARDO LEWANDOWSKI | N
+ AGR AI 639510 | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002737
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001480
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001480
+ 4    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 5    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR AI 858205                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | HC 114592                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 99860                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR ARE 644906                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | AGR AI 690450                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | AGR AGR AP 483                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ RE 592581       | RICARDO LEWANDOWSKI | N
+ AGR RE 633077   | RICARDO LEWANDOWSKI | N
+ AGR RE 656651   | RICARDO LEWANDOWSKI | N
+ AGR AI 665853   | RICARDO LEWANDOWSKI | N
+ HC 113103       | RICARDO LEWANDOWSKI | N
+ RE 591874       | RICARDO LEWANDOWSKI | N
+ HC 114029       | RICARDO LEWANDOWSKI | N
+ ED ARE 761279   | RICARDO LEWANDOWSKI | N
+ AGR RE 385256   | RICARDO LEWANDOWSKI | N
+ ED AGR RCL 7982 | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002730
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 5    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | AGR AI 858205                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR ARE 644906                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | HC 110358                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | RHC 117931                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | AGR AI 732358                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | AGR AGR AP 483                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | HC 109101                           | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR RE 553315    | RICARDO LEWANDOWSKI | N
+ ED AGR AI 747420 | RICARDO LEWANDOWSKI | N
+ AGR AI 553712    | RICARDO LEWANDOWSKI | N
+ AGR RE 610191    | RICARDO LEWANDOWSKI | N
+ RHC 92354        | RICARDO LEWANDOWSKI | N
+ AGR AI 607769    | RICARDO LEWANDOWSKI | N
+ AGR RE 652330    | RICARDO LEWANDOWSKI | N
+ AGR ARE 644906   | RICARDO LEWANDOWSKI | N
+ AGR AI 597474    | RICARDO LEWANDOWSKI | N
+ AGR AI 693928    | RICARDO LEWANDOWSKI | N
+ HC 110358        | RICARDO LEWANDOWSKI | N
+ HC 109101        | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002730
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 5    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR AI 858205                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR ED RE 542290                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | ED RE 443646                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR MS 31885                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR ARE 667674                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | SEGUNDO AGR AI 657946               | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | AGR AI 690450                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | AGR AGR AP 483                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | ED AGR EDV ED ED AGR RE 421102      | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | HC 110353                           | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ RE 592581     | RICARDO LEWANDOWSKI | N
+ AGR RE 656651 | RICARDO LEWANDOWSKI | N
+ HC 114597     | RICARDO LEWANDOWSKI | N
+ HC 109073     | RICARDO LEWANDOWSKI | N
+ AGR RE 605404 | RICARDO LEWANDOWSKI | N
+ AGR RE 473155 | RICARDO LEWANDOWSKI | N
+ HC 110353     | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002730
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 5    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | HC 116771                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | HC 110358                           | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 704539                       | RICARDO LEWANDOWSKI | N
+ AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N
+ AGR AI 665853                       | RICARDO LEWANDOWSKI | N
+ AGR AI 616891                       | RICARDO LEWANDOWSKI | N
+ RHC 92354                           | RICARDO LEWANDOWSKI | N
+ AGR RE 582926                       | RICARDO LEWANDOWSKI | N
+ AGR RE 558402                       | RICARDO LEWANDOWSKI | N
+ AGR AI 643463                       | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464              | RICARDO LEWANDOWSKI | N | 0.002737
+ 2    | RE 510378              | RICARDO LEWANDOWSKI | N | 0.001480
+ 3    | HC 100122              | RICARDO LEWANDOWSKI | N | 0.001480
+ 4    | AGR ARE 771774         | RICARDO LEWANDOWSKI | N | 0.000223
+ 5    | RHC 115983             | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | AGR AI 852672          | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | RE 592581              | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR ARE 702999         | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | HC 92290               | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | AGR HC 90209           | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR ARE 803737         | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR AI 758732          | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | ED AGR AI 747420       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | AGR ARE 668478         | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR RE 449775          | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 633077          | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | ED MS 30585            | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | AGR RE 614274          | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR RE 656651          | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR ARE 694140         | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | TERCEIRO AGR AI 551597 | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | AGR RE 553315          | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | HC 113103              | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 727507          | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | AGR RE 353296          | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | HC 120216              | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | RHC 120133             | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | ED AGR AI 663576       | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | AGR AI 616147          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | AGR AI 699051          | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | RE 591874              | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | ED AGR AI 463407       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | AGR AI 731570          | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | AGR AI 652200          | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 611723          | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 553712          | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 820924          | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 668681          | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | MS 28576               | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR ARE 695894         | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR RE 635085          | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR AI 541584          | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | HC 95969               | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | ED ARE 807093          | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | AGR AI 802046          | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | RE 506734              | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR ARE 755898         | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | AGR AI 591532          | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | HC 89223               | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR AI 672478          | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR RCL 11835          | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | AGR RE 610191          | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | AGR RE 633117          | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | HC 114592              | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | ED RE 386776           | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | HC 114597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 97230               | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | HC 114029              | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | AGR AI 625373          | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR RE 621702          | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR RE 408689          | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 109073              | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | HC 115514              | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | AGR AI 715282          | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | HC 92340               | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR AI 854307          | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR HC 92461           | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR AI 607769          | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR RE 465985          | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | HC 94902               | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR AI 622383          | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR AI 684700          | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR RE 652330          | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 458618          | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR RE 652301          | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 626371          | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | HC 117001              | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | ED EI HC 100346        | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR AI 639510          | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 634072          | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR RE 697710          | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 749969          | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 605404          | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | ED ARE 761279          | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR AI 840390          | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR RE 473155          | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR AI 687274          | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR ARE 644906         | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 597474          | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR AI 693928          | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR RE 385256          | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR AI 709447          | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR RCL 6093           | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR ARE 738327         | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | AGR ARE 640544         | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | SEGUNDO AGR ARE 772741 | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | HC 110358              | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | ED AGR RCL 7982        | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | AGR AI 690450          | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | AGR AGR AP 483         | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 803737  | RICARDO LEWANDOWSKI | N
+ AGR AI 541584   | RICARDO LEWANDOWSKI | N
+ HC 95969        | RICARDO LEWANDOWSKI | N
+ AGR AI 622383   | RICARDO LEWANDOWSKI | N
+ AGR AI 626371   | RICARDO LEWANDOWSKI | N
+ HC 117001       | RICARDO LEWANDOWSKI | N
+ AGR AI 749969   | RICARDO LEWANDOWSKI | N
+ AGR ARE 644906  | RICARDO LEWANDOWSKI | N
+ AGR AI 709447   | RICARDO LEWANDOWSKI | N
+ AGR RCL 6093    | RICARDO LEWANDOWSKI | N
+ ED AGR RCL 7982 | RICARDO LEWANDOWSKI | N
+ AGR AI 690450   | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002730
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 5    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR AI 836223                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | ED ARE 807093                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 813628                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR RE 614274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | HC 110358                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | RHC 117931                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | AGR AI 732358                       | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ RE 499464     | RICARDO LEWANDOWSKI | N
+ RE 510378     | RICARDO LEWANDOWSKI | N
+ AGR RE 633077 | RICARDO LEWANDOWSKI | N
+ RE 506734     | RICARDO LEWANDOWSKI | N
+ AGR RCL 11835 | RICARDO LEWANDOWSKI | N
+ AGR RE 621702 | RICARDO LEWANDOWSKI | N
+ AGR RE 408689 | RICARDO LEWANDOWSKI | N
+ HC 90414      | RICARDO LEWANDOWSKI | N
+ AGR RE 465985 | RICARDO LEWANDOWSKI | N
+ ED ARE 761279 | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001487
+ 2    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001487
+ 3    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 4    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 5    | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | ED ARE 807093                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | AGR AI 680578                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | HC 115517                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR AI 813628                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | HC 110358                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | AGR AI 732358                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | AGR AGR AP 483                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | HC 109101                           | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 758732  | RICARDO LEWANDOWSKI | N
+ AGR AI 553712  | RICARDO LEWANDOWSKI | N
+ ED ARE 807093  | RICARDO LEWANDOWSKI | N
+ HC 114597      | RICARDO LEWANDOWSKI | N
+ AGR AI 715282  | RICARDO LEWANDOWSKI | N
+ AGR AI 854307  | RICARDO LEWANDOWSKI | N
+ AGR AI 607769  | RICARDO LEWANDOWSKI | N
+ AGR RE 385256  | RICARDO LEWANDOWSKI | N
+ AGR RCL 6093   | RICARDO LEWANDOWSKI | N
+ AGR ARE 640544 | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001484
+ 2    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001484
+ 3    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001484
+ 4    | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 5    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | HC 114592                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 121408                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | AGR RE 508993                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | HC 117001                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR ARE 644906                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR RE 614274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | SEGUNDO AGR AI 657946               | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | HC 110358                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | RHC 117931                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | AGR AI 732358                       | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 771774 | RICARDO LEWANDOWSKI | N
+ AGR AI 852672  | RICARDO LEWANDOWSKI | N
+ AGR AI 672478  | RICARDO LEWANDOWSKI | N
+ AGR RE 633117  | RICARDO LEWANDOWSKI | N
+ HC 114592      | RICARDO LEWANDOWSKI | N
+ AGR RE 582926  | RICARDO LEWANDOWSKI | N
+ AGR RE 558402  | RICARDO LEWANDOWSKI | N
+ AGR RE 652330  | RICARDO LEWANDOWSKI | N
+ AGR AI 626371  | RICARDO LEWANDOWSKI | N
+ HC 117001      | RICARDO LEWANDOWSKI | N
+ AGR AI 639510  | RICARDO LEWANDOWSKI | N
+ HC 110358      | RICARDO LEWANDOWSKI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 499464                           | RICARDO LEWANDOWSKI | N | 0.002730
+ 2    | RE 576155                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 3    | RE 510378                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 4    | HC 100122                           | RICARDO LEWANDOWSKI | N | 0.001476
+ 5    | RHC 115983                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 6    | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 7    | RE 592581                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 8    | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 9    | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 10   | HC 92290                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 11   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 12   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 13   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 14   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 15   | AGR AI 858205                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 16   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 17   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 18   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 0.000223
+ 19   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 0.000223
+ 20   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 21   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 22   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 0.000223
+ 23   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 24   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 25   | HC 113103                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 26   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 27   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 28   | HC 120216                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 29   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 0.000223
+ 30   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 31   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 32   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 33   | RE 591874                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 34   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 0.000223
+ 35   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 36   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 37   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 38   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 39   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 40   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 41   | MS 28576                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 42   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 43   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 44   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 45   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 46   | HC 95969                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 47   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 48   | RE 506734                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 49   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 50   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 51   | HC 89223                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 52   | HC 96003                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 53   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 54   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 55   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 56   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 57   | HC 114597                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 58   | HC 97230                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 59   | HC 114029                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 60   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 61   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 62   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 63   | HC 109073                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 64   | HC 115514                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 65   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 66   | HC 92340                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 67   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 68   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 69   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 70   | HC 90414                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 71   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 72   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 73   | HC 94902                            | RICARDO LEWANDOWSKI | N | 0.000223
+ 74   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 75   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 76   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 77   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 78   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 79   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 80   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 81   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 82   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 83   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 84   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 85   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 86   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 87   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 88   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 89   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 90   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 91   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 92   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 0.000223
+ 93   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 94   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 0.000223
+ 95   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 0.000223
+ 96   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 0.000223
+ 97   | AGR AI 690450                       | RICARDO LEWANDOWSKI | N | 0.000223
+ 98   | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 0.000223
+ 99   | HC 109101                           | RICARDO LEWANDOWSKI | N | 0.000223
+ 100  | HC 110353                           | RICARDO LEWANDOWSKI | N | 0.000223
+
+
+Virtual decisions in each iteration
+0: 0
+1: 0
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 0
+8: 0
+9: 0
+Mean of virtual decisions: 0.00
+Standard deviation of virtual decisions: 0.00
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 2 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 3 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 4 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 5 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 6 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 7 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 8 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 9 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Iteração 10 | # de relatores na iteração 1
+RICARDO LEWANDOWSKI: 100
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+RICARDO LEWANDOWSKI | 1000 (100.00%) | 10 | 100.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+RICARDO LEWANDOWSKI | 134 (13.40%) | 0.13 | 0.0270 | 0.2017 | 0.0000 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ RHC 115983             | RICARDO LEWANDOWSKI | N
+ ED MS 30585            | RICARDO LEWANDOWSKI | N
+ AGR RE 353296          | RICARDO LEWANDOWSKI | N
+ AGR AI 611723          | RICARDO LEWANDOWSKI | N
+ AGR AI 616147          | RICARDO LEWANDOWSKI | N
+ AGR ARE 694140         | RICARDO LEWANDOWSKI | N
+ AGR AI 699051          | RICARDO LEWANDOWSKI | N
+ ED AGR AI 463407       | RICARDO LEWANDOWSKI | N
+ HC 115514              | RICARDO LEWANDOWSKI | N
+ ED RE 386776           | RICARDO LEWANDOWSKI | N
+ ED EI HC 100346        | RICARDO LEWANDOWSKI | N
+ HC 94902               | RICARDO LEWANDOWSKI | N
+ AGR AI 634072          | RICARDO LEWANDOWSKI | N
+ AGR RE 697710          | RICARDO LEWANDOWSKI | N
+ AGR RE 458618          | RICARDO LEWANDOWSKI | N
+ AGR AI 802046          | RICARDO LEWANDOWSKI | N
+ AGR ARE 755898         | RICARDO LEWANDOWSKI | N
+ AGR ARE 695894         | RICARDO LEWANDOWSKI | N
+ AGR AI 625373          | RICARDO LEWANDOWSKI | N
+ AGR AI 840390          | RICARDO LEWANDOWSKI | N
+ AGR AI 687274          | RICARDO LEWANDOWSKI | N
+ ED AGR AI 663576       | RICARDO LEWANDOWSKI | N
+ HC 97230               | RICARDO LEWANDOWSKI | N
+ HC 120216              | RICARDO LEWANDOWSKI | N
+ RHC 120133             | RICARDO LEWANDOWSKI | N
+ TERCEIRO AGR AI 551597 | RICARDO LEWANDOWSKI | N
+ AGR AI 684700          | RICARDO LEWANDOWSKI | N
+ AGR RE 727507          | RICARDO LEWANDOWSKI | N
+ AGR AI 652200          | RICARDO LEWANDOWSKI | N
+ AGR RE 449775          | RICARDO LEWANDOWSKI | N
+ AGR AI 668681          | RICARDO LEWANDOWSKI | N
+ AGR HC 92461           | RICARDO LEWANDOWSKI | N
+ MS 28576               | RICARDO LEWANDOWSKI | N
+ AGR ARE 668478         | RICARDO LEWANDOWSKI | N
+ AGR ARE 702999         | RICARDO LEWANDOWSKI | N
+ HC 92290               | RICARDO LEWANDOWSKI | N
+
+
+Most frequent decisions by inverse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 115983                          | RICARDO LEWANDOWSKI | N | 10 | 0
+ 2   | AGR ARE 668478                      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 3   | AGR ARE 702999                      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 4   | HC 92290                            | RICARDO LEWANDOWSKI | N | 10 | 0
+ 5   | ED MS 30585                         | RICARDO LEWANDOWSKI | N | 10 | 0
+ 6   | AGR ARE 694140                      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 7   | TERCEIRO AGR AI 551597              | RICARDO LEWANDOWSKI | N | 10 | 0
+ 8   | AGR RE 727507                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 9   | AGR RE 353296                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 10   | HC 120216                           | RICARDO LEWANDOWSKI | N | 10 | 0
+ 11   | RHC 120133                          | RICARDO LEWANDOWSKI | N | 10 | 0
+ 12   | AGR AI 616147                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 13   | AGR AI 699051                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 14   | ED AGR AI 463407                    | RICARDO LEWANDOWSKI | N | 10 | 0
+ 15   | AGR AI 652200                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 16   | AGR AI 611723                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 17   | AGR AI 668681                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 18   | MS 28576                            | RICARDO LEWANDOWSKI | N | 10 | 0
+ 19   | AGR ARE 695894                      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 20   | AGR AI 802046                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 21   | AGR ARE 755898                      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 22   | ED RE 386776                        | RICARDO LEWANDOWSKI | N | 10 | 0
+ 23   | HC 97230                            | RICARDO LEWANDOWSKI | N | 10 | 0
+ 24   | AGR AI 625373                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 25   | HC 115514                           | RICARDO LEWANDOWSKI | N | 10 | 0
+ 26   | AGR HC 92461                        | RICARDO LEWANDOWSKI | N | 10 | 0
+ 27   | HC 94902                            | RICARDO LEWANDOWSKI | N | 10 | 0
+ 28   | AGR AI 684700                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 29   | AGR RE 458618                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 30   | ED EI HC 100346                     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 31   | AGR AI 634072                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 32   | AGR RE 697710                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 33   | AGR AI 840390                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 34   | AGR AI 687274                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 35   | AGR RE 449775                       | RICARDO LEWANDOWSKI | N | 10 | 0
+ 36   | ED AGR AI 663576                    | RICARDO LEWANDOWSKI | N | 10 | 0
+ 37   | AGR ARE 771774                      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 38   | AGR AI 704539                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 39   | RE 591874                           | RICARDO LEWANDOWSKI | N | 9 | 1
+ 40   | HC 95969                            | RICARDO LEWANDOWSKI | N | 9 | 1
+ 41   | AGR ARE 803737                      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 42   | AGR RCL 11835                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 43   | AGR AI 758732                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 44   | AGR ED AGR AGR EDV ED AGR AI 636616 | RICARDO LEWANDOWSKI | N | 9 | 1
+ 45   | AGR RE 553315                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 46   | HC 113103                           | RICARDO LEWANDOWSKI | N | 9 | 1
+ 47   | ED AGR AI 747420                    | RICARDO LEWANDOWSKI | N | 9 | 1
+ 48   | AGR AI 616891                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 49   | RE 506734                           | RICARDO LEWANDOWSKI | N | 9 | 1
+ 50   | AGR AI 591532                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 51   | HC 89223                            | RICARDO LEWANDOWSKI | N | 9 | 1
+ 52   | AGR AI 672478                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 53   | AGR RE 610191                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 54   | AGR RE 633117                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 55   | HC 114029                           | RICARDO LEWANDOWSKI | N | 9 | 1
+ 56   | AGR RE 621702                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 57   | AGR RE 408689                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 58   | AGR AI 715282                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 59   | HC 92340                            | RICARDO LEWANDOWSKI | N | 9 | 1
+ 60   | AGR AI 854307                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 61   | AGR RE 465985                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 62   | AGR AI 643463                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 63   | AGR AI 749969                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 64   | AGR RE 605404                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 65   | AGR RE 473155                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 66   | AGR AI 597474                       | RICARDO LEWANDOWSKI | N | 9 | 1
+ 67   | RE 510378                           | RICARDO LEWANDOWSKI | N | 9 | 1
+ 68   | AGR ARE 738327                      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 69   | AGR RE 635085                       | RICARDO LEWANDOWSKI | N | 9 | 0
+ 70   | SEGUNDO AGR ARE 772741              | RICARDO LEWANDOWSKI | N | 9 | 0
+ 71   | RE 576155                           | RICARDO LEWANDOWSKI | N | 9 | 0
+ 72   | HC 100122                           | RICARDO LEWANDOWSKI | N | 9 | 0
+ 73   | AGR AI 731570                       | RICARDO LEWANDOWSKI | N | 9 | 0
+ 74   | RE 592581                           | RICARDO LEWANDOWSKI | N | 8 | 2
+ 75   | AGR RE 633077                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 76   | AGR AI 665853                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 77   | AGR AI 553712                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 78   | HC 114597                           | RICARDO LEWANDOWSKI | N | 8 | 2
+ 79   | AGR RE 582926                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 80   | HC 109073                           | RICARDO LEWANDOWSKI | N | 8 | 2
+ 81   | AGR AI 607769                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 82   | AGR RE 558402                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 83   | AGR AI 622383                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 84   | AGR AI 626371                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 85   | HC 117001                           | RICARDO LEWANDOWSKI | N | 8 | 2
+ 86   | AGR AI 639510                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 87   | AGR RE 385256                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 88   | AGR RE 652330                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 89   | AGR AI 693928                       | RICARDO LEWANDOWSKI | N | 8 | 2
+ 90   | HC 90414                            | RICARDO LEWANDOWSKI | N | 8 | 1
+ 91   | RE 499464                           | RICARDO LEWANDOWSKI | N | 8 | 1
+ 92   | AGR HC 90209                        | RICARDO LEWANDOWSKI | N | 8 | 1
+ 93   | AGR AI 820924                       | RICARDO LEWANDOWSKI | N | 8 | 0
+ 94   | AGR AI 541584                       | RICARDO LEWANDOWSKI | N | 7 | 3
+ 95   | RHC 92354                           | RICARDO LEWANDOWSKI | N | 7 | 3
+ 96   | ED ARE 761279                       | RICARDO LEWANDOWSKI | N | 7 | 3
+ 97   | ED AGR RCL 7982                     | RICARDO LEWANDOWSKI | N | 7 | 2
+ 98   | AGR AI 709447                       | RICARDO LEWANDOWSKI | N | 7 | 2
+ 99   | AGR RCL 6093                        | RICARDO LEWANDOWSKI | N | 7 | 2
+ 100   | AGR RE 656651                       | RICARDO LEWANDOWSKI | N | 7 | 2
+ 101   | AGR ARE 640544                      | RICARDO LEWANDOWSKI | N | 7 | 1
+ 102   | AGR ARE 898634                      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 103   | HC 110358                           | RICARDO LEWANDOWSKI | N | 6 | 3
+ 104   | AGR AI 852672                       | RICARDO LEWANDOWSKI | N | 6 | 1
+ 105   | AGR AGR AP 483                      | RICARDO LEWANDOWSKI | N | 5 | 1
+ 106   | ED EDV AGR AI 665622                | RICARDO LEWANDOWSKI | N | 5 | 1
+ 107   | ED ARE 695504                       | RICARDO LEWANDOWSKI | N | 5 | 1
+ 108   | AGR RCL 7218                        | RICARDO LEWANDOWSKI | N | 5 | 0
+ 109   | AGR ARE 644906                      | RICARDO LEWANDOWSKI | N | 4 | 2
+ 110   | AGR AI 690450                       | RICARDO LEWANDOWSKI | N | 4 | 2
+ 111   | AGR AI 858205                       | RICARDO LEWANDOWSKI | N | 4 | 1
+ 112   | ED ARE 807093                       | RICARDO LEWANDOWSKI | N | 4 | 1
+ 113   | AGR AI 732358                       | RICARDO LEWANDOWSKI | N | 4 | 0
+ 114   | HC 114592                           | RICARDO LEWANDOWSKI | N | 3 | 2
+ 115   | HC 109101                           | RICARDO LEWANDOWSKI | N | 3 | 2
+ 116   | AGR RE 614274                       | RICARDO LEWANDOWSKI | N | 3 | 0
+ 117   | RHC 117931                          | RICARDO LEWANDOWSKI | N | 3 | 0
+ 118   | HC 110353                           | RICARDO LEWANDOWSKI | N | 2 | 1
+ 119   | SEGUNDO AGR AI 657946               | RICARDO LEWANDOWSKI | N | 2 | 0
+ 120   | AGR AI 813628                       | RICARDO LEWANDOWSKI | N | 2 | 0
+
+stf_pr_1_acordaos_90_replaced_col_rel_5
+Number of decisions which appear on simulations: 134
+Number of items whose frequency is higher than 1: 120
+Number of decisions which could be in all iterations: 86
+decisões que aparecem pelo menos 10 vezes | 36
+decisões que aparecem pelo menos 9 vezes | 73
+decisões que aparecem pelo menos 8 vezes | 93
+132

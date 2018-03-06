@@ -1,0 +1,3805 @@
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | ADI 699   | SYDNEY SANCHES      | S | 10 | 0
+ 2   | ADI 508   | SYDNEY SANCHES      | N | 10 | 0
+ 3   | ADI 990   | SYDNEY SANCHES      | N | 10 | 0
+ 4   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 10 | 0
+ 5   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 10 | 0
+ 6   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 10 | 0
+ 7   | RE 557542 | RICARDO LEWANDOWSKI | S | 10 | 0
+ 8   | ADI 1040  | NÉRI DA SILVEIRA    | N | 10 | 0
+ 9   | ADI 347   | JOAQUIM BARBOSA     | N | 10 | 0
+ 10   | RE 272872 | ILMAR GALVÃO        | N | 10 | 0
+ 11   | RE 346084 | ILMAR GALVÃO        | N | 10 | 0
+ 12   | RE 571572 | GILMAR MENDES       | N | 10 | 0
+ 13   | RE 453740 | GILMAR MENDES       | N | 10 | 0
+ 14   | ADI 1571  | GILMAR MENDES       | N | 10 | 0
+ 15   | ADI 144   | GILMAR MENDES       | N | 10 | 0
+ 16   | ADI 3322  | GILMAR MENDES       | N | 10 | 0
+ 17   | ADI 3533  | EROS GRAU           | N | 10 | 0
+ 18   | ADI 2615  | EROS GRAU           | N | 10 | 0
+ 19   | ADI 559   | EROS GRAU           | N | 10 | 0
+ 20   | RCL 5758  | CÁRMEN LÚCIA        | N | 10 | 0
+ 21   | ADI 1893  | CARLOS VELLOSO      | N | 10 | 0
+ 22   | ADI 544   | CARLOS VELLOSO      | N | 10 | 0
+ 23   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 24   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 25   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 26   | MS 30822  | RICARDO LEWANDOWSKI | N | 9 | 1
+ 27   | RHC 81796 | NÉRI DA SILVEIRA    | N | 9 | 1
+ 28   | ADI 2602  | JOAQUIM BARBOSA     | N | 9 | 1
+ 29   | ADI 1472  | ILMAR GALVÃO        | N | 9 | 1
+ 30   | ADI 3847  | GILMAR MENDES       | N | 9 | 1
+ 31   | ADI 2078  | GILMAR MENDES       | N | 9 | 1
+ 32   | ADI 554   | EROS GRAU           | N | 9 | 1
+ 33   | ADI 3105  | ELLEN GRACIE        | N | 9 | 1
+ 34   | ADI 2158  | DIAS TOFFOLI        | N | 9 | 1
+ 35   | RE 396266 | CARLOS VELLOSO      | N | 9 | 1
+ 36   | ADI 678   | CARLOS VELLOSO      | N | 9 | 1
+ 37   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 9 | 0
+ 38   | HC 81231  | NÉRI DA SILVEIRA    | N | 9 | 0
+ 39   | ADI 1918  | MAURÍCIO CORRÊA     | N | 9 | 0
+ 40   | IF 2953   | MARCO AURÉLIO       | S | 9 | 0
+ 41   | RE 458110 | MARCO AURÉLIO       | N | 9 | 0
+ 42   | ADI 1623  | JOAQUIM BARBOSA     | N | 9 | 0
+ 43   | RE 290079 | ILMAR GALVÃO        | N | 9 | 0
+ 44   | ADI 1595  | EROS GRAU           | S | 9 | 0
+ 45   | ADI 2655  | ELLEN GRACIE        | N | 9 | 0
+ 46   | ADI 703   | ELLEN GRACIE        | N | 9 | 0
+ 47   | ADI 1141  | ELLEN GRACIE        | N | 9 | 0
+ 48   | ADI 1980  | CEZAR PELUSO        | N | 9 | 0
+ 49   | MS 24847  | CELSO DE MELLO      | S | 9 | 0
+ 50   | MS 24845  | CELSO DE MELLO      | S | 9 | 0
+ 51   | MS 24848  | CELSO DE MELLO      | S | 9 | 0
+ 52   | MI 529    | CARLOS VELLOSO      | S | 9 | 0
+ 53   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 54   | ADI 1903  | RICARDO LEWANDOWSKI | N | 8 | 2
+ 55   | HC 81162  | MOREIRA ALVES       | N | 8 | 2
+ 56   | RE 377457 | GILMAR MENDES       | N | 8 | 2
+ 57   | ADI 1399  | MAURÍCIO CORRÊA     | N | 8 | 1
+ 58   | RE 423768 | MARCO AURÉLIO       | N | 8 | 1
+ 59   | ADI 2682  | GILMAR MENDES       | N | 8 | 1
+ 60   | ADI 1646  | GILMAR MENDES       | N | 8 | 1
+ 61   | ADI 1991  | EROS GRAU           | N | 8 | 1
+ 62   | ADI 3826  | EROS GRAU           | N | 8 | 1
+ 63   | ADI 743   | ELLEN GRACIE        | N | 8 | 1
+ 64   | ADI 2031  | ELLEN GRACIE        | N | 8 | 1
+ 65   | ADI 2732  | DIAS TOFFOLI        | N | 8 | 1
+ 66   | MS 24849  | CELSO DE MELLO      | N | 8 | 1
+ 67   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 8 | 0
+ 68   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 8 | 0
+ 69   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 8 | 0
+ 70   | RE 418918 | ELLEN GRACIE        | N | 8 | 0
+ 71   | MS 24784  | CARLOS VELLOSO      | N | 8 | 0
+ 72   | ADI 1921  | CARLOS VELLOSO      | N | 8 | 0
+ 73   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 7 | 3
+ 74   | RE 258980 | ILMAR GALVÃO        | N | 7 | 3
+ 75   | MS 24138  | GILMAR MENDES       | N | 7 | 3
+ 76   | RE 415454 | GILMAR MENDES       | N | 7 | 3
+ 77   | ADI 2448  | SYDNEY SANCHES      | N | 7 | 2
+ 78   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 7 | 2
+ 79   | ADI 1654  | MAURÍCIO CORRÊA     | N | 7 | 2
+ 80   | MI 721    | MARCO AURÉLIO       | N | 7 | 2
+ 81   | HC 80837  | CELSO DE MELLO      | N | 7 | 2
+ 82   | RE 558258 | RICARDO LEWANDOWSKI | N | 7 | 1
+ 83   | HC 80721  | NÉRI DA SILVEIRA    | N | 7 | 1
+ 84   | EXT 803   | NELSON JOBIM        | N | 7 | 1
+ 85   | MS 24958  | MARCO AURÉLIO       | N | 7 | 1
+ 86   | RE 206048 | MARCO AURÉLIO       | N | 7 | 1
+ 87   | RE 376846 | CARLOS VELLOSO      | N | 7 | 1
+ 88   | ADC 4     | SYDNEY SANCHES      | N | 7 | 0
+ 89   | RE 141190 | ILMAR GALVÃO        | N | 7 | 0
+ 90   | RE 416827 | GILMAR MENDES       | S | 7 | 0
+ 91   | ADI 1949  | DIAS TOFFOLI        | N | 7 | 0
+ 92   | ADI 3305  | EROS GRAU           | N | 6 | 2
+ 93   | ADI 3128  | ELLEN GRACIE        | N | 6 | 2
+ 94   | ADI 2242  | MOREIRA ALVES       | N | 6 | 1
+ 95   | HC 82959  | MARCO AURÉLIO       | N | 6 | 1
+ 96   | RE 325822 | ILMAR GALVÃO        | N | 6 | 1
+ 97   | ADI 2690  | GILMAR MENDES       | N | 6 | 1
+ 98   | ADI 1628  | EROS GRAU           | N | 6 | 1
+ 99   | ADI 1007  | EROS GRAU           | N | 6 | 0
+ 100   | ADI 2847  | CARLOS VELLOSO      | N | 6 | 0
+ 101   | ADI 1691  | MOREIRA ALVES       | N | 5 | 1
+ 102   | ADI 305   | MAURÍCIO CORRÊA     | N | 5 | 1
+ 103   | ADI 4369  | MARCO AURÉLIO       | N | 5 | 1
+ 104   | ADI 2874  | MARCO AURÉLIO       | N | 5 | 1
+ 105   | ADI 2024  | SEPÚLVEDA PERTENCE  | N | 5 | 0
+ 106   | RE 313382 | MAURÍCIO CORRÊA     | N | 5 | 0
+ 107   | ADI 1281  | MAURÍCIO CORRÊA     | N | 5 | 0
+ 108   | RE 567454 | CARLOS BRITTO       | N | 5 | 0
+ 109   | EXT 793   | MAURÍCIO CORRÊA     | N | 4 | 2
+ 110   | RCL 7569  | ELLEN GRACIE        | N | 4 | 2
+ 111   | ADI 2050  | MAURÍCIO CORRÊA     | N | 4 | 1
+ 112   | ADI 2225  | DIAS TOFFOLI        | N | 4 | 1
+ 113   | ADI 2220  | CÁRMEN LÚCIA        | N | 4 | 1
+ 114   | EXT 814   | MOREIRA ALVES       | N | 4 | 0
+ 115   | ADI 2055  | MOREIRA ALVES       | S | 4 | 0
+ 116   | ADI 1901  | ILMAR GALVÃO        | N | 4 | 0
+ 117   | RE 381964 | GILMAR MENDES       | S | 4 | 0
+ 118   | HC 84998  | MARCO AURÉLIO       | N | 3 | 1
+ 119   | ADI 1879  | JOAQUIM BARBOSA     | N | 3 | 1
+ 120   | RE 564354 | CÁRMEN LÚCIA        | N | 3 | 1
+ 121   | INQ 2052  | MARCO AURÉLIO       | N | 3 | 0
+ 122   | RE 318644 | ILMAR GALVÃO        | S | 3 | 0
+ 123   | HC 85185  | CEZAR PELUSO        | N | 3 | 0
+ 124   | HC 85601  | CEZAR PELUSO        | N | 3 | 0
+ 125   | HC 90684  | CEZAR PELUSO        | N | 3 | 0
+ 126   | ADI 2280  | JOAQUIM BARBOSA     | N | 2 | 4
+ 127   | RE 255858 | ILMAR GALVÃO        | N | 2 | 2
+ 128   | ADI 2724  | GILMAR MENDES       | N | 2 | 2
+ 129   | ADI 2275  | MAURÍCIO CORRÊA     | N | 2 | 1
+ 130   | ADI 2267  | MAURÍCIO CORRÊA     | N | 2 | 1
+ 131   | RE 419075 | MARCO AURÉLIO       | N | 2 | 1
+ 132   | ADI 2129  | EROS GRAU           | N | 2 | 1
+ 133   | ADI 2269  | EROS GRAU           | N | 2 | 1
+ 134   | MS 24742  | MARCO AURÉLIO       | N | 2 | 0
+ 135   | ADI 2059  | EROS GRAU           | N | 2 | 0
+ 136   | RE 347825 | ELLEN GRACIE        | N | 2 | 0
+ 137   | RE 420816 | CARLOS VELLOSO      | N | 2 | 0
+ 138   | ADI 1145  | CARLOS VELLOSO      | N | 2 | 0
+
+stf_pr_1_acordaos
+Number of decisions which appear on simulations: 175
+Number of items whose frequency is higher than 1: 138
+Number of decisions which could be in all iterations: 44
+decisões que aparecem pelo menos 10 vezes | 22
+decisões que aparecem pelo menos 9 vezes | 52
+decisões que aparecem pelo menos 8 vezes | 72
+150
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | ADI 990   | SYDNEY SANCHES      | N | 10 | 0
+ 2   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 10 | 0
+ 3   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 10 | 0
+ 4   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 10 | 0
+ 5   | RE 557542 | RICARDO LEWANDOWSKI | S | 10 | 0
+ 6   | ADI 1040  | NÉRI DA SILVEIRA    | N | 10 | 0
+ 7   | HC 80721  | NÉRI DA SILVEIRA    | N | 10 | 0
+ 8   | HC 81162  | MOREIRA ALVES       | N | 10 | 0
+ 9   | IF 2953   | MARCO AURÉLIO       | S | 10 | 0
+ 10   | ADI 2602  | JOAQUIM BARBOSA     | N | 10 | 0
+ 11   | RE 272872 | ILMAR GALVÃO        | N | 10 | 0
+ 12   | RE 571572 | GILMAR MENDES       | N | 10 | 0
+ 13   | ADI 2690  | GILMAR MENDES       | N | 10 | 0
+ 14   | MS 24138  | GILMAR MENDES       | N | 10 | 0
+ 15   | RE 415454 | GILMAR MENDES       | N | 10 | 0
+ 16   | RE 416827 | GILMAR MENDES       | S | 10 | 0
+ 17   | ADI 3105  | ELLEN GRACIE        | N | 10 | 0
+ 18   | ADI 3128  | ELLEN GRACIE        | N | 10 | 0
+ 19   | ADI 2158  | DIAS TOFFOLI        | N | 10 | 0
+ 20   | RCL 5758  | CÁRMEN LÚCIA        | N | 10 | 0
+ 21   | MS 24847  | CELSO DE MELLO      | S | 10 | 0
+ 22   | MS 24845  | CELSO DE MELLO      | S | 10 | 0
+ 23   | MS 24848  | CELSO DE MELLO      | S | 10 | 0
+ 24   | MS 24849  | CELSO DE MELLO      | N | 10 | 0
+ 25   | HC 80837  | CELSO DE MELLO      | N | 10 | 0
+ 26   | RE 376846 | CARLOS VELLOSO      | N | 10 | 0
+ 27   | ADI 1893  | CARLOS VELLOSO      | N | 10 | 0
+ 28   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 29   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 30   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 31   | MS 30822  | RICARDO LEWANDOWSKI | N | 9 | 1
+ 32   | RHC 81796 | NÉRI DA SILVEIRA    | N | 9 | 1
+ 33   | ADI 305   | MAURÍCIO CORRÊA     | N | 9 | 1
+ 34   | ADI 1654  | MAURÍCIO CORRÊA     | N | 9 | 1
+ 35   | RE 290079 | ILMAR GALVÃO        | N | 9 | 1
+ 36   | RE 141190 | ILMAR GALVÃO        | N | 9 | 1
+ 37   | RE 377457 | GILMAR MENDES       | N | 9 | 1
+ 38   | ADI 2682  | GILMAR MENDES       | N | 9 | 1
+ 39   | ADI 3322  | GILMAR MENDES       | N | 9 | 1
+ 40   | ADI 3533  | EROS GRAU           | N | 9 | 1
+ 41   | ADI 559   | EROS GRAU           | N | 9 | 1
+ 42   | ADI 1141  | ELLEN GRACIE        | N | 9 | 1
+ 43   | ADI 1949  | DIAS TOFFOLI        | N | 9 | 1
+ 44   | RE 396266 | CARLOS VELLOSO      | N | 9 | 1
+ 45   | ADI 678   | CARLOS VELLOSO      | N | 9 | 1
+ 46   | ADI 2847  | CARLOS VELLOSO      | N | 9 | 1
+ 47   | HC 81231  | NÉRI DA SILVEIRA    | N | 9 | 0
+ 48   | ADI 2242  | MOREIRA ALVES       | N | 9 | 0
+ 49   | ADI 2874  | MARCO AURÉLIO       | N | 9 | 0
+ 50   | ADI 3847  | GILMAR MENDES       | N | 9 | 0
+ 51   | ADI 1595  | EROS GRAU           | S | 9 | 0
+ 52   | ADI 2615  | EROS GRAU           | N | 9 | 0
+ 53   | ADI 554   | EROS GRAU           | N | 9 | 0
+ 54   | ADI 743   | ELLEN GRACIE        | N | 9 | 0
+ 55   | MI 529    | CARLOS VELLOSO      | S | 9 | 0
+ 56   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 57   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 58   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 59   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 60   | ADI 1399  | MAURÍCIO CORRÊA     | N | 8 | 2
+ 61   | MS 24958  | MARCO AURÉLIO       | N | 8 | 2
+ 62   | RE 206048 | MARCO AURÉLIO       | N | 8 | 2
+ 63   | RE 258980 | ILMAR GALVÃO        | N | 8 | 2
+ 64   | ADI 1472  | ILMAR GALVÃO        | N | 8 | 2
+ 65   | RE 346084 | ILMAR GALVÃO        | N | 8 | 2
+ 66   | RE 453740 | GILMAR MENDES       | N | 8 | 2
+ 67   | ADI 1571  | GILMAR MENDES       | N | 8 | 2
+ 68   | ADI 508   | SYDNEY SANCHES      | N | 8 | 1
+ 69   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 70   | EXT 803   | NELSON JOBIM        | N | 8 | 1
+ 71   | MI 721    | MARCO AURÉLIO       | N | 8 | 1
+ 72   | ADI 347   | JOAQUIM BARBOSA     | N | 8 | 1
+ 73   | RE 325822 | ILMAR GALVÃO        | N | 8 | 1
+ 74   | ADI 703   | ELLEN GRACIE        | N | 8 | 1
+ 75   | ADI 1980  | CEZAR PELUSO        | N | 8 | 1
+ 76   | ADI 699   | SYDNEY SANCHES      | S | 8 | 0
+ 77   | ADI 2448  | SYDNEY SANCHES      | N | 8 | 0
+ 78   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 8 | 0
+ 79   | ADI 1918  | MAURÍCIO CORRÊA     | N | 8 | 0
+ 80   | RE 458110 | MARCO AURÉLIO       | N | 8 | 0
+ 81   | ADI 1628  | EROS GRAU           | N | 8 | 0
+ 82   | ADI 1991  | EROS GRAU           | N | 8 | 0
+ 83   | MS 24784  | CARLOS VELLOSO      | N | 8 | 0
+ 84   | RE 423768 | MARCO AURÉLIO       | N | 7 | 3
+ 85   | ADI 544   | CARLOS VELLOSO      | N | 7 | 3
+ 86   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 7 | 2
+ 87   | ADI 2050  | MAURÍCIO CORRÊA     | N | 7 | 2
+ 88   | ADI 1646  | GILMAR MENDES       | N | 7 | 2
+ 89   | ADI 2655  | ELLEN GRACIE        | N | 7 | 2
+ 90   | ADI 1281  | MAURÍCIO CORRÊA     | N | 7 | 1
+ 91   | HC 82959  | MARCO AURÉLIO       | N | 7 | 1
+ 92   | ADI 1623  | JOAQUIM BARBOSA     | N | 7 | 1
+ 93   | ADI 2078  | GILMAR MENDES       | N | 7 | 1
+ 94   | RE 558258 | RICARDO LEWANDOWSKI | N | 7 | 0
+ 95   | ADI 1879  | JOAQUIM BARBOSA     | N | 7 | 0
+ 96   | ADI 1901  | ILMAR GALVÃO        | N | 7 | 0
+ 97   | ADI 144   | GILMAR MENDES       | N | 7 | 0
+ 98   | ADI 2732  | DIAS TOFFOLI        | N | 7 | 0
+ 99   | ADC 4     | SYDNEY SANCHES      | N | 6 | 2
+ 100   | ADI 1903  | RICARDO LEWANDOWSKI | N | 6 | 2
+ 101   | ADI 2220  | CÁRMEN LÚCIA        | N | 6 | 2
+ 102   | ADI 1921  | CARLOS VELLOSO      | N | 6 | 2
+ 103   | ADI 2031  | ELLEN GRACIE        | N | 6 | 0
+ 104   | ADI 3826  | EROS GRAU           | N | 5 | 2
+ 105   | RE 418918 | ELLEN GRACIE        | N | 5 | 0
+ 106   | RCL 7569  | ELLEN GRACIE        | N | 4 | 2
+ 107   | ADI 3305  | EROS GRAU           | N | 4 | 1
+ 108   | ADI 1721  | CARLOS BRITTO       | N | 4 | 1
+ 109   | ADI 4369  | MARCO AURÉLIO       | N | 4 | 0
+ 110   | ADI 1007  | EROS GRAU           | N | 4 | 0
+ 111   | ADI 2225  | DIAS TOFFOLI        | N | 4 | 0
+ 112   | RE 313382 | MAURÍCIO CORRÊA     | N | 3 | 2
+ 113   | HC 85185  | CEZAR PELUSO        | N | 3 | 1
+ 114   | EXT 793   | MAURÍCIO CORRÊA     | N | 3 | 0
+ 115   | RE 419075 | MARCO AURÉLIO       | N | 3 | 0
+ 116   | EXT 814   | MOREIRA ALVES       | N | 2 | 3
+ 117   | ADI 3323  | JOAQUIM BARBOSA     | N | 2 | 2
+ 118   | HC 81288  | MAURÍCIO CORRÊA     | N | 2 | 1
+ 119   | MS 24742  | MARCO AURÉLIO       | N | 2 | 1
+ 120   | RE 388359 | MARCO AURÉLIO       | N | 2 | 1
+ 121   | ADI 1942  | EDSON FACHIN        | N | 2 | 1
+ 122   | RE 567454 | CARLOS BRITTO       | N | 2 | 1
+ 123   | ADI 1972  | TEORI ZAVASCKI      | N | 2 | 0
+ 124   | HC 81409  | NELSON JOBIM        | S | 2 | 0
+ 125   | RE 255858 | ILMAR GALVÃO        | N | 2 | 0
+ 126   | ADI 2424  | GILMAR MENDES       | N | 2 | 0
+ 127   | HC 102826 | CELSO DE MELLO      | S | 2 | 0
+ 128   | HC 103826 | CELSO DE MELLO      | S | 2 | 0
+
+stf_pr_2_acordaos
+Number of decisions which appear on simulations: 175
+Number of items whose frequency is higher than 1: 128
+Number of decisions which could be in all iterations: 60
+decisões que aparecem pelo menos 10 vezes | 27
+decisões que aparecem pelo menos 9 vezes | 55
+decisões que aparecem pelo menos 8 vezes | 83
+140
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 10 | 0
+ 2   | RE 453740 | GILMAR MENDES       | N | 10 | 0
+ 3   | ADI 3105  | ELLEN GRACIE        | N | 10 | 0
+ 4   | RE 376846 | CARLOS VELLOSO      | N | 10 | 0
+ 5   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 6   | RE 272872 | ILMAR GALVÃO        | N | 9 | 1
+ 7   | RE 571572 | GILMAR MENDES       | N | 9 | 1
+ 8   | ADI 678   | CARLOS VELLOSO      | N | 9 | 1
+ 9   | RE 557542 | RICARDO LEWANDOWSKI | S | 9 | 0
+ 10   | IF 2953   | MARCO AURÉLIO       | S | 9 | 0
+ 11   | ADI 2874  | MARCO AURÉLIO       | N | 9 | 0
+ 12   | ADI 743   | ELLEN GRACIE        | N | 9 | 0
+ 13   | RE 418918 | ELLEN GRACIE        | N | 9 | 0
+ 14   | MI 529    | CARLOS VELLOSO      | S | 9 | 0
+ 15   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 16   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 17   | MS 30822  | RICARDO LEWANDOWSKI | N | 8 | 2
+ 18   | ADI 1399  | MAURÍCIO CORRÊA     | N | 8 | 2
+ 19   | ADI 1654  | MAURÍCIO CORRÊA     | N | 8 | 2
+ 20   | RE 258980 | ILMAR GALVÃO        | N | 8 | 2
+ 21   | ADI 1472  | ILMAR GALVÃO        | N | 8 | 2
+ 22   | ADI 1571  | GILMAR MENDES       | N | 8 | 2
+ 23   | RE 415454 | GILMAR MENDES       | N | 8 | 2
+ 24   | RCL 5758  | CÁRMEN LÚCIA        | N | 8 | 2
+ 25   | RE 396266 | CARLOS VELLOSO      | N | 8 | 2
+ 26   | ADI 508   | SYDNEY SANCHES      | N | 8 | 1
+ 27   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 28   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 29   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 30   | ADI 305   | MAURÍCIO CORRÊA     | N | 8 | 1
+ 31   | RE 206048 | MARCO AURÉLIO       | N | 8 | 1
+ 32   | ADI 347   | JOAQUIM BARBOSA     | N | 8 | 1
+ 33   | RE 325822 | ILMAR GALVÃO        | N | 8 | 1
+ 34   | ADI 1991  | EROS GRAU           | N | 8 | 1
+ 35   | ADI 3533  | EROS GRAU           | N | 8 | 1
+ 36   | ADI 2615  | EROS GRAU           | N | 8 | 1
+ 37   | ADI 703   | ELLEN GRACIE        | N | 8 | 1
+ 38   | ADI 699   | SYDNEY SANCHES      | S | 8 | 0
+ 39   | ADI 2448  | SYDNEY SANCHES      | N | 8 | 0
+ 40   | ADI 2690  | GILMAR MENDES       | N | 8 | 0
+ 41   | RE 416827 | GILMAR MENDES       | S | 8 | 0
+ 42   | ADI 1595  | EROS GRAU           | S | 8 | 0
+ 43   | ADI 990   | SYDNEY SANCHES      | N | 7 | 3
+ 44   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 7 | 3
+ 45   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 7 | 3
+ 46   | ADI 1040  | NÉRI DA SILVEIRA    | N | 7 | 3
+ 47   | RHC 81796 | NÉRI DA SILVEIRA    | N | 7 | 3
+ 48   | HC 81162  | MOREIRA ALVES       | N | 7 | 3
+ 49   | ADI 2602  | JOAQUIM BARBOSA     | N | 7 | 3
+ 50   | RE 346084 | ILMAR GALVÃO        | N | 7 | 3
+ 51   | RE 377457 | GILMAR MENDES       | N | 7 | 3
+ 52   | ADI 3322  | GILMAR MENDES       | N | 7 | 3
+ 53   | ADI 1141  | ELLEN GRACIE        | N | 7 | 3
+ 54   | ADC 4     | SYDNEY SANCHES      | N | 7 | 2
+ 55   | MS 24958  | MARCO AURÉLIO       | N | 7 | 2
+ 56   | RE 458110 | MARCO AURÉLIO       | N | 7 | 2
+ 57   | HC 82959  | MARCO AURÉLIO       | N | 7 | 2
+ 58   | HC 80837  | CELSO DE MELLO      | N | 7 | 2
+ 59   | MS 24784  | CARLOS VELLOSO      | N | 7 | 2
+ 60   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 7 | 1
+ 61   | HC 81231  | NÉRI DA SILVEIRA    | N | 7 | 1
+ 62   | HC 80721  | NÉRI DA SILVEIRA    | N | 7 | 1
+ 63   | ADI 3305  | EROS GRAU           | N | 7 | 1
+ 64   | ADI 1949  | DIAS TOFFOLI        | N | 7 | 1
+ 65   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 7 | 0
+ 66   | MS 24847  | CELSO DE MELLO      | S | 7 | 0
+ 67   | MS 24845  | CELSO DE MELLO      | S | 7 | 0
+ 68   | MS 24848  | CELSO DE MELLO      | S | 7 | 0
+ 69   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 6 | 4
+ 70   | MS 24138  | GILMAR MENDES       | N | 6 | 4
+ 71   | ADI 1893  | CARLOS VELLOSO      | N | 6 | 4
+ 72   | ADI 1918  | MAURÍCIO CORRÊA     | N | 6 | 3
+ 73   | MI 721    | MARCO AURÉLIO       | N | 6 | 3
+ 74   | ADI 1623  | JOAQUIM BARBOSA     | N | 6 | 3
+ 75   | RE 141190 | ILMAR GALVÃO        | N | 6 | 3
+ 76   | ADI 2078  | GILMAR MENDES       | N | 6 | 3
+ 77   | ADI 1646  | GILMAR MENDES       | N | 6 | 3
+ 78   | ADI 1628  | EROS GRAU           | N | 6 | 3
+ 79   | ADI 1980  | CEZAR PELUSO        | N | 6 | 3
+ 80   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 81   | RE 558258 | RICARDO LEWANDOWSKI | N | 6 | 2
+ 82   | ADI 1903  | RICARDO LEWANDOWSKI | N | 6 | 2
+ 83   | ADI 2682  | GILMAR MENDES       | N | 6 | 2
+ 84   | ADI 559   | EROS GRAU           | N | 6 | 2
+ 85   | ADI 2655  | ELLEN GRACIE        | N | 6 | 2
+ 86   | ADI 1921  | CARLOS VELLOSO      | N | 6 | 2
+ 87   | EXT 803   | NELSON JOBIM        | N | 6 | 1
+ 88   | ADI 3826  | EROS GRAU           | N | 6 | 1
+ 89   | ADI 1007  | EROS GRAU           | N | 6 | 1
+ 90   | ADI 2158  | DIAS TOFFOLI        | N | 6 | 1
+ 91   | ADI 1879  | JOAQUIM BARBOSA     | N | 6 | 0
+ 92   | RE 290079 | ILMAR GALVÃO        | N | 6 | 0
+ 93   | RE 423768 | MARCO AURÉLIO       | N | 5 | 5
+ 94   | ADI 544   | CARLOS VELLOSO      | N | 5 | 4
+ 95   | ADI 554   | EROS GRAU           | N | 5 | 3
+ 96   | ADI 3128  | ELLEN GRACIE        | N | 5 | 3
+ 97   | MS 24849  | CELSO DE MELLO      | N | 5 | 3
+ 98   | ADI 4369  | MARCO AURÉLIO       | N | 5 | 2
+ 99   | ADI 144   | GILMAR MENDES       | N | 5 | 2
+ 100   | ADI 2031  | ELLEN GRACIE        | N | 5 | 2
+ 101   | RCL 7569  | ELLEN GRACIE        | N | 5 | 2
+ 102   | ADI 2225  | DIAS TOFFOLI        | N | 5 | 2
+ 103   | HC 85185  | CEZAR PELUSO        | N | 5 | 2
+ 104   | ADI 3847  | GILMAR MENDES       | N | 5 | 1
+ 105   | ADI 1691  | MOREIRA ALVES       | N | 5 | 0
+ 106   | ADI 2050  | MAURÍCIO CORRÊA     | N | 5 | 0
+ 107   | MS 24742  | MARCO AURÉLIO       | N | 5 | 0
+ 108   | RE 318644 | ILMAR GALVÃO        | S | 5 | 0
+ 109   | ADI 2732  | DIAS TOFFOLI        | N | 5 | 0
+ 110   | ADI 2220  | CÁRMEN LÚCIA        | N | 5 | 0
+ 111   | RE 313382 | MAURÍCIO CORRÊA     | N | 4 | 5
+ 112   | ADI 2847  | CARLOS VELLOSO      | N | 4 | 5
+ 113   | ADI 1901  | ILMAR GALVÃO        | N | 4 | 3
+ 114   | RE 347825 | ELLEN GRACIE        | N | 4 | 3
+ 115   | HC 81288  | MAURÍCIO CORRÊA     | N | 4 | 2
+ 116   | RE 420816 | CARLOS VELLOSO      | N | 4 | 2
+ 117   | ADI 1721  | CARLOS BRITTO       | N | 4 | 2
+ 118   | ADI 2242  | MOREIRA ALVES       | N | 4 | 1
+ 119   | RE 419075 | MARCO AURÉLIO       | N | 4 | 1
+ 120   | RE 305186 | ILMAR GALVÃO        | N | 4 | 1
+ 121   | RE 291188 | SEPÚLVEDA PERTENCE  | N | 4 | 0
+ 122   | HC 81409  | NELSON JOBIM        | S | 4 | 0
+ 123   | RE 381964 | GILMAR MENDES       | S | 4 | 0
+ 124   | HC 109956 | MARCO AURÉLIO       | N | 3 | 4
+ 125   | MS 24268  | ELLEN GRACIE        | N | 3 | 4
+ 126   | ADI 1281  | MAURÍCIO CORRÊA     | N | 3 | 3
+ 127   | ADI 1274  | CARLOS VELLOSO      | N | 3 | 3
+ 128   | RE 567454 | CARLOS BRITTO       | N | 3 | 3
+ 129   | RE 449420 | SEPÚLVEDA PERTENCE  | N | 3 | 2
+ 130   | RE 388359 | MARCO AURÉLIO       | N | 3 | 2
+ 131   | MI 758    | MARCO AURÉLIO       | N | 3 | 2
+ 132   | ADI 2724  | GILMAR MENDES       | N | 3 | 2
+ 133   | ADI 2059  | EROS GRAU           | N | 3 | 2
+ 134   | RE 564354 | CÁRMEN LÚCIA        | N | 3 | 2
+ 135   | ADC 16    | CEZAR PELUSO        | N | 3 | 2
+ 136   | ADI 800   | TEORI ZAVASCKI      | N | 3 | 1
+ 137   | ADI 2024  | SEPÚLVEDA PERTENCE  | N | 3 | 1
+ 138   | EXT 814   | MOREIRA ALVES       | N | 3 | 1
+ 139   | EXT 793   | MAURÍCIO CORRÊA     | N | 3 | 1
+ 140   | ADI 2061  | ILMAR GALVÃO        | N | 3 | 1
+ 141   | RE 298616 | GILMAR MENDES       | N | 3 | 1
+ 142   | RE 410778 | GILMAR MENDES       | N | 3 | 1
+ 143   | RE 563965 | CÁRMEN LÚCIA        | N | 3 | 1
+ 144   | RE 255858 | ILMAR GALVÃO        | N | 3 | 0
+ 145   | ADI 2334  | GILMAR MENDES       | N | 3 | 0
+ 146   | ADI 2129  | EROS GRAU           | N | 3 | 0
+ 147   | ADI 1195  | EDSON FACHIN        | S | 3 | 0
+ 148   | HC 103826 | CELSO DE MELLO      | S | 3 | 0
+ 149   | HC 102826 | CELSO DE MELLO      | S | 3 | 0
+ 150   | ADI 1972  | TEORI ZAVASCKI      | N | 2 | 5
+ 151   | ADI 1642  | EROS GRAU           | N | 2 | 4
+ 152   | ADI 4259  | EDSON FACHIN        | N | 2 | 4
+ 153   | RE 343446 | CARLOS VELLOSO      | N | 2 | 4
+ 154   | ADI 132   | SEPÚLVEDA PERTENCE  | N | 2 | 3
+ 155   | ADI 4180  | GILMAR MENDES       | N | 2 | 3
+ 156   | CC 7204   | CARLOS BRITTO       | N | 2 | 3
+ 157   | ADI 4478  | AYRES BRITTO        | N | 2 | 3
+ 158   | ADI 3046  | SEPÚLVEDA PERTENCE  | N | 2 | 2
+ 159   | INQ 2052  | MARCO AURÉLIO       | N | 2 | 2
+ 160   | ADI 2280  | JOAQUIM BARBOSA     | N | 2 | 2
+ 161   | ADI 3323  | JOAQUIM BARBOSA     | N | 2 | 2
+ 162   | ADI 550   | ILMAR GALVÃO        | N | 2 | 2
+ 163   | ADI 336   | EROS GRAU           | N | 2 | 2
+ 164   | HC 85452  | EROS GRAU           | N | 2 | 1
+ 165   | HC 112324 | ROSA WEBER          | S | 2 | 0
+ 166   | RE 536754 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 167   | RE 511222 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 168   | RE 542594 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 169   | RE 543163 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 170   | RE 542646 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 171   | RE 526512 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 172   | RE 542422 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 173   | RE 510735 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 174   | HC 85273  | CEZAR PELUSO        | S | 2 | 0
+
+stf_pr_1_acordaos_80
+Number of decisions which appear on simulations: 224
+Number of items whose frequency is higher than 1: 174
+Number of decisions which could be in all iterations: 34
+decisões que aparecem pelo menos 10 vezes | 4
+decisões que aparecem pelo menos 9 vezes | 14
+decisões que aparecem pelo menos 8 vezes | 42
+186
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | ADI 990   | SYDNEY SANCHES      | N | 10 | 0
+ 2   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 10 | 0
+ 3   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 10 | 0
+ 4   | HC 80721  | NÉRI DA SILVEIRA    | N | 10 | 0
+ 5   | HC 81162  | MOREIRA ALVES       | N | 10 | 0
+ 6   | HC 80837  | CELSO DE MELLO      | N | 10 | 0
+ 7   | MS 30822  | RICARDO LEWANDOWSKI | N | 9 | 1
+ 8   | ADI 1040  | NÉRI DA SILVEIRA    | N | 9 | 1
+ 9   | MI 721    | MARCO AURÉLIO       | N | 9 | 1
+ 10   | ADI 2602  | JOAQUIM BARBOSA     | N | 9 | 1
+ 11   | RE 377457 | GILMAR MENDES       | N | 9 | 1
+ 12   | MS 24138  | GILMAR MENDES       | N | 9 | 1
+ 13   | RE 396266 | CARLOS VELLOSO      | N | 9 | 1
+ 14   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 9 | 0
+ 15   | IF 2953   | MARCO AURÉLIO       | S | 9 | 0
+ 16   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 17   | RE 571572 | GILMAR MENDES       | N | 8 | 2
+ 18   | RE 453740 | GILMAR MENDES       | N | 8 | 2
+ 19   | RE 415454 | GILMAR MENDES       | N | 8 | 2
+ 20   | ADI 559   | EROS GRAU           | N | 8 | 2
+ 21   | ADI 3105  | ELLEN GRACIE        | N | 8 | 2
+ 22   | ADI 678   | CARLOS VELLOSO      | N | 8 | 2
+ 23   | ADI 1893  | CARLOS VELLOSO      | N | 8 | 2
+ 24   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 25   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 8 | 1
+ 26   | EXT 803   | NELSON JOBIM        | N | 8 | 1
+ 27   | RE 206048 | MARCO AURÉLIO       | N | 8 | 1
+ 28   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 8 | 0
+ 29   | RE 557542 | RICARDO LEWANDOWSKI | S | 8 | 0
+ 30   | HC 82959  | MARCO AURÉLIO       | N | 8 | 0
+ 31   | RE 141190 | ILMAR GALVÃO        | N | 8 | 0
+ 32   | RE 325822 | ILMAR GALVÃO        | N | 8 | 0
+ 33   | ADI 3322  | GILMAR MENDES       | N | 8 | 0
+ 34   | RE 416827 | GILMAR MENDES       | S | 8 | 0
+ 35   | ADI 554   | EROS GRAU           | N | 8 | 0
+ 36   | MS 24847  | CELSO DE MELLO      | S | 8 | 0
+ 37   | MS 24845  | CELSO DE MELLO      | S | 8 | 0
+ 38   | MS 24848  | CELSO DE MELLO      | S | 8 | 0
+ 39   | MI 529    | CARLOS VELLOSO      | S | 8 | 0
+ 40   | ADI 1399  | MAURÍCIO CORRÊA     | N | 7 | 3
+ 41   | ADI 1654  | MAURÍCIO CORRÊA     | N | 7 | 3
+ 42   | RE 458110 | MARCO AURÉLIO       | N | 7 | 3
+ 43   | ADI 347   | JOAQUIM BARBOSA     | N | 7 | 3
+ 44   | RE 258980 | ILMAR GALVÃO        | N | 7 | 3
+ 45   | ADI 1472  | ILMAR GALVÃO        | N | 7 | 3
+ 46   | RCL 5758  | CÁRMEN LÚCIA        | N | 7 | 3
+ 47   | ADI 544   | CARLOS VELLOSO      | N | 7 | 3
+ 48   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 7 | 2
+ 49   | RE 558258 | RICARDO LEWANDOWSKI | N | 7 | 2
+ 50   | HC 81231  | NÉRI DA SILVEIRA    | N | 7 | 2
+ 51   | ADI 2682  | GILMAR MENDES       | N | 7 | 2
+ 52   | ADI 2158  | DIAS TOFFOLI        | N | 7 | 2
+ 53   | RE 376846 | CARLOS VELLOSO      | N | 7 | 2
+ 54   | ADI 508   | SYDNEY SANCHES      | N | 7 | 1
+ 55   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 7 | 1
+ 56   | RHC 81796 | NÉRI DA SILVEIRA    | N | 7 | 1
+ 57   | RE 313382 | MAURÍCIO CORRÊA     | N | 7 | 1
+ 58   | ADI 305   | MAURÍCIO CORRÊA     | N | 7 | 1
+ 59   | MS 24958  | MARCO AURÉLIO       | N | 7 | 1
+ 60   | ADI 2874  | MARCO AURÉLIO       | N | 7 | 1
+ 61   | ADI 1991  | EROS GRAU           | N | 7 | 1
+ 62   | RCL 7569  | ELLEN GRACIE        | N | 7 | 1
+ 63   | ADI 703   | ELLEN GRACIE        | N | 7 | 1
+ 64   | ADI 3128  | ELLEN GRACIE        | N | 7 | 1
+ 65   | MS 24849  | CELSO DE MELLO      | N | 7 | 1
+ 66   | ADI 699   | SYDNEY SANCHES      | S | 7 | 0
+ 67   | ADI 2448  | SYDNEY SANCHES      | N | 7 | 0
+ 68   | ADI 2050  | MAURÍCIO CORRÊA     | N | 7 | 0
+ 69   | ADI 144   | GILMAR MENDES       | N | 7 | 0
+ 70   | MS 24268  | ELLEN GRACIE        | N | 7 | 0
+ 71   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 6 | 4
+ 72   | RE 272872 | ILMAR GALVÃO        | N | 6 | 4
+ 73   | ADI 1571  | GILMAR MENDES       | N | 6 | 4
+ 74   | ADI 2655  | ELLEN GRACIE        | N | 6 | 4
+ 75   | ADC 4     | SYDNEY SANCHES      | N | 6 | 3
+ 76   | RE 423768 | MARCO AURÉLIO       | N | 6 | 3
+ 77   | ADI 743   | ELLEN GRACIE        | N | 6 | 3
+ 78   | ADI 2732  | DIAS TOFFOLI        | N | 6 | 3
+ 79   | MS 24784  | CARLOS VELLOSO      | N | 6 | 3
+ 80   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 81   | ADI 1918  | MAURÍCIO CORRÊA     | N | 6 | 2
+ 82   | ADI 1623  | JOAQUIM BARBOSA     | N | 6 | 2
+ 83   | ADI 2690  | GILMAR MENDES       | N | 6 | 2
+ 84   | ADI 3847  | GILMAR MENDES       | N | 6 | 2
+ 85   | ADI 2615  | EROS GRAU           | N | 6 | 2
+ 86   | ADI 1949  | DIAS TOFFOLI        | N | 6 | 2
+ 87   | ADI 2242  | MOREIRA ALVES       | N | 6 | 1
+ 88   | ADI 4369  | MARCO AURÉLIO       | N | 6 | 1
+ 89   | ADI 1628  | EROS GRAU           | N | 6 | 1
+ 90   | RE 318644 | ILMAR GALVÃO        | S | 6 | 0
+ 91   | RE 381964 | GILMAR MENDES       | S | 6 | 0
+ 92   | ADI 2078  | GILMAR MENDES       | N | 6 | 0
+ 93   | ADI 3826  | EROS GRAU           | N | 6 | 0
+ 94   | ADI 2847  | CARLOS VELLOSO      | N | 6 | 0
+ 95   | RE 346084 | ILMAR GALVÃO        | N | 5 | 5
+ 96   | ADI 1903  | RICARDO LEWANDOWSKI | N | 5 | 4
+ 97   | ADI 3533  | EROS GRAU           | N | 5 | 3
+ 98   | ADI 1141  | ELLEN GRACIE        | N | 5 | 3
+ 99   | HC 85185  | CEZAR PELUSO        | N | 5 | 3
+ 100   | ADI 1879  | JOAQUIM BARBOSA     | N | 5 | 2
+ 101   | ADI 1901  | ILMAR GALVÃO        | N | 5 | 2
+ 102   | MS 24742  | MARCO AURÉLIO       | N | 5 | 1
+ 103   | ADI 1646  | GILMAR MENDES       | N | 5 | 1
+ 104   | ADI 2225  | DIAS TOFFOLI        | N | 5 | 1
+ 105   | RE 563965 | CÁRMEN LÚCIA        | N | 5 | 1
+ 106   | ADC 16    | CEZAR PELUSO        | N | 5 | 1
+ 107   | RE 420816 | CARLOS VELLOSO      | N | 5 | 1
+ 108   | ADI 1921  | CARLOS VELLOSO      | N | 5 | 1
+ 109   | ADI 1595  | EROS GRAU           | S | 5 | 0
+ 110   | ADI 1980  | CEZAR PELUSO        | N | 5 | 0
+ 111   | ADI 2024  | SEPÚLVEDA PERTENCE  | N | 4 | 3
+ 112   | RE 419075 | MARCO AURÉLIO       | N | 4 | 3
+ 113   | RE 290079 | ILMAR GALVÃO        | N | 4 | 3
+ 114   | ADI 3305  | EROS GRAU           | N | 4 | 3
+ 115   | ADI 2031  | ELLEN GRACIE        | N | 4 | 3
+ 116   | RE 418918 | ELLEN GRACIE        | N | 4 | 3
+ 117   | RE 567454 | CARLOS BRITTO       | N | 4 | 3
+ 118   | ADI 1721  | CARLOS BRITTO       | N | 4 | 3
+ 119   | EXT 814   | MOREIRA ALVES       | N | 4 | 2
+ 120   | EXT 793   | MAURÍCIO CORRÊA     | N | 4 | 1
+ 121   | ADI 3846  | GILMAR MENDES       | N | 4 | 1
+ 122   | ADI 2220  | CÁRMEN LÚCIA        | N | 4 | 1
+ 123   | CC 7204   | CARLOS BRITTO       | N | 4 | 1
+ 124   | ADI 2055  | MOREIRA ALVES       | S | 4 | 0
+ 125   | ADI 1281  | MAURÍCIO CORRÊA     | N | 3 | 4
+ 126   | RE 303673 | MOREIRA ALVES       | N | 3 | 3
+ 127   | RE 255858 | ILMAR GALVÃO        | N | 3 | 3
+ 128   | ADI 1642  | EROS GRAU           | N | 3 | 3
+ 129   | ADI 132   | SEPÚLVEDA PERTENCE  | N | 3 | 2
+ 130   | ADI 1691  | MOREIRA ALVES       | N | 3 | 2
+ 131   | HC 81288  | MAURÍCIO CORRÊA     | N | 3 | 2
+ 132   | HC 109956 | MARCO AURÉLIO       | N | 3 | 2
+ 133   | ADI 2424  | GILMAR MENDES       | N | 3 | 2
+ 134   | ADI 1007  | EROS GRAU           | N | 3 | 2
+ 135   | ADI 1942  | EDSON FACHIN        | N | 3 | 2
+ 136   | RE 564354 | CÁRMEN LÚCIA        | N | 3 | 2
+ 137   | RE 305186 | ILMAR GALVÃO        | N | 3 | 1
+ 138   | ADI 550   | ILMAR GALVÃO        | N | 3 | 1
+ 139   | ADI 336   | EROS GRAU           | N | 3 | 1
+ 140   | ADI 1145  | CARLOS VELLOSO      | N | 3 | 1
+ 141   | RE 449420 | SEPÚLVEDA PERTENCE  | N | 3 | 0
+ 142   | HC 81409  | NELSON JOBIM        | S | 3 | 0
+ 143   | ADI 1679  | GILMAR MENDES       | N | 3 | 0
+ 144   | ADI 2059  | EROS GRAU           | N | 3 | 0
+ 145   | ADI 1557  | ELLEN GRACIE        | N | 3 | 0
+ 146   | HC 83544  | CELSO DE MELLO      | S | 3 | 0
+ 147   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 2 | 6
+ 148   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 2 | 4
+ 149   | ADI 2061  | ILMAR GALVÃO        | N | 2 | 4
+ 150   | ADI 4478  | AYRES BRITTO        | N | 2 | 3
+ 151   | RE 291188 | SEPÚLVEDA PERTENCE  | N | 2 | 2
+ 152   | RE 388359 | MARCO AURÉLIO       | N | 2 | 2
+ 153   | RE 351750 | MARCO AURÉLIO       | N | 2 | 2
+ 154   | ADI 1976  | JOAQUIM BARBOSA     | N | 2 | 2
+ 155   | ADI 3323  | JOAQUIM BARBOSA     | N | 2 | 2
+ 156   | RE 410778 | GILMAR MENDES       | N | 2 | 2
+ 157   | ADI 2129  | EROS GRAU           | N | 2 | 2
+ 158   | HC 86712  | EROS GRAU           | N | 2 | 2
+ 159   | RE 447584 | CEZAR PELUSO        | N | 2 | 2
+ 160   | HC 90684  | CEZAR PELUSO        | N | 2 | 2
+ 161   | ADI 1972  | TEORI ZAVASCKI      | N | 2 | 1
+ 162   | ADI 2832  | RICARDO LEWANDOWSKI | N | 2 | 1
+ 163   | INQ 2052  | MARCO AURÉLIO       | N | 2 | 1
+ 164   | HC 84998  | MARCO AURÉLIO       | N | 2 | 1
+ 165   | ADI 2724  | GILMAR MENDES       | N | 2 | 1
+ 166   | ADI 2464  | ELLEN GRACIE        | N | 2 | 1
+ 167   | RE 348827 | CARLOS VELLOSO      | N | 2 | 1
+ 168   | RE 536754 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 169   | RE 511222 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 170   | RE 542594 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 171   | RE 573232 | RICARDO LEWANDOWSKI | N | 2 | 0
+ 172   | RE 543163 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 173   | RE 542646 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 174   | RE 542422 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 175   | RE 526512 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 176   | RE 510735 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 177   | RE 357950 | MARCO AURÉLIO       | S | 2 | 0
+ 178   | ADI 1922  | JOAQUIM BARBOSA     | N | 2 | 0
+ 179   | ADI 1882  | GILMAR MENDES       | N | 2 | 0
+ 180   | HC 85601  | CEZAR PELUSO        | N | 2 | 0
+
+stf_pr_2_acordaos_80
+Number of decisions which appear on simulations: 216
+Number of items whose frequency is higher than 1: 180
+Number of decisions which could be in all iterations: 34
+decisões que aparecem pelo menos 10 vezes | 6
+decisões que aparecem pelo menos 9 vezes | 15
+decisões que aparecem pelo menos 8 vezes | 39
+192
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | MS 24847  | CELSO DE MELLO      | S | 10 | 0
+ 2   | MS 24845  | CELSO DE MELLO      | S | 10 | 0
+ 3   | MS 24848  | CELSO DE MELLO      | S | 10 | 0
+ 4   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 5   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 6   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 7   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 8   | HC 80721  | NÉRI DA SILVEIRA    | N | 9 | 1
+ 9   | EXT 803   | NELSON JOBIM        | N | 9 | 1
+ 10   | RE 272872 | ILMAR GALVÃO        | N | 9 | 1
+ 11   | RE 453740 | GILMAR MENDES       | N | 9 | 1
+ 12   | ADI 3105  | ELLEN GRACIE        | N | 9 | 1
+ 13   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 9 | 0
+ 14   | IF 2953   | MARCO AURÉLIO       | S | 9 | 0
+ 15   | HC 80837  | CELSO DE MELLO      | N | 9 | 0
+ 16   | MI 529    | CARLOS VELLOSO      | S | 9 | 0
+ 17   | ADI 990   | SYDNEY SANCHES      | N | 8 | 2
+ 18   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 19   | ADI 1654  | MAURÍCIO CORRÊA     | N | 8 | 2
+ 20   | ADI 2874  | MARCO AURÉLIO       | N | 8 | 2
+ 21   | MS 24138  | GILMAR MENDES       | N | 8 | 2
+ 22   | ADI 1571  | GILMAR MENDES       | N | 8 | 2
+ 23   | ADI 1991  | EROS GRAU           | N | 8 | 2
+ 24   | RE 376846 | CARLOS VELLOSO      | N | 8 | 2
+ 25   | ADI 1893  | CARLOS VELLOSO      | N | 8 | 2
+ 26   | ADI 1399  | MAURÍCIO CORRÊA     | N | 8 | 1
+ 27   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 8 | 0
+ 28   | ADI 2158  | DIAS TOFFOLI        | N | 8 | 0
+ 29   | MS 30822  | RICARDO LEWANDOWSKI | N | 7 | 3
+ 30   | HC 81162  | MOREIRA ALVES       | N | 7 | 3
+ 31   | MI 721    | MARCO AURÉLIO       | N | 7 | 3
+ 32   | ADI 2602  | JOAQUIM BARBOSA     | N | 7 | 3
+ 33   | RE 258980 | ILMAR GALVÃO        | N | 7 | 3
+ 34   | ADI 1472  | ILMAR GALVÃO        | N | 7 | 3
+ 35   | RE 377457 | GILMAR MENDES       | N | 7 | 3
+ 36   | RE 415454 | GILMAR MENDES       | N | 7 | 3
+ 37   | MS 24849  | CELSO DE MELLO      | N | 7 | 3
+ 38   | RE 396266 | CARLOS VELLOSO      | N | 7 | 3
+ 39   | MS 24958  | MARCO AURÉLIO       | N | 7 | 1
+ 40   | ADI 678   | CARLOS VELLOSO      | N | 7 | 1
+ 41   | RE 557542 | RICARDO LEWANDOWSKI | S | 7 | 0
+ 42   | ADI 2055  | MOREIRA ALVES       | S | 7 | 0
+ 43   | RE 416827 | GILMAR MENDES       | S | 7 | 0
+ 44   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 6 | 4
+ 45   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 6 | 4
+ 46   | ADI 1040  | NÉRI DA SILVEIRA    | N | 6 | 4
+ 47   | RE 423768 | MARCO AURÉLIO       | N | 6 | 4
+ 48   | RE 325822 | ILMAR GALVÃO        | N | 6 | 4
+ 49   | RE 346084 | ILMAR GALVÃO        | N | 6 | 4
+ 50   | RE 571572 | GILMAR MENDES       | N | 6 | 4
+ 51   | ADI 703   | ELLEN GRACIE        | N | 6 | 4
+ 52   | RCL 5758  | CÁRMEN LÚCIA        | N | 6 | 4
+ 53   | ADC 4     | SYDNEY SANCHES      | N | 6 | 3
+ 54   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 6 | 3
+ 55   | RE 558258 | RICARDO LEWANDOWSKI | N | 6 | 3
+ 56   | ADI 1903  | RICARDO LEWANDOWSKI | N | 6 | 3
+ 57   | RE 313382 | MAURÍCIO CORRÊA     | N | 6 | 3
+ 58   | RE 458110 | MARCO AURÉLIO       | N | 6 | 3
+ 59   | HC 82959  | MARCO AURÉLIO       | N | 6 | 3
+ 60   | ADI 743   | ELLEN GRACIE        | N | 6 | 3
+ 61   | ADI 2655  | ELLEN GRACIE        | N | 6 | 3
+ 62   | ADI 1921  | CARLOS VELLOSO      | N | 6 | 3
+ 63   | CC 7204   | CARLOS BRITTO       | N | 6 | 3
+ 64   | ADI 2448  | SYDNEY SANCHES      | N | 6 | 2
+ 65   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 66   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 67   | ADI 1918  | MAURÍCIO CORRÊA     | N | 6 | 2
+ 68   | ADI 305   | MAURÍCIO CORRÊA     | N | 6 | 2
+ 69   | ADI 1623  | JOAQUIM BARBOSA     | N | 6 | 2
+ 70   | ADI 1976  | JOAQUIM BARBOSA     | N | 6 | 2
+ 71   | RE 410778 | GILMAR MENDES       | N | 6 | 2
+ 72   | ADI 1007  | EROS GRAU           | N | 6 | 2
+ 73   | RE 418918 | ELLEN GRACIE        | N | 6 | 2
+ 74   | RE 563965 | CÁRMEN LÚCIA        | N | 6 | 2
+ 75   | RE 420816 | CARLOS VELLOSO      | N | 6 | 2
+ 76   | MS 24784  | CARLOS VELLOSO      | N | 6 | 2
+ 77   | RE 567454 | CARLOS BRITTO       | N | 6 | 2
+ 78   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 6 | 1
+ 79   | ADI 2078  | GILMAR MENDES       | N | 6 | 1
+ 80   | ADI 3128  | ELLEN GRACIE        | N | 6 | 1
+ 81   | ADI 2732  | DIAS TOFFOLI        | N | 6 | 1
+ 82   | ADC 16    | CEZAR PELUSO        | N | 6 | 1
+ 83   | RE 557097 | RICARDO LEWANDOWSKI | S | 6 | 0
+ 84   | EXT 793   | MAURÍCIO CORRÊA     | N | 6 | 0
+ 85   | RE 318644 | ILMAR GALVÃO        | S | 6 | 0
+ 86   | ADI 2724  | GILMAR MENDES       | N | 6 | 0
+ 87   | RE 381964 | GILMAR MENDES       | S | 6 | 0
+ 88   | ADI 1595  | EROS GRAU           | S | 6 | 0
+ 89   | HC 81231  | NÉRI DA SILVEIRA    | N | 5 | 4
+ 90   | RE 255858 | ILMAR GALVÃO        | N | 5 | 4
+ 91   | RE 290079 | ILMAR GALVÃO        | N | 5 | 4
+ 92   | ADI 1646  | GILMAR MENDES       | N | 5 | 4
+ 93   | ADI 3305  | EROS GRAU           | N | 5 | 4
+ 94   | RE 564354 | CÁRMEN LÚCIA        | N | 5 | 4
+ 95   | ADI 544   | CARLOS VELLOSO      | N | 5 | 4
+ 96   | ADI 508   | SYDNEY SANCHES      | N | 5 | 3
+ 97   | RHC 81796 | NÉRI DA SILVEIRA    | N | 5 | 3
+ 98   | RE 388359 | MARCO AURÉLIO       | N | 5 | 3
+ 99   | RE 141190 | ILMAR GALVÃO        | N | 5 | 3
+ 100   | ADI 3533  | EROS GRAU           | N | 5 | 3
+ 101   | ADI 2615  | EROS GRAU           | N | 5 | 3
+ 102   | ADI 559   | EROS GRAU           | N | 5 | 3
+ 103   | HC 109956 | MARCO AURÉLIO       | N | 5 | 2
+ 104   | ADI 347   | JOAQUIM BARBOSA     | N | 5 | 2
+ 105   | ADI 2690  | GILMAR MENDES       | N | 5 | 2
+ 106   | ADI 2682  | GILMAR MENDES       | N | 5 | 2
+ 107   | ADI 144   | GILMAR MENDES       | N | 5 | 2
+ 108   | ADI 1949  | DIAS TOFFOLI        | N | 5 | 2
+ 109   | MS 24742  | MARCO AURÉLIO       | N | 5 | 1
+ 110   | RE 347825 | ELLEN GRACIE        | N | 5 | 1
+ 111   | ADI 1980  | CEZAR PELUSO        | N | 5 | 1
+ 112   | ADI 699   | SYDNEY SANCHES      | S | 5 | 0
+ 113   | ADI 1141  | ELLEN GRACIE        | N | 4 | 6
+ 114   | ADI 800   | TEORI ZAVASCKI      | N | 4 | 5
+ 115   | RE 419075 | MARCO AURÉLIO       | N | 4 | 5
+ 116   | RCL 7569  | ELLEN GRACIE        | N | 4 | 5
+ 117   | ADI 2024  | SEPÚLVEDA PERTENCE  | N | 4 | 4
+ 118   | RE 206048 | MARCO AURÉLIO       | N | 4 | 4
+ 119   | ADI 2847  | CARLOS VELLOSO      | N | 4 | 4
+ 120   | EXT 814   | MOREIRA ALVES       | N | 4 | 3
+ 121   | ADI 2061  | ILMAR GALVÃO        | N | 4 | 3
+ 122   | RE 298616 | GILMAR MENDES       | N | 4 | 3
+ 123   | RE 291188 | SEPÚLVEDA PERTENCE  | N | 4 | 2
+ 124   | ADI 3322  | GILMAR MENDES       | N | 4 | 2
+ 125   | HC 86712  | EROS GRAU           | N | 4 | 2
+ 126   | ADI 2031  | ELLEN GRACIE        | N | 4 | 2
+ 127   | ADI 1691  | MOREIRA ALVES       | N | 3 | 5
+ 128   | ADI 3847  | GILMAR MENDES       | N | 3 | 5
+ 129   | RE 354897 | CARLOS VELLOSO      | N | 3 | 5
+ 130   | ADI 1281  | MAURÍCIO CORRÊA     | N | 3 | 4
+ 131   | ADI 2050  | MAURÍCIO CORRÊA     | N | 3 | 4
+ 132   | EXT 1079  | MARCO AURÉLIO       | N | 3 | 4
+ 133   | ADI 1901  | ILMAR GALVÃO        | N | 3 | 4
+ 134   | ADI 554   | EROS GRAU           | N | 3 | 4
+ 135   | HC 85185  | CEZAR PELUSO        | N | 3 | 4
+ 136   | ADI 1721  | CARLOS BRITTO       | N | 3 | 4
+ 137   | ADI 4369  | MARCO AURÉLIO       | N | 3 | 3
+ 138   | MI 758    | MARCO AURÉLIO       | N | 3 | 3
+ 139   | MS 24268  | ELLEN GRACIE        | N | 3 | 3
+ 140   | ADI 2189  | DIAS TOFFOLI        | N | 3 | 3
+ 141   | ADI 2242  | MOREIRA ALVES       | N | 3 | 2
+ 142   | EXT 974   | MARCO AURÉLIO       | N | 3 | 2
+ 143   | ADI 2225  | DIAS TOFFOLI        | N | 3 | 2
+ 144   | ADI 1264  | CÁRMEN LÚCIA        | N | 3 | 2
+ 145   | ADI 2220  | CÁRMEN LÚCIA        | N | 3 | 1
+ 146   | ADI 1946  | SYDNEY SANCHES      | N | 3 | 0
+ 147   | HC 103826 | CELSO DE MELLO      | S | 3 | 0
+ 148   | HC 102826 | CELSO DE MELLO      | S | 3 | 0
+ 149   | ADI 1882  | GILMAR MENDES       | N | 2 | 7
+ 150   | ADI 1662  | MAURÍCIO CORRÊA     | N | 2 | 5
+ 151   | RE 305186 | ILMAR GALVÃO        | N | 2 | 5
+ 152   | ADI 1359  | CARLOS VELLOSO      | N | 2 | 5
+ 153   | ADI 1879  | JOAQUIM BARBOSA     | N | 2 | 4
+ 154   | ADI 1679  | GILMAR MENDES       | N | 2 | 4
+ 155   | ADI 2334  | GILMAR MENDES       | N | 2 | 4
+ 156   | ADI 3826  | EROS GRAU           | N | 2 | 4
+ 157   | ADI 1642  | EROS GRAU           | N | 2 | 4
+ 158   | ADI 2464  | ELLEN GRACIE        | N | 2 | 4
+ 159   | ADI 4083  | CÁRMEN LÚCIA        | N | 2 | 4
+ 160   | RE 730462 | TEORI ZAVASCKI      | N | 2 | 3
+ 161   | ADI 132   | SEPÚLVEDA PERTENCE  | N | 2 | 3
+ 162   | RE 573232 | RICARDO LEWANDOWSKI | N | 2 | 3
+ 163   | ADI 2556  | JOAQUIM BARBOSA     | N | 2 | 3
+ 164   | ADI 2129  | EROS GRAU           | N | 2 | 3
+ 165   | HC 85452  | EROS GRAU           | N | 2 | 3
+ 166   | ADI 1557  | ELLEN GRACIE        | N | 2 | 3
+ 167   | RE 565714 | CÁRMEN LÚCIA        | N | 2 | 3
+ 168   | ADI 4478  | AYRES BRITTO        | N | 2 | 3
+ 169   | RE 230881 | MOREIRA ALVES       | N | 2 | 2
+ 170   | HC 81288  | MAURÍCIO CORRÊA     | N | 2 | 2
+ 171   | ADI 1770  | JOAQUIM BARBOSA     | N | 2 | 2
+ 172   | ADI 3846  | GILMAR MENDES       | N | 2 | 2
+ 173   | ADI 1628  | EROS GRAU           | N | 2 | 2
+ 174   | ADI 3106  | EROS GRAU           | N | 2 | 2
+ 175   | ADI 2059  | EROS GRAU           | N | 2 | 2
+ 176   | MS 26393  | CÁRMEN LÚCIA        | N | 2 | 2
+ 177   | HC 84998  | MARCO AURÉLIO       | N | 2 | 1
+ 178   | ADI 1922  | JOAQUIM BARBOSA     | N | 2 | 1
+ 179   | HC 85601  | CEZAR PELUSO        | N | 2 | 1
+ 180   | ADI 1145  | CARLOS VELLOSO      | N | 2 | 1
+ 181   | ADI 3151  | CARLOS BRITTO       | N | 2 | 1
+ 182   | HC 81409  | NELSON JOBIM        | S | 2 | 0
+ 183   | RE 357950 | MARCO AURÉLIO       | S | 2 | 0
+ 184   | RE 181966 | MARCO AURÉLIO       | S | 2 | 0
+ 185   | RE 170484 | MARCO AURÉLIO       | S | 2 | 0
+ 186   | HC 85273  | CEZAR PELUSO        | S | 2 | 0
+
+stf_pr_1_acordaos_70
+Number of decisions which appear on simulations: 250
+Number of items whose frequency is higher than 1: 186
+Number of decisions which could be in all iterations: 41
+decisões que aparecem pelo menos 10 vezes | 3
+decisões que aparecem pelo menos 9 vezes | 16
+decisões que aparecem pelo menos 8 vezes | 28
+198
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RE 317903 | SEPÚLVEDA PERTENCE  | N | 9 | 1
+ 2   | ADI 1472  | ILMAR GALVÃO        | N | 9 | 1
+ 3   | RE 346084 | ILMAR GALVÃO        | N | 9 | 1
+ 4   | ADI 3105  | ELLEN GRACIE        | N | 9 | 1
+ 5   | RE 557542 | RICARDO LEWANDOWSKI | S | 9 | 0
+ 6   | RE 279872 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 7   | RE 298694 | SEPÚLVEDA PERTENCE  | N | 8 | 2
+ 8   | ADI 1040  | NÉRI DA SILVEIRA    | N | 8 | 2
+ 9   | ADI 1654  | MAURÍCIO CORRÊA     | N | 8 | 2
+ 10   | RE 325822 | ILMAR GALVÃO        | N | 8 | 2
+ 11   | RE 453740 | GILMAR MENDES       | N | 8 | 2
+ 12   | MS 24138  | GILMAR MENDES       | N | 8 | 2
+ 13   | ADI 1571  | GILMAR MENDES       | N | 8 | 2
+ 14   | RE 396266 | CARLOS VELLOSO      | N | 8 | 2
+ 15   | RE 376846 | CARLOS VELLOSO      | N | 8 | 2
+ 16   | ADI 1918  | MAURÍCIO CORRÊA     | N | 8 | 1
+ 17   | HC 82959  | MARCO AURÉLIO       | N | 8 | 1
+ 18   | ADI 1623  | JOAQUIM BARBOSA     | N | 8 | 1
+ 19   | MS 23061  | SEPÚLVEDA PERTENCE  | S | 8 | 0
+ 20   | RE 318644 | ILMAR GALVÃO        | S | 8 | 0
+ 21   | MS 24847  | CELSO DE MELLO      | S | 8 | 0
+ 22   | MS 24845  | CELSO DE MELLO      | S | 8 | 0
+ 23   | MS 24848  | CELSO DE MELLO      | S | 8 | 0
+ 24   | MI 529    | CARLOS VELLOSO      | S | 8 | 0
+ 25   | MS 24784  | CARLOS VELLOSO      | N | 8 | 0
+ 26   | ADI 508   | SYDNEY SANCHES      | N | 7 | 3
+ 27   | ADI 990   | SYDNEY SANCHES      | N | 7 | 3
+ 28   | MS 30822  | RICARDO LEWANDOWSKI | N | 7 | 3
+ 29   | RE 258980 | ILMAR GALVÃO        | N | 7 | 3
+ 30   | RE 415454 | GILMAR MENDES       | N | 7 | 3
+ 31   | ADI 1141  | ELLEN GRACIE        | N | 7 | 3
+ 32   | ADI 678   | CARLOS VELLOSO      | N | 7 | 3
+ 33   | ADC 4     | SYDNEY SANCHES      | N | 7 | 2
+ 34   | RE 420816 | CARLOS VELLOSO      | N | 7 | 2
+ 35   | RE 567454 | CARLOS BRITTO       | N | 7 | 2
+ 36   | ADI 347   | JOAQUIM BARBOSA     | N | 7 | 1
+ 37   | RE 290079 | ILMAR GALVÃO        | N | 7 | 1
+ 38   | ADI 1901  | ILMAR GALVÃO        | N | 7 | 1
+ 39   | MS 24849  | CELSO DE MELLO      | N | 7 | 1
+ 40   | ADI 699   | SYDNEY SANCHES      | S | 7 | 0
+ 41   | IF 2953   | MARCO AURÉLIO       | S | 7 | 0
+ 42   | RE 416827 | GILMAR MENDES       | S | 7 | 0
+ 43   | ADI 743   | ELLEN GRACIE        | N | 7 | 0
+ 44   | HC 81260  | SEPÚLVEDA PERTENCE  | N | 6 | 4
+ 45   | HC 81162  | MOREIRA ALVES       | N | 6 | 4
+ 46   | MI 721    | MARCO AURÉLIO       | N | 6 | 4
+ 47   | RE 272872 | ILMAR GALVÃO        | N | 6 | 4
+ 48   | RE 571572 | GILMAR MENDES       | N | 6 | 4
+ 49   | ADI 2682  | GILMAR MENDES       | N | 6 | 4
+ 50   | ADI 2158  | DIAS TOFFOLI        | N | 6 | 4
+ 51   | ADI 1893  | CARLOS VELLOSO      | N | 6 | 4
+ 52   | ADI 2448  | SYDNEY SANCHES      | N | 6 | 3
+ 53   | RE 298695 | SEPÚLVEDA PERTENCE  | N | 6 | 3
+ 54   | RE 484770 | SEPÚLVEDA PERTENCE  | N | 6 | 3
+ 55   | RE 558258 | RICARDO LEWANDOWSKI | N | 6 | 3
+ 56   | ADI 2874  | MARCO AURÉLIO       | N | 6 | 3
+ 57   | HC 109956 | MARCO AURÉLIO       | N | 6 | 3
+ 58   | ADI 1991  | EROS GRAU           | N | 6 | 3
+ 59   | ADI 3305  | EROS GRAU           | N | 6 | 3
+ 60   | ADI 2031  | ELLEN GRACIE        | N | 6 | 3
+ 61   | ADI 2655  | ELLEN GRACIE        | N | 6 | 3
+ 62   | ADI 2732  | DIAS TOFFOLI        | N | 6 | 3
+ 63   | RE 563965 | CÁRMEN LÚCIA        | N | 6 | 3
+ 64   | HC 85185  | CEZAR PELUSO        | N | 6 | 3
+ 65   | ADI 1921  | CARLOS VELLOSO      | N | 6 | 3
+ 66   | RE 418416 | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 67   | HC 83168  | SEPÚLVEDA PERTENCE  | N | 6 | 2
+ 68   | ADI 1903  | RICARDO LEWANDOWSKI | N | 6 | 2
+ 69   | ADI 1691  | MOREIRA ALVES       | N | 6 | 2
+ 70   | ADI 1399  | MAURÍCIO CORRÊA     | N | 6 | 2
+ 71   | ADI 2050  | MAURÍCIO CORRÊA     | N | 6 | 2
+ 72   | RE 458110 | MARCO AURÉLIO       | N | 6 | 2
+ 73   | RE 141190 | ILMAR GALVÃO        | N | 6 | 2
+ 74   | ADI 2078  | GILMAR MENDES       | N | 6 | 2
+ 75   | ADI 1628  | EROS GRAU           | N | 6 | 2
+ 76   | ADI 1007  | EROS GRAU           | N | 6 | 2
+ 77   | RCL 7569  | ELLEN GRACIE        | N | 6 | 2
+ 78   | ADI 1980  | CEZAR PELUSO        | N | 6 | 2
+ 79   | RE 423768 | MARCO AURÉLIO       | N | 6 | 1
+ 80   | MS 24958  | MARCO AURÉLIO       | N | 6 | 1
+ 81   | ADI 3533  | EROS GRAU           | N | 6 | 1
+ 82   | HC 81261  | SEPÚLVEDA PERTENCE  | S | 6 | 0
+ 83   | ADI 1595  | EROS GRAU           | S | 6 | 0
+ 84   | HC 81611  | SEPÚLVEDA PERTENCE  | N | 5 | 5
+ 85   | ADI 2602  | JOAQUIM BARBOSA     | N | 5 | 5
+ 86   | RE 377457 | GILMAR MENDES       | N | 5 | 5
+ 87   | RCL 5758  | CÁRMEN LÚCIA        | N | 5 | 5
+ 88   | RE 237718 | SEPÚLVEDA PERTENCE  | N | 5 | 4
+ 89   | RE 576189 | RICARDO LEWANDOWSKI | N | 5 | 4
+ 90   | HC 80721  | NÉRI DA SILVEIRA    | N | 5 | 4
+ 91   | RE 206048 | MARCO AURÉLIO       | N | 5 | 4
+ 92   | HC 81939  | SEPÚLVEDA PERTENCE  | N | 5 | 3
+ 93   | EXT 803   | NELSON JOBIM        | N | 5 | 3
+ 94   | RE 313382 | MAURÍCIO CORRÊA     | N | 5 | 3
+ 95   | ADI 1976  | JOAQUIM BARBOSA     | N | 5 | 3
+ 96   | ADI 1879  | JOAQUIM BARBOSA     | N | 5 | 3
+ 97   | RE 255858 | ILMAR GALVÃO        | N | 5 | 3
+ 98   | ADI 1646  | GILMAR MENDES       | N | 5 | 3
+ 99   | ADI 3826  | EROS GRAU           | N | 5 | 3
+ 100   | ADI 559   | EROS GRAU           | N | 5 | 3
+ 101   | ADI 554   | EROS GRAU           | N | 5 | 3
+ 102   | MS 24268  | ELLEN GRACIE        | N | 5 | 3
+ 103   | RE 418918 | ELLEN GRACIE        | N | 5 | 3
+ 104   | ADI 1949  | DIAS TOFFOLI        | N | 5 | 3
+ 105   | ADI 2690  | GILMAR MENDES       | N | 5 | 2
+ 106   | ADI 703   | ELLEN GRACIE        | N | 5 | 2
+ 107   | HC 80837  | CELSO DE MELLO      | N | 5 | 2
+ 108   | ADI 2024  | SEPÚLVEDA PERTENCE  | N | 5 | 1
+ 109   | RE 298616 | GILMAR MENDES       | N | 5 | 1
+ 110   | RE 536754 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 111   | RE 511222 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 112   | RE 542594 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 113   | RE 543163 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 114   | RE 542646 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 115   | RE 526512 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 116   | RE 542422 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 117   | RE 510735 | RICARDO LEWANDOWSKI | S | 5 | 0
+ 118   | ADI 2055  | MOREIRA ALVES       | S | 5 | 0
+ 119   | ADI 305   | MAURÍCIO CORRÊA     | N | 4 | 4
+ 120   | RE 410778 | GILMAR MENDES       | N | 4 | 4
+ 121   | ADC 16    | CEZAR PELUSO        | N | 4 | 4
+ 122   | RE 419075 | MARCO AURÉLIO       | N | 4 | 3
+ 123   | ADI 3322  | GILMAR MENDES       | N | 4 | 3
+ 124   | ADI 4259  | EDSON FACHIN        | N | 4 | 3
+ 125   | ADI 1721  | CARLOS BRITTO       | N | 4 | 3
+ 126   | RE 449420 | SEPÚLVEDA PERTENCE  | N | 4 | 2
+ 127   | ADI 4180  | GILMAR MENDES       | N | 4 | 2
+ 128   | ADI 2220  | CÁRMEN LÚCIA        | N | 4 | 2
+ 129   | CC 7204   | CARLOS BRITTO       | N | 4 | 2
+ 130   | ADI 132   | SEPÚLVEDA PERTENCE  | N | 4 | 1
+ 131   | ADI 1679  | GILMAR MENDES       | N | 4 | 1
+ 132   | ADI 2615  | EROS GRAU           | N | 4 | 1
+ 133   | RE 347825 | ELLEN GRACIE        | N | 4 | 1
+ 134   | ADI 1557  | ELLEN GRACIE        | N | 4 | 1
+ 135   | ADI 2847  | CARLOS VELLOSO      | N | 4 | 1
+ 136   | ADI 800   | TEORI ZAVASCKI      | N | 4 | 0
+ 137   | RE 381964 | GILMAR MENDES       | S | 4 | 0
+ 138   | ADI 3128  | ELLEN GRACIE        | N | 3 | 5
+ 139   | ADI 544   | CARLOS VELLOSO      | N | 3 | 5
+ 140   | HC 81231  | NÉRI DA SILVEIRA    | N | 3 | 4
+ 141   | RHC 81796 | NÉRI DA SILVEIRA    | N | 3 | 4
+ 142   | ADI 144   | GILMAR MENDES       | N | 3 | 4
+ 143   | RE 343446 | CARLOS VELLOSO      | N | 3 | 4
+ 144   | RE 291188 | SEPÚLVEDA PERTENCE  | N | 3 | 3
+ 145   | MS 24742  | MARCO AURÉLIO       | N | 3 | 3
+ 146   | RE 305186 | ILMAR GALVÃO        | N | 3 | 3
+ 147   | ADI 2225  | DIAS TOFFOLI        | N | 3 | 3
+ 148   | ADI 1359  | CARLOS VELLOSO      | N | 3 | 3
+ 149   | RE 573232 | RICARDO LEWANDOWSKI | N | 3 | 2
+ 150   | ADI 3847  | GILMAR MENDES       | N | 3 | 2
+ 151   | RE 564354 | CÁRMEN LÚCIA        | N | 3 | 2
+ 152   | ADI 1914  | CEZAR PELUSO        | N | 3 | 2
+ 153   | RE 303673 | MOREIRA ALVES       | N | 3 | 1
+ 154   | HC 84998  | MARCO AURÉLIO       | N | 3 | 1
+ 155   | ADI 1770  | JOAQUIM BARBOSA     | N | 3 | 1
+ 156   | HC 85601  | CEZAR PELUSO        | N | 3 | 1
+ 157   | ADI 2556  | JOAQUIM BARBOSA     | N | 3 | 0
+ 158   | ADI 1922  | JOAQUIM BARBOSA     | N | 2 | 5
+ 159   | ADI 1281  | MAURÍCIO CORRÊA     | N | 2 | 4
+ 160   | MI 758    | MARCO AURÉLIO       | N | 2 | 4
+ 161   | EXT 1079  | MARCO AURÉLIO       | N | 2 | 4
+ 162   | ADI 2189  | DIAS TOFFOLI        | N | 2 | 4
+ 163   | ADI 1704  | CARLOS VELLOSO      | N | 2 | 4
+ 164   | HC 81869  | SYDNEY SANCHES      | N | 2 | 3
+ 165   | ADI 980   | MENEZES DIREITO     | N | 2 | 3
+ 166   | ADI 2061  | ILMAR GALVÃO        | N | 2 | 3
+ 167   | ADI 1642  | EROS GRAU           | N | 2 | 3
+ 168   | HC 86712  | EROS GRAU           | N | 2 | 3
+ 169   | ADI 2137  | DIAS TOFFOLI        | N | 2 | 3
+ 170   | RE 565714 | CÁRMEN LÚCIA        | N | 2 | 3
+ 171   | RE 210029 | CARLOS VELLOSO      | N | 2 | 3
+ 172   | ADI 3190  | SEPÚLVEDA PERTENCE  | N | 2 | 2
+ 173   | ADI 2242  | MOREIRA ALVES       | N | 2 | 2
+ 174   | ADI 1662  | MAURÍCIO CORRÊA     | N | 2 | 2
+ 175   | ADI 4369  | MARCO AURÉLIO       | N | 2 | 2
+ 176   | RE 388359 | MARCO AURÉLIO       | N | 2 | 2
+ 177   | MS 23550  | MARCO AURÉLIO       | N | 2 | 2
+ 178   | EXT 974   | MARCO AURÉLIO       | N | 2 | 2
+ 179   | ADI 2280  | JOAQUIM BARBOSA     | N | 2 | 2
+ 180   | RE 354897 | CARLOS VELLOSO      | N | 2 | 2
+ 181   | ADI 2267  | MAURÍCIO CORRÊA     | N | 2 | 1
+ 182   | ADI 2101  | MAURÍCIO CORRÊA     | N | 2 | 1
+ 183   | MS 28279  | ELLEN GRACIE        | N | 2 | 1
+ 184   | HC 90684  | CEZAR PELUSO        | N | 2 | 1
+ 185   | HC 112324 | ROSA WEBER          | S | 2 | 0
+ 186   | RE 557097 | RICARDO LEWANDOWSKI | S | 2 | 0
+ 187   | RE 357950 | MARCO AURÉLIO       | S | 2 | 0
+ 188   | HC 102826 | CELSO DE MELLO      | S | 2 | 0
+ 189   | HC 103826 | CELSO DE MELLO      | S | 2 | 0
+ 190   | HC 83544  | CELSO DE MELLO      | S | 2 | 0
+
+stf_pr_2_acordaos_70
+Number of decisions which appear on simulations: 242
+Number of items whose frequency is higher than 1: 190
+Number of decisions which could be in all iterations: 33
+decisões que aparecem pelo menos 10 vezes | 0
+decisões que aparecem pelo menos 9 vezes | 5
+decisões que aparecem pelo menos 8 vezes | 25
+202
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RMS 27300  | CÁRMEN LÚCIA | N | 10 | 0
+ 2   | MS 25191   | CÁRMEN LÚCIA | N | 10 | 0
+ 3   | AO 1522    | CÁRMEN LÚCIA | S | 10 | 0
+ 4   | MS 25697   | CÁRMEN LÚCIA | N | 10 | 0
+ 5   | HC 93821   | CÁRMEN LÚCIA | N | 10 | 0
+ 6   | RHC 113382 | CÁRMEN LÚCIA | N | 10 | 0
+ 7   | HC 89970   | CÁRMEN LÚCIA | N | 10 | 0
+ 8   | HC 100380  | CÁRMEN LÚCIA | N | 10 | 0
+ 9   | HC 95584   | CÁRMEN LÚCIA | N | 10 | 0
+ 10   | HC 106393  | CÁRMEN LÚCIA | N | 10 | 0
+ 11   | ADI 3831   | CÁRMEN LÚCIA | N | 10 | 0
+ 12   | HC 107577  | CÁRMEN LÚCIA | N | 10 | 0
+ 13   | RCL 5758   | CÁRMEN LÚCIA | N | 10 | 0
+ 14   | HC 93895   | CÁRMEN LÚCIA | N | 10 | 0
+ 15   | MI 795     | CÁRMEN LÚCIA | N | 10 | 0
+ 16   | HC 91767   | CÁRMEN LÚCIA | N | 10 | 0
+ 17   | MS 25552   | CÁRMEN LÚCIA | N | 10 | 0
+ 18   | HC 90893   | CÁRMEN LÚCIA | N | 10 | 0
+ 19   | RCL 6138   | CÁRMEN LÚCIA | N | 10 | 0
+ 20   | RHC 94806  | CÁRMEN LÚCIA | N | 10 | 0
+ 21   | RHC 110773 | CÁRMEN LÚCIA | N | 10 | 0
+ 22   | MI 879     | CÁRMEN LÚCIA | S | 10 | 0
+ 23   | MS 26163   | CÁRMEN LÚCIA | N | 10 | 0
+ 24   | HC 91050   | CÁRMEN LÚCIA | N | 10 | 0
+ 25   | RE 480195  | CÁRMEN LÚCIA | N | 10 | 0
+ 26   | RHC 87212  | CÁRMEN LÚCIA | N | 10 | 0
+ 27   | HC 93302   | CÁRMEN LÚCIA | N | 10 | 0
+ 28   | HC 105775  | CÁRMEN LÚCIA | N | 10 | 0
+ 29   | HC 91631   | CÁRMEN LÚCIA | N | 9 | 1
+ 30   | HC 97051   | CÁRMEN LÚCIA | N | 9 | 1
+ 31   | HC 116767  | CÁRMEN LÚCIA | N | 9 | 1
+ 32   | HC 107626  | CÁRMEN LÚCIA | N | 9 | 1
+ 33   | HC 95024   | CÁRMEN LÚCIA | N | 9 | 1
+ 34   | RE 563965  | CÁRMEN LÚCIA | N | 9 | 1
+ 35   | HC 97772   | CÁRMEN LÚCIA | N | 9 | 1
+ 36   | HC 97677   | CÁRMEN LÚCIA | N | 9 | 1
+ 37   | HC 102312  | CÁRMEN LÚCIA | N | 9 | 1
+ 38   | HC 97462   | CÁRMEN LÚCIA | N | 9 | 1
+ 39   | AR 1685    | CÁRMEN LÚCIA | N | 9 | 1
+ 40   | RHC 98358  | CÁRMEN LÚCIA | N | 9 | 1
+ 41   | HC 102730  | CÁRMEN LÚCIA | N | 9 | 1
+ 42   | HC 103525  | CÁRMEN LÚCIA | N | 9 | 1
+ 43   | HC 109739  | CÁRMEN LÚCIA | N | 9 | 1
+ 44   | ADI 4125   | CÁRMEN LÚCIA | N | 9 | 1
+ 45   | MS 27026   | CÁRMEN LÚCIA | N | 9 | 1
+ 46   | ADI 3817   | CÁRMEN LÚCIA | N | 9 | 1
+ 47   | RCL 4879   | CÁRMEN LÚCIA | N | 9 | 1
+ 48   | RE 420532  | CÁRMEN LÚCIA | N | 9 | 1
+ 49   | MS 24964   | CÁRMEN LÚCIA | N | 9 | 1
+ 50   | RHC 89721  | CÁRMEN LÚCIA | N | 9 | 1
+ 51   | HC 105725  | CÁRMEN LÚCIA | N | 9 | 1
+ 52   | HC 103742  | CÁRMEN LÚCIA | N | 9 | 1
+ 53   | HC 109093  | CÁRMEN LÚCIA | N | 9 | 1
+ 54   | RE 565714  | CÁRMEN LÚCIA | N | 9 | 1
+ 55   | MS 26085   | CÁRMEN LÚCIA | N | 9 | 1
+ 56   | HC 99447   | CÁRMEN LÚCIA | N | 9 | 1
+ 57   | HC 113715  | CÁRMEN LÚCIA | N | 9 | 0
+ 58   | ADI 1264   | CÁRMEN LÚCIA | N | 9 | 0
+ 59   | HC 95721   | CÁRMEN LÚCIA | N | 9 | 0
+ 60   | RHC 97458  | CÁRMEN LÚCIA | N | 9 | 0
+ 61   | RMS 30973  | CÁRMEN LÚCIA | N | 9 | 0
+ 62   | MS 28651   | CÁRMEN LÚCIA | S | 9 | 0
+ 63   | HC 89491   | CÁRMEN LÚCIA | N | 8 | 2
+ 64   | HC 92871   | CÁRMEN LÚCIA | N | 8 | 2
+ 65   | MI 833     | CÁRMEN LÚCIA | N | 8 | 2
+ 66   | RCL 6944   | CÁRMEN LÚCIA | N | 8 | 2
+ 67   | RHC 89624  | CÁRMEN LÚCIA | N | 8 | 2
+ 68   | HC 91760   | CÁRMEN LÚCIA | N | 8 | 2
+ 69   | HC 94753   | CÁRMEN LÚCIA | N | 8 | 1
+ 70   | HC 108794  | CÁRMEN LÚCIA | N | 8 | 1
+ 71   | HC 86142   | CÁRMEN LÚCIA | N | 8 | 1
+ 72   | HC 100979  | CÁRMEN LÚCIA | N | 8 | 1
+ 73   | INQ 2648   | CÁRMEN LÚCIA | N | 8 | 1
+ 74   | HC 118955  | CÁRMEN LÚCIA | N | 8 | 1
+ 75   | HC 91226   | CÁRMEN LÚCIA | N | 8 | 0
+ 76   | HC 112755  | CÁRMEN LÚCIA | N | 8 | 0
+ 77   | RE 556854  | CÁRMEN LÚCIA | N | 8 | 0
+ 78   | RE 600885  | CÁRMEN LÚCIA | N | 8 | 0
+ 79   | HC 107763  | CÁRMEN LÚCIA | N | 8 | 0
+ 80   | HC 87721   | CÁRMEN LÚCIA | N | 8 | 0
+ 81   | HC 108996  | CÁRMEN LÚCIA | N | 8 | 0
+ 82   | HC 113880  | CÁRMEN LÚCIA | N | 8 | 0
+ 83   | HC 104206  | CÁRMEN LÚCIA | N | 7 | 3
+ 84   | RCL 3737   | CÁRMEN LÚCIA | N | 7 | 3
+ 85   | MS 31770   | CÁRMEN LÚCIA | N | 7 | 2
+ 86   | HC 100567  | CÁRMEN LÚCIA | N | 7 | 2
+ 87   | HC 113793  | CÁRMEN LÚCIA | N | 7 | 2
+ 88   | HC 119515  | CÁRMEN LÚCIA | N | 7 | 2
+ 89   | HC 105234  | CÁRMEN LÚCIA | N | 7 | 2
+ 90   | HC 99111   | CÁRMEN LÚCIA | N | 7 | 2
+ 91   | HC 91041   | CÁRMEN LÚCIA | N | 7 | 2
+ 92   | RCL 5928   | CÁRMEN LÚCIA | N | 7 | 1
+ 93   | RE 320179  | CÁRMEN LÚCIA | N | 7 | 1
+ 94   | RE 451018  | CÁRMEN LÚCIA | S | 7 | 0
+ 95   | RMS 24411  | CÁRMEN LÚCIA | N | 7 | 0
+ 96   | HC 91566   | CÁRMEN LÚCIA | N | 7 | 0
+ 97   | INQ 2390   | CÁRMEN LÚCIA | N | 7 | 0
+ 98   | HC 106293  | CÁRMEN LÚCIA | N | 7 | 0
+ 99   | ADI 3104   | CÁRMEN LÚCIA | N | 6 | 3
+ 100   | HC 94503   | CÁRMEN LÚCIA | N | 6 | 3
+ 101   | HC 102486  | CÁRMEN LÚCIA | N | 6 | 2
+ 102   | HC 102088  | CÁRMEN LÚCIA | N | 6 | 2
+ 103   | RHC 100972 | CÁRMEN LÚCIA | N | 6 | 1
+ 104   | RHC 91162  | CÁRMEN LÚCIA | N | 6 | 1
+ 105   | HC 104462  | CÁRMEN LÚCIA | N | 6 | 1
+ 106   | HC 94848   | CÁRMEN LÚCIA | N | 6 | 1
+ 107   | HC 94526   | CÁRMEN LÚCIA | N | 5 | 2
+ 108   | HC 93524   | CÁRMEN LÚCIA | N | 5 | 2
+ 109   | HC 96309   | CÁRMEN LÚCIA | N | 5 | 2
+ 110   | ADI 2220   | CÁRMEN LÚCIA | N | 5 | 2
+ 111   | HC 109168  | CÁRMEN LÚCIA | N | 5 | 0
+ 112   | HC 88660   | CÁRMEN LÚCIA | N | 5 | 0
+ 113   | AP 396     | CÁRMEN LÚCIA | N | 4 | 4
+ 114   | HC 92956   | CÁRMEN LÚCIA | N | 4 | 2
+ 115   | ADI 3768   | CÁRMEN LÚCIA | N | 4 | 1
+ 116   | HC 98231   | CÁRMEN LÚCIA | N | 4 | 1
+ 117   | RE 568645  | CÁRMEN LÚCIA | N | 4 | 0
+ 118   | HC 110936  | CÁRMEN LÚCIA | N | 3 | 0
+ 119   | RMS 30965  | CÁRMEN LÚCIA | N | 2 | 2
+ 120   | EXT 1166   | CÁRMEN LÚCIA | N | 2 | 1
+ 121   | RHC 115380 | CÁRMEN LÚCIA | N | 2 | 1
+ 122   | HC 97033   | CÁRMEN LÚCIA | N | 2 | 1
+ 123   | HC 116537  | CÁRMEN LÚCIA | N | 2 | 1
+ 124   | MS 28953   | CÁRMEN LÚCIA | N | 2 | 0
+ 125   | ADI 4800   | CÁRMEN LÚCIA | S | 2 | 0
+ 126   | HC 107382  | CÁRMEN LÚCIA | N | 2 | 0
+ 127   | RHC 94350  | CÁRMEN LÚCIA | N | 2 | 0
+ 128   | MS 26464   | CÁRMEN LÚCIA | N | 2 | 0
+ 129   | HC 90813   | CÁRMEN LÚCIA | N | 2 | 0
+ 130   | HC 123698  | CÁRMEN LÚCIA | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_1
+Number of decisions which appear on simulations: 147
+Number of items whose frequency is higher than 1: 130
+Number of decisions which could be in all iterations: 64
+decisões que aparecem pelo menos 10 vezes | 28
+decisões que aparecem pelo menos 9 vezes | 62
+decisões que aparecem pelo menos 8 vezes | 82
+142
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RCL 5928   | CÁRMEN LÚCIA | N | 10 | 0
+ 2   | RHC 113382 | CÁRMEN LÚCIA | N | 10 | 0
+ 3   | RE 320179  | CÁRMEN LÚCIA | N | 10 | 0
+ 4   | HC 107626  | CÁRMEN LÚCIA | N | 10 | 0
+ 5   | HC 95024   | CÁRMEN LÚCIA | N | 10 | 0
+ 6   | MI 833     | CÁRMEN LÚCIA | N | 10 | 0
+ 7   | RE 563965  | CÁRMEN LÚCIA | N | 10 | 0
+ 8   | HC 95584   | CÁRMEN LÚCIA | N | 10 | 0
+ 9   | HC 97677   | CÁRMEN LÚCIA | N | 10 | 0
+ 10   | HC 102312  | CÁRMEN LÚCIA | N | 10 | 0
+ 11   | ADI 3831   | CÁRMEN LÚCIA | N | 10 | 0
+ 12   | HC 97462   | CÁRMEN LÚCIA | N | 10 | 0
+ 13   | AR 1685    | CÁRMEN LÚCIA | N | 10 | 0
+ 14   | RHC 98358  | CÁRMEN LÚCIA | N | 10 | 0
+ 15   | RCL 6944   | CÁRMEN LÚCIA | N | 10 | 0
+ 16   | HC 103525  | CÁRMEN LÚCIA | N | 10 | 0
+ 17   | HC 104206  | CÁRMEN LÚCIA | N | 10 | 0
+ 18   | ADI 1264   | CÁRMEN LÚCIA | N | 10 | 0
+ 19   | MI 795     | CÁRMEN LÚCIA | N | 10 | 0
+ 20   | HC 105234  | CÁRMEN LÚCIA | N | 10 | 0
+ 21   | MS 25552   | CÁRMEN LÚCIA | N | 10 | 0
+ 22   | RMS 30973  | CÁRMEN LÚCIA | N | 10 | 0
+ 23   | ADI 3104   | CÁRMEN LÚCIA | N | 10 | 0
+ 24   | MI 879     | CÁRMEN LÚCIA | S | 10 | 0
+ 25   | MS 26163   | CÁRMEN LÚCIA | N | 10 | 0
+ 26   | HC 99111   | CÁRMEN LÚCIA | N | 10 | 0
+ 27   | HC 105725  | CÁRMEN LÚCIA | N | 10 | 0
+ 28   | MS 26085   | CÁRMEN LÚCIA | N | 10 | 0
+ 29   | HC 105775  | CÁRMEN LÚCIA | N | 10 | 0
+ 30   | MS 28651   | CÁRMEN LÚCIA | S | 10 | 0
+ 31   | HC 94753   | CÁRMEN LÚCIA | N | 9 | 1
+ 32   | HC 97051   | CÁRMEN LÚCIA | N | 9 | 1
+ 33   | MS 25191   | CÁRMEN LÚCIA | N | 9 | 1
+ 34   | HC 92871   | CÁRMEN LÚCIA | N | 9 | 1
+ 35   | HC 108794  | CÁRMEN LÚCIA | N | 9 | 1
+ 36   | HC 102088  | CÁRMEN LÚCIA | N | 9 | 1
+ 37   | HC 107577  | CÁRMEN LÚCIA | N | 9 | 1
+ 38   | RCL 5758   | CÁRMEN LÚCIA | N | 9 | 1
+ 39   | RHC 89624  | CÁRMEN LÚCIA | N | 9 | 1
+ 40   | HC 91760   | CÁRMEN LÚCIA | N | 9 | 1
+ 41   | HC 93895   | CÁRMEN LÚCIA | N | 9 | 1
+ 42   | HC 109739  | CÁRMEN LÚCIA | N | 9 | 1
+ 43   | HC 91767   | CÁRMEN LÚCIA | N | 9 | 1
+ 44   | ADI 3817   | CÁRMEN LÚCIA | N | 9 | 1
+ 45   | RCL 3737   | CÁRMEN LÚCIA | N | 9 | 1
+ 46   | RHC 94806  | CÁRMEN LÚCIA | N | 9 | 1
+ 47   | RHC 89721  | CÁRMEN LÚCIA | N | 9 | 1
+ 48   | RHC 110773 | CÁRMEN LÚCIA | N | 9 | 1
+ 49   | HC 91050   | CÁRMEN LÚCIA | N | 9 | 1
+ 50   | RE 480195  | CÁRMEN LÚCIA | N | 9 | 1
+ 51   | RE 565714  | CÁRMEN LÚCIA | N | 9 | 1
+ 52   | AO 1522    | CÁRMEN LÚCIA | S | 9 | 0
+ 53   | HC 107763  | CÁRMEN LÚCIA | N | 9 | 0
+ 54   | HC 86142   | CÁRMEN LÚCIA | N | 9 | 0
+ 55   | RE 420532  | CÁRMEN LÚCIA | N | 9 | 0
+ 56   | MS 24964   | CÁRMEN LÚCIA | N | 9 | 0
+ 57   | HC 104462  | CÁRMEN LÚCIA | N | 9 | 0
+ 58   | HC 100979  | CÁRMEN LÚCIA | N | 9 | 0
+ 59   | HC 109093  | CÁRMEN LÚCIA | N | 9 | 0
+ 60   | HC 93821   | CÁRMEN LÚCIA | N | 8 | 2
+ 61   | HC 112755  | CÁRMEN LÚCIA | N | 8 | 2
+ 62   | HC 89970   | CÁRMEN LÚCIA | N | 8 | 2
+ 63   | HC 100380  | CÁRMEN LÚCIA | N | 8 | 2
+ 64   | HC 102730  | CÁRMEN LÚCIA | N | 8 | 2
+ 65   | HC 90893   | CÁRMEN LÚCIA | N | 8 | 2
+ 66   | HC 91041   | CÁRMEN LÚCIA | N | 8 | 2
+ 67   | HC 93302   | CÁRMEN LÚCIA | N | 8 | 2
+ 68   | HC 99447   | CÁRMEN LÚCIA | N | 8 | 2
+ 69   | HC 91226   | CÁRMEN LÚCIA | N | 8 | 1
+ 70   | HC 116767  | CÁRMEN LÚCIA | N | 8 | 1
+ 71   | HC 113715  | CÁRMEN LÚCIA | N | 8 | 1
+ 72   | HC 113793  | CÁRMEN LÚCIA | N | 8 | 1
+ 73   | RCL 4879   | CÁRMEN LÚCIA | N | 8 | 1
+ 74   | RCL 6138   | CÁRMEN LÚCIA | N | 8 | 1
+ 75   | RHC 87212  | CÁRMEN LÚCIA | N | 8 | 1
+ 76   | HC 102486  | CÁRMEN LÚCIA | N | 8 | 0
+ 77   | HC 97772   | CÁRMEN LÚCIA | N | 8 | 0
+ 78   | RE 600885  | CÁRMEN LÚCIA | N | 8 | 0
+ 79   | RE 451018  | CÁRMEN LÚCIA | S | 8 | 0
+ 80   | RMS 27300  | CÁRMEN LÚCIA | N | 7 | 3
+ 81   | HC 93524   | CÁRMEN LÚCIA | N | 7 | 3
+ 82   | HC 106393  | CÁRMEN LÚCIA | N | 7 | 3
+ 83   | INQ 2648   | CÁRMEN LÚCIA | N | 7 | 3
+ 84   | ADI 2220   | CÁRMEN LÚCIA | N | 7 | 3
+ 85   | HC 91631   | CÁRMEN LÚCIA | N | 7 | 2
+ 86   | RE 556854  | CÁRMEN LÚCIA | N | 7 | 2
+ 87   | HC 89491   | CÁRMEN LÚCIA | N | 7 | 2
+ 88   | HC 100567  | CÁRMEN LÚCIA | N | 7 | 2
+ 89   | HC 95721   | CÁRMEN LÚCIA | N | 7 | 2
+ 90   | RHC 97458  | CÁRMEN LÚCIA | N | 7 | 2
+ 91   | HC 103742  | CÁRMEN LÚCIA | N | 7 | 2
+ 92   | MS 31770   | CÁRMEN LÚCIA | N | 7 | 1
+ 93   | MS 25697   | CÁRMEN LÚCIA | N | 7 | 1
+ 94   | RMS 24411  | CÁRMEN LÚCIA | N | 7 | 1
+ 95   | HC 96309   | CÁRMEN LÚCIA | N | 7 | 1
+ 96   | HC 108996  | CÁRMEN LÚCIA | N | 7 | 1
+ 97   | HC 118955  | CÁRMEN LÚCIA | N | 7 | 1
+ 98   | HC 94848   | CÁRMEN LÚCIA | N | 7 | 1
+ 99   | HC 109168  | CÁRMEN LÚCIA | N | 7 | 0
+ 100   | HC 94526   | CÁRMEN LÚCIA | N | 7 | 0
+ 101   | HC 119515  | CÁRMEN LÚCIA | N | 7 | 0
+ 102   | HC 87721   | CÁRMEN LÚCIA | N | 7 | 0
+ 103   | MS 27026   | CÁRMEN LÚCIA | N | 7 | 0
+ 104   | RHC 91162  | CÁRMEN LÚCIA | N | 7 | 0
+ 105   | HC 106293  | CÁRMEN LÚCIA | N | 7 | 0
+ 106   | INQ 2390   | CÁRMEN LÚCIA | N | 6 | 4
+ 107   | ADI 4125   | CÁRMEN LÚCIA | N | 6 | 3
+ 108   | AP 396     | CÁRMEN LÚCIA | N | 6 | 1
+ 109   | RHC 100972 | CÁRMEN LÚCIA | N | 6 | 1
+ 110   | HC 92956   | CÁRMEN LÚCIA | N | 6 | 0
+ 111   | HC 91566   | CÁRMEN LÚCIA | N | 6 | 0
+ 112   | HC 88660   | CÁRMEN LÚCIA | N | 6 | 0
+ 113   | RMS 30965  | CÁRMEN LÚCIA | N | 5 | 2
+ 114   | HC 113880  | CÁRMEN LÚCIA | N | 5 | 2
+ 115   | HC 110936  | CÁRMEN LÚCIA | N | 5 | 1
+ 116   | HC 107382  | CÁRMEN LÚCIA | N | 5 | 0
+ 117   | ADI 3768   | CÁRMEN LÚCIA | N | 3 | 3
+ 118   | HC 94503   | CÁRMEN LÚCIA | N | 3 | 2
+ 119   | RE 568645  | CÁRMEN LÚCIA | N | 3 | 1
+ 120   | ADI 4800   | CÁRMEN LÚCIA | S | 3 | 0
+ 121   | HC 98231   | CÁRMEN LÚCIA | N | 3 | 0
+ 122   | EXT 1166   | CÁRMEN LÚCIA | N | 2 | 3
+ 123   | RHC 111671 | CÁRMEN LÚCIA | N | 2 | 0
+ 124   | RHC 94350  | CÁRMEN LÚCIA | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_1
+Number of decisions which appear on simulations: 138
+Number of items whose frequency is higher than 1: 124
+Number of decisions which could be in all iterations: 66
+decisões que aparecem pelo menos 10 vezes | 30
+decisões que aparecem pelo menos 9 vezes | 59
+decisões que aparecem pelo menos 8 vezes | 79
+136
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 115508 | MARCO AURÉLIO | N | 10 | 0
+ 2   | HC 92423  | MARCO AURÉLIO | N | 10 | 0
+ 3   | RE 363852 | MARCO AURÉLIO | N | 10 | 0
+ 4   | IF 2953   | MARCO AURÉLIO | S | 10 | 0
+ 5   | RE 567935 | MARCO AURÉLIO | N | 10 | 0
+ 6   | IF 2888   | MARCO AURÉLIO | S | 10 | 0
+ 7   | RE 136901 | MARCO AURÉLIO | N | 10 | 0
+ 8   | HC 124290 | MARCO AURÉLIO | N | 10 | 0
+ 9   | ACO 765   | MARCO AURÉLIO | N | 10 | 0
+ 10   | HC 125705 | MARCO AURÉLIO | N | 10 | 0
+ 11   | INQ 2052  | MARCO AURÉLIO | N | 10 | 0
+ 12   | HC 103716 | MARCO AURÉLIO | N | 10 | 0
+ 13   | RHC 83717 | MARCO AURÉLIO | N | 10 | 0
+ 14   | RE 386475 | MARCO AURÉLIO | N | 10 | 0
+ 15   | RE 174478 | MARCO AURÉLIO | N | 10 | 0
+ 16   | RE 357950 | MARCO AURÉLIO | S | 10 | 0
+ 17   | HC 83157  | MARCO AURÉLIO | N | 10 | 0
+ 18   | HC 104813 | MARCO AURÉLIO | N | 10 | 0
+ 19   | HC 82959  | MARCO AURÉLIO | N | 10 | 0
+ 20   | RE 477323 | MARCO AURÉLIO | N | 10 | 0
+ 21   | HC 92175  | MARCO AURÉLIO | N | 10 | 0
+ 22   | HC 101798 | MARCO AURÉLIO | N | 10 | 0
+ 23   | HC 83255  | MARCO AURÉLIO | N | 10 | 0
+ 24   | IF 2915   | MARCO AURÉLIO | N | 10 | 0
+ 25   | RE 358273 | MARCO AURÉLIO | S | 10 | 0
+ 26   | HC 106212 | MARCO AURÉLIO | N | 10 | 0
+ 27   | RE 591054 | MARCO AURÉLIO | N | 10 | 0
+ 28   | RE 390840 | MARCO AURÉLIO | N | 10 | 0
+ 29   | HC 85598  | MARCO AURÉLIO | N | 10 | 0
+ 30   | HC 109956 | MARCO AURÉLIO | N | 10 | 0
+ 31   | HC 116641 | MARCO AURÉLIO | N | 9 | 1
+ 32   | HC 116567 | MARCO AURÉLIO | N | 9 | 1
+ 33   | HC 110055 | MARCO AURÉLIO | N | 9 | 1
+ 34   | HC 87102  | MARCO AURÉLIO | N | 9 | 1
+ 35   | RE 388312 | MARCO AURÉLIO | N | 9 | 1
+ 36   | MI 721    | MARCO AURÉLIO | N | 9 | 1
+ 37   | RCL 3907  | MARCO AURÉLIO | N | 9 | 1
+ 38   | RE 353657 | MARCO AURÉLIO | N | 9 | 1
+ 39   | RE 206048 | MARCO AURÉLIO | N | 9 | 1
+ 40   | PET 3528  | MARCO AURÉLIO | N | 9 | 1
+ 41   | HC 101985 | MARCO AURÉLIO | N | 9 | 1
+ 42   | RE 567985 | MARCO AURÉLIO | N | 9 | 1
+ 43   | ADPF 46   | MARCO AURÉLIO | N | 9 | 1
+ 44   | MS 23550  | MARCO AURÉLIO | N | 9 | 1
+ 45   | RHC 84036 | MARCO AURÉLIO | N | 9 | 1
+ 46   | ADI 2906  | MARCO AURÉLIO | N | 9 | 1
+ 47   | MS 24754  | MARCO AURÉLIO | N | 9 | 1
+ 48   | MS 26919  | MARCO AURÉLIO | N | 9 | 1
+ 49   | HC 82909  | MARCO AURÉLIO | N | 9 | 0
+ 50   | HC 101263 | MARCO AURÉLIO | N | 9 | 0
+ 51   | HC 98416  | MARCO AURÉLIO | N | 9 | 0
+ 52   | RE 423768 | MARCO AURÉLIO | N | 9 | 0
+ 53   | HC 96851  | MARCO AURÉLIO | N | 9 | 0
+ 54   | ADI 4369  | MARCO AURÉLIO | N | 9 | 0
+ 55   | HC 101733 | MARCO AURÉLIO | N | 9 | 0
+ 56   | RE 565048 | MARCO AURÉLIO | N | 9 | 0
+ 57   | HC 100738 | MARCO AURÉLIO | N | 9 | 0
+ 58   | RE 413782 | MARCO AURÉLIO | N | 9 | 0
+ 59   | MS 33094  | MARCO AURÉLIO | N | 9 | 0
+ 60   | HC 104867 | MARCO AURÉLIO | S | 9 | 0
+ 61   | HC 96324  | MARCO AURÉLIO | N | 9 | 0
+ 62   | RE 564413 | MARCO AURÉLIO | N | 9 | 0
+ 63   | AO 183    | MARCO AURÉLIO | N | 8 | 2
+ 64   | RE 219740 | MARCO AURÉLIO | N | 8 | 2
+ 65   | RE 201465 | MARCO AURÉLIO | N | 8 | 2
+ 66   | HC 91273  | MARCO AURÉLIO | N | 8 | 2
+ 67   | HC 87585  | MARCO AURÉLIO | N | 8 | 2
+ 68   | MS 26391  | MARCO AURÉLIO | N | 8 | 2
+ 69   | RE 452994 | MARCO AURÉLIO | N | 8 | 2
+ 70   | RE 164836 | MARCO AURÉLIO | N | 8 | 2
+ 71   | HC 104721 | MARCO AURÉLIO | N | 8 | 2
+ 72   | HC 91595  | MARCO AURÉLIO | N | 8 | 2
+ 73   | HC 90320  | MARCO AURÉLIO | N | 8 | 2
+ 74   | RHC 83181 | MARCO AURÉLIO | N | 8 | 1
+ 75   | MS 26353  | MARCO AURÉLIO | N | 8 | 1
+ 76   | RE 460785 | MARCO AURÉLIO | N | 8 | 1
+ 77   | HC 98290  | MARCO AURÉLIO | N | 8 | 1
+ 78   | HC 117634 | MARCO AURÉLIO | N | 8 | 0
+ 79   | RE 170484 | MARCO AURÉLIO | S | 8 | 0
+ 80   | RE 344994 | MARCO AURÉLIO | N | 8 | 0
+ 81   | RE 590809 | MARCO AURÉLIO | N | 8 | 0
+ 82   | RE 181966 | MARCO AURÉLIO | S | 8 | 0
+ 83   | RE 199293 | MARCO AURÉLIO | N | 7 | 3
+ 84   | HC 84105  | MARCO AURÉLIO | N | 7 | 3
+ 85   | HC 105674 | MARCO AURÉLIO | N | 7 | 3
+ 86   | RE 607607 | MARCO AURÉLIO | N | 7 | 3
+ 87   | HC 86834  | MARCO AURÉLIO | N | 7 | 2
+ 88   | HC 100319 | MARCO AURÉLIO | N | 7 | 2
+ 89   | RCL 655   | MARCO AURÉLIO | N | 7 | 2
+ 90   | RE 191088 | MARCO AURÉLIO | N | 7 | 2
+ 91   | ADI 3926  | MARCO AURÉLIO | N | 7 | 2
+ 92   | EXT 1079  | MARCO AURÉLIO | N | 7 | 2
+ 93   | EXT 974   | MARCO AURÉLIO | N | 7 | 2
+ 94   | HC 97900  | MARCO AURÉLIO | N | 7 | 2
+ 95   | HC 91723  | MARCO AURÉLIO | N | 7 | 1
+ 96   | HC 108715 | MARCO AURÉLIO | N | 7 | 1
+ 97   | HC 84073  | MARCO AURÉLIO | N | 7 | 1
+ 98   | MS 25198  | MARCO AURÉLIO | N | 7 | 0
+ 99   | RMS 24309 | MARCO AURÉLIO | N | 7 | 0
+ 100   | ADI 1105  | MARCO AURÉLIO | N | 7 | 0
+ 101   | HC 101432 | MARCO AURÉLIO | N | 6 | 4
+ 102   | HC 113718 | MARCO AURÉLIO | N | 6 | 3
+ 103   | MS 24484  | MARCO AURÉLIO | N | 6 | 3
+ 104   | MS 24742  | MARCO AURÉLIO | N | 6 | 2
+ 105   | HC 83943  | MARCO AURÉLIO | N | 6 | 2
+ 106   | HC 87187  | MARCO AURÉLIO | N | 6 | 2
+ 107   | HC 103027 | MARCO AURÉLIO | N | 6 | 2
+ 108   | EXT 1051  | MARCO AURÉLIO | N | 6 | 1
+ 109   | CC 7201   | MARCO AURÉLIO | N | 6 | 1
+ 110   | HC 90902  | MARCO AURÉLIO | N | 6 | 1
+ 111   | HC 85588  | MARCO AURÉLIO | N | 5 | 3
+ 112   | RE 388359 | MARCO AURÉLIO | N | 5 | 2
+ 113   | RE 461366 | MARCO AURÉLIO | N | 5 | 2
+ 114   | MI 758    | MARCO AURÉLIO | N | 5 | 1
+ 115   | ADPF 54   | MARCO AURÉLIO | N | 5 | 1
+ 116   | MS 26283  | MARCO AURÉLIO | N | 4 | 1
+ 117   | HC 96007  | MARCO AURÉLIO | N | 4 | 0
+ 118   | HC 93381  | MARCO AURÉLIO | N | 4 | 0
+ 119   | HC 111426 | MARCO AURÉLIO | N | 3 | 2
+ 120   | HC 92487  | MARCO AURÉLIO | N | 3 | 2
+ 121   | HC 106326 | MARCO AURÉLIO | N | 3 | 0
+ 122   | RE 194662 | MARCO AURÉLIO | N | 3 | 0
+ 123   | HC 108674 | MARCO AURÉLIO | N | 2 | 3
+ 124   | MS 24163  | MARCO AURÉLIO | N | 2 | 2
+ 125   | HC 92914  | MARCO AURÉLIO | N | 2 | 1
+ 126   | MS 24503  | MARCO AURÉLIO | N | 2 | 1
+ 127   | HC 100988 | MARCO AURÉLIO | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_2
+Number of decisions which appear on simulations: 134
+Number of items whose frequency is higher than 1: 127
+Number of decisions which could be in all iterations: 64
+decisões que aparecem pelo menos 10 vezes | 30
+decisões que aparecem pelo menos 9 vezes | 62
+decisões que aparecem pelo menos 8 vezes | 82
+139
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 82909  | MARCO AURÉLIO | N | 10 | 0
+ 2   | RE 170484 | MARCO AURÉLIO | S | 10 | 0
+ 3   | HC 92423  | MARCO AURÉLIO | N | 10 | 0
+ 4   | RE 423768 | MARCO AURÉLIO | N | 10 | 0
+ 5   | RE 191088 | MARCO AURÉLIO | N | 10 | 0
+ 6   | RE 363852 | MARCO AURÉLIO | N | 10 | 0
+ 7   | IF 2953   | MARCO AURÉLIO | S | 10 | 0
+ 8   | ACO 765   | MARCO AURÉLIO | N | 10 | 0
+ 9   | HC 101733 | MARCO AURÉLIO | N | 10 | 0
+ 10   | AO 183    | MARCO AURÉLIO | N | 10 | 0
+ 11   | RE 201465 | MARCO AURÉLIO | N | 10 | 0
+ 12   | RE 590809 | MARCO AURÉLIO | N | 10 | 0
+ 13   | RE 174478 | MARCO AURÉLIO | N | 10 | 0
+ 14   | RE 181966 | MARCO AURÉLIO | S | 10 | 0
+ 15   | RE 206048 | MARCO AURÉLIO | N | 10 | 0
+ 16   | PET 3528  | MARCO AURÉLIO | N | 10 | 0
+ 17   | HC 83157  | MARCO AURÉLIO | N | 10 | 0
+ 18   | HC 82959  | MARCO AURÉLIO | N | 10 | 0
+ 19   | RE 607607 | MARCO AURÉLIO | N | 10 | 0
+ 20   | HC 101798 | MARCO AURÉLIO | N | 10 | 0
+ 21   | HC 83255  | MARCO AURÉLIO | N | 10 | 0
+ 22   | IF 2915   | MARCO AURÉLIO | N | 10 | 0
+ 23   | HC 84073  | MARCO AURÉLIO | N | 10 | 0
+ 24   | RE 164836 | MARCO AURÉLIO | N | 10 | 0
+ 25   | HC 109956 | MARCO AURÉLIO | N | 10 | 0
+ 26   | HC 115508 | MARCO AURÉLIO | N | 9 | 1
+ 27   | MS 25198  | MARCO AURÉLIO | N | 9 | 1
+ 28   | HC 116641 | MARCO AURÉLIO | N | 9 | 1
+ 29   | HC 116567 | MARCO AURÉLIO | N | 9 | 1
+ 30   | MI 758    | MARCO AURÉLIO | N | 9 | 1
+ 31   | RE 567935 | MARCO AURÉLIO | N | 9 | 1
+ 32   | RE 136901 | MARCO AURÉLIO | N | 9 | 1
+ 33   | ADI 3926  | MARCO AURÉLIO | N | 9 | 1
+ 34   | HC 84105  | MARCO AURÉLIO | N | 9 | 1
+ 35   | HC 125705 | MARCO AURÉLIO | N | 9 | 1
+ 36   | HC 103716 | MARCO AURÉLIO | N | 9 | 1
+ 37   | RE 386475 | MARCO AURÉLIO | N | 9 | 1
+ 38   | RE 353657 | MARCO AURÉLIO | N | 9 | 1
+ 39   | EXT 1079  | MARCO AURÉLIO | N | 9 | 1
+ 40   | RE 567985 | MARCO AURÉLIO | N | 9 | 1
+ 41   | HC 104813 | MARCO AURÉLIO | N | 9 | 1
+ 42   | RE 413782 | MARCO AURÉLIO | N | 9 | 1
+ 43   | RE 477323 | MARCO AURÉLIO | N | 9 | 1
+ 44   | RE 390840 | MARCO AURÉLIO | N | 9 | 1
+ 45   | HC 87585  | MARCO AURÉLIO | N | 9 | 1
+ 46   | MS 24754  | MARCO AURÉLIO | N | 9 | 1
+ 47   | MS 26391  | MARCO AURÉLIO | N | 9 | 1
+ 48   | RE 452994 | MARCO AURÉLIO | N | 9 | 1
+ 49   | HC 104721 | MARCO AURÉLIO | N | 9 | 1
+ 50   | HC 91595  | MARCO AURÉLIO | N | 9 | 1
+ 51   | HC 90320  | MARCO AURÉLIO | N | 9 | 1
+ 52   | HC 101263 | MARCO AURÉLIO | N | 9 | 0
+ 53   | ADI 4369  | MARCO AURÉLIO | N | 9 | 0
+ 54   | HC 101432 | MARCO AURÉLIO | N | 9 | 0
+ 55   | RE 357950 | MARCO AURÉLIO | S | 9 | 0
+ 56   | HC 100738 | MARCO AURÉLIO | N | 9 | 0
+ 57   | RE 358273 | MARCO AURÉLIO | S | 9 | 0
+ 58   | HC 104867 | MARCO AURÉLIO | S | 9 | 0
+ 59   | RHC 84036 | MARCO AURÉLIO | N | 9 | 0
+ 60   | ADI 2906  | MARCO AURÉLIO | N | 9 | 0
+ 61   | EXT 974   | MARCO AURÉLIO | N | 9 | 0
+ 62   | HC 110055 | MARCO AURÉLIO | N | 8 | 2
+ 63   | HC 124290 | MARCO AURÉLIO | N | 8 | 2
+ 64   | MI 721    | MARCO AURÉLIO | N | 8 | 2
+ 65   | INQ 2052  | MARCO AURÉLIO | N | 8 | 2
+ 66   | RE 565048 | MARCO AURÉLIO | N | 8 | 2
+ 67   | HC 92175  | MARCO AURÉLIO | N | 8 | 2
+ 68   | MS 33094  | MARCO AURÉLIO | N | 8 | 2
+ 69   | HC 106212 | MARCO AURÉLIO | N | 8 | 2
+ 70   | RHC 83181 | MARCO AURÉLIO | N | 8 | 1
+ 71   | HC 98416  | MARCO AURÉLIO | N | 8 | 1
+ 72   | MS 23550  | MARCO AURÉLIO | N | 8 | 1
+ 73   | RE 591054 | MARCO AURÉLIO | N | 8 | 1
+ 74   | RE 564413 | MARCO AURÉLIO | N | 8 | 1
+ 75   | RCL 655   | MARCO AURÉLIO | N | 8 | 0
+ 76   | HC 111426 | MARCO AURÉLIO | N | 8 | 0
+ 77   | HC 96851  | MARCO AURÉLIO | N | 8 | 0
+ 78   | IF 2888   | MARCO AURÉLIO | S | 8 | 0
+ 79   | MS 26353  | MARCO AURÉLIO | N | 8 | 0
+ 80   | EXT 1051  | MARCO AURÉLIO | N | 8 | 0
+ 81   | RCL 3907  | MARCO AURÉLIO | N | 8 | 0
+ 82   | HC 101985 | MARCO AURÉLIO | N | 8 | 0
+ 83   | ADPF 46   | MARCO AURÉLIO | N | 8 | 0
+ 84   | HC 96324  | MARCO AURÉLIO | N | 8 | 0
+ 85   | ADI 1105  | MARCO AURÉLIO | N | 8 | 0
+ 86   | MS 26919  | MARCO AURÉLIO | N | 8 | 0
+ 87   | HC 105674 | MARCO AURÉLIO | N | 7 | 3
+ 88   | RHC 83717 | MARCO AURÉLIO | N | 7 | 3
+ 89   | RE 388312 | MARCO AURÉLIO | N | 7 | 2
+ 90   | HC 91273  | MARCO AURÉLIO | N | 7 | 2
+ 91   | HC 117634 | MARCO AURÉLIO | N | 7 | 1
+ 92   | MS 24742  | MARCO AURÉLIO | N | 7 | 1
+ 93   | RE 199293 | MARCO AURÉLIO | N | 7 | 1
+ 94   | CC 7201   | MARCO AURÉLIO | N | 7 | 1
+ 95   | HC 98290  | MARCO AURÉLIO | N | 7 | 1
+ 96   | HC 103027 | MARCO AURÉLIO | N | 7 | 1
+ 97   | HC 85598  | MARCO AURÉLIO | N | 7 | 1
+ 98   | HC 100319 | MARCO AURÉLIO | N | 7 | 0
+ 99   | HC 83943  | MARCO AURÉLIO | N | 7 | 0
+ 100   | RE 460785 | MARCO AURÉLIO | N | 7 | 0
+ 101   | HC 108715 | MARCO AURÉLIO | N | 6 | 3
+ 102   | HC 87102  | MARCO AURÉLIO | N | 6 | 3
+ 103   | RE 344994 | MARCO AURÉLIO | N | 6 | 2
+ 104   | HC 85588  | MARCO AURÉLIO | N | 6 | 2
+ 105   | HC 113718 | MARCO AURÉLIO | N | 6 | 1
+ 106   | RE 219740 | MARCO AURÉLIO | N | 6 | 1
+ 107   | HC 87187  | MARCO AURÉLIO | N | 6 | 0
+ 108   | HC 92487  | MARCO AURÉLIO | N | 6 | 0
+ 109   | HC 86834  | MARCO AURÉLIO | N | 5 | 3
+ 110   | MS 26283  | MARCO AURÉLIO | N | 5 | 2
+ 111   | ADPF 54   | MARCO AURÉLIO | N | 5 | 2
+ 112   | MS 24484  | MARCO AURÉLIO | N | 5 | 2
+ 113   | HC 97900  | MARCO AURÉLIO | N | 5 | 2
+ 114   | HC 91723  | MARCO AURÉLIO | N | 5 | 1
+ 115   | RE 461366 | MARCO AURÉLIO | N | 5 | 1
+ 116   | HC 92914  | MARCO AURÉLIO | N | 5 | 0
+ 117   | HC 90902  | MARCO AURÉLIO | N | 4 | 2
+ 118   | HC 96007  | MARCO AURÉLIO | N | 4 | 1
+ 119   | RE 388359 | MARCO AURÉLIO | N | 4 | 1
+ 120   | RMS 24309 | MARCO AURÉLIO | N | 4 | 1
+ 121   | HC 93381  | MARCO AURÉLIO | N | 4 | 1
+ 122   | MS 24163  | MARCO AURÉLIO | N | 4 | 0
+ 123   | HC 104522 | MARCO AURÉLIO | N | 3 | 1
+ 124   | HC 126661 | MARCO AURÉLIO | N | 3 | 1
+ 125   | MS 24503  | MARCO AURÉLIO | N | 2 | 1
+
+stf_pr_2_acordaos_90_rel_2
+Number of decisions which appear on simulations: 133
+Number of items whose frequency is higher than 1: 125
+Number of decisions which could be in all iterations: 61
+decisões que aparecem pelo menos 10 vezes | 25
+decisões que aparecem pelo menos 9 vezes | 61
+decisões que aparecem pelo menos 8 vezes | 86
+137
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 115989 | GILMAR MENDES | N | 10 | 0
+ 2   | HC 89090   | GILMAR MENDES | N | 10 | 0
+ 3   | ADI 2724   | GILMAR MENDES | N | 10 | 0
+ 4   | HC 85335   | GILMAR MENDES | N | 10 | 0
+ 5   | RE 433233  | GILMAR MENDES | S | 10 | 0
+ 6   | HC 91386   | GILMAR MENDES | N | 10 | 0
+ 7   | RE 453740  | GILMAR MENDES | N | 10 | 0
+ 8   | MS 24138   | GILMAR MENDES | N | 10 | 0
+ 9   | RHC 85605  | GILMAR MENDES | N | 10 | 0
+ 10   | ADI 3897   | GILMAR MENDES | N | 10 | 0
+ 11   | HC 86522   | GILMAR MENDES | N | 10 | 0
+ 12   | RE 415454  | GILMAR MENDES | N | 10 | 0
+ 13   | HC 100185  | GILMAR MENDES | N | 10 | 0
+ 14   | RCL 1459   | GILMAR MENDES | N | 10 | 0
+ 15   | HC 83856   | GILMAR MENDES | N | 10 | 0
+ 16   | HC 82662   | GILMAR MENDES | N | 10 | 0
+ 17   | HC 122894  | GILMAR MENDES | N | 10 | 0
+ 18   | RE 598099  | GILMAR MENDES | N | 10 | 0
+ 19   | HC 83555   | GILMAR MENDES | N | 10 | 0
+ 20   | ADI 1882   | GILMAR MENDES | N | 10 | 0
+ 21   | HC 85615   | GILMAR MENDES | N | 10 | 0
+ 22   | RE 416827  | GILMAR MENDES | S | 10 | 0
+ 23   | HC 127043  | GILMAR MENDES | N | 10 | 0
+ 24   | RE 571572  | GILMAR MENDES | N | 10 | 0
+ 25   | RHC 114434 | GILMAR MENDES | N | 10 | 0
+ 26   | MI 708     | GILMAR MENDES | N | 10 | 0
+ 27   | HC 101307  | GILMAR MENDES | S | 10 | 0
+ 28   | ADI 3682   | GILMAR MENDES | N | 10 | 0
+ 29   | ADI 3322   | GILMAR MENDES | N | 10 | 0
+ 30   | HC 104423  | GILMAR MENDES | N | 10 | 0
+ 31   | HC 119287  | GILMAR MENDES | N | 9 | 1
+ 32   | ADI 2808   | GILMAR MENDES | N | 9 | 1
+ 33   | HC 90617   | GILMAR MENDES | N | 9 | 1
+ 34   | RHC 124486 | GILMAR MENDES | N | 9 | 1
+ 35   | HC 88537   | GILMAR MENDES | N | 9 | 1
+ 36   | HC 89525   | GILMAR MENDES | N | 9 | 1
+ 37   | HC 84434   | GILMAR MENDES | N | 9 | 1
+ 38   | HC 89965   | GILMAR MENDES | N | 9 | 1
+ 39   | MI 725     | GILMAR MENDES | N | 9 | 1
+ 40   | HC 82832   | GILMAR MENDES | N | 9 | 1
+ 41   | HC 86395   | GILMAR MENDES | N | 9 | 1
+ 42   | HC 98172   | GILMAR MENDES | N | 9 | 1
+ 43   | HC 90387   | GILMAR MENDES | N | 9 | 1
+ 44   | ADI 2302   | GILMAR MENDES | N | 9 | 1
+ 45   | RE 298616  | GILMAR MENDES | N | 9 | 1
+ 46   | HC 82949   | GILMAR MENDES | N | 9 | 1
+ 47   | HC 119064  | GILMAR MENDES | N | 9 | 1
+ 48   | HC 116218  | GILMAR MENDES | N | 9 | 1
+ 49   | HC 94114   | GILMAR MENDES | N | 9 | 1
+ 50   | HC 86789   | GILMAR MENDES | N | 9 | 1
+ 51   | MS 29947   | GILMAR MENDES | N | 9 | 1
+ 52   | HC 112400  | GILMAR MENDES | N | 9 | 1
+ 53   | HC 115153  | GILMAR MENDES | N | 9 | 1
+ 54   | RMS 24536  | GILMAR MENDES | N | 9 | 1
+ 55   | HC 92842   | GILMAR MENDES | N | 9 | 1
+ 56   | HC 112207  | GILMAR MENDES | N | 9 | 1
+ 57   | HC 104339  | GILMAR MENDES | N | 9 | 1
+ 58   | HC 88448   | GILMAR MENDES | N | 9 | 1
+ 59   | ADI 2727   | GILMAR MENDES | S | 9 | 0
+ 60   | RE 356711  | GILMAR MENDES | N | 9 | 0
+ 61   | RHC 113544 | GILMAR MENDES | N | 9 | 0
+ 62   | HC 105743  | GILMAR MENDES | N | 9 | 0
+ 63   | HC 114498  | GILMAR MENDES | N | 9 | 0
+ 64   | AI 556099  | GILMAR MENDES | N | 9 | 0
+ 65   | HC 88905   | GILMAR MENDES | N | 9 | 0
+ 66   | RE 377457  | GILMAR MENDES | N | 8 | 2
+ 67   | HC 85706   | GILMAR MENDES | N | 8 | 2
+ 68   | ADI 2791   | GILMAR MENDES | N | 8 | 2
+ 69   | ADI 3847   | GILMAR MENDES | N | 8 | 2
+ 70   | HC 114817  | GILMAR MENDES | N | 8 | 2
+ 71   | ADI 1571   | GILMAR MENDES | N | 8 | 2
+ 72   | MS 22357   | GILMAR MENDES | N | 8 | 2
+ 73   | HC 127488  | GILMAR MENDES | N | 8 | 2
+ 74   | HC 82740   | GILMAR MENDES | N | 8 | 2
+ 75   | HC 130152  | GILMAR MENDES | N | 8 | 2
+ 76   | ADI 2690   | GILMAR MENDES | N | 8 | 2
+ 77   | HC 85089   | GILMAR MENDES | N | 8 | 2
+ 78   | HC 85579   | GILMAR MENDES | N | 8 | 1
+ 79   | HC 83886   | GILMAR MENDES | N | 8 | 1
+ 80   | ADPF 33    | GILMAR MENDES | N | 8 | 1
+ 81   | HC 85894   | GILMAR MENDES | N | 8 | 1
+ 82   | RHC 116080 | GILMAR MENDES | N | 8 | 1
+ 83   | MS 24381   | GILMAR MENDES | N | 8 | 1
+ 84   | RE 381964  | GILMAR MENDES | S | 8 | 0
+ 85   | HC 84793   | GILMAR MENDES | N | 8 | 0
+ 86   | HC 86128   | GILMAR MENDES | N | 8 | 0
+ 87   | RE 410778  | GILMAR MENDES | N | 8 | 0
+ 88   | RE 398269  | GILMAR MENDES | N | 8 | 0
+ 89   | RE 372503  | GILMAR MENDES | N | 8 | 0
+ 90   | HC 82704   | GILMAR MENDES | N | 8 | 0
+ 91   | HC 83675   | GILMAR MENDES | N | 8 | 0
+ 92   | ADI 1987   | GILMAR MENDES | S | 8 | 0
+ 93   | HC 87164   | GILMAR MENDES | N | 7 | 3
+ 94   | HC 87353   | GILMAR MENDES | N | 7 | 2
+ 95   | AC 1550    | GILMAR MENDES | N | 7 | 2
+ 96   | HC 97541   | GILMAR MENDES | N | 7 | 2
+ 97   | HC 105175  | GILMAR MENDES | N | 7 | 2
+ 98   | HC 85428   | GILMAR MENDES | N | 7 | 2
+ 99   | ADI 3846   | GILMAR MENDES | N | 7 | 1
+ 100   | HC 83148   | GILMAR MENDES | N | 7 | 1
+ 101   | HC 86321   | GILMAR MENDES | S | 7 | 0
+ 102   | CC 7134    | GILMAR MENDES | N | 7 | 0
+ 103   | HC 83989   | GILMAR MENDES | N | 7 | 0
+ 104   | ADI 3715   | GILMAR MENDES | N | 6 | 4
+ 105   | ADI 2208   | GILMAR MENDES | N | 6 | 1
+ 106   | EXT 893    | GILMAR MENDES | N | 6 | 1
+ 107   | HC 109390  | GILMAR MENDES | N | 6 | 1
+ 108   | RE 630733  | GILMAR MENDES | N | 6 | 1
+ 109   | ADI 1957   | GILMAR MENDES | N | 6 | 0
+ 110   | MS 30186   | GILMAR MENDES | N | 5 | 3
+ 111   | RE 592317  | GILMAR MENDES | N | 5 | 2
+ 112   | RE 635739  | GILMAR MENDES | N | 5 | 1
+ 113   | RMS 22311  | GILMAR MENDES | N | 5 | 1
+ 114   | HC 115171  | GILMAR MENDES | N | 5 | 0
+ 115   | HC 82625   | GILMAR MENDES | N | 5 | 0
+ 116   | RHC 116169 | GILMAR MENDES | N | 4 | 1
+ 117   | MS 30299   | GILMAR MENDES | S | 3 | 0
+ 118   | RHC 115219 | GILMAR MENDES | N | 3 | 0
+ 119   | HC 85779   | GILMAR MENDES | N | 2 | 3
+ 120   | HC 126663  | GILMAR MENDES | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_3
+Number of decisions which appear on simulations: 132
+Number of items whose frequency is higher than 1: 120
+Number of decisions which could be in all iterations: 72
+decisões que aparecem pelo menos 10 vezes | 30
+decisões que aparecem pelo menos 9 vezes | 65
+decisões que aparecem pelo menos 8 vezes | 92
+132
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 83886   | GILMAR MENDES | N | 10 | 0
+ 2   | ADI 2724   | GILMAR MENDES | N | 10 | 0
+ 3   | ADI 2808   | GILMAR MENDES | N | 10 | 0
+ 4   | HC 85335   | GILMAR MENDES | N | 10 | 0
+ 5   | HC 91386   | GILMAR MENDES | N | 10 | 0
+ 6   | RE 453740  | GILMAR MENDES | N | 10 | 0
+ 7   | MS 24138   | GILMAR MENDES | N | 10 | 0
+ 8   | HC 90617   | GILMAR MENDES | N | 10 | 0
+ 9   | ADI 3847   | GILMAR MENDES | N | 10 | 0
+ 10   | ADI 3846   | GILMAR MENDES | N | 10 | 0
+ 11   | HC 88537   | GILMAR MENDES | N | 10 | 0
+ 12   | HC 89525   | GILMAR MENDES | N | 10 | 0
+ 13   | HC 89965   | GILMAR MENDES | N | 10 | 0
+ 14   | MS 22357   | GILMAR MENDES | N | 10 | 0
+ 15   | HC 90387   | GILMAR MENDES | N | 10 | 0
+ 16   | HC 119064  | GILMAR MENDES | N | 10 | 0
+ 17   | HC 116218  | GILMAR MENDES | N | 10 | 0
+ 18   | HC 83856   | GILMAR MENDES | N | 10 | 0
+ 19   | HC 94114   | GILMAR MENDES | N | 10 | 0
+ 20   | HC 86789   | GILMAR MENDES | N | 10 | 0
+ 21   | RE 598099  | GILMAR MENDES | N | 10 | 0
+ 22   | HC 83555   | GILMAR MENDES | N | 10 | 0
+ 23   | RE 372503  | GILMAR MENDES | N | 10 | 0
+ 24   | HC 112207  | GILMAR MENDES | N | 10 | 0
+ 25   | ADI 3682   | GILMAR MENDES | N | 10 | 0
+ 26   | RHC 115989 | GILMAR MENDES | N | 9 | 1
+ 27   | RE 377457  | GILMAR MENDES | N | 9 | 1
+ 28   | HC 89090   | GILMAR MENDES | N | 9 | 1
+ 29   | HC 119287  | GILMAR MENDES | N | 9 | 1
+ 30   | HC 87353   | GILMAR MENDES | N | 9 | 1
+ 31   | RE 356711  | GILMAR MENDES | N | 9 | 1
+ 32   | HC 84434   | GILMAR MENDES | N | 9 | 1
+ 33   | RHC 85605  | GILMAR MENDES | N | 9 | 1
+ 34   | HC 97541   | GILMAR MENDES | N | 9 | 1
+ 35   | HC 98172   | GILMAR MENDES | N | 9 | 1
+ 36   | HC 127488  | GILMAR MENDES | N | 9 | 1
+ 37   | HC 85428   | GILMAR MENDES | N | 9 | 1
+ 38   | MS 24381   | GILMAR MENDES | N | 9 | 1
+ 39   | HC 82949   | GILMAR MENDES | N | 9 | 1
+ 40   | HC 100185  | GILMAR MENDES | N | 9 | 1
+ 41   | HC 105743  | GILMAR MENDES | N | 9 | 1
+ 42   | ADI 3715   | GILMAR MENDES | N | 9 | 1
+ 43   | HC 82740   | GILMAR MENDES | N | 9 | 1
+ 44   | HC 82662   | GILMAR MENDES | N | 9 | 1
+ 45   | HC 122894  | GILMAR MENDES | N | 9 | 1
+ 46   | HC 130152  | GILMAR MENDES | N | 9 | 1
+ 47   | RMS 24536  | GILMAR MENDES | N | 9 | 1
+ 48   | HC 127043  | GILMAR MENDES | N | 9 | 1
+ 49   | HC 104339  | GILMAR MENDES | N | 9 | 1
+ 50   | AI 556099  | GILMAR MENDES | N | 9 | 1
+ 51   | ADI 3322   | GILMAR MENDES | N | 9 | 1
+ 52   | HC 83675   | GILMAR MENDES | N | 9 | 1
+ 53   | HC 104423  | GILMAR MENDES | N | 9 | 1
+ 54   | HC 86321   | GILMAR MENDES | S | 9 | 0
+ 55   | RE 433233  | GILMAR MENDES | S | 9 | 0
+ 56   | ADPF 33    | GILMAR MENDES | N | 9 | 0
+ 57   | RE 381964  | GILMAR MENDES | S | 9 | 0
+ 58   | HC 114817  | GILMAR MENDES | N | 9 | 0
+ 59   | ADI 2208   | GILMAR MENDES | N | 9 | 0
+ 60   | HC 101307  | GILMAR MENDES | S | 9 | 0
+ 61   | HC 87164   | GILMAR MENDES | N | 8 | 2
+ 62   | HC 85579   | GILMAR MENDES | N | 8 | 2
+ 63   | HC 85706   | GILMAR MENDES | N | 8 | 2
+ 64   | AC 1550    | GILMAR MENDES | N | 8 | 2
+ 65   | HC 86395   | GILMAR MENDES | N | 8 | 2
+ 66   | ADI 2302   | GILMAR MENDES | N | 8 | 2
+ 67   | RE 298616  | GILMAR MENDES | N | 8 | 2
+ 68   | ADI 1882   | GILMAR MENDES | N | 8 | 2
+ 69   | HC 92842   | GILMAR MENDES | N | 8 | 2
+ 70   | RHC 114434 | GILMAR MENDES | N | 8 | 2
+ 71   | MI 708     | GILMAR MENDES | N | 8 | 2
+ 72   | HC 88448   | GILMAR MENDES | N | 8 | 2
+ 73   | HC 88905   | GILMAR MENDES | N | 8 | 2
+ 74   | ADI 2791   | GILMAR MENDES | N | 8 | 1
+ 75   | HC 85894   | GILMAR MENDES | N | 8 | 1
+ 76   | RHC 113544 | GILMAR MENDES | N | 8 | 1
+ 77   | MI 725     | GILMAR MENDES | N | 8 | 1
+ 78   | RHC 116080 | GILMAR MENDES | N | 8 | 1
+ 79   | ADI 1957   | GILMAR MENDES | N | 8 | 1
+ 80   | HC 86128   | GILMAR MENDES | N | 8 | 1
+ 81   | RE 398269  | GILMAR MENDES | N | 8 | 1
+ 82   | HC 85089   | GILMAR MENDES | N | 8 | 1
+ 83   | MS 30186   | GILMAR MENDES | N | 8 | 1
+ 84   | RE 592317  | GILMAR MENDES | N | 8 | 1
+ 85   | ADI 2727   | GILMAR MENDES | S | 8 | 0
+ 86   | ADI 3897   | GILMAR MENDES | N | 8 | 0
+ 87   | RCL 1459   | GILMAR MENDES | N | 8 | 0
+ 88   | HC 82625   | GILMAR MENDES | N | 8 | 0
+ 89   | ADI 1987   | GILMAR MENDES | S | 8 | 0
+ 90   | RHC 124486 | GILMAR MENDES | N | 7 | 3
+ 91   | ADI 1571   | GILMAR MENDES | N | 7 | 3
+ 92   | RE 415454  | GILMAR MENDES | N | 7 | 3
+ 93   | HC 112400  | GILMAR MENDES | N | 7 | 3
+ 94   | RE 571572  | GILMAR MENDES | N | 7 | 3
+ 95   | HC 105175  | GILMAR MENDES | N | 7 | 2
+ 96   | HC 86522   | GILMAR MENDES | N | 7 | 2
+ 97   | HC 114498  | GILMAR MENDES | N | 7 | 2
+ 98   | HC 115153  | GILMAR MENDES | N | 7 | 2
+ 99   | HC 109390  | GILMAR MENDES | N | 7 | 2
+ 100   | HC 84793   | GILMAR MENDES | N | 7 | 1
+ 101   | HC 82704   | GILMAR MENDES | N | 7 | 1
+ 102   | ADI 2690   | GILMAR MENDES | N | 7 | 0
+ 103   | MS 29947   | GILMAR MENDES | N | 7 | 0
+ 104   | RE 416827  | GILMAR MENDES | S | 7 | 0
+ 105   | RE 635739  | GILMAR MENDES | N | 7 | 0
+ 106   | RHC 116169 | GILMAR MENDES | N | 7 | 0
+ 107   | RE 410778  | GILMAR MENDES | N | 6 | 3
+ 108   | HC 83148   | GILMAR MENDES | N | 6 | 2
+ 109   | HC 85615   | GILMAR MENDES | N | 6 | 2
+ 110   | RE 630733  | GILMAR MENDES | N | 6 | 1
+ 111   | HC 82832   | GILMAR MENDES | N | 6 | 0
+ 112   | CC 7134    | GILMAR MENDES | N | 6 | 0
+ 113   | HC 83989   | GILMAR MENDES | N | 6 | 0
+ 114   | HC 115171  | GILMAR MENDES | N | 5 | 0
+ 115   | HC 87577   | GILMAR MENDES | N | 4 | 1
+ 116   | EXT 893    | GILMAR MENDES | N | 4 | 1
+ 117   | RMS 22311  | GILMAR MENDES | N | 4 | 1
+ 118   | HC 126663  | GILMAR MENDES | N | 4 | 0
+ 119   | HC 115350  | GILMAR MENDES | N | 2 | 2
+ 120   | HC 86294   | GILMAR MENDES | N | 2 | 2
+ 121   | ADI 3599   | GILMAR MENDES | N | 2 | 1
+ 122   | HC 82242   | GILMAR MENDES | N | 2 | 1
+ 123   | HC 85779   | GILMAR MENDES | N | 2 | 1
+ 124   | HC 128381  | GILMAR MENDES | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_3
+Number of decisions which appear on simulations: 133
+Number of items whose frequency is higher than 1: 124
+Number of decisions which could be in all iterations: 71
+decisões que aparecem pelo menos 10 vezes | 25
+decisões que aparecem pelo menos 9 vezes | 60
+decisões que aparecem pelo menos 8 vezes | 89
+136
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | MS 32176   | DIAS TOFFOLI | N | 10 | 0
+ 2   | HC 101517  | DIAS TOFFOLI | N | 10 | 0
+ 3   | RHC 112705 | DIAS TOFFOLI | N | 10 | 0
+ 4   | RHC 102963 | DIAS TOFFOLI | N | 10 | 0
+ 5   | ADI 668    | DIAS TOFFOLI | N | 10 | 0
+ 6   | HC 127483  | DIAS TOFFOLI | N | 10 | 0
+ 7   | RHC 116944 | DIAS TOFFOLI | N | 10 | 0
+ 8   | HC 106739  | DIAS TOFFOLI | N | 10 | 0
+ 9   | HC 111840  | DIAS TOFFOLI | N | 10 | 0
+ 10   | HC 103536  | DIAS TOFFOLI | N | 10 | 0
+ 11   | HC 102601  | DIAS TOFFOLI | N | 10 | 0
+ 12   | HC 108345  | DIAS TOFFOLI | N | 10 | 0
+ 13   | RHC 114890 | DIAS TOFFOLI | N | 10 | 0
+ 14   | HC 101407  | DIAS TOFFOLI | N | 10 | 0
+ 15   | ADI 2189   | DIAS TOFFOLI | N | 10 | 0
+ 16   | HC 110848  | DIAS TOFFOLI | N | 10 | 0
+ 17   | HC 105728  | DIAS TOFFOLI | N | 10 | 0
+ 18   | RHC 105150 | DIAS TOFFOLI | N | 10 | 0
+ 19   | RCL 4803   | DIAS TOFFOLI | N | 10 | 0
+ 20   | ADI 290    | DIAS TOFFOLI | N | 10 | 0
+ 21   | HC 113198  | DIAS TOFFOLI | N | 10 | 0
+ 22   | HC 120139  | DIAS TOFFOLI | N | 10 | 0
+ 23   | HC 111124  | DIAS TOFFOLI | N | 9 | 1
+ 24   | HC 111123  | DIAS TOFFOLI | N | 9 | 1
+ 25   | HC 111727  | DIAS TOFFOLI | N | 9 | 1
+ 26   | HC 109966  | DIAS TOFFOLI | N | 9 | 1
+ 27   | RE 594296  | DIAS TOFFOLI | N | 9 | 1
+ 28   | HC 119200  | DIAS TOFFOLI | N | 9 | 1
+ 29   | HC 112319  | DIAS TOFFOLI | N | 9 | 1
+ 30   | HC 102083  | DIAS TOFFOLI | N | 9 | 1
+ 31   | HC 101891  | DIAS TOFFOLI | N | 9 | 1
+ 32   | HC 107904  | DIAS TOFFOLI | N | 9 | 1
+ 33   | HC 101605  | DIAS TOFFOLI | N | 9 | 1
+ 34   | HC 103951  | DIAS TOFFOLI | N | 9 | 1
+ 35   | HC 108381  | DIAS TOFFOLI | N | 9 | 1
+ 36   | HC 114568  | DIAS TOFFOLI | N | 9 | 1
+ 37   | HC 110926  | DIAS TOFFOLI | N | 9 | 1
+ 38   | HC 98366   | DIAS TOFFOLI | N | 9 | 1
+ 39   | HC 98679   | DIAS TOFFOLI | N | 9 | 1
+ 40   | HC 111171  | DIAS TOFFOLI | N | 9 | 1
+ 41   | INQ 3077   | DIAS TOFFOLI | N | 9 | 1
+ 42   | HC 112540  | DIAS TOFFOLI | N | 9 | 1
+ 43   | RHC 114742 | DIAS TOFFOLI | N | 9 | 1
+ 44   | HC 102043  | DIAS TOFFOLI | N | 9 | 1
+ 45   | EXT 1178   | DIAS TOFFOLI | N | 9 | 1
+ 46   | HC 125991  | DIAS TOFFOLI | N | 9 | 1
+ 47   | RHC 116709 | DIAS TOFFOLI | N | 9 | 1
+ 48   | HC 113172  | DIAS TOFFOLI | N | 9 | 1
+ 49   | RHC 124192 | DIAS TOFFOLI | N | 9 | 1
+ 50   | HC 121569  | DIAS TOFFOLI | N | 9 | 1
+ 51   | HC 104227  | DIAS TOFFOLI | N | 9 | 1
+ 52   | HC 108333  | DIAS TOFFOLI | N | 9 | 1
+ 53   | HC 114718  | DIAS TOFFOLI | N | 9 | 1
+ 54   | HC 121907  | DIAS TOFFOLI | N | 9 | 1
+ 55   | RHC 117498 | DIAS TOFFOLI | N | 9 | 1
+ 56   | ADI 2225   | DIAS TOFFOLI | N | 9 | 1
+ 57   | HC 101873  | DIAS TOFFOLI | S | 9 | 0
+ 58   | RHC 118055 | DIAS TOFFOLI | N | 9 | 0
+ 59   | HC 106477  | DIAS TOFFOLI | N | 9 | 0
+ 60   | ADI 1949   | DIAS TOFFOLI | N | 9 | 0
+ 61   | HC 107412  | DIAS TOFFOLI | N | 9 | 0
+ 62   | RHC 107883 | DIAS TOFFOLI | S | 9 | 0
+ 63   | HC 104404  | DIAS TOFFOLI | N | 9 | 0
+ 64   | RHC 111639 | DIAS TOFFOLI | N | 9 | 0
+ 65   | HC 110172  | DIAS TOFFOLI | N | 9 | 0
+ 66   | RHC 118036 | DIAS TOFFOLI | N | 9 | 0
+ 67   | RHC 115982 | DIAS TOFFOLI | N | 8 | 2
+ 68   | RE 385091  | DIAS TOFFOLI | N | 8 | 2
+ 69   | RHC 109847 | DIAS TOFFOLI | N | 8 | 2
+ 70   | ADI 4364   | DIAS TOFFOLI | N | 8 | 2
+ 71   | HC 96678   | DIAS TOFFOLI | N | 8 | 2
+ 72   | HC 114020  | DIAS TOFFOLI | N | 8 | 2
+ 73   | ADI 2158   | DIAS TOFFOLI | N | 8 | 2
+ 74   | EXT 1216   | DIAS TOFFOLI | N | 8 | 2
+ 75   | HC 101284  | DIAS TOFFOLI | N | 8 | 2
+ 76   | HC 110199  | DIAS TOFFOLI | N | 8 | 2
+ 77   | HC 110850  | DIAS TOFFOLI | N | 8 | 2
+ 78   | HC 119567  | DIAS TOFFOLI | N | 8 | 2
+ 79   | HC 96757   | DIAS TOFFOLI | N | 8 | 2
+ 80   | HC 98194   | DIAS TOFFOLI | N | 8 | 1
+ 81   | HC 122151  | DIAS TOFFOLI | N | 8 | 1
+ 82   | RHC 107622 | DIAS TOFFOLI | N | 8 | 1
+ 83   | HC 107304  | DIAS TOFFOLI | N | 8 | 1
+ 84   | RHC 122178 | DIAS TOFFOLI | N | 8 | 1
+ 85   | HC 108064  | DIAS TOFFOLI | N | 8 | 1
+ 86   | HC 95570   | DIAS TOFFOLI | N | 8 | 1
+ 87   | HC 107371  | DIAS TOFFOLI | N | 8 | 1
+ 88   | INQ 2652   | DIAS TOFFOLI | N | 8 | 1
+ 89   | HC 104332  | DIAS TOFFOLI | N | 8 | 1
+ 90   | RHC 114739 | DIAS TOFFOLI | N | 8 | 1
+ 91   | HC 113805  | DIAS TOFFOLI | N | 8 | 1
+ 92   | ADI 4391   | DIAS TOFFOLI | N | 8 | 0
+ 93   | HC 101970  | DIAS TOFFOLI | N | 8 | 0
+ 94   | HC 112576  | DIAS TOFFOLI | N | 8 | 0
+ 95   | HC 101286  | DIAS TOFFOLI | N | 7 | 3
+ 96   | HC 106523  | DIAS TOFFOLI | N | 7 | 2
+ 97   | HC 97413   | DIAS TOFFOLI | N | 7 | 2
+ 98   | RE 470520  | DIAS TOFFOLI | N | 7 | 2
+ 99   | HC 105352  | DIAS TOFFOLI | N | 7 | 1
+ 100   | HC 124107  | DIAS TOFFOLI | N | 7 | 1
+ 101   | HC 113331  | DIAS TOFFOLI | N | 7 | 0
+ 102   | ADI 1247   | DIAS TOFFOLI | N | 7 | 0
+ 103   | RHC 121399 | DIAS TOFFOLI | N | 6 | 3
+ 104   | RHC 123367 | DIAS TOFFOLI | N | 6 | 2
+ 105   | HC 101588  | DIAS TOFFOLI | N | 6 | 1
+ 106   | RHC 117006 | DIAS TOFFOLI | N | 6 | 0
+ 107   | RHC 120661 | DIAS TOFFOLI | N | 5 | 3
+ 108   | HC 105380  | DIAS TOFFOLI | N | 5 | 2
+ 109   | RE 596962  | DIAS TOFFOLI | N | 5 | 0
+ 110   | HC 124287  | DIAS TOFFOLI | N | 4 | 3
+ 111   | HC 108890  | DIAS TOFFOLI | N | 4 | 1
+ 112   | HC 93173   | DIAS TOFFOLI | N | 4 | 1
+ 113   | HC 109726  | DIAS TOFFOLI | N | 4 | 1
+ 114   | HC 121389  | DIAS TOFFOLI | N | 4 | 1
+ 115   | RHC 112870 | DIAS TOFFOLI | N | 4 | 0
+ 116   | HC 111668  | DIAS TOFFOLI | N | 4 | 0
+ 117   | EXT 1212   | DIAS TOFFOLI | N | 4 | 0
+ 118   | HC 113857  | DIAS TOFFOLI | N | 3 | 1
+ 119   | HC 103092  | DIAS TOFFOLI | N | 3 | 1
+ 120   | HC 122694  | DIAS TOFFOLI | N | 3 | 1
+ 121   | RHC 120268 | DIAS TOFFOLI | N | 2 | 2
+ 122   | HC 101757  | DIAS TOFFOLI | N | 2 | 1
+ 123   | HC 97096   | DIAS TOFFOLI | N | 2 | 1
+ 124   | HC 103245  | DIAS TOFFOLI | N | 2 | 1
+ 125   | ADI 4426   | DIAS TOFFOLI | N | 2 | 0
+ 126   | HC 95244   | DIAS TOFFOLI | N | 2 | 0
+ 127   | HC 108481  | DIAS TOFFOLI | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_4
+Number of decisions which appear on simulations: 137
+Number of items whose frequency is higher than 1: 127
+Number of decisions which could be in all iterations: 70
+decisões que aparecem pelo menos 10 vezes | 22
+decisões que aparecem pelo menos 9 vezes | 66
+decisões que aparecem pelo menos 8 vezes | 94
+139
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 115982 | DIAS TOFFOLI | N | 10 | 0
+ 2   | RE 385091  | DIAS TOFFOLI | N | 10 | 0
+ 3   | HC 109966  | DIAS TOFFOLI | N | 10 | 0
+ 4   | HC 98194   | DIAS TOFFOLI | N | 10 | 0
+ 5   | HC 101517  | DIAS TOFFOLI | N | 10 | 0
+ 6   | HC 102083  | DIAS TOFFOLI | N | 10 | 0
+ 7   | HC 110199  | DIAS TOFFOLI | N | 10 | 0
+ 8   | HC 108381  | DIAS TOFFOLI | N | 10 | 0
+ 9   | HC 110926  | DIAS TOFFOLI | N | 10 | 0
+ 10   | RHC 102963 | DIAS TOFFOLI | N | 10 | 0
+ 11   | ADI 668    | DIAS TOFFOLI | N | 10 | 0
+ 12   | INQ 3077   | DIAS TOFFOLI | N | 10 | 0
+ 13   | RHC 114742 | DIAS TOFFOLI | N | 10 | 0
+ 14   | HC 102043  | DIAS TOFFOLI | N | 10 | 0
+ 15   | HC 106739  | DIAS TOFFOLI | N | 10 | 0
+ 16   | RHC 116709 | DIAS TOFFOLI | N | 10 | 0
+ 17   | HC 103536  | DIAS TOFFOLI | N | 10 | 0
+ 18   | HC 113172  | DIAS TOFFOLI | N | 10 | 0
+ 19   | HC 108345  | DIAS TOFFOLI | N | 10 | 0
+ 20   | HC 110850  | DIAS TOFFOLI | N | 10 | 0
+ 21   | RHC 114890 | DIAS TOFFOLI | N | 10 | 0
+ 22   | RE 470520  | DIAS TOFFOLI | N | 10 | 0
+ 23   | HC 105728  | DIAS TOFFOLI | N | 10 | 0
+ 24   | ADI 290    | DIAS TOFFOLI | N | 10 | 0
+ 25   | RE 594296  | DIAS TOFFOLI | N | 9 | 1
+ 26   | HC 96678   | DIAS TOFFOLI | N | 9 | 1
+ 27   | HC 108890  | DIAS TOFFOLI | N | 9 | 1
+ 28   | HC 122151  | DIAS TOFFOLI | N | 9 | 1
+ 29   | HC 112319  | DIAS TOFFOLI | N | 9 | 1
+ 30   | HC 107904  | DIAS TOFFOLI | N | 9 | 1
+ 31   | ADI 2158   | DIAS TOFFOLI | N | 9 | 1
+ 32   | EXT 1216   | DIAS TOFFOLI | N | 9 | 1
+ 33   | HC 101286  | DIAS TOFFOLI | N | 9 | 1
+ 34   | HC 103951  | DIAS TOFFOLI | N | 9 | 1
+ 35   | RHC 118055 | DIAS TOFFOLI | N | 9 | 1
+ 36   | HC 105352  | DIAS TOFFOLI | N | 9 | 1
+ 37   | HC 114568  | DIAS TOFFOLI | N | 9 | 1
+ 38   | HC 111171  | DIAS TOFFOLI | N | 9 | 1
+ 39   | HC 104404  | DIAS TOFFOLI | N | 9 | 1
+ 40   | HC 95570   | DIAS TOFFOLI | N | 9 | 1
+ 41   | HC 121569  | DIAS TOFFOLI | N | 9 | 1
+ 42   | HC 108333  | DIAS TOFFOLI | N | 9 | 1
+ 43   | HC 101407  | DIAS TOFFOLI | N | 9 | 1
+ 44   | ADI 2189   | DIAS TOFFOLI | N | 9 | 1
+ 45   | RHC 105150 | DIAS TOFFOLI | N | 9 | 1
+ 46   | HC 96757   | DIAS TOFFOLI | N | 9 | 1
+ 47   | RCL 4803   | DIAS TOFFOLI | N | 9 | 1
+ 48   | HC 113198  | DIAS TOFFOLI | N | 9 | 1
+ 49   | HC 106523  | DIAS TOFFOLI | N | 9 | 0
+ 50   | MS 32176   | DIAS TOFFOLI | N | 9 | 0
+ 51   | RHC 107622 | DIAS TOFFOLI | N | 9 | 0
+ 52   | HC 107304  | DIAS TOFFOLI | N | 9 | 0
+ 53   | HC 98679   | DIAS TOFFOLI | N | 9 | 0
+ 54   | HC 127483  | DIAS TOFFOLI | N | 9 | 0
+ 55   | HC 112540  | DIAS TOFFOLI | N | 9 | 0
+ 56   | RHC 116944 | DIAS TOFFOLI | N | 9 | 0
+ 57   | HC 125991  | DIAS TOFFOLI | N | 9 | 0
+ 58   | HC 110848  | DIAS TOFFOLI | N | 9 | 0
+ 59   | RHC 109847 | DIAS TOFFOLI | N | 8 | 2
+ 60   | HC 111123  | DIAS TOFFOLI | N | 8 | 2
+ 61   | HC 111727  | DIAS TOFFOLI | N | 8 | 2
+ 62   | HC 114020  | DIAS TOFFOLI | N | 8 | 2
+ 63   | HC 101605  | DIAS TOFFOLI | N | 8 | 2
+ 64   | HC 107412  | DIAS TOFFOLI | N | 8 | 2
+ 65   | HC 101970  | DIAS TOFFOLI | N | 8 | 2
+ 66   | HC 111840  | DIAS TOFFOLI | N | 8 | 2
+ 67   | HC 102601  | DIAS TOFFOLI | N | 8 | 2
+ 68   | RHC 117498 | DIAS TOFFOLI | N | 8 | 2
+ 69   | RHC 121399 | DIAS TOFFOLI | N | 8 | 1
+ 70   | HC 111124  | DIAS TOFFOLI | N | 8 | 1
+ 71   | HC 101891  | DIAS TOFFOLI | N | 8 | 1
+ 72   | HC 106477  | DIAS TOFFOLI | N | 8 | 1
+ 73   | HC 107371  | DIAS TOFFOLI | N | 8 | 1
+ 74   | RHC 114739 | DIAS TOFFOLI | N | 8 | 1
+ 75   | HC 113805  | DIAS TOFFOLI | N | 8 | 1
+ 76   | HC 120139  | DIAS TOFFOLI | N | 8 | 1
+ 77   | HC 101588  | DIAS TOFFOLI | N | 8 | 0
+ 78   | HC 119200  | DIAS TOFFOLI | N | 8 | 0
+ 79   | HC 101873  | DIAS TOFFOLI | S | 8 | 0
+ 80   | RHC 123367 | DIAS TOFFOLI | N | 8 | 0
+ 81   | HC 108064  | DIAS TOFFOLI | N | 8 | 0
+ 82   | RHC 107883 | DIAS TOFFOLI | S | 8 | 0
+ 83   | RHC 112705 | DIAS TOFFOLI | N | 7 | 3
+ 84   | EXT 1178   | DIAS TOFFOLI | N | 7 | 3
+ 85   | RHC 124192 | DIAS TOFFOLI | N | 7 | 3
+ 86   | HC 121907  | DIAS TOFFOLI | N | 7 | 3
+ 87   | HC 98366   | DIAS TOFFOLI | N | 7 | 2
+ 88   | RHC 111639 | DIAS TOFFOLI | N | 7 | 2
+ 89   | HC 114718  | DIAS TOFFOLI | N | 7 | 2
+ 90   | ADI 2225   | DIAS TOFFOLI | N | 7 | 2
+ 91   | ADI 4391   | DIAS TOFFOLI | N | 7 | 1
+ 92   | HC 113331  | DIAS TOFFOLI | N | 7 | 1
+ 93   | HC 101284  | DIAS TOFFOLI | N | 7 | 1
+ 94   | RHC 122178 | DIAS TOFFOLI | N | 7 | 1
+ 95   | ADI 1949   | DIAS TOFFOLI | N | 7 | 1
+ 96   | RHC 118036 | DIAS TOFFOLI | N | 7 | 1
+ 97   | HC 119567  | DIAS TOFFOLI | N | 7 | 1
+ 98   | HC 112576  | DIAS TOFFOLI | N | 7 | 1
+ 99   | ADI 1247   | DIAS TOFFOLI | N | 7 | 1
+ 100   | RHC 117006 | DIAS TOFFOLI | N | 7 | 0
+ 101   | ADI 4364   | DIAS TOFFOLI | N | 6 | 2
+ 102   | HC 110172  | DIAS TOFFOLI | N | 6 | 2
+ 103   | HC 97413   | DIAS TOFFOLI | N | 6 | 2
+ 104   | HC 104227  | DIAS TOFFOLI | N | 6 | 2
+ 105   | INQ 2652   | DIAS TOFFOLI | N | 6 | 2
+ 106   | RE 596962  | DIAS TOFFOLI | N | 6 | 2
+ 107   | EXT 1212   | DIAS TOFFOLI | N | 6 | 0
+ 108   | HC 105380  | DIAS TOFFOLI | N | 5 | 3
+ 109   | HC 109726  | DIAS TOFFOLI | N | 5 | 2
+ 110   | HC 93173   | DIAS TOFFOLI | N | 5 | 2
+ 111   | RHC 120661 | DIAS TOFFOLI | N | 5 | 1
+ 112   | HC 109541  | DIAS TOFFOLI | N | 5 | 1
+ 113   | HC 104332  | DIAS TOFFOLI | N | 4 | 4
+ 114   | HC 108481  | DIAS TOFFOLI | N | 4 | 2
+ 115   | HC 113857  | DIAS TOFFOLI | N | 4 | 1
+ 116   | HC 95244   | DIAS TOFFOLI | N | 4 | 1
+ 117   | HC 101980  | DIAS TOFFOLI | N | 4 | 1
+ 118   | HC 108391  | DIAS TOFFOLI | N | 3 | 1
+ 119   | HC 124107  | DIAS TOFFOLI | N | 3 | 1
+ 120   | HC 115869  | DIAS TOFFOLI | N | 3 | 0
+ 121   | RHC 112870 | DIAS TOFFOLI | N | 3 | 0
+ 122   | HC 103245  | DIAS TOFFOLI | N | 3 | 0
+ 123   | HC 122694  | DIAS TOFFOLI | N | 3 | 0
+ 124   | HC 102348  | DIAS TOFFOLI | N | 3 | 0
+ 125   | HC 121389  | DIAS TOFFOLI | N | 3 | 0
+ 126   | HC 103092  | DIAS TOFFOLI | N | 2 | 3
+ 127   | ADI 4375   | DIAS TOFFOLI | N | 2 | 3
+ 128   | HC 101757  | DIAS TOFFOLI | N | 2 | 1
+ 129   | HC 126051  | DIAS TOFFOLI | N | 2 | 1
+ 130   | HC 121449  | DIAS TOFFOLI | N | 2 | 0
+ 131   | HC 108554  | DIAS TOFFOLI | N | 2 | 0
+ 132   | RHC 117467 | DIAS TOFFOLI | N | 2 | 0
+ 133   | RHC 120268 | DIAS TOFFOLI | N | 2 | 0
+ 134   | HC 105055  | DIAS TOFFOLI | N | 2 | 0
+ 135   | MS 24379   | DIAS TOFFOLI | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_4
+Number of decisions which appear on simulations: 140
+Number of items whose frequency is higher than 1: 135
+Number of decisions which could be in all iterations: 62
+decisões que aparecem pelo menos 10 vezes | 24
+decisões que aparecem pelo menos 9 vezes | 58
+decisões que aparecem pelo menos 8 vezes | 82
+147
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 92290      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 2   | HC 90129      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 3   | HC 87289      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 4   | RE 576155     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 5   | HC 96922      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 6   | HC 100902     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 7   | HC 97230      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 8   | RE 542594     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 9   | HC 110118     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 10   | RE 572762     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 11   | HC 112362     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 12   | HC 109343     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 13   | HC 95159      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 14   | HC 108778     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 15   | HC 119115     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 16   | RE 511222     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 17   | HC 98689      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 18   | RE 543163     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 19   | MS 26810      | RICARDO LEWANDOWSKI | S | 10 | 0
+ 20   | RHC 90197     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 21   | RE 542646     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 22   | RE 542422     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 23   | RMS 26212     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 24   | HC 111505     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 25   | HC 95738      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 26   | RE 536754     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 27   | RE 526512     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 28   | RE 510735     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 29   | HC 87263      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 30   | AGR AI 812481 | RICARDO LEWANDOWSKI | N | 10 | 0
+ 31   | HC 93901      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 32   | RHC 90399     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 33   | RE 485541     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 34   | RHC 96545     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 35   | HC 102487     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 36   | HC 87281      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 37   | HC 92991      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 38   | HC 89330      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 39   | HC 98340      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 40   | HC 90938      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 41   | HC 97905      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 42   | HC 98216      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 43   | HC 86631      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 44   | HC 88420      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 45   | RE 562980     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 46   | HC 91777      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 47   | HC 111469     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 48   | HC 96323      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 49   | HC 96099      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 50   | HC 92569      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 51   | HC 107291     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 52   | HC 90138      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 53   | HC 94234      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 54   | MS 30822      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 55   | HC 88904      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 56   | HC 95367      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 57   | HC 94598      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 58   | RE 551401     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 59   | HC 92626      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 60   | HC 104459     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 61   | HC 115514     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 62   | RHC 95958     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 63   | HC 94970      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 64   | HC 98547      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 65   | HC 91253      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 66   | MS 26053      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 67   | HC 98196      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 68   | HC 104530     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 69   | HC 106509     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 70   | RE 557542     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 71   | RE 590751     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 72   | HC 118889     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 73   | HC 90967      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 74   | HC 93188      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 75   | HC 97938      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 76   | HC 93525      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 77   | RE 597133     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 78   | HC 95006      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 79   | HC 96072      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 80   | HC 93353      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 81   | RE 576189     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 82   | HC 90580      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 83   | ADI 3741      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 84   | HC 113625     | RICARDO LEWANDOWSKI | N | 8 | 1
+ 85   | RE 589998     | RICARDO LEWANDOWSKI | N | 8 | 1
+ 86   | HC 93736      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 87   | RE 575089     | RICARDO LEWANDOWSKI | N | 8 | 1
+ 88   | HC 88928      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 89   | HC 100018     | RICARDO LEWANDOWSKI | N | 8 | 1
+ 90   | HC 85496      | RICARDO LEWANDOWSKI | N | 8 | 0
+ 91   | HC 90367      | RICARDO LEWANDOWSKI | N | 8 | 0
+ 92   | HC 107006     | RICARDO LEWANDOWSKI | N | 7 | 3
+ 93   | HC 91181      | RICARDO LEWANDOWSKI | N | 7 | 3
+ 94   | HC 100299     | RICARDO LEWANDOWSKI | N | 7 | 2
+ 95   | HC 88759      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 96   | HC 92014      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 97   | HC 95542      | RICARDO LEWANDOWSKI | N | 7 | 1
+ 98   | HC 94826      | RICARDO LEWANDOWSKI | N | 7 | 1
+ 99   | RE 577348     | RICARDO LEWANDOWSKI | N | 7 | 1
+ 100   | HC 110452     | RICARDO LEWANDOWSKI | N | 7 | 1
+ 101   | HC 115609     | RICARDO LEWANDOWSKI | N | 7 | 1
+ 102   | ADI 932       | RICARDO LEWANDOWSKI | N | 7 | 0
+ 103   | HC 94356      | RICARDO LEWANDOWSKI | S | 7 | 0
+ 104   | HC 90443      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 105   | HC 96821      | RICARDO LEWANDOWSKI | N | 6 | 3
+ 106   | ADI 1521      | RICARDO LEWANDOWSKI | N | 6 | 3
+ 107   | RE 568596     | RICARDO LEWANDOWSKI | N | 6 | 2
+ 108   | HC 93251      | RICARDO LEWANDOWSKI | N | 6 | 1
+ 109   | HC 90398      | RICARDO LEWANDOWSKI | N | 6 | 0
+ 110   | ADI 3934      | RICARDO LEWANDOWSKI | N | 5 | 1
+ 111   | HC 104837     | RICARDO LEWANDOWSKI | N | 5 | 1
+ 112   | HC 87346      | RICARDO LEWANDOWSKI | N | 4 | 1
+ 113   | HC 102651     | RICARDO LEWANDOWSKI | N | 4 | 0
+ 114   | HC 95186      | RICARDO LEWANDOWSKI | N | 4 | 0
+ 115   | HC 91729      | RICARDO LEWANDOWSKI | N | 3 | 0
+ 116   | HC 90107      | RICARDO LEWANDOWSKI | N | 3 | 0
+ 117   | HC 112772     | RICARDO LEWANDOWSKI | N | 3 | 0
+ 118   | HC 88387      | RICARDO LEWANDOWSKI | N | 2 | 3
+ 119   | HC 109244     | RICARDO LEWANDOWSKI | N | 2 | 0
+ 120   | HC 94550      | RICARDO LEWANDOWSKI | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_5
+Number of decisions which appear on simulations: 128
+Number of items whose frequency is higher than 1: 120
+Number of decisions which could be in all iterations: 69
+decisões que aparecem pelo menos 10 vezes | 34
+decisões que aparecem pelo menos 9 vezes | 72
+decisões que aparecem pelo menos 8 vezes | 91
+132
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 102487     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 2   | HC 113625     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 3   | RE 551401     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 4   | HC 87289      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 5   | HC 96922      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 6   | HC 97938      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 7   | HC 104459     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 8   | HC 110118     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 9   | RE 589998     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 10   | HC 109343     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 11   | HC 95159      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 12   | HC 98689      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 13   | HC 98196      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 14   | RE 568596     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 15   | HC 96072      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 16   | HC 93353      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 17   | HC 86631      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 18   | HC 88420      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 19   | HC 95738      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 20   | HC 88928      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 21   | HC 96323      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 22   | HC 96099      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 23   | RE 590751     | RICARDO LEWANDOWSKI | N | 10 | 0
+ 24   | HC 92569      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 25   | RE 485541     | RICARDO LEWANDOWSKI | S | 10 | 0
+ 26   | HC 90138      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 27   | HC 92014      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 28   | MS 30822      | RICARDO LEWANDOWSKI | N | 10 | 0
+ 29   | HC 92290      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 30   | HC 92626      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 31   | RE 576155     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 32   | HC 89330      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 33   | RHC 95958     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 34   | HC 91253      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 35   | HC 100299     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 36   | MS 26053      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 37   | RE 597133     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 38   | HC 90938      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 39   | HC 97905      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 40   | RE 562980     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 41   | HC 91777      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 42   | HC 111469     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 43   | RE 576189     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 44   | HC 90580      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 45   | HC 87263      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 46   | AGR AI 812481 | RICARDO LEWANDOWSKI | N | 9 | 1
+ 47   | HC 91181      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 48   | HC 93901      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 49   | RHC 90399     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 50   | HC 88904      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 51   | HC 100018     | RICARDO LEWANDOWSKI | N | 9 | 1
+ 52   | HC 95367      | RICARDO LEWANDOWSKI | N | 9 | 1
+ 53   | HC 90129      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 54   | RE 542594     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 55   | RE 572762     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 56   | HC 112362     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 57   | ADI 3934      | RICARDO LEWANDOWSKI | N | 9 | 0
+ 58   | RE 511222     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 59   | RE 543163     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 60   | MS 26810      | RICARDO LEWANDOWSKI | S | 9 | 0
+ 61   | RE 542646     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 62   | RE 542422     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 63   | RE 536754     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 64   | RE 526512     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 65   | RE 557542     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 66   | RE 510735     | RICARDO LEWANDOWSKI | S | 9 | 0
+ 67   | RHC 96545     | RICARDO LEWANDOWSKI | N | 9 | 0
+ 68   | HC 92991      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 69   | HC 115514     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 70   | HC 94970      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 71   | HC 108778     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 72   | HC 119115     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 73   | HC 98216      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 74   | RHC 90197     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 75   | HC 111505     | RICARDO LEWANDOWSKI | N | 8 | 2
+ 76   | HC 90443      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 77   | ADI 3741      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 78   | HC 94234      | RICARDO LEWANDOWSKI | N | 8 | 2
+ 79   | HC 93525      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 80   | HC 85496      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 81   | HC 96821      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 82   | HC 90367      | RICARDO LEWANDOWSKI | N | 8 | 1
+ 83   | ADI 932       | RICARDO LEWANDOWSKI | N | 8 | 0
+ 84   | HC 87346      | RICARDO LEWANDOWSKI | N | 8 | 0
+ 85   | HC 106509     | RICARDO LEWANDOWSKI | N | 8 | 0
+ 86   | HC 118889     | RICARDO LEWANDOWSKI | S | 8 | 0
+ 87   | HC 90967      | RICARDO LEWANDOWSKI | N | 7 | 3
+ 88   | HC 93188      | RICARDO LEWANDOWSKI | N | 7 | 3
+ 89   | HC 98547      | RICARDO LEWANDOWSKI | N | 7 | 3
+ 90   | HC 95006      | RICARDO LEWANDOWSKI | N | 7 | 3
+ 91   | HC 87281      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 92   | HC 93251      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 93   | HC 97230      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 94   | HC 95542      | RICARDO LEWANDOWSKI | N | 7 | 2
+ 95   | HC 90398      | RICARDO LEWANDOWSKI | N | 7 | 1
+ 96   | HC 104530     | RICARDO LEWANDOWSKI | N | 7 | 1
+ 97   | ADI 1521      | RICARDO LEWANDOWSKI | N | 7 | 1
+ 98   | HC 107291     | RICARDO LEWANDOWSKI | N | 7 | 1
+ 99   | HC 88387      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 100   | HC 98340      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 101   | HC 94826      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 102   | HC 95186      | RICARDO LEWANDOWSKI | N | 7 | 0
+ 103   | HC 94356      | RICARDO LEWANDOWSKI | S | 7 | 0
+ 104   | HC 100902     | RICARDO LEWANDOWSKI | N | 6 | 4
+ 105   | HC 94598      | RICARDO LEWANDOWSKI | N | 6 | 2
+ 106   | HC 107006     | RICARDO LEWANDOWSKI | N | 6 | 2
+ 107   | RE 575089     | RICARDO LEWANDOWSKI | N | 6 | 2
+ 108   | HC 104837     | RICARDO LEWANDOWSKI | N | 6 | 1
+ 109   | RE 577348     | RICARDO LEWANDOWSKI | N | 6 | 1
+ 110   | HC 88759      | RICARDO LEWANDOWSKI | N | 6 | 0
+ 111   | HC 110452     | RICARDO LEWANDOWSKI | N | 5 | 2
+ 112   | RMS 26212     | RICARDO LEWANDOWSKI | N | 5 | 1
+ 113   | HC 115609     | RICARDO LEWANDOWSKI | N | 4 | 3
+ 114   | HC 93736      | RICARDO LEWANDOWSKI | N | 4 | 1
+ 115   | HC 112772     | RICARDO LEWANDOWSKI | N | 4 | 1
+ 116   | HC 102651     | RICARDO LEWANDOWSKI | N | 4 | 0
+ 117   | HC 109244     | RICARDO LEWANDOWSKI | N | 3 | 1
+ 118   | HC 93940      | RICARDO LEWANDOWSKI | N | 3 | 0
+ 119   | HC 93991      | RICARDO LEWANDOWSKI | N | 2 | 2
+ 120   | RHC 91237     | RICARDO LEWANDOWSKI | N | 2 | 0
+ 121   | HC 94646      | RICARDO LEWANDOWSKI | N | 2 | 0
+ 122   | HC 102545     | RICARDO LEWANDOWSKI | S | 2 | 0
+ 123   | HC 102956     | RICARDO LEWANDOWSKI | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_5
+Number of decisions which appear on simulations: 137
+Number of items whose frequency is higher than 1: 123
+Number of decisions which could be in all iterations: 68
+decisões que aparecem pelo menos 10 vezes | 28
+decisões que aparecem pelo menos 9 vezes | 67
+decisões que aparecem pelo menos 8 vezes | 86
+135
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | AR 1713   | ELLEN GRACIE   | N | 10 | 0
+ 2   | ADI 2031  | ELLEN GRACIE   | N | 10 | 0
+ 3   | HC 94828  | ELLEN GRACIE   | N | 10 | 0
+ 4   | HC 89976  | ELLEN GRACIE   | N | 10 | 0
+ 5   | RMS 23692 | ELLEN GRACIE   | N | 10 | 0
+ 6   | HC 97344  | ELLEN GRACIE   | N | 10 | 0
+ 7   | ADI 3013  | ELLEN GRACIE   | S | 10 | 0
+ 8   | RE 275159 | ELLEN GRACIE   | N | 10 | 0
+ 9   | MS 24312  | ELLEN GRACIE   | N | 10 | 0
+ 10   | ADI 703   | ELLEN GRACIE   | N | 10 | 0
+ 11   | HC 94847  | ELLEN GRACIE   | N | 10 | 0
+ 12   | RHC 83030 | ELLEN GRACIE   | N | 10 | 0
+ 13   | HC 82155  | ELLEN GRACIE   | N | 10 | 0
+ 14   | ADI 872   | ELLEN GRACIE   | N | 10 | 0
+ 15   | HC 94515  | ELLEN GRACIE   | N | 10 | 0
+ 16   | RHC 81057 | ELLEN GRACIE   | N | 10 | 0
+ 17   | HC 85153  | ELLEN GRACIE   | N | 10 | 0
+ 18   | HC 94583  | ELLEN GRACIE   | N | 10 | 0
+ 19   | ADI 2994  | ELLEN GRACIE   | N | 10 | 0
+ 20   | MS 22369  | ELLEN GRACIE   | N | 10 | 0
+ 21   | ADI 3128  | ELLEN GRACIE   | N | 10 | 0
+ 22   | RE 300220 | ELLEN GRACIE   | N | 10 | 0
+ 23   | MS 23261  | ELLEN GRACIE   | N | 10 | 0
+ 24   | MI 529    | CARLOS VELLOSO | S | 10 | 0
+ 25   | HC 90125  | ELLEN GRACIE   | N | 9 | 1
+ 26   | ADI 2555  | ELLEN GRACIE   | N | 9 | 1
+ 27   | ADI 2713  | ELLEN GRACIE   | N | 9 | 1
+ 28   | HC 85877  | ELLEN GRACIE   | N | 9 | 1
+ 29   | HC 98015  | ELLEN GRACIE   | N | 9 | 1
+ 30   | RE 336680 | ELLEN GRACIE   | N | 9 | 1
+ 31   | RHC 80757 | ELLEN GRACIE   | N | 9 | 1
+ 32   | HC 82337  | ELLEN GRACIE   | N | 9 | 1
+ 33   | HC 81905  | ELLEN GRACIE   | N | 9 | 1
+ 34   | RE 224283 | ELLEN GRACIE   | N | 9 | 1
+ 35   | RE 387974 | ELLEN GRACIE   | N | 9 | 1
+ 36   | HC 83967  | ELLEN GRACIE   | N | 9 | 1
+ 37   | ACO 889   | ELLEN GRACIE   | N | 9 | 1
+ 38   | MS 24268  | ELLEN GRACIE   | N | 9 | 1
+ 39   | RHC 86951 | ELLEN GRACIE   | N | 9 | 1
+ 40   | ADI 1141  | ELLEN GRACIE   | N | 9 | 1
+ 41   | HC 82588  | ELLEN GRACIE   | N | 9 | 1
+ 42   | RHC 93248 | ELLEN GRACIE   | N | 9 | 1
+ 43   | RE 586453 | ELLEN GRACIE   | N | 9 | 1
+ 44   | ADI 3105  | ELLEN GRACIE   | N | 9 | 1
+ 45   | RMS 24551 | ELLEN GRACIE   | N | 9 | 1
+ 46   | RE 463629 | ELLEN GRACIE   | N | 9 | 1
+ 47   | ADI 2464  | ELLEN GRACIE   | N | 9 | 1
+ 48   | AI 759450 | ELLEN GRACIE   | N | 9 | 1
+ 49   | RE 347825 | ELLEN GRACIE   | N | 9 | 1
+ 50   | HC 85155  | ELLEN GRACIE   | N | 9 | 1
+ 51   | RE 252913 | ELLEN GRACIE   | N | 9 | 0
+ 52   | INQ 1739  | ELLEN GRACIE   | N | 9 | 0
+ 53   | HC 84032  | ELLEN GRACIE   | N | 9 | 0
+ 54   | RHC 97477 | ELLEN GRACIE   | N | 9 | 0
+ 55   | HC 88707  | ELLEN GRACIE   | N | 9 | 0
+ 56   | HC 93972  | ELLEN GRACIE   | N | 9 | 0
+ 57   | RHC 91070 | ELLEN GRACIE   | N | 9 | 0
+ 58   | ACO 705   | ELLEN GRACIE   | S | 9 | 0
+ 59   | ADI 2103  | ELLEN GRACIE   | N | 9 | 0
+ 60   | RCL 7358  | ELLEN GRACIE   | N | 9 | 0
+ 61   | RE 223904 | ELLEN GRACIE   | N | 9 | 0
+ 62   | RE 251772 | ELLEN GRACIE   | N | 9 | 0
+ 63   | HC 79989  | ELLEN GRACIE   | N | 8 | 2
+ 64   | HC 80867  | ELLEN GRACIE   | N | 8 | 2
+ 65   | RE 363328 | ELLEN GRACIE   | N | 8 | 2
+ 66   | RE 463028 | ELLEN GRACIE   | N | 8 | 2
+ 67   | HC 86647  | ELLEN GRACIE   | N | 8 | 2
+ 68   | HC 84771  | ELLEN GRACIE   | N | 8 | 1
+ 69   | HC 96579  | ELLEN GRACIE   | N | 8 | 1
+ 70   | HC 86618  | ELLEN GRACIE   | N | 8 | 1
+ 71   | RE 536486 | ELLEN GRACIE   | N | 8 | 1
+ 72   | HC 92819  | ELLEN GRACIE   | N | 8 | 1
+ 73   | RE 464621 | ELLEN GRACIE   | N | 8 | 1
+ 74   | MS 23754  | ELLEN GRACIE   | N | 8 | 1
+ 75   | HC 83489  | ELLEN GRACIE   | N | 8 | 1
+ 76   | ADI 2564  | ELLEN GRACIE   | N | 8 | 1
+ 77   | HC 86241  | ELLEN GRACIE   | N | 8 | 1
+ 78   | AR 1668   | ELLEN GRACIE   | N | 8 | 1
+ 79   | HC 91661  | ELLEN GRACIE   | N | 8 | 1
+ 80   | ADI 3576  | ELLEN GRACIE   | N | 8 | 1
+ 81   | ADI 3685  | ELLEN GRACIE   | N | 8 | 1
+ 82   | ADI 1557  | ELLEN GRACIE   | N | 8 | 0
+ 83   | MS 23399  | ELLEN GRACIE   | N | 8 | 0
+ 84   | RE 199198 | ELLEN GRACIE   | N | 8 | 0
+ 85   | ADI 2666  | ELLEN GRACIE   | N | 8 | 0
+ 86   | RE 206069 | ELLEN GRACIE   | N | 8 | 0
+ 87   | EXT 830   | ELLEN GRACIE   | N | 8 | 0
+ 88   | RE 228683 | ELLEN GRACIE   | S | 8 | 0
+ 89   | RE 351611 | ELLEN GRACIE   | S | 8 | 0
+ 90   | HC 94685  | ELLEN GRACIE   | N | 8 | 0
+ 91   | ADI 2474  | ELLEN GRACIE   | N | 7 | 3
+ 92   | HC 82149  | ELLEN GRACIE   | N | 7 | 3
+ 93   | HC 85976  | ELLEN GRACIE   | N | 7 | 2
+ 94   | ADI 762   | ELLEN GRACIE   | N | 7 | 2
+ 95   | HC 92256  | ELLEN GRACIE   | N | 7 | 2
+ 96   | RE 255328 | ELLEN GRACIE   | N | 7 | 2
+ 97   | RE 241925 | ELLEN GRACIE   | N | 7 | 2
+ 98   | RE 287905 | ELLEN GRACIE   | N | 7 | 1
+ 99   | RE 223796 | ELLEN GRACIE   | N | 7 | 1
+ 100   | HC 84494  | ELLEN GRACIE   | N | 7 | 1
+ 101   | HC 81214  | ELLEN GRACIE   | N | 7 | 1
+ 102   | AO 185    | ELLEN GRACIE   | N | 7 | 1
+ 103   | HC 80885  | ELLEN GRACIE   | N | 7 | 1
+ 104   | HC 94765  | ELLEN GRACIE   | N | 7 | 1
+ 105   | RHC 91300 | ELLEN GRACIE   | N | 7 | 0
+ 106   | HC 83241  | ELLEN GRACIE   | S | 7 | 0
+ 107   | RHC 95108 | ELLEN GRACIE   | N | 6 | 3
+ 108   | HC 81957  | ELLEN GRACIE   | N | 6 | 1
+ 109   | ADI 2673  | ELLEN GRACIE   | S | 6 | 0
+ 110   | HC 95379  | ELLEN GRACIE   | N | 6 | 0
+ 111   | RMS 23787 | ELLEN GRACIE   | N | 5 | 4
+ 112   | RE 319156 | ELLEN GRACIE   | N | 5 | 3
+ 113   | ADI 1541  | ELLEN GRACIE   | N | 5 | 3
+ 114   | RHC 85024 | ELLEN GRACIE   | N | 5 | 3
+ 115   | HC 82739  | ELLEN GRACIE   | N | 5 | 2
+ 116   | HC 97811  | ELLEN GRACIE   | N | 5 | 2
+ 117   | HC 95304  | ELLEN GRACIE   | N | 5 | 1
+ 118   | ADI 2396  | ELLEN GRACIE   | N | 5 | 0
+ 119   | HC 81054  | ELLEN GRACIE   | N | 4 | 3
+ 120   | RE 226472 | ELLEN GRACIE   | N | 4 | 2
+ 121   | ADI 329   | ELLEN GRACIE   | N | 3 | 0
+ 122   | RE 247399 | ELLEN GRACIE   | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_6
+Number of decisions which appear on simulations: 127
+Number of items whose frequency is higher than 1: 122
+Number of decisions which could be in all iterations: 57
+decisões que aparecem pelo menos 10 vezes | 24
+decisões que aparecem pelo menos 9 vezes | 62
+decisões que aparecem pelo menos 8 vezes | 90
+134
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | ADI 2555  | ELLEN GRACIE   | N | 10 | 0
+ 2   | ADI 2713  | ELLEN GRACIE   | N | 10 | 0
+ 3   | HC 85877  | ELLEN GRACIE   | N | 10 | 0
+ 4   | HC 94828  | ELLEN GRACIE   | N | 10 | 0
+ 5   | RE 223796 | ELLEN GRACIE   | N | 10 | 0
+ 6   | HC 82337  | ELLEN GRACIE   | N | 10 | 0
+ 7   | ADI 2474  | ELLEN GRACIE   | N | 10 | 0
+ 8   | HC 81905  | ELLEN GRACIE   | N | 10 | 0
+ 9   | HC 83967  | ELLEN GRACIE   | N | 10 | 0
+ 10   | HC 94847  | ELLEN GRACIE   | N | 10 | 0
+ 11   | HC 83241  | ELLEN GRACIE   | S | 10 | 0
+ 12   | ADI 1141  | ELLEN GRACIE   | N | 10 | 0
+ 13   | RHC 93248 | ELLEN GRACIE   | N | 10 | 0
+ 14   | RHC 83030 | ELLEN GRACIE   | N | 10 | 0
+ 15   | RHC 81057 | ELLEN GRACIE   | N | 10 | 0
+ 16   | RE 463629 | ELLEN GRACIE   | N | 10 | 0
+ 17   | HC 85153  | ELLEN GRACIE   | N | 10 | 0
+ 18   | AI 759450 | ELLEN GRACIE   | N | 10 | 0
+ 19   | RE 251772 | ELLEN GRACIE   | N | 10 | 0
+ 20   | HC 85155  | ELLEN GRACIE   | N | 10 | 0
+ 21   | HC 82739  | ELLEN GRACIE   | N | 9 | 1
+ 22   | ADI 2031  | ELLEN GRACIE   | N | 9 | 1
+ 23   | HC 96579  | ELLEN GRACIE   | N | 9 | 1
+ 24   | HC 89976  | ELLEN GRACIE   | N | 9 | 1
+ 25   | HC 98015  | ELLEN GRACIE   | N | 9 | 1
+ 26   | HC 86618  | ELLEN GRACIE   | N | 9 | 1
+ 27   | ADI 2666  | ELLEN GRACIE   | N | 9 | 1
+ 28   | RE 275159 | ELLEN GRACIE   | N | 9 | 1
+ 29   | HC 92819  | ELLEN GRACIE   | N | 9 | 1
+ 30   | EXT 830   | ELLEN GRACIE   | N | 9 | 1
+ 31   | HC 88707  | ELLEN GRACIE   | N | 9 | 1
+ 32   | HC 93972  | ELLEN GRACIE   | N | 9 | 1
+ 33   | HC 82149  | ELLEN GRACIE   | N | 9 | 1
+ 34   | RHC 86951 | ELLEN GRACIE   | N | 9 | 1
+ 35   | HC 91661  | ELLEN GRACIE   | N | 9 | 1
+ 36   | RE 586453 | ELLEN GRACIE   | N | 9 | 1
+ 37   | HC 82155  | ELLEN GRACIE   | N | 9 | 1
+ 38   | ADI 872   | ELLEN GRACIE   | N | 9 | 1
+ 39   | HC 94515  | ELLEN GRACIE   | N | 9 | 1
+ 40   | RHC 91070 | ELLEN GRACIE   | N | 9 | 1
+ 41   | MS 22369  | ELLEN GRACIE   | N | 9 | 1
+ 42   | HC 86647  | ELLEN GRACIE   | N | 9 | 1
+ 43   | HC 94685  | ELLEN GRACIE   | N | 9 | 1
+ 44   | MS 23399  | ELLEN GRACIE   | N | 9 | 0
+ 45   | HC 84032  | ELLEN GRACIE   | N | 9 | 0
+ 46   | HC 81054  | ELLEN GRACIE   | N | 9 | 0
+ 47   | ADI 762   | ELLEN GRACIE   | N | 9 | 0
+ 48   | RHC 97477 | ELLEN GRACIE   | N | 9 | 0
+ 49   | RE 536486 | ELLEN GRACIE   | N | 9 | 0
+ 50   | MS 24312  | ELLEN GRACIE   | N | 9 | 0
+ 51   | HC 81214  | ELLEN GRACIE   | N | 9 | 0
+ 52   | RHC 95108 | ELLEN GRACIE   | N | 9 | 0
+ 53   | HC 86241  | ELLEN GRACIE   | N | 9 | 0
+ 54   | ADI 3576  | ELLEN GRACIE   | N | 9 | 0
+ 55   | RMS 23787 | ELLEN GRACIE   | N | 9 | 0
+ 56   | RE 228683 | ELLEN GRACIE   | S | 9 | 0
+ 57   | HC 94765  | ELLEN GRACIE   | N | 9 | 0
+ 58   | RE 300220 | ELLEN GRACIE   | N | 9 | 0
+ 59   | MI 529    | CARLOS VELLOSO | S | 9 | 0
+ 60   | ADI 2396  | ELLEN GRACIE   | N | 8 | 2
+ 61   | HC 84494  | ELLEN GRACIE   | N | 8 | 2
+ 62   | RMS 23692 | ELLEN GRACIE   | N | 8 | 2
+ 63   | ACO 889   | ELLEN GRACIE   | N | 8 | 2
+ 64   | MS 24268  | ELLEN GRACIE   | N | 8 | 2
+ 65   | ADI 1541  | ELLEN GRACIE   | N | 8 | 2
+ 66   | ADI 703   | ELLEN GRACIE   | N | 8 | 2
+ 67   | HC 80885  | ELLEN GRACIE   | N | 8 | 2
+ 68   | RE 363328 | ELLEN GRACIE   | N | 8 | 2
+ 69   | ADI 3105  | ELLEN GRACIE   | N | 8 | 2
+ 70   | RMS 24551 | ELLEN GRACIE   | N | 8 | 2
+ 71   | ADI 2994  | ELLEN GRACIE   | N | 8 | 2
+ 72   | RE 223904 | ELLEN GRACIE   | N | 8 | 2
+ 73   | MS 23261  | ELLEN GRACIE   | N | 8 | 2
+ 74   | RE 252913 | ELLEN GRACIE   | N | 8 | 1
+ 75   | HC 84771  | ELLEN GRACIE   | N | 8 | 1
+ 76   | HC 85976  | ELLEN GRACIE   | N | 8 | 1
+ 77   | HC 79989  | ELLEN GRACIE   | N | 8 | 1
+ 78   | RE 199198 | ELLEN GRACIE   | N | 8 | 1
+ 79   | HC 80867  | ELLEN GRACIE   | N | 8 | 1
+ 80   | RE 387974 | ELLEN GRACIE   | N | 8 | 1
+ 81   | RE 255328 | ELLEN GRACIE   | N | 8 | 1
+ 82   | RE 347825 | ELLEN GRACIE   | N | 8 | 1
+ 83   | ADI 3685  | ELLEN GRACIE   | N | 8 | 1
+ 84   | RHC 85024 | ELLEN GRACIE   | N | 8 | 1
+ 85   | HC 90125  | ELLEN GRACIE   | N | 8 | 0
+ 86   | RHC 80757 | ELLEN GRACIE   | N | 8 | 0
+ 87   | ADI 3013  | ELLEN GRACIE   | S | 8 | 0
+ 88   | RE 206069 | ELLEN GRACIE   | N | 8 | 0
+ 89   | RE 224283 | ELLEN GRACIE   | N | 8 | 0
+ 90   | AO 185    | ELLEN GRACIE   | N | 8 | 0
+ 91   | RE 463028 | ELLEN GRACIE   | N | 8 | 0
+ 92   | RE 351611 | ELLEN GRACIE   | S | 8 | 0
+ 93   | AR 1713   | ELLEN GRACIE   | N | 7 | 3
+ 94   | HC 83489  | ELLEN GRACIE   | N | 7 | 3
+ 95   | ADI 3128  | ELLEN GRACIE   | N | 7 | 3
+ 96   | RE 319156 | ELLEN GRACIE   | N | 7 | 2
+ 97   | RE 464621 | ELLEN GRACIE   | N | 7 | 2
+ 98   | MS 23754  | ELLEN GRACIE   | N | 7 | 2
+ 99   | HC 92256  | ELLEN GRACIE   | N | 7 | 2
+ 100   | HC 94583  | ELLEN GRACIE   | N | 7 | 2
+ 101   | RE 241925 | ELLEN GRACIE   | N | 7 | 2
+ 102   | HC 97811  | ELLEN GRACIE   | N | 7 | 1
+ 103   | INQ 1739  | ELLEN GRACIE   | N | 7 | 1
+ 104   | ADI 2103  | ELLEN GRACIE   | N | 7 | 1
+ 105   | RCL 7358  | ELLEN GRACIE   | N | 7 | 1
+ 106   | ADI 1557  | ELLEN GRACIE   | N | 7 | 0
+ 107   | AR 1668   | ELLEN GRACIE   | N | 7 | 0
+ 108   | ACO 705   | ELLEN GRACIE   | S | 7 | 0
+ 109   | RE 336680 | ELLEN GRACIE   | N | 6 | 3
+ 110   | ADI 2464  | ELLEN GRACIE   | N | 6 | 2
+ 111   | HC 97344  | ELLEN GRACIE   | N | 5 | 4
+ 112   | RE 287905 | ELLEN GRACIE   | N | 5 | 3
+ 113   | HC 82588  | ELLEN GRACIE   | N | 5 | 3
+ 114   | ADI 2564  | ELLEN GRACIE   | N | 5 | 2
+ 115   | HC 95304  | ELLEN GRACIE   | N | 5 | 1
+ 116   | HC 81957  | ELLEN GRACIE   | N | 4 | 0
+ 117   | RHC 91300 | ELLEN GRACIE   | N | 3 | 3
+ 118   | HC 95379  | ELLEN GRACIE   | N | 3 | 1
+ 119   | HC 82782  | ELLEN GRACIE   | N | 3 | 0
+ 120   | RE 247399 | ELLEN GRACIE   | N | 3 | 0
+ 121   | AR 1589   | ELLEN GRACIE   | S | 3 | 0
+ 122   | ADI 329   | ELLEN GRACIE   | N | 3 | 0
+ 123   | ADI 743   | ELLEN GRACIE   | N | 2 | 2
+ 124   | HC 82246  | ELLEN GRACIE   | N | 2 | 1
+ 125   | RE 226472 | ELLEN GRACIE   | N | 2 | 0
+ 126   | ADI 2673  | ELLEN GRACIE   | S | 2 | 0
+
+stf_pr_2_acordaos_90_rel_6
+Number of decisions which appear on simulations: 132
+Number of items whose frequency is higher than 1: 126
+Number of decisions which could be in all iterations: 60
+decisões que aparecem pelo menos 10 vezes | 20
+decisões que aparecem pelo menos 9 vezes | 59
+decisões que aparecem pelo menos 8 vezes | 92
+138
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 115986        | LUIZ FUX | N | 10 | 0
+ 2   | HC 108314         | LUIZ FUX | N | 10 | 0
+ 3   | RHC 103542        | LUIZ FUX | N | 10 | 0
+ 4   | HC 110433         | LUIZ FUX | N | 10 | 0
+ 5   | HC 102491         | LUIZ FUX | N | 10 | 0
+ 6   | HC 110260         | LUIZ FUX | N | 10 | 0
+ 7   | ADI 4029          | LUIZ FUX | N | 10 | 0
+ 8   | MS 31642          | LUIZ FUX | N | 10 | 0
+ 9   | HC 109344         | LUIZ FUX | N | 10 | 0
+ 10   | ADI 4627          | LUIZ FUX | S | 10 | 0
+ 11   | HC 111837         | LUIZ FUX | N | 10 | 0
+ 12   | HC 104767         | LUIZ FUX | N | 10 | 0
+ 13   | RHC 115213        | LUIZ FUX | N | 10 | 0
+ 14   | RHC 116038        | LUIZ FUX | N | 10 | 0
+ 15   | RHC 112875        | LUIZ FUX | N | 10 | 0
+ 16   | HC 102926         | LUIZ FUX | N | 10 | 0
+ 17   | RE 561836         | LUIZ FUX | N | 10 | 0
+ 18   | HC 104195         | LUIZ FUX | N | 10 | 0
+ 19   | HC 110902         | LUIZ FUX | N | 10 | 0
+ 20   | HC 93938          | LUIZ FUX | N | 10 | 0
+ 21   | HC 108056         | LUIZ FUX | N | 10 | 0
+ 22   | ADI 4578          | LUIZ FUX | N | 10 | 0
+ 23   | RCL 9723          | LUIZ FUX | N | 10 | 0
+ 24   | HC 101248         | LUIZ FUX | N | 10 | 0
+ 25   | MS 28469          | LUIZ FUX | N | 10 | 0
+ 26   | RHC 108011        | LUIZ FUX | N | 10 | 0
+ 27   | HC 99448          | LUIZ FUX | N | 10 | 0
+ 28   | RE 539224         | LUIZ FUX | N | 10 | 0
+ 29   | EXT 1239          | LUIZ FUX | N | 9 | 1
+ 30   | HC 111119         | LUIZ FUX | N | 9 | 1
+ 31   | HC 115868         | LUIZ FUX | N | 9 | 1
+ 32   | HC 103460         | LUIZ FUX | N | 9 | 1
+ 33   | HC 101892         | LUIZ FUX | N | 9 | 1
+ 34   | RE 655265         | LUIZ FUX | N | 9 | 1
+ 35   | HC 108374         | LUIZ FUX | N | 9 | 1
+ 36   | HC 108201         | LUIZ FUX | N | 9 | 1
+ 37   | HC 109723         | LUIZ FUX | N | 9 | 1
+ 38   | HC 110636         | LUIZ FUX | N | 9 | 1
+ 39   | HC 111365         | LUIZ FUX | N | 9 | 1
+ 40   | HC 108219         | LUIZ FUX | N | 9 | 1
+ 41   | HC 112151         | LUIZ FUX | N | 9 | 1
+ 42   | HC 100754         | LUIZ FUX | N | 9 | 1
+ 43   | RHC 115133        | LUIZ FUX | N | 9 | 1
+ 44   | HC 104346         | LUIZ FUX | N | 9 | 1
+ 45   | HC 109308         | LUIZ FUX | N | 9 | 1
+ 46   | HC 113162         | LUIZ FUX | N | 9 | 1
+ 47   | HC 111867         | LUIZ FUX | N | 9 | 1
+ 48   | HC 114650         | LUIZ FUX | N | 9 | 1
+ 49   | HC 96820          | LUIZ FUX | N | 9 | 1
+ 50   | HC 108135         | LUIZ FUX | N | 9 | 1
+ 51   | HC 111480         | LUIZ FUX | N | 9 | 1
+ 52   | HC 115698         | LUIZ FUX | N | 9 | 0
+ 53   | HC 114745         | LUIZ FUX | N | 9 | 0
+ 54   | RHC 110432        | LUIZ FUX | N | 9 | 0
+ 55   | ACO 347           | LUIZ FUX | S | 9 | 0
+ 56   | HC 120435         | LUIZ FUX | N | 9 | 0
+ 57   | HC 117855         | LUIZ FUX | N | 9 | 0
+ 58   | ADC 29            | LUIZ FUX | N | 9 | 0
+ 59   | HC 104722         | LUIZ FUX | N | 9 | 0
+ 60   | MS 28494          | LUIZ FUX | N | 9 | 0
+ 61   | RHC 119122        | LUIZ FUX | N | 9 | 0
+ 62   | ADI 5286          | LUIZ FUX | N | 9 | 0
+ 63   | RHC 104144        | LUIZ FUX | N | 9 | 0
+ 64   | HC 112465         | LUIZ FUX | N | 9 | 0
+ 65   | RHC 103354        | LUIZ FUX | N | 8 | 2
+ 66   | RHC 107585        | LUIZ FUX | N | 8 | 2
+ 67   | HC 117746         | LUIZ FUX | N | 8 | 2
+ 68   | HC 113186         | LUIZ FUX | N | 8 | 2
+ 69   | HC 108268         | LUIZ FUX | N | 8 | 2
+ 70   | HC 101698         | LUIZ FUX | N | 8 | 2
+ 71   | HC 104827         | LUIZ FUX | N | 8 | 2
+ 72   | HC 117155         | LUIZ FUX | N | 8 | 2
+ 73   | RHC 110056        | LUIZ FUX | N | 8 | 2
+ 74   | RHC 117491        | LUIZ FUX | N | 8 | 2
+ 75   | HC 111254         | LUIZ FUX | N | 8 | 2
+ 76   | HC 114559         | LUIZ FUX | N | 8 | 2
+ 77   | HC 115098         | LUIZ FUX | N | 8 | 2
+ 78   | HC 108426         | LUIZ FUX | N | 8 | 2
+ 79   | HC 107796         | LUIZ FUX | N | 8 | 2
+ 80   | EXT 1375          | LUIZ FUX | N | 8 | 1
+ 81   | ADI 4967          | LUIZ FUX | N | 8 | 1
+ 82   | HC 121991         | LUIZ FUX | N | 8 | 1
+ 83   | RHC 118456        | LUIZ FUX | N | 8 | 1
+ 84   | HC 109538         | LUIZ FUX | N | 8 | 1
+ 85   | INQ 3128          | LUIZ FUX | N | 8 | 1
+ 86   | HC 115530         | LUIZ FUX | N | 8 | 1
+ 87   | ADI 4060          | LUIZ FUX | N | 8 | 1
+ 88   | HC 119927         | LUIZ FUX | N | 8 | 0
+ 89   | HC 110133         | LUIZ FUX | N | 8 | 0
+ 90   | HC 124132         | LUIZ FUX | N | 8 | 0
+ 91   | RHC 123572        | LUIZ FUX | N | 8 | 0
+ 92   | HC 107712         | LUIZ FUX | N | 8 | 0
+ 93   | HC 100367         | LUIZ FUX | N | 7 | 3
+ 94   | HC 110404         | LUIZ FUX | N | 7 | 3
+ 95   | RCL 12727         | LUIZ FUX | N | 7 | 2
+ 96   | ADC 30            | LUIZ FUX | N | 7 | 2
+ 97   | HC 85942          | LUIZ FUX | N | 7 | 2
+ 98   | RHC 119607        | LUIZ FUX | N | 7 | 1
+ 99   | HC 108183         | LUIZ FUX | N | 7 | 1
+ 100   | RE 747912         | LUIZ FUX | N | 7 | 1
+ 101   | HC 111749         | LUIZ FUX | N | 7 | 0
+ 102   | HC 113717         | LUIZ FUX | N | 7 | 0
+ 103   | INQ 2915          | LUIZ FUX | N | 7 | 0
+ 104   | HC 107882         | LUIZ FUX | N | 7 | 0
+ 105   | HC 103172         | LUIZ FUX | N | 6 | 4
+ 106   | RHC 109978        | LUIZ FUX | N | 6 | 4
+ 107   | HC 108553         | LUIZ FUX | N | 6 | 3
+ 108   | HC 120582         | LUIZ FUX | N | 6 | 3
+ 109   | ADI 4414          | LUIZ FUX | N | 6 | 2
+ 110   | HC 110243         | LUIZ FUX | N | 6 | 1
+ 111   | HC 115137         | LUIZ FUX | N | 6 | 0
+ 112   | AC 2969           | LUIZ FUX | N | 5 | 3
+ 113   | HC 100800         | LUIZ FUX | N | 5 | 2
+ 114   | RHC 117826        | LUIZ FUX | N | 5 | 2
+ 115   | AC 2972           | LUIZ FUX | S | 5 | 0
+ 116   | HC 99854          | LUIZ FUX | N | 4 | 2
+ 117   | HC 114848         | LUIZ FUX | N | 4 | 2
+ 118   | AGR ARE 889808    | LUIZ FUX | S | 4 | 0
+ 119   | AGR ARE 843663    | LUIZ FUX | N | 2 | 2
+ 120   | RHC 117699        | LUIZ FUX | N | 2 | 1
+ 121   | AGR AI 705559     | LUIZ FUX | N | 2 | 0
+ 122   | ED MS 30582       | LUIZ FUX | S | 2 | 0
+ 123   | RHC 117692        | LUIZ FUX | S | 2 | 0
+ 124   | ED AGR ARE 922663 | LUIZ FUX | S | 2 | 0
+
+stf_pr_1_acordaos_90_rel_7
+Number of decisions which appear on simulations: 126
+Number of items whose frequency is higher than 1: 124
+Number of decisions which could be in all iterations: 70
+decisões que aparecem pelo menos 10 vezes | 28
+decisões que aparecem pelo menos 9 vezes | 64
+decisões que aparecem pelo menos 8 vezes | 92
+136
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 119927         | LUIZ FUX | N | 10 | 0
+ 2   | HC 124132         | LUIZ FUX | N | 10 | 0
+ 3   | HC 110433         | LUIZ FUX | N | 10 | 0
+ 4   | HC 117746         | LUIZ FUX | N | 10 | 0
+ 5   | HC 108268         | LUIZ FUX | N | 10 | 0
+ 6   | HC 115868         | LUIZ FUX | N | 10 | 0
+ 7   | HC 110260         | LUIZ FUX | N | 10 | 0
+ 8   | HC 104827         | LUIZ FUX | N | 10 | 0
+ 9   | HC 109344         | LUIZ FUX | N | 10 | 0
+ 10   | HC 111837         | LUIZ FUX | N | 10 | 0
+ 11   | HC 111365         | LUIZ FUX | N | 10 | 0
+ 12   | HC 104722         | LUIZ FUX | N | 10 | 0
+ 13   | HC 85942          | LUIZ FUX | N | 10 | 0
+ 14   | RHC 117491        | LUIZ FUX | N | 10 | 0
+ 15   | HC 104195         | LUIZ FUX | N | 10 | 0
+ 16   | HC 111254         | LUIZ FUX | N | 10 | 0
+ 17   | RHC 115133        | LUIZ FUX | N | 10 | 0
+ 18   | HC 111867         | LUIZ FUX | N | 10 | 0
+ 19   | INQ 2915          | LUIZ FUX | N | 10 | 0
+ 20   | RHC 108011        | LUIZ FUX | N | 10 | 0
+ 21   | ADI 5286          | LUIZ FUX | N | 10 | 0
+ 22   | HC 99448          | LUIZ FUX | N | 10 | 0
+ 23   | RE 539224         | LUIZ FUX | N | 10 | 0
+ 24   | RHC 115986        | LUIZ FUX | N | 9 | 1
+ 25   | EXT 1239          | LUIZ FUX | N | 9 | 1
+ 26   | RHC 103354        | LUIZ FUX | N | 9 | 1
+ 27   | EXT 1375          | LUIZ FUX | N | 9 | 1
+ 28   | HC 101892         | LUIZ FUX | N | 9 | 1
+ 29   | HC 108201         | LUIZ FUX | N | 9 | 1
+ 30   | HC 110636         | LUIZ FUX | N | 9 | 1
+ 31   | HC 100367         | LUIZ FUX | N | 9 | 1
+ 32   | RHC 115213        | LUIZ FUX | N | 9 | 1
+ 33   | ADC 30            | LUIZ FUX | N | 9 | 1
+ 34   | HC 108219         | LUIZ FUX | N | 9 | 1
+ 35   | HC 102926         | LUIZ FUX | N | 9 | 1
+ 36   | HC 110902         | LUIZ FUX | N | 9 | 1
+ 37   | HC 100754         | LUIZ FUX | N | 9 | 1
+ 38   | HC 114559         | LUIZ FUX | N | 9 | 1
+ 39   | ADI 4578          | LUIZ FUX | N | 9 | 1
+ 40   | RCL 9723          | LUIZ FUX | N | 9 | 1
+ 41   | RHC 123572        | LUIZ FUX | N | 9 | 1
+ 42   | HC 107796         | LUIZ FUX | N | 9 | 1
+ 43   | HC 96820          | LUIZ FUX | N | 9 | 1
+ 44   | HC 107882         | LUIZ FUX | N | 9 | 1
+ 45   | HC 108135         | LUIZ FUX | N | 9 | 1
+ 46   | HC 111480         | LUIZ FUX | N | 9 | 1
+ 47   | ADI 4414          | LUIZ FUX | N | 9 | 0
+ 48   | RHC 103542        | LUIZ FUX | N | 9 | 0
+ 49   | HC 101698         | LUIZ FUX | N | 9 | 0
+ 50   | RE 655265         | LUIZ FUX | N | 9 | 0
+ 51   | HC 120435         | LUIZ FUX | N | 9 | 0
+ 52   | HC 93938          | LUIZ FUX | N | 9 | 0
+ 53   | RE 747912         | LUIZ FUX | N | 9 | 0
+ 54   | HC 115137         | LUIZ FUX | N | 9 | 0
+ 55   | HC 109308         | LUIZ FUX | N | 9 | 0
+ 56   | HC 101248         | LUIZ FUX | N | 9 | 0
+ 57   | MS 28469          | LUIZ FUX | N | 9 | 0
+ 58   | HC 115530         | LUIZ FUX | N | 9 | 0
+ 59   | HC 110404         | LUIZ FUX | N | 9 | 0
+ 60   | HC 108314         | LUIZ FUX | N | 8 | 2
+ 61   | HC 113186         | LUIZ FUX | N | 8 | 2
+ 62   | ADI 4967          | LUIZ FUX | N | 8 | 2
+ 63   | HC 103460         | LUIZ FUX | N | 8 | 2
+ 64   | RHC 109978        | LUIZ FUX | N | 8 | 2
+ 65   | MS 31642          | LUIZ FUX | N | 8 | 2
+ 66   | HC 108374         | LUIZ FUX | N | 8 | 2
+ 67   | HC 117155         | LUIZ FUX | N | 8 | 2
+ 68   | RHC 119607        | LUIZ FUX | N | 8 | 2
+ 69   | HC 109723         | LUIZ FUX | N | 8 | 2
+ 70   | RHC 116038        | LUIZ FUX | N | 8 | 2
+ 71   | RHC 112875        | LUIZ FUX | N | 8 | 2
+ 72   | HC 108056         | LUIZ FUX | N | 8 | 2
+ 73   | HC 115098         | LUIZ FUX | N | 8 | 2
+ 74   | HC 108426         | LUIZ FUX | N | 8 | 2
+ 75   | HC 114650         | LUIZ FUX | N | 8 | 2
+ 76   | HC 115698         | LUIZ FUX | N | 8 | 1
+ 77   | HC 111119         | LUIZ FUX | N | 8 | 1
+ 78   | HC 117855         | LUIZ FUX | N | 8 | 1
+ 79   | HC 113717         | LUIZ FUX | N | 8 | 1
+ 80   | RE 561836         | LUIZ FUX | N | 8 | 1
+ 81   | RHC 119122        | LUIZ FUX | N | 8 | 1
+ 82   | HC 107712         | LUIZ FUX | N | 8 | 1
+ 83   | RHC 107585        | LUIZ FUX | N | 8 | 0
+ 84   | HC 102491         | LUIZ FUX | N | 8 | 0
+ 85   | ACO 347           | LUIZ FUX | S | 8 | 0
+ 86   | ADI 4627          | LUIZ FUX | S | 8 | 0
+ 87   | HC 100800         | LUIZ FUX | N | 8 | 0
+ 88   | HC 120582         | LUIZ FUX | N | 8 | 0
+ 89   | HC 112151         | LUIZ FUX | N | 8 | 0
+ 90   | HC 109538         | LUIZ FUX | N | 8 | 0
+ 91   | HC 104346         | LUIZ FUX | N | 8 | 0
+ 92   | HC 103172         | LUIZ FUX | N | 7 | 3
+ 93   | ADI 4029          | LUIZ FUX | N | 7 | 3
+ 94   | RHC 110056        | LUIZ FUX | N | 7 | 3
+ 95   | HC 104767         | LUIZ FUX | N | 7 | 3
+ 96   | HC 113162         | LUIZ FUX | N | 7 | 3
+ 97   | INQ 3128          | LUIZ FUX | N | 7 | 3
+ 98   | HC 114745         | LUIZ FUX | N | 7 | 2
+ 99   | HC 111749         | LUIZ FUX | N | 7 | 2
+ 100   | RHC 104144        | LUIZ FUX | N | 7 | 2
+ 101   | RCL 12727         | LUIZ FUX | N | 7 | 1
+ 102   | HC 121991         | LUIZ FUX | N | 7 | 1
+ 103   | RHC 118456        | LUIZ FUX | N | 7 | 1
+ 104   | HC 108183         | LUIZ FUX | N | 7 | 1
+ 105   | RHC 117826        | LUIZ FUX | N | 7 | 1
+ 106   | HC 110243         | LUIZ FUX | N | 7 | 1
+ 107   | ADI 4060          | LUIZ FUX | N | 7 | 1
+ 108   | HC 110133         | LUIZ FUX | N | 6 | 3
+ 109   | HC 108553         | LUIZ FUX | N | 6 | 3
+ 110   | ADC 29            | LUIZ FUX | N | 6 | 3
+ 111   | HC 112465         | LUIZ FUX | N | 6 | 3
+ 112   | RHC 110432        | LUIZ FUX | N | 6 | 2
+ 113   | HC 114848         | LUIZ FUX | N | 6 | 1
+ 114   | MS 28494          | LUIZ FUX | N | 5 | 4
+ 115   | HC 99854          | LUIZ FUX | N | 5 | 2
+ 116   | AC 2969           | LUIZ FUX | N | 5 | 1
+ 117   | AC 2972           | LUIZ FUX | S | 5 | 0
+ 118   | AGR AI 705559     | LUIZ FUX | N | 4 | 0
+ 119   | ED MS 30582       | LUIZ FUX | S | 4 | 0
+ 120   | AGR ARE 889808    | LUIZ FUX | S | 3 | 0
+ 121   | RHC 117699        | LUIZ FUX | N | 2 | 2
+ 122   | AGR EXT 1414      | LUIZ FUX | N | 2 | 1
+ 123   | RHC 117692        | LUIZ FUX | S | 2 | 0
+ 124   | AGR ARE 843663    | LUIZ FUX | N | 2 | 0
+ 125   | ED AGR ARE 922663 | LUIZ FUX | S | 2 | 0
+
+stf_pr_2_acordaos_90_rel_7
+Number of decisions which appear on simulations: 126
+Number of items whose frequency is higher than 1: 125
+Number of decisions which could be in all iterations: 68
+decisões que aparecem pelo menos 10 vezes | 23
+decisões que aparecem pelo menos 9 vezes | 59
+decisões que aparecem pelo menos 8 vezes | 91
+137
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 83806  | JOAQUIM BARBOSA | N | 10 | 0
+ 2   | HC 85868  | JOAQUIM BARBOSA | N | 10 | 0
+ 3   | ADI 1199  | JOAQUIM BARBOSA | N | 10 | 0
+ 4   | RE 202987 | JOAQUIM BARBOSA | N | 10 | 0
+ 5   | HC 84087  | JOAQUIM BARBOSA | N | 10 | 0
+ 6   | ADI 173   | JOAQUIM BARBOSA | N | 10 | 0
+ 7   | HC 84388  | JOAQUIM BARBOSA | N | 10 | 0
+ 8   | ADI 4167  | JOAQUIM BARBOSA | N | 10 | 0
+ 9   | ACO 730   | JOAQUIM BARBOSA | N | 10 | 0
+ 10   | ADI 1976  | JOAQUIM BARBOSA | N | 10 | 0
+ 11   | RE 405579 | JOAQUIM BARBOSA | N | 10 | 0
+ 12   | HC 92279  | JOAQUIM BARBOSA | N | 10 | 0
+ 13   | HC 84102  | JOAQUIM BARBOSA | N | 10 | 0
+ 14   | INQ 2245  | JOAQUIM BARBOSA | N | 10 | 0
+ 15   | RHC 85575 | JOAQUIM BARBOSA | N | 10 | 0
+ 16   | RHC 87303 | JOAQUIM BARBOSA | N | 10 | 0
+ 17   | RMS 24736 | JOAQUIM BARBOSA | N | 10 | 0
+ 18   | MS 27165  | JOAQUIM BARBOSA | S | 10 | 0
+ 19   | HC 90866  | JOAQUIM BARBOSA | N | 10 | 0
+ 20   | INQ 2280  | JOAQUIM BARBOSA | N | 10 | 0
+ 21   | HC 84301  | JOAQUIM BARBOSA | N | 10 | 0
+ 22   | HC 92719  | JOAQUIM BARBOSA | N | 10 | 0
+ 23   | HC 100240 | JOAQUIM BARBOSA | N | 10 | 0
+ 24   | HC 83458  | JOAQUIM BARBOSA | N | 9 | 1
+ 25   | HC 83592  | JOAQUIM BARBOSA | N | 9 | 1
+ 26   | RHC 93256 | JOAQUIM BARBOSA | N | 9 | 1
+ 27   | RE 514531 | JOAQUIM BARBOSA | N | 9 | 1
+ 28   | HC 84409  | JOAQUIM BARBOSA | N | 9 | 1
+ 29   | ADI 2556  | JOAQUIM BARBOSA | N | 9 | 1
+ 30   | HC 83736  | JOAQUIM BARBOSA | N | 9 | 1
+ 31   | RE 580264 | JOAQUIM BARBOSA | N | 9 | 1
+ 32   | HC 89528  | JOAQUIM BARBOSA | N | 9 | 1
+ 33   | HC 84238  | JOAQUIM BARBOSA | N | 9 | 1
+ 34   | HC 92451  | JOAQUIM BARBOSA | N | 9 | 1
+ 35   | HC 93971  | JOAQUIM BARBOSA | N | 9 | 1
+ 36   | HC 83520  | JOAQUIM BARBOSA | N | 9 | 1
+ 37   | HC 96307  | JOAQUIM BARBOSA | N | 9 | 1
+ 38   | HC 83526  | JOAQUIM BARBOSA | N | 9 | 1
+ 39   | ADI 2602  | JOAQUIM BARBOSA | N | 9 | 1
+ 40   | HC 88362  | JOAQUIM BARBOSA | N | 9 | 1
+ 41   | HC 86346  | JOAQUIM BARBOSA | N | 9 | 1
+ 42   | HC 96593  | JOAQUIM BARBOSA | N | 9 | 1
+ 43   | HC 84821  | JOAQUIM BARBOSA | N | 9 | 1
+ 44   | AP 470    | JOAQUIM BARBOSA | N | 9 | 1
+ 45   | HC 94448  | JOAQUIM BARBOSA | N | 9 | 1
+ 46   | HC 88261  | JOAQUIM BARBOSA | N | 9 | 0
+ 47   | INQ 2027  | JOAQUIM BARBOSA | N | 9 | 0
+ 48   | HC 90085  | JOAQUIM BARBOSA | N | 9 | 0
+ 49   | INQ 2134  | JOAQUIM BARBOSA | N | 9 | 0
+ 50   | ADI 2568  | JOAQUIM BARBOSA | S | 9 | 0
+ 51   | RE 611586 | JOAQUIM BARBOSA | N | 9 | 0
+ 52   | ADI 3389  | JOAQUIM BARBOSA | N | 9 | 0
+ 53   | RHC 85112 | JOAQUIM BARBOSA | N | 9 | 0
+ 54   | HC 94282  | JOAQUIM BARBOSA | N | 9 | 0
+ 55   | HC 90889  | JOAQUIM BARBOSA | N | 9 | 0
+ 56   | HC 94958  | JOAQUIM BARBOSA | N | 9 | 0
+ 57   | HC 96337  | JOAQUIM BARBOSA | N | 9 | 0
+ 58   | HC 89364  | JOAQUIM BARBOSA | N | 9 | 0
+ 59   | RE 398041 | JOAQUIM BARBOSA | N | 9 | 0
+ 60   | HC 83936  | JOAQUIM BARBOSA | N | 9 | 0
+ 61   | ADI 3410  | JOAQUIM BARBOSA | N | 9 | 0
+ 62   | HC 83761  | JOAQUIM BARBOSA | N | 9 | 0
+ 63   | ADI 3999  | JOAQUIM BARBOSA | N | 9 | 0
+ 64   | RE 482090 | JOAQUIM BARBOSA | N | 8 | 2
+ 65   | HC 85049  | JOAQUIM BARBOSA | N | 8 | 2
+ 66   | HC 84104  | JOAQUIM BARBOSA | N | 8 | 2
+ 67   | HC 83961  | JOAQUIM BARBOSA | N | 8 | 2
+ 68   | ADI 1922  | JOAQUIM BARBOSA | N | 8 | 2
+ 69   | EXT 1007  | JOAQUIM BARBOSA | N | 8 | 2
+ 70   | HC 99440  | JOAQUIM BARBOSA | N | 8 | 2
+ 71   | ADI 1623  | JOAQUIM BARBOSA | N | 8 | 1
+ 72   | HC 94692  | JOAQUIM BARBOSA | N | 8 | 1
+ 73   | HC 86465  | JOAQUIM BARBOSA | N | 8 | 1
+ 74   | HC 92438  | JOAQUIM BARBOSA | N | 8 | 1
+ 75   | HC 83508  | JOAQUIM BARBOSA | N | 8 | 1
+ 76   | RE 405457 | JOAQUIM BARBOSA | N | 8 | 1
+ 77   | MS 25142  | JOAQUIM BARBOSA | N | 8 | 1
+ 78   | HC 83847  | JOAQUIM BARBOSA | N | 8 | 1
+ 79   | HC 86970  | JOAQUIM BARBOSA | N | 8 | 1
+ 80   | EXT 1076  | JOAQUIM BARBOSA | N | 8 | 1
+ 81   | HC 85173  | JOAQUIM BARBOSA | N | 8 | 1
+ 82   | HC 90427  | JOAQUIM BARBOSA | N | 8 | 1
+ 83   | HC 83348  | JOAQUIM BARBOSA | N | 8 | 1
+ 84   | ADI 1423  | JOAQUIM BARBOSA | N | 8 | 0
+ 85   | HC 93946  | JOAQUIM BARBOSA | N | 8 | 0
+ 86   | HC 86814  | JOAQUIM BARBOSA | N | 8 | 0
+ 87   | HC 91587  | JOAQUIM BARBOSA | N | 8 | 0
+ 88   | HC 84469  | JOAQUIM BARBOSA | N | 8 | 0
+ 89   | HC 86079  | JOAQUIM BARBOSA | N | 7 | 3
+ 90   | ADI 124   | JOAQUIM BARBOSA | N | 7 | 3
+ 91   | HC 84493  | JOAQUIM BARBOSA | N | 7 | 2
+ 92   | HC 84639  | JOAQUIM BARBOSA | N | 7 | 2
+ 93   | HC 98681  | JOAQUIM BARBOSA | N | 7 | 2
+ 94   | HC 86963  | JOAQUIM BARBOSA | N | 7 | 2
+ 95   | ADI 3022  | JOAQUIM BARBOSA | N | 7 | 1
+ 96   | RHC 86680 | JOAQUIM BARBOSA | N | 7 | 1
+ 97   | HC 89966  | JOAQUIM BARBOSA | N | 7 | 1
+ 98   | HC 94577  | JOAQUIM BARBOSA | N | 7 | 1
+ 99   | HC 95604  | JOAQUIM BARBOSA | N | 7 | 1
+ 100   | ADI 13    | JOAQUIM BARBOSA | N | 7 | 1
+ 101   | HC 92008  | JOAQUIM BARBOSA | N | 7 | 1
+ 102   | ADI 3323  | JOAQUIM BARBOSA | N | 7 | 1
+ 103   | RMS 25105 | JOAQUIM BARBOSA | N | 7 | 0
+ 104   | HC 84658  | JOAQUIM BARBOSA | N | 7 | 0
+ 105   | RCL 2848  | JOAQUIM BARBOSA | N | 7 | 0
+ 106   | RHC 85286 | JOAQUIM BARBOSA | N | 7 | 0
+ 107   | HC 96818  | JOAQUIM BARBOSA | N | 7 | 0
+ 108   | RHC 83810 | JOAQUIM BARBOSA | N | 6 | 3
+ 109   | HC 84715  | JOAQUIM BARBOSA | N | 6 | 2
+ 110   | HC 90217  | JOAQUIM BARBOSA | N | 6 | 1
+ 111   | RHC 85737 | JOAQUIM BARBOSA | N | 6 | 1
+ 112   | RE 233843 | JOAQUIM BARBOSA | N | 6 | 1
+ 113   | ADI 951   | JOAQUIM BARBOSA | N | 6 | 1
+ 114   | HC 92020  | JOAQUIM BARBOSA | N | 6 | 0
+ 115   | HC 86042  | JOAQUIM BARBOSA | N | 6 | 0
+ 116   | HC 89748  | JOAQUIM BARBOSA | N | 5 | 3
+ 117   | HC 85999  | JOAQUIM BARBOSA | N | 5 | 2
+ 118   | HC 98949  | JOAQUIM BARBOSA | N | 3 | 1
+ 119   | HC 88274  | JOAQUIM BARBOSA | N | 3 | 0
+ 120   | HC 83883  | JOAQUIM BARBOSA | N | 2 | 1
+ 121   | HC 84095  | JOAQUIM BARBOSA | N | 2 | 0
+ 122   | HC 92880  | JOAQUIM BARBOSA | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_8
+Number of decisions which appear on simulations: 129
+Number of items whose frequency is higher than 1: 122
+Number of decisions which could be in all iterations: 54
+decisões que aparecem pelo menos 10 vezes | 23
+decisões que aparecem pelo menos 9 vezes | 63
+decisões que aparecem pelo menos 8 vezes | 88
+134
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 83458  | JOAQUIM BARBOSA | N | 10 | 0
+ 2   | HC 83592  | JOAQUIM BARBOSA | N | 10 | 0
+ 3   | HC 83806  | JOAQUIM BARBOSA | N | 10 | 0
+ 4   | ADI 1623  | JOAQUIM BARBOSA | N | 10 | 0
+ 5   | HC 94692  | JOAQUIM BARBOSA | N | 10 | 0
+ 6   | HC 85868  | JOAQUIM BARBOSA | N | 10 | 0
+ 7   | RHC 93256 | JOAQUIM BARBOSA | N | 10 | 0
+ 8   | RE 202987 | JOAQUIM BARBOSA | N | 10 | 0
+ 9   | HC 84087  | JOAQUIM BARBOSA | N | 10 | 0
+ 10   | ADI 2556  | JOAQUIM BARBOSA | N | 10 | 0
+ 11   | ADI 2568  | JOAQUIM BARBOSA | S | 10 | 0
+ 12   | HC 84388  | JOAQUIM BARBOSA | N | 10 | 0
+ 13   | RE 580264 | JOAQUIM BARBOSA | N | 10 | 0
+ 14   | HC 89528  | JOAQUIM BARBOSA | N | 10 | 0
+ 15   | HC 92279  | JOAQUIM BARBOSA | N | 10 | 0
+ 16   | RE 405457 | JOAQUIM BARBOSA | N | 10 | 0
+ 17   | HC 83520  | JOAQUIM BARBOSA | N | 10 | 0
+ 18   | ADI 2602  | JOAQUIM BARBOSA | N | 10 | 0
+ 19   | ADI 1922  | JOAQUIM BARBOSA | N | 10 | 0
+ 20   | ADI 13    | JOAQUIM BARBOSA | N | 10 | 0
+ 21   | RHC 85737 | JOAQUIM BARBOSA | N | 10 | 0
+ 22   | ADI 124   | JOAQUIM BARBOSA | N | 10 | 0
+ 23   | HC 96593  | JOAQUIM BARBOSA | N | 10 | 0
+ 24   | HC 92719  | JOAQUIM BARBOSA | N | 10 | 0
+ 25   | HC 86079  | JOAQUIM BARBOSA | N | 9 | 1
+ 26   | ADI 173   | JOAQUIM BARBOSA | N | 9 | 1
+ 27   | ADI 4167  | JOAQUIM BARBOSA | N | 9 | 1
+ 28   | ACO 730   | JOAQUIM BARBOSA | N | 9 | 1
+ 29   | RE 482090 | JOAQUIM BARBOSA | N | 9 | 1
+ 30   | HC 85049  | JOAQUIM BARBOSA | N | 9 | 1
+ 31   | HC 84238  | JOAQUIM BARBOSA | N | 9 | 1
+ 32   | HC 83508  | JOAQUIM BARBOSA | N | 9 | 1
+ 33   | HC 84104  | JOAQUIM BARBOSA | N | 9 | 1
+ 34   | HC 84102  | JOAQUIM BARBOSA | N | 9 | 1
+ 35   | HC 83847  | JOAQUIM BARBOSA | N | 9 | 1
+ 36   | HC 94282  | JOAQUIM BARBOSA | N | 9 | 1
+ 37   | RE 398041 | JOAQUIM BARBOSA | N | 9 | 1
+ 38   | HC 92008  | JOAQUIM BARBOSA | N | 9 | 1
+ 39   | HC 86346  | JOAQUIM BARBOSA | N | 9 | 1
+ 40   | HC 90866  | JOAQUIM BARBOSA | N | 9 | 1
+ 41   | INQ 2280  | JOAQUIM BARBOSA | N | 9 | 1
+ 42   | HC 84301  | JOAQUIM BARBOSA | N | 9 | 1
+ 43   | HC 99440  | JOAQUIM BARBOSA | N | 9 | 1
+ 44   | HC 90085  | JOAQUIM BARBOSA | N | 9 | 0
+ 45   | ADI 1199  | JOAQUIM BARBOSA | N | 9 | 0
+ 46   | HC 84409  | JOAQUIM BARBOSA | N | 9 | 0
+ 47   | RHC 86680 | JOAQUIM BARBOSA | N | 9 | 0
+ 48   | HC 89966  | JOAQUIM BARBOSA | N | 9 | 0
+ 49   | HC 98681  | JOAQUIM BARBOSA | N | 9 | 0
+ 50   | HC 86963  | JOAQUIM BARBOSA | N | 9 | 0
+ 51   | HC 84715  | JOAQUIM BARBOSA | N | 9 | 0
+ 52   | RHC 85575 | JOAQUIM BARBOSA | N | 9 | 0
+ 53   | HC 93971  | JOAQUIM BARBOSA | N | 9 | 0
+ 54   | HC 86970  | JOAQUIM BARBOSA | N | 9 | 0
+ 55   | HC 96818  | JOAQUIM BARBOSA | N | 9 | 0
+ 56   | HC 90427  | JOAQUIM BARBOSA | N | 9 | 0
+ 57   | HC 91587  | JOAQUIM BARBOSA | N | 9 | 0
+ 58   | RHC 83810 | JOAQUIM BARBOSA | N | 9 | 0
+ 59   | ADI 3410  | JOAQUIM BARBOSA | N | 9 | 0
+ 60   | HC 83761  | JOAQUIM BARBOSA | N | 9 | 0
+ 61   | HC 84469  | JOAQUIM BARBOSA | N | 9 | 0
+ 62   | INQ 2134  | JOAQUIM BARBOSA | N | 8 | 2
+ 63   | HC 83736  | JOAQUIM BARBOSA | N | 8 | 2
+ 64   | ADI 1976  | JOAQUIM BARBOSA | N | 8 | 2
+ 65   | HC 84658  | JOAQUIM BARBOSA | N | 8 | 2
+ 66   | INQ 2245  | JOAQUIM BARBOSA | N | 8 | 2
+ 67   | HC 85173  | JOAQUIM BARBOSA | N | 8 | 2
+ 68   | HC 88362  | JOAQUIM BARBOSA | N | 8 | 2
+ 69   | HC 83348  | JOAQUIM BARBOSA | N | 8 | 2
+ 70   | AP 470    | JOAQUIM BARBOSA | N | 8 | 2
+ 71   | HC 100240 | JOAQUIM BARBOSA | N | 8 | 2
+ 72   | ADI 3022  | JOAQUIM BARBOSA | N | 8 | 1
+ 73   | RE 405579 | JOAQUIM BARBOSA | N | 8 | 1
+ 74   | HC 83961  | JOAQUIM BARBOSA | N | 8 | 1
+ 75   | RHC 85286 | JOAQUIM BARBOSA | N | 8 | 1
+ 76   | HC 96307  | JOAQUIM BARBOSA | N | 8 | 1
+ 77   | HC 83526  | JOAQUIM BARBOSA | N | 8 | 1
+ 78   | RMS 24736 | JOAQUIM BARBOSA | N | 8 | 1
+ 79   | HC 86814  | JOAQUIM BARBOSA | N | 8 | 1
+ 80   | HC 83936  | JOAQUIM BARBOSA | N | 8 | 1
+ 81   | HC 88261  | JOAQUIM BARBOSA | N | 8 | 0
+ 82   | RE 611586 | JOAQUIM BARBOSA | N | 8 | 0
+ 83   | ADI 3389  | JOAQUIM BARBOSA | N | 8 | 0
+ 84   | HC 90889  | JOAQUIM BARBOSA | N | 8 | 0
+ 85   | HC 89364  | JOAQUIM BARBOSA | N | 8 | 0
+ 86   | MS 27165  | JOAQUIM BARBOSA | S | 8 | 0
+ 87   | RE 233843 | JOAQUIM BARBOSA | N | 8 | 0
+ 88   | RE 514531 | JOAQUIM BARBOSA | N | 7 | 3
+ 89   | HC 92438  | JOAQUIM BARBOSA | N | 7 | 3
+ 90   | ADI 3999  | JOAQUIM BARBOSA | N | 7 | 3
+ 91   | HC 84639  | JOAQUIM BARBOSA | N | 7 | 2
+ 92   | RHC 87303 | JOAQUIM BARBOSA | N | 7 | 2
+ 93   | EXT 1007  | JOAQUIM BARBOSA | N | 7 | 2
+ 94   | HC 86465  | JOAQUIM BARBOSA | N | 7 | 1
+ 95   | HC 94577  | JOAQUIM BARBOSA | N | 7 | 1
+ 96   | MS 25142  | JOAQUIM BARBOSA | N | 7 | 1
+ 97   | HC 92451  | JOAQUIM BARBOSA | N | 7 | 1
+ 98   | RHC 85112 | JOAQUIM BARBOSA | N | 7 | 1
+ 99   | HC 94958  | JOAQUIM BARBOSA | N | 7 | 1
+ 100   | HC 96337  | JOAQUIM BARBOSA | N | 7 | 1
+ 101   | ADI 3323  | JOAQUIM BARBOSA | N | 7 | 1
+ 102   | HC 94448  | JOAQUIM BARBOSA | N | 7 | 1
+ 103   | HC 89748  | JOAQUIM BARBOSA | N | 7 | 0
+ 104   | HC 93946  | JOAQUIM BARBOSA | N | 7 | 0
+ 105   | HC 84821  | JOAQUIM BARBOSA | N | 7 | 0
+ 106   | INQ 2027  | JOAQUIM BARBOSA | N | 6 | 2
+ 107   | ADI 1423  | JOAQUIM BARBOSA | N | 6 | 2
+ 108   | HC 84493  | JOAQUIM BARBOSA | N | 6 | 1
+ 109   | HC 85999  | JOAQUIM BARBOSA | N | 6 | 1
+ 110   | EXT 1076  | JOAQUIM BARBOSA | N | 6 | 0
+ 111   | HC 86042  | JOAQUIM BARBOSA | N | 5 | 3
+ 112   | HC 90217  | JOAQUIM BARBOSA | N | 5 | 3
+ 113   | RMS 25105 | JOAQUIM BARBOSA | N | 5 | 2
+ 114   | HC 95604  | JOAQUIM BARBOSA | N | 5 | 1
+ 115   | RCL 2848  | JOAQUIM BARBOSA | N | 5 | 0
+ 116   | ADI 951   | JOAQUIM BARBOSA | N | 5 | 0
+ 117   | HC 92020  | JOAQUIM BARBOSA | N | 4 | 1
+ 118   | HC 88274  | JOAQUIM BARBOSA | N | 4 | 1
+ 119   | HC 83883  | JOAQUIM BARBOSA | N | 4 | 0
+ 120   | AP 333    | JOAQUIM BARBOSA | N | 3 | 0
+ 121   | HC 92880  | JOAQUIM BARBOSA | N | 2 | 3
+ 122   | HC 84095  | JOAQUIM BARBOSA | N | 2 | 2
+ 123   | HC 87563  | JOAQUIM BARBOSA | N | 2 | 2
+ 124   | RE 439796 | JOAQUIM BARBOSA | N | 2 | 0
+ 125   | AO 1046   | JOAQUIM BARBOSA | N | 2 | 0
+ 126   | HC 98802  | JOAQUIM BARBOSA | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_8
+Number of decisions which appear on simulations: 132
+Number of items whose frequency is higher than 1: 126
+Number of decisions which could be in all iterations: 56
+decisões que aparecem pelo menos 10 vezes | 24
+decisões que aparecem pelo menos 9 vezes | 61
+decisões que aparecem pelo menos 8 vezes | 87
+138
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 85658             | CEZAR PELUSO | N | 10 | 0
+ 2   | HC 87926              | CEZAR PELUSO | N | 10 | 0
+ 3   | HC 93315              | CEZAR PELUSO | N | 10 | 0
+ 4   | HC 95766              | CEZAR PELUSO | N | 10 | 0
+ 5   | HC 87041              | CEZAR PELUSO | N | 10 | 0
+ 6   | ACO 1058              | CEZAR PELUSO | N | 10 | 0
+ 7   | HC 92680              | CEZAR PELUSO | N | 10 | 0
+ 8   | HC 87107              | CEZAR PELUSO | N | 10 | 0
+ 9   | HC 91161              | CEZAR PELUSO | N | 10 | 0
+ 10   | HC 82848              | CEZAR PELUSO | N | 10 | 0
+ 11   | HC 89815              | CEZAR PELUSO | N | 10 | 0
+ 12   | HC 85185              | CEZAR PELUSO | N | 10 | 0
+ 13   | HC 96976              | CEZAR PELUSO | N | 10 | 0
+ 14   | RE 466343             | CEZAR PELUSO | N | 10 | 0
+ 15   | HC 87717              | CEZAR PELUSO | N | 10 | 0
+ 16   | HC 86371              | CEZAR PELUSO | N | 10 | 0
+ 17   | HC 90684              | CEZAR PELUSO | N | 10 | 0
+ 18   | HC 84931              | CEZAR PELUSO | N | 10 | 0
+ 19   | HC 95069              | CEZAR PELUSO | N | 10 | 0
+ 20   | RE 520942             | CEZAR PELUSO | S | 10 | 0
+ 21   | ACO 853               | CEZAR PELUSO | N | 10 | 0
+ 22   | INQ 2555              | CEZAR PELUSO | N | 10 | 0
+ 23   | HC 85601              | CEZAR PELUSO | N | 10 | 0
+ 24   | HC 89649              | CEZAR PELUSO | S | 10 | 0
+ 25   | RHC 87198             | CEZAR PELUSO | N | 9 | 1
+ 26   | RE 454737             | CEZAR PELUSO | N | 9 | 1
+ 27   | HC 92994              | CEZAR PELUSO | N | 9 | 1
+ 28   | HC 88393              | CEZAR PELUSO | N | 9 | 1
+ 29   | EXT 921               | CEZAR PELUSO | N | 9 | 1
+ 30   | HC 87343              | CEZAR PELUSO | N | 9 | 1
+ 31   | HC 88978              | CEZAR PELUSO | N | 9 | 1
+ 32   | HC 91228              | CEZAR PELUSO | N | 9 | 1
+ 33   | HC 92110              | CEZAR PELUSO | N | 9 | 1
+ 34   | HC 85425              | CEZAR PELUSO | N | 9 | 1
+ 35   | HC 87468              | CEZAR PELUSO | N | 9 | 1
+ 36   | HC 91516              | CEZAR PELUSO | N | 9 | 1
+ 37   | INQ 2462              | CEZAR PELUSO | N | 9 | 1
+ 38   | RE 407688             | CEZAR PELUSO | N | 9 | 1
+ 39   | HC 93753              | CEZAR PELUSO | N | 9 | 1
+ 40   | RHC 84295             | CEZAR PELUSO | N | 9 | 1
+ 41   | HC 84166              | CEZAR PELUSO | N | 9 | 1
+ 42   | HC 86140              | CEZAR PELUSO | N | 9 | 1
+ 43   | EXT 959               | CEZAR PELUSO | N | 9 | 1
+ 44   | HC 89699              | CEZAR PELUSO | N | 9 | 1
+ 45   | HC 91743              | CEZAR PELUSO | N | 9 | 1
+ 46   | INQ 2455              | CEZAR PELUSO | N | 9 | 1
+ 47   | HC 93466              | CEZAR PELUSO | N | 9 | 1
+ 48   | ADI 3049              | CEZAR PELUSO | N | 9 | 1
+ 49   | HC 93393              | CEZAR PELUSO | N | 9 | 0
+ 50   | HC 86748              | CEZAR PELUSO | N | 9 | 0
+ 51   | HC 95611              | CEZAR PELUSO | N | 9 | 0
+ 52   | HC 86609              | CEZAR PELUSO | N | 9 | 0
+ 53   | HC 91480              | CEZAR PELUSO | N | 9 | 0
+ 54   | HC 87157              | CEZAR PELUSO | N | 9 | 0
+ 55   | RHC 89135             | CEZAR PELUSO | N | 9 | 0
+ 56   | HC 86548              | CEZAR PELUSO | N | 9 | 0
+ 57   | HC 90749              | CEZAR PELUSO | N | 9 | 0
+ 58   | HC 86238              | CEZAR PELUSO | N | 8 | 2
+ 59   | HC 83894              | CEZAR PELUSO | N | 8 | 2
+ 60   | RE 534384             | CEZAR PELUSO | N | 8 | 2
+ 61   | HC 88740              | CEZAR PELUSO | N | 8 | 2
+ 62   | HC 95167              | CEZAR PELUSO | N | 8 | 2
+ 63   | EXT 931               | CEZAR PELUSO | N | 8 | 2
+ 64   | HC 95003              | CEZAR PELUSO | N | 8 | 2
+ 65   | HC 91175              | CEZAR PELUSO | N | 8 | 2
+ 66   | HC 88836              | CEZAR PELUSO | N | 8 | 2
+ 67   | HC 88284              | CEZAR PELUSO | N | 8 | 2
+ 68   | HC 84997              | CEZAR PELUSO | N | 8 | 2
+ 69   | AGR AI 420114         | CEZAR PELUSO | N | 8 | 1
+ 70   | HC 82862              | CEZAR PELUSO | N | 8 | 1
+ 71   | HC 97819              | CEZAR PELUSO | N | 8 | 1
+ 72   | INQ 2424              | CEZAR PELUSO | N | 8 | 1
+ 73   | ADI 3625              | CEZAR PELUSO | N | 8 | 1
+ 74   | RHC 86190             | CEZAR PELUSO | N | 8 | 1
+ 75   | HC 94072              | CEZAR PELUSO | N | 8 | 1
+ 76   | HC 95100              | CEZAR PELUSO | N | 8 | 1
+ 77   | HC 87089              | CEZAR PELUSO | N | 8 | 1
+ 78   | HC 85824              | CEZAR PELUSO | N | 8 | 1
+ 79   | AC 112                | CEZAR PELUSO | N | 8 | 1
+ 80   | HC 92568              | CEZAR PELUSO | N | 8 | 1
+ 81   | HC 85718              | CEZAR PELUSO | N | 8 | 1
+ 82   | HC 84590              | CEZAR PELUSO | N | 8 | 1
+ 83   | MS 26652              | CEZAR PELUSO | S | 8 | 0
+ 84   | HC 81832              | CEZAR PELUSO | N | 8 | 0
+ 85   | HC 93710              | CEZAR PELUSO | S | 8 | 0
+ 86   | HC 87219              | CEZAR PELUSO | N | 8 | 0
+ 87   | HC 90709              | CEZAR PELUSO | N | 8 | 0
+ 88   | PET 3631              | CEZAR PELUSO | N | 8 | 0
+ 89   | HC 90471              | CEZAR PELUSO | N | 8 | 0
+ 90   | HC 89777              | CEZAR PELUSO | N | 8 | 0
+ 91   | HC 92302              | CEZAR PELUSO | N | 8 | 0
+ 92   | HC 97948              | CEZAR PELUSO | S | 8 | 0
+ 93   | HC 87676              | CEZAR PELUSO | N | 8 | 0
+ 94   | ADI 1980              | CEZAR PELUSO | N | 8 | 0
+ 95   | HC 84311              | CEZAR PELUSO | N | 7 | 3
+ 96   | HC 84928              | CEZAR PELUSO | N | 7 | 3
+ 97   | RE 467923             | CEZAR PELUSO | N | 7 | 3
+ 98   | HC 83516              | CEZAR PELUSO | N | 7 | 2
+ 99   | HC 83545              | CEZAR PELUSO | N | 7 | 2
+ 100   | AGR RE 413810         | CEZAR PELUSO | N | 7 | 1
+ 101   | HC 84534              | CEZAR PELUSO | N | 7 | 1
+ 102   | HC 95142              | CEZAR PELUSO | N | 7 | 1
+ 103   | MS 26655              | CEZAR PELUSO | S | 7 | 0
+ 104   | HC 83981              | CEZAR PELUSO | N | 7 | 0
+ 105   | HC 87071              | CEZAR PELUSO | N | 7 | 0
+ 106   | HC 82982              | CEZAR PELUSO | N | 6 | 4
+ 107   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 6 | 3
+ 108   | HC 86520              | CEZAR PELUSO | N | 6 | 3
+ 109   | HC 94122              | CEZAR PELUSO | N | 6 | 2
+ 110   | HC 91650              | CEZAR PELUSO | N | 6 | 2
+ 111   | HC 95362              | CEZAR PELUSO | N | 6 | 2
+ 112   | HC 90540              | CEZAR PELUSO | N | 6 | 1
+ 113   | MS 26657              | CEZAR PELUSO | S | 6 | 0
+ 114   | AGR AI 581876         | CEZAR PELUSO | S | 6 | 0
+ 115   | MS 26405              | CEZAR PELUSO | N | 5 | 4
+ 116   | AGR AI 548327         | CEZAR PELUSO | N | 5 | 2
+ 117   | MS 26656              | CEZAR PELUSO | S | 5 | 0
+ 118   | ED ED RE 507258       | CEZAR PELUSO | S | 5 | 0
+ 119   | RE 545860             | CEZAR PELUSO | S | 4 | 0
+ 120   | AGR RE 535675         | CEZAR PELUSO | N | 2 | 1
+ 121   | AGR ED AI 490473      | CEZAR PELUSO | S | 2 | 0
+ 122   | AGR RE 283831         | CEZAR PELUSO | S | 2 | 0
+ 123   | ED ED AGR RE 592670   | CEZAR PELUSO | S | 2 | 0
+
+stf_pr_1_acordaos_90_rel_9
+Number of decisions which appear on simulations: 127
+Number of items whose frequency is higher than 1: 123
+Number of decisions which could be in all iterations: 63
+decisões que aparecem pelo menos 10 vezes | 24
+decisões que aparecem pelo menos 9 vezes | 57
+decisões que aparecem pelo menos 8 vezes | 94
+135
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 85658             | CEZAR PELUSO | N | 10 | 0
+ 2   | HC 93315              | CEZAR PELUSO | N | 10 | 0
+ 3   | HC 84311              | CEZAR PELUSO | N | 10 | 0
+ 4   | HC 86238              | CEZAR PELUSO | N | 10 | 0
+ 5   | HC 95142              | CEZAR PELUSO | N | 10 | 0
+ 6   | RHC 86190             | CEZAR PELUSO | N | 10 | 0
+ 7   | HC 87343              | CEZAR PELUSO | N | 10 | 0
+ 8   | HC 88978              | CEZAR PELUSO | N | 10 | 0
+ 9   | HC 92110              | CEZAR PELUSO | N | 10 | 0
+ 10   | HC 91161              | CEZAR PELUSO | N | 10 | 0
+ 11   | HC 87468              | CEZAR PELUSO | N | 10 | 0
+ 12   | HC 85185              | CEZAR PELUSO | N | 10 | 0
+ 13   | HC 96976              | CEZAR PELUSO | N | 10 | 0
+ 14   | RE 466343             | CEZAR PELUSO | N | 10 | 0
+ 15   | INQ 2462              | CEZAR PELUSO | N | 10 | 0
+ 16   | EXT 959               | CEZAR PELUSO | N | 10 | 0
+ 17   | HC 84931              | CEZAR PELUSO | N | 10 | 0
+ 18   | HC 90749              | CEZAR PELUSO | N | 10 | 0
+ 19   | HC 83545              | CEZAR PELUSO | N | 10 | 0
+ 20   | INQ 2455              | CEZAR PELUSO | N | 10 | 0
+ 21   | HC 84997              | CEZAR PELUSO | N | 10 | 0
+ 22   | INQ 2555              | CEZAR PELUSO | N | 10 | 0
+ 23   | HC 85601              | CEZAR PELUSO | N | 10 | 0
+ 24   | HC 82862              | CEZAR PELUSO | N | 9 | 1
+ 25   | HC 87926              | CEZAR PELUSO | N | 9 | 1
+ 26   | INQ 2424              | CEZAR PELUSO | N | 9 | 1
+ 27   | HC 87041              | CEZAR PELUSO | N | 9 | 1
+ 28   | ACO 1058              | CEZAR PELUSO | N | 9 | 1
+ 29   | HC 88393              | CEZAR PELUSO | N | 9 | 1
+ 30   | EXT 921               | CEZAR PELUSO | N | 9 | 1
+ 31   | HC 82982              | CEZAR PELUSO | N | 9 | 1
+ 32   | EXT 931               | CEZAR PELUSO | N | 9 | 1
+ 33   | HC 91516              | CEZAR PELUSO | N | 9 | 1
+ 34   | HC 91175              | CEZAR PELUSO | N | 9 | 1
+ 35   | HC 85824              | CEZAR PELUSO | N | 9 | 1
+ 36   | RE 407688             | CEZAR PELUSO | N | 9 | 1
+ 37   | RHC 84295             | CEZAR PELUSO | N | 9 | 1
+ 38   | HC 86140              | CEZAR PELUSO | N | 9 | 1
+ 39   | HC 89699              | CEZAR PELUSO | N | 9 | 1
+ 40   | HC 90684              | CEZAR PELUSO | N | 9 | 1
+ 41   | HC 86548              | CEZAR PELUSO | N | 9 | 1
+ 42   | HC 91743              | CEZAR PELUSO | N | 9 | 1
+ 43   | HC 88836              | CEZAR PELUSO | N | 9 | 1
+ 44   | HC 83981              | CEZAR PELUSO | N | 9 | 1
+ 45   | ACO 853               | CEZAR PELUSO | N | 9 | 1
+ 46   | MS 26405              | CEZAR PELUSO | N | 9 | 1
+ 47   | HC 85718              | CEZAR PELUSO | N | 9 | 1
+ 48   | ADI 3049              | CEZAR PELUSO | N | 9 | 1
+ 49   | HC 81832              | CEZAR PELUSO | N | 9 | 0
+ 50   | HC 92994              | CEZAR PELUSO | N | 9 | 0
+ 51   | HC 93710              | CEZAR PELUSO | S | 9 | 0
+ 52   | HC 87219              | CEZAR PELUSO | N | 9 | 0
+ 53   | ADI 3625              | CEZAR PELUSO | N | 9 | 0
+ 54   | HC 90540              | CEZAR PELUSO | N | 9 | 0
+ 55   | HC 91650              | CEZAR PELUSO | N | 9 | 0
+ 56   | RE 534384             | CEZAR PELUSO | N | 9 | 0
+ 57   | HC 83516              | CEZAR PELUSO | N | 9 | 0
+ 58   | HC 91228              | CEZAR PELUSO | N | 9 | 0
+ 59   | HC 95100              | CEZAR PELUSO | N | 9 | 0
+ 60   | RE 467923             | CEZAR PELUSO | N | 9 | 0
+ 61   | HC 87157              | CEZAR PELUSO | N | 9 | 0
+ 62   | RHC 89135             | CEZAR PELUSO | N | 9 | 0
+ 63   | RE 520942             | CEZAR PELUSO | S | 9 | 0
+ 64   | HC 92568              | CEZAR PELUSO | N | 9 | 0
+ 65   | HC 89649              | CEZAR PELUSO | S | 9 | 0
+ 66   | RE 454737             | CEZAR PELUSO | N | 8 | 2
+ 67   | HC 84534              | CEZAR PELUSO | N | 8 | 2
+ 68   | HC 83894              | CEZAR PELUSO | N | 8 | 2
+ 69   | PET 3631              | CEZAR PELUSO | N | 8 | 2
+ 70   | HC 88740              | CEZAR PELUSO | N | 8 | 2
+ 71   | HC 89815              | CEZAR PELUSO | N | 8 | 2
+ 72   | HC 93753              | CEZAR PELUSO | N | 8 | 2
+ 73   | HC 87717              | CEZAR PELUSO | N | 8 | 2
+ 74   | HC 86371              | CEZAR PELUSO | N | 8 | 2
+ 75   | HC 95069              | CEZAR PELUSO | N | 8 | 2
+ 76   | HC 93466              | CEZAR PELUSO | N | 8 | 2
+ 77   | HC 94072              | CEZAR PELUSO | N | 8 | 1
+ 78   | HC 86609              | CEZAR PELUSO | N | 8 | 1
+ 79   | HC 95167              | CEZAR PELUSO | N | 8 | 1
+ 80   | HC 95003              | CEZAR PELUSO | N | 8 | 1
+ 81   | HC 89777              | CEZAR PELUSO | N | 8 | 1
+ 82   | HC 88284              | CEZAR PELUSO | N | 8 | 1
+ 83   | HC 87676              | CEZAR PELUSO | N | 8 | 1
+ 84   | AGR RE 413810         | CEZAR PELUSO | N | 8 | 0
+ 85   | HC 95766              | CEZAR PELUSO | N | 8 | 0
+ 86   | HC 92680              | CEZAR PELUSO | N | 8 | 0
+ 87   | ED ED RE 507258       | CEZAR PELUSO | S | 8 | 0
+ 88   | HC 91480              | CEZAR PELUSO | N | 8 | 0
+ 89   | AC 112                | CEZAR PELUSO | N | 8 | 0
+ 90   | HC 86520              | CEZAR PELUSO | N | 8 | 0
+ 91   | HC 87071              | CEZAR PELUSO | N | 8 | 0
+ 92   | HC 87089              | CEZAR PELUSO | N | 7 | 3
+ 93   | HC 90709              | CEZAR PELUSO | N | 7 | 2
+ 94   | HC 87107              | CEZAR PELUSO | N | 7 | 2
+ 95   | HC 86748              | CEZAR PELUSO | N | 7 | 2
+ 96   | AGR AI 420114         | CEZAR PELUSO | N | 7 | 1
+ 97   | HC 85425              | CEZAR PELUSO | N | 7 | 1
+ 98   | HC 95611              | CEZAR PELUSO | N | 7 | 1
+ 99   | HC 82848              | CEZAR PELUSO | N | 7 | 1
+ 100   | HC 84166              | CEZAR PELUSO | N | 7 | 1
+ 101   | ADI 1980              | CEZAR PELUSO | N | 7 | 1
+ 102   | MS 26652              | CEZAR PELUSO | S | 7 | 0
+ 103   | MS 26655              | CEZAR PELUSO | S | 7 | 0
+ 104   | HC 95362              | CEZAR PELUSO | N | 7 | 0
+ 105   | HC 84590              | CEZAR PELUSO | N | 7 | 0
+ 106   | HC 90471              | CEZAR PELUSO | N | 6 | 3
+ 107   | HC 94122              | CEZAR PELUSO | N | 6 | 2
+ 108   | HC 93393              | CEZAR PELUSO | N | 6 | 2
+ 109   | HC 92302              | CEZAR PELUSO | N | 6 | 2
+ 110   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 6 | 1
+ 111   | MS 26657              | CEZAR PELUSO | S | 6 | 0
+ 112   | MS 26656              | CEZAR PELUSO | S | 6 | 0
+ 113   | AGR AI 581876         | CEZAR PELUSO | S | 6 | 0
+ 114   | RHC 87198             | CEZAR PELUSO | N | 5 | 4
+ 115   | HC 97819              | CEZAR PELUSO | N | 5 | 3
+ 116   | HC 84928              | CEZAR PELUSO | N | 5 | 3
+ 117   | AGR AI 548327         | CEZAR PELUSO | N | 5 | 0
+ 118   | HC 97948              | CEZAR PELUSO | S | 5 | 0
+ 119   | RE 545860             | CEZAR PELUSO | S | 4 | 0
+ 120   | AGR ED AI 490473      | CEZAR PELUSO | S | 2 | 0
+
+stf_pr_2_acordaos_90_rel_9
+Number of decisions which appear on simulations: 127
+Number of items whose frequency is higher than 1: 120
+Number of decisions which could be in all iterations: 60
+decisões que aparecem pelo menos 10 vezes | 23
+decisões que aparecem pelo menos 9 vezes | 65
+decisões que aparecem pelo menos 8 vezes | 91
+132
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 95331  | EROS GRAU | N | 10 | 0
+ 2   | HC 88259  | EROS GRAU | N | 10 | 0
+ 3   | HC 84677  | EROS GRAU | N | 10 | 0
+ 4   | HC 85200  | EROS GRAU | N | 10 | 0
+ 5   | HC 85046  | EROS GRAU | N | 10 | 0
+ 6   | HC 84026  | EROS GRAU | N | 10 | 0
+ 7   | HC 95613  | EROS GRAU | N | 10 | 0
+ 8   | HC 91408  | EROS GRAU | N | 10 | 0
+ 9   | HC 98197  | EROS GRAU | N | 10 | 0
+ 10   | HC 85108  | EROS GRAU | N | 10 | 0
+ 11   | MS 25090  | EROS GRAU | N | 10 | 0
+ 12   | RE 527602 | EROS GRAU | N | 10 | 0
+ 13   | ADI 2615  | EROS GRAU | N | 10 | 0
+ 14   | RHC 89550 | EROS GRAU | N | 10 | 0
+ 15   | HC 84078  | EROS GRAU | N | 10 | 0
+ 16   | HC 91688  | EROS GRAU | N | 10 | 0
+ 17   | RHC 84849 | EROS GRAU | N | 9 | 1
+ 18   | ADI 2836  | EROS GRAU | N | 9 | 1
+ 19   | HC 95539  | EROS GRAU | N | 9 | 1
+ 20   | ADI 1916  | EROS GRAU | N | 9 | 1
+ 21   | HC 87768  | EROS GRAU | N | 9 | 1
+ 22   | ADI 820   | EROS GRAU | N | 9 | 1
+ 23   | ADI 1994  | EROS GRAU | N | 9 | 1
+ 24   | MS 24523  | EROS GRAU | N | 9 | 1
+ 25   | ADI 1074  | EROS GRAU | N | 9 | 1
+ 26   | HC 92961  | EROS GRAU | N | 9 | 1
+ 27   | HC 90907  | EROS GRAU | N | 9 | 1
+ 28   | EXT 1103  | EROS GRAU | N | 9 | 1
+ 29   | HC 85297  | EROS GRAU | N | 9 | 1
+ 30   | ADI 3167  | EROS GRAU | N | 9 | 1
+ 31   | HC 87478  | EROS GRAU | N | 9 | 1
+ 32   | HC 89770  | EROS GRAU | N | 9 | 1
+ 33   | RMS 24789 | EROS GRAU | N | 9 | 1
+ 34   | ADI 1007  | EROS GRAU | N | 9 | 1
+ 35   | RMS 27920 | EROS GRAU | N | 9 | 1
+ 36   | HC 85519  | EROS GRAU | N | 9 | 1
+ 37   | HC 95353  | EROS GRAU | N | 9 | 1
+ 38   | ADI 1933  | EROS GRAU | N | 9 | 1
+ 39   | ADI 2349  | EROS GRAU | N | 9 | 1
+ 40   | HC 89159  | EROS GRAU | N | 9 | 0
+ 41   | ADI 2522  | EROS GRAU | N | 9 | 0
+ 42   | HC 85652  | EROS GRAU | N | 9 | 0
+ 43   | HC 93439  | EROS GRAU | S | 9 | 0
+ 44   | HC 95402  | EROS GRAU | N | 9 | 0
+ 45   | HC 98170  | EROS GRAU | N | 9 | 0
+ 46   | HC 99278  | EROS GRAU | S | 9 | 0
+ 47   | RE 461968 | EROS GRAU | N | 9 | 0
+ 48   | HC 91342  | EROS GRAU | N | 9 | 0
+ 49   | HC 88662  | EROS GRAU | N | 9 | 0
+ 50   | ADI 3458  | EROS GRAU | N | 9 | 0
+ 51   | ADI 1991  | EROS GRAU | N | 8 | 2
+ 52   | ADI 2129  | EROS GRAU | N | 8 | 2
+ 53   | HC 93641  | EROS GRAU | N | 8 | 2
+ 54   | HC 90315  | EROS GRAU | N | 8 | 2
+ 55   | HC 93163  | EROS GRAU | N | 8 | 2
+ 56   | HC 88741  | EROS GRAU | N | 8 | 2
+ 57   | RE 576847 | EROS GRAU | N | 8 | 2
+ 58   | RMS 24249 | EROS GRAU | N | 8 | 2
+ 59   | ADI 662   | EROS GRAU | N | 8 | 2
+ 60   | HC 88443  | EROS GRAU | N | 8 | 2
+ 61   | HC 95414  | EROS GRAU | N | 8 | 2
+ 62   | ADI 2240  | EROS GRAU | N | 8 | 2
+ 63   | HC 86498  | EROS GRAU | N | 8 | 2
+ 64   | MS 25351  | EROS GRAU | N | 8 | 2
+ 65   | HC 99888  | EROS GRAU | N | 8 | 2
+ 66   | HC 89420  | EROS GRAU | N | 8 | 1
+ 67   | HC 89863  | EROS GRAU | N | 8 | 1
+ 68   | HC 94916  | EROS GRAU | N | 8 | 1
+ 69   | RE 218874 | EROS GRAU | N | 8 | 1
+ 70   | HC 88594  | EROS GRAU | N | 8 | 1
+ 71   | HC 90146  | EROS GRAU | N | 8 | 1
+ 72   | RHC 84897 | EROS GRAU | N | 8 | 1
+ 73   | HC 95009  | EROS GRAU | N | 8 | 1
+ 74   | RHC 95906 | EROS GRAU | N | 8 | 1
+ 75   | HC 99072  | EROS GRAU | N | 8 | 1
+ 76   | HC 89594  | EROS GRAU | N | 8 | 1
+ 77   | HC 86374  | EROS GRAU | N | 8 | 1
+ 78   | ADI 559   | EROS GRAU | N | 8 | 1
+ 79   | HC 90216  | EROS GRAU | N | 8 | 1
+ 80   | ADI 554   | EROS GRAU | N | 8 | 1
+ 81   | MS 24488  | EROS GRAU | N | 8 | 1
+ 82   | HC 89240  | EROS GRAU | N | 8 | 1
+ 83   | HC 86166  | EROS GRAU | N | 8 | 1
+ 84   | ADI 3512  | EROS GRAU | N | 8 | 1
+ 85   | ADI 3332  | EROS GRAU | N | 8 | 0
+ 86   | HC 88785  | EROS GRAU | N | 8 | 0
+ 87   | HC 84776  | EROS GRAU | N | 8 | 0
+ 88   | ADI 1595  | EROS GRAU | S | 8 | 0
+ 89   | HC 92573  | EROS GRAU | S | 8 | 0
+ 90   | ADI 2059  | EROS GRAU | N | 8 | 0
+ 91   | RHC 85026 | EROS GRAU | N | 8 | 0
+ 92   | RHC 86681 | EROS GRAU | N | 7 | 3
+ 93   | HC 96362  | EROS GRAU | N | 7 | 3
+ 94   | HC 90370  | EROS GRAU | N | 7 | 3
+ 95   | HC 85453  | EROS GRAU | N | 7 | 3
+ 96   | HC 91971  | EROS GRAU | N | 7 | 2
+ 97   | ADPF 47   | EROS GRAU | N | 7 | 2
+ 98   | HC 83921  | EROS GRAU | N | 7 | 1
+ 99   | ADI 1182  | EROS GRAU | N | 7 | 1
+ 100   | HC 94691  | EROS GRAU | N | 7 | 1
+ 101   | RHC 86072 | EROS GRAU | N | 7 | 1
+ 102   | HC 86684  | EROS GRAU | N | 7 | 0
+ 103   | MS 25015  | EROS GRAU | S | 7 | 0
+ 104   | HC 86093  | EROS GRAU | N | 7 | 0
+ 105   | MI 712    | EROS GRAU | N | 6 | 3
+ 106   | RE 592905 | EROS GRAU | N | 6 | 2
+ 107   | ADI 1920  | EROS GRAU | N | 6 | 2
+ 108   | EXT 933   | EROS GRAU | N | 6 | 2
+ 109   | HC 101505 | EROS GRAU | N | 6 | 1
+ 110   | ADI 2257  | EROS GRAU | N | 6 | 1
+ 111   | ADI 1594  | EROS GRAU | N | 6 | 1
+ 112   | MS 22355  | EROS GRAU | N | 6 | 1
+ 113   | MI 689    | EROS GRAU | N | 6 | 1
+ 114   | HC 92963  | EROS GRAU | N | 6 | 0
+ 115   | MS 24575  | EROS GRAU | N | 6 | 0
+ 116   | HC 95790  | EROS GRAU | N | 6 | 0
+ 117   | HC 88535  | EROS GRAU | N | 5 | 3
+ 118   | HC 93048  | EROS GRAU | N | 4 | 1
+ 119   | HC 92368  | EROS GRAU | N | 4 | 1
+ 120   | HC 95424  | EROS GRAU | N | 4 | 0
+ 121   | HC 96990  | EROS GRAU | S | 4 | 0
+ 122   | RMS 22180 | EROS GRAU | N | 3 | 2
+ 123   | HC 97047  | EROS GRAU | N | 3 | 1
+ 124   | HC 98780  | EROS GRAU | N | 3 | 1
+ 125   | MS 26690  | EROS GRAU | N | 2 | 3
+ 126   | HC 85060  | EROS GRAU | N | 2 | 2
+ 127   | HC 84056  | EROS GRAU | N | 2 | 0
+ 128   | ADI 3316  | EROS GRAU | N | 2 | 0
+
+stf_pr_1_acordaos_90_rel_10
+Number of decisions which appear on simulations: 133
+Number of items whose frequency is higher than 1: 128
+Number of decisions which could be in all iterations: 58
+decisões que aparecem pelo menos 10 vezes | 16
+decisões que aparecem pelo menos 9 vezes | 50
+decisões que aparecem pelo menos 8 vezes | 91
+140
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 95539  | EROS GRAU | N | 10 | 0
+ 2   | HC 94916  | EROS GRAU | N | 10 | 0
+ 3   | HC 95331  | EROS GRAU | N | 10 | 0
+ 4   | ADI 2129  | EROS GRAU | N | 10 | 0
+ 5   | MS 24523  | EROS GRAU | N | 10 | 0
+ 6   | HC 84677  | EROS GRAU | N | 10 | 0
+ 7   | RHC 86681 | EROS GRAU | N | 10 | 0
+ 8   | ADI 1074  | EROS GRAU | N | 10 | 0
+ 9   | HC 85046  | EROS GRAU | N | 10 | 0
+ 10   | EXT 1103  | EROS GRAU | N | 10 | 0
+ 11   | RMS 24249 | EROS GRAU | N | 10 | 0
+ 12   | HC 89594  | EROS GRAU | N | 10 | 0
+ 13   | HC 88443  | EROS GRAU | N | 10 | 0
+ 14   | RE 527602 | EROS GRAU | N | 10 | 0
+ 15   | ADI 1920  | EROS GRAU | N | 10 | 0
+ 16   | RMS 24789 | EROS GRAU | N | 10 | 0
+ 17   | RHC 89550 | EROS GRAU | N | 10 | 0
+ 18   | ADI 559   | EROS GRAU | N | 10 | 0
+ 19   | ADI 554   | EROS GRAU | N | 10 | 0
+ 20   | HC 85453  | EROS GRAU | N | 10 | 0
+ 21   | ADI 2059  | EROS GRAU | N | 10 | 0
+ 22   | HC 86093  | EROS GRAU | N | 10 | 0
+ 23   | RMS 27920 | EROS GRAU | N | 10 | 0
+ 24   | HC 84078  | EROS GRAU | N | 10 | 0
+ 25   | ADI 2349  | EROS GRAU | N | 10 | 0
+ 26   | ADI 3332  | EROS GRAU | N | 9 | 1
+ 27   | ADI 820   | EROS GRAU | N | 9 | 1
+ 28   | HC 88259  | EROS GRAU | N | 9 | 1
+ 29   | HC 88594  | EROS GRAU | N | 9 | 1
+ 30   | HC 90146  | EROS GRAU | N | 9 | 1
+ 31   | HC 85200  | EROS GRAU | N | 9 | 1
+ 32   | HC 96362  | EROS GRAU | N | 9 | 1
+ 33   | HC 90907  | EROS GRAU | N | 9 | 1
+ 34   | HC 85297  | EROS GRAU | N | 9 | 1
+ 35   | ADI 3167  | EROS GRAU | N | 9 | 1
+ 36   | HC 98197  | EROS GRAU | N | 9 | 1
+ 37   | MS 25090  | EROS GRAU | N | 9 | 1
+ 38   | ADI 2615  | EROS GRAU | N | 9 | 1
+ 39   | ADI 1007  | EROS GRAU | N | 9 | 1
+ 40   | HC 91688  | EROS GRAU | N | 9 | 1
+ 41   | HC 89240  | EROS GRAU | N | 9 | 1
+ 42   | HC 88662  | EROS GRAU | N | 9 | 1
+ 43   | HC 86166  | EROS GRAU | N | 9 | 1
+ 44   | ADI 3512  | EROS GRAU | N | 9 | 1
+ 45   | ADI 2836  | EROS GRAU | N | 9 | 0
+ 46   | HC 89863  | EROS GRAU | N | 9 | 0
+ 47   | ADI 1991  | EROS GRAU | N | 9 | 0
+ 48   | ADI 1994  | EROS GRAU | N | 9 | 0
+ 49   | HC 88535  | EROS GRAU | N | 9 | 0
+ 50   | ADI 1595  | EROS GRAU | S | 9 | 0
+ 51   | HC 95402  | EROS GRAU | N | 9 | 0
+ 52   | ADI 662   | EROS GRAU | N | 9 | 0
+ 53   | MS 25015  | EROS GRAU | S | 9 | 0
+ 54   | HC 86374  | EROS GRAU | N | 9 | 0
+ 55   | HC 95414  | EROS GRAU | N | 9 | 0
+ 56   | RE 461968 | EROS GRAU | N | 9 | 0
+ 57   | MS 24488  | EROS GRAU | N | 9 | 0
+ 58   | RHC 85026 | EROS GRAU | N | 9 | 0
+ 59   | ADI 1916  | EROS GRAU | N | 8 | 2
+ 60   | HC 93641  | EROS GRAU | N | 8 | 2
+ 61   | RE 218874 | EROS GRAU | N | 8 | 2
+ 62   | HC 90315  | EROS GRAU | N | 8 | 2
+ 63   | HC 92961  | EROS GRAU | N | 8 | 2
+ 64   | HC 93163  | EROS GRAU | N | 8 | 2
+ 65   | HC 90370  | EROS GRAU | N | 8 | 2
+ 66   | HC 87478  | EROS GRAU | N | 8 | 2
+ 67   | ADPF 47   | EROS GRAU | N | 8 | 2
+ 68   | ADI 2240  | EROS GRAU | N | 8 | 2
+ 69   | HC 86498  | EROS GRAU | N | 8 | 2
+ 70   | HC 85519  | EROS GRAU | N | 8 | 2
+ 71   | MS 25351  | EROS GRAU | N | 8 | 2
+ 72   | HC 83921  | EROS GRAU | N | 8 | 1
+ 73   | HC 89159  | EROS GRAU | N | 8 | 1
+ 74   | ADI 2522  | EROS GRAU | N | 8 | 1
+ 75   | HC 91971  | EROS GRAU | N | 8 | 1
+ 76   | RE 592905 | EROS GRAU | N | 8 | 1
+ 77   | HC 94691  | EROS GRAU | N | 8 | 1
+ 78   | HC 85652  | EROS GRAU | N | 8 | 1
+ 79   | RHC 86072 | EROS GRAU | N | 8 | 1
+ 80   | HC 84026  | EROS GRAU | N | 8 | 1
+ 81   | HC 95009  | EROS GRAU | N | 8 | 1
+ 82   | HC 85108  | EROS GRAU | N | 8 | 1
+ 83   | RHC 95906 | EROS GRAU | N | 8 | 1
+ 84   | HC 90216  | EROS GRAU | N | 8 | 1
+ 85   | HC 99888  | EROS GRAU | N | 8 | 1
+ 86   | MI 689    | EROS GRAU | N | 8 | 1
+ 87   | HC 92963  | EROS GRAU | N | 8 | 0
+ 88   | RHC 84897 | EROS GRAU | N | 8 | 0
+ 89   | HC 99278  | EROS GRAU | S | 8 | 0
+ 90   | MS 24575  | EROS GRAU | N | 8 | 0
+ 91   | HC 92573  | EROS GRAU | S | 8 | 0
+ 92   | HC 91342  | EROS GRAU | N | 8 | 0
+ 93   | HC 95353  | EROS GRAU | N | 8 | 0
+ 94   | HC 87768  | EROS GRAU | N | 7 | 3
+ 95   | HC 98170  | EROS GRAU | N | 7 | 2
+ 96   | HC 95613  | EROS GRAU | N | 7 | 2
+ 97   | ADI 1933  | EROS GRAU | N | 7 | 2
+ 98   | ADI 3458  | EROS GRAU | N | 7 | 2
+ 99   | HC 86684  | EROS GRAU | N | 7 | 1
+ 100   | HC 91408  | EROS GRAU | N | 7 | 1
+ 101   | HC 95790  | EROS GRAU | N | 7 | 1
+ 102   | HC 88785  | EROS GRAU | N | 7 | 0
+ 103   | RE 576847 | EROS GRAU | N | 7 | 0
+ 104   | RHC 84849 | EROS GRAU | N | 6 | 4
+ 105   | HC 88741  | EROS GRAU | N | 6 | 4
+ 106   | HC 89770  | EROS GRAU | N | 6 | 3
+ 107   | MI 712    | EROS GRAU | N | 6 | 2
+ 108   | HC 99072  | EROS GRAU | N | 6 | 2
+ 109   | HC 89420  | EROS GRAU | N | 6 | 1
+ 110   | ADI 1182  | EROS GRAU | N | 6 | 1
+ 111   | ADI 1594  | EROS GRAU | N | 6 | 0
+ 112   | EXT 933   | EROS GRAU | N | 5 | 4
+ 113   | HC 101505 | EROS GRAU | N | 5 | 2
+ 114   | HC 84776  | EROS GRAU | N | 5 | 2
+ 115   | MS 22355  | EROS GRAU | N | 5 | 1
+ 116   | HC 93439  | EROS GRAU | S | 5 | 0
+ 117   | HC 98780  | EROS GRAU | N | 4 | 0
+ 118   | ADI 1628  | EROS GRAU | N | 3 | 0
+ 119   | ADI 2257  | EROS GRAU | N | 3 | 0
+ 120   | HC 92368  | EROS GRAU | N | 3 | 0
+ 121   | HC 86122  | EROS GRAU | N | 2 | 1
+ 122   | MS 26690  | EROS GRAU | N | 2 | 1
+ 123   | HC 85060  | EROS GRAU | N | 2 | 1
+ 124   | HC 94872  | EROS GRAU | N | 2 | 0
+ 125   | ADI 3316  | EROS GRAU | N | 2 | 0
+ 126   | HC 96990  | EROS GRAU | S | 2 | 0
+
+stf_pr_2_acordaos_90_rel_10
+Number of decisions which appear on simulations: 131
+Number of items whose frequency is higher than 1: 126
+Number of decisions which could be in all iterations: 60
+decisões que aparecem pelo menos 10 vezes | 25
+decisões que aparecem pelo menos 9 vezes | 58
+decisões que aparecem pelo menos 8 vezes | 93
+138

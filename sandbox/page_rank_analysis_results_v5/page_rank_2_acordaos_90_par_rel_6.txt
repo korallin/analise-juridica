@@ -1,0 +1,1428 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493348
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.328908
+ 3    | ADI 2031              | ELLEN GRACIE    | N | 0.000312
+ 4    | ADI 872               | ELLEN GRACIE    | N | 0.000113
+ 5    | RE 275159             | ELLEN GRACIE    | N | 0.000113
+ 6    | ADI 703               | ELLEN GRACIE    | N | 0.000113
+ 7    | RE 336680             | ELLEN GRACIE    | N | 0.000085
+ 8    | ADI 2474              | ELLEN GRACIE    | N | 0.000057
+ 9    | RHC 80757             | ELLEN GRACIE    | N | 0.000057
+ 10   | HC 82588              | ELLEN GRACIE    | N | 0.000057
+ 11   | HC 81214              | ELLEN GRACIE    | N | 0.000057
+ 12   | ADI 1541              | ELLEN GRACIE    | N | 0.000057
+ 13   | ADI 3105              | ELLEN GRACIE    | N | 0.000057
+ 14   | ADI 3128              | ELLEN GRACIE    | N | 0.000057
+ 15   | ADI 953               | ELLEN GRACIE    | N | 0.000057
+ 16   | AR 1713               | ELLEN GRACIE    | N | 0.000057
+ 17   | ADI 329               | ELLEN GRACIE    | N | 0.000057
+ 18   | HC 79989              | ELLEN GRACIE    | N | 0.000057
+ 19   | RE 224283             | ELLEN GRACIE    | N | 0.000057
+ 20   | RE 226472             | ELLEN GRACIE    | N | 0.000057
+ 21   | RE 199198             | ELLEN GRACIE    | N | 0.000057
+ 22   | RMS 23692             | ELLEN GRACIE    | N | 0.000057
+ 23   | INQ 1739              | ELLEN GRACIE    | N | 0.000057
+ 24   | ADI 743               | ELLEN GRACIE    | N | 0.000057
+ 25   | ADI 2564              | ELLEN GRACIE    | N | 0.000057
+ 26   | MS 23754              | ELLEN GRACIE    | N | 0.000057
+ 27   | ADI 2713              | ELLEN GRACIE    | N | 0.000057
+ 28   | HC 82337              | ELLEN GRACIE    | N | 0.000057
+ 29   | ADI 2103              | ELLEN GRACIE    | N | 0.000057
+ 30   | HC 82149              | ELLEN GRACIE    | N | 0.000057
+ 31   | HC 81054              | ELLEN GRACIE    | N | 0.000057
+ 32   | RMS 23787             | ELLEN GRACIE    | N | 0.000057
+ 33   | ADI 2666              | ELLEN GRACIE    | N | 0.000057
+ 34   | MS 23399              | ELLEN GRACIE    | N | 0.000057
+ 35   | HC 83455              | ELLEN GRACIE    | N | 0.000028
+ 36   | HC 83456              | ELLEN GRACIE    | N | 0.000028
+ 37   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000028
+ 38   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000028
+ 39   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000028
+ 40   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000028
+ 41   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000028
+ 42   | RHC 105243            | ELLEN GRACIE    | N | 0.000028
+ 43   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000028
+ 44   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000028
+ 45   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000028
+ 46   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000028
+ 47   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000028
+ 48   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000028
+ 49   | RHC 88291             | ELLEN GRACIE    | N | 0.000028
+ 50   | AGR AI 323945         | NELSON JOBIM    | S | 0.000028
+ 51   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000028
+ 52   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000028
+ 53   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000028
+ 54   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000028
+ 55   | ED RE 501182          | ELLEN GRACIE    | N | 0.000028
+ 56   | HC 104510             | ELLEN GRACIE    | N | 0.000028
+ 57   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000028
+ 58   | AGR AI 724344         | ELLEN GRACIE    | N | 0.000028
+ 59   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000028
+ 60   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000028
+ 61   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000028
+ 62   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000028
+ 63   | ED MS 24454           | ELLEN GRACIE    | N | 0.000028
+ 64   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000028
+ 65   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000028
+ 66   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000028
+ 67   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000028
+ 68   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000028
+ 69   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000028
+ 70   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000028
+ 71   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000028
+ 72   | ED RE 214695          | ELLEN GRACIE    | N | 0.000028
+ 73   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000028
+ 74   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000028
+ 75   | HC 96189              | ELLEN GRACIE    | N | 0.000028
+ 76   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000028
+ 77   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000028
+ 78   | RE 498261             | ELLEN GRACIE    | N | 0.000028
+ 79   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000028
+ 80   | HC 91407              | ELLEN GRACIE    | N | 0.000028
+ 81   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000028
+ 82   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000028
+ 83   | AGR RE 270016         | ELLEN GRACIE    | S | 0.000028
+ 84   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 0.000028
+ 85   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000028
+ 86   | RHC 95108             | ELLEN GRACIE    | N | 0.000028
+ 87   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000028
+ 88   | HC 82478              | ELLEN GRACIE    | N | 0.000028
+ 89   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000028
+ 90   | HC 100513             | ELLEN GRACIE    | N | 0.000028
+ 91   | ED AI 452953          | ELLEN GRACIE    | N | 0.000028
+ 92   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000028
+ 93   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000028
+ 94   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000028
+ 95   | HC 91661              | ELLEN GRACIE    | N | 0.000028
+ 96   | HC 106200             | ELLEN GRACIE    | N | 0.000028
+ 97   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000028
+ 98   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000028
+ 99   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000028
+ 100  | AGR RE 447350         | ELLEN GRACIE    | N | 0.000028
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 2031      | ELLEN GRACIE | N
+ RE 275159     | ELLEN GRACIE | N
+ ADI 3105      | ELLEN GRACIE | N
+ ADI 329       | ELLEN GRACIE | N
+ AGR RE 203282 | ELLEN GRACIE | N
+ HC 96189      | ELLEN GRACIE | N
+ HC 82478      | ELLEN GRACIE | N
+ ED AI 452953  | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493585
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.329067
+ 3    | ADI 872               | ELLEN GRACIE    | N | 0.000126
+ 4    | ADI 703               | ELLEN GRACIE    | N | 0.000126
+ 5    | RE 336680             | ELLEN GRACIE    | N | 0.000094
+ 6    | ADI 2474              | ELLEN GRACIE    | N | 0.000063
+ 7    | RE 199198             | ELLEN GRACIE    | N | 0.000063
+ 8    | RHC 80757             | ELLEN GRACIE    | N | 0.000063
+ 9    | HC 82588              | ELLEN GRACIE    | N | 0.000063
+ 10   | HC 81214              | ELLEN GRACIE    | N | 0.000063
+ 11   | ADI 1541              | ELLEN GRACIE    | N | 0.000063
+ 12   | ADI 3128              | ELLEN GRACIE    | N | 0.000063
+ 13   | ADI 953               | ELLEN GRACIE    | N | 0.000063
+ 14   | AR 1713               | ELLEN GRACIE    | N | 0.000063
+ 15   | HC 79989              | ELLEN GRACIE    | N | 0.000063
+ 16   | RE 224283             | ELLEN GRACIE    | N | 0.000063
+ 17   | RMS 23692             | ELLEN GRACIE    | N | 0.000063
+ 18   | INQ 1739              | ELLEN GRACIE    | N | 0.000063
+ 19   | ADI 743               | ELLEN GRACIE    | N | 0.000063
+ 20   | ADI 2564              | ELLEN GRACIE    | N | 0.000063
+ 21   | MS 23754              | ELLEN GRACIE    | N | 0.000063
+ 22   | HC 82337              | ELLEN GRACIE    | N | 0.000063
+ 23   | ADI 2103              | ELLEN GRACIE    | N | 0.000063
+ 24   | HC 82149              | ELLEN GRACIE    | N | 0.000063
+ 25   | HC 81054              | ELLEN GRACIE    | N | 0.000063
+ 26   | RMS 23787             | ELLEN GRACIE    | N | 0.000063
+ 27   | ADI 2666              | ELLEN GRACIE    | N | 0.000063
+ 28   | MS 23399              | ELLEN GRACIE    | N | 0.000063
+ 29   | HC 83455              | ELLEN GRACIE    | N | 0.000031
+ 30   | HC 83456              | ELLEN GRACIE    | N | 0.000031
+ 31   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000031
+ 32   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000031
+ 33   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000031
+ 34   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000031
+ 35   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000031
+ 36   | RHC 105243            | ELLEN GRACIE    | N | 0.000031
+ 37   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000031
+ 38   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000031
+ 39   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000031
+ 40   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000031
+ 41   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000031
+ 42   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000031
+ 43   | RHC 88291             | ELLEN GRACIE    | N | 0.000031
+ 44   | AGR AI 323945         | NELSON JOBIM    | S | 0.000031
+ 45   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000031
+ 46   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000031
+ 47   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000031
+ 48   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000031
+ 49   | ED RE 501182          | ELLEN GRACIE    | N | 0.000031
+ 50   | HC 104510             | ELLEN GRACIE    | N | 0.000031
+ 51   | AGR AI 724344         | ELLEN GRACIE    | N | 0.000031
+ 52   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000031
+ 53   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000031
+ 54   | ED MS 24454           | ELLEN GRACIE    | N | 0.000031
+ 55   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000031
+ 56   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000031
+ 57   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000031
+ 58   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000031
+ 59   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000031
+ 60   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000031
+ 61   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000031
+ 62   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000031
+ 63   | ED RE 214695          | ELLEN GRACIE    | N | 0.000031
+ 64   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000031
+ 65   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000031
+ 66   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000031
+ 67   | ED AI 689079          | ELLEN GRACIE    | N | 0.000031
+ 68   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000031
+ 69   | RE 498261             | ELLEN GRACIE    | N | 0.000031
+ 70   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000031
+ 71   | HC 91407              | ELLEN GRACIE    | N | 0.000031
+ 72   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000031
+ 73   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000031
+ 74   | AGR RE 270016         | ELLEN GRACIE    | S | 0.000031
+ 75   | RCL 1214              | ELLEN GRACIE    | N | 0.000031
+ 76   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000031
+ 77   | RHC 95108             | ELLEN GRACIE    | N | 0.000031
+ 78   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000031
+ 79   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000031
+ 80   | HC 100513             | ELLEN GRACIE    | N | 0.000031
+ 81   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000031
+ 82   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000031
+ 83   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000031
+ 84   | HC 91661              | ELLEN GRACIE    | N | 0.000031
+ 85   | HC 106200             | ELLEN GRACIE    | N | 0.000031
+ 86   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000031
+ 87   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000031
+ 88   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000031
+ 89   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000031
+ 90   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000031
+ 91   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000031
+ 92   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000031
+ 93   | AGR ED RE 520629      | ELLEN GRACIE    | N | 0.000031
+ 94   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000031
+ 95   | ACO 987               | ELLEN GRACIE    | N | 0.000031
+ 96   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000031
+ 97   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000031
+ 98   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000031
+ 99   | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000031
+ 100  | HC 82004              | ELLEN GRACIE    | N | 0.000031
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 2474         | ELLEN GRACIE | N
+ ADI 1541         | ELLEN GRACIE | N
+ ADI 953          | ELLEN GRACIE | N
+ HC 79989         | ELLEN GRACIE | N
+ RMS 23692        | ELLEN GRACIE | N
+ HC 82337         | ELLEN GRACIE | N
+ MS 23399         | ELLEN GRACIE | N
+ AGR AI 539131    | ELLEN GRACIE | N
+ AGR RE 353745    | ELLEN GRACIE | N
+ AGR RE 220134    | ELLEN GRACIE | N
+ AGR AI 667572    | ELLEN GRACIE | N
+ ED AGR RE 550520 | ELLEN GRACIE | N
+ HC 106200        | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493503
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.329013
+ 3    | ADI 2031              | ELLEN GRACIE    | N | 0.000349
+ 4    | ADI 872               | ELLEN GRACIE    | N | 0.000127
+ 5    | ADI 703               | ELLEN GRACIE    | N | 0.000127
+ 6    | RE 336680             | ELLEN GRACIE    | N | 0.000095
+ 7    | RHC 80757             | ELLEN GRACIE    | N | 0.000064
+ 8    | HC 81214              | ELLEN GRACIE    | N | 0.000064
+ 9    | RE 275159             | ELLEN GRACIE    | N | 0.000064
+ 10   | ADI 3128              | ELLEN GRACIE    | N | 0.000064
+ 11   | ADI 329               | ELLEN GRACIE    | N | 0.000064
+ 12   | RE 224283             | ELLEN GRACIE    | N | 0.000064
+ 13   | RE 226472             | ELLEN GRACIE    | N | 0.000064
+ 14   | RE 199198             | ELLEN GRACIE    | N | 0.000064
+ 15   | INQ 1739              | ELLEN GRACIE    | N | 0.000064
+ 16   | ADI 743               | ELLEN GRACIE    | N | 0.000064
+ 17   | ADI 2564              | ELLEN GRACIE    | N | 0.000064
+ 18   | MS 23754              | ELLEN GRACIE    | N | 0.000064
+ 19   | ADI 2103              | ELLEN GRACIE    | N | 0.000064
+ 20   | HC 82149              | ELLEN GRACIE    | N | 0.000064
+ 21   | HC 81054              | ELLEN GRACIE    | N | 0.000064
+ 22   | RMS 23787             | ELLEN GRACIE    | N | 0.000064
+ 23   | ADI 2666              | ELLEN GRACIE    | N | 0.000064
+ 24   | HC 83455              | ELLEN GRACIE    | N | 0.000032
+ 25   | HC 83456              | ELLEN GRACIE    | N | 0.000032
+ 26   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000032
+ 27   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000032
+ 28   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000032
+ 29   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000032
+ 30   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000032
+ 31   | RHC 105243            | ELLEN GRACIE    | N | 0.000032
+ 32   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000032
+ 33   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000032
+ 34   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000032
+ 35   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000032
+ 36   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000032
+ 37   | RHC 88291             | ELLEN GRACIE    | N | 0.000032
+ 38   | AGR AI 323945         | NELSON JOBIM    | S | 0.000032
+ 39   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000032
+ 40   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000032
+ 41   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000032
+ 42   | ED RE 501182          | ELLEN GRACIE    | N | 0.000032
+ 43   | HC 104510             | ELLEN GRACIE    | N | 0.000032
+ 44   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000032
+ 45   | AGR AI 548771         | ELLEN GRACIE    | N | 0.000032
+ 46   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000032
+ 47   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000032
+ 48   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000032
+ 49   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000032
+ 50   | ED MS 24454           | ELLEN GRACIE    | N | 0.000032
+ 51   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000032
+ 52   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000032
+ 53   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000032
+ 54   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000032
+ 55   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000032
+ 56   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000032
+ 57   | ED RE 214695          | ELLEN GRACIE    | N | 0.000032
+ 58   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000032
+ 59   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000032
+ 60   | HC 96189              | ELLEN GRACIE    | N | 0.000032
+ 61   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000032
+ 62   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000032
+ 63   | RE 498261             | ELLEN GRACIE    | N | 0.000032
+ 64   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000032
+ 65   | HC 91407              | ELLEN GRACIE    | N | 0.000032
+ 66   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000032
+ 67   | RCL 1215              | ELLEN GRACIE    | N | 0.000032
+ 68   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 0.000032
+ 69   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000032
+ 70   | RHC 95108             | ELLEN GRACIE    | N | 0.000032
+ 71   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000032
+ 72   | HC 82478              | ELLEN GRACIE    | N | 0.000032
+ 73   | HC 100513             | ELLEN GRACIE    | N | 0.000032
+ 74   | ED AI 452953          | ELLEN GRACIE    | N | 0.000032
+ 75   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000032
+ 76   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000032
+ 77   | HC 91661              | ELLEN GRACIE    | N | 0.000032
+ 78   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000032
+ 79   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000032
+ 80   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000032
+ 81   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000032
+ 82   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000032
+ 83   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000032
+ 84   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000032
+ 85   | AGR ED RE 520629      | ELLEN GRACIE    | N | 0.000032
+ 86   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000032
+ 87   | ACO 987               | ELLEN GRACIE    | N | 0.000032
+ 88   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000032
+ 89   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000032
+ 90   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000032
+ 91   | AGR AI 631784         | ELLEN GRACIE    | N | 0.000032
+ 92   | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000032
+ 93   | HC 82004              | ELLEN GRACIE    | N | 0.000032
+ 94   | ED AI 631737          | ELLEN GRACIE    | N | 0.000032
+ 95   | RE 212558             | ELLEN GRACIE    | N | 0.000032
+ 96   | AGR AI 650663         | ELLEN GRACIE    | N | 0.000032
+ 97   | ED RE 593683          | ELLEN GRACIE    | N | 0.000032
+ 98   | AGR AI 793399         | ELLEN GRACIE    | N | 0.000032
+ 99   | ED RE 227442          | ELLEN GRACIE    | N | 0.000032
+ 100  | ED ED AGR AI 492368   | ELLEN GRACIE    | N | 0.000032
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ED RE 501182        | ELLEN GRACIE | N
+ AGR AI 548771       | ELLEN GRACIE | N
+ ED MS 24454         | ELLEN GRACIE | N
+ AGR AI 430987       | ELLEN GRACIE | N
+ ED ED AGR RE 169094 | ELLEN GRACIE | N
+ AGR AI 453630       | ELLEN GRACIE | N
+ HC 82004            | ELLEN GRACIE | N
+ AGR AI 650663       | ELLEN GRACIE | N
+ ED RE 593683        | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3013              | ELLEN GRACIE    | S | 0.822414
+ 2    | ADI 2031              | ELLEN GRACIE    | N | 0.000220
+ 3    | ADI 872               | ELLEN GRACIE    | N | 0.000125
+ 4    | RE 275159             | ELLEN GRACIE    | N | 0.000125
+ 5    | ADI 703               | ELLEN GRACIE    | N | 0.000125
+ 6    | RE 336680             | ELLEN GRACIE    | N | 0.000094
+ 7    | ADI 2474              | ELLEN GRACIE    | N | 0.000063
+ 8    | RHC 80757             | ELLEN GRACIE    | N | 0.000063
+ 9    | HC 82588              | ELLEN GRACIE    | N | 0.000063
+ 10   | ADI 3105              | ELLEN GRACIE    | N | 0.000063
+ 11   | ADI 3128              | ELLEN GRACIE    | N | 0.000063
+ 12   | AR 1713               | ELLEN GRACIE    | N | 0.000063
+ 13   | ADI 329               | ELLEN GRACIE    | N | 0.000063
+ 14   | HC 79989              | ELLEN GRACIE    | N | 0.000063
+ 15   | RE 226472             | ELLEN GRACIE    | N | 0.000063
+ 16   | RMS 23692             | ELLEN GRACIE    | N | 0.000063
+ 17   | ADI 743               | ELLEN GRACIE    | N | 0.000063
+ 18   | ADI 2564              | ELLEN GRACIE    | N | 0.000063
+ 19   | MS 23754              | ELLEN GRACIE    | N | 0.000063
+ 20   | ADI 2713              | ELLEN GRACIE    | N | 0.000063
+ 21   | HC 82337              | ELLEN GRACIE    | N | 0.000063
+ 22   | ADI 2103              | ELLEN GRACIE    | N | 0.000063
+ 23   | HC 81054              | ELLEN GRACIE    | N | 0.000063
+ 24   | RMS 23787             | ELLEN GRACIE    | N | 0.000063
+ 25   | ADI 2666              | ELLEN GRACIE    | N | 0.000063
+ 26   | MS 23399              | ELLEN GRACIE    | N | 0.000063
+ 27   | HC 83455              | ELLEN GRACIE    | N | 0.000031
+ 28   | HC 83456              | ELLEN GRACIE    | N | 0.000031
+ 29   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000031
+ 30   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000031
+ 31   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000031
+ 32   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000031
+ 33   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000031
+ 34   | RHC 105243            | ELLEN GRACIE    | N | 0.000031
+ 35   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000031
+ 36   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000031
+ 37   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000031
+ 38   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000031
+ 39   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000031
+ 40   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000031
+ 41   | RHC 88291             | ELLEN GRACIE    | N | 0.000031
+ 42   | AGR AI 323945         | NELSON JOBIM    | S | 0.000031
+ 43   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000031
+ 44   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000031
+ 45   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000031
+ 46   | HC 104510             | ELLEN GRACIE    | N | 0.000031
+ 47   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000031
+ 48   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000031
+ 49   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000031
+ 50   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000031
+ 51   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000031
+ 52   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000031
+ 53   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000031
+ 54   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000031
+ 55   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000031
+ 56   | RCL 1478              | ELLEN GRACIE    | N | 0.000031
+ 57   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000031
+ 58   | ED RE 214695          | ELLEN GRACIE    | N | 0.000031
+ 59   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000031
+ 60   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000031
+ 61   | HC 96189              | ELLEN GRACIE    | N | 0.000031
+ 62   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000031
+ 63   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000031
+ 64   | RE 498261             | ELLEN GRACIE    | N | 0.000031
+ 65   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000031
+ 66   | HC 91407              | ELLEN GRACIE    | N | 0.000031
+ 67   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000031
+ 68   | RCL 1215              | ELLEN GRACIE    | N | 0.000031
+ 69   | RCL 1214              | ELLEN GRACIE    | N | 0.000031
+ 70   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000031
+ 71   | RHC 95108             | ELLEN GRACIE    | N | 0.000031
+ 72   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000031
+ 73   | HC 82478              | ELLEN GRACIE    | N | 0.000031
+ 74   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000031
+ 75   | HC 100513             | ELLEN GRACIE    | N | 0.000031
+ 76   | ED AI 452953          | ELLEN GRACIE    | N | 0.000031
+ 77   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000031
+ 78   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000031
+ 79   | HC 91661              | ELLEN GRACIE    | N | 0.000031
+ 80   | HC 106200             | ELLEN GRACIE    | N | 0.000031
+ 81   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000031
+ 82   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000031
+ 83   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000031
+ 84   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000031
+ 85   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000031
+ 86   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000031
+ 87   | AGR AI 765387         | ELLEN GRACIE    | N | 0.000031
+ 88   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000031
+ 89   | ACO 987               | ELLEN GRACIE    | N | 0.000031
+ 90   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000031
+ 91   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000031
+ 92   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000031
+ 93   | AGR AI 631784         | ELLEN GRACIE    | N | 0.000031
+ 94   | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000031
+ 95   | AGR AI 610397         | ELLEN GRACIE    | S | 0.000031
+ 96   | ED AI 631737          | ELLEN GRACIE    | N | 0.000031
+ 97   | RE 212558             | ELLEN GRACIE    | N | 0.000031
+ 98   | AGR AI 793399         | ELLEN GRACIE    | N | 0.000031
+ 99   | ED RE 227442          | ELLEN GRACIE    | N | 0.000031
+ 100  | ED ED AGR AI 492368   | ELLEN GRACIE    | N | 0.000031
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 2713     | ELLEN GRACIE | N
+ ADI 2103     | ELLEN GRACIE | N
+ HC 96189     | ELLEN GRACIE | N
+ ED RE 227442 | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493412
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.328952
+ 3    | ADI 2031              | ELLEN GRACIE    | N | 0.000347
+ 4    | ADI 872               | ELLEN GRACIE    | N | 0.000126
+ 5    | RE 275159             | ELLEN GRACIE    | N | 0.000126
+ 6    | RE 336680             | ELLEN GRACIE    | N | 0.000095
+ 7    | ADI 2474              | ELLEN GRACIE    | N | 0.000063
+ 8    | RHC 80757             | ELLEN GRACIE    | N | 0.000063
+ 9    | HC 82588              | ELLEN GRACIE    | N | 0.000063
+ 10   | ADI 1541              | ELLEN GRACIE    | N | 0.000063
+ 11   | ADI 3105              | ELLEN GRACIE    | N | 0.000063
+ 12   | ADI 3128              | ELLEN GRACIE    | N | 0.000063
+ 13   | ADI 703               | ELLEN GRACIE    | N | 0.000063
+ 14   | ADI 953               | ELLEN GRACIE    | N | 0.000063
+ 15   | AR 1713               | ELLEN GRACIE    | N | 0.000063
+ 16   | ADI 329               | ELLEN GRACIE    | N | 0.000063
+ 17   | RE 224283             | ELLEN GRACIE    | N | 0.000063
+ 18   | RE 226472             | ELLEN GRACIE    | N | 0.000063
+ 19   | RE 199198             | ELLEN GRACIE    | N | 0.000063
+ 20   | RMS 23692             | ELLEN GRACIE    | N | 0.000063
+ 21   | INQ 1739              | ELLEN GRACIE    | N | 0.000063
+ 22   | MS 23754              | ELLEN GRACIE    | N | 0.000063
+ 23   | HC 82337              | ELLEN GRACIE    | N | 0.000063
+ 24   | HC 82149              | ELLEN GRACIE    | N | 0.000063
+ 25   | HC 81054              | ELLEN GRACIE    | N | 0.000063
+ 26   | RMS 23787             | ELLEN GRACIE    | N | 0.000063
+ 27   | ADI 2666              | ELLEN GRACIE    | N | 0.000063
+ 28   | MS 23399              | ELLEN GRACIE    | N | 0.000063
+ 29   | HC 83455              | ELLEN GRACIE    | N | 0.000032
+ 30   | HC 83456              | ELLEN GRACIE    | N | 0.000032
+ 31   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000032
+ 32   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000032
+ 33   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000032
+ 34   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000032
+ 35   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000032
+ 36   | RHC 105243            | ELLEN GRACIE    | N | 0.000032
+ 37   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000032
+ 38   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000032
+ 39   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000032
+ 40   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000032
+ 41   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000032
+ 42   | RHC 88291             | ELLEN GRACIE    | N | 0.000032
+ 43   | AGR AI 323945         | NELSON JOBIM    | S | 0.000032
+ 44   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000032
+ 45   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000032
+ 46   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000032
+ 47   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000032
+ 48   | ED RE 501182          | ELLEN GRACIE    | N | 0.000032
+ 49   | HC 104510             | ELLEN GRACIE    | N | 0.000032
+ 50   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000032
+ 51   | AGR AI 724344         | ELLEN GRACIE    | N | 0.000032
+ 52   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000032
+ 53   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000032
+ 54   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000032
+ 55   | ED MS 24454           | ELLEN GRACIE    | N | 0.000032
+ 56   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000032
+ 57   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000032
+ 58   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000032
+ 59   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000032
+ 60   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000032
+ 61   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000032
+ 62   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000032
+ 63   | ED RE 214695          | ELLEN GRACIE    | N | 0.000032
+ 64   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000032
+ 65   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000032
+ 66   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000032
+ 67   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000032
+ 68   | RE 498261             | ELLEN GRACIE    | N | 0.000032
+ 69   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000032
+ 70   | HC 91407              | ELLEN GRACIE    | N | 0.000032
+ 71   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000032
+ 72   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000032
+ 73   | AGR RE 270016         | ELLEN GRACIE    | S | 0.000032
+ 74   | RCL 1214              | ELLEN GRACIE    | N | 0.000032
+ 75   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000032
+ 76   | RHC 95108             | ELLEN GRACIE    | N | 0.000032
+ 77   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000032
+ 78   | HC 82478              | ELLEN GRACIE    | N | 0.000032
+ 79   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000032
+ 80   | HC 100513             | ELLEN GRACIE    | N | 0.000032
+ 81   | ED AI 452953          | ELLEN GRACIE    | N | 0.000032
+ 82   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000032
+ 83   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000032
+ 84   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000032
+ 85   | HC 91661              | ELLEN GRACIE    | N | 0.000032
+ 86   | HC 106200             | ELLEN GRACIE    | N | 0.000032
+ 87   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000032
+ 88   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000032
+ 89   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000032
+ 90   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000032
+ 91   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000032
+ 92   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000032
+ 93   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000032
+ 94   | AGR ED RE 520629      | ELLEN GRACIE    | N | 0.000032
+ 95   | ACO 987               | ELLEN GRACIE    | N | 0.000032
+ 96   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000032
+ 97   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000032
+ 98   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000032
+ 99   | AGR AI 631784         | ELLEN GRACIE    | N | 0.000032
+ 100  | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000032
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 2031         | ELLEN GRACIE | N
+ RHC 80757        | ELLEN GRACIE | N
+ RMS 23692        | ELLEN GRACIE | N
+ HC 81054         | ELLEN GRACIE | N
+ ADI 2666         | ELLEN GRACIE | N
+ ED AGR AI 505776 | ELLEN GRACIE | N
+ RHC 88291        | ELLEN GRACIE | N
+ ED AGR AI 594104 | ELLEN GRACIE | N
+ AGR AI 295212    | ELLEN GRACIE | N
+ HC 91407         | ELLEN GRACIE | N
+ RCL 1214         | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO | S | 0.493620
+ 2    | ADI 3013              | ELLEN GRACIE   | S | 0.329090
+ 3    | ADI 703               | ELLEN GRACIE   | N | 0.000126
+ 4    | ADI 872               | ELLEN GRACIE   | N | 0.000095
+ 5    | ADI 2474              | ELLEN GRACIE   | N | 0.000063
+ 6    | RE 336680             | ELLEN GRACIE   | N | 0.000063
+ 7    | HC 82588              | ELLEN GRACIE   | N | 0.000063
+ 8    | HC 81214              | ELLEN GRACIE   | N | 0.000063
+ 9    | RE 275159             | ELLEN GRACIE   | N | 0.000063
+ 10   | ADI 1541              | ELLEN GRACIE   | N | 0.000063
+ 11   | ADI 3105              | ELLEN GRACIE   | N | 0.000063
+ 12   | ADI 3128              | ELLEN GRACIE   | N | 0.000063
+ 13   | ADI 953               | ELLEN GRACIE   | N | 0.000063
+ 14   | AR 1713               | ELLEN GRACIE   | N | 0.000063
+ 15   | ADI 329               | ELLEN GRACIE   | N | 0.000063
+ 16   | HC 79989              | ELLEN GRACIE   | N | 0.000063
+ 17   | RE 224283             | ELLEN GRACIE   | N | 0.000063
+ 18   | RE 226472             | ELLEN GRACIE   | N | 0.000063
+ 19   | RE 199198             | ELLEN GRACIE   | N | 0.000063
+ 20   | INQ 1739              | ELLEN GRACIE   | N | 0.000063
+ 21   | ADI 743               | ELLEN GRACIE   | N | 0.000063
+ 22   | ADI 2564              | ELLEN GRACIE   | N | 0.000063
+ 23   | MS 23754              | ELLEN GRACIE   | N | 0.000063
+ 24   | ADI 2713              | ELLEN GRACIE   | N | 0.000063
+ 25   | HC 82337              | ELLEN GRACIE   | N | 0.000063
+ 26   | ADI 2103              | ELLEN GRACIE   | N | 0.000063
+ 27   | HC 82149              | ELLEN GRACIE   | N | 0.000063
+ 28   | RMS 23787             | ELLEN GRACIE   | N | 0.000063
+ 29   | HC 83455              | ELLEN GRACIE   | N | 0.000032
+ 30   | HC 83456              | ELLEN GRACIE   | N | 0.000032
+ 31   | AGR AI 394926         | ELLEN GRACIE   | S | 0.000032
+ 32   | AGR RE 285400         | ELLEN GRACIE   | S | 0.000032
+ 33   | SEGUNDOS ED AI 823070 | ELLEN GRACIE   | N | 0.000032
+ 34   | RHC 105243            | ELLEN GRACIE   | N | 0.000032
+ 35   | AGR AI 539131         | ELLEN GRACIE   | N | 0.000032
+ 36   | AGR RE 350927         | ELLEN GRACIE   | S | 0.000032
+ 37   | AGR AI 631782         | ELLEN GRACIE   | N | 0.000032
+ 38   | AGR SS 2287           | ELLEN GRACIE   | N | 0.000032
+ 39   | AGR AI 673472         | ELLEN GRACIE   | S | 0.000032
+ 40   | AGR AI 323945         | NELSON JOBIM   | S | 0.000032
+ 41   | ED AGR RE 449588      | ELLEN GRACIE   | N | 0.000032
+ 42   | AGR RE 353745         | ELLEN GRACIE   | N | 0.000032
+ 43   | AGR RE 575894         | ELLEN GRACIE   | N | 0.000032
+ 44   | ED RE 501182          | ELLEN GRACIE   | N | 0.000032
+ 45   | HC 104510             | ELLEN GRACIE   | N | 0.000032
+ 46   | 7 4 9 L C R           | MARCO AURÉLIO  | S | 0.000032
+ 47   | AGR AI 724344         | ELLEN GRACIE   | N | 0.000032
+ 48   | AGR RE 351298         | ELLEN GRACIE   | S | 0.000032
+ 49   | AGR RE 203286         | ELLEN GRACIE   | S | 0.000032
+ 50   | AGR RE 203282         | ELLEN GRACIE   | N | 0.000032
+ 51   | ED MS 24454           | ELLEN GRACIE   | N | 0.000032
+ 52   | AGR AI 472834         | ELLEN GRACIE   | S | 0.000032
+ 53   | AGR AI 277453         | ELLEN GRACIE   | S | 0.000032
+ 54   | AGR AI 430987         | ELLEN GRACIE   | N | 0.000032
+ 55   | AGR RE 303193         | ELLEN GRACIE   | N | 0.000032
+ 56   | AGR RE 220134         | ELLEN GRACIE   | N | 0.000032
+ 57   | AGR AI 667572         | ELLEN GRACIE   | N | 0.000032
+ 58   | AGR RE 242917         | ELLEN GRACIE   | S | 0.000032
+ 59   | AGR AI 468526         | ELLEN GRACIE   | N | 0.000032
+ 60   | ED RE 214695          | ELLEN GRACIE   | N | 0.000032
+ 61   | AGR AGR RE 231671     | ELLEN GRACIE   | N | 0.000032
+ 62   | HC 96189              | ELLEN GRACIE   | N | 0.000032
+ 63   | AGR RE 558755         | ELLEN GRACIE   | N | 0.000032
+ 64   | ED AI 689079          | ELLEN GRACIE   | N | 0.000032
+ 65   | AGR RE 239499         | ELLEN GRACIE   | N | 0.000032
+ 66   | RE 498261             | ELLEN GRACIE   | N | 0.000032
+ 67   | AGR AI 326810         | ELLEN GRACIE   | S | 0.000032
+ 68   | SEGUNDO AGR AI 580743 | ELLEN GRACIE   | N | 0.000032
+ 69   | AGR RE 270015         | ELLEN GRACIE   | S | 0.000032
+ 70   | AGR RE 270016         | ELLEN GRACIE   | S | 0.000032
+ 71   | ED ED AGR RE 169094   | ELLEN GRACIE   | N | 0.000032
+ 72   | AGR AI 666198         | ELLEN GRACIE   | N | 0.000032
+ 73   | RHC 95108             | ELLEN GRACIE   | N | 0.000032
+ 74   | AGR AI 630555         | ELLEN GRACIE   | N | 0.000032
+ 75   | HC 82478              | ELLEN GRACIE   | N | 0.000032
+ 76   | ED AGR RE 550520      | ELLEN GRACIE   | N | 0.000032
+ 77   | HC 100513             | ELLEN GRACIE   | N | 0.000032
+ 78   | ED AI 452953          | ELLEN GRACIE   | N | 0.000032
+ 79   | AGR AI 453630         | ELLEN GRACIE   | N | 0.000032
+ 80   | AGR RE 348126         | ELLEN GRACIE   | S | 0.000032
+ 81   | ED AGR RE 400560      | ELLEN GRACIE   | N | 0.000032
+ 82   | HC 91661              | ELLEN GRACIE   | N | 0.000032
+ 83   | HC 106200             | ELLEN GRACIE   | N | 0.000032
+ 84   | AGR RE 380540         | ELLEN GRACIE   | N | 0.000032
+ 85   | AGR AI 454947         | ELLEN GRACIE   | N | 0.000032
+ 86   | AGR AI 331058         | ELLEN GRACIE   | N | 0.000032
+ 87   | AGR RE 447350         | ELLEN GRACIE   | N | 0.000032
+ 88   | ED AGR AI 388132      | ELLEN GRACIE   | S | 0.000032
+ 89   | AGR AI 410922         | ELLEN GRACIE   | S | 0.000032
+ 90   | AGR RE 225724         | ELLEN GRACIE   | N | 0.000032
+ 91   | AGR AI 765387         | ELLEN GRACIE   | N | 0.000032
+ 92   | AGR RE 267912         | ELLEN GRACIE   | S | 0.000032
+ 93   | ACO 987               | ELLEN GRACIE   | N | 0.000032
+ 94   | AGR RE 325756         | ELLEN GRACIE   | N | 0.000032
+ 95   | RE 315007             | MOREIRA ALVES  | S | 0.000032
+ 96   | AGR AI 669411         | ELLEN GRACIE   | N | 0.000032
+ 97   | AGR AI 631784         | ELLEN GRACIE   | N | 0.000032
+ 98   | ED AGR AI 514655      | ELLEN GRACIE   | N | 0.000032
+ 99   | HC 82004              | ELLEN GRACIE   | N | 0.000032
+ 100  | ED AI 631737          | ELLEN GRACIE   | N | 0.000032
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 329          | ELLEN GRACIE | N
+ ADI 2713         | ELLEN GRACIE | N
+ ED AGR RE 449588 | ELLEN GRACIE | N
+ AGR AI 724344    | ELLEN GRACIE | N
+ AGR AI 630555    | ELLEN GRACIE | N
+ AGR AI 453630    | ELLEN GRACIE | N
+ HC 91661         | ELLEN GRACIE | N
+ HC 106200        | ELLEN GRACIE | N
+ AGR AI 765387    | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493570
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.329057
+ 3    | ADI 872               | ELLEN GRACIE    | N | 0.000125
+ 4    | RE 275159             | ELLEN GRACIE    | N | 0.000125
+ 5    | ADI 703               | ELLEN GRACIE    | N | 0.000125
+ 6    | RE 336680             | ELLEN GRACIE    | N | 0.000094
+ 7    | ADI 2474              | ELLEN GRACIE    | N | 0.000062
+ 8    | RHC 80757             | ELLEN GRACIE    | N | 0.000062
+ 9    | HC 82588              | ELLEN GRACIE    | N | 0.000062
+ 10   | HC 81214              | ELLEN GRACIE    | N | 0.000062
+ 11   | ADI 3105              | ELLEN GRACIE    | N | 0.000062
+ 12   | ADI 3128              | ELLEN GRACIE    | N | 0.000062
+ 13   | ADI 953               | ELLEN GRACIE    | N | 0.000062
+ 14   | HC 79989              | ELLEN GRACIE    | N | 0.000062
+ 15   | RE 224283             | ELLEN GRACIE    | N | 0.000062
+ 16   | RE 226472             | ELLEN GRACIE    | N | 0.000062
+ 17   | RE 199198             | ELLEN GRACIE    | N | 0.000062
+ 18   | RMS 23692             | ELLEN GRACIE    | N | 0.000062
+ 19   | INQ 1739              | ELLEN GRACIE    | N | 0.000062
+ 20   | ADI 743               | ELLEN GRACIE    | N | 0.000062
+ 21   | ADI 2564              | ELLEN GRACIE    | N | 0.000062
+ 22   | HC 82337              | ELLEN GRACIE    | N | 0.000062
+ 23   | ADI 2103              | ELLEN GRACIE    | N | 0.000062
+ 24   | HC 82149              | ELLEN GRACIE    | N | 0.000062
+ 25   | HC 81054              | ELLEN GRACIE    | N | 0.000062
+ 26   | RMS 23787             | ELLEN GRACIE    | N | 0.000062
+ 27   | MS 23399              | ELLEN GRACIE    | N | 0.000062
+ 28   | HC 83455              | ELLEN GRACIE    | N | 0.000031
+ 29   | HC 83456              | ELLEN GRACIE    | N | 0.000031
+ 30   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000031
+ 31   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000031
+ 32   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000031
+ 33   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000031
+ 34   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000031
+ 35   | RHC 105243            | ELLEN GRACIE    | N | 0.000031
+ 36   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000031
+ 37   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000031
+ 38   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000031
+ 39   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000031
+ 40   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000031
+ 41   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000031
+ 42   | AGR AI 323945         | NELSON JOBIM    | S | 0.000031
+ 43   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000031
+ 44   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000031
+ 45   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000031
+ 46   | ED RE 501182          | ELLEN GRACIE    | N | 0.000031
+ 47   | HC 104510             | ELLEN GRACIE    | N | 0.000031
+ 48   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000031
+ 49   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000031
+ 50   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000031
+ 51   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000031
+ 52   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000031
+ 53   | ED MS 24454           | ELLEN GRACIE    | N | 0.000031
+ 54   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000031
+ 55   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000031
+ 56   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000031
+ 57   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000031
+ 58   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000031
+ 59   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000031
+ 60   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000031
+ 61   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000031
+ 62   | ED RE 214695          | ELLEN GRACIE    | N | 0.000031
+ 63   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000031
+ 64   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000031
+ 65   | HC 96189              | ELLEN GRACIE    | N | 0.000031
+ 66   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000031
+ 67   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000031
+ 68   | RE 498261             | ELLEN GRACIE    | N | 0.000031
+ 69   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000031
+ 70   | HC 91407              | ELLEN GRACIE    | N | 0.000031
+ 71   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000031
+ 72   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000031
+ 73   | RCL 1215              | ELLEN GRACIE    | N | 0.000031
+ 74   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 0.000031
+ 75   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000031
+ 76   | RHC 95108             | ELLEN GRACIE    | N | 0.000031
+ 77   | HC 82478              | ELLEN GRACIE    | N | 0.000031
+ 78   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000031
+ 79   | HC 100513             | ELLEN GRACIE    | N | 0.000031
+ 80   | ED AI 452953          | ELLEN GRACIE    | N | 0.000031
+ 81   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000031
+ 82   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000031
+ 83   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000031
+ 84   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000031
+ 85   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000031
+ 86   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000031
+ 87   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000031
+ 88   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000031
+ 89   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000031
+ 90   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000031
+ 91   | ACO 987               | ELLEN GRACIE    | N | 0.000031
+ 92   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000031
+ 93   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000031
+ 94   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000031
+ 95   | AGR AI 631784         | ELLEN GRACIE    | N | 0.000031
+ 96   | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000031
+ 97   | HC 82004              | ELLEN GRACIE    | N | 0.000031
+ 98   | ED AI 631737          | ELLEN GRACIE    | N | 0.000031
+ 99   | RE 212558             | ELLEN GRACIE    | N | 0.000031
+ 100  | AGR AI 650663         | ELLEN GRACIE    | N | 0.000031
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 953          | ELLEN GRACIE | N
+ HC 79989         | ELLEN GRACIE | N
+ RE 199198        | ELLEN GRACIE | N
+ ADI 743          | ELLEN GRACIE | N
+ ED AGR AI 505776 | ELLEN GRACIE | N
+ ED AGR RE 550520 | ELLEN GRACIE | N
+ AGR RE 380540    | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493405
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.328948
+ 3    | ADI 2031              | ELLEN GRACIE    | N | 0.000350
+ 4    | ADI 872               | ELLEN GRACIE    | N | 0.000127
+ 5    | RE 275159             | ELLEN GRACIE    | N | 0.000127
+ 6    | RE 336680             | ELLEN GRACIE    | N | 0.000096
+ 7    | ADI 2474              | ELLEN GRACIE    | N | 0.000064
+ 8    | RHC 80757             | ELLEN GRACIE    | N | 0.000064
+ 9    | HC 82588              | ELLEN GRACIE    | N | 0.000064
+ 10   | HC 81214              | ELLEN GRACIE    | N | 0.000064
+ 11   | ADI 1541              | ELLEN GRACIE    | N | 0.000064
+ 12   | ADI 3105              | ELLEN GRACIE    | N | 0.000064
+ 13   | ADI 3128              | ELLEN GRACIE    | N | 0.000064
+ 14   | AR 1713               | ELLEN GRACIE    | N | 0.000064
+ 15   | ADI 703               | ELLEN GRACIE    | N | 0.000064
+ 16   | ADI 329               | ELLEN GRACIE    | N | 0.000064
+ 17   | RE 224283             | ELLEN GRACIE    | N | 0.000064
+ 18   | RE 226472             | ELLEN GRACIE    | N | 0.000064
+ 19   | RMS 23692             | ELLEN GRACIE    | N | 0.000064
+ 20   | INQ 1739              | ELLEN GRACIE    | N | 0.000064
+ 21   | ADI 2713              | ELLEN GRACIE    | N | 0.000064
+ 22   | HC 82337              | ELLEN GRACIE    | N | 0.000064
+ 23   | ADI 2103              | ELLEN GRACIE    | N | 0.000064
+ 24   | HC 82149              | ELLEN GRACIE    | N | 0.000064
+ 25   | HC 81054              | ELLEN GRACIE    | N | 0.000064
+ 26   | RMS 23787             | ELLEN GRACIE    | N | 0.000064
+ 27   | ADI 2666              | ELLEN GRACIE    | N | 0.000064
+ 28   | MS 23399              | ELLEN GRACIE    | N | 0.000064
+ 29   | HC 83455              | ELLEN GRACIE    | N | 0.000032
+ 30   | HC 83456              | ELLEN GRACIE    | N | 0.000032
+ 31   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000032
+ 32   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000032
+ 33   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000032
+ 34   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000032
+ 35   | RHC 105243            | ELLEN GRACIE    | N | 0.000032
+ 36   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000032
+ 37   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000032
+ 38   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000032
+ 39   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000032
+ 40   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000032
+ 41   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000032
+ 42   | RHC 88291             | ELLEN GRACIE    | N | 0.000032
+ 43   | AGR AI 323945         | NELSON JOBIM    | S | 0.000032
+ 44   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000032
+ 45   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000032
+ 46   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000032
+ 47   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000032
+ 48   | ED RE 501182          | ELLEN GRACIE    | N | 0.000032
+ 49   | HC 104510             | ELLEN GRACIE    | N | 0.000032
+ 50   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000032
+ 51   | AGR AI 724344         | ELLEN GRACIE    | N | 0.000032
+ 52   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000032
+ 53   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000032
+ 54   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000032
+ 55   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000032
+ 56   | ED MS 24454           | ELLEN GRACIE    | N | 0.000032
+ 57   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000032
+ 58   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000032
+ 59   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000032
+ 60   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000032
+ 61   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000032
+ 62   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000032
+ 63   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000032
+ 64   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000032
+ 65   | ED RE 214695          | ELLEN GRACIE    | N | 0.000032
+ 66   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000032
+ 67   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000032
+ 68   | HC 96189              | ELLEN GRACIE    | N | 0.000032
+ 69   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000032
+ 70   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000032
+ 71   | RE 498261             | ELLEN GRACIE    | N | 0.000032
+ 72   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000032
+ 73   | HC 91407              | ELLEN GRACIE    | N | 0.000032
+ 74   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000032
+ 75   | RCL 1215              | ELLEN GRACIE    | N | 0.000032
+ 76   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 0.000032
+ 77   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000032
+ 78   | RHC 95108             | ELLEN GRACIE    | N | 0.000032
+ 79   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000032
+ 80   | HC 82478              | ELLEN GRACIE    | N | 0.000032
+ 81   | HC 100513             | ELLEN GRACIE    | N | 0.000032
+ 82   | ED AI 452953          | ELLEN GRACIE    | N | 0.000032
+ 83   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000032
+ 84   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000032
+ 85   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000032
+ 86   | HC 91661              | ELLEN GRACIE    | N | 0.000032
+ 87   | HC 106200             | ELLEN GRACIE    | N | 0.000032
+ 88   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000032
+ 89   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000032
+ 90   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000032
+ 91   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000032
+ 92   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000032
+ 93   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000032
+ 94   | AGR ED RE 520629      | ELLEN GRACIE    | N | 0.000032
+ 95   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000032
+ 96   | ACO 987               | ELLEN GRACIE    | N | 0.000032
+ 97   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000032
+ 98   | RE 315007             | MOREIRA ALVES   | S | 0.000032
+ 99   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000032
+ 100  | AGR AI 631784         | ELLEN GRACIE    | N | 0.000032
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 2031         | ELLEN GRACIE | N
+ INQ 1739         | ELLEN GRACIE | N
+ MS 23399         | ELLEN GRACIE | N
+ HC 83456         | ELLEN GRACIE | N
+ AGR SS 2287      | ELLEN GRACIE | N
+ AGR AI 724344    | ELLEN GRACIE | N
+ AGR ED RE 520629 | ELLEN GRACIE | N
+ AGR RE 325756    | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3013              | ELLEN GRACIE    | S | 0.822512
+ 2    | ADI 872               | ELLEN GRACIE    | N | 0.000125
+ 3    | RE 275159             | ELLEN GRACIE    | N | 0.000125
+ 4    | ADI 703               | ELLEN GRACIE    | N | 0.000125
+ 5    | ADI 2474              | ELLEN GRACIE    | N | 0.000062
+ 6    | RHC 80757             | ELLEN GRACIE    | N | 0.000062
+ 7    | RE 336680             | ELLEN GRACIE    | N | 0.000062
+ 8    | HC 82588              | ELLEN GRACIE    | N | 0.000062
+ 9    | HC 81214              | ELLEN GRACIE    | N | 0.000062
+ 10   | ADI 1541              | ELLEN GRACIE    | N | 0.000062
+ 11   | ADI 3105              | ELLEN GRACIE    | N | 0.000062
+ 12   | ADI 3128              | ELLEN GRACIE    | N | 0.000062
+ 13   | ADI 953               | ELLEN GRACIE    | N | 0.000062
+ 14   | AR 1713               | ELLEN GRACIE    | N | 0.000062
+ 15   | ADI 329               | ELLEN GRACIE    | N | 0.000062
+ 16   | HC 79989              | ELLEN GRACIE    | N | 0.000062
+ 17   | RE 226472             | ELLEN GRACIE    | N | 0.000062
+ 18   | RE 199198             | ELLEN GRACIE    | N | 0.000062
+ 19   | RMS 23692             | ELLEN GRACIE    | N | 0.000062
+ 20   | ADI 743               | ELLEN GRACIE    | N | 0.000062
+ 21   | ADI 2564              | ELLEN GRACIE    | N | 0.000062
+ 22   | MS 23754              | ELLEN GRACIE    | N | 0.000062
+ 23   | ADI 2713              | ELLEN GRACIE    | N | 0.000062
+ 24   | HC 82337              | ELLEN GRACIE    | N | 0.000062
+ 25   | ADI 2103              | ELLEN GRACIE    | N | 0.000062
+ 26   | HC 82149              | ELLEN GRACIE    | N | 0.000062
+ 27   | HC 81054              | ELLEN GRACIE    | N | 0.000062
+ 28   | RMS 23787             | ELLEN GRACIE    | N | 0.000062
+ 29   | ADI 2666              | ELLEN GRACIE    | N | 0.000062
+ 30   | HC 83455              | ELLEN GRACIE    | N | 0.000031
+ 31   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000031
+ 32   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000031
+ 33   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000031
+ 34   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000031
+ 35   | RHC 105243            | ELLEN GRACIE    | N | 0.000031
+ 36   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000031
+ 37   | AGR RE 350927         | ELLEN GRACIE    | S | 0.000031
+ 38   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000031
+ 39   | AGR AI 631784         | ELLEN GRACIE    | N | 0.000031
+ 40   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000031
+ 41   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000031
+ 42   | RHC 88291             | ELLEN GRACIE    | N | 0.000031
+ 43   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000031
+ 44   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000031
+ 45   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000031
+ 46   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000031
+ 47   | ED RE 501182          | ELLEN GRACIE    | N | 0.000031
+ 48   | HC 104510             | ELLEN GRACIE    | N | 0.000031
+ 49   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000031
+ 50   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000031
+ 51   | AGR RE 351298         | ELLEN GRACIE    | S | 0.000031
+ 52   | AGR RE 203286         | ELLEN GRACIE    | S | 0.000031
+ 53   | AGR RE 203282         | ELLEN GRACIE    | N | 0.000031
+ 54   | ED MS 24454           | ELLEN GRACIE    | N | 0.000031
+ 55   | AGR AI 472834         | ELLEN GRACIE    | S | 0.000031
+ 56   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000031
+ 57   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000031
+ 58   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000031
+ 59   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000031
+ 60   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000031
+ 61   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000031
+ 62   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000031
+ 63   | ED RE 214695          | ELLEN GRACIE    | N | 0.000031
+ 64   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000031
+ 65   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000031
+ 66   | HC 96189              | ELLEN GRACIE    | N | 0.000031
+ 67   | AGR RE 558755         | ELLEN GRACIE    | N | 0.000031
+ 68   | ED AI 689079          | ELLEN GRACIE    | N | 0.000031
+ 69   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000031
+ 70   | RE 498261             | ELLEN GRACIE    | N | 0.000031
+ 71   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000031
+ 72   | HC 91407              | ELLEN GRACIE    | N | 0.000031
+ 73   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000031
+ 74   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000031
+ 75   | AGR RE 270016         | ELLEN GRACIE    | S | 0.000031
+ 76   | RCL 1214              | ELLEN GRACIE    | N | 0.000031
+ 77   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000031
+ 78   | RHC 95108             | ELLEN GRACIE    | N | 0.000031
+ 79   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000031
+ 80   | HC 82478              | ELLEN GRACIE    | N | 0.000031
+ 81   | HC 100513             | ELLEN GRACIE    | N | 0.000031
+ 82   | ED AI 452953          | ELLEN GRACIE    | N | 0.000031
+ 83   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000031
+ 84   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000031
+ 85   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000031
+ 86   | HC 91661              | ELLEN GRACIE    | N | 0.000031
+ 87   | HC 106200             | ELLEN GRACIE    | N | 0.000031
+ 88   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000031
+ 89   | AGR AI 454947         | ELLEN GRACIE    | N | 0.000031
+ 90   | AGR AI 331058         | ELLEN GRACIE    | N | 0.000031
+ 91   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000031
+ 92   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000031
+ 93   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000031
+ 94   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000031
+ 95   | AGR AI 765387         | ELLEN GRACIE    | N | 0.000031
+ 96   | AGR RE 267912         | ELLEN GRACIE    | S | 0.000031
+ 97   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000031
+ 98   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000031
+ 99   | HC 82004              | ELLEN GRACIE    | N | 0.000031
+ 100  | ED AI 631737          | ELLEN GRACIE    | N | 0.000031
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 3105      | ELLEN GRACIE | N
+ ADI 3128      | ELLEN GRACIE | N
+ RE 226472     | ELLEN GRACIE | N
+ HC 82337      | ELLEN GRACIE | N
+ AGR AI 631784 | ELLEN GRACIE | N
+ AGR RE 203282 | ELLEN GRACIE | N
+ AGR RE 558755 | ELLEN GRACIE | N
+ AGR AI 454947 | ELLEN GRACIE | N
+ AGR AI 331058 | ELLEN GRACIE | N
+ ED AI 631737  | ELLEN GRACIE | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | MI 529                | CARLOS VELLOSO  | S | 0.493375
+ 2    | ADI 3013              | ELLEN GRACIE    | S | 0.328927
+ 3    | ADI 2031              | ELLEN GRACIE    | N | 0.000347
+ 4    | ADI 872               | ELLEN GRACIE    | N | 0.000126
+ 5    | RE 275159             | ELLEN GRACIE    | N | 0.000126
+ 6    | ADI 703               | ELLEN GRACIE    | N | 0.000126
+ 7    | RE 336680             | ELLEN GRACIE    | N | 0.000095
+ 8    | ADI 2474              | ELLEN GRACIE    | N | 0.000063
+ 9    | RHC 80757             | ELLEN GRACIE    | N | 0.000063
+ 10   | HC 82588              | ELLEN GRACIE    | N | 0.000063
+ 11   | HC 81214              | ELLEN GRACIE    | N | 0.000063
+ 12   | ADI 1541              | ELLEN GRACIE    | N | 0.000063
+ 13   | ADI 953               | ELLEN GRACIE    | N | 0.000063
+ 14   | AR 1713               | ELLEN GRACIE    | N | 0.000063
+ 15   | ADI 329               | ELLEN GRACIE    | N | 0.000063
+ 16   | HC 79989              | ELLEN GRACIE    | N | 0.000063
+ 17   | RE 199198             | ELLEN GRACIE    | N | 0.000063
+ 18   | RMS 23692             | ELLEN GRACIE    | N | 0.000063
+ 19   | INQ 1739              | ELLEN GRACIE    | N | 0.000063
+ 20   | ADI 743               | ELLEN GRACIE    | N | 0.000063
+ 21   | ADI 2564              | ELLEN GRACIE    | N | 0.000063
+ 22   | MS 23754              | ELLEN GRACIE    | N | 0.000063
+ 23   | ADI 2713              | ELLEN GRACIE    | N | 0.000063
+ 24   | ADI 2103              | ELLEN GRACIE    | N | 0.000063
+ 25   | HC 82149              | ELLEN GRACIE    | N | 0.000063
+ 26   | HC 81054              | ELLEN GRACIE    | N | 0.000063
+ 27   | ADI 2666              | ELLEN GRACIE    | N | 0.000063
+ 28   | MS 23399              | ELLEN GRACIE    | N | 0.000063
+ 29   | HC 83455              | ELLEN GRACIE    | N | 0.000032
+ 30   | HC 83456              | ELLEN GRACIE    | N | 0.000032
+ 31   | ED AGR AI 505776      | ELLEN GRACIE    | N | 0.000032
+ 32   | AGR AI 394926         | ELLEN GRACIE    | S | 0.000032
+ 33   | AGR RE 285400         | ELLEN GRACIE    | S | 0.000032
+ 34   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 0.000032
+ 35   | AGR AI 301923         | ILMAR GALVÃO    | S | 0.000032
+ 36   | RHC 105243            | ELLEN GRACIE    | N | 0.000032
+ 37   | AGR AI 539131         | ELLEN GRACIE    | N | 0.000032
+ 38   | AGR AI 631782         | ELLEN GRACIE    | N | 0.000032
+ 39   | AGR SS 2287           | ELLEN GRACIE    | N | 0.000032
+ 40   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 0.000032
+ 41   | AGR AI 673472         | ELLEN GRACIE    | S | 0.000032
+ 42   | RHC 88291             | ELLEN GRACIE    | N | 0.000032
+ 43   | AGR AI 323945         | NELSON JOBIM    | S | 0.000032
+ 44   | ED AGR RE 449588      | ELLEN GRACIE    | N | 0.000032
+ 45   | ED AGR AI 594104      | ELLEN GRACIE    | N | 0.000032
+ 46   | AGR RE 353745         | ELLEN GRACIE    | N | 0.000032
+ 47   | AGR RE 575894         | ELLEN GRACIE    | N | 0.000032
+ 48   | ED RE 501182          | ELLEN GRACIE    | N | 0.000032
+ 49   | HC 104510             | ELLEN GRACIE    | N | 0.000032
+ 50   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 0.000032
+ 51   | AGR AI 724344         | ELLEN GRACIE    | N | 0.000032
+ 52   | AGR AI 295212         | ELLEN GRACIE    | N | 0.000032
+ 53   | ED MS 24454           | ELLEN GRACIE    | N | 0.000032
+ 54   | AGR AI 277453         | ELLEN GRACIE    | S | 0.000032
+ 55   | AGR AI 430987         | ELLEN GRACIE    | N | 0.000032
+ 56   | AGR RE 303193         | ELLEN GRACIE    | N | 0.000032
+ 57   | AGR RE 220134         | ELLEN GRACIE    | N | 0.000032
+ 58   | AGR AI 667572         | ELLEN GRACIE    | N | 0.000032
+ 59   | AGR RE 242917         | ELLEN GRACIE    | S | 0.000032
+ 60   | AGR AI 468526         | ELLEN GRACIE    | N | 0.000032
+ 61   | ED RE 214695          | ELLEN GRACIE    | N | 0.000032
+ 62   | AGR RE 350213         | ELLEN GRACIE    | S | 0.000032
+ 63   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 0.000032
+ 64   | HC 96189              | ELLEN GRACIE    | N | 0.000032
+ 65   | AGR RE 239499         | ELLEN GRACIE    | N | 0.000032
+ 66   | RE 498261             | ELLEN GRACIE    | N | 0.000032
+ 67   | AGR AI 326810         | ELLEN GRACIE    | S | 0.000032
+ 68   | HC 91407              | ELLEN GRACIE    | N | 0.000032
+ 69   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 0.000032
+ 70   | AGR RE 270015         | ELLEN GRACIE    | S | 0.000032
+ 71   | AGR RE 270016         | ELLEN GRACIE    | S | 0.000032
+ 72   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 0.000032
+ 73   | AGR AI 666198         | ELLEN GRACIE    | N | 0.000032
+ 74   | RHC 95108             | ELLEN GRACIE    | N | 0.000032
+ 75   | AGR AI 630555         | ELLEN GRACIE    | N | 0.000032
+ 76   | HC 82478              | ELLEN GRACIE    | N | 0.000032
+ 77   | ED AGR RE 550520      | ELLEN GRACIE    | N | 0.000032
+ 78   | HC 100513             | ELLEN GRACIE    | N | 0.000032
+ 79   | ED AI 452953          | ELLEN GRACIE    | N | 0.000032
+ 80   | AGR AI 453630         | ELLEN GRACIE    | N | 0.000032
+ 81   | AGR RE 348126         | ELLEN GRACIE    | S | 0.000032
+ 82   | ED AGR RE 400560      | ELLEN GRACIE    | N | 0.000032
+ 83   | HC 91661              | ELLEN GRACIE    | N | 0.000032
+ 84   | HC 106200             | ELLEN GRACIE    | N | 0.000032
+ 85   | AGR RE 380540         | ELLEN GRACIE    | N | 0.000032
+ 86   | AGR RE 447350         | ELLEN GRACIE    | N | 0.000032
+ 87   | ED AGR AI 388132      | ELLEN GRACIE    | S | 0.000032
+ 88   | AGR AI 410922         | ELLEN GRACIE    | S | 0.000032
+ 89   | AGR RE 225724         | ELLEN GRACIE    | N | 0.000032
+ 90   | AGR AI 765387         | ELLEN GRACIE    | N | 0.000032
+ 91   | ACO 987               | ELLEN GRACIE    | N | 0.000032
+ 92   | AGR RE 325756         | ELLEN GRACIE    | N | 0.000032
+ 93   | AGR AI 368200         | ELLEN GRACIE    | N | 0.000032
+ 94   | AGR AI 669411         | ELLEN GRACIE    | N | 0.000032
+ 95   | ED AGR AI 514655      | ELLEN GRACIE    | N | 0.000032
+ 96   | HC 82004              | ELLEN GRACIE    | N | 0.000032
+ 97   | RE 212558             | ELLEN GRACIE    | N | 0.000032
+ 98   | AGR AI 650663         | ELLEN GRACIE    | N | 0.000032
+ 99   | ED RE 593683          | ELLEN GRACIE    | N | 0.000032
+ 100  | AGR AI 477073         | ELLEN GRACIE    | N | 0.000032
+
+
+Virtual decisions in each iteration
+0: 20
+1: 21
+2: 20
+3: 19
+4: 19
+5: 21
+6: 22
+7: 22
+8: 21
+9: 18
+Mean of virtual decisions: 20.30
+Standard deviation of virtual decisions: 1.27
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 6
+ELLEN GRACIE: 95
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+
+Iteração 2 | # de relatores na iteração 5
+ELLEN GRACIE: 96
+NELSON JOBIM: 1
+ILMAR GALVÃO: 1
+CARLOS VELLOSO: 1
+MAURÍCIO CORRÊA: 1
+
+Iteração 3 | # de relatores na iteração 6
+ELLEN GRACIE: 95
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+
+Iteração 4 | # de relatores na iteração 5
+ELLEN GRACIE: 96
+NELSON JOBIM: 1
+ILMAR GALVÃO: 1
+MARCO AURÉLIO: 1
+MAURÍCIO CORRÊA: 1
+
+Iteração 5 | # de relatores na iteração 6
+ELLEN GRACIE: 95
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+
+Iteração 6 | # de relatores na iteração 5
+ELLEN GRACIE: 96
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+MOREIRA ALVES: 1
+
+Iteração 7 | # de relatores na iteração 6
+ELLEN GRACIE: 95
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+
+Iteração 8 | # de relatores na iteração 7
+ELLEN GRACIE: 94
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+MOREIRA ALVES: 1
+CARLOS VELLOSO: 1
+
+Iteração 9 | # de relatores na iteração 4
+ELLEN GRACIE: 97
+ILMAR GALVÃO: 1
+MARCO AURÉLIO: 1
+MAURÍCIO CORRÊA: 1
+
+Iteração 10 | # de relatores na iteração 6
+ELLEN GRACIE: 95
+ILMAR GALVÃO: 1
+MAURÍCIO CORRÊA: 1
+NELSON JOBIM: 1
+MARCO AURÉLIO: 1
+CARLOS VELLOSO: 1
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+ELLEN GRACIE | 954 (95.40%) | 10 | 95.40 | 0.80
+ILMAR GALVÃO | 9 (0.90%) | 9 | 1.00 | 0.00
+MAURÍCIO CORRÊA | 9 (0.90%) | 9 | 1.00 | 0.00
+NELSON JOBIM | 9 (0.90%) | 9 | 1.00 | 0.00
+MARCO AURÉLIO | 9 (0.90%) | 9 | 1.00 | 0.00
+CARLOS VELLOSO | 8 (0.80%) | 8 | 1.00 | 0.00
+MOREIRA ALVES | 2 (0.20%) | 2 | 1.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+ELLEN GRACIE | 122 (12.20%) | 0.13 | 0.0204 | 0.1598 | 8.1116 
+ILMAR GALVÃO | 1 (0.10%) | 0.11 | 0.0667 | 0.6000 | 0.0000 
+MAURÍCIO CORRÊA | 1 (0.10%) | 0.11 | 0.0417 | 0.3750 | 0.0000 
+NELSON JOBIM | 1 (0.10%) | 0.11 | 0.0196 | 0.1765 | 0.0000 
+MARCO AURÉLIO | 1 (0.10%) | 0.11 | 0.2500 | 2.2500 | 0.0000 
+MOREIRA ALVES | 1 (0.10%) | 0.50 | 0.0526 | 0.1053 | 0.0000 
+CARLOS VELLOSO | 1 (0.10%) | 0.12 | 0.0357 | 0.2857 | 2.0167 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ AGR AGR RE 231671     | ELLEN GRACIE | N
+ AGR AI 631782         | ELLEN GRACIE | N
+ SEGUNDOS ED AI 823070 | ELLEN GRACIE | N
+ AGR RE 285400         | ELLEN GRACIE | S
+ AGR RE 575894         | ELLEN GRACIE | N
+ RE 336680             | ELLEN GRACIE | N
+ AGR RE 447350         | ELLEN GRACIE | N
+ ADI 3013              | ELLEN GRACIE | S
+ HC 83455              | ELLEN GRACIE | N
+ RHC 95108             | ELLEN GRACIE | N
+ AGR AI 326810         | ELLEN GRACIE | S
+ ED RE 214695          | ELLEN GRACIE | N
+ AGR RE 239499         | ELLEN GRACIE | N
+ AGR AI 666198         | ELLEN GRACIE | N
+ AGR AI 277453         | ELLEN GRACIE | S
+ AGR AI 394926         | ELLEN GRACIE | S
+ AGR RE 303193         | ELLEN GRACIE | N
+ ADI 872               | ELLEN GRACIE | N
+ HC 104510             | ELLEN GRACIE | N
+ HC 100513             | ELLEN GRACIE | N
+ SEGUNDO AGR AI 580743 | ELLEN GRACIE | N
+ ADI 703               | ELLEN GRACIE | N
+ AGR AI 468526         | ELLEN GRACIE | N
+ RE 498261             | ELLEN GRACIE | N
+ AGR AI 673472         | ELLEN GRACIE | S
+ RHC 105243            | ELLEN GRACIE | N
+ ED AGR RE 400560      | ELLEN GRACIE | N
+
+
+Most frequent decisions by inverse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | HC 83455              | ELLEN GRACIE    | N | 10 | 0
+ 2   | AGR AI 394926         | ELLEN GRACIE    | S | 10 | 0
+ 3   | AGR RE 285400         | ELLEN GRACIE    | S | 10 | 0
+ 4   | RHC 105243            | ELLEN GRACIE    | N | 10 | 0
+ 5   | RE 498261             | ELLEN GRACIE    | N | 10 | 0
+ 6   | AGR AI 631782         | ELLEN GRACIE    | N | 10 | 0
+ 7   | AGR AI 673472         | ELLEN GRACIE    | S | 10 | 0
+ 8   | AGR RE 575894         | ELLEN GRACIE    | N | 10 | 0
+ 9   | HC 104510             | ELLEN GRACIE    | N | 10 | 0
+ 10   | AGR AI 666198         | ELLEN GRACIE    | N | 10 | 0
+ 11   | RE 336680             | ELLEN GRACIE    | N | 10 | 0
+ 12   | ADI 3013              | ELLEN GRACIE    | S | 10 | 0
+ 13   | AGR AI 277453         | ELLEN GRACIE    | S | 10 | 0
+ 14   | SEGUNDOS ED AI 823070 | ELLEN GRACIE    | N | 10 | 0
+ 15   | AGR RE 303193         | ELLEN GRACIE    | N | 10 | 0
+ 16   | AGR AI 468526         | ELLEN GRACIE    | N | 10 | 0
+ 17   | ED RE 214695          | ELLEN GRACIE    | N | 10 | 0
+ 18   | AGR AGR RE 231671     | ELLEN GRACIE    | N | 10 | 0
+ 19   | AGR RE 239499         | ELLEN GRACIE    | N | 10 | 0
+ 20   | AGR AI 326810         | ELLEN GRACIE    | S | 10 | 0
+ 21   | SEGUNDO AGR AI 580743 | ELLEN GRACIE    | N | 10 | 0
+ 22   | RHC 95108             | ELLEN GRACIE    | N | 10 | 0
+ 23   | ADI 703               | ELLEN GRACIE    | N | 10 | 0
+ 24   | HC 100513             | ELLEN GRACIE    | N | 10 | 0
+ 25   | ED AGR RE 400560      | ELLEN GRACIE    | N | 10 | 0
+ 26   | ADI 872               | ELLEN GRACIE    | N | 10 | 0
+ 27   | AGR RE 447350         | ELLEN GRACIE    | N | 10 | 0
+ 28   | HC 83456              | ELLEN GRACIE    | N | 9 | 1
+ 29   | AGR AI 539131         | ELLEN GRACIE    | N | 9 | 1
+ 30   | AGR AI 331058         | ELLEN GRACIE    | N | 9 | 1
+ 31   | AGR SS 2287           | ELLEN GRACIE    | N | 9 | 1
+ 32   | ED AGR RE 449588      | ELLEN GRACIE    | N | 9 | 1
+ 33   | ED AGR AI 594104      | ELLEN GRACIE    | N | 9 | 1
+ 34   | ED RE 501182          | ELLEN GRACIE    | N | 9 | 1
+ 35   | AGR AI 295212         | ELLEN GRACIE    | N | 9 | 1
+ 36   | HC 81054              | ELLEN GRACIE    | N | 9 | 1
+ 37   | RHC 80757             | ELLEN GRACIE    | N | 9 | 1
+ 38   | ED MS 24454           | ELLEN GRACIE    | N | 9 | 1
+ 39   | AGR AI 430987         | ELLEN GRACIE    | N | 9 | 1
+ 40   | AGR RE 220134         | ELLEN GRACIE    | N | 9 | 1
+ 41   | RE 275159             | ELLEN GRACIE    | N | 9 | 1
+ 42   | AGR RE 558755         | ELLEN GRACIE    | N | 9 | 1
+ 43   | HC 91407              | ELLEN GRACIE    | N | 9 | 1
+ 44   | HC 82478              | ELLEN GRACIE    | N | 9 | 1
+ 45   | ADI 2474              | ELLEN GRACIE    | N | 9 | 1
+ 46   | ED AI 452953          | ELLEN GRACIE    | N | 9 | 1
+ 47   | HC 91661              | ELLEN GRACIE    | N | 9 | 1
+ 48   | AGR RE 380540         | ELLEN GRACIE    | N | 9 | 1
+ 49   | AGR AI 454947         | ELLEN GRACIE    | N | 9 | 1
+ 50   | AGR AI 630555         | ELLEN GRACIE    | N | 9 | 1
+ 51   | ADI 2103              | ELLEN GRACIE    | N | 9 | 1
+ 52   | ADI 3128              | ELLEN GRACIE    | N | 9 | 1
+ 53   | AGR AI 323945         | NELSON JOBIM    | S | 9 | 0
+ 54   | AGR AI 333177         | MAURÍCIO CORRÊA | S | 9 | 0
+ 55   | 7 4 9 L C R           | MARCO AURÉLIO   | S | 9 | 0
+ 56   | AGR AI 301923         | ILMAR GALVÃO    | S | 9 | 0
+ 57   | AGR RE 242917         | ELLEN GRACIE    | S | 9 | 0
+ 58   | AGR RE 350213         | ELLEN GRACIE    | S | 9 | 0
+ 59   | HC 82149              | ELLEN GRACIE    | N | 9 | 0
+ 60   | HC 82588              | ELLEN GRACIE    | N | 9 | 0
+ 61   | RMS 23787             | ELLEN GRACIE    | N | 9 | 0
+ 62   | AGR RE 348126         | ELLEN GRACIE    | S | 9 | 0
+ 63   | ED AGR AI 388132      | ELLEN GRACIE    | S | 9 | 0
+ 64   | AGR RE 225724         | ELLEN GRACIE    | N | 9 | 0
+ 65   | AGR AI 669411         | ELLEN GRACIE    | N | 9 | 0
+ 66   | RHC 88291             | ELLEN GRACIE    | N | 8 | 2
+ 67   | AGR RE 353745         | ELLEN GRACIE    | N | 8 | 2
+ 68   | RMS 23692             | ELLEN GRACIE    | N | 8 | 2
+ 69   | AGR RE 203282         | ELLEN GRACIE    | N | 8 | 2
+ 70   | AGR AI 667572         | ELLEN GRACIE    | N | 8 | 2
+ 71   | HC 82337              | ELLEN GRACIE    | N | 8 | 2
+ 72   | HC 96189              | ELLEN GRACIE    | N | 8 | 2
+ 73   | AGR AI 453630         | ELLEN GRACIE    | N | 8 | 2
+ 74   | HC 106200             | ELLEN GRACIE    | N | 8 | 2
+ 75   | ADI 329               | ELLEN GRACIE    | N | 8 | 2
+ 76   | INQ 1739              | ELLEN GRACIE    | N | 8 | 1
+ 77   | RE 226472             | ELLEN GRACIE    | N | 8 | 1
+ 78   | RE 199198             | ELLEN GRACIE    | N | 8 | 1
+ 79   | ADI 2666              | ELLEN GRACIE    | N | 8 | 1
+ 80   | MS 23754              | ELLEN GRACIE    | N | 8 | 1
+ 81   | HC 81214              | ELLEN GRACIE    | N | 8 | 1
+ 82   | ADI 743               | ELLEN GRACIE    | N | 8 | 1
+ 83   | AGR RE 325756         | ELLEN GRACIE    | N | 8 | 1
+ 84   | AR 1713               | ELLEN GRACIE    | N | 8 | 0
+ 85   | AGR RE 350927         | ELLEN GRACIE    | S | 8 | 0
+ 86   | AGR AI 410922         | ELLEN GRACIE    | S | 8 | 0
+ 87   | AGR RE 351298         | ELLEN GRACIE    | S | 8 | 0
+ 88   | AGR RE 203286         | ELLEN GRACIE    | S | 8 | 0
+ 89   | AGR AI 472834         | ELLEN GRACIE    | S | 8 | 0
+ 90   | ADI 2564              | ELLEN GRACIE    | N | 8 | 0
+ 91   | ACO 987               | ELLEN GRACIE    | N | 8 | 0
+ 92   | MI 529                | CARLOS VELLOSO  | S | 8 | 0
+ 93   | ED AGR AI 505776      | ELLEN GRACIE    | N | 7 | 3
+ 94   | ED AGR RE 550520      | ELLEN GRACIE    | N | 7 | 3
+ 95   | ADI 3105              | ELLEN GRACIE    | N | 7 | 3
+ 96   | ADI 953               | ELLEN GRACIE    | N | 7 | 3
+ 97   | MS 23399              | ELLEN GRACIE    | N | 7 | 2
+ 98   | HC 79989              | ELLEN GRACIE    | N | 7 | 2
+ 99   | AGR AI 631784         | ELLEN GRACIE    | N | 7 | 2
+ 100   | ADI 1541              | ELLEN GRACIE    | N | 7 | 1
+ 101   | ED AGR AI 514655      | ELLEN GRACIE    | N | 7 | 0
+ 102   | AGR RE 267912         | ELLEN GRACIE    | S | 7 | 0
+ 103   | AGR RE 270015         | ELLEN GRACIE    | S | 7 | 0
+ 104   | RE 224283             | ELLEN GRACIE    | N | 7 | 0
+ 105   | AGR AI 368200         | ELLEN GRACIE    | N | 7 | 0
+ 106   | ADI 2031              | ELLEN GRACIE    | N | 6 | 4
+ 107   | ADI 2713              | ELLEN GRACIE    | N | 6 | 3
+ 108   | AGR AI 724344         | ELLEN GRACIE    | N | 6 | 3
+ 109   | ED ED AGR RE 169094   | ELLEN GRACIE    | N | 6 | 1
+ 110   | HC 82004              | ELLEN GRACIE    | N | 6 | 1
+ 111   | AGR RE 270016         | ELLEN GRACIE    | S | 6 | 0
+ 112   | ED AI 631737          | ELLEN GRACIE    | N | 5 | 1
+ 113   | AGR ED RE 520629      | ELLEN GRACIE    | N | 4 | 2
+ 114   | RCL 1215              | ELLEN GRACIE    | N | 4 | 1
+ 115   | RCL 1214              | ELLEN GRACIE    | N | 4 | 1
+ 116   | AGR AI 765387         | ELLEN GRACIE    | N | 4 | 1
+ 117   | RE 212558             | ELLEN GRACIE    | N | 4 | 0
+ 118   | AGR AI 650663         | ELLEN GRACIE    | N | 3 | 1
+ 119   | ED AI 689079          | ELLEN GRACIE    | N | 3 | 0
+ 120   | ED RE 593683          | ELLEN GRACIE    | N | 2 | 2
+ 121   | AGR AI 793399         | ELLEN GRACIE    | N | 2 | 1
+ 122   | ED RE 227442          | ELLEN GRACIE    | N | 2 | 1
+ 123   | ED ED AGR AI 492368   | ELLEN GRACIE    | N | 2 | 1
+ 124   | RE 315007             | MOREIRA ALVES   | S | 2 | 0
+
+stf_pr_2_acordaos_90_par_rel_6
+Number of decisions which appear on simulations: 128
+Number of items whose frequency is higher than 1: 124
+Number of decisions which could be in all iterations: 67
+decisões que aparecem pelo menos 10 vezes | 27
+decisões que aparecem pelo menos 9 vezes | 65
+decisões que aparecem pelo menos 8 vezes | 92
+136

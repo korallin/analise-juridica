@@ -1,0 +1,1369 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001218
+ 2    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000183
+ 3    | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000183
+ 4    | AGR HC 129035             | DIAS TOFFOLI | N | 0.000183
+ 5    | ED INQ 4014               | DIAS TOFFOLI | N | 0.000183
+ 6    | AGR RE 965701             | DIAS TOFFOLI | N | 0.000183
+ 7    | AGR RE 539832             | DIAS TOFFOLI | N | 0.000183
+ 8    | ED INQ 4019               | DIAS TOFFOLI | N | 0.000183
+ 9    | AGR ARE 818022            | DIAS TOFFOLI | N | 0.000183
+ 10   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000183
+ 11   | RHC 117696                | DIAS TOFFOLI | N | 0.000183
+ 12   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000183
+ 13   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000183
+ 14   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000183
+ 15   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000183
+ 16   | HC 120139                 | DIAS TOFFOLI | N | 0.000183
+ 17   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000183
+ 18   | HC 134193                 | DIAS TOFFOLI | N | 0.000183
+ 19   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000183
+ 20   | HC 109079                 | DIAS TOFFOLI | N | 0.000183
+ 21   | AGR ARE 763871            | DIAS TOFFOLI | N | 0.000183
+ 22   | AGR ARE 751081            | DIAS TOFFOLI | N | 0.000183
+ 23   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000183
+ 24   | AGR AI 709448             | DIAS TOFFOLI | N | 0.000183
+ 25   | AGR ARE 724396            | DIAS TOFFOLI | N | 0.000183
+ 26   | AGR RCL 6092              | DIAS TOFFOLI | N | 0.000183
+ 27   | ED ED AGR AI 817100       | DIAS TOFFOLI | N | 0.000183
+ 28   | AGR RE 417045             | DIAS TOFFOLI | N | 0.000183
+ 29   | AGR RE 417040             | DIAS TOFFOLI | N | 0.000183
+ 30   | AGR RE 596813             | DIAS TOFFOLI | N | 0.000183
+ 31   | HC 108671                 | DIAS TOFFOLI | N | 0.000183
+ 32   | AGR AI 305139             | DIAS TOFFOLI | N | 0.000183
+ 33   | HC 104167                 | DIAS TOFFOLI | N | 0.000183
+ 34   | AGR ARE 750132            | DIAS TOFFOLI | N | 0.000183
+ 35   | AGR ARE 872521            | DIAS TOFFOLI | N | 0.000183
+ 36   | AGR ARE 812653            | DIAS TOFFOLI | N | 0.000183
+ 37   | RHC 115758                | DIAS TOFFOLI | N | 0.000183
+ 38   | AGR RE 540578             | DIAS TOFFOLI | N | 0.000183
+ 39   | AGR AI 471564             | DIAS TOFFOLI | N | 0.000183
+ 40   | HC 127483                 | DIAS TOFFOLI | N | 0.000183
+ 41   | AGR RE 583201             | DIAS TOFFOLI | N | 0.000183
+ 42   | AGR AI 751904             | DIAS TOFFOLI | N | 0.000183
+ 43   | AGR AI 508028             | DIAS TOFFOLI | N | 0.000183
+ 44   | AGR AI 716406             | DIAS TOFFOLI | N | 0.000183
+ 45   | ED RE 590655              | DIAS TOFFOLI | N | 0.000183
+ 46   | AGR RE 655949             | DIAS TOFFOLI | N | 0.000183
+ 47   | HC 113857                 | DIAS TOFFOLI | N | 0.000183
+ 48   | HC 95570                  | DIAS TOFFOLI | N | 0.000183
+ 49   | HC 110584                 | DIAS TOFFOLI | N | 0.000183
+ 50   | AGR AI 763240             | DIAS TOFFOLI | N | 0.000183
+ 51   | AGR ARE 710199            | DIAS TOFFOLI | N | 0.000183
+ 52   | AGR AI 764566             | DIAS TOFFOLI | N | 0.000183
+ 53   | AGR AI 810740             | DIAS TOFFOLI | N | 0.000183
+ 54   | AGR AI 738843             | DIAS TOFFOLI | N | 0.000183
+ 55   | AGR RCL 7054              | DIAS TOFFOLI | N | 0.000183
+ 56   | AGR RE 447421             | DIAS TOFFOLI | N | 0.000183
+ 57   | AGR ARE 837979            | DIAS TOFFOLI | N | 0.000183
+ 58   | AGR ARE 897890            | DIAS TOFFOLI | N | 0.000183
+ 59   | RHC 117108                | DIAS TOFFOLI | N | 0.000183
+ 60   | HC 132342                 | DIAS TOFFOLI | N | 0.000183
+ 61   | AP 441                    | DIAS TOFFOLI | N | 0.000183
+ 62   | AGR RE 419918             | DIAS TOFFOLI | N | 0.000183
+ 63   | SEGUNDO AGR AR 1958       | DIAS TOFFOLI | N | 0.000183
+ 64   | AGR ARE 818231            | DIAS TOFFOLI | N | 0.000183
+ 65   | ED AI 662024              | DIAS TOFFOLI | N | 0.000183
+ 66   | AGR AI 722017             | DIAS TOFFOLI | N | 0.000183
+ 67   | HC 132699                 | DIAS TOFFOLI | N | 0.000183
+ 68   | AGR ARE 848898            | DIAS TOFFOLI | N | 0.000183
+ 69   | AGR ARE 663120            | DIAS TOFFOLI | N | 0.000183
+ 70   | ED AGR MS 30204           | DIAS TOFFOLI | N | 0.000183
+ 71   | AGR HC 105752             | DIAS TOFFOLI | N | 0.000183
+ 72   | RHC 131544                | DIAS TOFFOLI | N | 0.000183
+ 73   | HC 101264                 | DIAS TOFFOLI | N | 0.000183
+ 74   | ED AGR AI 861522          | DIAS TOFFOLI | N | 0.000183
+ 75   | AGR AI 441149             | DIAS TOFFOLI | N | 0.000183
+ 76   | AGR RE 547435             | DIAS TOFFOLI | N | 0.000183
+ 77   | AGR ARE 678459            | DIAS TOFFOLI | N | 0.000183
+ 78   | QO AP 679                 | DIAS TOFFOLI | N | 0.000183
+ 79   | AGR RE 475010             | DIAS TOFFOLI | N | 0.000183
+ 80   | AGR ARE 724148            | DIAS TOFFOLI | N | 0.000183
+ 81   | ED AGR ARE 703988         | DIAS TOFFOLI | N | 0.000183
+ 82   | AGR ARE 876786            | DIAS TOFFOLI | N | 0.000183
+ 83   | AGR RE 129615             | DIAS TOFFOLI | N | 0.000183
+ 84   | ED RE 648493              | DIAS TOFFOLI | N | 0.000183
+ 85   | AGR RE 614246             | DIAS TOFFOLI | N | 0.000183
+ 86   | AGR RE 737009             | DIAS TOFFOLI | N | 0.000183
+ 87   | ED RE 452274              | DIAS TOFFOLI | N | 0.000183
+ 88   | AGR RE 368460             | DIAS TOFFOLI | N | 0.000183
+ 89   | ED RE 416353              | DIAS TOFFOLI | N | 0.000183
+ 90   | AGR RE 315584             | DIAS TOFFOLI | N | 0.000183
+ 91   | ED RE 370950              | DIAS TOFFOLI | N | 0.000183
+ 92   | AGR ARE 872203            | DIAS TOFFOLI | N | 0.000183
+ 93   | AGR AI 654965             | DIAS TOFFOLI | N | 0.000183
+ 94   | AGR ARE 802948            | DIAS TOFFOLI | N | 0.000183
+ 95   | AGR RE 701544             | DIAS TOFFOLI | N | 0.000183
+ 96   | AGR RE 701546             | DIAS TOFFOLI | N | 0.000183
+ 97   | AGR ARE 679497            | DIAS TOFFOLI | N | 0.000183
+ 98   | AGR RE 716050             | DIAS TOFFOLI | N | 0.000183
+ 99   | AGR ARE 897155            | DIAS TOFFOLI | N | 0.000183
+ 100  | AGR RE 145937             | DIAS TOFFOLI | N | 0.000183
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 709448   | DIAS TOFFOLI | N
+ AGR RE 417040   | DIAS TOFFOLI | N
+ AGR ARE 750132  | DIAS TOFFOLI | N
+ AGR AI 471564   | DIAS TOFFOLI | N
+ AGR AI 716406   | DIAS TOFFOLI | N
+ AGR RE 655949   | DIAS TOFFOLI | N
+ AGR ARE 897890  | DIAS TOFFOLI | N
+ HC 132342       | DIAS TOFFOLI | N
+ ED AGR MS 30204 | DIAS TOFFOLI | N
+ AGR RE 547435   | DIAS TOFFOLI | N
+ AGR ARE 724148  | DIAS TOFFOLI | N
+ AGR RE 701546   | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 681735            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 730619             | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 15   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 16   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR AI 673602             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 24   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR RE 611641             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 32   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 33   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 34   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 35   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR AI 616142             | DIAS TOFFOLI | N | 0.000203
+ 37   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR RE 777504             | DIAS TOFFOLI | N | 0.000203
+ 48   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 50   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 51   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 56   | RHC 122183                | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 58   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 59   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 63   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 67   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR ARE 945486            | DIAS TOFFOLI | N | 0.000203
+ 69   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 70   | AGR RE 593519             | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 72   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 73   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR ARE 864746            | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR AI 751727             | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 78   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RE 503031             | DIAS TOFFOLI | N | 0.000203
+ 81   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 82   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 86   | AGR ARE 937901            | DIAS TOFFOLI | N | 0.000203
+ 87   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 88   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 89   | AGR ARE 845103            | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 91   | ED AGR RE 755613          | DIAS TOFFOLI | N | 0.000203
+ 92   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 93   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 95   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 97   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 98   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR RE 539832  | DIAS TOFFOLI | N
+ AGR RE 777504  | DIAS TOFFOLI | N
+ RE 729884      | DIAS TOFFOLI | N
+ HC 107412      | DIAS TOFFOLI | N
+ AGR ARE 854734 | DIAS TOFFOLI | N
+ AGR AI 848362  | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 681735            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 14   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 22   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 25   | ED ADI 3601               | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 32   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 33   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 34   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 35   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 50   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 51   | RHC 122183                | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 53   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 54   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 55   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 63   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR AGR RCL 17113         | DIAS TOFFOLI | N | 0.000203
+ 65   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR RE 593519             | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR AI 763785             | DIAS TOFFOLI | N | 0.000203
+ 69   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 70   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR ARE 864746            | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 73   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 76   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 77   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 86   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 87   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 88   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 89   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 91   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 92   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 93   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 94   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR RE 933502             | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR ARE 806891            | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ARE 743134            | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 681735       | DIAS TOFFOLI | N
+ RHC 115984           | DIAS TOFFOLI | N
+ AGR AI 829186        | DIAS TOFFOLI | N
+ AGR AI 844260        | DIAS TOFFOLI | N
+ RHC 122183           | DIAS TOFFOLI | N
+ AGR RE 593519        | DIAS TOFFOLI | N
+ HC 134193            | DIAS TOFFOLI | N
+ ED AGR ED ARE 920144 | DIAS TOFFOLI | N
+ MS 27704             | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR RCL 25105             | DIAS TOFFOLI | N | 0.000203
+ 5    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 7    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 8    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 9    | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 13   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 21   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR AI 788602             | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 31   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 32   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 34   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 42   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 44   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 50   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 51   | RHC 102984                | DIAS TOFFOLI | N | 0.000203
+ 52   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 60   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR AGR RCL 17113         | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR ARE 945486            | DIAS TOFFOLI | N | 0.000203
+ 63   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR AI 763785             | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 69   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 70   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR RE 503031             | DIAS TOFFOLI | N | 0.000203
+ 73   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 74   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 83   | ED AGR RE 755613          | DIAS TOFFOLI | N | 0.000203
+ 84   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 86   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 87   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 88   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 89   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 90   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 91   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 92   | MS 29192                  | DIAS TOFFOLI | N | 0.000203
+ 93   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR ARE 743134            | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR RE 807645             | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR AI 709448             | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 104998        | DIAS TOFFOLI | N
+ AGR HC 129035    | DIAS TOFFOLI | N
+ AGR AI 361051    | DIAS TOFFOLI | N
+ AGR RMS 27189    | DIAS TOFFOLI | N
+ ED AGR AI 776295 | DIAS TOFFOLI | N
+ AGR AI 817365    | DIAS TOFFOLI | N
+ HC 115869        | DIAS TOFFOLI | N
+ AGR AI 629125    | DIAS TOFFOLI | N
+ AGR AI 848362    | DIAS TOFFOLI | N
+ AGR RE 526146    | DIAS TOFFOLI | N
+ AGR ARE 743134   | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 681735            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | AGR AI 714420             | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 12   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 20   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 788602             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 28   | HC 113104                 | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 31   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 32   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 34   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 42   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR AI 859766             | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR RCL 17406             | DIAS TOFFOLI | N | 0.000203
+ 50   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 51   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 52   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 59   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR AGR RCL 17113         | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR AI 763785             | DIAS TOFFOLI | N | 0.000203
+ 63   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 69   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 70   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 72   | HC 113036                 | DIAS TOFFOLI | N | 0.000203
+ 73   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 79   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 80   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 82   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 84   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 86   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 87   | MS 29192                  | DIAS TOFFOLI | N | 0.000203
+ 88   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 89   | AGR ARE 806891            | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 91   | AGR ARE 869153            | DIAS TOFFOLI | N | 0.000203
+ 92   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 93   | AGR RE 807645             | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR AI 709448             | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR AI 729784             | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR AI 814461             | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR RE 598912             | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR ARE 724396            | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR AI 673892             | DIAS TOFFOLI | N | 0.000203
+ 100  | MS 28127                  | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 848332    | DIAS TOFFOLI | N
+ AGR RE 871442    | DIAS TOFFOLI | N
+ AGR RE 539832    | DIAS TOFFOLI | N
+ HC 105016        | DIAS TOFFOLI | N
+ MS 27704         | DIAS TOFFOLI | N
+ ED AGR AI 640855 | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 681735            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 14   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 18   | HC 113445                 | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 21   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR AI 788602             | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 32   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 34   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR RE 777504             | DIAS TOFFOLI | N | 0.000203
+ 45   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 804138             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 48   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 50   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 51   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR RCL 17406             | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 56   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 57   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 58   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 63   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR RCL 14223             | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR AI 763785             | DIAS TOFFOLI | N | 0.000203
+ 69   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 70   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 73   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 75   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 77   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 78   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 86   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 87   | ED AGR RE 755613          | DIAS TOFFOLI | N | 0.000203
+ 88   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 89   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 90   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 91   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 92   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 93   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 94   | MS 29192                  | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR AI 709448             | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 637702    | DIAS TOFFOLI | N
+ AGR ARE 702992    | DIAS TOFFOLI | N
+ AGR AI 712893     | DIAS TOFFOLI | N
+ AGR RE 626710     | DIAS TOFFOLI | N
+ AGR RMS 27189     | DIAS TOFFOLI | N
+ AGR RCL 18476     | DIAS TOFFOLI | N
+ AGR AGR AI 446131 | DIAS TOFFOLI | N
+ AGR ARE 804313    | DIAS TOFFOLI | N
+ RHC 122181        | DIAS TOFFOLI | N
+ ED AGR AI 843289  | DIAS TOFFOLI | N
+ ED ED AGR AR 2137 | DIAS TOFFOLI | N
+ AGR AI 720665     | DIAS TOFFOLI | N
+ ED AGR RE 755613  | DIAS TOFFOLI | N
+ MS 29192          | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 681735            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 730619             | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 15   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 19   | HC 113445                 | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 24   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 25   | SEGUNDO AGR ARE 677789    | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR AI 788602             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR ARE 836886            | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 32   | HC 113104                 | DIAS TOFFOLI | N | 0.000203
+ 33   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 34   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 35   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 36   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 37   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR RE 777504             | DIAS TOFFOLI | N | 0.000203
+ 45   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 804138             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 48   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 50   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 51   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR RCL 17406             | DIAS TOFFOLI | N | 0.000203
+ 54   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR RE 980101             | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 62   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 63   | AGR ARE 945486            | DIAS TOFFOLI | N | 0.000203
+ 64   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR RE 593519             | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 67   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 68   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 69   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 70   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 71   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 73   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR RE 503031             | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR ARE 896147            | DIAS TOFFOLI | N | 0.000203
+ 77   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR ARE 803062            | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 86   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 87   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 88   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 89   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 91   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 92   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 93   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 94   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR AI 709448             | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 681735 | DIAS TOFFOLI | N
+ ED RE 699145   | DIAS TOFFOLI | N
+ AGR RCL 8037   | DIAS TOFFOLI | N
+ AGR HC 115357  | DIAS TOFFOLI | N
+ AGR AI 788602  | DIAS TOFFOLI | N
+ AGR RE 803242  | DIAS TOFFOLI | N
+ AGR AI 844260  | DIAS TOFFOLI | N
+ AGR AI 683370  | DIAS TOFFOLI | N
+ AGR ARE 936925 | DIAS TOFFOLI | N
+ AGR AI 791703  | DIAS TOFFOLI | N
+ AGR ARE 945486 | DIAS TOFFOLI | N
+ AGR ARE 854734 | DIAS TOFFOLI | N
+ AGR RE 526146  | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 827045            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 7    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 8    | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 9    | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 12   | ED AGR RE 813800          | DIAS TOFFOLI | N | 0.000203
+ 13   | ED INQ 4014               | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR RCL 12680             | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 22   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR RE 611641             | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 32   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 34   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR RHC 127725            | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR RE 777504             | DIAS TOFFOLI | N | 0.000203
+ 43   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR AI 804138             | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR RCL 17406             | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 50   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 51   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR RE 980101             | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 58   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 59   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR RE 593519             | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 62   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 63   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR ARE 864746            | DIAS TOFFOLI | N | 0.000203
+ 65   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 68   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 69   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 70   | AGR ARE 896147            | DIAS TOFFOLI | N | 0.000203
+ 71   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 73   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 80   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 81   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 83   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 85   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 86   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 87   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 88   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 89   | AGR AR 2353               | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 91   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 92   | AGR ARE 869153            | DIAS TOFFOLI | N | 0.000203
+ 93   | AGR ARE 743134            | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR RE 807645             | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR AI 709448             | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR AI 729784             | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR AI 814461             | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR RE 598912             | DIAS TOFFOLI | N | 0.000203
+ 100  | HC 96055                  | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR RCL 12680  | DIAS TOFFOLI | N
+ AGR RE 539832  | DIAS TOFFOLI | N
+ AGR RHC 127725 | DIAS TOFFOLI | N
+ AGR RE 980101  | DIAS TOFFOLI | N
+ AGR RE 593519  | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | AGR AI 685653             | DIAS TOFFOLI | N | 0.000203
+ 3    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 4    | AGR ARE 827045            | DIAS TOFFOLI | N | 0.000203
+ 5    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 7    | AGR RE 413815             | DIAS TOFFOLI | N | 0.000203
+ 8    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 9    | ED RE 699145              | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 13   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 14   | RHC 115982                | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR RE 965701             | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR ARE 715586            | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 871442             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 21   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 22   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 25   | ED ADI 3601               | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RMS 29915             | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 32   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 34   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 43   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 0.000203
+ 44   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 45   | AGR AI 804138             | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 47   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 50   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 51   | AGR ARE 936925            | DIAS TOFFOLI | N | 0.000203
+ 52   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 53   | AGR RCL 17406             | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR ARE 804313            | DIAS TOFFOLI | N | 0.000203
+ 55   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 56   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 57   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 61   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 62   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 63   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 65   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 66   | AGR ARE 945486            | DIAS TOFFOLI | N | 0.000203
+ 67   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 69   | AGR AI 763785             | DIAS TOFFOLI | N | 0.000203
+ 70   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 71   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 73   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 74   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 76   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 78   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 79   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 84   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 85   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 86   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 87   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 88   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 89   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 91   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 92   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 93   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 95   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 96   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 685653     | DIAS TOFFOLI | N
+ AGR RE 413815     | DIAS TOFFOLI | N
+ ED RE 699145      | DIAS TOFFOLI | N
+ RHC 115982        | DIAS TOFFOLI | N
+ AGR ARE 715586    | DIAS TOFFOLI | N
+ AGR RE 871442     | DIAS TOFFOLI | N
+ AGR RMS 29915     | DIAS TOFFOLI | N
+ AGR AGR AI 446131 | DIAS TOFFOLI | N
+ AGR ARE 936925    | DIAS TOFFOLI | N
+ AGR RCL 17406     | DIAS TOFFOLI | N
+ AGR ARE 945486    | DIAS TOFFOLI | N
+ AGR AI 763785     | DIAS TOFFOLI | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | RE 385091                 | DIAS TOFFOLI | N | 0.001354
+ 2    | ED AGR RE 524385          | DIAS TOFFOLI | N | 0.000203
+ 3    | AGR ARE 827045            | DIAS TOFFOLI | N | 0.000203
+ 4    | RHC 115984                | DIAS TOFFOLI | N | 0.000203
+ 5    | AGR ARE 931275            | DIAS TOFFOLI | N | 0.000203
+ 6    | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 0.000203
+ 7    | HC 104998                 | DIAS TOFFOLI | N | 0.000203
+ 8    | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 0.000203
+ 9    | AGR ARE 637702            | DIAS TOFFOLI | N | 0.000203
+ 10   | AGR HC 129035             | DIAS TOFFOLI | N | 0.000203
+ 11   | AGR ARE 702992            | DIAS TOFFOLI | N | 0.000203
+ 12   | AGR AI 858600             | DIAS TOFFOLI | N | 0.000203
+ 13   | ED INQ 4014               | DIAS TOFFOLI | N | 0.000203
+ 14   | AGR AI 829186             | DIAS TOFFOLI | N | 0.000203
+ 15   | AGR RE 965701             | DIAS TOFFOLI | N | 0.000203
+ 16   | AGR ARE 956243            | DIAS TOFFOLI | N | 0.000203
+ 17   | AGR AI 848332             | DIAS TOFFOLI | N | 0.000203
+ 18   | AGR RE 985583             | DIAS TOFFOLI | N | 0.000203
+ 19   | AGR RE 539832             | DIAS TOFFOLI | N | 0.000203
+ 20   | AGR AI 361051             | DIAS TOFFOLI | N | 0.000203
+ 21   | ED INQ 4019               | DIAS TOFFOLI | N | 0.000203
+ 22   | AGR AI 712893             | DIAS TOFFOLI | N | 0.000203
+ 23   | AGR HC 115357             | DIAS TOFFOLI | N | 0.000203
+ 24   | AGR AI 788602             | DIAS TOFFOLI | N | 0.000203
+ 25   | AGR ARE 839629            | DIAS TOFFOLI | N | 0.000203
+ 26   | AGR AI 653062             | DIAS TOFFOLI | N | 0.000203
+ 27   | AGR RE 626710             | DIAS TOFFOLI | N | 0.000203
+ 28   | AGR AI 750754             | DIAS TOFFOLI | N | 0.000203
+ 29   | AGR RMS 27189             | DIAS TOFFOLI | N | 0.000203
+ 30   | AGR RHC 133593            | DIAS TOFFOLI | N | 0.000203
+ 31   | AGR RE 803245             | DIAS TOFFOLI | N | 0.000203
+ 32   | RHC 117696                | DIAS TOFFOLI | N | 0.000203
+ 33   | HC 96465                  | DIAS TOFFOLI | N | 0.000203
+ 34   | HC 106687                 | DIAS TOFFOLI | N | 0.000203
+ 35   | AGR RCL 18476             | DIAS TOFFOLI | N | 0.000203
+ 36   | AGR RE 803242             | DIAS TOFFOLI | N | 0.000203
+ 37   | AGR AI 817580             | DIAS TOFFOLI | N | 0.000203
+ 38   | AGR RE 691290             | DIAS TOFFOLI | N | 0.000203
+ 39   | AGR RE 915179             | DIAS TOFFOLI | N | 0.000203
+ 40   | AGR RE 762467             | DIAS TOFFOLI | N | 0.000203
+ 41   | AGR AI 844260             | DIAS TOFFOLI | N | 0.000203
+ 42   | AGR RE 777504             | DIAS TOFFOLI | N | 0.000203
+ 43   | RE 729884                 | DIAS TOFFOLI | N | 0.000203
+ 44   | AGR AI 804138             | DIAS TOFFOLI | N | 0.000203
+ 45   | ED AGR AI 776295          | DIAS TOFFOLI | N | 0.000203
+ 46   | AGR AI 655222             | DIAS TOFFOLI | N | 0.000203
+ 47   | AGR AI 683370             | DIAS TOFFOLI | N | 0.000203
+ 48   | AGR RE 550539             | DIAS TOFFOLI | N | 0.000203
+ 49   | AGR AI 817107             | DIAS TOFFOLI | N | 0.000203
+ 50   | RHC 122183                | DIAS TOFFOLI | N | 0.000203
+ 51   | RHC 122181                | DIAS TOFFOLI | N | 0.000203
+ 52   | ED AGR AI 843289          | DIAS TOFFOLI | N | 0.000203
+ 53   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 0.000203
+ 54   | AGR AI 791703             | DIAS TOFFOLI | N | 0.000203
+ 55   | AGR AI 725312             | DIAS TOFFOLI | N | 0.000203
+ 56   | AGR AI 817365             | DIAS TOFFOLI | N | 0.000203
+ 57   | AGR ARE 802958            | DIAS TOFFOLI | N | 0.000203
+ 58   | AGR RCL 8037              | DIAS TOFFOLI | N | 0.000203
+ 59   | AGR PET 3894              | DIAS TOFFOLI | N | 0.000203
+ 60   | AGR AI 831179             | DIAS TOFFOLI | N | 0.000203
+ 61   | HC 105016                 | DIAS TOFFOLI | N | 0.000203
+ 62   | HC 115869                 | DIAS TOFFOLI | N | 0.000203
+ 63   | AGR RE 593519             | DIAS TOFFOLI | N | 0.000203
+ 64   | AGR RCL 11246             | DIAS TOFFOLI | N | 0.000203
+ 65   | HC 134193                 | DIAS TOFFOLI | N | 0.000203
+ 66   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 0.000203
+ 67   | AGR ARE 893353            | DIAS TOFFOLI | N | 0.000203
+ 68   | AGR RMS 27983             | DIAS TOFFOLI | N | 0.000203
+ 69   | AGR AI 762355             | DIAS TOFFOLI | N | 0.000203
+ 70   | AGR AI 622896             | DIAS TOFFOLI | N | 0.000203
+ 71   | HC 107412                 | DIAS TOFFOLI | N | 0.000203
+ 72   | AGR AI 856947             | DIAS TOFFOLI | N | 0.000203
+ 73   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 0.000203
+ 74   | HC 109079                 | DIAS TOFFOLI | N | 0.000203
+ 75   | AGR RE 457691             | DIAS TOFFOLI | N | 0.000203
+ 76   | AGR AI 629125             | DIAS TOFFOLI | N | 0.000203
+ 77   | AGR RE 787340             | DIAS TOFFOLI | N | 0.000203
+ 78   | AGR ARE 937901            | DIAS TOFFOLI | N | 0.000203
+ 79   | AGR AI 720665             | DIAS TOFFOLI | N | 0.000203
+ 80   | AGR RHC 122174            | DIAS TOFFOLI | N | 0.000203
+ 81   | AGR RE 553227             | DIAS TOFFOLI | N | 0.000203
+ 82   | AGR RE 762268             | DIAS TOFFOLI | N | 0.000203
+ 83   | AGR RE 552316             | DIAS TOFFOLI | N | 0.000203
+ 84   | MS 27704                  | DIAS TOFFOLI | N | 0.000203
+ 85   | HC 132236                 | DIAS TOFFOLI | N | 0.000203
+ 86   | AGR ARE 832231            | DIAS TOFFOLI | N | 0.000203
+ 87   | ED AGR AI 640855          | DIAS TOFFOLI | N | 0.000203
+ 88   | AGR AI 618872             | DIAS TOFFOLI | N | 0.000203
+ 89   | ED RE 488650              | DIAS TOFFOLI | N | 0.000203
+ 90   | AGR AI 814912             | DIAS TOFFOLI | N | 0.000203
+ 91   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 0.000203
+ 92   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 0.000203
+ 93   | MS 29192                  | DIAS TOFFOLI | N | 0.000203
+ 94   | AGR ARE 854734            | DIAS TOFFOLI | N | 0.000203
+ 95   | AGR AI 848362             | DIAS TOFFOLI | N | 0.000203
+ 96   | AGR ARE 706288            | DIAS TOFFOLI | N | 0.000203
+ 97   | AGR RE 526146             | DIAS TOFFOLI | N | 0.000203
+ 98   | AGR ARE 743134            | DIAS TOFFOLI | N | 0.000203
+ 99   | AGR ACO 644               | DIAS TOFFOLI | N | 0.000203
+ 100  | AGR RE 807645             | DIAS TOFFOLI | N | 0.000203
+
+
+Virtual decisions in each iteration
+0: 0
+1: 0
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 0
+8: 0
+9: 0
+Mean of virtual decisions: 0.00
+Standard deviation of virtual decisions: 0.00
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 2 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 3 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 4 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 5 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 6 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 7 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 8 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 9 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Iteração 10 | # de relatores na iteração 1
+DIAS TOFFOLI: 100
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+DIAS TOFFOLI | 1000 (100.00%) | 10 | 100.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+DIAS TOFFOLI | 232 (23.20%) | 0.23 | 0.0425 | 0.1831 | 0.0000 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ ED INQ 4019               | DIAS TOFFOLI | N
+ AGR AI 750754             | DIAS TOFFOLI | N
+ RHC 117696                | DIAS TOFFOLI | N
+ SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N
+ AGR AI 856947             | DIAS TOFFOLI | N
+ AGR RCL 11246             | DIAS TOFFOLI | N
+ AGR AI 655222             | DIAS TOFFOLI | N
+ HC 109079                 | DIAS TOFFOLI | N
+ RE 385091                 | DIAS TOFFOLI | N
+ AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N
+
+
+Most frequent decisions by inverse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | AGR EDV ED AGR ARE 665088 | DIAS TOFFOLI | N | 10 | 0
+ 2   | RE 385091                 | DIAS TOFFOLI | N | 10 | 0
+ 3   | ED INQ 4019               | DIAS TOFFOLI | N | 10 | 0
+ 4   | AGR AI 750754             | DIAS TOFFOLI | N | 10 | 0
+ 5   | RHC 117696                | DIAS TOFFOLI | N | 10 | 0
+ 6   | AGR AI 655222             | DIAS TOFFOLI | N | 10 | 0
+ 7   | AGR RCL 11246             | DIAS TOFFOLI | N | 10 | 0
+ 8   | AGR AI 856947             | DIAS TOFFOLI | N | 10 | 0
+ 9   | HC 109079                 | DIAS TOFFOLI | N | 10 | 0
+ 10   | SEGUNDO AGR RE 505508     | DIAS TOFFOLI | N | 10 | 0
+ 11   | AGR RE 413815             | DIAS TOFFOLI | N | 9 | 1
+ 12   | AGR HC 129035             | DIAS TOFFOLI | N | 9 | 1
+ 13   | AGR AI 683370             | DIAS TOFFOLI | N | 9 | 1
+ 14   | HC 134193                 | DIAS TOFFOLI | N | 9 | 1
+ 15   | AGR AI 791703             | DIAS TOFFOLI | N | 9 | 1
+ 16   | AGR AI 817107             | DIAS TOFFOLI | N | 9 | 0
+ 17   | HC 132236                 | DIAS TOFFOLI | N | 9 | 0
+ 18   | HC 106687                 | DIAS TOFFOLI | N | 9 | 0
+ 19   | AGR AI 817580             | DIAS TOFFOLI | N | 9 | 0
+ 20   | AGR EDV ED AGR RE 595565  | DIAS TOFFOLI | N | 9 | 0
+ 21   | AGR RE 762467             | DIAS TOFFOLI | N | 9 | 0
+ 22   | AGR RE 550539             | DIAS TOFFOLI | N | 9 | 0
+ 23   | AGR AI 725312             | DIAS TOFFOLI | N | 9 | 0
+ 24   | AGR PET 3894              | DIAS TOFFOLI | N | 9 | 0
+ 25   | AGR AI 762355             | DIAS TOFFOLI | N | 9 | 0
+ 26   | AGR AI 622896             | DIAS TOFFOLI | N | 9 | 0
+ 27   | AGR RE 787340             | DIAS TOFFOLI | N | 9 | 0
+ 28   | AGR RE 553227             | DIAS TOFFOLI | N | 9 | 0
+ 29   | AGR AI 618872             | DIAS TOFFOLI | N | 9 | 0
+ 30   | ED RE 488650              | DIAS TOFFOLI | N | 9 | 0
+ 31   | AGR RE 457691             | DIAS TOFFOLI | N | 9 | 0
+ 32   | AGR RE 552316             | DIAS TOFFOLI | N | 9 | 0
+ 33   | AGR AI 831179             | DIAS TOFFOLI | N | 9 | 0
+ 34   | AGR RE 803245             | DIAS TOFFOLI | N | 9 | 0
+ 35   | AGR RE 985583             | DIAS TOFFOLI | N | 9 | 0
+ 36   | AGR RE 691290             | DIAS TOFFOLI | N | 9 | 0
+ 37   | AGR AI 814912             | DIAS TOFFOLI | N | 9 | 0
+ 38   | AGR ARE 802958            | DIAS TOFFOLI | N | 9 | 0
+ 39   | AGR ARE 936925            | DIAS TOFFOLI | N | 8 | 2
+ 40   | AGR AI 685653             | DIAS TOFFOLI | N | 8 | 1
+ 41   | RHC 115982                | DIAS TOFFOLI | N | 8 | 1
+ 42   | RHC 115984                | DIAS TOFFOLI | N | 8 | 1
+ 43   | HC 104998                 | DIAS TOFFOLI | N | 8 | 1
+ 44   | AGR ARE 702992            | DIAS TOFFOLI | N | 8 | 1
+ 45   | AGR ARE 715586            | DIAS TOFFOLI | N | 8 | 1
+ 46   | AGR AI 361051             | DIAS TOFFOLI | N | 8 | 1
+ 47   | AGR HC 115357             | DIAS TOFFOLI | N | 8 | 1
+ 48   | AGR RE 626710             | DIAS TOFFOLI | N | 8 | 1
+ 49   | AGR RMS 29915             | DIAS TOFFOLI | N | 8 | 1
+ 50   | AGR RE 803242             | DIAS TOFFOLI | N | 8 | 1
+ 51   | AGR RCL 8037              | DIAS TOFFOLI | N | 8 | 1
+ 52   | HC 105016                 | DIAS TOFFOLI | N | 8 | 1
+ 53   | AGR AI 720665             | DIAS TOFFOLI | N | 8 | 1
+ 54   | AGR RHC 122174            | DIAS TOFFOLI | N | 8 | 1
+ 55   | AGR AI 629125             | DIAS TOFFOLI | N | 8 | 1
+ 56   | AGR RCL 18476             | DIAS TOFFOLI | N | 8 | 1
+ 57   | AGR RE 762268             | DIAS TOFFOLI | N | 8 | 1
+ 58   | HC 96465                  | DIAS TOFFOLI | N | 8 | 1
+ 59   | AGR RMS 27983             | DIAS TOFFOLI | N | 8 | 1
+ 60   | AGR AI 712893             | DIAS TOFFOLI | N | 8 | 1
+ 61   | RE 729884                 | DIAS TOFFOLI | N | 8 | 1
+ 62   | AGR AI 817365             | DIAS TOFFOLI | N | 8 | 1
+ 63   | AGR ARE 706288            | DIAS TOFFOLI | N | 8 | 0
+ 64   | ED AGR RE 524385          | DIAS TOFFOLI | N | 8 | 0
+ 65   | SEGUNDO AGR AI 813489     | DIAS TOFFOLI | N | 8 | 0
+ 66   | ED AGR ARE 732931         | DIAS TOFFOLI | N | 8 | 0
+ 67   | AGR ARE 832231            | DIAS TOFFOLI | N | 8 | 0
+ 68   | AGR AI 653062             | DIAS TOFFOLI | N | 8 | 0
+ 69   | AGR ARE 839629            | DIAS TOFFOLI | N | 8 | 0
+ 70   | AGR ARE 931275            | DIAS TOFFOLI | N | 8 | 0
+ 71   | AGR RE 539832             | DIAS TOFFOLI | N | 7 | 3
+ 72   | AGR RCL 12680             | DIAS TOFFOLI | N | 7 | 2
+ 73   | AGR AGR AI 446131         | DIAS TOFFOLI | N | 7 | 2
+ 74   | ED RE 699145              | DIAS TOFFOLI | N | 7 | 2
+ 75   | RHC 122181                | DIAS TOFFOLI | N | 7 | 2
+ 76   | HC 115869                 | DIAS TOFFOLI | N | 7 | 2
+ 77   | ED ED AGR AR 2137         | DIAS TOFFOLI | N | 7 | 2
+ 78   | MS 27704                  | DIAS TOFFOLI | N | 7 | 2
+ 79   | ED AGR AI 640855          | DIAS TOFFOLI | N | 7 | 2
+ 80   | AGR ARE 854734            | DIAS TOFFOLI | N | 7 | 2
+ 81   | AGR AI 848362             | DIAS TOFFOLI | N | 7 | 2
+ 82   | AGR RE 871442             | DIAS TOFFOLI | N | 7 | 2
+ 83   | AGR RMS 27189             | DIAS TOFFOLI | N | 7 | 2
+ 84   | ED AGR ED ARE 920144      | DIAS TOFFOLI | N | 7 | 2
+ 85   | AGR ARE 804313            | DIAS TOFFOLI | N | 7 | 1
+ 86   | HC 107412                 | DIAS TOFFOLI | N | 7 | 1
+ 87   | AGR AI 829186             | DIAS TOFFOLI | N | 7 | 1
+ 88   | AGR ACO 644               | DIAS TOFFOLI | N | 7 | 0
+ 89   | AGR RE 915179             | DIAS TOFFOLI | N | 7 | 0
+ 90   | AGR AI 858600             | DIAS TOFFOLI | N | 7 | 0
+ 91   | AGR AI 844260             | DIAS TOFFOLI | N | 6 | 3
+ 92   | ED AGR AI 843289          | DIAS TOFFOLI | N | 6 | 2
+ 93   | AGR AI 848332             | DIAS TOFFOLI | N | 6 | 2
+ 94   | AGR RE 526146             | DIAS TOFFOLI | N | 6 | 2
+ 95   | AGR ARE 637702            | DIAS TOFFOLI | N | 6 | 2
+ 96   | AGR AI 709448             | DIAS TOFFOLI | N | 6 | 1
+ 97   | ED AGR AI 776295          | DIAS TOFFOLI | N | 6 | 1
+ 98   | AGR ARE 893353            | DIAS TOFFOLI | N | 6 | 0
+ 99   | AGR ARE 681735            | DIAS TOFFOLI | N | 5 | 4
+ 100   | AGR AI 763785             | DIAS TOFFOLI | N | 5 | 3
+ 101   | AGR RCL 17406             | DIAS TOFFOLI | N | 5 | 2
+ 102   | AGR RE 593519             | DIAS TOFFOLI | N | 5 | 2
+ 103   | AGR AI 804138             | DIAS TOFFOLI | N | 5 | 2
+ 104   | AGR RE 777504             | DIAS TOFFOLI | N | 5 | 1
+ 105   | AGR AI 788602             | DIAS TOFFOLI | N | 5 | 1
+ 106   | MS 29192                  | DIAS TOFFOLI | N | 4 | 3
+ 107   | AGR RE 807645             | DIAS TOFFOLI | N | 4 | 2
+ 108   | AGR ARE 945486            | DIAS TOFFOLI | N | 4 | 2
+ 109   | AGR ARE 743134            | DIAS TOFFOLI | N | 4 | 1
+ 110   | ED INQ 4014               | DIAS TOFFOLI | N | 3 | 1
+ 111   | RHC 122183                | DIAS TOFFOLI | N | 3 | 1
+ 112   | ED AGR RE 755613          | DIAS TOFFOLI | N | 3 | 1
+ 113   | AGR ARE 827045            | DIAS TOFFOLI | N | 3 | 1
+ 114   | AGR AGR RCL 17113         | DIAS TOFFOLI | N | 3 | 0
+ 115   | AGR RE 503031             | DIAS TOFFOLI | N | 3 | 0
+ 116   | AGR RE 965701             | DIAS TOFFOLI | N | 3 | 0
+ 117   | AGR ARE 864746            | DIAS TOFFOLI | N | 3 | 0
+ 118   | AGR RE 980101             | DIAS TOFFOLI | N | 2 | 3
+ 119   | AGR AI 730619             | DIAS TOFFOLI | N | 2 | 3
+ 120   | HC 113104                 | DIAS TOFFOLI | N | 2 | 2
+ 121   | AGR AI 729784             | DIAS TOFFOLI | N | 2 | 1
+ 122   | AGR AI 814461             | DIAS TOFFOLI | N | 2 | 1
+ 123   | AGR RE 598912             | DIAS TOFFOLI | N | 2 | 1
+ 124   | AGR ARE 724396            | DIAS TOFFOLI | N | 2 | 1
+ 125   | HC 113445                 | DIAS TOFFOLI | N | 2 | 1
+ 126   | ED ADI 3601               | DIAS TOFFOLI | N | 2 | 1
+ 127   | AGR ARE 806891            | DIAS TOFFOLI | N | 2 | 1
+ 128   | AGR RE 611641             | DIAS TOFFOLI | N | 2 | 0
+ 129   | AGR ARE 869153            | DIAS TOFFOLI | N | 2 | 0
+ 130   | AGR ARE 937901            | DIAS TOFFOLI | N | 2 | 0
+ 131   | AGR ARE 896147            | DIAS TOFFOLI | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_4
+Number of decisions which appear on simulations: 232
+Number of items whose frequency is higher than 1: 131
+Number of decisions which could be in all iterations: 17
+decisões que aparecem pelo menos 10 vezes | 10
+decisões que aparecem pelo menos 9 vezes | 38
+decisões que aparecem pelo menos 8 vezes | 70
+143

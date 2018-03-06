@@ -1,0 +1,1370 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060               | LUIZ FUX | N | 0.001814
+ 2    | AGR ARE 803735         | LUIZ FUX | N | 0.000273
+ 3    | AGR ARE 664930         | LUIZ FUX | N | 0.000273
+ 4    | RHC 115986             | LUIZ FUX | N | 0.000273
+ 5    | ED AGR ARE 744445      | LUIZ FUX | N | 0.000273
+ 6    | AGR ARE 672420         | LUIZ FUX | N | 0.000273
+ 7    | AGR AI 705559          | LUIZ FUX | N | 0.000273
+ 8    | AGR AI 772265          | LUIZ FUX | N | 0.000273
+ 9    | HC 110133              | LUIZ FUX | N | 0.000273
+ 10   | AGR RMS 32379          | LUIZ FUX | N | 0.000273
+ 11   | AGR RE 798793          | LUIZ FUX | N | 0.000273
+ 12   | ED AI 789963           | LUIZ FUX | N | 0.000273
+ 13   | HC 109676              | LUIZ FUX | N | 0.000273
+ 14   | AGR RMS 32380          | LUIZ FUX | N | 0.000273
+ 15   | AGR HC 119554          | LUIZ FUX | N | 0.000273
+ 16   | ED AGR RCL 21333       | LUIZ FUX | N | 0.000273
+ 17   | RHC 117699             | LUIZ FUX | N | 0.000273
+ 18   | AGR ARE 843663         | LUIZ FUX | N | 0.000273
+ 19   | AGR RCL 23616          | LUIZ FUX | N | 0.000273
+ 20   | AGR EXT 1414           | LUIZ FUX | N | 0.000273
+ 21   | AGR ARE 799983         | LUIZ FUX | N | 0.000273
+ 22   | AGR RCL 2627           | LUIZ FUX | N | 0.000273
+ 23   | AGR RE 762466          | LUIZ FUX | N | 0.000273
+ 24   | ED AI 739772           | LUIZ FUX | N | 0.000273
+ 25   | AGR ARE 842599         | LUIZ FUX | N | 0.000273
+ 26   | AGR ARE 649711         | LUIZ FUX | N | 0.000273
+ 27   | AGR ARE 790427         | LUIZ FUX | N | 0.000273
+ 28   | AGR ARE 766977         | LUIZ FUX | N | 0.000273
+ 29   | RHC 122182             | LUIZ FUX | N | 0.000273
+ 30   | AGR ARE 914504         | LUIZ FUX | N | 0.000273
+ 31   | AGR ARE 867622         | LUIZ FUX | N | 0.000273
+ 32   | AGR ARE 684413         | LUIZ FUX | N | 0.000273
+ 33   | AGR AI 843666          | LUIZ FUX | N | 0.000273
+ 34   | AGR AI 747613          | LUIZ FUX | N | 0.000273
+ 35   | AGR AI 855942          | LUIZ FUX | N | 0.000273
+ 36   | ADI 4628               | LUIZ FUX | N | 0.000273
+ 37   | HC 115868              | LUIZ FUX | N | 0.000273
+ 38   | AGR ARE 672579         | LUIZ FUX | N | 0.000273
+ 39   | AGR ARE 937323         | LUIZ FUX | N | 0.000273
+ 40   | HC 114596              | LUIZ FUX | N | 0.000273
+ 41   | AGR RE 626436          | LUIZ FUX | N | 0.000273
+ 42   | RHC 115505             | LUIZ FUX | N | 0.000273
+ 43   | AGR AI 840376          | LUIZ FUX | N | 0.000273
+ 44   | AGR RE 637176          | LUIZ FUX | N | 0.000273
+ 45   | HC 115516              | LUIZ FUX | N | 0.000273
+ 46   | AGR AGR HC 100974      | LUIZ FUX | N | 0.000273
+ 47   | AGR ARE 652016         | LUIZ FUX | N | 0.000273
+ 48   | AGR ARE 684093         | LUIZ FUX | N | 0.000273
+ 49   | AGR ARE 842621         | LUIZ FUX | N | 0.000273
+ 50   | AGR RE 845429          | LUIZ FUX | N | 0.000273
+ 51   | AGR ARE 744532         | LUIZ FUX | N | 0.000273
+ 52   | AGR ARE 674807         | LUIZ FUX | N | 0.000273
+ 53   | ED MI 5731             | LUIZ FUX | N | 0.000273
+ 54   | AGR AI 764942          | LUIZ FUX | N | 0.000273
+ 55   | AGR RE 609513          | LUIZ FUX | N | 0.000273
+ 56   | AGR ARE 810615         | LUIZ FUX | N | 0.000273
+ 57   | ED AGR RE 650739       | LUIZ FUX | N | 0.000273
+ 58   | ED RE 598900           | LUIZ FUX | N | 0.000273
+ 59   | AGR RE 778331          | LUIZ FUX | N | 0.000273
+ 60   | AGR AI 843591          | LUIZ FUX | N | 0.000273
+ 61   | HC 118022              | LUIZ FUX | N | 0.000273
+ 62   | AGR ARE 730067         | LUIZ FUX | N | 0.000273
+ 63   | AGR RCL 19681          | LUIZ FUX | N | 0.000273
+ 64   | SEGUNDO AGR ARE 845343 | LUIZ FUX | N | 0.000273
+ 65   | ED AGR ARE 749432      | LUIZ FUX | N | 0.000273
+ 66   | AGR MS 32193           | LUIZ FUX | N | 0.000273
+ 67   | EI AP 470              | LUIZ FUX | N | 0.000273
+ 68   | AGR ARE 940271         | LUIZ FUX | N | 0.000273
+ 69   | INQ 3601               | LUIZ FUX | N | 0.000273
+ 70   | AGR AI 850037          | LUIZ FUX | N | 0.000273
+ 71   | HC 119997              | LUIZ FUX | N | 0.000273
+ 72   | AGR AI 763532          | LUIZ FUX | N | 0.000273
+ 73   | AGR ARE 728814         | LUIZ FUX | N | 0.000273
+ 74   | RHC 104751             | LUIZ FUX | N | 0.000273
+ 75   | ED AI 843269           | LUIZ FUX | N | 0.000273
+ 76   | ED AGR ARE 884527      | LUIZ FUX | N | 0.000273
+ 77   | AGR ARE 679150         | LUIZ FUX | N | 0.000273
+ 78   | AGR ARE 720459         | LUIZ FUX | N | 0.000273
+ 79   | AGR HC 116990          | LUIZ FUX | N | 0.000273
+ 80   | AGR RE 621637          | LUIZ FUX | N | 0.000273
+ 81   | HC 114115              | LUIZ FUX | N | 0.000273
+ 82   | AGR ARE 721109         | LUIZ FUX | N | 0.000273
+ 83   | ED AI 845838           | LUIZ FUX | N | 0.000273
+ 84   | AGR ARE 825766         | LUIZ FUX | N | 0.000273
+ 85   | AGR ARE 987270         | LUIZ FUX | N | 0.000273
+ 86   | AGR ARE 686707         | LUIZ FUX | N | 0.000273
+ 87   | AGR ARE 917891         | LUIZ FUX | N | 0.000273
+ 88   | AGR AI 833613          | LUIZ FUX | N | 0.000273
+ 89   | HC 115701              | LUIZ FUX | N | 0.000273
+ 90   | HC 122579              | LUIZ FUX | N | 0.000273
+ 91   | HC 119976              | LUIZ FUX | N | 0.000273
+ 92   | AGR HC 134976          | LUIZ FUX | N | 0.000273
+ 93   | AGR AI 814128          | LUIZ FUX | N | 0.000273
+ 94   | AGR ARE 700610         | LUIZ FUX | N | 0.000273
+ 95   | HC 114388              | LUIZ FUX | N | 0.000273
+ 96   | AGR ARE 807707         | LUIZ FUX | N | 0.000273
+ 97   | AGR RE 793298          | LUIZ FUX | N | 0.000273
+ 98   | AGR ARE 653168         | LUIZ FUX | N | 0.000273
+ 99   | HC 104767              | LUIZ FUX | N | 0.000273
+ 100  | ED ARE 847714          | LUIZ FUX | N | 0.000273
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 772265    | LUIZ FUX | N
+ AGR ARE 842599   | LUIZ FUX | N
+ HC 115516        | LUIZ FUX | N
+ AGR RE 845429    | LUIZ FUX | N
+ AGR AI 764942    | LUIZ FUX | N
+ ED AGR RE 650739 | LUIZ FUX | N
+ AGR RE 778331    | LUIZ FUX | N
+ AGR ARE 679150   | LUIZ FUX | N
+ AGR ARE 807707   | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060              | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735        | LUIZ FUX | N | 0.000303
+ 3    | RHC 115986            | LUIZ FUX | N | 0.000303
+ 4    | ED AGR ARE 744445     | LUIZ FUX | N | 0.000303
+ 5    | AGR ARE 672420        | LUIZ FUX | N | 0.000303
+ 6    | AGR AI 705559         | LUIZ FUX | N | 0.000303
+ 7    | HC 110133             | LUIZ FUX | N | 0.000303
+ 8    | AGR RMS 32379         | LUIZ FUX | N | 0.000303
+ 9    | AGR RE 798793         | LUIZ FUX | N | 0.000303
+ 10   | ED AI 789963          | LUIZ FUX | N | 0.000303
+ 11   | HC 109676             | LUIZ FUX | N | 0.000303
+ 12   | AGR RMS 32380         | LUIZ FUX | N | 0.000303
+ 13   | AGR HC 119554         | LUIZ FUX | N | 0.000303
+ 14   | ED AGR RCL 21333      | LUIZ FUX | N | 0.000303
+ 15   | RHC 117699            | LUIZ FUX | N | 0.000303
+ 16   | AGR ARE 843663        | LUIZ FUX | N | 0.000303
+ 17   | AGR RCL 23616         | LUIZ FUX | N | 0.000303
+ 18   | AGR EXT 1414          | LUIZ FUX | N | 0.000303
+ 19   | AGR RCL 2627          | LUIZ FUX | N | 0.000303
+ 20   | AGR RE 762466         | LUIZ FUX | N | 0.000303
+ 21   | ED AI 739772          | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 649711        | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 790427        | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 766977        | LUIZ FUX | N | 0.000303
+ 25   | RHC 122182            | LUIZ FUX | N | 0.000303
+ 26   | AGR ARE 914504        | LUIZ FUX | N | 0.000303
+ 27   | AGR ARE 867622        | LUIZ FUX | N | 0.000303
+ 28   | AGR ARE 684413        | LUIZ FUX | N | 0.000303
+ 29   | AGR AI 843666         | LUIZ FUX | N | 0.000303
+ 30   | AGR AI 747613         | LUIZ FUX | N | 0.000303
+ 31   | AGR AI 855942         | LUIZ FUX | N | 0.000303
+ 32   | ADI 4628              | LUIZ FUX | N | 0.000303
+ 33   | HC 115868             | LUIZ FUX | N | 0.000303
+ 34   | AGR ARE 672579        | LUIZ FUX | N | 0.000303
+ 35   | AGR ARE 937323        | LUIZ FUX | N | 0.000303
+ 36   | HC 114596             | LUIZ FUX | N | 0.000303
+ 37   | AGR RE 626436         | LUIZ FUX | N | 0.000303
+ 38   | RHC 115505            | LUIZ FUX | N | 0.000303
+ 39   | AGR AI 840376         | LUIZ FUX | N | 0.000303
+ 40   | AGR RE 637176         | LUIZ FUX | N | 0.000303
+ 41   | AGR ARE 680081        | LUIZ FUX | N | 0.000303
+ 42   | AGR AGR HC 100974     | LUIZ FUX | N | 0.000303
+ 43   | AGR ARE 652016        | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 684093        | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 842621        | LUIZ FUX | N | 0.000303
+ 46   | AGR ARE 725714        | LUIZ FUX | N | 0.000303
+ 47   | AGR ARE 744532        | LUIZ FUX | N | 0.000303
+ 48   | AGR ARE 674807        | LUIZ FUX | N | 0.000303
+ 49   | ED MI 5731            | LUIZ FUX | N | 0.000303
+ 50   | AGR RE 609513         | LUIZ FUX | N | 0.000303
+ 51   | AGR ARE 810615        | LUIZ FUX | N | 0.000303
+ 52   | SEGUNDO AGR RCL 21691 | LUIZ FUX | N | 0.000303
+ 53   | ED RE 598900          | LUIZ FUX | N | 0.000303
+ 54   | AGR AI 843591         | LUIZ FUX | N | 0.000303
+ 55   | HC 118022             | LUIZ FUX | N | 0.000303
+ 56   | AGR ARE 653188        | LUIZ FUX | N | 0.000303
+ 57   | AGR RCL 19681         | LUIZ FUX | N | 0.000303
+ 58   | AGR MS 32193          | LUIZ FUX | N | 0.000303
+ 59   | EI AP 470             | LUIZ FUX | N | 0.000303
+ 60   | AGR ARE 940271        | LUIZ FUX | N | 0.000303
+ 61   | INQ 3601              | LUIZ FUX | N | 0.000303
+ 62   | AGR AI 850037         | LUIZ FUX | N | 0.000303
+ 63   | HC 119997             | LUIZ FUX | N | 0.000303
+ 64   | AGR AI 763532         | LUIZ FUX | N | 0.000303
+ 65   | AGR ARE 728814        | LUIZ FUX | N | 0.000303
+ 66   | RHC 104751            | LUIZ FUX | N | 0.000303
+ 67   | ED AI 843269          | LUIZ FUX | N | 0.000303
+ 68   | ED AGR ARE 884527     | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 720459        | LUIZ FUX | N | 0.000303
+ 70   | AGR HC 116990         | LUIZ FUX | N | 0.000303
+ 71   | AGR RE 621637         | LUIZ FUX | N | 0.000303
+ 72   | HC 114115             | LUIZ FUX | N | 0.000303
+ 73   | AGR ARE 721109        | LUIZ FUX | N | 0.000303
+ 74   | ED AI 845838          | LUIZ FUX | N | 0.000303
+ 75   | AGR ARE 825766        | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 987270        | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 686707        | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 917891        | LUIZ FUX | N | 0.000303
+ 79   | AGR AI 833613         | LUIZ FUX | N | 0.000303
+ 80   | HC 115701             | LUIZ FUX | N | 0.000303
+ 81   | HC 122579             | LUIZ FUX | N | 0.000303
+ 82   | HC 119976             | LUIZ FUX | N | 0.000303
+ 83   | AGR HC 134976         | LUIZ FUX | N | 0.000303
+ 84   | AGR ARE 700610        | LUIZ FUX | N | 0.000303
+ 85   | ED AI 845865          | LUIZ FUX | N | 0.000303
+ 86   | AGR RE 793298         | LUIZ FUX | N | 0.000303
+ 87   | AGR ARE 653168        | LUIZ FUX | N | 0.000303
+ 88   | HC 104767             | LUIZ FUX | N | 0.000303
+ 89   | ED ARE 847714         | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 914079        | LUIZ FUX | N | 0.000303
+ 91   | ED ARE 892315         | LUIZ FUX | N | 0.000303
+ 92   | RHC 111211            | LUIZ FUX | N | 0.000303
+ 93   | AGR MS 31951          | LUIZ FUX | N | 0.000303
+ 94   | AGR RHC 117866        | LUIZ FUX | N | 0.000303
+ 95   | AGR RE 538000         | LUIZ FUX | N | 0.000303
+ 96   | AGR ARE 734588        | LUIZ FUX | N | 0.000303
+ 97   | AGR ARE 700296        | LUIZ FUX | N | 0.000303
+ 98   | ADI 3649              | LUIZ FUX | N | 0.000303
+ 99   | AGR RCL 15439         | LUIZ FUX | N | 0.000303
+ 100  | AGR MS 33397          | LUIZ FUX | N | 0.000303
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR HC 119554  | LUIZ FUX | N
+ AGR AI 843591  | LUIZ FUX | N
+ HC 118022      | LUIZ FUX | N
+ HC 119997      | LUIZ FUX | N
+ AGR ARE 914079 | LUIZ FUX | N
+ AGR RHC 117866 | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060          | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735    | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 664930    | LUIZ FUX | N | 0.000303
+ 4    | RHC 115986        | LUIZ FUX | N | 0.000303
+ 5    | ED AGR ARE 744445 | LUIZ FUX | N | 0.000303
+ 6    | AGR ARE 672420    | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 705559     | LUIZ FUX | N | 0.000303
+ 8    | AGR AI 772265     | LUIZ FUX | N | 0.000303
+ 9    | HC 110133         | LUIZ FUX | N | 0.000303
+ 10   | AGR RMS 32379     | LUIZ FUX | N | 0.000303
+ 11   | AGR RE 798793     | LUIZ FUX | N | 0.000303
+ 12   | ED AI 789963      | LUIZ FUX | N | 0.000303
+ 13   | HC 109676         | LUIZ FUX | N | 0.000303
+ 14   | AGR RMS 32380     | LUIZ FUX | N | 0.000303
+ 15   | ED AGR RCL 21333  | LUIZ FUX | N | 0.000303
+ 16   | RHC 117699        | LUIZ FUX | N | 0.000303
+ 17   | AGR ARE 843663    | LUIZ FUX | N | 0.000303
+ 18   | AGR RCL 23616     | LUIZ FUX | N | 0.000303
+ 19   | AGR EXT 1414      | LUIZ FUX | N | 0.000303
+ 20   | AGR ARE 799983    | LUIZ FUX | N | 0.000303
+ 21   | AGR RCL 2627      | LUIZ FUX | N | 0.000303
+ 22   | AGR RE 762466     | LUIZ FUX | N | 0.000303
+ 23   | ED AI 739772      | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 842599    | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 649711    | LUIZ FUX | N | 0.000303
+ 26   | AGR ARE 790427    | LUIZ FUX | N | 0.000303
+ 27   | AGR ARE 766977    | LUIZ FUX | N | 0.000303
+ 28   | RHC 122182        | LUIZ FUX | N | 0.000303
+ 29   | AGR ARE 914504    | LUIZ FUX | N | 0.000303
+ 30   | AGR ARE 867622    | LUIZ FUX | N | 0.000303
+ 31   | AGR ARE 684413    | LUIZ FUX | N | 0.000303
+ 32   | AGR AI 843666     | LUIZ FUX | N | 0.000303
+ 33   | AGR AI 747613     | LUIZ FUX | N | 0.000303
+ 34   | AGR AI 855942     | LUIZ FUX | N | 0.000303
+ 35   | ADI 4628          | LUIZ FUX | N | 0.000303
+ 36   | HC 115868         | LUIZ FUX | N | 0.000303
+ 37   | AGR ARE 672579    | LUIZ FUX | N | 0.000303
+ 38   | AGR ARE 937323    | LUIZ FUX | N | 0.000303
+ 39   | HC 114596         | LUIZ FUX | N | 0.000303
+ 40   | AGR RE 626436     | LUIZ FUX | N | 0.000303
+ 41   | RHC 115505        | LUIZ FUX | N | 0.000303
+ 42   | AGR AI 840376     | LUIZ FUX | N | 0.000303
+ 43   | AGR RE 637176     | LUIZ FUX | N | 0.000303
+ 44   | HC 115516         | LUIZ FUX | N | 0.000303
+ 45   | AGR AGR HC 100974 | LUIZ FUX | N | 0.000303
+ 46   | AGR ARE 652016    | LUIZ FUX | N | 0.000303
+ 47   | AGR ARE 684093    | LUIZ FUX | N | 0.000303
+ 48   | AGR ARE 842621    | LUIZ FUX | N | 0.000303
+ 49   | AGR RE 845429     | LUIZ FUX | N | 0.000303
+ 50   | AGR ARE 744532    | LUIZ FUX | N | 0.000303
+ 51   | AGR ARE 674807    | LUIZ FUX | N | 0.000303
+ 52   | ED MI 5731        | LUIZ FUX | N | 0.000303
+ 53   | AGR AI 764942     | LUIZ FUX | N | 0.000303
+ 54   | AGR RE 609513     | LUIZ FUX | N | 0.000303
+ 55   | AGR ARE 810615    | LUIZ FUX | N | 0.000303
+ 56   | ED AGR RE 650739  | LUIZ FUX | N | 0.000303
+ 57   | ED RE 598900      | LUIZ FUX | N | 0.000303
+ 58   | AGR RE 778331     | LUIZ FUX | N | 0.000303
+ 59   | AGR AR 2388       | LUIZ FUX | N | 0.000303
+ 60   | AGR ARE 653188    | LUIZ FUX | N | 0.000303
+ 61   | AGR RCL 19681     | LUIZ FUX | N | 0.000303
+ 62   | ED AGR ARE 749432 | LUIZ FUX | N | 0.000303
+ 63   | AGR MS 32193      | LUIZ FUX | N | 0.000303
+ 64   | EI AP 470         | LUIZ FUX | N | 0.000303
+ 65   | AGR ARE 940271    | LUIZ FUX | N | 0.000303
+ 66   | INQ 3601          | LUIZ FUX | N | 0.000303
+ 67   | AGR AI 850037     | LUIZ FUX | N | 0.000303
+ 68   | AGR AI 763532     | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 728814    | LUIZ FUX | N | 0.000303
+ 70   | RHC 104751        | LUIZ FUX | N | 0.000303
+ 71   | ED AI 843269      | LUIZ FUX | N | 0.000303
+ 72   | ED AGR ARE 884527 | LUIZ FUX | N | 0.000303
+ 73   | AGR ARE 679150    | LUIZ FUX | N | 0.000303
+ 74   | AGR ARE 720459    | LUIZ FUX | N | 0.000303
+ 75   | AGR HC 116990     | LUIZ FUX | N | 0.000303
+ 76   | AGR RE 621637     | LUIZ FUX | N | 0.000303
+ 77   | HC 114115         | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 721109    | LUIZ FUX | N | 0.000303
+ 79   | ED AI 845838      | LUIZ FUX | N | 0.000303
+ 80   | AGR ARE 825766    | LUIZ FUX | N | 0.000303
+ 81   | AGR ARE 987270    | LUIZ FUX | N | 0.000303
+ 82   | AGR ARE 686707    | LUIZ FUX | N | 0.000303
+ 83   | AGR ARE 917891    | LUIZ FUX | N | 0.000303
+ 84   | AGR AI 833613     | LUIZ FUX | N | 0.000303
+ 85   | HC 115701         | LUIZ FUX | N | 0.000303
+ 86   | HC 122579         | LUIZ FUX | N | 0.000303
+ 87   | HC 119976         | LUIZ FUX | N | 0.000303
+ 88   | AGR HC 134976     | LUIZ FUX | N | 0.000303
+ 89   | AGR AI 814128     | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 700610    | LUIZ FUX | N | 0.000303
+ 91   | HC 114388         | LUIZ FUX | N | 0.000303
+ 92   | AGR ARE 807707    | LUIZ FUX | N | 0.000303
+ 93   | AGR RE 793298     | LUIZ FUX | N | 0.000303
+ 94   | AGR ARE 653168    | LUIZ FUX | N | 0.000303
+ 95   | HC 104767         | LUIZ FUX | N | 0.000303
+ 96   | ED ARE 847714     | LUIZ FUX | N | 0.000303
+ 97   | ED ARE 892315     | LUIZ FUX | N | 0.000303
+ 98   | RHC 111211        | LUIZ FUX | N | 0.000303
+ 99   | AGR MS 31951      | LUIZ FUX | N | 0.000303
+ 100  | AGR RE 538000     | LUIZ FUX | N | 0.000303
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 772265  | LUIZ FUX | N
+ RHC 122182     | LUIZ FUX | N
+ AGR ARE 867622 | LUIZ FUX | N
+ AGR ARE 937323 | LUIZ FUX | N
+ AGR AI 840376  | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060          | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735    | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 664930    | LUIZ FUX | N | 0.000303
+ 4    | RHC 115986        | LUIZ FUX | N | 0.000303
+ 5    | ED AGR ARE 744445 | LUIZ FUX | N | 0.000303
+ 6    | AGR ARE 672420    | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 705559     | LUIZ FUX | N | 0.000303
+ 8    | HC 110133         | LUIZ FUX | N | 0.000303
+ 9    | ED AI 789963      | LUIZ FUX | N | 0.000303
+ 10   | HC 109676         | LUIZ FUX | N | 0.000303
+ 11   | AGR RMS 32380     | LUIZ FUX | N | 0.000303
+ 12   | AGR HC 119554     | LUIZ FUX | N | 0.000303
+ 13   | ED AGR RCL 21333  | LUIZ FUX | N | 0.000303
+ 14   | RHC 117699        | LUIZ FUX | N | 0.000303
+ 15   | AGR ARE 843663    | LUIZ FUX | N | 0.000303
+ 16   | AGR RCL 23616     | LUIZ FUX | N | 0.000303
+ 17   | AGR EXT 1414      | LUIZ FUX | N | 0.000303
+ 18   | AGR ARE 799983    | LUIZ FUX | N | 0.000303
+ 19   | AGR RCL 2627      | LUIZ FUX | N | 0.000303
+ 20   | AGR RE 762466     | LUIZ FUX | N | 0.000303
+ 21   | ED AI 739772      | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 842599    | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 649711    | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 790427    | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 766977    | LUIZ FUX | N | 0.000303
+ 26   | AGR RCL 20834     | LUIZ FUX | N | 0.000303
+ 27   | AGR ARE 684413    | LUIZ FUX | N | 0.000303
+ 28   | AGR AI 843666     | LUIZ FUX | N | 0.000303
+ 29   | AGR AI 747613     | LUIZ FUX | N | 0.000303
+ 30   | AGR AI 855942     | LUIZ FUX | N | 0.000303
+ 31   | ADI 4628          | LUIZ FUX | N | 0.000303
+ 32   | HC 115868         | LUIZ FUX | N | 0.000303
+ 33   | AGR ARE 672579    | LUIZ FUX | N | 0.000303
+ 34   | HC 114596         | LUIZ FUX | N | 0.000303
+ 35   | AGR RE 626436     | LUIZ FUX | N | 0.000303
+ 36   | RHC 115505        | LUIZ FUX | N | 0.000303
+ 37   | AGR RE 637176     | LUIZ FUX | N | 0.000303
+ 38   | HC 115516         | LUIZ FUX | N | 0.000303
+ 39   | AGR AGR HC 100974 | LUIZ FUX | N | 0.000303
+ 40   | AGR ARE 652016    | LUIZ FUX | N | 0.000303
+ 41   | AGR ARE 684093    | LUIZ FUX | N | 0.000303
+ 42   | AGR ARE 842621    | LUIZ FUX | N | 0.000303
+ 43   | AGR RE 845429     | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 744532    | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 674807    | LUIZ FUX | N | 0.000303
+ 46   | ED MI 5731        | LUIZ FUX | N | 0.000303
+ 47   | AGR AI 764942     | LUIZ FUX | N | 0.000303
+ 48   | AGR RE 609513     | LUIZ FUX | N | 0.000303
+ 49   | AGR ARE 810615    | LUIZ FUX | N | 0.000303
+ 50   | ED AGR RE 650739  | LUIZ FUX | N | 0.000303
+ 51   | ED RE 598900      | LUIZ FUX | N | 0.000303
+ 52   | AGR RE 778331     | LUIZ FUX | N | 0.000303
+ 53   | AGR AI 843591     | LUIZ FUX | N | 0.000303
+ 54   | HC 118022         | LUIZ FUX | N | 0.000303
+ 55   | AGR ARE 653188    | LUIZ FUX | N | 0.000303
+ 56   | AGR RCL 19681     | LUIZ FUX | N | 0.000303
+ 57   | ED AGR ARE 749432 | LUIZ FUX | N | 0.000303
+ 58   | AGR MS 32193      | LUIZ FUX | N | 0.000303
+ 59   | EI AP 470         | LUIZ FUX | N | 0.000303
+ 60   | AGR ARE 940271    | LUIZ FUX | N | 0.000303
+ 61   | INQ 3601          | LUIZ FUX | N | 0.000303
+ 62   | AGR AI 850037     | LUIZ FUX | N | 0.000303
+ 63   | HC 119997         | LUIZ FUX | N | 0.000303
+ 64   | AGR AI 763532     | LUIZ FUX | N | 0.000303
+ 65   | AGR ARE 728814    | LUIZ FUX | N | 0.000303
+ 66   | RHC 104751        | LUIZ FUX | N | 0.000303
+ 67   | ED AI 843269      | LUIZ FUX | N | 0.000303
+ 68   | AGR ARE 918295    | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 679150    | LUIZ FUX | N | 0.000303
+ 70   | AGR ARE 720459    | LUIZ FUX | N | 0.000303
+ 71   | AGR HC 116990     | LUIZ FUX | N | 0.000303
+ 72   | AGR RE 621637     | LUIZ FUX | N | 0.000303
+ 73   | HC 114115         | LUIZ FUX | N | 0.000303
+ 74   | AGR ARE 721109    | LUIZ FUX | N | 0.000303
+ 75   | ED AI 845838      | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 825766    | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 686707    | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 917891    | LUIZ FUX | N | 0.000303
+ 79   | AGR AI 833613     | LUIZ FUX | N | 0.000303
+ 80   | HC 115701         | LUIZ FUX | N | 0.000303
+ 81   | HC 122579         | LUIZ FUX | N | 0.000303
+ 82   | HC 119976         | LUIZ FUX | N | 0.000303
+ 83   | AGR HC 134976     | LUIZ FUX | N | 0.000303
+ 84   | AGR ARE 700610    | LUIZ FUX | N | 0.000303
+ 85   | ED AI 845865      | LUIZ FUX | N | 0.000303
+ 86   | AGR ARE 807707    | LUIZ FUX | N | 0.000303
+ 87   | AGR RE 793298     | LUIZ FUX | N | 0.000303
+ 88   | AGR ARE 653168    | LUIZ FUX | N | 0.000303
+ 89   | HC 104767         | LUIZ FUX | N | 0.000303
+ 90   | ED ARE 847714     | LUIZ FUX | N | 0.000303
+ 91   | AGR ARE 914079    | LUIZ FUX | N | 0.000303
+ 92   | ED ARE 892315     | LUIZ FUX | N | 0.000303
+ 93   | RHC 111211        | LUIZ FUX | N | 0.000303
+ 94   | AGR MS 31951      | LUIZ FUX | N | 0.000303
+ 95   | AGR RHC 117866    | LUIZ FUX | N | 0.000303
+ 96   | AGR RE 538000     | LUIZ FUX | N | 0.000303
+ 97   | AGR ARE 734588    | LUIZ FUX | N | 0.000303
+ 98   | AGR ARE 700296    | LUIZ FUX | N | 0.000303
+ 99   | ADI 3649          | LUIZ FUX | N | 0.000303
+ 100  | AGR RCL 15439     | LUIZ FUX | N | 0.000303
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 4060          | LUIZ FUX | N
+ RHC 115986        | LUIZ FUX | N
+ AGR EXT 1414      | LUIZ FUX | N
+ ED AI 739772      | LUIZ FUX | N
+ AGR AI 747613     | LUIZ FUX | N
+ ADI 4628          | LUIZ FUX | N
+ AGR ARE 674807    | LUIZ FUX | N
+ HC 118022         | LUIZ FUX | N
+ ED AGR ARE 749432 | LUIZ FUX | N
+ HC 114115         | LUIZ FUX | N
+ AGR ARE 686707    | LUIZ FUX | N
+ AGR ARE 700610    | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | AGR ARE 803735    | LUIZ FUX | N | 0.000303
+ 2    | ED AGR ARE 744445 | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 672420    | LUIZ FUX | N | 0.000303
+ 4    | AGR AI 705559     | LUIZ FUX | N | 0.000303
+ 5    | AGR AI 772265     | LUIZ FUX | N | 0.000303
+ 6    | HC 110133         | LUIZ FUX | N | 0.000303
+ 7    | ED AI 789963      | LUIZ FUX | N | 0.000303
+ 8    | HC 109676         | LUIZ FUX | N | 0.000303
+ 9    | AGR RMS 32380     | LUIZ FUX | N | 0.000303
+ 10   | AGR HC 119554     | LUIZ FUX | N | 0.000303
+ 11   | ED AGR RCL 21333  | LUIZ FUX | N | 0.000303
+ 12   | RHC 117699        | LUIZ FUX | N | 0.000303
+ 13   | AGR ARE 843663    | LUIZ FUX | N | 0.000303
+ 14   | AGR RCL 23616     | LUIZ FUX | N | 0.000303
+ 15   | AGR ARE 799983    | LUIZ FUX | N | 0.000303
+ 16   | AGR RCL 2627      | LUIZ FUX | N | 0.000303
+ 17   | AGR RE 762466     | LUIZ FUX | N | 0.000303
+ 18   | AGR ARE 842599    | LUIZ FUX | N | 0.000303
+ 19   | AGR ARE 649711    | LUIZ FUX | N | 0.000303
+ 20   | AGR ARE 790427    | LUIZ FUX | N | 0.000303
+ 21   | AGR ARE 766977    | LUIZ FUX | N | 0.000303
+ 22   | RHC 122182        | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 914504    | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 867622    | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 684413    | LUIZ FUX | N | 0.000303
+ 26   | AGR AI 843666     | LUIZ FUX | N | 0.000303
+ 27   | AGR AI 855942     | LUIZ FUX | N | 0.000303
+ 28   | HC 115868         | LUIZ FUX | N | 0.000303
+ 29   | AGR ARE 672579    | LUIZ FUX | N | 0.000303
+ 30   | AGR ARE 937323    | LUIZ FUX | N | 0.000303
+ 31   | HC 114596         | LUIZ FUX | N | 0.000303
+ 32   | AGR RE 626436     | LUIZ FUX | N | 0.000303
+ 33   | RHC 115505        | LUIZ FUX | N | 0.000303
+ 34   | AGR AI 840376     | LUIZ FUX | N | 0.000303
+ 35   | AGR RE 637176     | LUIZ FUX | N | 0.000303
+ 36   | HC 115516         | LUIZ FUX | N | 0.000303
+ 37   | AGR AGR HC 100974 | LUIZ FUX | N | 0.000303
+ 38   | AGR ARE 652016    | LUIZ FUX | N | 0.000303
+ 39   | AGR ARE 684093    | LUIZ FUX | N | 0.000303
+ 40   | AGR ARE 842621    | LUIZ FUX | N | 0.000303
+ 41   | AGR RE 845429     | LUIZ FUX | N | 0.000303
+ 42   | AGR ARE 744532    | LUIZ FUX | N | 0.000303
+ 43   | AGR AI 846252     | LUIZ FUX | N | 0.000303
+ 44   | ED MI 5731        | LUIZ FUX | N | 0.000303
+ 45   | AGR AI 764942     | LUIZ FUX | N | 0.000303
+ 46   | AGR RE 609513     | LUIZ FUX | N | 0.000303
+ 47   | AGR ARE 810615    | LUIZ FUX | N | 0.000303
+ 48   | ED AGR RE 650739  | LUIZ FUX | N | 0.000303
+ 49   | ED RE 598900      | LUIZ FUX | N | 0.000303
+ 50   | AGR RE 778331     | LUIZ FUX | N | 0.000303
+ 51   | AGR AI 843591     | LUIZ FUX | N | 0.000303
+ 52   | AGR ARE 653188    | LUIZ FUX | N | 0.000303
+ 53   | AGR RCL 19681     | LUIZ FUX | N | 0.000303
+ 54   | AGR MS 32193      | LUIZ FUX | N | 0.000303
+ 55   | EI AP 470         | LUIZ FUX | N | 0.000303
+ 56   | AGR ARE 940271    | LUIZ FUX | N | 0.000303
+ 57   | INQ 3601          | LUIZ FUX | N | 0.000303
+ 58   | AGR AI 850037     | LUIZ FUX | N | 0.000303
+ 59   | HC 119997         | LUIZ FUX | N | 0.000303
+ 60   | AGR AI 763532     | LUIZ FUX | N | 0.000303
+ 61   | AGR ARE 728814    | LUIZ FUX | N | 0.000303
+ 62   | RHC 104751        | LUIZ FUX | N | 0.000303
+ 63   | ED AI 843269      | LUIZ FUX | N | 0.000303
+ 64   | ED AGR ARE 884527 | LUIZ FUX | N | 0.000303
+ 65   | AGR ARE 679150    | LUIZ FUX | N | 0.000303
+ 66   | AGR ARE 720459    | LUIZ FUX | N | 0.000303
+ 67   | AGR HC 116990     | LUIZ FUX | N | 0.000303
+ 68   | AGR RE 621637     | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 721109    | LUIZ FUX | N | 0.000303
+ 70   | ED AI 845838      | LUIZ FUX | N | 0.000303
+ 71   | AGR ARE 825766    | LUIZ FUX | N | 0.000303
+ 72   | AGR ARE 987270    | LUIZ FUX | N | 0.000303
+ 73   | HC 122571         | LUIZ FUX | N | 0.000303
+ 74   | AGR ARE 917891    | LUIZ FUX | N | 0.000303
+ 75   | AGR AI 833613     | LUIZ FUX | N | 0.000303
+ 76   | HC 115701         | LUIZ FUX | N | 0.000303
+ 77   | HC 122579         | LUIZ FUX | N | 0.000303
+ 78   | HC 119976         | LUIZ FUX | N | 0.000303
+ 79   | AGR HC 134976     | LUIZ FUX | N | 0.000303
+ 80   | AGR AI 814128     | LUIZ FUX | N | 0.000303
+ 81   | ED AI 845865      | LUIZ FUX | N | 0.000303
+ 82   | AGR ARE 807707    | LUIZ FUX | N | 0.000303
+ 83   | AGR RE 793298     | LUIZ FUX | N | 0.000303
+ 84   | AGR ARE 653168    | LUIZ FUX | N | 0.000303
+ 85   | HC 104767         | LUIZ FUX | N | 0.000303
+ 86   | ED ARE 847714     | LUIZ FUX | N | 0.000303
+ 87   | AGR ARE 914079    | LUIZ FUX | N | 0.000303
+ 88   | ED ARE 892315     | LUIZ FUX | N | 0.000303
+ 89   | RHC 111211        | LUIZ FUX | N | 0.000303
+ 90   | AGR MS 31951      | LUIZ FUX | N | 0.000303
+ 91   | AGR RHC 117866    | LUIZ FUX | N | 0.000303
+ 92   | AGR RE 538000     | LUIZ FUX | N | 0.000303
+ 93   | AGR ARE 734588    | LUIZ FUX | N | 0.000303
+ 94   | AGR ARE 700296    | LUIZ FUX | N | 0.000303
+ 95   | ADI 3649          | LUIZ FUX | N | 0.000303
+ 96   | AGR RCL 15439     | LUIZ FUX | N | 0.000303
+ 97   | AGR MS 33397      | LUIZ FUX | N | 0.000303
+ 98   | RHC 111433        | LUIZ FUX | N | 0.000303
+ 99   | AGR MS 27031      | LUIZ FUX | N | 0.000303
+ 100  | AGR MS 27052      | LUIZ FUX | N | 0.000303
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 803735 | LUIZ FUX | N
+ AGR ARE 843663 | LUIZ FUX | N
+ AGR ARE 867622 | LUIZ FUX | N
+ AGR ARE 672579 | LUIZ FUX | N
+ AGR RE 609513  | LUIZ FUX | N
+ AGR AI 843591  | LUIZ FUX | N
+ AGR ARE 728814 | LUIZ FUX | N
+ AGR ARE 721109 | LUIZ FUX | N
+ AGR ARE 987270 | LUIZ FUX | N
+ HC 119976      | LUIZ FUX | N
+ HC 104767      | LUIZ FUX | N
+ AGR MS 31951   | LUIZ FUX | N
+ AGR MS 27031   | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060               | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 664930         | LUIZ FUX | N | 0.000303
+ 3    | RHC 115986             | LUIZ FUX | N | 0.000303
+ 4    | ED AGR ARE 744445      | LUIZ FUX | N | 0.000303
+ 5    | AGR ARE 672420         | LUIZ FUX | N | 0.000303
+ 6    | AGR AI 705559          | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 772265          | LUIZ FUX | N | 0.000303
+ 8    | HC 110133              | LUIZ FUX | N | 0.000303
+ 9    | AGR RE 798793          | LUIZ FUX | N | 0.000303
+ 10   | ED AI 789963           | LUIZ FUX | N | 0.000303
+ 11   | HC 109676              | LUIZ FUX | N | 0.000303
+ 12   | AGR RMS 32380          | LUIZ FUX | N | 0.000303
+ 13   | AGR HC 119554          | LUIZ FUX | N | 0.000303
+ 14   | ED AGR RCL 21333       | LUIZ FUX | N | 0.000303
+ 15   | RHC 117699             | LUIZ FUX | N | 0.000303
+ 16   | AGR RCL 23616          | LUIZ FUX | N | 0.000303
+ 17   | AGR EXT 1414           | LUIZ FUX | N | 0.000303
+ 18   | AGR ARE 799983         | LUIZ FUX | N | 0.000303
+ 19   | AGR RCL 2627           | LUIZ FUX | N | 0.000303
+ 20   | AGR RE 762466          | LUIZ FUX | N | 0.000303
+ 21   | AGR ARE 842599         | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 649711         | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 790427         | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 766977         | LUIZ FUX | N | 0.000303
+ 25   | RHC 122182             | LUIZ FUX | N | 0.000303
+ 26   | AGR ARE 914504         | LUIZ FUX | N | 0.000303
+ 27   | AGR RCL 20834          | LUIZ FUX | N | 0.000303
+ 28   | AGR ARE 684413         | LUIZ FUX | N | 0.000303
+ 29   | AGR AI 843666          | LUIZ FUX | N | 0.000303
+ 30   | AGR AI 747613          | LUIZ FUX | N | 0.000303
+ 31   | AGR AI 855942          | LUIZ FUX | N | 0.000303
+ 32   | ADI 4628               | LUIZ FUX | N | 0.000303
+ 33   | HC 115868              | LUIZ FUX | N | 0.000303
+ 34   | AGR HC 129149          | LUIZ FUX | N | 0.000303
+ 35   | AGR ARE 937323         | LUIZ FUX | N | 0.000303
+ 36   | HC 114596              | LUIZ FUX | N | 0.000303
+ 37   | AGR RE 626436          | LUIZ FUX | N | 0.000303
+ 38   | RHC 115505             | LUIZ FUX | N | 0.000303
+ 39   | AGR AI 840376          | LUIZ FUX | N | 0.000303
+ 40   | AGR RE 637176          | LUIZ FUX | N | 0.000303
+ 41   | HC 115516              | LUIZ FUX | N | 0.000303
+ 42   | AGR AGR HC 100974      | LUIZ FUX | N | 0.000303
+ 43   | AGR ARE 652016         | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 684093         | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 842621         | LUIZ FUX | N | 0.000303
+ 46   | AGR RE 845429          | LUIZ FUX | N | 0.000303
+ 47   | AGR ARE 744532         | LUIZ FUX | N | 0.000303
+ 48   | AGR ARE 674807         | LUIZ FUX | N | 0.000303
+ 49   | ED MI 5731             | LUIZ FUX | N | 0.000303
+ 50   | AGR AI 764942          | LUIZ FUX | N | 0.000303
+ 51   | AGR ARE 810615         | LUIZ FUX | N | 0.000303
+ 52   | ED AGR RE 650739       | LUIZ FUX | N | 0.000303
+ 53   | ED RE 598900           | LUIZ FUX | N | 0.000303
+ 54   | AGR RE 778331          | LUIZ FUX | N | 0.000303
+ 55   | AGR AR 2388            | LUIZ FUX | N | 0.000303
+ 56   | HC 118022              | LUIZ FUX | N | 0.000303
+ 57   | AGR ARE 653188         | LUIZ FUX | N | 0.000303
+ 58   | AGR RCL 19681          | LUIZ FUX | N | 0.000303
+ 59   | SEGUNDO AGR ARE 845343 | LUIZ FUX | N | 0.000303
+ 60   | AGR MS 32193           | LUIZ FUX | N | 0.000303
+ 61   | EI AP 470              | LUIZ FUX | N | 0.000303
+ 62   | AGR ARE 940271         | LUIZ FUX | N | 0.000303
+ 63   | INQ 3601               | LUIZ FUX | N | 0.000303
+ 64   | AGR AI 850037          | LUIZ FUX | N | 0.000303
+ 65   | HC 119997              | LUIZ FUX | N | 0.000303
+ 66   | AGR AI 763532          | LUIZ FUX | N | 0.000303
+ 67   | RHC 104751             | LUIZ FUX | N | 0.000303
+ 68   | ED AI 843269           | LUIZ FUX | N | 0.000303
+ 69   | ED AGR ARE 884527      | LUIZ FUX | N | 0.000303
+ 70   | AGR ARE 679150         | LUIZ FUX | N | 0.000303
+ 71   | AGR ARE 720459         | LUIZ FUX | N | 0.000303
+ 72   | AGR HC 116990          | LUIZ FUX | N | 0.000303
+ 73   | AGR RE 621637          | LUIZ FUX | N | 0.000303
+ 74   | HC 114115              | LUIZ FUX | N | 0.000303
+ 75   | ED AI 845838           | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 825766         | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 686707         | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 917891         | LUIZ FUX | N | 0.000303
+ 79   | AGR AI 833613          | LUIZ FUX | N | 0.000303
+ 80   | HC 115701              | LUIZ FUX | N | 0.000303
+ 81   | HC 122579              | LUIZ FUX | N | 0.000303
+ 82   | AGR HC 134976          | LUIZ FUX | N | 0.000303
+ 83   | AGR AI 814128          | LUIZ FUX | N | 0.000303
+ 84   | AGR ARE 700610         | LUIZ FUX | N | 0.000303
+ 85   | HC 114388              | LUIZ FUX | N | 0.000303
+ 86   | AGR ARE 807707         | LUIZ FUX | N | 0.000303
+ 87   | AGR RE 793298          | LUIZ FUX | N | 0.000303
+ 88   | AGR ARE 653168         | LUIZ FUX | N | 0.000303
+ 89   | ED ARE 847714          | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 914079         | LUIZ FUX | N | 0.000303
+ 91   | ED ARE 892315          | LUIZ FUX | N | 0.000303
+ 92   | RHC 111211             | LUIZ FUX | N | 0.000303
+ 93   | AGR RHC 117866         | LUIZ FUX | N | 0.000303
+ 94   | AGR RE 538000          | LUIZ FUX | N | 0.000303
+ 95   | AGR ARE 734588         | LUIZ FUX | N | 0.000303
+ 96   | AGR ARE 700296         | LUIZ FUX | N | 0.000303
+ 97   | ADI 3649               | LUIZ FUX | N | 0.000303
+ 98   | AGR RCL 15439          | LUIZ FUX | N | 0.000303
+ 99   | AGR MS 33397           | LUIZ FUX | N | 0.000303
+ 100  | RHC 111433             | LUIZ FUX | N | 0.000303
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 109676              | LUIZ FUX | N
+ AGR AI 855942          | LUIZ FUX | N
+ AGR AGR HC 100974      | LUIZ FUX | N
+ AGR AR 2388            | LUIZ FUX | N
+ SEGUNDO AGR ARE 845343 | LUIZ FUX | N
+ ED AGR ARE 884527      | LUIZ FUX | N
+ AGR ARE 917891         | LUIZ FUX | N
+ AGR RE 793298          | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060          | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735    | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 664930    | LUIZ FUX | N | 0.000303
+ 4    | RHC 115986        | LUIZ FUX | N | 0.000303
+ 5    | ED AGR ARE 744445 | LUIZ FUX | N | 0.000303
+ 6    | AGR ARE 672420    | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 705559     | LUIZ FUX | N | 0.000303
+ 8    | AGR AI 772265     | LUIZ FUX | N | 0.000303
+ 9    | HC 110133         | LUIZ FUX | N | 0.000303
+ 10   | AGR RMS 32379     | LUIZ FUX | N | 0.000303
+ 11   | AGR RE 798793     | LUIZ FUX | N | 0.000303
+ 12   | ED AI 789963      | LUIZ FUX | N | 0.000303
+ 13   | AGR HC 119554     | LUIZ FUX | N | 0.000303
+ 14   | ED AGR RCL 21333  | LUIZ FUX | N | 0.000303
+ 15   | RHC 117699        | LUIZ FUX | N | 0.000303
+ 16   | AGR ARE 843663    | LUIZ FUX | N | 0.000303
+ 17   | AGR RCL 23616     | LUIZ FUX | N | 0.000303
+ 18   | AGR EXT 1414      | LUIZ FUX | N | 0.000303
+ 19   | AGR ARE 799983    | LUIZ FUX | N | 0.000303
+ 20   | AGR RCL 2627      | LUIZ FUX | N | 0.000303
+ 21   | AGR RE 762466     | LUIZ FUX | N | 0.000303
+ 22   | ED AI 739772      | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 842599    | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 649711    | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 790427    | LUIZ FUX | N | 0.000303
+ 26   | AGR ARE 766977    | LUIZ FUX | N | 0.000303
+ 27   | RHC 122182        | LUIZ FUX | N | 0.000303
+ 28   | AGR ARE 867622    | LUIZ FUX | N | 0.000303
+ 29   | AGR ARE 684413    | LUIZ FUX | N | 0.000303
+ 30   | AGR AI 843666     | LUIZ FUX | N | 0.000303
+ 31   | AGR AI 747613     | LUIZ FUX | N | 0.000303
+ 32   | HC 111351         | LUIZ FUX | N | 0.000303
+ 33   | ADI 4628          | LUIZ FUX | N | 0.000303
+ 34   | HC 115868         | LUIZ FUX | N | 0.000303
+ 35   | AGR ARE 672579    | LUIZ FUX | N | 0.000303
+ 36   | AGR ARE 937323    | LUIZ FUX | N | 0.000303
+ 37   | HC 114596         | LUIZ FUX | N | 0.000303
+ 38   | AGR RE 626436     | LUIZ FUX | N | 0.000303
+ 39   | RHC 115505        | LUIZ FUX | N | 0.000303
+ 40   | AGR AI 840376     | LUIZ FUX | N | 0.000303
+ 41   | AGR RE 637176     | LUIZ FUX | N | 0.000303
+ 42   | HC 115516         | LUIZ FUX | N | 0.000303
+ 43   | AGR ARE 841932    | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 652016    | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 684093    | LUIZ FUX | N | 0.000303
+ 46   | AGR ARE 842621    | LUIZ FUX | N | 0.000303
+ 47   | AGR RE 845429     | LUIZ FUX | N | 0.000303
+ 48   | AGR ARE 744532    | LUIZ FUX | N | 0.000303
+ 49   | AGR ARE 674807    | LUIZ FUX | N | 0.000303
+ 50   | ED MI 5731        | LUIZ FUX | N | 0.000303
+ 51   | AGR AI 764942     | LUIZ FUX | N | 0.000303
+ 52   | AGR RE 609513     | LUIZ FUX | N | 0.000303
+ 53   | AGR ARE 810615    | LUIZ FUX | N | 0.000303
+ 54   | ED AGR RE 650739  | LUIZ FUX | N | 0.000303
+ 55   | ED RE 598900      | LUIZ FUX | N | 0.000303
+ 56   | AGR RE 778331     | LUIZ FUX | N | 0.000303
+ 57   | AGR AI 843591     | LUIZ FUX | N | 0.000303
+ 58   | HC 118022         | LUIZ FUX | N | 0.000303
+ 59   | AGR ARE 653188    | LUIZ FUX | N | 0.000303
+ 60   | AGR RCL 19681     | LUIZ FUX | N | 0.000303
+ 61   | AGR MS 32193      | LUIZ FUX | N | 0.000303
+ 62   | EI AP 470         | LUIZ FUX | N | 0.000303
+ 63   | AGR ARE 940271    | LUIZ FUX | N | 0.000303
+ 64   | INQ 3601          | LUIZ FUX | N | 0.000303
+ 65   | AGR AI 850037     | LUIZ FUX | N | 0.000303
+ 66   | HC 119997         | LUIZ FUX | N | 0.000303
+ 67   | AGR AI 763532     | LUIZ FUX | N | 0.000303
+ 68   | AGR ARE 728814    | LUIZ FUX | N | 0.000303
+ 69   | RHC 104751        | LUIZ FUX | N | 0.000303
+ 70   | ED AI 843269      | LUIZ FUX | N | 0.000303
+ 71   | AGR ARE 918295    | LUIZ FUX | N | 0.000303
+ 72   | AGR ARE 679150    | LUIZ FUX | N | 0.000303
+ 73   | AGR ARE 720459    | LUIZ FUX | N | 0.000303
+ 74   | AGR HC 116990     | LUIZ FUX | N | 0.000303
+ 75   | AGR RE 621637     | LUIZ FUX | N | 0.000303
+ 76   | HC 114115         | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 721109    | LUIZ FUX | N | 0.000303
+ 78   | ED AI 845838      | LUIZ FUX | N | 0.000303
+ 79   | AGR ARE 825766    | LUIZ FUX | N | 0.000303
+ 80   | AGR ARE 987270    | LUIZ FUX | N | 0.000303
+ 81   | AGR ARE 686707    | LUIZ FUX | N | 0.000303
+ 82   | AGR AI 833613     | LUIZ FUX | N | 0.000303
+ 83   | HC 115701         | LUIZ FUX | N | 0.000303
+ 84   | HC 122579         | LUIZ FUX | N | 0.000303
+ 85   | HC 119976         | LUIZ FUX | N | 0.000303
+ 86   | AGR HC 134976     | LUIZ FUX | N | 0.000303
+ 87   | AGR ARE 700610    | LUIZ FUX | N | 0.000303
+ 88   | ED AI 845865      | LUIZ FUX | N | 0.000303
+ 89   | AGR ARE 807707    | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 653168    | LUIZ FUX | N | 0.000303
+ 91   | HC 104767         | LUIZ FUX | N | 0.000303
+ 92   | ED ARE 847714     | LUIZ FUX | N | 0.000303
+ 93   | AGR ARE 914079    | LUIZ FUX | N | 0.000303
+ 94   | ED ARE 892315     | LUIZ FUX | N | 0.000303
+ 95   | RHC 111211        | LUIZ FUX | N | 0.000303
+ 96   | AGR MS 31951      | LUIZ FUX | N | 0.000303
+ 97   | AGR RHC 117866    | LUIZ FUX | N | 0.000303
+ 98   | AGR RE 538000     | LUIZ FUX | N | 0.000303
+ 99   | AGR ARE 734588    | LUIZ FUX | N | 0.000303
+ 100  | AGR ARE 700296    | LUIZ FUX | N | 0.000303
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 664930 | LUIZ FUX | N
+ AGR RMS 32379  | LUIZ FUX | N
+ AGR ARE 799983 | LUIZ FUX | N
+ AGR RCL 2627   | LUIZ FUX | N
+ ED AI 739772   | LUIZ FUX | N
+ AGR ARE 790427 | LUIZ FUX | N
+ AGR ARE 684413 | LUIZ FUX | N
+ AGR ARE 672579 | LUIZ FUX | N
+ AGR ARE 825766 | LUIZ FUX | N
+ AGR AI 833613  | LUIZ FUX | N
+ ED ARE 892315  | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060          | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735    | LUIZ FUX | N | 0.000303
+ 3    | RHC 115986        | LUIZ FUX | N | 0.000303
+ 4    | ED AGR ARE 744445 | LUIZ FUX | N | 0.000303
+ 5    | AGR ARE 672420    | LUIZ FUX | N | 0.000303
+ 6    | AGR AI 705559     | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 772265     | LUIZ FUX | N | 0.000303
+ 8    | HC 110133         | LUIZ FUX | N | 0.000303
+ 9    | AGR RE 798793     | LUIZ FUX | N | 0.000303
+ 10   | ED AI 789963      | LUIZ FUX | N | 0.000303
+ 11   | HC 109676         | LUIZ FUX | N | 0.000303
+ 12   | AGR RMS 32380     | LUIZ FUX | N | 0.000303
+ 13   | AGR HC 119554     | LUIZ FUX | N | 0.000303
+ 14   | ED AGR RCL 21333  | LUIZ FUX | N | 0.000303
+ 15   | RHC 117699        | LUIZ FUX | N | 0.000303
+ 16   | AGR ARE 843663    | LUIZ FUX | N | 0.000303
+ 17   | AGR RCL 23616     | LUIZ FUX | N | 0.000303
+ 18   | AGR EXT 1414      | LUIZ FUX | N | 0.000303
+ 19   | AGR RE 762466     | LUIZ FUX | N | 0.000303
+ 20   | AGR ARE 842599    | LUIZ FUX | N | 0.000303
+ 21   | AGR ARE 649711    | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 766977    | LUIZ FUX | N | 0.000303
+ 23   | RHC 122182        | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 914504    | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 867622    | LUIZ FUX | N | 0.000303
+ 26   | ED AGR ADPF 80    | LUIZ FUX | N | 0.000303
+ 27   | AGR AI 843666     | LUIZ FUX | N | 0.000303
+ 28   | AGR AI 747613     | LUIZ FUX | N | 0.000303
+ 29   | AGR AI 855942     | LUIZ FUX | N | 0.000303
+ 30   | HC 115868         | LUIZ FUX | N | 0.000303
+ 31   | AGR HC 129149     | LUIZ FUX | N | 0.000303
+ 32   | AGR ARE 937323    | LUIZ FUX | N | 0.000303
+ 33   | HC 114596         | LUIZ FUX | N | 0.000303
+ 34   | AGR RE 626436     | LUIZ FUX | N | 0.000303
+ 35   | RHC 115505        | LUIZ FUX | N | 0.000303
+ 36   | AGR AI 840376     | LUIZ FUX | N | 0.000303
+ 37   | AGR RE 637176     | LUIZ FUX | N | 0.000303
+ 38   | HC 115516         | LUIZ FUX | N | 0.000303
+ 39   | AGR AGR HC 100974 | LUIZ FUX | N | 0.000303
+ 40   | AGR ARE 652016    | LUIZ FUX | N | 0.000303
+ 41   | AGR ARE 684093    | LUIZ FUX | N | 0.000303
+ 42   | AGR ARE 842621    | LUIZ FUX | N | 0.000303
+ 43   | AGR RE 845429     | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 744532    | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 674807    | LUIZ FUX | N | 0.000303
+ 46   | ED MI 5731        | LUIZ FUX | N | 0.000303
+ 47   | AGR AI 764942     | LUIZ FUX | N | 0.000303
+ 48   | AGR RE 609513     | LUIZ FUX | N | 0.000303
+ 49   | ED AGR RE 650739  | LUIZ FUX | N | 0.000303
+ 50   | ED RE 598900      | LUIZ FUX | N | 0.000303
+ 51   | AGR RE 778331     | LUIZ FUX | N | 0.000303
+ 52   | AGR AI 843591     | LUIZ FUX | N | 0.000303
+ 53   | HC 118022         | LUIZ FUX | N | 0.000303
+ 54   | AGR ARE 653188    | LUIZ FUX | N | 0.000303
+ 55   | AGR RCL 19681     | LUIZ FUX | N | 0.000303
+ 56   | ED AGR ARE 749432 | LUIZ FUX | N | 0.000303
+ 57   | AGR MS 32193      | LUIZ FUX | N | 0.000303
+ 58   | EI AP 470         | LUIZ FUX | N | 0.000303
+ 59   | AGR ARE 940271    | LUIZ FUX | N | 0.000303
+ 60   | INQ 3601          | LUIZ FUX | N | 0.000303
+ 61   | AGR AI 850037     | LUIZ FUX | N | 0.000303
+ 62   | HC 119997         | LUIZ FUX | N | 0.000303
+ 63   | AGR AI 763532     | LUIZ FUX | N | 0.000303
+ 64   | AGR ARE 728814    | LUIZ FUX | N | 0.000303
+ 65   | RHC 104751        | LUIZ FUX | N | 0.000303
+ 66   | ED AI 843269      | LUIZ FUX | N | 0.000303
+ 67   | ED AGR ARE 884527 | LUIZ FUX | N | 0.000303
+ 68   | AGR ARE 679150    | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 720459    | LUIZ FUX | N | 0.000303
+ 70   | AGR HC 116990     | LUIZ FUX | N | 0.000303
+ 71   | AGR RE 621637     | LUIZ FUX | N | 0.000303
+ 72   | HC 114115         | LUIZ FUX | N | 0.000303
+ 73   | AGR ARE 721109    | LUIZ FUX | N | 0.000303
+ 74   | ED AI 845838      | LUIZ FUX | N | 0.000303
+ 75   | AGR ARE 987270    | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 686707    | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 917891    | LUIZ FUX | N | 0.000303
+ 78   | HC 115701         | LUIZ FUX | N | 0.000303
+ 79   | HC 122579         | LUIZ FUX | N | 0.000303
+ 80   | HC 119976         | LUIZ FUX | N | 0.000303
+ 81   | AGR HC 134976     | LUIZ FUX | N | 0.000303
+ 82   | AGR ARE 700610    | LUIZ FUX | N | 0.000303
+ 83   | HC 114388         | LUIZ FUX | N | 0.000303
+ 84   | AGR ARE 807707    | LUIZ FUX | N | 0.000303
+ 85   | AGR RE 793298     | LUIZ FUX | N | 0.000303
+ 86   | AGR ARE 653168    | LUIZ FUX | N | 0.000303
+ 87   | HC 104767         | LUIZ FUX | N | 0.000303
+ 88   | ED ARE 847714     | LUIZ FUX | N | 0.000303
+ 89   | AGR ARE 914079    | LUIZ FUX | N | 0.000303
+ 90   | RHC 111211        | LUIZ FUX | N | 0.000303
+ 91   | AGR MS 31951      | LUIZ FUX | N | 0.000303
+ 92   | AGR RHC 117866    | LUIZ FUX | N | 0.000303
+ 93   | AGR RE 538000     | LUIZ FUX | N | 0.000303
+ 94   | AGR ARE 734588    | LUIZ FUX | N | 0.000303
+ 95   | AGR ARE 700296    | LUIZ FUX | N | 0.000303
+ 96   | ADI 3649          | LUIZ FUX | N | 0.000303
+ 97   | AGR RCL 15439     | LUIZ FUX | N | 0.000303
+ 98   | RHC 111433        | LUIZ FUX | N | 0.000303
+ 99   | AGR MS 27031      | LUIZ FUX | N | 0.000303
+ 100  | AGR MS 27052      | LUIZ FUX | N | 0.000303
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 110133         | LUIZ FUX | N
+ AGR RE 798793     | LUIZ FUX | N
+ AGR ARE 766977    | LUIZ FUX | N
+ AGR AI 843666     | LUIZ FUX | N
+ AGR ARE 684093    | LUIZ FUX | N
+ AGR ARE 842621    | LUIZ FUX | N
+ AGR AI 850037     | LUIZ FUX | N
+ ED AGR ARE 884527 | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060               | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735         | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 664930         | LUIZ FUX | N | 0.000303
+ 4    | RHC 115986             | LUIZ FUX | N | 0.000303
+ 5    | ED AGR ARE 744445      | LUIZ FUX | N | 0.000303
+ 6    | AGR ARE 672420         | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 705559          | LUIZ FUX | N | 0.000303
+ 8    | AGR AI 772265          | LUIZ FUX | N | 0.000303
+ 9    | ED AI 789963           | LUIZ FUX | N | 0.000303
+ 10   | HC 109676              | LUIZ FUX | N | 0.000303
+ 11   | AGR RMS 32380          | LUIZ FUX | N | 0.000303
+ 12   | AGR HC 119554          | LUIZ FUX | N | 0.000303
+ 13   | ED AGR RCL 21333       | LUIZ FUX | N | 0.000303
+ 14   | RHC 117699             | LUIZ FUX | N | 0.000303
+ 15   | AGR ARE 843663         | LUIZ FUX | N | 0.000303
+ 16   | AGR RCL 23616          | LUIZ FUX | N | 0.000303
+ 17   | AGR EXT 1414           | LUIZ FUX | N | 0.000303
+ 18   | AGR ARE 799983         | LUIZ FUX | N | 0.000303
+ 19   | AGR RE 762466          | LUIZ FUX | N | 0.000303
+ 20   | ED AI 739772           | LUIZ FUX | N | 0.000303
+ 21   | AGR ARE 842599         | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 649711         | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 790427         | LUIZ FUX | N | 0.000303
+ 24   | HC 111193              | LUIZ FUX | N | 0.000303
+ 25   | RHC 122182             | LUIZ FUX | N | 0.000303
+ 26   | AGR ARE 867622         | LUIZ FUX | N | 0.000303
+ 27   | AGR ARE 684413         | LUIZ FUX | N | 0.000303
+ 28   | AGR AI 747613          | LUIZ FUX | N | 0.000303
+ 29   | AGR AI 855942          | LUIZ FUX | N | 0.000303
+ 30   | ADI 4628               | LUIZ FUX | N | 0.000303
+ 31   | HC 115868              | LUIZ FUX | N | 0.000303
+ 32   | AGR ARE 672579         | LUIZ FUX | N | 0.000303
+ 33   | AGR ARE 937323         | LUIZ FUX | N | 0.000303
+ 34   | HC 114596              | LUIZ FUX | N | 0.000303
+ 35   | AGR RE 626436          | LUIZ FUX | N | 0.000303
+ 36   | RHC 115505             | LUIZ FUX | N | 0.000303
+ 37   | AGR AI 840376          | LUIZ FUX | N | 0.000303
+ 38   | AGR RE 637176          | LUIZ FUX | N | 0.000303
+ 39   | HC 115516              | LUIZ FUX | N | 0.000303
+ 40   | AGR AGR HC 100974      | LUIZ FUX | N | 0.000303
+ 41   | AGR ARE 652016         | LUIZ FUX | N | 0.000303
+ 42   | AGR ARE 770516         | LUIZ FUX | N | 0.000303
+ 43   | AGR RE 845429          | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 744532         | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 674807         | LUIZ FUX | N | 0.000303
+ 46   | ED MI 5731             | LUIZ FUX | N | 0.000303
+ 47   | AGR AI 764942          | LUIZ FUX | N | 0.000303
+ 48   | AGR RE 609513          | LUIZ FUX | N | 0.000303
+ 49   | AGR RHC 127383         | LUIZ FUX | N | 0.000303
+ 50   | ED AGR RE 650739       | LUIZ FUX | N | 0.000303
+ 51   | ED RE 598900           | LUIZ FUX | N | 0.000303
+ 52   | AGR RE 778331          | LUIZ FUX | N | 0.000303
+ 53   | AGR AI 843591          | LUIZ FUX | N | 0.000303
+ 54   | HC 118022              | LUIZ FUX | N | 0.000303
+ 55   | AGR ARE 653188         | LUIZ FUX | N | 0.000303
+ 56   | AGR RCL 19681          | LUIZ FUX | N | 0.000303
+ 57   | SEGUNDO AGR ARE 845343 | LUIZ FUX | N | 0.000303
+ 58   | AGR MS 32193           | LUIZ FUX | N | 0.000303
+ 59   | EI AP 470              | LUIZ FUX | N | 0.000303
+ 60   | AGR ARE 940271         | LUIZ FUX | N | 0.000303
+ 61   | INQ 3601               | LUIZ FUX | N | 0.000303
+ 62   | HC 120043              | LUIZ FUX | N | 0.000303
+ 63   | HC 119997              | LUIZ FUX | N | 0.000303
+ 64   | AGR AI 763532          | LUIZ FUX | N | 0.000303
+ 65   | AGR ARE 728814         | LUIZ FUX | N | 0.000303
+ 66   | RHC 104751             | LUIZ FUX | N | 0.000303
+ 67   | ED AI 843269           | LUIZ FUX | N | 0.000303
+ 68   | AGR ARE 918295         | LUIZ FUX | N | 0.000303
+ 69   | AGR ARE 679150         | LUIZ FUX | N | 0.000303
+ 70   | AGR ARE 720459         | LUIZ FUX | N | 0.000303
+ 71   | AGR HC 116990          | LUIZ FUX | N | 0.000303
+ 72   | AGR RE 621637          | LUIZ FUX | N | 0.000303
+ 73   | HC 114115              | LUIZ FUX | N | 0.000303
+ 74   | AGR ARE 721109         | LUIZ FUX | N | 0.000303
+ 75   | ED AI 845838           | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 825766         | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 987270         | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 686707         | LUIZ FUX | N | 0.000303
+ 79   | AGR ARE 917891         | LUIZ FUX | N | 0.000303
+ 80   | AGR AI 833613          | LUIZ FUX | N | 0.000303
+ 81   | HC 115701              | LUIZ FUX | N | 0.000303
+ 82   | HC 122579              | LUIZ FUX | N | 0.000303
+ 83   | HC 119976              | LUIZ FUX | N | 0.000303
+ 84   | AGR HC 134976          | LUIZ FUX | N | 0.000303
+ 85   | AGR AI 814128          | LUIZ FUX | N | 0.000303
+ 86   | AGR ARE 700610         | LUIZ FUX | N | 0.000303
+ 87   | HC 114388              | LUIZ FUX | N | 0.000303
+ 88   | AGR ARE 807707         | LUIZ FUX | N | 0.000303
+ 89   | AGR RE 793298          | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 653168         | LUIZ FUX | N | 0.000303
+ 91   | HC 104767              | LUIZ FUX | N | 0.000303
+ 92   | ED ARE 847714          | LUIZ FUX | N | 0.000303
+ 93   | AGR ARE 914079         | LUIZ FUX | N | 0.000303
+ 94   | ED ARE 892315          | LUIZ FUX | N | 0.000303
+ 95   | RHC 111211             | LUIZ FUX | N | 0.000303
+ 96   | AGR MS 31951           | LUIZ FUX | N | 0.000303
+ 97   | AGR RHC 117866         | LUIZ FUX | N | 0.000303
+ 98   | AGR RE 538000          | LUIZ FUX | N | 0.000303
+ 99   | AGR ARE 734588         | LUIZ FUX | N | 0.000303
+ 100  | AGR ARE 700296         | LUIZ FUX | N | 0.000303
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR HC 119554 | LUIZ FUX | N
+ ED RE 598900  | LUIZ FUX | N
+ AGR RE 621637 | LUIZ FUX | N
+ ED AI 845838  | LUIZ FUX | N
+ HC 119976     | LUIZ FUX | N
+ RHC 111211    | LUIZ FUX | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 4060               | LUIZ FUX | N | 0.002016
+ 2    | AGR ARE 803735         | LUIZ FUX | N | 0.000303
+ 3    | AGR ARE 664930         | LUIZ FUX | N | 0.000303
+ 4    | RHC 115986             | LUIZ FUX | N | 0.000303
+ 5    | ED AGR ARE 744445      | LUIZ FUX | N | 0.000303
+ 6    | AGR ARE 672420         | LUIZ FUX | N | 0.000303
+ 7    | AGR AI 705559          | LUIZ FUX | N | 0.000303
+ 8    | AGR AI 772265          | LUIZ FUX | N | 0.000303
+ 9    | HC 110133              | LUIZ FUX | N | 0.000303
+ 10   | AGR RE 798793          | LUIZ FUX | N | 0.000303
+ 11   | ED AI 789963           | LUIZ FUX | N | 0.000303
+ 12   | HC 109676              | LUIZ FUX | N | 0.000303
+ 13   | AGR RMS 32380          | LUIZ FUX | N | 0.000303
+ 14   | ED AGR RCL 21333       | LUIZ FUX | N | 0.000303
+ 15   | RHC 117699             | LUIZ FUX | N | 0.000303
+ 16   | AGR ARE 843663         | LUIZ FUX | N | 0.000303
+ 17   | AGR RCL 23616          | LUIZ FUX | N | 0.000303
+ 18   | AGR EXT 1414           | LUIZ FUX | N | 0.000303
+ 19   | AGR ARE 799983         | LUIZ FUX | N | 0.000303
+ 20   | AGR RE 762466          | LUIZ FUX | N | 0.000303
+ 21   | ED AI 739772           | LUIZ FUX | N | 0.000303
+ 22   | AGR ARE 842599         | LUIZ FUX | N | 0.000303
+ 23   | AGR ARE 649711         | LUIZ FUX | N | 0.000303
+ 24   | AGR ARE 790427         | LUIZ FUX | N | 0.000303
+ 25   | AGR ARE 766977         | LUIZ FUX | N | 0.000303
+ 26   | RHC 122182             | LUIZ FUX | N | 0.000303
+ 27   | AGR ARE 914504         | LUIZ FUX | N | 0.000303
+ 28   | AGR ARE 867622         | LUIZ FUX | N | 0.000303
+ 29   | AGR ARE 684413         | LUIZ FUX | N | 0.000303
+ 30   | AGR AI 843666          | LUIZ FUX | N | 0.000303
+ 31   | AGR AI 747613          | LUIZ FUX | N | 0.000303
+ 32   | AGR AI 855942          | LUIZ FUX | N | 0.000303
+ 33   | ADI 4628               | LUIZ FUX | N | 0.000303
+ 34   | HC 115868              | LUIZ FUX | N | 0.000303
+ 35   | AGR ARE 672579         | LUIZ FUX | N | 0.000303
+ 36   | AGR ARE 937323         | LUIZ FUX | N | 0.000303
+ 37   | HC 114596              | LUIZ FUX | N | 0.000303
+ 38   | AGR RE 626436          | LUIZ FUX | N | 0.000303
+ 39   | RHC 115505             | LUIZ FUX | N | 0.000303
+ 40   | AGR AI 840376          | LUIZ FUX | N | 0.000303
+ 41   | AGR RE 637176          | LUIZ FUX | N | 0.000303
+ 42   | HC 115516              | LUIZ FUX | N | 0.000303
+ 43   | AGR AGR HC 100974      | LUIZ FUX | N | 0.000303
+ 44   | AGR ARE 652016         | LUIZ FUX | N | 0.000303
+ 45   | AGR ARE 770516         | LUIZ FUX | N | 0.000303
+ 46   | AGR ARE 842621         | LUIZ FUX | N | 0.000303
+ 47   | AGR RE 845429          | LUIZ FUX | N | 0.000303
+ 48   | AGR ARE 744532         | LUIZ FUX | N | 0.000303
+ 49   | AGR ARE 674807         | LUIZ FUX | N | 0.000303
+ 50   | ED MI 5731             | LUIZ FUX | N | 0.000303
+ 51   | AGR AI 764942          | LUIZ FUX | N | 0.000303
+ 52   | AGR RE 609513          | LUIZ FUX | N | 0.000303
+ 53   | AGR ARE 810615         | LUIZ FUX | N | 0.000303
+ 54   | ED AGR RE 650739       | LUIZ FUX | N | 0.000303
+ 55   | AGR RE 778331          | LUIZ FUX | N | 0.000303
+ 56   | AGR AI 843591          | LUIZ FUX | N | 0.000303
+ 57   | HC 118022              | LUIZ FUX | N | 0.000303
+ 58   | AGR ARE 653188         | LUIZ FUX | N | 0.000303
+ 59   | AGR RCL 19681          | LUIZ FUX | N | 0.000303
+ 60   | SEGUNDO AGR ARE 845343 | LUIZ FUX | N | 0.000303
+ 61   | AGR MS 32193           | LUIZ FUX | N | 0.000303
+ 62   | EI AP 470              | LUIZ FUX | N | 0.000303
+ 63   | AGR ARE 940271         | LUIZ FUX | N | 0.000303
+ 64   | INQ 3601               | LUIZ FUX | N | 0.000303
+ 65   | AGR AI 850037          | LUIZ FUX | N | 0.000303
+ 66   | HC 119997              | LUIZ FUX | N | 0.000303
+ 67   | AGR AI 763532          | LUIZ FUX | N | 0.000303
+ 68   | AGR ARE 728814         | LUIZ FUX | N | 0.000303
+ 69   | RHC 104751             | LUIZ FUX | N | 0.000303
+ 70   | ED AI 843269           | LUIZ FUX | N | 0.000303
+ 71   | ED AGR ARE 884527      | LUIZ FUX | N | 0.000303
+ 72   | AGR ARE 679150         | LUIZ FUX | N | 0.000303
+ 73   | AGR ARE 720459         | LUIZ FUX | N | 0.000303
+ 74   | AGR HC 116990          | LUIZ FUX | N | 0.000303
+ 75   | HC 114115              | LUIZ FUX | N | 0.000303
+ 76   | AGR ARE 721109         | LUIZ FUX | N | 0.000303
+ 77   | AGR ARE 825766         | LUIZ FUX | N | 0.000303
+ 78   | AGR ARE 987270         | LUIZ FUX | N | 0.000303
+ 79   | AGR ARE 686707         | LUIZ FUX | N | 0.000303
+ 80   | AGR ARE 917891         | LUIZ FUX | N | 0.000303
+ 81   | AGR AI 833613          | LUIZ FUX | N | 0.000303
+ 82   | HC 115701              | LUIZ FUX | N | 0.000303
+ 83   | HC 122579              | LUIZ FUX | N | 0.000303
+ 84   | AGR HC 134976          | LUIZ FUX | N | 0.000303
+ 85   | AGR AI 814128          | LUIZ FUX | N | 0.000303
+ 86   | AGR ARE 700610         | LUIZ FUX | N | 0.000303
+ 87   | ED AI 845865           | LUIZ FUX | N | 0.000303
+ 88   | AGR ARE 807707         | LUIZ FUX | N | 0.000303
+ 89   | AGR RE 793298          | LUIZ FUX | N | 0.000303
+ 90   | AGR ARE 653168         | LUIZ FUX | N | 0.000303
+ 91   | HC 104767              | LUIZ FUX | N | 0.000303
+ 92   | ED ARE 847714          | LUIZ FUX | N | 0.000303
+ 93   | AGR ARE 914079         | LUIZ FUX | N | 0.000303
+ 94   | AGR MS 31951           | LUIZ FUX | N | 0.000303
+ 95   | AGR RHC 117866         | LUIZ FUX | N | 0.000303
+ 96   | AGR RE 538000          | LUIZ FUX | N | 0.000303
+ 97   | AGR ARE 734588         | LUIZ FUX | N | 0.000303
+ 98   | AGR ARE 700296         | LUIZ FUX | N | 0.000303
+ 99   | ADI 3649               | LUIZ FUX | N | 0.000303
+ 100  | AGR RCL 15439          | LUIZ FUX | N | 0.000303
+
+
+Virtual decisions in each iteration
+0: 0
+1: 0
+2: 0
+3: 0
+4: 0
+5: 0
+6: 0
+7: 0
+8: 0
+9: 0
+Mean of virtual decisions: 0.00
+Standard deviation of virtual decisions: 0.00
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 2 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 3 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 4 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 5 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 6 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 7 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 8 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 9 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Iteração 10 | # de relatores na iteração 1
+LUIZ FUX: 100
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+LUIZ FUX | 1000 (100.00%) | 10 | 100.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+LUIZ FUX | 132 (13.20%) | 0.13 | 0.0360 | 0.2729 | 0.0000 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ INQ 3601          | LUIZ FUX | N
+ AGR RE 762466     | LUIZ FUX | N
+ AGR RCL 19681     | LUIZ FUX | N
+ AGR ARE 653168    | LUIZ FUX | N
+ EI AP 470         | LUIZ FUX | N
+ AGR RE 637176     | LUIZ FUX | N
+ HC 122579         | LUIZ FUX | N
+ AGR ARE 720459    | LUIZ FUX | N
+ AGR HC 116990     | LUIZ FUX | N
+ AGR ARE 672420    | LUIZ FUX | N
+ ED MI 5731        | LUIZ FUX | N
+ RHC 115505        | LUIZ FUX | N
+ AGR MS 32193      | LUIZ FUX | N
+ AGR ARE 744532    | LUIZ FUX | N
+ RHC 104751        | LUIZ FUX | N
+ AGR AI 763532     | LUIZ FUX | N
+ AGR RCL 23616     | LUIZ FUX | N
+ AGR ARE 652016    | LUIZ FUX | N
+ AGR HC 134976     | LUIZ FUX | N
+ HC 115701         | LUIZ FUX | N
+ AGR ARE 649711    | LUIZ FUX | N
+ AGR RE 626436     | LUIZ FUX | N
+ RHC 117699        | LUIZ FUX | N
+ ED AGR RCL 21333  | LUIZ FUX | N
+ AGR AI 705559     | LUIZ FUX | N
+ ED AI 843269      | LUIZ FUX | N
+ ED AI 789963      | LUIZ FUX | N
+ HC 114596         | LUIZ FUX | N
+ HC 115868         | LUIZ FUX | N
+ ED ARE 847714     | LUIZ FUX | N
+ ED AGR ARE 744445 | LUIZ FUX | N
+ AGR ARE 940271    | LUIZ FUX | N
+
+
+Most frequent decisions by inverse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | ED AGR ARE 744445      | LUIZ FUX | N | 10 | 0
+ 2   | AGR AI 705559          | LUIZ FUX | N | 10 | 0
+ 3   | ED AI 789963           | LUIZ FUX | N | 10 | 0
+ 4   | ED AGR RCL 21333       | LUIZ FUX | N | 10 | 0
+ 5   | RHC 117699             | LUIZ FUX | N | 10 | 0
+ 6   | AGR RCL 23616          | LUIZ FUX | N | 10 | 0
+ 7   | AGR RE 762466          | LUIZ FUX | N | 10 | 0
+ 8   | AGR ARE 649711         | LUIZ FUX | N | 10 | 0
+ 9   | HC 115868              | LUIZ FUX | N | 10 | 0
+ 10   | HC 114596              | LUIZ FUX | N | 10 | 0
+ 11   | AGR RE 626436          | LUIZ FUX | N | 10 | 0
+ 12   | RHC 115505             | LUIZ FUX | N | 10 | 0
+ 13   | AGR RE 637176          | LUIZ FUX | N | 10 | 0
+ 14   | AGR ARE 652016         | LUIZ FUX | N | 10 | 0
+ 15   | ED MI 5731             | LUIZ FUX | N | 10 | 0
+ 16   | AGR RCL 19681          | LUIZ FUX | N | 10 | 0
+ 17   | AGR MS 32193           | LUIZ FUX | N | 10 | 0
+ 18   | EI AP 470              | LUIZ FUX | N | 10 | 0
+ 19   | AGR AI 763532          | LUIZ FUX | N | 10 | 0
+ 20   | RHC 104751             | LUIZ FUX | N | 10 | 0
+ 21   | ED AI 843269           | LUIZ FUX | N | 10 | 0
+ 22   | AGR ARE 720459         | LUIZ FUX | N | 10 | 0
+ 23   | AGR HC 116990          | LUIZ FUX | N | 10 | 0
+ 24   | AGR ARE 744532         | LUIZ FUX | N | 10 | 0
+ 25   | HC 122579              | LUIZ FUX | N | 10 | 0
+ 26   | AGR HC 134976          | LUIZ FUX | N | 10 | 0
+ 27   | AGR ARE 653168         | LUIZ FUX | N | 10 | 0
+ 28   | ED ARE 847714          | LUIZ FUX | N | 10 | 0
+ 29   | AGR ARE 672420         | LUIZ FUX | N | 10 | 0
+ 30   | INQ 3601               | LUIZ FUX | N | 10 | 0
+ 31   | HC 115701              | LUIZ FUX | N | 10 | 0
+ 32   | AGR ARE 940271         | LUIZ FUX | N | 10 | 0
+ 33   | AGR ARE 803735         | LUIZ FUX | N | 9 | 1
+ 34   | RHC 115986             | LUIZ FUX | N | 9 | 1
+ 35   | HC 110133              | LUIZ FUX | N | 9 | 1
+ 36   | ED RE 598900           | LUIZ FUX | N | 9 | 1
+ 37   | HC 109676              | LUIZ FUX | N | 9 | 1
+ 38   | AGR ARE 843663         | LUIZ FUX | N | 9 | 1
+ 39   | AGR EXT 1414           | LUIZ FUX | N | 9 | 1
+ 40   | AGR ARE 842599         | LUIZ FUX | N | 9 | 1
+ 41   | AGR ARE 790427         | LUIZ FUX | N | 9 | 1
+ 42   | AGR ARE 766977         | LUIZ FUX | N | 9 | 1
+ 43   | RHC 122182             | LUIZ FUX | N | 9 | 1
+ 44   | AGR ARE 684413         | LUIZ FUX | N | 9 | 1
+ 45   | AGR AI 843666          | LUIZ FUX | N | 9 | 1
+ 46   | AGR AI 855942          | LUIZ FUX | N | 9 | 1
+ 47   | AGR ARE 937323         | LUIZ FUX | N | 9 | 1
+ 48   | HC 115516              | LUIZ FUX | N | 9 | 1
+ 49   | AGR AGR HC 100974      | LUIZ FUX | N | 9 | 1
+ 50   | AGR ARE 842621         | LUIZ FUX | N | 9 | 1
+ 51   | AGR RE 845429          | LUIZ FUX | N | 9 | 1
+ 52   | AGR ARE 674807         | LUIZ FUX | N | 9 | 1
+ 53   | AGR AI 764942          | LUIZ FUX | N | 9 | 1
+ 54   | AGR RE 609513          | LUIZ FUX | N | 9 | 1
+ 55   | ED AGR RE 650739       | LUIZ FUX | N | 9 | 1
+ 56   | AGR RE 778331          | LUIZ FUX | N | 9 | 1
+ 57   | AGR AI 850037          | LUIZ FUX | N | 9 | 1
+ 58   | HC 119997              | LUIZ FUX | N | 9 | 1
+ 59   | AGR ARE 728814         | LUIZ FUX | N | 9 | 1
+ 60   | AGR ARE 679150         | LUIZ FUX | N | 9 | 1
+ 61   | AGR RE 621637          | LUIZ FUX | N | 9 | 1
+ 62   | AGR AI 747613          | LUIZ FUX | N | 9 | 1
+ 63   | HC 114115              | LUIZ FUX | N | 9 | 1
+ 64   | AGR ARE 721109         | LUIZ FUX | N | 9 | 1
+ 65   | ED AI 845838           | LUIZ FUX | N | 9 | 1
+ 66   | AGR ARE 825766         | LUIZ FUX | N | 9 | 1
+ 67   | AGR ARE 686707         | LUIZ FUX | N | 9 | 1
+ 68   | AGR ARE 917891         | LUIZ FUX | N | 9 | 1
+ 69   | AGR AI 833613          | LUIZ FUX | N | 9 | 1
+ 70   | AGR ARE 700610         | LUIZ FUX | N | 9 | 1
+ 71   | AGR ARE 807707         | LUIZ FUX | N | 9 | 1
+ 72   | AGR RE 793298          | LUIZ FUX | N | 9 | 1
+ 73   | HC 104767              | LUIZ FUX | N | 9 | 1
+ 74   | AGR AI 840376          | LUIZ FUX | N | 9 | 1
+ 75   | ADI 4060               | LUIZ FUX | N | 9 | 1
+ 76   | AGR ARE 653188         | LUIZ FUX | N | 9 | 0
+ 77   | AGR RMS 32380          | LUIZ FUX | N | 9 | 0
+ 78   | AGR RE 538000          | LUIZ FUX | N | 9 | 0
+ 79   | AGR AI 772265          | LUIZ FUX | N | 8 | 2
+ 80   | AGR HC 119554          | LUIZ FUX | N | 8 | 2
+ 81   | AGR ARE 867622         | LUIZ FUX | N | 8 | 2
+ 82   | AGR ARE 672579         | LUIZ FUX | N | 8 | 2
+ 83   | AGR ARE 684093         | LUIZ FUX | N | 8 | 2
+ 84   | AGR AI 843591          | LUIZ FUX | N | 8 | 2
+ 85   | HC 118022              | LUIZ FUX | N | 8 | 2
+ 86   | HC 119976              | LUIZ FUX | N | 8 | 2
+ 87   | AGR ARE 799983         | LUIZ FUX | N | 8 | 1
+ 88   | ADI 4628               | LUIZ FUX | N | 8 | 1
+ 89   | AGR ARE 810615         | LUIZ FUX | N | 8 | 1
+ 90   | AGR ARE 914079         | LUIZ FUX | N | 8 | 1
+ 91   | RHC 111211             | LUIZ FUX | N | 8 | 1
+ 92   | AGR MS 31951           | LUIZ FUX | N | 8 | 1
+ 93   | AGR RHC 117866         | LUIZ FUX | N | 8 | 1
+ 94   | AGR ARE 987270         | LUIZ FUX | N | 8 | 1
+ 95   | AGR ARE 734588         | LUIZ FUX | N | 8 | 0
+ 96   | AGR ARE 700296         | LUIZ FUX | N | 8 | 0
+ 97   | AGR RCL 2627           | LUIZ FUX | N | 7 | 3
+ 98   | ED AI 739772           | LUIZ FUX | N | 7 | 3
+ 99   | ED AGR ARE 884527      | LUIZ FUX | N | 7 | 2
+ 100   | AGR RE 798793          | LUIZ FUX | N | 7 | 1
+ 101   | AGR ARE 664930         | LUIZ FUX | N | 7 | 1
+ 102   | ED ARE 892315          | LUIZ FUX | N | 7 | 1
+ 103   | AGR ARE 914504         | LUIZ FUX | N | 7 | 0
+ 104   | ADI 3649               | LUIZ FUX | N | 6 | 0
+ 105   | AGR RCL 15439          | LUIZ FUX | N | 6 | 0
+ 106   | AGR AI 814128          | LUIZ FUX | N | 6 | 0
+ 107   | ED AI 845865           | LUIZ FUX | N | 5 | 0
+ 108   | HC 114388              | LUIZ FUX | N | 5 | 0
+ 109   | ED AGR ARE 749432      | LUIZ FUX | N | 4 | 3
+ 110   | SEGUNDO AGR ARE 845343 | LUIZ FUX | N | 4 | 2
+ 111   | AGR RMS 32379          | LUIZ FUX | N | 4 | 1
+ 112   | AGR MS 33397           | LUIZ FUX | N | 3 | 2
+ 113   | AGR ARE 918295         | LUIZ FUX | N | 3 | 1
+ 114   | RHC 111433             | LUIZ FUX | N | 3 | 0
+ 115   | AGR AR 2388            | LUIZ FUX | N | 2 | 3
+ 116   | AGR MS 27031           | LUIZ FUX | N | 2 | 2
+ 117   | AGR RCL 20834          | LUIZ FUX | N | 2 | 1
+ 118   | AGR HC 129149          | LUIZ FUX | N | 2 | 0
+ 119   | AGR ARE 770516         | LUIZ FUX | N | 2 | 0
+ 120   | AGR MS 27052           | LUIZ FUX | N | 2 | 0
+
+stf_pr_2_acordaos_90_rel_7
+Number of decisions which appear on simulations: 132
+Number of items whose frequency is higher than 1: 120
+Number of decisions which could be in all iterations: 85
+decisões que aparecem pelo menos 10 vezes | 32
+decisões que aparecem pelo menos 9 vezes | 78
+decisões que aparecem pelo menos 8 vezes | 96
+132
