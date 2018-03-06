@@ -1,0 +1,1375 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3831              | CÁRMEN LÚCIA | N | 0.000913
+ 2    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000137
+ 3    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000137
+ 4    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000137
+ 5    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000137
+ 6    | HC 113592             | CÁRMEN LÚCIA | N | 0.000137
+ 7    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000137
+ 8    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000137
+ 9    | HC 106446             | CÁRMEN LÚCIA | N | 0.000137
+ 10   | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000137
+ 11   | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000137
+ 12   | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000137
+ 13   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000137
+ 14   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000137
+ 15   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000137
+ 16   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000137
+ 17   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000137
+ 18   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000137
+ 19   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000137
+ 20   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000137
+ 21   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000137
+ 22   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000137
+ 23   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000137
+ 24   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000137
+ 25   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000137
+ 26   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000137
+ 27   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000137
+ 28   | HC 90914              | CÁRMEN LÚCIA | N | 0.000137
+ 29   | AGR AI 615968         | CÁRMEN LÚCIA | N | 0.000137
+ 30   | HC 97237              | CÁRMEN LÚCIA | N | 0.000137
+ 31   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000137
+ 32   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000137
+ 33   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000137
+ 34   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000137
+ 35   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000137
+ 36   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000137
+ 37   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000137
+ 38   | HC 112521             | CÁRMEN LÚCIA | N | 0.000137
+ 39   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000137
+ 40   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000137
+ 41   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000137
+ 42   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000137
+ 43   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000137
+ 44   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000137
+ 45   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000137
+ 46   | AR 1536               | CÁRMEN LÚCIA | N | 0.000137
+ 47   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000137
+ 48   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000137
+ 49   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000137
+ 50   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000137
+ 51   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000137
+ 52   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000137
+ 53   | HC 107156             | CÁRMEN LÚCIA | N | 0.000137
+ 54   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000137
+ 55   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000137
+ 56   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000137
+ 57   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000137
+ 58   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000137
+ 59   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000137
+ 60   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000137
+ 61   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000137
+ 62   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000137
+ 63   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000137
+ 64   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000137
+ 65   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000137
+ 66   | MS 27650              | CÁRMEN LÚCIA | N | 0.000137
+ 67   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000137
+ 68   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000137
+ 69   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000137
+ 70   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000137
+ 71   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000137
+ 72   | HC 96989              | CÁRMEN LÚCIA | N | 0.000137
+ 73   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000137
+ 74   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000137
+ 75   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000137
+ 76   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000137
+ 77   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000137
+ 78   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000137
+ 79   | HC 113587             | CÁRMEN LÚCIA | N | 0.000137
+ 80   | HC 94295              | CÁRMEN LÚCIA | N | 0.000137
+ 81   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000137
+ 82   | HC 94293              | CÁRMEN LÚCIA | N | 0.000137
+ 83   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000137
+ 84   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000137
+ 85   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000137
+ 86   | HC 106205             | CÁRMEN LÚCIA | N | 0.000137
+ 87   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000137
+ 88   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000137
+ 89   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000137
+ 90   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000137
+ 91   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000137
+ 92   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000137
+ 93   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000137
+ 94   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000137
+ 95   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000137
+ 96   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000137
+ 97   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000137
+ 98   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000137
+ 99   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000137
+ 100  | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000137
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR AI 680396         | CÁRMEN LÚCIA | N
+ AGR AI 723446         | CÁRMEN LÚCIA | N
+ HC 90914              | CÁRMEN LÚCIA | N
+ AGR AI 649375         | CÁRMEN LÚCIA | N
+ AGR AI 699938         | CÁRMEN LÚCIA | N
+ AGR RE 597148         | CÁRMEN LÚCIA | N
+ SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N
+ AGR ARE 721818        | CÁRMEN LÚCIA | N
+ AGR ARE 703877        | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3831         | CÁRMEN LÚCIA | N | 0.001015
+ 2    | ED RCL 4536      | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR ARE 798241   | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 599239    | CÁRMEN LÚCIA | N | 0.000152
+ 5    | AGR RE 461196    | CÁRMEN LÚCIA | N | 0.000152
+ 6    | ED AI 714957     | CÁRMEN LÚCIA | N | 0.000152
+ 7    | ED ARE 662114    | CÁRMEN LÚCIA | N | 0.000152
+ 8    | HC 106446        | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR ARE 693655   | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR AI 688548    | CÁRMEN LÚCIA | N | 0.000152
+ 11   | AGR RE 800597    | CÁRMEN LÚCIA | N | 0.000152
+ 12   | RHC 117694       | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 459672    | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR RE 471008    | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR ARE 774265   | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR RE 600725    | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR AI 673479    | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR ARE 885202   | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR RCL 9450     | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR RCL 11538    | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR ARE 762476   | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR ARE 889802   | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR ARE 676661   | CÁRMEN LÚCIA | N | 0.000152
+ 24   | HC 97237         | CÁRMEN LÚCIA | N | 0.000152
+ 25   | AGR AI 828072    | CÁRMEN LÚCIA | N | 0.000152
+ 26   | AGR RE 508995    | CÁRMEN LÚCIA | N | 0.000152
+ 27   | EI AGR RCL 15155 | CÁRMEN LÚCIA | N | 0.000152
+ 28   | AGR AI 582542    | CÁRMEN LÚCIA | N | 0.000152
+ 29   | ED ARE 795931    | CÁRMEN LÚCIA | N | 0.000152
+ 30   | AGR ARE 752462   | CÁRMEN LÚCIA | N | 0.000152
+ 31   | RHC 97670        | CÁRMEN LÚCIA | N | 0.000152
+ 32   | HC 112521        | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR RE 494426    | CÁRMEN LÚCIA | S | 0.000152
+ 34   | AGR AI 673656    | CÁRMEN LÚCIA | N | 0.000152
+ 35   | AGR RE 597493    | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR AI 472831    | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR ARE 884803   | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR HC 126924    | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AR 1536          | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR ARE 680462   | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR ARE 680460   | CÁRMEN LÚCIA | N | 0.000152
+ 42   | ED AI 724029     | CÁRMEN LÚCIA | N | 0.000152
+ 43   | QO RMS 32004     | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR RE 596543    | CÁRMEN LÚCIA | N | 0.000152
+ 45   | HC 107156        | CÁRMEN LÚCIA | N | 0.000152
+ 46   | AGR ARE 776742   | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR AI 682027    | CÁRMEN LÚCIA | N | 0.000152
+ 48   | AGR AI 564508    | CÁRMEN LÚCIA | N | 0.000152
+ 49   | ED RHC 122806    | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR AI 666992    | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR AI 557659    | CÁRMEN LÚCIA | N | 0.000152
+ 52   | ADI 1578         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR ARE 721819   | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR ARE 810878   | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR HC 119600    | CÁRMEN LÚCIA | N | 0.000152
+ 56   | MS 27650         | CÁRMEN LÚCIA | N | 0.000152
+ 57   | RHC 111434       | CÁRMEN LÚCIA | N | 0.000152
+ 58   | ADI 1264         | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 843666   | CÁRMEN LÚCIA | N | 0.000152
+ 60   | ED AI 600175     | CÁRMEN LÚCIA | N | 0.000152
+ 61   | HC 96989         | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR ARE 744080   | CÁRMEN LÚCIA | N | 0.000152
+ 63   | ED RE 595025     | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR RE 720400    | CÁRMEN LÚCIA | N | 0.000152
+ 65   | AGR ED RE 487541 | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR AI 784491    | CÁRMEN LÚCIA | N | 0.000152
+ 67   | RMS 33937        | CÁRMEN LÚCIA | N | 0.000152
+ 68   | HC 113587        | CÁRMEN LÚCIA | N | 0.000152
+ 69   | HC 94295         | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR ARE 693014   | CÁRMEN LÚCIA | N | 0.000152
+ 71   | HC 94293         | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR ARE 670789   | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 676972    | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR AI 728861    | CÁRMEN LÚCIA | N | 0.000152
+ 75   | HC 106205        | CÁRMEN LÚCIA | N | 0.000152
+ 76   | AGR RE 509224    | CÁRMEN LÚCIA | N | 0.000152
+ 77   | ED AGR RE 237959 | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 744886   | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR ARE 875319   | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR MS 27980     | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR ARE 895140   | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 795399    | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 583551    | CÁRMEN LÚCIA | N | 0.000152
+ 84   | AGR AI 586706    | CÁRMEN LÚCIA | N | 0.000152
+ 85   | ED AI 551087     | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR AI 695904    | CÁRMEN LÚCIA | N | 0.000152
+ 87   | ED RE 510878     | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR RE 636091    | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR AI 719973    | CÁRMEN LÚCIA | N | 0.000152
+ 90   | HC 103359        | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR RE 463349    | CÁRMEN LÚCIA | N | 0.000152
+ 92   | AGR AI 820995    | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR RE 599943    | CÁRMEN LÚCIA | N | 0.000152
+ 94   | HC 134755        | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR ARE 741348   | CÁRMEN LÚCIA | N | 0.000152
+ 96   | ADI 128          | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR AI 719842    | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR RE 608847    | CÁRMEN LÚCIA | N | 0.000152
+ 99   | AGR AI 631201    | CÁRMEN LÚCIA | N | 0.000152
+ 100  | HC 128846        | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 3831      | CÁRMEN LÚCIA | N
+ AGR RCL 11538 | CÁRMEN LÚCIA | N
+ AGR HC 126924 | CÁRMEN LÚCIA | N
+ AR 1536       | CÁRMEN LÚCIA | N
+ ED RHC 122806 | CÁRMEN LÚCIA | N
+ HC 94295      | CÁRMEN LÚCIA | N
+ HC 94293      | CÁRMEN LÚCIA | N
+ AGR AI 795399 | CÁRMEN LÚCIA | N
+ AGR RE 636091 | CÁRMEN LÚCIA | N
+ AGR RE 599943 | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 2    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 6    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 7    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 24   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 25   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 26   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 28   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 29   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 30   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 32   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 33   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 34   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 35   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 42   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 43   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 45   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 46   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 48   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 56   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 58   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 59   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000152
+ 60   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 61   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 63   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 65   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 67   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 68   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 69   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 70   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 71   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 75   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 76   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 77   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 85   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 86   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 89   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 94   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 96   | AGR RE 608847         | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 99   | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+ 100  | ED ARE 665693         | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ED AI 714957   | CÁRMEN LÚCIA | N
+ AGR RE 600725  | CÁRMEN LÚCIA | N
+ AGR ARE 885202 | CÁRMEN LÚCIA | N
+ AGR AI 723446  | CÁRMEN LÚCIA | N
+ AGR RE 508995  | CÁRMEN LÚCIA | N
+ AGR AI 472831  | CÁRMEN LÚCIA | N
+ AGR ARE 895140 | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 2    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 6    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 7    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 21   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 22   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 24   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 25   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 26   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 28   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 29   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 30   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 31   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 32   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 34   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 35   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AR 1536               | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 39   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 40   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 43   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 45   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 46   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 48   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 55   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 56   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 58   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 60   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 61   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 62   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 63   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 65   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 66   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 67   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 68   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 69   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 70   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 71   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 75   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 76   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 77   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 83   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 84   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 85   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 89   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 94   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 96   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 97   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | ED ARE 665693         | CÁRMEN LÚCIA | N | 0.000152
+ 100  | ED AGR RE 595210      | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR ARE 693655 | CÁRMEN LÚCIA | N
+ AGR AI 676972  | CÁRMEN LÚCIA | N
+ ED AI 551087   | CÁRMEN LÚCIA | N
+ ED RE 510878   | CÁRMEN LÚCIA | N
+ ADI 128        | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3831              | CÁRMEN LÚCIA | N | 0.001015
+ 2    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 6    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 7    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 8    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000152
+ 12   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 24   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 25   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 26   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 27   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 28   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 29   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 30   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 32   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 34   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 35   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 37   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 43   | AR 1536               | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 45   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 46   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 47   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 48   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 50   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 52   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 55   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 56   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 58   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 60   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 61   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 63   | MS 27650              | CÁRMEN LÚCIA | N | 0.000152
+ 64   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 65   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 67   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 68   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 69   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 71   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 75   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 76   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 77   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 85   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 94   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 96   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | AGR RE 599943         | CÁRMEN LÚCIA | N | 0.000152
+ 100  | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR RE 508995    | CÁRMEN LÚCIA | N
+ EI AGR RCL 15155 | CÁRMEN LÚCIA | N
+ AGR AI 699938    | CÁRMEN LÚCIA | N
+ AR 1536          | CÁRMEN LÚCIA | N
+ ED AI 724029     | CÁRMEN LÚCIA | N
+ AGR RE 596543    | CÁRMEN LÚCIA | N
+ ED RE 595025     | CÁRMEN LÚCIA | N
+ AGR RE 720400    | CÁRMEN LÚCIA | N
+ HC 106205        | CÁRMEN LÚCIA | N
+ AGR ARE 875319   | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 2    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 6    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 7    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 24   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 25   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 26   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 28   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 29   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 30   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 31   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 32   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 34   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 35   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR ARE 884803        | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR RHC 127657        | CÁRMEN LÚCIA | N | 0.000152
+ 43   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 45   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 46   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 47   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 48   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 50   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 56   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 57   | MS 27650              | CÁRMEN LÚCIA | N | 0.000152
+ 58   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 59   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000152
+ 60   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 61   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 63   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 65   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 67   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 68   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 69   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 71   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 75   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 76   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 77   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 83   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 84   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 85   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 89   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 94   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 96   | AGR RE 608847         | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 99   | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+ 100  | ED ARE 665693         | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ED ARE 662114  | CÁRMEN LÚCIA | N
+ RHC 117694     | CÁRMEN LÚCIA | N
+ AGR ARE 721819 | CÁRMEN LÚCIA | N
+ AGR ARE 721818 | CÁRMEN LÚCIA | N
+ AGR ARE 810878 | CÁRMEN LÚCIA | N
+ MS 27650       | CÁRMEN LÚCIA | N
+ ADI 1264       | CÁRMEN LÚCIA | N
+ HC 94295       | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 2    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 6    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 7    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 24   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 25   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 26   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 28   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 29   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 30   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 32   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 33   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 34   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 35   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AR 1536               | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 43   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR RHC 127657        | CÁRMEN LÚCIA | N | 0.000152
+ 45   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 46   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 48   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 50   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 56   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 58   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 60   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 61   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 62   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 63   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 64   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 65   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 67   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 68   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 69   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 71   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 75   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 76   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 77   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 85   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 86   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 90   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 93   | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+ 94   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 95   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 96   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR RE 608847         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 100  | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ED RCL 4536      | CÁRMEN LÚCIA | N
+ AGR RE 800597    | CÁRMEN LÚCIA | N
+ AGR RE 471008    | CÁRMEN LÚCIA | N
+ HC 90914         | CÁRMEN LÚCIA | N
+ EI AGR RCL 15155 | CÁRMEN LÚCIA | N
+ AGR RE 597493    | CÁRMEN LÚCIA | N
+ AR 1536          | CÁRMEN LÚCIA | N
+ AGR RE 463349    | CÁRMEN LÚCIA | N
+ HC 134755        | CÁRMEN LÚCIA | N
+ AGR RE 608847    | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3831              | CÁRMEN LÚCIA | N | 0.001015
+ 2    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 6    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 7    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 9    | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR ARE 676661        | CÁRMEN LÚCIA | N | 0.000152
+ 21   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 24   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 25   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 26   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 27   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 28   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 29   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 30   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 32   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 34   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 35   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 37   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 38   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 41   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 43   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 44   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 45   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 46   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 48   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 49   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 54   | ADI 1264              | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 56   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 58   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 60   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 61   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 63   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 64   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 65   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 66   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 67   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 68   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 69   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 71   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 72   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 75   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 76   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000152
+ 77   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 85   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 88   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR RE 599943         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 92   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 94   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 95   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 96   | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+ 97   | ED ARE 665693         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR AI 713157         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | HC 111987             | CÁRMEN LÚCIA | N | 0.000152
+ 100  | HC 99457              | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 3831       | CÁRMEN LÚCIA | N
+ AGR RE 461196  | CÁRMEN LÚCIA | N
+ HC 97237       | CÁRMEN LÚCIA | N
+ AGR AI 582542  | CÁRMEN LÚCIA | N
+ RHC 97670      | CÁRMEN LÚCIA | N
+ AGR RE 597148  | CÁRMEN LÚCIA | N
+ ADI 1264       | CÁRMEN LÚCIA | N
+ AGR ARE 703877 | CÁRMEN LÚCIA | N
+ AGR ARE 670789 | CÁRMEN LÚCIA | N
+ AGR AI 695904  | CÁRMEN LÚCIA | N
+ AGR ARE 879572 | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 2    | AGR ARE 798241        | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 880083         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 6    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 7    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | AGR RE 855480         | CÁRMEN LÚCIA | N | 0.000152
+ 12   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR RE 600725         | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 24   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 25   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 26   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 28   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 29   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 30   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 32   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 33   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 34   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 35   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AR 1536               | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 43   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 44   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 45   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 46   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 47   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 48   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 49   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 51   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 52   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 55   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 56   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR HC 119600         | CÁRMEN LÚCIA | N | 0.000152
+ 58   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 59   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 60   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 61   | HC 96989              | CÁRMEN LÚCIA | N | 0.000152
+ 62   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 63   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 65   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 67   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 68   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 69   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 70   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 71   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 73   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 74   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 75   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 76   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 77   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 0.000152
+ 79   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 85   | ED RE 510878          | CÁRMEN LÚCIA | N | 0.000152
+ 86   | AGR RE 636091         | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR AI 719973         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 90   | AGR RE 599943         | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 92   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR AI 719842         | CÁRMEN LÚCIA | N | 0.000152
+ 94   | AGR RE 608847         | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 96   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | ED ARE 665693         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | AGR AI 713157         | CÁRMEN LÚCIA | N | 0.000152
+ 100  | ED AGR RE 595210      | CÁRMEN LÚCIA | N | 0.000152
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ AGR RE 600725  | CÁRMEN LÚCIA | N
+ AR 1536        | CÁRMEN LÚCIA | N
+ AGR HC 119600  | CÁRMEN LÚCIA | N
+ HC 96989       | CÁRMEN LÚCIA | N
+ AGR ARE 875319 | CÁRMEN LÚCIA | N
+ ED RE 510878   | CÁRMEN LÚCIA | N
+ AGR RE 636091  | CÁRMEN LÚCIA | N
+ AGR AI 719973  | CÁRMEN LÚCIA | N
+ AGR AI 719842  | CÁRMEN LÚCIA | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | ADI 3831              | CÁRMEN LÚCIA | N | 0.001015
+ 2    | ED RCL 4536           | CÁRMEN LÚCIA | N | 0.000152
+ 3    | AGR RE 599239         | CÁRMEN LÚCIA | N | 0.000152
+ 4    | AGR RE 461196         | CÁRMEN LÚCIA | N | 0.000152
+ 5    | ED AI 714957          | CÁRMEN LÚCIA | N | 0.000152
+ 6    | ED ARE 662114         | CÁRMEN LÚCIA | N | 0.000152
+ 7    | HC 106446             | CÁRMEN LÚCIA | N | 0.000152
+ 8    | AGR ARE 693655        | CÁRMEN LÚCIA | N | 0.000152
+ 9    | AGR AI 688548         | CÁRMEN LÚCIA | N | 0.000152
+ 10   | AGR RE 800597         | CÁRMEN LÚCIA | N | 0.000152
+ 11   | RHC 117694            | CÁRMEN LÚCIA | N | 0.000152
+ 12   | AGR RE 459672         | CÁRMEN LÚCIA | N | 0.000152
+ 13   | AGR RE 471008         | CÁRMEN LÚCIA | N | 0.000152
+ 14   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 0.000152
+ 15   | AGR AI 680396         | CÁRMEN LÚCIA | N | 0.000152
+ 16   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 0.000152
+ 17   | AGR AI 673479         | CÁRMEN LÚCIA | N | 0.000152
+ 18   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 0.000152
+ 19   | AGR AI 723446         | CÁRMEN LÚCIA | N | 0.000152
+ 20   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 0.000152
+ 21   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 0.000152
+ 22   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 0.000152
+ 23   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 0.000152
+ 24   | HC 90914              | CÁRMEN LÚCIA | N | 0.000152
+ 25   | HC 97237              | CÁRMEN LÚCIA | N | 0.000152
+ 26   | AGR AI 828072         | CÁRMEN LÚCIA | N | 0.000152
+ 27   | AGR RE 508995         | CÁRMEN LÚCIA | N | 0.000152
+ 28   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 0.000152
+ 29   | AGR AI 582542         | CÁRMEN LÚCIA | N | 0.000152
+ 30   | ED ARE 795931         | CÁRMEN LÚCIA | N | 0.000152
+ 31   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 0.000152
+ 32   | RHC 97670             | CÁRMEN LÚCIA | N | 0.000152
+ 33   | HC 112521             | CÁRMEN LÚCIA | N | 0.000152
+ 34   | AGR RE 494426         | CÁRMEN LÚCIA | S | 0.000152
+ 35   | AGR AI 673656         | CÁRMEN LÚCIA | N | 0.000152
+ 36   | AGR AI 649375         | CÁRMEN LÚCIA | N | 0.000152
+ 37   | AGR RE 597493         | CÁRMEN LÚCIA | N | 0.000152
+ 38   | AGR AI 472831         | CÁRMEN LÚCIA | N | 0.000152
+ 39   | AGR AI 699938         | CÁRMEN LÚCIA | N | 0.000152
+ 40   | AGR HC 126924         | CÁRMEN LÚCIA | N | 0.000152
+ 41   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 0.000152
+ 42   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 0.000152
+ 43   | ED AI 724029          | CÁRMEN LÚCIA | N | 0.000152
+ 44   | QO RMS 32004          | CÁRMEN LÚCIA | N | 0.000152
+ 45   | AGR RE 596543         | CÁRMEN LÚCIA | N | 0.000152
+ 46   | AGR RE 597148         | CÁRMEN LÚCIA | N | 0.000152
+ 47   | HC 107156             | CÁRMEN LÚCIA | N | 0.000152
+ 48   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 0.000152
+ 49   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 0.000152
+ 50   | AGR AI 682027         | CÁRMEN LÚCIA | N | 0.000152
+ 51   | AGR AI 564508         | CÁRMEN LÚCIA | N | 0.000152
+ 52   | ED RHC 122806         | CÁRMEN LÚCIA | N | 0.000152
+ 53   | AGR AI 666992         | CÁRMEN LÚCIA | N | 0.000152
+ 54   | AGR AI 557659         | CÁRMEN LÚCIA | N | 0.000152
+ 55   | ADI 1578              | CÁRMEN LÚCIA | N | 0.000152
+ 56   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 0.000152
+ 57   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 0.000152
+ 58   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 0.000152
+ 59   | MS 27650              | CÁRMEN LÚCIA | N | 0.000152
+ 60   | RHC 111434            | CÁRMEN LÚCIA | N | 0.000152
+ 61   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 0.000152
+ 62   | ED AI 600175          | CÁRMEN LÚCIA | N | 0.000152
+ 63   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 0.000152
+ 64   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 0.000152
+ 65   | ED RE 595025          | CÁRMEN LÚCIA | N | 0.000152
+ 66   | AGR RE 720400         | CÁRMEN LÚCIA | N | 0.000152
+ 67   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 0.000152
+ 68   | AGR AI 784491         | CÁRMEN LÚCIA | N | 0.000152
+ 69   | RMS 33937             | CÁRMEN LÚCIA | N | 0.000152
+ 70   | HC 113587             | CÁRMEN LÚCIA | N | 0.000152
+ 71   | HC 94295              | CÁRMEN LÚCIA | N | 0.000152
+ 72   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 0.000152
+ 73   | HC 94293              | CÁRMEN LÚCIA | N | 0.000152
+ 74   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 0.000152
+ 75   | AGR AI 676972         | CÁRMEN LÚCIA | N | 0.000152
+ 76   | AGR AI 728861         | CÁRMEN LÚCIA | N | 0.000152
+ 77   | HC 106205             | CÁRMEN LÚCIA | N | 0.000152
+ 78   | AGR RE 509224         | CÁRMEN LÚCIA | N | 0.000152
+ 79   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 0.000152
+ 80   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 0.000152
+ 81   | AGR MS 27980          | CÁRMEN LÚCIA | N | 0.000152
+ 82   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 0.000152
+ 83   | AGR AI 795399         | CÁRMEN LÚCIA | N | 0.000152
+ 84   | AGR AI 583551         | CÁRMEN LÚCIA | N | 0.000152
+ 85   | AGR AI 586706         | CÁRMEN LÚCIA | N | 0.000152
+ 86   | ED AI 551087          | CÁRMEN LÚCIA | N | 0.000152
+ 87   | AGR AI 695904         | CÁRMEN LÚCIA | N | 0.000152
+ 88   | INQ 4023              | CÁRMEN LÚCIA | N | 0.000152
+ 89   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 0.000152
+ 90   | HC 103359             | CÁRMEN LÚCIA | N | 0.000152
+ 91   | AGR RE 463349         | CÁRMEN LÚCIA | N | 0.000152
+ 92   | AGR AI 820995         | CÁRMEN LÚCIA | N | 0.000152
+ 93   | AGR RE 599943         | CÁRMEN LÚCIA | N | 0.000152
+ 94   | HC 134755             | CÁRMEN LÚCIA | N | 0.000152
+ 95   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 0.000152
+ 96   | ADI 128               | CÁRMEN LÚCIA | N | 0.000152
+ 97   | AGR RE 608847         | CÁRMEN LÚCIA | N | 0.000152
+ 98   | AGR AI 631201         | CÁRMEN LÚCIA | N | 0.000152
+ 99   | HC 128846             | CÁRMEN LÚCIA | N | 0.000152
+ 100  | AGR RE 451681         | CÁRMEN LÚCIA | N | 0.000152
+
+
+Virtual decisions in each iteration
+0: 1
+1: 1
+2: 1
+3: 1
+4: 1
+5: 1
+6: 1
+7: 1
+8: 1
+9: 1
+Mean of virtual decisions: 1.00
+Standard deviation of virtual decisions: 0.00
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 2 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 3 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 4 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 5 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 6 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 7 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 8 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 9 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Iteração 10 | # de relatores na iteração 1
+CÁRMEN LÚCIA: 100
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+CÁRMEN LÚCIA | 1000 (100.00%) | 10 | 100.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+CÁRMEN LÚCIA | 123 (12.30%) | 0.12 | 0.0169 | 0.1372 | 0.0000 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ AGR RE 494426    | CÁRMEN LÚCIA | S
+ AGR ARE 744886   | CÁRMEN LÚCIA | N
+ AGR AI 682027    | CÁRMEN LÚCIA | N
+ AGR AI 666992    | CÁRMEN LÚCIA | N
+ AGR ARE 680462   | CÁRMEN LÚCIA | N
+ AGR AI 688548    | CÁRMEN LÚCIA | N
+ AGR AI 728861    | CÁRMEN LÚCIA | N
+ HC 106446        | CÁRMEN LÚCIA | N
+ AGR AI 586706    | CÁRMEN LÚCIA | N
+ AGR MS 27980     | CÁRMEN LÚCIA | N
+ ED AI 600175     | CÁRMEN LÚCIA | N
+ RHC 111434       | CÁRMEN LÚCIA | N
+ ED ARE 795931    | CÁRMEN LÚCIA | N
+ AGR RE 509224    | CÁRMEN LÚCIA | N
+ AGR ARE 744080   | CÁRMEN LÚCIA | N
+ AGR AI 784491    | CÁRMEN LÚCIA | N
+ AGR AI 557659    | CÁRMEN LÚCIA | N
+ AGR AI 583551    | CÁRMEN LÚCIA | N
+ QO RMS 32004     | CÁRMEN LÚCIA | N
+ RMS 33937        | CÁRMEN LÚCIA | N
+ AGR ARE 680460   | CÁRMEN LÚCIA | N
+ AGR RE 599239    | CÁRMEN LÚCIA | N
+ AGR RCL 9450     | CÁRMEN LÚCIA | N
+ AGR ARE 752462   | CÁRMEN LÚCIA | N
+ AGR AI 673656    | CÁRMEN LÚCIA | N
+ HC 107156        | CÁRMEN LÚCIA | N
+ AGR AI 828072    | CÁRMEN LÚCIA | N
+ HC 112521        | CÁRMEN LÚCIA | N
+ AGR ED RE 487541 | CÁRMEN LÚCIA | N
+ AGR ARE 693014   | CÁRMEN LÚCIA | N
+ AGR ARE 776742   | CÁRMEN LÚCIA | N
+ AGR ARE 843666   | CÁRMEN LÚCIA | N
+ AGR RE 459672    | CÁRMEN LÚCIA | N
+ ED AGR RE 237959 | CÁRMEN LÚCIA | N
+ HC 113587        | CÁRMEN LÚCIA | N
+ AGR AI 673479    | CÁRMEN LÚCIA | N
+ AGR ARE 889802   | CÁRMEN LÚCIA | N
+ AGR AI 564508    | CÁRMEN LÚCIA | N
+ AGR ARE 762476   | CÁRMEN LÚCIA | N
+
+
+Most frequent decisions by inverse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | AGR RE 599239         | CÁRMEN LÚCIA | N | 10 | 0
+ 2   | AGR ARE 889802        | CÁRMEN LÚCIA | N | 10 | 0
+ 3   | AGR ARE 752462        | CÁRMEN LÚCIA | N | 10 | 0
+ 4   | HC 106446             | CÁRMEN LÚCIA | N | 10 | 0
+ 5   | AGR AI 688548         | CÁRMEN LÚCIA | N | 10 | 0
+ 6   | AGR ARE 843666        | CÁRMEN LÚCIA | N | 10 | 0
+ 7   | AGR ARE 744886        | CÁRMEN LÚCIA | N | 10 | 0
+ 8   | AGR AI 673479         | CÁRMEN LÚCIA | N | 10 | 0
+ 9   | AGR RCL 9450          | CÁRMEN LÚCIA | N | 10 | 0
+ 10   | AGR ARE 762476        | CÁRMEN LÚCIA | N | 10 | 0
+ 11   | AGR AI 828072         | CÁRMEN LÚCIA | N | 10 | 0
+ 12   | ED ARE 795931         | CÁRMEN LÚCIA | N | 10 | 0
+ 13   | HC 112521             | CÁRMEN LÚCIA | N | 10 | 0
+ 14   | AGR RE 494426         | CÁRMEN LÚCIA | S | 10 | 0
+ 15   | AGR AI 673656         | CÁRMEN LÚCIA | N | 10 | 0
+ 16   | AGR ARE 680462        | CÁRMEN LÚCIA | N | 10 | 0
+ 17   | AGR ARE 680460        | CÁRMEN LÚCIA | N | 10 | 0
+ 18   | QO RMS 32004          | CÁRMEN LÚCIA | N | 10 | 0
+ 19   | HC 107156             | CÁRMEN LÚCIA | N | 10 | 0
+ 20   | AGR ARE 776742        | CÁRMEN LÚCIA | N | 10 | 0
+ 21   | AGR AI 682027         | CÁRMEN LÚCIA | N | 10 | 0
+ 22   | AGR AI 564508         | CÁRMEN LÚCIA | N | 10 | 0
+ 23   | AGR AI 666992         | CÁRMEN LÚCIA | N | 10 | 0
+ 24   | AGR AI 557659         | CÁRMEN LÚCIA | N | 10 | 0
+ 25   | RHC 111434            | CÁRMEN LÚCIA | N | 10 | 0
+ 26   | ED AI 600175          | CÁRMEN LÚCIA | N | 10 | 0
+ 27   | AGR ARE 744080        | CÁRMEN LÚCIA | N | 10 | 0
+ 28   | AGR ED RE 487541      | CÁRMEN LÚCIA | N | 10 | 0
+ 29   | AGR AI 784491         | CÁRMEN LÚCIA | N | 10 | 0
+ 30   | RMS 33937             | CÁRMEN LÚCIA | N | 10 | 0
+ 31   | HC 113587             | CÁRMEN LÚCIA | N | 10 | 0
+ 32   | AGR ARE 693014        | CÁRMEN LÚCIA | N | 10 | 0
+ 33   | AGR AI 728861         | CÁRMEN LÚCIA | N | 10 | 0
+ 34   | AGR RE 509224         | CÁRMEN LÚCIA | N | 10 | 0
+ 35   | ED AGR RE 237959      | CÁRMEN LÚCIA | N | 10 | 0
+ 36   | AGR MS 27980          | CÁRMEN LÚCIA | N | 10 | 0
+ 37   | AGR RE 459672         | CÁRMEN LÚCIA | N | 10 | 0
+ 38   | AGR AI 583551         | CÁRMEN LÚCIA | N | 10 | 0
+ 39   | AGR AI 586706         | CÁRMEN LÚCIA | N | 10 | 0
+ 40   | ED RCL 4536           | CÁRMEN LÚCIA | N | 9 | 1
+ 41   | ED AI 714957          | CÁRMEN LÚCIA | N | 9 | 1
+ 42   | ED ARE 662114         | CÁRMEN LÚCIA | N | 9 | 1
+ 43   | AGR ARE 693655        | CÁRMEN LÚCIA | N | 9 | 1
+ 44   | AGR RE 800597         | CÁRMEN LÚCIA | N | 9 | 1
+ 45   | RHC 117694            | CÁRMEN LÚCIA | N | 9 | 1
+ 46   | AGR RE 471008         | CÁRMEN LÚCIA | N | 9 | 1
+ 47   | AGR AI 680396         | CÁRMEN LÚCIA | N | 9 | 1
+ 48   | AGR ARE 895140        | CÁRMEN LÚCIA | N | 9 | 1
+ 49   | AGR RCL 11538         | CÁRMEN LÚCIA | N | 9 | 1
+ 50   | AGR RE 461196         | CÁRMEN LÚCIA | N | 9 | 1
+ 51   | HC 97237              | CÁRMEN LÚCIA | N | 9 | 1
+ 52   | AGR AI 582542         | CÁRMEN LÚCIA | N | 9 | 1
+ 53   | RHC 97670             | CÁRMEN LÚCIA | N | 9 | 1
+ 54   | AGR AI 649375         | CÁRMEN LÚCIA | N | 9 | 1
+ 55   | AGR RE 597493         | CÁRMEN LÚCIA | N | 9 | 1
+ 56   | AGR AI 472831         | CÁRMEN LÚCIA | N | 9 | 1
+ 57   | AGR HC 126924         | CÁRMEN LÚCIA | N | 9 | 1
+ 58   | AGR RE 596543         | CÁRMEN LÚCIA | N | 9 | 1
+ 59   | SEGUNDO AGR RE 352292 | CÁRMEN LÚCIA | N | 9 | 1
+ 60   | ED RHC 122806         | CÁRMEN LÚCIA | N | 9 | 1
+ 61   | AGR ARE 810878        | CÁRMEN LÚCIA | N | 9 | 1
+ 62   | AGR HC 119600         | CÁRMEN LÚCIA | N | 9 | 1
+ 63   | HC 96989              | CÁRMEN LÚCIA | N | 9 | 1
+ 64   | ED RE 595025          | CÁRMEN LÚCIA | N | 9 | 1
+ 65   | AGR RE 720400         | CÁRMEN LÚCIA | N | 9 | 1
+ 66   | HC 94293              | CÁRMEN LÚCIA | N | 9 | 1
+ 67   | AGR ARE 670789        | CÁRMEN LÚCIA | N | 9 | 1
+ 68   | AGR AI 676972         | CÁRMEN LÚCIA | N | 9 | 1
+ 69   | HC 106205             | CÁRMEN LÚCIA | N | 9 | 1
+ 70   | AGR ARE 885202        | CÁRMEN LÚCIA | N | 9 | 1
+ 71   | AGR AI 795399         | CÁRMEN LÚCIA | N | 9 | 1
+ 72   | ED AI 551087          | CÁRMEN LÚCIA | N | 9 | 1
+ 73   | AGR AI 695904         | CÁRMEN LÚCIA | N | 9 | 1
+ 74   | AGR AI 719973         | CÁRMEN LÚCIA | N | 9 | 1
+ 75   | HC 103359             | CÁRMEN LÚCIA | N | 9 | 0
+ 76   | AGR AI 820995         | CÁRMEN LÚCIA | N | 9 | 0
+ 77   | AGR RE 600725         | CÁRMEN LÚCIA | N | 8 | 2
+ 78   | AGR AI 723446         | CÁRMEN LÚCIA | N | 8 | 2
+ 79   | HC 90914              | CÁRMEN LÚCIA | N | 8 | 2
+ 80   | AGR RE 508995         | CÁRMEN LÚCIA | N | 8 | 2
+ 81   | EI AGR RCL 15155      | CÁRMEN LÚCIA | N | 8 | 2
+ 82   | AGR AI 699938         | CÁRMEN LÚCIA | N | 8 | 2
+ 83   | ED AI 724029          | CÁRMEN LÚCIA | N | 8 | 2
+ 84   | AGR RE 597148         | CÁRMEN LÚCIA | N | 8 | 2
+ 85   | AGR ARE 721819        | CÁRMEN LÚCIA | N | 8 | 2
+ 86   | AGR ARE 721818        | CÁRMEN LÚCIA | N | 8 | 2
+ 87   | AGR ARE 703877        | CÁRMEN LÚCIA | N | 8 | 2
+ 88   | HC 94295              | CÁRMEN LÚCIA | N | 8 | 2
+ 89   | ED RE 510878          | CÁRMEN LÚCIA | N | 8 | 2
+ 90   | AGR RE 636091         | CÁRMEN LÚCIA | N | 8 | 2
+ 91   | ADI 128               | CÁRMEN LÚCIA | N | 8 | 1
+ 92   | AGR ARE 789134        | CÁRMEN LÚCIA | N | 8 | 0
+ 93   | AGR ARE 774265        | CÁRMEN LÚCIA | N | 8 | 0
+ 94   | AGR ARE 741348        | CÁRMEN LÚCIA | N | 8 | 0
+ 95   | AGR AI 631201         | CÁRMEN LÚCIA | N | 8 | 0
+ 96   | HC 128846             | CÁRMEN LÚCIA | N | 8 | 0
+ 97   | ADI 1264              | CÁRMEN LÚCIA | N | 7 | 3
+ 98   | AGR ARE 875319        | CÁRMEN LÚCIA | N | 7 | 3
+ 99   | AGR ARE 879572        | CÁRMEN LÚCIA | N | 7 | 2
+ 100   | AGR RE 463349         | CÁRMEN LÚCIA | N | 7 | 2
+ 101   | HC 134755             | CÁRMEN LÚCIA | N | 7 | 2
+ 102   | AGR AI 719842         | CÁRMEN LÚCIA | N | 7 | 1
+ 103   | ADI 1578              | CÁRMEN LÚCIA | N | 7 | 0
+ 104   | AGR ARE 798241        | CÁRMEN LÚCIA | N | 7 | 0
+ 105   | AGR RE 451681         | CÁRMEN LÚCIA | N | 7 | 0
+ 106   | AR 1536               | CÁRMEN LÚCIA | N | 6 | 4
+ 107   | AGR RE 855480         | CÁRMEN LÚCIA | N | 6 | 1
+ 108   | AGR RE 608847         | CÁRMEN LÚCIA | N | 6 | 1
+ 109   | ADI 3831              | CÁRMEN LÚCIA | N | 5 | 3
+ 110   | AGR RE 599943         | CÁRMEN LÚCIA | N | 5 | 3
+ 111   | MS 27650              | CÁRMEN LÚCIA | N | 5 | 1
+ 112   | ED ARE 665693         | CÁRMEN LÚCIA | N | 5 | 0
+ 113   | AGR ARE 676661        | CÁRMEN LÚCIA | N | 2 | 2
+ 114   | ED AGR RE 595210      | CÁRMEN LÚCIA | N | 2 | 2
+ 115   | AGR AI 713157         | CÁRMEN LÚCIA | N | 2 | 1
+ 116   | AGR RHC 127657        | CÁRMEN LÚCIA | N | 2 | 0
+ 117   | AGR ARE 884803        | CÁRMEN LÚCIA | N | 2 | 0
+
+stf_pr_1_acordaos_90_replaced_col_rel_1
+Number of decisions which appear on simulations: 123
+Number of items whose frequency is higher than 1: 117
+Number of decisions which could be in all iterations: 91
+decisões que aparecem pelo menos 10 vezes | 39
+decisões que aparecem pelo menos 9 vezes | 76
+decisões que aparecem pelo menos 8 vezes | 96
+129
