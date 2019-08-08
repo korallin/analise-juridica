@@ -1,0 +1,1373 @@
+Descrição de informações da simulação do page rank por iteração
+
+Iteração 1
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371  | CEZAR PELUSO | N | 0.364923
+ 2    | ADI 3049  | CEZAR PELUSO | N | 0.069981
+ 3    | HC 85601  | CEZAR PELUSO | N | 0.069978
+ 4    | HC 90684  | CEZAR PELUSO | N | 0.069972
+ 5    | ADI 3625  | CEZAR PELUSO | N | 0.069969
+ 6    | INQ 2555  | CEZAR PELUSO | N | 0.034994
+ 7    | HC 87107  | CEZAR PELUSO | N | 0.034994
+ 8    | INQ 2455  | CEZAR PELUSO | N | 0.034994
+ 9    | INQ 2462  | CEZAR PELUSO | N | 0.034994
+ 10   | HC 82848  | CEZAR PELUSO | N | 0.034994
+ 11   | HC 85185  | CEZAR PELUSO | N | 0.002042
+ 12   | HC 89699  | CEZAR PELUSO | N | 0.000129
+ 13   | RE 407688 | CEZAR PELUSO | N | 0.000099
+ 14   | RE 520942 | CEZAR PELUSO | S | 0.000099
+ 15   | HC 88740  | CEZAR PELUSO | N | 0.000080
+ 16   | HC 92110  | CEZAR PELUSO | N | 0.000068
+ 17   | HC 84931  | CEZAR PELUSO | N | 0.000063
+ 18   | ACO 1058  | CEZAR PELUSO | N | 0.000062
+ 19   | HC 88978  | CEZAR PELUSO | N | 0.000055
+ 20   | HC 93753  | CEZAR PELUSO | N | 0.000049
+ 21   | HC 95069  | CEZAR PELUSO | N | 0.000049
+ 22   | RHC 89135 | CEZAR PELUSO | N | 0.000049
+ 23   | HC 87468  | CEZAR PELUSO | N | 0.000047
+ 24   | HC 86520  | CEZAR PELUSO | N | 0.000047
+ 25   | HC 87041  | CEZAR PELUSO | N | 0.000047
+ 26   | HC 87926  | CEZAR PELUSO | N | 0.000043
+ 27   | HC 88393  | CEZAR PELUSO | N | 0.000043
+ 28   | RE 454737 | CEZAR PELUSO | N | 0.000043
+ 29   | HC 86140  | CEZAR PELUSO | N | 0.000043
+ 30   | HC 84311  | CEZAR PELUSO | N | 0.000042
+ 31   | RE 466343 | CEZAR PELUSO | N | 0.000037
+ 32   | HC 84166  | CEZAR PELUSO | N | 0.000037
+ 33   | HC 91175  | CEZAR PELUSO | N | 0.000037
+ 34   | HC 83545  | CEZAR PELUSO | N | 0.000037
+ 35   | HC 91228  | CEZAR PELUSO | N | 0.000037
+ 36   | HC 88836  | CEZAR PELUSO | N | 0.000037
+ 37   | ACO 853   | CEZAR PELUSO | N | 0.000037
+ 38   | RHC 86190 | CEZAR PELUSO | N | 0.000037
+ 39   | HC 83894  | CEZAR PELUSO | N | 0.000037
+ 40   | HC 93466  | CEZAR PELUSO | N | 0.000035
+ 41   | HC 84997  | CEZAR PELUSO | N | 0.000034
+ 42   | HC 83981  | CEZAR PELUSO | N | 0.000033
+ 43   | HC 87717  | CEZAR PELUSO | N | 0.000031
+ 44   | RHC 85658 | CEZAR PELUSO | N | 0.000031
+ 45   | HC 91516  | CEZAR PELUSO | N | 0.000031
+ 46   | HC 89815  | CEZAR PELUSO | N | 0.000031
+ 47   | HC 86609  | CEZAR PELUSO | N | 0.000031
+ 48   | HC 91161  | CEZAR PELUSO | N | 0.000028
+ 49   | RHC 84295 | CEZAR PELUSO | N | 0.000025
+ 50   | HC 84928  | CEZAR PELUSO | N | 0.000025
+ 51   | RE 467923 | CEZAR PELUSO | N | 0.000025
+ 52   | AC 112    | CEZAR PELUSO | N | 0.000025
+ 53   | HC 91743  | CEZAR PELUSO | N | 0.000025
+ 54   | HC 85425  | CEZAR PELUSO | N | 0.000025
+ 55   | HC 95167  | CEZAR PELUSO | N | 0.000025
+ 56   | HC 86748  | CEZAR PELUSO | N | 0.000025
+ 57   | MS 26405  | CEZAR PELUSO | N | 0.000025
+ 58   | HC 89777  | CEZAR PELUSO | N | 0.000025
+ 59   | HC 94072  | CEZAR PELUSO | N | 0.000025
+ 60   | HC 88284  | CEZAR PELUSO | N | 0.000025
+ 61   | HC 85718  | CEZAR PELUSO | N | 0.000025
+ 62   | HC 95611  | CEZAR PELUSO | N | 0.000025
+ 63   | HC 84590  | CEZAR PELUSO | N | 0.000025
+ 64   | ADI 1980  | CEZAR PELUSO | N | 0.000025
+ 65   | HC 87089  | CEZAR PELUSO | N | 0.000025
+ 66   | HC 91650  | CEZAR PELUSO | N | 0.000025
+ 67   | HC 84534  | CEZAR PELUSO | N | 0.000025
+ 68   | HC 92568  | CEZAR PELUSO | N | 0.000025
+ 69   | RE 534384 | CEZAR PELUSO | N | 0.000025
+ 70   | HC 92994  | CEZAR PELUSO | N | 0.000025
+ 71   | HC 92680  | CEZAR PELUSO | N | 0.000025
+ 72   | HC 95003  | CEZAR PELUSO | N | 0.000025
+ 73   | HC 95142  | CEZAR PELUSO | N | 0.000025
+ 74   | HC 86548  | CEZAR PELUSO | N | 0.000025
+ 75   | HC 87157  | CEZAR PELUSO | N | 0.000025
+ 76   | HC 89649  | CEZAR PELUSO | S | 0.000025
+ 77   | RHC 87198 | CEZAR PELUSO | N | 0.000025
+ 78   | HC 82862  | CEZAR PELUSO | N | 0.000025
+ 79   | EXT 959   | CEZAR PELUSO | N | 0.000025
+ 80   | HC 90749  | CEZAR PELUSO | N | 0.000025
+ 81   | HC 90709  | CEZAR PELUSO | N | 0.000025
+ 82   | HC 87219  | CEZAR PELUSO | N | 0.000025
+ 83   | HC 87343  | CEZAR PELUSO | N | 0.000023
+ 84   | HC 96976  | CEZAR PELUSO | N | 0.000023
+ 85   | HC 82982  | CEZAR PELUSO | N | 0.000021
+ 86   | HC 93315  | CEZAR PELUSO | N | 0.000020
+ 87   | HC 94122  | CEZAR PELUSO | N | 0.000018
+ 88   | EXT 921   | CEZAR PELUSO | N | 0.000018
+ 89   | HC 86238  | CEZAR PELUSO | N | 0.000018
+ 90   | HC 97819  | CEZAR PELUSO | N | 0.000018
+ 91   | HC 87071  | CEZAR PELUSO | N | 0.000018
+ 92   | PET 3631  | CEZAR PELUSO | N | 0.000018
+ 93   | HC 97948  | CEZAR PELUSO | S | 0.000018
+ 94   | INQ 2424  | CEZAR PELUSO | N | 0.000018
+ 95   | HC 93710  | CEZAR PELUSO | S | 0.000018
+ 96   | HC 95766  | CEZAR PELUSO | N | 0.000018
+ 97   | HC 90471  | CEZAR PELUSO | N | 0.000018
+ 98   | HC 85824  | CEZAR PELUSO | N | 0.000018
+ 99   | EXT 931   | CEZAR PELUSO | N | 0.000018
+ 100  | HC 92302  | CEZAR PELUSO | N | 0.000018
+
+
+Iteração 2
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 86520  | CEZAR PELUSO | N
+ RE 454737 | CEZAR PELUSO | N
+ HC 83545  | CEZAR PELUSO | N
+ HC 88836  | CEZAR PELUSO | N
+ HC 84997  | CEZAR PELUSO | N
+ HC 91516  | CEZAR PELUSO | N
+ EXT 959   | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371        | CEZAR PELUSO | N | 0.382337
+ 2    | ADI 3049        | CEZAR PELUSO | N | 0.067281
+ 3    | HC 85601        | CEZAR PELUSO | N | 0.067277
+ 4    | HC 90684        | CEZAR PELUSO | N | 0.067270
+ 5    | ADI 3625        | CEZAR PELUSO | N | 0.067267
+ 6    | INQ 2555        | CEZAR PELUSO | N | 0.033644
+ 7    | HC 87107        | CEZAR PELUSO | N | 0.033644
+ 8    | INQ 2455        | CEZAR PELUSO | N | 0.033644
+ 9    | INQ 2462        | CEZAR PELUSO | N | 0.033644
+ 10   | HC 82848        | CEZAR PELUSO | N | 0.033644
+ 11   | HC 85185        | CEZAR PELUSO | N | 0.002322
+ 12   | HC 89699        | CEZAR PELUSO | N | 0.000133
+ 13   | RE 407688       | CEZAR PELUSO | N | 0.000112
+ 14   | RE 520942       | CEZAR PELUSO | S | 0.000112
+ 15   | HC 88740        | CEZAR PELUSO | N | 0.000091
+ 16   | HC 84931        | CEZAR PELUSO | N | 0.000067
+ 17   | HC 87468        | CEZAR PELUSO | N | 0.000059
+ 18   | HC 84311        | CEZAR PELUSO | N | 0.000057
+ 19   | HC 93753        | CEZAR PELUSO | N | 0.000056
+ 20   | HC 95069        | CEZAR PELUSO | N | 0.000056
+ 21   | HC 88978        | CEZAR PELUSO | N | 0.000056
+ 22   | RHC 89135       | CEZAR PELUSO | N | 0.000056
+ 23   | HC 87926        | CEZAR PELUSO | N | 0.000049
+ 24   | HC 87041        | CEZAR PELUSO | N | 0.000048
+ 25   | HC 83981        | CEZAR PELUSO | N | 0.000043
+ 26   | HC 84166        | CEZAR PELUSO | N | 0.000042
+ 27   | HC 93466        | CEZAR PELUSO | N | 0.000042
+ 28   | HC 91175        | CEZAR PELUSO | N | 0.000042
+ 29   | HC 91228        | CEZAR PELUSO | N | 0.000042
+ 30   | ACO 853         | CEZAR PELUSO | N | 0.000042
+ 31   | RHC 86190       | CEZAR PELUSO | N | 0.000042
+ 32   | HC 83894        | CEZAR PELUSO | N | 0.000042
+ 33   | HC 87717        | CEZAR PELUSO | N | 0.000035
+ 34   | RHC 85658       | CEZAR PELUSO | N | 0.000035
+ 35   | HC 88393        | CEZAR PELUSO | N | 0.000035
+ 36   | HC 92110        | CEZAR PELUSO | N | 0.000035
+ 37   | HC 89815        | CEZAR PELUSO | N | 0.000035
+ 38   | HC 86140        | CEZAR PELUSO | N | 0.000035
+ 39   | HC 86609        | CEZAR PELUSO | N | 0.000035
+ 40   | HC 91161        | CEZAR PELUSO | N | 0.000032
+ 41   | HC 95003        | CEZAR PELUSO | N | 0.000028
+ 42   | RHC 84295       | CEZAR PELUSO | N | 0.000028
+ 43   | ACO 1058        | CEZAR PELUSO | N | 0.000028
+ 44   | HC 84928        | CEZAR PELUSO | N | 0.000028
+ 45   | RE 467923       | CEZAR PELUSO | N | 0.000028
+ 46   | AC 112          | CEZAR PELUSO | N | 0.000028
+ 47   | HC 91743        | CEZAR PELUSO | N | 0.000028
+ 48   | RE 534384       | CEZAR PELUSO | N | 0.000028
+ 49   | RE 466343       | CEZAR PELUSO | N | 0.000028
+ 50   | HC 85425        | CEZAR PELUSO | N | 0.000028
+ 51   | HC 95167        | CEZAR PELUSO | N | 0.000028
+ 52   | HC 86748        | CEZAR PELUSO | N | 0.000028
+ 53   | MS 26405        | CEZAR PELUSO | N | 0.000028
+ 54   | HC 92568        | CEZAR PELUSO | N | 0.000028
+ 55   | HC 89777        | CEZAR PELUSO | N | 0.000028
+ 56   | HC 88284        | CEZAR PELUSO | N | 0.000028
+ 57   | HC 85718        | CEZAR PELUSO | N | 0.000028
+ 58   | HC 95611        | CEZAR PELUSO | N | 0.000028
+ 59   | HC 84590        | CEZAR PELUSO | N | 0.000028
+ 60   | ADI 1980        | CEZAR PELUSO | N | 0.000028
+ 61   | HC 82982        | CEZAR PELUSO | N | 0.000028
+ 62   | HC 84534        | CEZAR PELUSO | N | 0.000028
+ 63   | HC 92994        | CEZAR PELUSO | N | 0.000028
+ 64   | HC 92680        | CEZAR PELUSO | N | 0.000028
+ 65   | HC 95142        | CEZAR PELUSO | N | 0.000028
+ 66   | HC 86548        | CEZAR PELUSO | N | 0.000028
+ 67   | HC 87157        | CEZAR PELUSO | N | 0.000028
+ 68   | HC 89649        | CEZAR PELUSO | S | 0.000028
+ 69   | HC 91650        | CEZAR PELUSO | N | 0.000028
+ 70   | RHC 87198       | CEZAR PELUSO | N | 0.000028
+ 71   | HC 82862        | CEZAR PELUSO | N | 0.000028
+ 72   | HC 90749        | CEZAR PELUSO | N | 0.000028
+ 73   | HC 90709        | CEZAR PELUSO | N | 0.000028
+ 74   | HC 87343        | CEZAR PELUSO | N | 0.000026
+ 75   | HC 96976        | CEZAR PELUSO | N | 0.000026
+ 76   | HC 93315        | CEZAR PELUSO | N | 0.000024
+ 77   | HC 94122        | CEZAR PELUSO | N | 0.000021
+ 78   | HC 86238        | CEZAR PELUSO | N | 0.000021
+ 79   | EXT 921         | CEZAR PELUSO | N | 0.000021
+ 80   | HC 97819        | CEZAR PELUSO | N | 0.000021
+ 81   | HC 87071        | CEZAR PELUSO | N | 0.000021
+ 82   | HC 97948        | CEZAR PELUSO | S | 0.000021
+ 83   | PET 3631        | CEZAR PELUSO | N | 0.000021
+ 84   | INQ 2424        | CEZAR PELUSO | N | 0.000021
+ 85   | HC 93710        | CEZAR PELUSO | S | 0.000021
+ 86   | HC 95766        | CEZAR PELUSO | N | 0.000021
+ 87   | HC 90471        | CEZAR PELUSO | N | 0.000021
+ 88   | HC 85824        | CEZAR PELUSO | N | 0.000021
+ 89   | EXT 931         | CEZAR PELUSO | N | 0.000021
+ 90   | HC 92302        | CEZAR PELUSO | N | 0.000021
+ 91   | HC 83516        | CEZAR PELUSO | N | 0.000021
+ 92   | HC 93393        | CEZAR PELUSO | N | 0.000019
+ 93   | HC 90540        | CEZAR PELUSO | N | 0.000019
+ 94   | HC 91480        | CEZAR PELUSO | N | 0.000019
+ 95   | HC 81832        | CEZAR PELUSO | N | 0.000018
+ 96   | HC 95362        | CEZAR PELUSO | N | 0.000017
+ 97   | HC 95100        | CEZAR PELUSO | N | 0.000016
+ 98   | AGR AI 581876   | CEZAR PELUSO | S | 0.000014
+ 99   | ED ED RE 507258 | CEZAR PELUSO | S | 0.000014
+ 100  | MS 26652        | CEZAR PELUSO | S | 0.000014
+
+
+Iteração 3
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 88740  | CEZAR PELUSO | N
+ HC 91175  | CEZAR PELUSO | N
+ HC 84928  | CEZAR PELUSO | N
+ RE 534384 | CEZAR PELUSO | N
+ HC 95167  | CEZAR PELUSO | N
+ MS 26405  | CEZAR PELUSO | N
+ RHC 87198 | CEZAR PELUSO | N
+ EXT 931   | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.364889
+ 2    | ADI 3049              | CEZAR PELUSO | N | 0.069977
+ 3    | HC 85601              | CEZAR PELUSO | N | 0.069974
+ 4    | HC 90684              | CEZAR PELUSO | N | 0.069967
+ 5    | ADI 3625              | CEZAR PELUSO | N | 0.069964
+ 6    | INQ 2555              | CEZAR PELUSO | N | 0.034992
+ 7    | HC 87107              | CEZAR PELUSO | N | 0.034992
+ 8    | INQ 2455              | CEZAR PELUSO | N | 0.034992
+ 9    | INQ 2462              | CEZAR PELUSO | N | 0.034992
+ 10   | HC 82848              | CEZAR PELUSO | N | 0.034992
+ 11   | HC 85185              | CEZAR PELUSO | N | 0.002245
+ 12   | HC 89699              | CEZAR PELUSO | N | 0.000136
+ 13   | RE 407688             | CEZAR PELUSO | N | 0.000109
+ 14   | RE 520942             | CEZAR PELUSO | S | 0.000109
+ 15   | HC 92110              | CEZAR PELUSO | N | 0.000075
+ 16   | HC 84931              | CEZAR PELUSO | N | 0.000070
+ 17   | ACO 1058              | CEZAR PELUSO | N | 0.000068
+ 18   | HC 88978              | CEZAR PELUSO | N | 0.000061
+ 19   | HC 95069              | CEZAR PELUSO | N | 0.000055
+ 20   | RHC 89135             | CEZAR PELUSO | N | 0.000055
+ 21   | HC 87468              | CEZAR PELUSO | N | 0.000053
+ 22   | HC 87041              | CEZAR PELUSO | N | 0.000052
+ 23   | HC 87926              | CEZAR PELUSO | N | 0.000048
+ 24   | HC 88393              | CEZAR PELUSO | N | 0.000048
+ 25   | RE 454737             | CEZAR PELUSO | N | 0.000048
+ 26   | HC 86140              | CEZAR PELUSO | N | 0.000048
+ 27   | HC 84311              | CEZAR PELUSO | N | 0.000047
+ 28   | HC 93753              | CEZAR PELUSO | N | 0.000041
+ 29   | HC 84166              | CEZAR PELUSO | N | 0.000041
+ 30   | HC 83545              | CEZAR PELUSO | N | 0.000041
+ 31   | HC 91228              | CEZAR PELUSO | N | 0.000041
+ 32   | HC 86609              | CEZAR PELUSO | N | 0.000041
+ 33   | HC 83894              | CEZAR PELUSO | N | 0.000041
+ 34   | HC 93466              | CEZAR PELUSO | N | 0.000039
+ 35   | HC 84997              | CEZAR PELUSO | N | 0.000037
+ 36   | HC 83981              | CEZAR PELUSO | N | 0.000037
+ 37   | RHC 85658             | CEZAR PELUSO | N | 0.000034
+ 38   | HC 91516              | CEZAR PELUSO | N | 0.000034
+ 39   | HC 87717              | CEZAR PELUSO | N | 0.000034
+ 40   | HC 89815              | CEZAR PELUSO | N | 0.000034
+ 41   | HC 91161              | CEZAR PELUSO | N | 0.000031
+ 42   | RHC 86190             | CEZAR PELUSO | N | 0.000027
+ 43   | RHC 84295             | CEZAR PELUSO | N | 0.000027
+ 44   | HC 91743              | CEZAR PELUSO | N | 0.000027
+ 45   | RE 466343             | CEZAR PELUSO | N | 0.000027
+ 46   | HC 85425              | CEZAR PELUSO | N | 0.000027
+ 47   | HC 86748              | CEZAR PELUSO | N | 0.000027
+ 48   | EXT 921               | CEZAR PELUSO | N | 0.000027
+ 49   | HC 89777              | CEZAR PELUSO | N | 0.000027
+ 50   | HC 94072              | CEZAR PELUSO | N | 0.000027
+ 51   | HC 88284              | CEZAR PELUSO | N | 0.000027
+ 52   | RE 467923             | CEZAR PELUSO | N | 0.000027
+ 53   | HC 85718              | CEZAR PELUSO | N | 0.000027
+ 54   | HC 95611              | CEZAR PELUSO | N | 0.000027
+ 55   | HC 84590              | CEZAR PELUSO | N | 0.000027
+ 56   | ADI 1980              | CEZAR PELUSO | N | 0.000027
+ 57   | HC 87089              | CEZAR PELUSO | N | 0.000027
+ 58   | HC 84534              | CEZAR PELUSO | N | 0.000027
+ 59   | HC 92568              | CEZAR PELUSO | N | 0.000027
+ 60   | HC 92994              | CEZAR PELUSO | N | 0.000027
+ 61   | HC 92680              | CEZAR PELUSO | N | 0.000027
+ 62   | HC 95003              | CEZAR PELUSO | N | 0.000027
+ 63   | INQ 2424              | CEZAR PELUSO | N | 0.000027
+ 64   | HC 86548              | CEZAR PELUSO | N | 0.000027
+ 65   | HC 87157              | CEZAR PELUSO | N | 0.000027
+ 66   | HC 89649              | CEZAR PELUSO | S | 0.000027
+ 67   | HC 91650              | CEZAR PELUSO | N | 0.000027
+ 68   | HC 82862              | CEZAR PELUSO | N | 0.000027
+ 69   | EXT 959               | CEZAR PELUSO | N | 0.000027
+ 70   | HC 90749              | CEZAR PELUSO | N | 0.000027
+ 71   | ACO 853               | CEZAR PELUSO | N | 0.000027
+ 72   | HC 90709              | CEZAR PELUSO | N | 0.000027
+ 73   | HC 87219              | CEZAR PELUSO | N | 0.000027
+ 74   | HC 87343              | CEZAR PELUSO | N | 0.000025
+ 75   | HC 96976              | CEZAR PELUSO | N | 0.000025
+ 76   | HC 82982              | CEZAR PELUSO | N | 0.000023
+ 77   | HC 93315              | CEZAR PELUSO | N | 0.000022
+ 78   | HC 94122              | CEZAR PELUSO | N | 0.000020
+ 79   | HC 86238              | CEZAR PELUSO | N | 0.000020
+ 80   | HC 97819              | CEZAR PELUSO | N | 0.000020
+ 81   | HC 97948              | CEZAR PELUSO | S | 0.000020
+ 82   | HC 93710              | CEZAR PELUSO | S | 0.000020
+ 83   | HC 95766              | CEZAR PELUSO | N | 0.000020
+ 84   | HC 90471              | CEZAR PELUSO | N | 0.000020
+ 85   | HC 85824              | CEZAR PELUSO | N | 0.000020
+ 86   | HC 92302              | CEZAR PELUSO | N | 0.000020
+ 87   | HC 83516              | CEZAR PELUSO | N | 0.000020
+ 88   | HC 95100              | CEZAR PELUSO | N | 0.000020
+ 89   | HC 87676              | CEZAR PELUSO | N | 0.000018
+ 90   | HC 93393              | CEZAR PELUSO | N | 0.000018
+ 91   | HC 91480              | CEZAR PELUSO | N | 0.000018
+ 92   | HC 81832              | CEZAR PELUSO | N | 0.000018
+ 93   | HC 90540              | CEZAR PELUSO | N | 0.000017
+ 94   | HC 95362              | CEZAR PELUSO | N | 0.000016
+ 95   | AGR AI 420114         | CEZAR PELUSO | N | 0.000014
+ 96   | AGR AI 581876         | CEZAR PELUSO | S | 0.000014
+ 97   | ED ED RE 507258       | CEZAR PELUSO | S | 0.000014
+ 98   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000014
+ 99   | MS 26652              | CEZAR PELUSO | S | 0.000014
+ 100  | MS 26655              | CEZAR PELUSO | S | 0.000014
+
+
+Iteração 4
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ INQ 2455              | CEZAR PELUSO | N
+ HC 92110              | CEZAR PELUSO | N
+ HC 86140              | CEZAR PELUSO | N
+ HC 91743              | CEZAR PELUSO | N
+ EXT 921               | CEZAR PELUSO | N
+ HC 94072              | CEZAR PELUSO | N
+ RE 467923             | CEZAR PELUSO | N
+ HC 82982              | CEZAR PELUSO | N
+ HC 97819              | CEZAR PELUSO | N
+ HC 83516              | CEZAR PELUSO | N
+ SEGUNDO AGR RE 562230 | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371        | CEZAR PELUSO | N | 0.334264
+ 2    | ADI 3049        | CEZAR PELUSO | N | 0.080898
+ 3    | HC 85601        | CEZAR PELUSO | N | 0.080895
+ 4    | HC 90684        | CEZAR PELUSO | N | 0.080888
+ 5    | ADI 3625        | CEZAR PELUSO | N | 0.080884
+ 6    | INQ 2555        | CEZAR PELUSO | N | 0.040453
+ 7    | HC 87107        | CEZAR PELUSO | N | 0.040453
+ 8    | INQ 2462        | CEZAR PELUSO | N | 0.040453
+ 9    | HC 82848        | CEZAR PELUSO | N | 0.040453
+ 10   | HC 85185        | CEZAR PELUSO | N | 0.002279
+ 11   | HC 89699        | CEZAR PELUSO | N | 0.000131
+ 12   | RE 407688       | CEZAR PELUSO | N | 0.000097
+ 13   | RE 520942       | CEZAR PELUSO | S | 0.000097
+ 14   | HC 88740        | CEZAR PELUSO | N | 0.000076
+ 15   | HC 84931        | CEZAR PELUSO | N | 0.000071
+ 16   | ACO 1058        | CEZAR PELUSO | N | 0.000069
+ 17   | HC 93753        | CEZAR PELUSO | N | 0.000055
+ 18   | HC 91516        | CEZAR PELUSO | N | 0.000055
+ 19   | HC 95069        | CEZAR PELUSO | N | 0.000055
+ 20   | HC 86520        | CEZAR PELUSO | N | 0.000055
+ 21   | HC 87468        | CEZAR PELUSO | N | 0.000052
+ 22   | HC 87926        | CEZAR PELUSO | N | 0.000048
+ 23   | HC 88393        | CEZAR PELUSO | N | 0.000048
+ 24   | RE 454737       | CEZAR PELUSO | N | 0.000048
+ 25   | HC 88978        | CEZAR PELUSO | N | 0.000048
+ 26   | HC 84311        | CEZAR PELUSO | N | 0.000044
+ 27   | RE 466343       | CEZAR PELUSO | N | 0.000041
+ 28   | HC 84166        | CEZAR PELUSO | N | 0.000041
+ 29   | HC 93466        | CEZAR PELUSO | N | 0.000041
+ 30   | HC 91175        | CEZAR PELUSO | N | 0.000041
+ 31   | HC 83545        | CEZAR PELUSO | N | 0.000041
+ 32   | HC 91228        | CEZAR PELUSO | N | 0.000041
+ 33   | HC 88836        | CEZAR PELUSO | N | 0.000041
+ 34   | ACO 853         | CEZAR PELUSO | N | 0.000041
+ 35   | RHC 86190       | CEZAR PELUSO | N | 0.000041
+ 36   | HC 83894        | CEZAR PELUSO | N | 0.000041
+ 37   | HC 84997        | CEZAR PELUSO | N | 0.000037
+ 38   | HC 83981        | CEZAR PELUSO | N | 0.000036
+ 39   | RHC 85658       | CEZAR PELUSO | N | 0.000035
+ 40   | HC 89815        | CEZAR PELUSO | N | 0.000035
+ 41   | HC 86609        | CEZAR PELUSO | N | 0.000035
+ 42   | HC 87041        | CEZAR PELUSO | N | 0.000034
+ 43   | HC 91161        | CEZAR PELUSO | N | 0.000032
+ 44   | RHC 84295       | CEZAR PELUSO | N | 0.000028
+ 45   | HC 84928        | CEZAR PELUSO | N | 0.000028
+ 46   | AC 112          | CEZAR PELUSO | N | 0.000028
+ 47   | HC 85425        | CEZAR PELUSO | N | 0.000028
+ 48   | HC 95167        | CEZAR PELUSO | N | 0.000028
+ 49   | HC 86748        | CEZAR PELUSO | N | 0.000028
+ 50   | MS 26405        | CEZAR PELUSO | N | 0.000028
+ 51   | HC 89777        | CEZAR PELUSO | N | 0.000028
+ 52   | HC 88284        | CEZAR PELUSO | N | 0.000028
+ 53   | HC 85718        | CEZAR PELUSO | N | 0.000028
+ 54   | HC 95611        | CEZAR PELUSO | N | 0.000028
+ 55   | HC 84590        | CEZAR PELUSO | N | 0.000028
+ 56   | HC 87089        | CEZAR PELUSO | N | 0.000028
+ 57   | ADI 1980        | CEZAR PELUSO | N | 0.000028
+ 58   | HC 84534        | CEZAR PELUSO | N | 0.000028
+ 59   | RE 534384       | CEZAR PELUSO | N | 0.000028
+ 60   | HC 92994        | CEZAR PELUSO | N | 0.000028
+ 61   | HC 92680        | CEZAR PELUSO | N | 0.000028
+ 62   | HC 95003        | CEZAR PELUSO | N | 0.000028
+ 63   | HC 95142        | CEZAR PELUSO | N | 0.000028
+ 64   | HC 92568        | CEZAR PELUSO | N | 0.000028
+ 65   | HC 86548        | CEZAR PELUSO | N | 0.000028
+ 66   | HC 87157        | CEZAR PELUSO | N | 0.000028
+ 67   | HC 89649        | CEZAR PELUSO | S | 0.000028
+ 68   | HC 91650        | CEZAR PELUSO | N | 0.000028
+ 69   | RHC 87198       | CEZAR PELUSO | N | 0.000028
+ 70   | EXT 959         | CEZAR PELUSO | N | 0.000028
+ 71   | HC 90749        | CEZAR PELUSO | N | 0.000028
+ 72   | EXT 931         | CEZAR PELUSO | N | 0.000028
+ 73   | HC 90709        | CEZAR PELUSO | N | 0.000028
+ 74   | HC 87219        | CEZAR PELUSO | N | 0.000028
+ 75   | HC 87343        | CEZAR PELUSO | N | 0.000025
+ 76   | HC 96976        | CEZAR PELUSO | N | 0.000025
+ 77   | HC 93315        | CEZAR PELUSO | N | 0.000022
+ 78   | HC 87717        | CEZAR PELUSO | N | 0.000021
+ 79   | HC 86238        | CEZAR PELUSO | N | 0.000021
+ 80   | HC 87071        | CEZAR PELUSO | N | 0.000021
+ 81   | PET 3631        | CEZAR PELUSO | N | 0.000021
+ 82   | INQ 2424        | CEZAR PELUSO | N | 0.000021
+ 83   | HC 95766        | CEZAR PELUSO | N | 0.000021
+ 84   | HC 90471        | CEZAR PELUSO | N | 0.000021
+ 85   | HC 85824        | CEZAR PELUSO | N | 0.000021
+ 86   | HC 93710        | CEZAR PELUSO | S | 0.000021
+ 87   | HC 95100        | CEZAR PELUSO | N | 0.000020
+ 88   | HC 87676        | CEZAR PELUSO | N | 0.000018
+ 89   | HC 93393        | CEZAR PELUSO | N | 0.000018
+ 90   | HC 92302        | CEZAR PELUSO | N | 0.000018
+ 91   | HC 91480        | CEZAR PELUSO | N | 0.000018
+ 92   | HC 81832        | CEZAR PELUSO | N | 0.000018
+ 93   | HC 90540        | CEZAR PELUSO | N | 0.000017
+ 94   | HC 95362        | CEZAR PELUSO | N | 0.000017
+ 95   | AGR AI 420114   | CEZAR PELUSO | N | 0.000014
+ 96   | ED ED RE 507258 | CEZAR PELUSO | S | 0.000014
+ 97   | MS 26652        | CEZAR PELUSO | S | 0.000014
+ 98   | MS 26655        | CEZAR PELUSO | S | 0.000014
+ 99   | AGR RE 413810   | CEZAR PELUSO | N | 0.000014
+ 100  | MS 26657        | CEZAR PELUSO | S | 0.000014
+
+
+Iteração 5
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 88740  | CEZAR PELUSO | N
+ HC 88393  | CEZAR PELUSO | N
+ HC 88978  | CEZAR PELUSO | N
+ HC 84311  | CEZAR PELUSO | N
+ HC 91175  | CEZAR PELUSO | N
+ RHC 86190 | CEZAR PELUSO | N
+ HC 88284  | CEZAR PELUSO | N
+ HC 95003  | CEZAR PELUSO | N
+ HC 91650  | CEZAR PELUSO | N
+ HC 90540  | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.325089
+ 2    | ADI 3049              | CEZAR PELUSO | N | 0.076143
+ 3    | HC 85601              | CEZAR PELUSO | N | 0.076140
+ 4    | HC 90684              | CEZAR PELUSO | N | 0.076133
+ 5    | ADI 3625              | CEZAR PELUSO | N | 0.076130
+ 6    | INQ 2555              | CEZAR PELUSO | N | 0.038075
+ 7    | HC 87107              | CEZAR PELUSO | N | 0.038075
+ 8    | INQ 2455              | CEZAR PELUSO | N | 0.038075
+ 9    | INQ 2462              | CEZAR PELUSO | N | 0.038075
+ 10   | HC 82848              | CEZAR PELUSO | N | 0.038075
+ 11   | HC 85185              | CEZAR PELUSO | N | 0.002170
+ 12   | HC 89699              | CEZAR PELUSO | N | 0.000127
+ 13   | RE 407688             | CEZAR PELUSO | N | 0.000107
+ 14   | RE 520942             | CEZAR PELUSO | S | 0.000094
+ 15   | HC 92110              | CEZAR PELUSO | N | 0.000089
+ 16   | ACO 1058              | CEZAR PELUSO | N | 0.000067
+ 17   | HC 84931              | CEZAR PELUSO | N | 0.000063
+ 18   | HC 93753              | CEZAR PELUSO | N | 0.000054
+ 19   | HC 95069              | CEZAR PELUSO | N | 0.000054
+ 20   | RHC 89135             | CEZAR PELUSO | N | 0.000054
+ 21   | HC 86520              | CEZAR PELUSO | N | 0.000051
+ 22   | RE 454737             | CEZAR PELUSO | N | 0.000047
+ 23   | HC 87041              | CEZAR PELUSO | N | 0.000047
+ 24   | HC 91516              | CEZAR PELUSO | N | 0.000045
+ 25   | HC 87926              | CEZAR PELUSO | N | 0.000040
+ 26   | RE 466343             | CEZAR PELUSO | N | 0.000040
+ 27   | HC 84166              | CEZAR PELUSO | N | 0.000040
+ 28   | HC 91228              | CEZAR PELUSO | N | 0.000040
+ 29   | HC 88836              | CEZAR PELUSO | N | 0.000040
+ 30   | HC 86140              | CEZAR PELUSO | N | 0.000040
+ 31   | ACO 853               | CEZAR PELUSO | N | 0.000040
+ 32   | HC 83894              | CEZAR PELUSO | N | 0.000040
+ 33   | HC 84997              | CEZAR PELUSO | N | 0.000039
+ 34   | HC 93466              | CEZAR PELUSO | N | 0.000038
+ 35   | HC 87717              | CEZAR PELUSO | N | 0.000034
+ 36   | RHC 85658             | CEZAR PELUSO | N | 0.000034
+ 37   | HC 91161              | CEZAR PELUSO | N | 0.000032
+ 38   | HC 87468              | CEZAR PELUSO | N | 0.000029
+ 39   | RHC 84295             | CEZAR PELUSO | N | 0.000027
+ 40   | HC 84928              | CEZAR PELUSO | N | 0.000027
+ 41   | AC 112                | CEZAR PELUSO | N | 0.000027
+ 42   | HC 91743              | CEZAR PELUSO | N | 0.000027
+ 43   | HC 85425              | CEZAR PELUSO | N | 0.000027
+ 44   | HC 95167              | CEZAR PELUSO | N | 0.000027
+ 45   | HC 86748              | CEZAR PELUSO | N | 0.000027
+ 46   | HC 89777              | CEZAR PELUSO | N | 0.000027
+ 47   | HC 94072              | CEZAR PELUSO | N | 0.000027
+ 48   | RE 467923             | CEZAR PELUSO | N | 0.000027
+ 49   | HC 85718              | CEZAR PELUSO | N | 0.000027
+ 50   | HC 95611              | CEZAR PELUSO | N | 0.000027
+ 51   | HC 84590              | CEZAR PELUSO | N | 0.000027
+ 52   | HC 87089              | CEZAR PELUSO | N | 0.000027
+ 53   | HC 86609              | CEZAR PELUSO | N | 0.000027
+ 54   | HC 92568              | CEZAR PELUSO | N | 0.000027
+ 55   | RE 534384             | CEZAR PELUSO | N | 0.000027
+ 56   | HC 92994              | CEZAR PELUSO | N | 0.000027
+ 57   | HC 92680              | CEZAR PELUSO | N | 0.000027
+ 58   | HC 95142              | CEZAR PELUSO | N | 0.000027
+ 59   | HC 86548              | CEZAR PELUSO | N | 0.000027
+ 60   | HC 87157              | CEZAR PELUSO | N | 0.000027
+ 61   | HC 89649              | CEZAR PELUSO | S | 0.000027
+ 62   | RHC 87198             | CEZAR PELUSO | N | 0.000027
+ 63   | HC 89815              | CEZAR PELUSO | N | 0.000027
+ 64   | EXT 959               | CEZAR PELUSO | N | 0.000027
+ 65   | HC 83545              | CEZAR PELUSO | N | 0.000027
+ 66   | HC 90749              | CEZAR PELUSO | N | 0.000027
+ 67   | HC 87343              | CEZAR PELUSO | N | 0.000022
+ 68   | HC 86238              | CEZAR PELUSO | N | 0.000020
+ 69   | EXT 921               | CEZAR PELUSO | N | 0.000020
+ 70   | HC 97819              | CEZAR PELUSO | N | 0.000020
+ 71   | HC 92302              | CEZAR PELUSO | N | 0.000020
+ 72   | HC 87071              | CEZAR PELUSO | N | 0.000020
+ 73   | PET 3631              | CEZAR PELUSO | N | 0.000020
+ 74   | HC 97948              | CEZAR PELUSO | S | 0.000020
+ 75   | HC 95100              | CEZAR PELUSO | N | 0.000020
+ 76   | HC 93710              | CEZAR PELUSO | S | 0.000020
+ 77   | HC 95766              | CEZAR PELUSO | N | 0.000020
+ 78   | HC 85824              | CEZAR PELUSO | N | 0.000020
+ 79   | EXT 931               | CEZAR PELUSO | N | 0.000020
+ 80   | HC 83516              | CEZAR PELUSO | N | 0.000020
+ 81   | HC 81832              | CEZAR PELUSO | N | 0.000018
+ 82   | HC 87676              | CEZAR PELUSO | N | 0.000018
+ 83   | HC 96976              | CEZAR PELUSO | N | 0.000018
+ 84   | HC 93393              | CEZAR PELUSO | N | 0.000018
+ 85   | HC 91480              | CEZAR PELUSO | N | 0.000018
+ 86   | HC 93315              | CEZAR PELUSO | N | 0.000016
+ 87   | AGR AI 420114         | CEZAR PELUSO | N | 0.000013
+ 88   | AGR AI 581876         | CEZAR PELUSO | S | 0.000013
+ 89   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000013
+ 90   | MS 26652              | CEZAR PELUSO | S | 0.000013
+ 91   | MS 26655              | CEZAR PELUSO | S | 0.000013
+ 92   | AGR RE 413810         | CEZAR PELUSO | N | 0.000013
+ 93   | MS 26657              | CEZAR PELUSO | S | 0.000013
+ 94   | MS 26656              | CEZAR PELUSO | S | 0.000013
+ 95   | AGR AI 548327         | CEZAR PELUSO | N | 0.000013
+ 96   | RE 545860             | CEZAR PELUSO | S | 0.000013
+ 97   | AGR ED AI 490473      | CEZAR PELUSO | S | 0.000013
+ 98   | AGR RE 283831         | CEZAR PELUSO | S | 0.000013
+ 99   | AGR RE 535675         | CEZAR PELUSO | N | 0.000013
+ 100  | ED ED AGR RE 592670   | CEZAR PELUSO | S | 0.000013
+
+
+Iteração 6
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 84166      | CEZAR PELUSO | N
+ HC 83894      | CEZAR PELUSO | N
+ HC 93466      | CEZAR PELUSO | N
+ HC 84590      | CEZAR PELUSO | N
+ HC 95142      | CEZAR PELUSO | N
+ HC 86238      | CEZAR PELUSO | N
+ HC 95100      | CEZAR PELUSO | N
+ AGR AI 548327 | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.357416
+ 2    | ADI 3049              | CEZAR PELUSO | N | 0.071157
+ 3    | HC 85601              | CEZAR PELUSO | N | 0.071154
+ 4    | HC 90684              | CEZAR PELUSO | N | 0.071147
+ 5    | ADI 3625              | CEZAR PELUSO | N | 0.071144
+ 6    | INQ 2555              | CEZAR PELUSO | N | 0.035582
+ 7    | HC 87107              | CEZAR PELUSO | N | 0.035582
+ 8    | INQ 2455              | CEZAR PELUSO | N | 0.035582
+ 9    | INQ 2462              | CEZAR PELUSO | N | 0.035582
+ 10   | HC 82848              | CEZAR PELUSO | N | 0.035582
+ 11   | HC 85185              | CEZAR PELUSO | N | 0.002167
+ 12   | HC 89699              | CEZAR PELUSO | N | 0.000120
+ 13   | RE 520942             | CEZAR PELUSO | S | 0.000093
+ 14   | HC 88740              | CEZAR PELUSO | N | 0.000086
+ 15   | RE 407688             | CEZAR PELUSO | N | 0.000080
+ 16   | HC 92110              | CEZAR PELUSO | N | 0.000078
+ 17   | HC 84931              | CEZAR PELUSO | N | 0.000066
+ 18   | HC 93753              | CEZAR PELUSO | N | 0.000053
+ 19   | HC 95069              | CEZAR PELUSO | N | 0.000053
+ 20   | RHC 89135             | CEZAR PELUSO | N | 0.000053
+ 21   | ACO 1058              | CEZAR PELUSO | N | 0.000053
+ 22   | HC 87041              | CEZAR PELUSO | N | 0.000053
+ 23   | HC 87468              | CEZAR PELUSO | N | 0.000050
+ 24   | HC 87926              | CEZAR PELUSO | N | 0.000047
+ 25   | HC 88978              | CEZAR PELUSO | N | 0.000047
+ 26   | HC 84311              | CEZAR PELUSO | N | 0.000042
+ 27   | RHC 85658             | CEZAR PELUSO | N | 0.000040
+ 28   | RE 466343             | CEZAR PELUSO | N | 0.000040
+ 29   | RE 454737             | CEZAR PELUSO | N | 0.000040
+ 30   | HC 83545              | CEZAR PELUSO | N | 0.000040
+ 31   | HC 91228              | CEZAR PELUSO | N | 0.000040
+ 32   | HC 88836              | CEZAR PELUSO | N | 0.000040
+ 33   | HC 86140              | CEZAR PELUSO | N | 0.000040
+ 34   | ACO 853               | CEZAR PELUSO | N | 0.000040
+ 35   | HC 91516              | CEZAR PELUSO | N | 0.000035
+ 36   | HC 83981              | CEZAR PELUSO | N | 0.000034
+ 37   | HC 87717              | CEZAR PELUSO | N | 0.000033
+ 38   | HC 86609              | CEZAR PELUSO | N | 0.000033
+ 39   | HC 84997              | CEZAR PELUSO | N | 0.000033
+ 40   | RHC 84295             | CEZAR PELUSO | N | 0.000027
+ 41   | HC 91161              | CEZAR PELUSO | N | 0.000027
+ 42   | HC 84928              | CEZAR PELUSO | N | 0.000027
+ 43   | RE 467923             | CEZAR PELUSO | N | 0.000027
+ 44   | AC 112                | CEZAR PELUSO | N | 0.000027
+ 45   | HC 91743              | CEZAR PELUSO | N | 0.000027
+ 46   | HC 85425              | CEZAR PELUSO | N | 0.000027
+ 47   | HC 86748              | CEZAR PELUSO | N | 0.000027
+ 48   | MS 26405              | CEZAR PELUSO | N | 0.000027
+ 49   | HC 94072              | CEZAR PELUSO | N | 0.000027
+ 50   | HC 88284              | CEZAR PELUSO | N | 0.000027
+ 51   | HC 85718              | CEZAR PELUSO | N | 0.000027
+ 52   | ADI 1980              | CEZAR PELUSO | N | 0.000027
+ 53   | HC 87089              | CEZAR PELUSO | N | 0.000027
+ 54   | HC 84534              | CEZAR PELUSO | N | 0.000027
+ 55   | HC 92568              | CEZAR PELUSO | N | 0.000027
+ 56   | RE 534384             | CEZAR PELUSO | N | 0.000027
+ 57   | HC 92994              | CEZAR PELUSO | N | 0.000027
+ 58   | HC 88393              | CEZAR PELUSO | N | 0.000027
+ 59   | HC 92680              | CEZAR PELUSO | N | 0.000027
+ 60   | HC 91175              | CEZAR PELUSO | N | 0.000027
+ 61   | HC 95003              | CEZAR PELUSO | N | 0.000027
+ 62   | HC 86548              | CEZAR PELUSO | N | 0.000027
+ 63   | HC 95167              | CEZAR PELUSO | N | 0.000027
+ 64   | HC 87157              | CEZAR PELUSO | N | 0.000027
+ 65   | HC 89649              | CEZAR PELUSO | S | 0.000027
+ 66   | RHC 87198             | CEZAR PELUSO | N | 0.000027
+ 67   | HC 82862              | CEZAR PELUSO | N | 0.000027
+ 68   | EXT 959               | CEZAR PELUSO | N | 0.000027
+ 69   | HC 90749              | CEZAR PELUSO | N | 0.000027
+ 70   | HC 87219              | CEZAR PELUSO | N | 0.000027
+ 71   | HC 87343              | CEZAR PELUSO | N | 0.000025
+ 72   | HC 82982              | CEZAR PELUSO | N | 0.000022
+ 73   | HC 93315              | CEZAR PELUSO | N | 0.000021
+ 74   | HC 94122              | CEZAR PELUSO | N | 0.000020
+ 75   | HC 97819              | CEZAR PELUSO | N | 0.000020
+ 76   | HC 87676              | CEZAR PELUSO | N | 0.000020
+ 77   | EXT 921               | CEZAR PELUSO | N | 0.000020
+ 78   | PET 3631              | CEZAR PELUSO | N | 0.000020
+ 79   | HC 97948              | CEZAR PELUSO | S | 0.000020
+ 80   | INQ 2424              | CEZAR PELUSO | N | 0.000020
+ 81   | HC 95766              | CEZAR PELUSO | N | 0.000020
+ 82   | HC 90471              | CEZAR PELUSO | N | 0.000020
+ 83   | HC 89815              | CEZAR PELUSO | N | 0.000020
+ 84   | HC 85824              | CEZAR PELUSO | N | 0.000020
+ 85   | EXT 931               | CEZAR PELUSO | N | 0.000020
+ 86   | HC 93710              | CEZAR PELUSO | S | 0.000020
+ 87   | HC 92302              | CEZAR PELUSO | N | 0.000020
+ 88   | HC 83516              | CEZAR PELUSO | N | 0.000020
+ 89   | HC 96976              | CEZAR PELUSO | N | 0.000018
+ 90   | HC 93393              | CEZAR PELUSO | N | 0.000018
+ 91   | HC 91480              | CEZAR PELUSO | N | 0.000018
+ 92   | HC 90540              | CEZAR PELUSO | N | 0.000017
+ 93   | HC 95362              | CEZAR PELUSO | N | 0.000016
+ 94   | AGR AI 420114         | CEZAR PELUSO | N | 0.000013
+ 95   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000013
+ 96   | MS 26652              | CEZAR PELUSO | S | 0.000013
+ 97   | MS 26655              | CEZAR PELUSO | S | 0.000013
+ 98   | AGR RE 413810         | CEZAR PELUSO | N | 0.000013
+ 99   | MS 26657              | CEZAR PELUSO | S | 0.000013
+ 100  | MS 26656              | CEZAR PELUSO | S | 0.000013
+
+
+Iteração 7
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ ADI 3049              | CEZAR PELUSO | N
+ INQ 2462              | CEZAR PELUSO | N
+ HC 84311              | CEZAR PELUSO | N
+ RE 467923             | CEZAR PELUSO | N
+ MS 26405              | CEZAR PELUSO | N
+ HC 85718              | CEZAR PELUSO | N
+ HC 87089              | CEZAR PELUSO | N
+ RE 534384             | CEZAR PELUSO | N
+ INQ 2424              | CEZAR PELUSO | N
+ SEGUNDO AGR RE 562230 | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371      | CEZAR PELUSO | N | 0.430043
+ 2    | HC 85601      | CEZAR PELUSO | N | 0.097392
+ 3    | HC 90684      | CEZAR PELUSO | N | 0.097385
+ 4    | INQ 2555      | CEZAR PELUSO | N | 0.048701
+ 5    | HC 87107      | CEZAR PELUSO | N | 0.048701
+ 6    | INQ 2455      | CEZAR PELUSO | N | 0.048701
+ 7    | HC 82848      | CEZAR PELUSO | N | 0.048701
+ 8    | HC 85185      | CEZAR PELUSO | N | 0.002226
+ 9    | HC 89699      | CEZAR PELUSO | N | 0.000146
+ 10   | RE 407688     | CEZAR PELUSO | N | 0.000111
+ 11   | RE 520942     | CEZAR PELUSO | S | 0.000111
+ 12   | HC 88740      | CEZAR PELUSO | N | 0.000083
+ 13   | HC 92110      | CEZAR PELUSO | N | 0.000076
+ 14   | HC 84931      | CEZAR PELUSO | N | 0.000072
+ 15   | HC 88978      | CEZAR PELUSO | N | 0.000062
+ 16   | HC 93753      | CEZAR PELUSO | N | 0.000055
+ 17   | HC 95069      | CEZAR PELUSO | N | 0.000055
+ 18   | RHC 89135     | CEZAR PELUSO | N | 0.000055
+ 19   | HC 87041      | CEZAR PELUSO | N | 0.000054
+ 20   | HC 86520      | CEZAR PELUSO | N | 0.000053
+ 21   | HC 84997      | CEZAR PELUSO | N | 0.000050
+ 22   | HC 87926      | CEZAR PELUSO | N | 0.000049
+ 23   | HC 88393      | CEZAR PELUSO | N | 0.000049
+ 24   | RE 466343     | CEZAR PELUSO | N | 0.000042
+ 25   | HC 84166      | CEZAR PELUSO | N | 0.000042
+ 26   | HC 91175      | CEZAR PELUSO | N | 0.000042
+ 27   | HC 83545      | CEZAR PELUSO | N | 0.000042
+ 28   | HC 91228      | CEZAR PELUSO | N | 0.000042
+ 29   | HC 88836      | CEZAR PELUSO | N | 0.000042
+ 30   | HC 86140      | CEZAR PELUSO | N | 0.000042
+ 31   | ACO 1058      | CEZAR PELUSO | N | 0.000042
+ 32   | ACO 853       | CEZAR PELUSO | N | 0.000042
+ 33   | RHC 86190     | CEZAR PELUSO | N | 0.000042
+ 34   | HC 83894      | CEZAR PELUSO | N | 0.000042
+ 35   | HC 93466      | CEZAR PELUSO | N | 0.000039
+ 36   | RHC 85658     | CEZAR PELUSO | N | 0.000035
+ 37   | HC 91516      | CEZAR PELUSO | N | 0.000035
+ 38   | HC 89815      | CEZAR PELUSO | N | 0.000035
+ 39   | HC 91161      | CEZAR PELUSO | N | 0.000033
+ 40   | HC 87468      | CEZAR PELUSO | N | 0.000030
+ 41   | RHC 84295     | CEZAR PELUSO | N | 0.000028
+ 42   | HC 84928      | CEZAR PELUSO | N | 0.000028
+ 43   | AC 112        | CEZAR PELUSO | N | 0.000028
+ 44   | HC 91743      | CEZAR PELUSO | N | 0.000028
+ 45   | HC 85425      | CEZAR PELUSO | N | 0.000028
+ 46   | HC 95167      | CEZAR PELUSO | N | 0.000028
+ 47   | HC 94072      | CEZAR PELUSO | N | 0.000028
+ 48   | HC 88284      | CEZAR PELUSO | N | 0.000028
+ 49   | HC 95611      | CEZAR PELUSO | N | 0.000028
+ 50   | HC 84590      | CEZAR PELUSO | N | 0.000028
+ 51   | HC 91650      | CEZAR PELUSO | N | 0.000028
+ 52   | HC 84534      | CEZAR PELUSO | N | 0.000028
+ 53   | HC 92994      | CEZAR PELUSO | N | 0.000028
+ 54   | HC 92680      | CEZAR PELUSO | N | 0.000028
+ 55   | HC 95003      | CEZAR PELUSO | N | 0.000028
+ 56   | RHC 87198     | CEZAR PELUSO | N | 0.000028
+ 57   | HC 95142      | CEZAR PELUSO | N | 0.000028
+ 58   | HC 92568      | CEZAR PELUSO | N | 0.000028
+ 59   | HC 86548      | CEZAR PELUSO | N | 0.000028
+ 60   | HC 87157      | CEZAR PELUSO | N | 0.000028
+ 61   | HC 89649      | CEZAR PELUSO | S | 0.000028
+ 62   | HC 82862      | CEZAR PELUSO | N | 0.000028
+ 63   | EXT 959       | CEZAR PELUSO | N | 0.000028
+ 64   | HC 90709      | CEZAR PELUSO | N | 0.000028
+ 65   | HC 87219      | CEZAR PELUSO | N | 0.000028
+ 66   | HC 87343      | CEZAR PELUSO | N | 0.000027
+ 67   | HC 96976      | CEZAR PELUSO | N | 0.000025
+ 68   | HC 93315      | CEZAR PELUSO | N | 0.000024
+ 69   | HC 92302      | CEZAR PELUSO | N | 0.000024
+ 70   | HC 82982      | CEZAR PELUSO | N | 0.000023
+ 71   | HC 94122      | CEZAR PELUSO | N | 0.000021
+ 72   | EXT 921       | CEZAR PELUSO | N | 0.000021
+ 73   | HC 86238      | CEZAR PELUSO | N | 0.000021
+ 74   | HC 97819      | CEZAR PELUSO | N | 0.000021
+ 75   | HC 87071      | CEZAR PELUSO | N | 0.000021
+ 76   | PET 3631      | CEZAR PELUSO | N | 0.000021
+ 77   | HC 97948      | CEZAR PELUSO | S | 0.000021
+ 78   | HC 95100      | CEZAR PELUSO | N | 0.000021
+ 79   | HC 87717      | CEZAR PELUSO | N | 0.000021
+ 80   | RE 454737     | CEZAR PELUSO | N | 0.000021
+ 81   | HC 95766      | CEZAR PELUSO | N | 0.000021
+ 82   | HC 90471      | CEZAR PELUSO | N | 0.000021
+ 83   | HC 85824      | CEZAR PELUSO | N | 0.000021
+ 84   | EXT 931       | CEZAR PELUSO | N | 0.000021
+ 85   | HC 93710      | CEZAR PELUSO | S | 0.000021
+ 86   | HC 83516      | CEZAR PELUSO | N | 0.000021
+ 87   | HC 81832      | CEZAR PELUSO | N | 0.000019
+ 88   | HC 93393      | CEZAR PELUSO | N | 0.000018
+ 89   | HC 90540      | CEZAR PELUSO | N | 0.000018
+ 90   | HC 91480      | CEZAR PELUSO | N | 0.000018
+ 91   | HC 87676      | CEZAR PELUSO | N | 0.000018
+ 92   | HC 95362      | CEZAR PELUSO | N | 0.000017
+ 93   | AGR AI 420114 | CEZAR PELUSO | N | 0.000014
+ 94   | AGR AI 581876 | CEZAR PELUSO | S | 0.000014
+ 95   | MS 26652      | CEZAR PELUSO | S | 0.000014
+ 96   | MS 26655      | CEZAR PELUSO | S | 0.000014
+ 97   | AGR RE 413810 | CEZAR PELUSO | N | 0.000014
+ 98   | MS 26657      | CEZAR PELUSO | S | 0.000014
+ 99   | MS 26656      | CEZAR PELUSO | S | 0.000014
+ 100  | AGR AI 548327 | CEZAR PELUSO | N | 0.000014
+
+
+Iteração 8
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 84997 | CEZAR PELUSO | N
+ HC 91228 | CEZAR PELUSO | N
+ HC 87468 | CEZAR PELUSO | N
+ HC 84928 | CEZAR PELUSO | N
+ HC 95167 | CEZAR PELUSO | N
+ HC 91650 | CEZAR PELUSO | N
+ HC 82982 | CEZAR PELUSO | N
+ HC 94122 | CEZAR PELUSO | N
+ HC 85824 | CEZAR PELUSO | N
+ HC 95362 | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.434132
+ 2    | HC 85601              | CEZAR PELUSO | N | 0.085780
+ 3    | HC 90684              | CEZAR PELUSO | N | 0.085773
+ 4    | INQ 2555              | CEZAR PELUSO | N | 0.042895
+ 5    | HC 87107              | CEZAR PELUSO | N | 0.042895
+ 6    | INQ 2455              | CEZAR PELUSO | N | 0.042895
+ 7    | INQ 2462              | CEZAR PELUSO | N | 0.042895
+ 8    | HC 82848              | CEZAR PELUSO | N | 0.042895
+ 9    | HC 85185              | CEZAR PELUSO | N | 0.001834
+ 10   | HC 89699              | CEZAR PELUSO | N | 0.000115
+ 11   | RE 407688             | CEZAR PELUSO | N | 0.000108
+ 12   | RE 520942             | CEZAR PELUSO | S | 0.000108
+ 13   | HC 92110              | CEZAR PELUSO | N | 0.000084
+ 14   | HC 84931              | CEZAR PELUSO | N | 0.000071
+ 15   | ACO 1058              | CEZAR PELUSO | N | 0.000068
+ 16   | HC 95069              | CEZAR PELUSO | N | 0.000054
+ 17   | RHC 89135             | CEZAR PELUSO | N | 0.000054
+ 18   | HC 86520              | CEZAR PELUSO | N | 0.000052
+ 19   | HC 87041              | CEZAR PELUSO | N | 0.000048
+ 20   | HC 87926              | CEZAR PELUSO | N | 0.000047
+ 21   | HC 88393              | CEZAR PELUSO | N | 0.000047
+ 22   | RE 454737             | CEZAR PELUSO | N | 0.000047
+ 23   | HC 86140              | CEZAR PELUSO | N | 0.000047
+ 24   | HC 84311              | CEZAR PELUSO | N | 0.000043
+ 25   | HC 93753              | CEZAR PELUSO | N | 0.000041
+ 26   | RE 466343             | CEZAR PELUSO | N | 0.000041
+ 27   | HC 84166              | CEZAR PELUSO | N | 0.000041
+ 28   | HC 91175              | CEZAR PELUSO | N | 0.000041
+ 29   | HC 88836              | CEZAR PELUSO | N | 0.000041
+ 30   | RHC 86190             | CEZAR PELUSO | N | 0.000041
+ 31   | HC 83894              | CEZAR PELUSO | N | 0.000041
+ 32   | HC 91516              | CEZAR PELUSO | N | 0.000038
+ 33   | HC 93466              | CEZAR PELUSO | N | 0.000038
+ 34   | HC 83981              | CEZAR PELUSO | N | 0.000035
+ 35   | RHC 85658             | CEZAR PELUSO | N | 0.000034
+ 36   | HC 88978              | CEZAR PELUSO | N | 0.000034
+ 37   | HC 87717              | CEZAR PELUSO | N | 0.000034
+ 38   | HC 89815              | CEZAR PELUSO | N | 0.000034
+ 39   | HC 86609              | CEZAR PELUSO | N | 0.000034
+ 40   | HC 91161              | CEZAR PELUSO | N | 0.000032
+ 41   | RHC 84295             | CEZAR PELUSO | N | 0.000027
+ 42   | RE 467923             | CEZAR PELUSO | N | 0.000027
+ 43   | AC 112                | CEZAR PELUSO | N | 0.000027
+ 44   | HC 91743              | CEZAR PELUSO | N | 0.000027
+ 45   | HC 85425              | CEZAR PELUSO | N | 0.000027
+ 46   | HC 86748              | CEZAR PELUSO | N | 0.000027
+ 47   | HC 89777              | CEZAR PELUSO | N | 0.000027
+ 48   | HC 94072              | CEZAR PELUSO | N | 0.000027
+ 49   | HC 88284              | CEZAR PELUSO | N | 0.000027
+ 50   | HC 85718              | CEZAR PELUSO | N | 0.000027
+ 51   | HC 95611              | CEZAR PELUSO | N | 0.000027
+ 52   | HC 84590              | CEZAR PELUSO | N | 0.000027
+ 53   | ADI 3049              | CEZAR PELUSO | N | 0.000027
+ 54   | HC 87089              | CEZAR PELUSO | N | 0.000027
+ 55   | ADI 1980              | CEZAR PELUSO | N | 0.000027
+ 56   | HC 84534              | CEZAR PELUSO | N | 0.000027
+ 57   | RE 534384             | CEZAR PELUSO | N | 0.000027
+ 58   | HC 92994              | CEZAR PELUSO | N | 0.000027
+ 59   | HC 92680              | CEZAR PELUSO | N | 0.000027
+ 60   | HC 95003              | CEZAR PELUSO | N | 0.000027
+ 61   | HC 95142              | CEZAR PELUSO | N | 0.000027
+ 62   | HC 92568              | CEZAR PELUSO | N | 0.000027
+ 63   | HC 86548              | CEZAR PELUSO | N | 0.000027
+ 64   | HC 89649              | CEZAR PELUSO | S | 0.000027
+ 65   | RHC 87198             | CEZAR PELUSO | N | 0.000027
+ 66   | HC 82862              | CEZAR PELUSO | N | 0.000027
+ 67   | EXT 959               | CEZAR PELUSO | N | 0.000027
+ 68   | HC 90749              | CEZAR PELUSO | N | 0.000027
+ 69   | ACO 853               | CEZAR PELUSO | N | 0.000027
+ 70   | HC 90709              | CEZAR PELUSO | N | 0.000027
+ 71   | HC 87219              | CEZAR PELUSO | N | 0.000027
+ 72   | HC 96976              | CEZAR PELUSO | N | 0.000025
+ 73   | HC 87343              | CEZAR PELUSO | N | 0.000023
+ 74   | HC 95100              | CEZAR PELUSO | N | 0.000021
+ 75   | HC 93315              | CEZAR PELUSO | N | 0.000021
+ 76   | HC 86238              | CEZAR PELUSO | N | 0.000020
+ 77   | EXT 921               | CEZAR PELUSO | N | 0.000020
+ 78   | HC 87071              | CEZAR PELUSO | N | 0.000020
+ 79   | HC 88740              | CEZAR PELUSO | N | 0.000020
+ 80   | INQ 2424              | CEZAR PELUSO | N | 0.000020
+ 81   | HC 95766              | CEZAR PELUSO | N | 0.000020
+ 82   | HC 90471              | CEZAR PELUSO | N | 0.000020
+ 83   | EXT 931               | CEZAR PELUSO | N | 0.000020
+ 84   | HC 83516              | CEZAR PELUSO | N | 0.000020
+ 85   | HC 81832              | CEZAR PELUSO | N | 0.000019
+ 86   | HC 93393              | CEZAR PELUSO | N | 0.000018
+ 87   | HC 90540              | CEZAR PELUSO | N | 0.000018
+ 88   | HC 91480              | CEZAR PELUSO | N | 0.000018
+ 89   | HC 87676              | CEZAR PELUSO | N | 0.000018
+ 90   | AGR AI 420114         | CEZAR PELUSO | N | 0.000014
+ 91   | ED ED RE 507258       | CEZAR PELUSO | S | 0.000014
+ 92   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000014
+ 93   | MS 26652              | CEZAR PELUSO | S | 0.000014
+ 94   | MS 26655              | CEZAR PELUSO | S | 0.000014
+ 95   | AGR RE 413810         | CEZAR PELUSO | N | 0.000014
+ 96   | MS 26657              | CEZAR PELUSO | S | 0.000014
+ 97   | MS 26656              | CEZAR PELUSO | S | 0.000014
+ 98   | AGR AI 548327         | CEZAR PELUSO | N | 0.000014
+ 99   | RE 545860             | CEZAR PELUSO | S | 0.000014
+ 100  | AGR RE 475240         | CEZAR PELUSO | S | 0.000014
+
+
+Iteração 9
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 93753  | CEZAR PELUSO | N
+ RHC 84295 | CEZAR PELUSO | N
+ HC 84534  | CEZAR PELUSO | N
+ HC 92994  | CEZAR PELUSO | N
+ HC 92568  | CEZAR PELUSO | N
+ HC 87343  | CEZAR PELUSO | N
+ HC 86238  | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.332354
+ 2    | ADI 3049              | CEZAR PELUSO | N | 0.074996
+ 3    | HC 85601              | CEZAR PELUSO | N | 0.074993
+ 4    | HC 90684              | CEZAR PELUSO | N | 0.074986
+ 5    | ADI 3625              | CEZAR PELUSO | N | 0.074983
+ 6    | INQ 2555              | CEZAR PELUSO | N | 0.037502
+ 7    | HC 87107              | CEZAR PELUSO | N | 0.037502
+ 8    | INQ 2455              | CEZAR PELUSO | N | 0.037502
+ 9    | INQ 2462              | CEZAR PELUSO | N | 0.037502
+ 10   | HC 82848              | CEZAR PELUSO | N | 0.037502
+ 11   | HC 85185              | CEZAR PELUSO | N | 0.002208
+ 12   | HC 89699              | CEZAR PELUSO | N | 0.000110
+ 13   | RE 407688             | CEZAR PELUSO | N | 0.000096
+ 14   | RE 520942             | CEZAR PELUSO | S | 0.000096
+ 15   | HC 88740              | CEZAR PELUSO | N | 0.000089
+ 16   | HC 92110              | CEZAR PELUSO | N | 0.000069
+ 17   | ACO 1058              | CEZAR PELUSO | N | 0.000069
+ 18   | HC 84931              | CEZAR PELUSO | N | 0.000064
+ 19   | HC 95069              | CEZAR PELUSO | N | 0.000055
+ 20   | HC 88978              | CEZAR PELUSO | N | 0.000055
+ 21   | RHC 89135             | CEZAR PELUSO | N | 0.000055
+ 22   | HC 86520              | CEZAR PELUSO | N | 0.000053
+ 23   | RHC 85658             | CEZAR PELUSO | N | 0.000048
+ 24   | RE 454737             | CEZAR PELUSO | N | 0.000048
+ 25   | HC 87468              | CEZAR PELUSO | N | 0.000047
+ 26   | HC 87717              | CEZAR PELUSO | N | 0.000041
+ 27   | RE 466343             | CEZAR PELUSO | N | 0.000041
+ 28   | HC 84166              | CEZAR PELUSO | N | 0.000041
+ 29   | HC 91175              | CEZAR PELUSO | N | 0.000041
+ 30   | HC 91228              | CEZAR PELUSO | N | 0.000041
+ 31   | HC 88836              | CEZAR PELUSO | N | 0.000041
+ 32   | HC 86140              | CEZAR PELUSO | N | 0.000041
+ 33   | ACO 853               | CEZAR PELUSO | N | 0.000041
+ 34   | RHC 86190             | CEZAR PELUSO | N | 0.000041
+ 35   | HC 87041              | CEZAR PELUSO | N | 0.000040
+ 36   | HC 93466              | CEZAR PELUSO | N | 0.000039
+ 37   | HC 84311              | CEZAR PELUSO | N | 0.000035
+ 38   | HC 87926              | CEZAR PELUSO | N | 0.000034
+ 39   | HC 88393              | CEZAR PELUSO | N | 0.000034
+ 40   | HC 89815              | CEZAR PELUSO | N | 0.000034
+ 41   | HC 86609              | CEZAR PELUSO | N | 0.000034
+ 42   | HC 91161              | CEZAR PELUSO | N | 0.000032
+ 43   | HC 84997              | CEZAR PELUSO | N | 0.000031
+ 44   | HC 83981              | CEZAR PELUSO | N | 0.000031
+ 45   | HC 91516              | CEZAR PELUSO | N | 0.000027
+ 46   | HC 84928              | CEZAR PELUSO | N | 0.000027
+ 47   | AC 112                | CEZAR PELUSO | N | 0.000027
+ 48   | HC 91743              | CEZAR PELUSO | N | 0.000027
+ 49   | HC 85425              | CEZAR PELUSO | N | 0.000027
+ 50   | HC 86748              | CEZAR PELUSO | N | 0.000027
+ 51   | HC 89777              | CEZAR PELUSO | N | 0.000027
+ 52   | HC 94072              | CEZAR PELUSO | N | 0.000027
+ 53   | HC 88284              | CEZAR PELUSO | N | 0.000027
+ 54   | RE 467923             | CEZAR PELUSO | N | 0.000027
+ 55   | HC 95611              | CEZAR PELUSO | N | 0.000027
+ 56   | HC 91650              | CEZAR PELUSO | N | 0.000027
+ 57   | HC 87089              | CEZAR PELUSO | N | 0.000027
+ 58   | RE 534384             | CEZAR PELUSO | N | 0.000027
+ 59   | HC 92680              | CEZAR PELUSO | N | 0.000027
+ 60   | HC 95003              | CEZAR PELUSO | N | 0.000027
+ 61   | HC 95142              | CEZAR PELUSO | N | 0.000027
+ 62   | HC 95167              | CEZAR PELUSO | N | 0.000027
+ 63   | HC 87157              | CEZAR PELUSO | N | 0.000027
+ 64   | HC 89649              | CEZAR PELUSO | S | 0.000027
+ 65   | RHC 87198             | CEZAR PELUSO | N | 0.000027
+ 66   | HC 82862              | CEZAR PELUSO | N | 0.000027
+ 67   | HC 83894              | CEZAR PELUSO | N | 0.000027
+ 68   | EXT 959               | CEZAR PELUSO | N | 0.000027
+ 69   | HC 90749              | CEZAR PELUSO | N | 0.000027
+ 70   | ADI 1980              | CEZAR PELUSO | N | 0.000027
+ 71   | HC 90709              | CEZAR PELUSO | N | 0.000027
+ 72   | HC 87219              | CEZAR PELUSO | N | 0.000027
+ 73   | HC 96976              | CEZAR PELUSO | N | 0.000025
+ 74   | HC 82982              | CEZAR PELUSO | N | 0.000023
+ 75   | HC 97819              | CEZAR PELUSO | N | 0.000021
+ 76   | EXT 921               | CEZAR PELUSO | N | 0.000021
+ 77   | PET 3631              | CEZAR PELUSO | N | 0.000021
+ 78   | HC 97948              | CEZAR PELUSO | S | 0.000021
+ 79   | HC 95100              | CEZAR PELUSO | N | 0.000021
+ 80   | INQ 2424              | CEZAR PELUSO | N | 0.000021
+ 81   | HC 95766              | CEZAR PELUSO | N | 0.000021
+ 82   | HC 90471              | CEZAR PELUSO | N | 0.000021
+ 83   | EXT 931               | CEZAR PELUSO | N | 0.000021
+ 84   | HC 83516              | CEZAR PELUSO | N | 0.000021
+ 85   | HC 93315              | CEZAR PELUSO | N | 0.000019
+ 86   | HC 87676              | CEZAR PELUSO | N | 0.000018
+ 87   | HC 93393              | CEZAR PELUSO | N | 0.000018
+ 88   | HC 91480              | CEZAR PELUSO | N | 0.000018
+ 89   | HC 81832              | CEZAR PELUSO | N | 0.000018
+ 90   | HC 95362              | CEZAR PELUSO | N | 0.000017
+ 91   | AGR AI 420114         | CEZAR PELUSO | N | 0.000014
+ 92   | AGR AI 581876         | CEZAR PELUSO | S | 0.000014
+ 93   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000014
+ 94   | MS 26652              | CEZAR PELUSO | S | 0.000014
+ 95   | MS 26655              | CEZAR PELUSO | S | 0.000014
+ 96   | AGR RE 413810         | CEZAR PELUSO | N | 0.000014
+ 97   | MS 26657              | CEZAR PELUSO | S | 0.000014
+ 98   | MS 26656              | CEZAR PELUSO | S | 0.000014
+ 99   | AGR AI 548327         | CEZAR PELUSO | N | 0.000014
+ 100  | RE 545860             | CEZAR PELUSO | S | 0.000014
+
+
+Iteração 10
+IDs presentes na iteraçao anterior e que foram removidos na simulação da iteração atual
+DECISION ID | RELATOR | VIRTUAL
+ HC 89699  | CEZAR PELUSO | N
+ RE 407688 | CEZAR PELUSO | N
+ HC 86520  | CEZAR PELUSO | N
+ HC 84311  | CEZAR PELUSO | N
+ HC 84928  | CEZAR PELUSO | N
+ AC 112    | CEZAR PELUSO | N
+ HC 85425  | CEZAR PELUSO | N
+ HC 88284  | CEZAR PELUSO | N
+ RE 467923 | CEZAR PELUSO | N
+ HC 95003  | CEZAR PELUSO | N
+ HC 83894  | CEZAR PELUSO | N
+ HC 82982  | CEZAR PELUSO | N
+ EXT 931   | CEZAR PELUSO | N
+ HC 83516  | CEZAR PELUSO | N
+ HC 95362  | CEZAR PELUSO | N
+
+RANK | DECISION ID | RELATOR | VIRTUAL | PAGE RANK
+ 1    | HC 86371              | CEZAR PELUSO | N | 0.329776
+ 2    | ADI 3049              | CEZAR PELUSO | N | 0.075406
+ 3    | HC 85601              | CEZAR PELUSO | N | 0.075402
+ 4    | HC 90684              | CEZAR PELUSO | N | 0.075395
+ 5    | ADI 3625              | CEZAR PELUSO | N | 0.075391
+ 6    | INQ 2555              | CEZAR PELUSO | N | 0.037706
+ 7    | HC 87107              | CEZAR PELUSO | N | 0.037706
+ 8    | INQ 2455              | CEZAR PELUSO | N | 0.037706
+ 9    | INQ 2462              | CEZAR PELUSO | N | 0.037706
+ 10   | HC 82848              | CEZAR PELUSO | N | 0.037706
+ 11   | HC 85185              | CEZAR PELUSO | N | 0.002273
+ 12   | RE 520942             | CEZAR PELUSO | S | 0.000113
+ 13   | HC 92110              | CEZAR PELUSO | N | 0.000087
+ 14   | HC 88740              | CEZAR PELUSO | N | 0.000078
+ 15   | HC 84931              | CEZAR PELUSO | N | 0.000074
+ 16   | ACO 1058              | CEZAR PELUSO | N | 0.000071
+ 17   | HC 93753              | CEZAR PELUSO | N | 0.000056
+ 18   | HC 87041              | CEZAR PELUSO | N | 0.000056
+ 19   | HC 95069              | CEZAR PELUSO | N | 0.000056
+ 20   | RHC 89135             | CEZAR PELUSO | N | 0.000056
+ 21   | HC 87926              | CEZAR PELUSO | N | 0.000049
+ 22   | HC 88978              | CEZAR PELUSO | N | 0.000049
+ 23   | HC 88393              | CEZAR PELUSO | N | 0.000049
+ 24   | RE 454737             | CEZAR PELUSO | N | 0.000049
+ 25   | HC 84997              | CEZAR PELUSO | N | 0.000045
+ 26   | RE 466343             | CEZAR PELUSO | N | 0.000042
+ 27   | HC 84166              | CEZAR PELUSO | N | 0.000042
+ 28   | HC 91175              | CEZAR PELUSO | N | 0.000042
+ 29   | HC 86140              | CEZAR PELUSO | N | 0.000042
+ 30   | HC 83545              | CEZAR PELUSO | N | 0.000042
+ 31   | HC 88836              | CEZAR PELUSO | N | 0.000042
+ 32   | ACO 853               | CEZAR PELUSO | N | 0.000042
+ 33   | HC 91516              | CEZAR PELUSO | N | 0.000040
+ 34   | HC 93466              | CEZAR PELUSO | N | 0.000040
+ 35   | HC 87717              | CEZAR PELUSO | N | 0.000035
+ 36   | HC 86609              | CEZAR PELUSO | N | 0.000035
+ 37   | HC 91161              | CEZAR PELUSO | N | 0.000034
+ 38   | HC 87468              | CEZAR PELUSO | N | 0.000031
+ 39   | RHC 86190             | CEZAR PELUSO | N | 0.000028
+ 40   | RHC 84295             | CEZAR PELUSO | N | 0.000028
+ 41   | HC 85718              | CEZAR PELUSO | N | 0.000028
+ 42   | HC 91743              | CEZAR PELUSO | N | 0.000028
+ 43   | HC 86748              | CEZAR PELUSO | N | 0.000028
+ 44   | MS 26405              | CEZAR PELUSO | N | 0.000028
+ 45   | EXT 921               | CEZAR PELUSO | N | 0.000028
+ 46   | HC 86238              | CEZAR PELUSO | N | 0.000028
+ 47   | HC 89777              | CEZAR PELUSO | N | 0.000028
+ 48   | HC 94072              | CEZAR PELUSO | N | 0.000028
+ 49   | HC 87071              | CEZAR PELUSO | N | 0.000028
+ 50   | HC 95611              | CEZAR PELUSO | N | 0.000028
+ 51   | HC 84590              | CEZAR PELUSO | N | 0.000028
+ 52   | HC 87089              | CEZAR PELUSO | N | 0.000028
+ 53   | ADI 1980              | CEZAR PELUSO | N | 0.000028
+ 54   | RE 534384             | CEZAR PELUSO | N | 0.000028
+ 55   | HC 92994              | CEZAR PELUSO | N | 0.000028
+ 56   | HC 92680              | CEZAR PELUSO | N | 0.000028
+ 57   | HC 95167              | CEZAR PELUSO | N | 0.000028
+ 58   | HC 87157              | CEZAR PELUSO | N | 0.000028
+ 59   | HC 89649              | CEZAR PELUSO | S | 0.000028
+ 60   | RHC 87198             | CEZAR PELUSO | N | 0.000028
+ 61   | HC 82862              | CEZAR PELUSO | N | 0.000028
+ 62   | HC 87343              | CEZAR PELUSO | N | 0.000028
+ 63   | HC 89815              | CEZAR PELUSO | N | 0.000028
+ 64   | EXT 959               | CEZAR PELUSO | N | 0.000028
+ 65   | HC 91228              | CEZAR PELUSO | N | 0.000028
+ 66   | HC 90749              | CEZAR PELUSO | N | 0.000028
+ 67   | HC 86548              | CEZAR PELUSO | N | 0.000028
+ 68   | HC 90709              | CEZAR PELUSO | N | 0.000028
+ 69   | HC 87219              | CEZAR PELUSO | N | 0.000028
+ 70   | HC 96976              | CEZAR PELUSO | N | 0.000026
+ 71   | HC 92302              | CEZAR PELUSO | N | 0.000025
+ 72   | RHC 85658             | CEZAR PELUSO | N | 0.000021
+ 73   | HC 94122              | CEZAR PELUSO | N | 0.000021
+ 74   | HC 97819              | CEZAR PELUSO | N | 0.000021
+ 75   | PET 3631              | CEZAR PELUSO | N | 0.000021
+ 76   | HC 97948              | CEZAR PELUSO | S | 0.000021
+ 77   | HC 95100              | CEZAR PELUSO | N | 0.000021
+ 78   | INQ 2424              | CEZAR PELUSO | N | 0.000021
+ 79   | HC 93710              | CEZAR PELUSO | S | 0.000021
+ 80   | HC 95766              | CEZAR PELUSO | N | 0.000021
+ 81   | HC 93315              | CEZAR PELUSO | N | 0.000021
+ 82   | HC 85824              | CEZAR PELUSO | N | 0.000021
+ 83   | HC 81832              | CEZAR PELUSO | N | 0.000019
+ 84   | HC 87676              | CEZAR PELUSO | N | 0.000019
+ 85   | HC 93393              | CEZAR PELUSO | N | 0.000019
+ 86   | HC 91480              | CEZAR PELUSO | N | 0.000019
+ 87   | AGR AI 420114         | CEZAR PELUSO | N | 0.000014
+ 88   | AGR AI 581876         | CEZAR PELUSO | S | 0.000014
+ 89   | ED ED RE 507258       | CEZAR PELUSO | S | 0.000014
+ 90   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 0.000014
+ 91   | AGR RE 413810         | CEZAR PELUSO | N | 0.000014
+ 92   | AGR RE 580987         | CEZAR PELUSO | S | 0.000014
+ 93   | AGR AI 548327         | CEZAR PELUSO | N | 0.000014
+ 94   | RE 545860             | CEZAR PELUSO | S | 0.000014
+ 95   | AGR ED AI 490473      | CEZAR PELUSO | S | 0.000014
+ 96   | AGR RE 283831         | CEZAR PELUSO | S | 0.000014
+ 97   | AGR RE 535675         | CEZAR PELUSO | N | 0.000014
+ 98   | ED ED AGR RE 592670   | CEZAR PELUSO | S | 0.000014
+ 99   | AGR RE 421867         | CEZAR PELUSO | S | 0.000014
+ 100  | AGR AI 406075         | CEZAR PELUSO | N | 0.000014
+
+
+Virtual decisions in each iteration
+0: 4
+1: 7
+2: 8
+3: 7
+4: 13
+5: 8
+6: 9
+7: 9
+8: 9
+9: 12
+Mean of virtual decisions: 8.60
+Standard deviation of virtual decisions: 2.42
+
+
+Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência
+
+Iteração 1 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 2 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 3 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 4 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 5 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 6 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 7 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 8 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 9 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Iteração 10 | # de relatores na iteração 1
+CEZAR PELUSO: 100
+
+Relator | freq absol | iterações presente | média em iterações presente | std
+CEZAR PELUSO | 1000 (100.00%) | 10 | 100.00 | 0.00
+
+Relator | freq dec únicas | (freq dec únicas)/(freq absol) | (freq dec únicas)/(# decs relator) | (freq absol)/(# decs relator) | soma tf-idf de decisões do relator
+CEZAR PELUSO | 127 (12.70%) | 0.13 | 0.0089 | 0.0702 | 0.0000 
+
+Decisões presentes em todos as iterações do page rank
+DECISION ID | RELATOR | VIRTUAL
+ HC 84931  | CEZAR PELUSO | N
+ HC 85185  | CEZAR PELUSO | N
+ HC 85601  | CEZAR PELUSO | N
+ HC 86371  | CEZAR PELUSO | N
+ HC 89815  | CEZAR PELUSO | N
+ ACO 1058  | CEZAR PELUSO | N
+ HC 87041  | CEZAR PELUSO | N
+ RHC 85658 | CEZAR PELUSO | N
+ HC 87717  | CEZAR PELUSO | N
+ HC 96976  | CEZAR PELUSO | N
+ HC 93315  | CEZAR PELUSO | N
+ INQ 2555  | CEZAR PELUSO | N
+ HC 89649  | CEZAR PELUSO | S
+ HC 91161  | CEZAR PELUSO | N
+ HC 95766  | CEZAR PELUSO | N
+ HC 82848  | CEZAR PELUSO | N
+ HC 87107  | CEZAR PELUSO | N
+ HC 92680  | CEZAR PELUSO | N
+ RE 466343 | CEZAR PELUSO | N
+ HC 95069  | CEZAR PELUSO | N
+ HC 87926  | CEZAR PELUSO | N
+ HC 90684  | CEZAR PELUSO | N
+ ACO 853   | CEZAR PELUSO | N
+ RE 520942 | CEZAR PELUSO | S
+
+
+Most frequent decisions by invserse order
+RANK | DECISION ID | RELATOR | VIRTUAL | NUMBER OF OCCURANCES | TIMES REMOVED
+ 1   | RHC 85658             | CEZAR PELUSO | N | 10 | 0
+ 2   | HC 87926              | CEZAR PELUSO | N | 10 | 0
+ 3   | HC 93315              | CEZAR PELUSO | N | 10 | 0
+ 4   | HC 95766              | CEZAR PELUSO | N | 10 | 0
+ 5   | HC 87041              | CEZAR PELUSO | N | 10 | 0
+ 6   | ACO 1058              | CEZAR PELUSO | N | 10 | 0
+ 7   | HC 92680              | CEZAR PELUSO | N | 10 | 0
+ 8   | HC 87107              | CEZAR PELUSO | N | 10 | 0
+ 9   | HC 91161              | CEZAR PELUSO | N | 10 | 0
+ 10   | HC 82848              | CEZAR PELUSO | N | 10 | 0
+ 11   | HC 89815              | CEZAR PELUSO | N | 10 | 0
+ 12   | HC 85185              | CEZAR PELUSO | N | 10 | 0
+ 13   | HC 96976              | CEZAR PELUSO | N | 10 | 0
+ 14   | RE 466343             | CEZAR PELUSO | N | 10 | 0
+ 15   | HC 87717              | CEZAR PELUSO | N | 10 | 0
+ 16   | HC 86371              | CEZAR PELUSO | N | 10 | 0
+ 17   | HC 90684              | CEZAR PELUSO | N | 10 | 0
+ 18   | HC 84931              | CEZAR PELUSO | N | 10 | 0
+ 19   | HC 95069              | CEZAR PELUSO | N | 10 | 0
+ 20   | RE 520942             | CEZAR PELUSO | S | 10 | 0
+ 21   | ACO 853               | CEZAR PELUSO | N | 10 | 0
+ 22   | INQ 2555              | CEZAR PELUSO | N | 10 | 0
+ 23   | HC 85601              | CEZAR PELUSO | N | 10 | 0
+ 24   | HC 89649              | CEZAR PELUSO | S | 10 | 0
+ 25   | RHC 87198             | CEZAR PELUSO | N | 9 | 1
+ 26   | RE 454737             | CEZAR PELUSO | N | 9 | 1
+ 27   | HC 92994              | CEZAR PELUSO | N | 9 | 1
+ 28   | HC 88393              | CEZAR PELUSO | N | 9 | 1
+ 29   | EXT 921               | CEZAR PELUSO | N | 9 | 1
+ 30   | HC 87343              | CEZAR PELUSO | N | 9 | 1
+ 31   | HC 88978              | CEZAR PELUSO | N | 9 | 1
+ 32   | HC 91228              | CEZAR PELUSO | N | 9 | 1
+ 33   | HC 92110              | CEZAR PELUSO | N | 9 | 1
+ 34   | HC 85425              | CEZAR PELUSO | N | 9 | 1
+ 35   | HC 87468              | CEZAR PELUSO | N | 9 | 1
+ 36   | HC 91516              | CEZAR PELUSO | N | 9 | 1
+ 37   | INQ 2462              | CEZAR PELUSO | N | 9 | 1
+ 38   | RE 407688             | CEZAR PELUSO | N | 9 | 1
+ 39   | HC 93753              | CEZAR PELUSO | N | 9 | 1
+ 40   | RHC 84295             | CEZAR PELUSO | N | 9 | 1
+ 41   | HC 84166              | CEZAR PELUSO | N | 9 | 1
+ 42   | HC 86140              | CEZAR PELUSO | N | 9 | 1
+ 43   | EXT 959               | CEZAR PELUSO | N | 9 | 1
+ 44   | HC 89699              | CEZAR PELUSO | N | 9 | 1
+ 45   | HC 91743              | CEZAR PELUSO | N | 9 | 1
+ 46   | INQ 2455              | CEZAR PELUSO | N | 9 | 1
+ 47   | HC 93466              | CEZAR PELUSO | N | 9 | 1
+ 48   | ADI 3049              | CEZAR PELUSO | N | 9 | 1
+ 49   | HC 93393              | CEZAR PELUSO | N | 9 | 0
+ 50   | HC 86748              | CEZAR PELUSO | N | 9 | 0
+ 51   | HC 95611              | CEZAR PELUSO | N | 9 | 0
+ 52   | HC 86609              | CEZAR PELUSO | N | 9 | 0
+ 53   | HC 91480              | CEZAR PELUSO | N | 9 | 0
+ 54   | HC 87157              | CEZAR PELUSO | N | 9 | 0
+ 55   | RHC 89135             | CEZAR PELUSO | N | 9 | 0
+ 56   | HC 86548              | CEZAR PELUSO | N | 9 | 0
+ 57   | HC 90749              | CEZAR PELUSO | N | 9 | 0
+ 58   | HC 86238              | CEZAR PELUSO | N | 8 | 2
+ 59   | HC 83894              | CEZAR PELUSO | N | 8 | 2
+ 60   | RE 534384             | CEZAR PELUSO | N | 8 | 2
+ 61   | HC 88740              | CEZAR PELUSO | N | 8 | 2
+ 62   | HC 95167              | CEZAR PELUSO | N | 8 | 2
+ 63   | EXT 931               | CEZAR PELUSO | N | 8 | 2
+ 64   | HC 95003              | CEZAR PELUSO | N | 8 | 2
+ 65   | HC 91175              | CEZAR PELUSO | N | 8 | 2
+ 66   | HC 88836              | CEZAR PELUSO | N | 8 | 2
+ 67   | HC 88284              | CEZAR PELUSO | N | 8 | 2
+ 68   | HC 84997              | CEZAR PELUSO | N | 8 | 2
+ 69   | AGR AI 420114         | CEZAR PELUSO | N | 8 | 1
+ 70   | HC 82862              | CEZAR PELUSO | N | 8 | 1
+ 71   | HC 97819              | CEZAR PELUSO | N | 8 | 1
+ 72   | INQ 2424              | CEZAR PELUSO | N | 8 | 1
+ 73   | ADI 3625              | CEZAR PELUSO | N | 8 | 1
+ 74   | RHC 86190             | CEZAR PELUSO | N | 8 | 1
+ 75   | HC 94072              | CEZAR PELUSO | N | 8 | 1
+ 76   | HC 95100              | CEZAR PELUSO | N | 8 | 1
+ 77   | HC 87089              | CEZAR PELUSO | N | 8 | 1
+ 78   | HC 85824              | CEZAR PELUSO | N | 8 | 1
+ 79   | AC 112                | CEZAR PELUSO | N | 8 | 1
+ 80   | HC 92568              | CEZAR PELUSO | N | 8 | 1
+ 81   | HC 85718              | CEZAR PELUSO | N | 8 | 1
+ 82   | HC 84590              | CEZAR PELUSO | N | 8 | 1
+ 83   | MS 26652              | CEZAR PELUSO | S | 8 | 0
+ 84   | HC 81832              | CEZAR PELUSO | N | 8 | 0
+ 85   | HC 93710              | CEZAR PELUSO | S | 8 | 0
+ 86   | HC 87219              | CEZAR PELUSO | N | 8 | 0
+ 87   | HC 90709              | CEZAR PELUSO | N | 8 | 0
+ 88   | PET 3631              | CEZAR PELUSO | N | 8 | 0
+ 89   | HC 90471              | CEZAR PELUSO | N | 8 | 0
+ 90   | HC 89777              | CEZAR PELUSO | N | 8 | 0
+ 91   | HC 92302              | CEZAR PELUSO | N | 8 | 0
+ 92   | HC 97948              | CEZAR PELUSO | S | 8 | 0
+ 93   | HC 87676              | CEZAR PELUSO | N | 8 | 0
+ 94   | ADI 1980              | CEZAR PELUSO | N | 8 | 0
+ 95   | HC 84311              | CEZAR PELUSO | N | 7 | 3
+ 96   | HC 84928              | CEZAR PELUSO | N | 7 | 3
+ 97   | RE 467923             | CEZAR PELUSO | N | 7 | 3
+ 98   | HC 83516              | CEZAR PELUSO | N | 7 | 2
+ 99   | HC 83545              | CEZAR PELUSO | N | 7 | 2
+ 100   | AGR RE 413810         | CEZAR PELUSO | N | 7 | 1
+ 101   | HC 84534              | CEZAR PELUSO | N | 7 | 1
+ 102   | HC 95142              | CEZAR PELUSO | N | 7 | 1
+ 103   | MS 26655              | CEZAR PELUSO | S | 7 | 0
+ 104   | HC 83981              | CEZAR PELUSO | N | 7 | 0
+ 105   | HC 87071              | CEZAR PELUSO | N | 7 | 0
+ 106   | HC 82982              | CEZAR PELUSO | N | 6 | 4
+ 107   | SEGUNDO AGR RE 562230 | CEZAR PELUSO | N | 6 | 3
+ 108   | HC 86520              | CEZAR PELUSO | N | 6 | 3
+ 109   | HC 94122              | CEZAR PELUSO | N | 6 | 2
+ 110   | HC 91650              | CEZAR PELUSO | N | 6 | 2
+ 111   | HC 95362              | CEZAR PELUSO | N | 6 | 2
+ 112   | HC 90540              | CEZAR PELUSO | N | 6 | 1
+ 113   | MS 26657              | CEZAR PELUSO | S | 6 | 0
+ 114   | AGR AI 581876         | CEZAR PELUSO | S | 6 | 0
+ 115   | MS 26405              | CEZAR PELUSO | N | 5 | 4
+ 116   | AGR AI 548327         | CEZAR PELUSO | N | 5 | 2
+ 117   | MS 26656              | CEZAR PELUSO | S | 5 | 0
+ 118   | ED ED RE 507258       | CEZAR PELUSO | S | 5 | 0
+ 119   | RE 545860             | CEZAR PELUSO | S | 4 | 0
+ 120   | AGR RE 535675         | CEZAR PELUSO | N | 2 | 1
+ 121   | AGR ED AI 490473      | CEZAR PELUSO | S | 2 | 0
+ 122   | AGR RE 283831         | CEZAR PELUSO | S | 2 | 0
+ 123   | ED ED AGR RE 592670   | CEZAR PELUSO | S | 2 | 0
+
+stf_pr_1_acordaos_90_rel_9
+Number of decisions which appear on simulations: 127
+Number of items whose frequency is higher than 1: 123
+Number of decisions which could be in all iterations: 63
+decisões que aparecem pelo menos 10 vezes | 24
+decisões que aparecem pelo menos 9 vezes | 57
+decisões que aparecem pelo menos 8 vezes | 94
+135

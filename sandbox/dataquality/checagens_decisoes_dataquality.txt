@@ -1,0 +1,47 @@
+Decisões monocráticas
+    cabecalho: string com mais de 100 caracteres
+    acordaoId: string não vazia
+    acordaoType: string não vazia
+    localSigla:
+        string de tamanho 2
+        string não vazia
+    local: string não vazia
+    relator: string não vazia
+    publicacao: string não vazia
+    dataPublic: diferente de string vazia (tipo data)
+    dataJulg: diferente de string vazia (tipo data)
+    tribunal: não "STF" -> fazer busca por decisões com valor diferente para avaliar
+    partesTexto: string com mais de 100 caracteres
+    partes: dicionário com pelo menos 3 elementos
+    decisao: string com mais de 100 caracteres
+    legislacaoTexto: string com mais de 100 caracteres
+    legislacao: lista não vazia
+    observacao: string não vazia
+    similaresTexto: string não vazia
+    similares: lista não vazia
+    citacoesObs: lista não vazia
+    citacoesDec: lista não vazia
+    acompProcData: lista não vazia
+    acompProcAndamento: lista não vazia
+    acompProcOrgJulg: lista não vazia
+
+    CRUZAMENTOS DE DADOS PARA AVALIAR REGEXES:
+    'publicacao' não vazia e 'dataPublic' não vazia
+    'partes' pelo menos 3 elementos e 'partesTexto' mais de 100 caracteres
+    'legislacao' não vazia e 'legislacaoTexto' não vazia
+    'similares' não vazia e 'similaresTexto' não vazia
+    'acompProcData' mesmo tamanho de 'acompProcAndamento' e de 'acompProcOrgJulg'
+    'cabecalho' não vazio e 'dataJulg' não vazio
+    'observacao' não vazio e 'citacoesObs' não vazio
+    'decisao' não vazio e 'citacoesDec' não vazio
+
+Acordao (herda de decisão monocrática)
+    orgaoJulg: não vazio
+    ementa: não vazio
+    doutrinas: não vazio
+    tagsTexto: não vazio
+    tags: não vazio
+    file_urls: não vazio
+
+    'tags' não vazio e 'tagsTexto' não vazio
+    'cabecalho' não vazio e 'orgaoJulg' não vazio
