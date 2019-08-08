@@ -1,6 +1,6 @@
 cffi==1.5.0
 characteristic==14.3.0
-cryptography==1.2.2
+cryptography=="*"
 cssselect==0.9.1
 decorator==4.0.6
 enum34==1.1.2
@@ -17,7 +17,7 @@ pyasn1==0.1.9
 pyasn1-modules==0.0.8
 pycparser==2.14
 pymongo==3.2.1
-pyOpenSSL==0.15.1
+pyOpenSSL=="*"
 queuelib==1.4.2
 Scrapy==1.0.4
 service-identity==14.0.0
