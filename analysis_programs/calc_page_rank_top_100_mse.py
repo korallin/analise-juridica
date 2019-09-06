@@ -100,7 +100,7 @@ def get_mse_pr_top100(db, df_pr_1, df_pr_2, collections_pr_1, collections_pr_2):
 
 if __name__ == "__main__":
 
-    # python calc_page_rank_top_100_mse.py jackson 632799saozei DJs sandbox/page_ranker_analysis.xlsx
+    # python calc_page_rank_top_100_mse.py username password DJs sandbox/page_ranker_analysis.xlsx
 
     mongo_user = sys.argv[1]
     mongo_password = sys.argv[2]

@@ -24,7 +24,7 @@ from collections import defaultdict
 # trecho de código usado para evitar erro do tipo:
 # UnicodeDecodeError: 'ascii' codec can't decode byte 0xc3 in position 2: ordinal not in range(128)
 import sys
-reload(sys)  
+reload(sys)
 sys.setdefaultencoding('utf8')
 
 def generate_graph(total, array, mean, median, std, min, max, mode, info_t, dec_t):
@@ -96,7 +96,7 @@ print sorted(citados_dec.items(), key=operator.itemgetter(1), reverse=True)[-40:
 print sorted(decision_types_a.items(), key=operator.itemgetter(1), reverse=True)
 
 # ver quais dos tipos aqui estão previstos nos relatórios
-for key, dict_vals in org_julg.iteritems():
+for key, dict_vals in org_julg.items():
     print key
     for k, v in sorted(dict_vals.items(), key=operator.itemgetter(1), reverse=True)[:40]:
         print "    {} | {}".format(k, v)

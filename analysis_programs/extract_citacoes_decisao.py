@@ -147,5 +147,5 @@ for coll, atributo in zip([acordaos, decisoes_monocraticas], ['ementa', 'decisao
 
 
 with open("decisoes_extracao.txt", 'w') as outfile:
-    for key, value in sorted(acao_orig_dict.iteritems(), key=itemgetter(1), reverse=True):
+    for key, value in sorted(acao_orig_dict.items(), key=itemgetter(1), reverse=True):
     	outfile.write("{}: {}\n".format(key.encode('utf-8'), value))

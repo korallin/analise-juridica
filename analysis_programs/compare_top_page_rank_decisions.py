@@ -100,7 +100,7 @@ def generate_barplot(array, title, xlabel, ylabel, file_name, xtick_names, sim_d
 
     n = len(array)
     index = np.arange(n)
-    values = [randint(1, 100) for i in xrange(n)]
+    values = [randint(1, 100) for i in range(n)]
 
     cmap = cm.ScalarMappable(col.Normalize(0, 99), cm.spring)
 
@@ -149,7 +149,7 @@ def lst_tuples_mean(tuple_lst):
     lst_len = len(tuple_lst)
 
     lst = []
-    for i in xrange(t_len):
+    for i in range(t_len):
         lst.append(sum([t[i] for t in tuple_lst])/lst_len)
 
     return tuple(lst)
@@ -193,7 +193,7 @@ removed_decisions_iters = []
 page_ranks_iters = []
 
 selected_keys = {"acordaoId": 1, "pageRank": 1, 'virtual': 1, 'relator': 1, 'citacoes': 1, 'citadoPor': 1}
-for i in xrange(1, 11):
+for i in range(1, 11):
     coll_rank = collection_name + "_%d" % i
     coll_removed = collection_name + "_removed_%d" % i
 
@@ -223,7 +223,7 @@ decisoes_removidas_no_top100 = []
 virtual_decs = []
 rel_freq_iter_dict = {}
 rel_freqs_iter = []
-for i in xrange(10):
+for i in range(10):
 
     columns = get_columns_len_tup(decisoes_removidas_no_top100, list)
 
@@ -263,7 +263,7 @@ for i in xrange(10):
             rel_freq_iter_dict[relator] = {pr_it['acordaoId']: [1, pr_it['citacoes'], pr_it['citadoPor']]}
 
 
-    rel_freqs_iter.append(sorted(rel_freq_dict.iteritems(), key=itemgetter(1), reverse=True))
+    rel_freqs_iter.append(sorted(rel_freq_dict.items(), key=itemgetter(1), reverse=True))
 
     if (i+1) < 10:
         decisoes_removidas_no_top100 = filter(lambda v: v[0] in removed_decisions_iters[i+1], page_rank_ids_relatores_lists[i])
@@ -284,7 +284,7 @@ ws.append(["Standard deviation of virtual decisions", np.std(virtual_decs_a)])
 
 rel_freqs_dict = {}
 print "Exibindo frequência com que aparece cada relator em cada iteração de ordenado por frequência de ocorrência"
-for i in xrange(10):
+for i in range(10):
     print "\nIteração %d | # de relatores na iteração %d" % (i+1, len(rel_freqs_iter[i]))
     for r, f in rel_freqs_iter[i]:
         print "{}: {}".format(r.encode('utf-8'), f)
@@ -297,7 +297,7 @@ for i in xrange(10):
 relatores = []
 relat_freqs = []
 print "\nRelator | freq absol | iterações presente | média em iterações presente | std"
-for (r, f_lst) in sorted(rel_freqs_dict.iteritems(), key=lambda i: sum(i[1]), reverse=True):
+for (r, f_lst) in sorted(rel_freqs_dict.items(), key=lambda i: sum(i[1]), reverse=True):
     f_lst_array = np.array(f_lst)
     print "{} | {} ({:.2f}%) | {} | {:.2f} | {:.2f}".format(r.encode('utf-8'), sum(f_lst), 100 * sum(f_lst) / 1000., len(f_lst), np.mean(f_lst_array), np.std(f_lst_array))
     relatores.append(r.encode('utf-8'))
@@ -313,7 +313,7 @@ generate_barplot(np.array(relat_freqs), title, xlabel, ylabel, file_name, relato
 # generate_histogram(np.array(relat_freqs), title, xlabel, ylabel, file_name, xtick_names=np.array(relatores))
 
 relator_decs_citadas_dict = {}
-for k, v in rel_freq_iter_dict.iteritems():
+for k, v in rel_freq_iter_dict.items():
     relator_decs_citadas_dict[k] = sum([cit[1] for cit in v.values()], [])
 
 # soma tf-idf de decisões do relator (geral) | soma tf-idf de decisões do relator (top 100)
@@ -491,7 +491,7 @@ for i, pr_list in enumerate(page_ranks_iters):
         else:
             decisions_occurance[dec_id] = [[(i+1, j+1)], pr_it['relator'], pr_it['virtual'], 1]
 
-frequent_decisions = filter(lambda (k, v): v[-1] > 1, decisions_occurance.iteritems())
+frequent_decisions = filter(lambda (k, v): v[-1] > 1, decisions_occurance.items())
 
 # ver se tem algum problema nos critérios de ordenação
 frequent_decisions_sorted = sorted(frequent_decisions, key=lambda x: (x[1][-1], removed_decisions_freq[x[0]] if x[0] in removed_decisions_freq else 0, x[1][1]), reverse=True)
@@ -539,7 +539,7 @@ ws.append(["decisões que aparecem pelo menos 8 vezes", dec_10_times + dec_9_tim
 print len(frequent_decisions_sorted) + 12
 
 
-dec_ocur_at_leats_8_times = [acord[0] for acord in filter(lambda (k, v): v[-1] >= 8, decisions_occurance.iteritems())]
+dec_ocur_at_leats_8_times = [acord[0] for acord in filter(lambda (k, v): v[-1] >= 8, decisions_occurance.items())]
 counts_iter = []
 for pr_list in page_ranks_iters:
     count = 0
@@ -548,18 +548,18 @@ for pr_list in page_ranks_iters:
         if dec_id in dec_ocur_at_leats_8_times:
             count += 1
 
-    counts_iter.append(count) 
+    counts_iter.append(count)
 
 
 ws['A' + str(ws.max_row + 2)] = ''
-ws.append(["Número médio de ocorrência por iteração das decisões que aparecem pelo menos 8 vezes", 
+ws.append(["Número médio de ocorrência por iteração das decisões que aparecem pelo menos 8 vezes",
             np.mean(np.array(counts_iter))])
 
-ws.append(["Desvio padrão de ocorrência das decisões que aparecem pelo menos 8 vezes nas 10 iterações", 
+ws.append(["Desvio padrão de ocorrência das decisões que aparecem pelo menos 8 vezes nas 10 iterações",
             np.std(np.array(counts_iter))])
 
 count_decs = []
-for i in xrange(1, 11):
+for i in range(1, 11):
     coll_rank = collection_name + "_%d" % i
     count_decs.append(db[coll_rank].count())
 

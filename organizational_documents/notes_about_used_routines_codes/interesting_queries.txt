@@ -29,8 +29,8 @@ db.dropDatabase()
 use admin
 db.createUser(
    {
-       user: "jackson", 
-       pwd: "632799saozei", 
+       user: "",
+       pwd: "",
        roles:["root"]
    })
 
@@ -43,7 +43,7 @@ db.acordaos.remove({})
 # Para saber se existem acórdaos repetidos na base de dados
 db.decisoes_monocraticas.aggregate(
     {"$group" : { "_id": {cabecalho: "$cabecalho", acordaoId: "$acordaoId"}, "count": { "$sum": 1 } } },
-    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } }, 
+    {"$match": {"_id" :{ "$ne" : null } , "count" : {"$gt": 1} } },
     {"$project": {"cabecalho" : "$_id", "_id" : 0} }
 )
 
@@ -132,8 +132,6 @@ mr = db.runCommand({
   "map" : function() {
     for (var key in this) { emit(key, null); }
   },
-  "reduce" : function(key, stuff) { return null; }, 
+  "reduce" : function(key, stuff) { return null; },
   "out": "decisoes_monocraticas" + "_keys"
 })
-
-
