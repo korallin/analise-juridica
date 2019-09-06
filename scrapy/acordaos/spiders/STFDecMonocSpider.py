@@ -8,7 +8,7 @@ import re
 import time
 from datetime import datetime, timedelta
 from scrapy.http import Request
-from STFDecisaoParser import STFDecisaoParser
+from acordaos.spiders.STFDecisaoParser import STFDecisaoParser
 import logging
 
 

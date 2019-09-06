@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from DecisaoParser import DecisaoParser
+from acordaos.spiders.DecisaoParser import DecisaoParser
 
 import re
 from datetime import datetime, timedelta

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from DecisaoParser import DecisaoParser
+from acordaos.spiders.DecisaoParser import DecisaoParser
 
 # from stf.items import StfLawItem
 import re

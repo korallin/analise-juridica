@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 from scrapy.selector import Selector
-from scrapy.spider import BaseSpider
+from scrapy.spiders import Spider
 from scrapy.http import FormRequest, Request
 from scrapy.utils.response import open_in_browser
 from acordaos.items import AcordaoItem
-from STJParser import STJParser
-import urlparse
+from acordaos.spiders.STJParser import STJParser
+import urllib.parse
 import re
 from scrapy.shell import inspect_response
 from datetime import datetime, timedelta
 import time
 
 
-class STJSpider(BaseSpider):
+class STJSpider(Spider):
 
     name = "stj"
 
@@ -204,7 +204,7 @@ class STJSpider(BaseSpider):
             ) == "Acórdãos".decode("utf8"):
                 resultsLink = line.xpath("./span[2]/a/@href").extract()[0]
         yield Request(
-            urlparse.urljoin("http://www.stj.jus.br/", resultsLink),
+            urllib.parse.urljoin("http://www.stj.jus.br/", resultsLink),
             callback=self.parsePage,
         )
 
@@ -233,7 +233,7 @@ class STJSpider(BaseSpider):
         nextPage = sel.xpath('//*[@id="navegacao"][1]/a[@class="iconeProximaPagina"]')
         if nextPage:
             yield Request(
-                urlparse.urljoin(
+                urllib.parse.urljoin(
                     "http://www.stj.jus.br/", nextPage.xpath("@href").extract()[0]
                 ),
                 callback=self.parsePage,
