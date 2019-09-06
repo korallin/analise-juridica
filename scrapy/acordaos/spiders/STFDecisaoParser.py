@@ -10,66 +10,66 @@ from datetime import datetime, timedelta
 class STFDecisaoParser(DecisaoParser):
 
     classes_processuais_dict = {
-        u"AC": u"AÇÃO CAUTELAR",
-        u"ACO": u"AÇÃO CÍVEL ORDINÁRIA",
-        u"ADC": u"AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE",
-        u"ADI": u"AÇÃO DIRETA DE INCONSTITUCIONALIDADE",
-        u"ADO": u"AÇÃO DIRETA DE INCONSTITUCIONALIDADE POR OMISSÃO",
-        u"AO": u"AÇÃO ORIGINÁRIA",
-        u"AOE": u"AÇÃO ORIGINÁRIA ESPECIAL",
-        u"AP": u"AÇÃO PENAL",
-        u"AR": u"AÇÃO RECISÓRIA",
-        u"AI": u"AGRAVO DE INSTRUMENTO",
-        u"ACI": u"APELAÇÃO CÍVEL",
-        u"ADPF": u"ARGUIÇÃO DE DESCUMPRIMENTO DE PRECEITO FUNDAMENTAL",
-        u"AIMP": u"ARGUIÇÃO DE IMPEDIMENTO",
-        u"ARV": u"ARGUIÇÃO DE RELEVÂNCIA",
-        u"AS": u"ARGUIÇÃO DE SUSPEIÇÃO",
-        u"CR": u"CARTA ROGATÓRIA",
-        u"CM": u"COMUNICAÇÃO",
-        u"CA": u"CONFLITO DE ATRIBUIÇÕES",
-        u"CC": u"CONFLITO DE COMPETÊNCIA",
-        u"CJ": u"CONFLITO DE JURISDIÇÃO",
-        u"ED": u"EMBARGO DECLARATÓRIO",
-        u"EV": u"EXCEÇÃO DA VERDADE",
-        u"EI": u"EXCEÇÃO DE INCOMPETÊNCIA",
-        u"EL": u"EXCEÇÃO DE LITISPENDÊNCIA",
-        u"ES": u"EXCEÇÃO DE SUSPEIÇÃO",
-        u"EXT": u"EXTRADIÇÃO",
-        u"HC": u"HABEAS CORPUS",
-        u"HD": u"HABEAS DATA",
-        u"INQ": u"INQUÉRITO",
-        u"IF": u"INTERVENÇÃO FEDERAL",
-        u"MI": u"MANDADO DE INJUNÇÃO",
-        u"MS": u"MANDADO DE SEGURANÇA",
-        u"OACO": u"OPOSIÇÃO EM AÇÃO CIVIL ORIGINÁRIA",
-        u"PET": u"PETIÇÃO",
-        u"PETA": u"PETIÇÃO AVULSA",
-        u"PETAV": u"PETIÇÃO AVULSA",
-        u"PPE": u"PRISÃO PREVETIVA PARA EXTRADIÇÃO",
-        u"PA": u"PROCESSO ADMINISTRATIVO",
-        u"PSV": u"PROPOSTA DE SÚMULA VINCULANTE",
-        u"QC": u"QUEIXA-CRIME",
-        u"RCL": u"RECLAMAÇÃO",
-        u"RC": u"RECURSO CRIME",
-        u"RE": u"RECURSO EXTRAORDINÁRIO",
-        u"ARE": u"RECURSO EXTRAORDINÁRIO COM AGRAVO",
-        u"EP": u"EXECUÇÃO PENAL",
-        u"RHC": u"RECURSO ORDINÁRIO EM HABEAS CORPUS",
-        u"RHD": u"RECURSO ORDINÁRIO EM HABEAS DATA",
-        u"RMI": u"RECURSO ORDINÁRIO EM MANDADO DE INJUNÇÃO",
-        u"RMS": u"RECURSO ORDINÁRIO EM MANDADO DE SEGURANÇA",
-        u"RP": u"REPRESENTAÇÃO",
-        u"RVC": u"REVISÃO CRIMINAL",
-        u"SE": u"SENTENÇA ESTRANGEIRA",
-        u"SEC": u"SENTENÇA ESTRANGEIRA CONTESTADA",
-        u"SL": u"SUSPENÇÃO DE LIMINAR",
-        u"SS": u"SUSPENÇÃO DE SEGURANÇA",
-        u"STA": u"SUSPENÇÃO DE TUTELA ANTECIPADA",
+        "AC": "AÇÃO CAUTELAR",
+        "ACO": "AÇÃO CÍVEL ORDINÁRIA",
+        "ADC": "AÇÃO DECLARATÓRIA DE CONSTITUCIONALIDADE",
+        "ADI": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE",
+        "ADO": "AÇÃO DIRETA DE INCONSTITUCIONALIDADE POR OMISSÃO",
+        "AO": "AÇÃO ORIGINÁRIA",
+        "AOE": "AÇÃO ORIGINÁRIA ESPECIAL",
+        "AP": "AÇÃO PENAL",
+        "AR": "AÇÃO RECISÓRIA",
+        "AI": "AGRAVO DE INSTRUMENTO",
+        "ACI": "APELAÇÃO CÍVEL",
+        "ADPF": "ARGUIÇÃO DE DESCUMPRIMENTO DE PRECEITO FUNDAMENTAL",
+        "AIMP": "ARGUIÇÃO DE IMPEDIMENTO",
+        "ARV": "ARGUIÇÃO DE RELEVÂNCIA",
+        "AS": "ARGUIÇÃO DE SUSPEIÇÃO",
+        "CR": "CARTA ROGATÓRIA",
+        "CM": "COMUNICAÇÃO",
+        "CA": "CONFLITO DE ATRIBUIÇÕES",
+        "CC": "CONFLITO DE COMPETÊNCIA",
+        "CJ": "CONFLITO DE JURISDIÇÃO",
+        "ED": "EMBARGO DECLARATÓRIO",
+        "EV": "EXCEÇÃO DA VERDADE",
+        "EI": "EXCEÇÃO DE INCOMPETÊNCIA",
+        "EL": "EXCEÇÃO DE LITISPENDÊNCIA",
+        "ES": "EXCEÇÃO DE SUSPEIÇÃO",
+        "EXT": "EXTRADIÇÃO",
+        "HC": "HABEAS CORPUS",
+        "HD": "HABEAS DATA",
+        "INQ": "INQUÉRITO",
+        "IF": "INTERVENÇÃO FEDERAL",
+        "MI": "MANDADO DE INJUNÇÃO",
+        "MS": "MANDADO DE SEGURANÇA",
+        "OACO": "OPOSIÇÃO EM AÇÃO CIVIL ORIGINÁRIA",
+        "PET": "PETIÇÃO",
+        "PETA": "PETIÇÃO AVULSA",
+        "PETAV": "PETIÇÃO AVULSA",
+        "PPE": "PRISÃO PREVETIVA PARA EXTRADIÇÃO",
+        "PA": "PROCESSO ADMINISTRATIVO",
+        "PSV": "PROPOSTA DE SÚMULA VINCULANTE",
+        "QC": "QUEIXA-CRIME",
+        "RCL": "RECLAMAÇÃO",
+        "RC": "RECURSO CRIME",
+        "RE": "RECURSO EXTRAORDINÁRIO",
+        "ARE": "RECURSO EXTRAORDINÁRIO COM AGRAVO",
+        "EP": "EXECUÇÃO PENAL",
+        "RHC": "RECURSO ORDINÁRIO EM HABEAS CORPUS",
+        "RHD": "RECURSO ORDINÁRIO EM HABEAS DATA",
+        "RMI": "RECURSO ORDINÁRIO EM MANDADO DE INJUNÇÃO",
+        "RMS": "RECURSO ORDINÁRIO EM MANDADO DE SEGURANÇA",
+        "RP": "REPRESENTAÇÃO",
+        "RVC": "REVISÃO CRIMINAL",
+        "SE": "SENTENÇA ESTRANGEIRA",
+        "SEC": "SENTENÇA ESTRANGEIRA CONTESTADA",
+        "SL": "SUSPENÇÃO DE LIMINAR",
+        "SS": "SUSPENÇÃO DE SEGURANÇA",
+        "STA": "SUSPENÇÃO DE TUTELA ANTECIPADA",
     }
 
-    words_black_list_regex = [u"OFÍCIO", u"LEI", u"ARTIGO", u"SÚMULA", u"DJ"]
-    words_black_list_absolut = [u"DE", u"EM", u"MP", u"DO"]
+    words_black_list_regex = ["OFÍCIO", "LEI", "ARTIGO", "SÚMULA", "DJ"]
+    words_black_list_absolut = ["DE", "EM", "MP", "DO"]
 
     def get_acao_originaria(self, acao_originaria):
         existe_ac_orig = True
@@ -224,13 +224,13 @@ class STFDecisaoParser(DecisaoParser):
         decisoes_monoc = re.search(
             (
                 "[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
-            ).decode("utf-8"),
+            ),
             txt,
         )
         acordaos = re.search(
             (
                 "[Aa]córdão(?:\s*\(?s\)?)? citado(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
-            ).decode("utf-8"),
+            ),
             txt,
         )
 
@@ -262,10 +262,10 @@ class STFDecisaoParser(DecisaoParser):
             if lines[i].startswith(" "):
                 continue
             similarAcordaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO".decode("utf8"), "").strip()
+                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             )
             similarAcordaoId = similarAcordaoId.replace(
-                " ACÓRDÃO ELETRÔNICO".decode("utf8"), ""
+                " ACÓRDÃO ELETRÔNICO", ""
             ).strip()
             similarAcordaoId = similarAcordaoId.replace("-", " ").strip()
             similarAcordaoId = self.normalizeId(similarAcordaoId)
@@ -307,10 +307,10 @@ class STFDecisaoParser(DecisaoParser):
             if lines[i].startswith(" "):
                 continue
             similarDecisaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO".decode("utf8"), "").strip()
+                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             )
             similarDecisaoId = similarDecisaoId.replace(
-                " ACÓRDÃO ELETRÔNICO".decode("utf8"), ""
+                " ACÓRDÃO ELETRÔNICO", ""
             ).strip()
             similarDecisaoId = similarDecisaoId.replace("-", " ").strip()
             similarDecisaoId = self.normalizeId(similarDecisaoId)

@@ -46,7 +46,7 @@ class STFAcordaoSpider(Spider):
         ).extract()
         r = re.search(r"([0-9]+)", str(body))
         if r:
-            npagesFound = int(r.group(1)) / 10 + 1
+            npagesFound = int(int(r.group(1)) / 10 + 1)
 
         for p in range(self.page, npagesFound + 1):
             yield Request(self.urlPage(p), callback=self.parsePage)
@@ -75,7 +75,6 @@ class STFAcordaoSpider(Spider):
         return item
 
     def parsePage(self, response):
-        unicode(response.body.decode(response.encoding)).encode("utf-8")
         sel = Selector(response)
         body = sel.xpath(
             '/html/body/div[@id="pagina"]'
@@ -88,8 +87,8 @@ class STFAcordaoSpider(Spider):
 
         if len(body) < 10:
             logging.warning(
-                u"Acórdão possui menos de 10 documentos na página {}".format(
-                    unicode(response.url, "utf-8")
+                "Acórdão possui menos de 10 documentos na página {}".format(
+                    response.url
                 )
             )
 
@@ -110,7 +109,7 @@ class STFAcordaoSpider(Spider):
         self.fIndex += 1
 
         textDoc = doc.xpath('div[@class="processosJurisprudenciaAcordaos"]')
-        law_fields_dict["docHeader"] = parser.joinId(textDoc.xpath("p[1]/strong//text()").extract())
+        law_fields_dict["docHeader"] = parser.joinId(parser.make_string(textDoc.xpath("p[1]/strong//text()").extract()))
 
         law_fields_dict["acordaoId"] = parser.parseId(law_fields_dict["docHeader"][0])
         law_fields_dict["acordaoType"] = parser.parseType(law_fields_dict["acordaoId"])
@@ -138,33 +137,33 @@ class STFAcordaoSpider(Spider):
             "".join(law_fields_dict["docHeader"][1:])
         )
 
-        law_fields_dict["publicacao"] = (
+        law_fields_dict["publicacao"] = parser.make_string(
             textDoc.xpath("pre[1]/text()").extract()[0].strip()
         )
 
         law_fields_dict["ementa"] = (
-            " ".join(textDoc.xpath("strong[1]/div//text()").extract()).strip()
+            " ".join(parser.make_string(textDoc.xpath("strong[1]/div//text()").extract())).strip()
         )
 
-        headers = textDoc.xpath("p/strong//text()").extract()[
+        headers = parser.make_string(textDoc.xpath("p/strong//text()").extract()[
             len(law_fields_dict["docHeader"]) + 1 : -1
-        ]
+        ])
 
-        if u"Publicação" in headers:
-            while headers.pop(0) != u"Publicação":
+        if "Publicação" in headers:
+            while headers.pop(0) != "Publicação":
                 continue
 
         # adicionar aos headers seções que ficam ocultas no documento
 
-        bodies = textDoc.xpath("pre/text()").extract()[1:]
-        dec_body = " ".join(textDoc.xpath("div/text()").extract()).strip()
+        bodies = parser.make_string(textDoc.xpath("pre/text()").extract()[1:])
+        dec_body = parser.parse_section(parser.make_string(textDoc.xpath("div/text()").extract())).strip()
         bodies.append(dec_body)
-        bodies.append(" ".join(textDoc.xpath("div/div/text()").extract()))
-        bodies.extend(textDoc.xpath("div/pre[1]/text()").extract())
-        bodies.extend(textDoc.xpath("div/pre[2]/text()").extract())
-        bodies.extend(textDoc.xpath("div/pre[3]/text()").extract())
+        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/div/text()").extract())))
+        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[1]/text()").extract())))
+        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[2]/text()").extract())))
+        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[3]/text()").extract())))
 
-        headers.extend(textDoc.xpath("div/p//text()").extract())
+        headers.extend(parser.make_string(textDoc.xpath("div/p//text()").extract()))
         sections = zip(headers, bodies)
 
         # método para descobrir se há alguma seção desconhecida/imprevista presente no documento
@@ -172,19 +171,19 @@ class STFAcordaoSpider(Spider):
 
         # usar regra que considera adição de dados até atingir item da lista que contém "-"
         law_fields_dict["partesRaw"] = self.getSectionBodyByHeader(
-            u"Parte", sections
-        ).encode("utf8")
-        law_fields_dict["decision"] = self.getSectionBodyByHeader(u"Decisão", sections)
-        law_fields_dict["tagsRaw"] = self.getSectionBodyByHeader(u"Indexação", sections)
-        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
-            u"Legislação", sections
+            "Parte", headers, bodies
         )
-        law_fields_dict["obs"] = self.getSectionBodyByHeader(u"Observação", sections)
+        law_fields_dict["decision"] = self.getSectionBodyByHeader("Decisão", headers, bodies)
+        law_fields_dict["tagsRaw"] = self.getSectionBodyByHeader("Indexação", headers, bodies)
+        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
+            "Legislação", headers, bodies
+        )
+        law_fields_dict["obs"] = self.getSectionBodyByHeader("Observação", headers, bodies)
         law_fields_dict["similarRaw"] = self.getSectionBodyByHeader(
-            u"Acórdãos no mesmo", sections
+            "Acórdãos no mesmo", headers, bodies
         )
         law_fields_dict["doutrines"] = self.getSectionBodyByHeader(
-            u"Doutrina", sections
+            "Doutrina", headers, bodies
         )
 
         law_fields_dict["partes"] = parser.parsePartes(law_fields_dict["partesRaw"])
@@ -261,10 +260,10 @@ class STFAcordaoSpider(Spider):
             + "&base=baseAcordaos"
         )
 
-    def getSectionBodyByHeader(self, header, sections):
-        for s in sections:
-            if s[0].startswith(header):
-                return s[1]
+    def getSectionBodyByHeader(self, header_to_match, headers, bodies):
+        for header, body in zip(headers, bodies):
+            if header.startswith(header_to_match):
+                return body
         return ""
 
     # método para descobrir se há alguma seção desconhecida/imprevista presente no documento
@@ -272,13 +271,13 @@ class STFAcordaoSpider(Spider):
         for s in sections:
             new_section = True
             for header in (
-                u"Parte",
-                u"Decisão",
-                u"Legislação",
-                u"Observação",
-                u"Indexação",
-                u"Acórdãos no mesmo",
-                u"Doutrina",
+                "Parte",
+                "Decisão",
+                "Legislação",
+                "Observação",
+                "Indexação",
+                "Acórdãos no mesmo",
+                "Doutrina",
             ):
                 if s[0].startswith(header):
                     new_section = False

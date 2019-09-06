@@ -7,10 +7,7 @@ class PartesCorpusBuilder(CorpusBuilder):
     def addWords(self, text):
         keys = self.corpusDict.keys()
         for w in re.split(r"[\s,.?;:\"\']+", text):
-            #            w = w.decode("utf-8").encode("iso-8859-1")
-            #        w = w.decode("utf-8")
             w = w.lower()
-            w = w.encode("utf-8")
             if w in keys:
                 self.corpusDict[w] += 1
             else:

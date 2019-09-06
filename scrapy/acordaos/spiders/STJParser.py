@@ -90,10 +90,10 @@ class STJParser(DecisaoParser):
             if lines[i].startswith(" "):
                 continue
             similarAcordaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO".decode("utf8"), "").strip()
+                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             )
             similarAcordaoId = similarAcordaoId.replace(
-                " ACÓRDÃO ELETRÔNICO".decode("utf8"), ""
+                " ACÓRDÃO ELETRÔNICO", ""
             ).strip()
             similarAcordaoId = similarAcordaoId.replace("-", " ").strip()
             dataJulg = orgaoJulg = relator = ""
@@ -130,7 +130,7 @@ class STJParser(DecisaoParser):
         refs = {}
         lawLines = []
         for l in text:
-            l = l.encode("utf-8").upper()
+            l = l.upper()
             if l.startswith("LEG"):
                 if lawLines:
                     description = self.parseLawDescription(lawLines[0])

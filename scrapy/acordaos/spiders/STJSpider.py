@@ -183,9 +183,7 @@ class STJSpider(Spider):
         return None
 
     def parseSearchResults(self, response):
-        unicode(response.body.decode(response.encoding)).encode("utf-8")
         sel = Selector(response)
-        # inspect_response(response, self)
         resultsLines = sel.xpath(
             '/html/body/div[@id="divprincipal"]'
             + '/div[@class="minwidth"]'
@@ -201,7 +199,7 @@ class STJSpider(Spider):
         for line in resultsLines:
             if (
                 (line.xpath("./span[1]/text()").extract()[0]).strip()
-            ) == "Acórdãos".decode("utf8"):
+            ) == "Acórdãos":
                 resultsLink = line.xpath("./span[2]/a/@href").extract()[0]
         yield Request(
             urllib.parse.urljoin("http://www.stj.jus.br/", resultsLink),
@@ -209,11 +207,6 @@ class STJSpider(Spider):
         )
 
     def parsePage(self, response):
-        # inspect_response(response, self)
-        try:
-            unicode(response.body.decode(response.encoding)).encode("utf-8")
-        except exceptions.UnicodeDecodeError:
-            print("exception error")
         sel = Selector(response)
         doclist = sel.xpath(
             '/html/body/div[@id="divprincipal"]'

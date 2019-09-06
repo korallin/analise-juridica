@@ -14,12 +14,36 @@ class DecisaoParser:
 
         if word == abv:
             logging.warning(
-                u"[NEW ABV] Doesn't exist abreviation for {}".format(
-                    unicode(abrev, "utf-8")
+                "[NEW ABV] Doesn't exist abreviation for {}".format(
+                    abrev
                 )
             )
 
         return word
+
+    def make_string(self, byte_object):
+        if isinstance(byte_object, bytes):
+            return str(byte_object, "utf-8")
+        elif isinstance(byte_object, list):
+            return [self.make_string(b) for b in byte_object]
+        elif isinstance(byte_object, tuple):
+            return [self.make_string(b) for b in byte_object]
+        elif isinstance(byte_object, set):
+            return [self.make_string(b) for b in byte_object]
+
+        return byte_object
+
+    def parse_section(self, object):
+        if isinstance(object, str):
+            return object
+        if isinstance(object, list):
+            return " ".join(object)
+        elif isinstance(object, tuple):
+            return " ".join(object)
+        elif isinstance(object, set):
+            return " ".join(object)
+
+        return object
 
     def parseUf(self, text):
         return self.getMatchText(text, ".*\/.*-\s*(.*)").upper().strip()
@@ -34,7 +58,7 @@ class DecisaoParser:
             for tag in tagsRaw:
                 t = (re.sub("\s+", " ", tag)).strip()
                 tags.append(t.upper())
-            return filter(None, tags)
+            return list(filter(None, tags))
         return []
 
     def parsePartes(self, text):
@@ -52,8 +76,8 @@ class DecisaoParser:
 
             if t.find(".") == -1:
                 logging.warning(
-                    u"[LOOK ABBRV] A abreviação {} não possui ponto".format(
-                        unicode(t, "utf-8")
+                    "[LOOK ABBRV] A abreviação {} não possui ponto".format(
+                        t
                     )
                 )
 
@@ -72,7 +96,7 @@ class DecisaoParser:
         ref = {}
         lawRefs = []
         nCaputs = nArt = nPar = nInc = nAli = 0
-        refs = filter(None, refs)
+        refs = list(filter(None, refs))
 
         for r in refs:
             r = r.strip()
@@ -142,7 +166,7 @@ class DecisaoParser:
         lines = text.split("\n")
 
         for l in lines:
-            l = l.encode("utf-8").upper()
+            l = l.upper()
             if l.startswith("LEG"):
                 if lawLines:
                     description = self.parseLawDescription(lawLines[-1])

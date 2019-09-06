@@ -71,7 +71,6 @@ class STFDecMonocSpider(Spider):
         return item
 
     def parsePage(self, response):
-        unicode(response.body.decode(response.encoding)).encode("utf-8")
         sel = Selector(response)
         body = sel.xpath(
             '/html/body/div[@id="pagina"]'
@@ -84,16 +83,16 @@ class STFDecMonocSpider(Spider):
         corrected_body = body.xpath('.//div[@class="abasAcompanhamento"]')
         if len(corrected_body) > 10:
             logging.warning(
-                u"Decisões monocráticas possui mais de 10 documentos na página {}".format(
-                    unicode(response.url, "utf-8")
+                "Decisões monocráticas possui mais de 10 documentos na página {}".format(
+                    response.url
                 )
             )
             corrected_body = body.xpath('div[@class="abasAcompanhamento"]')
 
         if len(corrected_body) < 10:
             logging.warning(
-                u"Acórdão possui menos de 10 documentos na página {}".format(
-                    unicode(response.url, "utf-8")
+                "Acórdão possui menos de 10 documentos na página {}".format(
+                    response.url
                 )
             )
 
@@ -142,11 +141,11 @@ class STFDecMonocSpider(Spider):
             len(law_fields_dict["docHeader"]) + 1 : -1
         ]
 
-        if u"Publicação" in headers:
-            while headers.pop(0) != u"Publicação":
+        if "Publicação" in headers:
+            while headers.pop(0) != "Publicação":
                 continue
 
-        if u"Decisões no mesmo" in headers[-1]:
+        if "Decisões no mesmo" in headers[-1]:
             bodies = textDoc.xpath("pre/text()").extract()[1 : len(headers)]
             similares = textDoc.xpath("pre")[-1]
             bodies.append(similares.xpath(".//text()").extract())
@@ -166,15 +165,15 @@ class STFDecMonocSpider(Spider):
         self.new_section(sections, law_fields_dict["acordaoId"])
 
         law_fields_dict["partesRaw"] = self.getSectionBodyByHeader(
-            u"Parte", sections
-        ).encode("utf8")
-        law_fields_dict["decision"] = self.getSectionBodyByHeader(u"Decisão", sections)
-        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
-            u"Legislação", sections
+            "Parte", sections
         )
-        law_fields_dict["obs"] = self.getSectionBodyByHeader(u"Observação", sections)
+        law_fields_dict["decision"] = self.getSectionBodyByHeader("Decisão", sections)
+        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
+            "Legislação", sections
+        )
+        law_fields_dict["obs"] = self.getSectionBodyByHeader("Observação", sections)
         law_fields_dict["similarRaw"] = self.getSectionBodyByHeader(
-            u"Decisões no mesmo", sections
+            "Decisões no mesmo", sections
         )
 
         law_fields_dict["partes"] = parser.parsePartes(law_fields_dict["partesRaw"])
@@ -247,11 +246,11 @@ class STFDecMonocSpider(Spider):
         for s in sections:
             new_section = True
             for header in (
-                u"Parte",
-                u"Decisão",
-                u"Legislação",
-                u"Observação",
-                u"Decisões",
+                "Parte",
+                "Decisão",
+                "Legislação",
+                "Observação",
+                "Decisões",
             ):
                 if s[0].startswith(header):
                     new_section = False
