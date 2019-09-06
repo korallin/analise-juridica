@@ -4,31 +4,35 @@
 import re
 import logging
 
-class DecisaoParser():
 
+class DecisaoParser:
     def extendAbv(self, abrev):
-        abv = abrev.replace('.', '').lower()
-        abv = re.sub("\(.*\)", '', abv)
-        word = re.sub(r'([ao]?s?)$', '', abv, flags=re.IGNORECASE)
+        abv = abrev.replace(".", "").lower()
+        abv = re.sub("\(.*\)", "", abv)
+        word = re.sub(r"([ao]?s?)$", "", abv, flags=re.IGNORECASE)
         word = self.abbreviationsTable.get(word, abv)
 
         if word == abv:
-            logging.warning(u"[NEW ABV] Doesn't exist abreviation for {}".format(unicode(abrev, 'utf-8')))
+            logging.warning(
+                u"[NEW ABV] Doesn't exist abreviation for {}".format(
+                    unicode(abrev, "utf-8")
+                )
+            )
 
         return word
 
     def parseUf(self, text):
-        return self.getMatchText(text, '.*\/.*-\s*(.*)').upper().strip()
+        return self.getMatchText(text, ".*\/.*-\s*(.*)").upper().strip()
 
     def parseType(self, acordaoId):
-        return re.sub('\d+\s*', '', acordaoId).strip()
+        return re.sub("\d+\s*", "", acordaoId).strip()
 
     def parseTags(self, text):
         tags = []
         if text:
-            tagsRaw = re.split(r'[,\-.]+', text)
+            tagsRaw = re.split(r"[,\-.]+", text)
             for tag in tagsRaw:
-                t = (re.sub('\s+', ' ', tag)).strip()
+                t = (re.sub("\s+", " ", tag)).strip()
                 tags.append(t.upper())
             return filter(None, tags)
         return []
@@ -36,15 +40,22 @@ class DecisaoParser():
     def parsePartes(self, text):
         text = text.lstrip() + "\n"
         text = re.sub(r"\\n\s+", r"\n", text)
-        partes = [match[0] for match in re.findall('([^\\n]+(;|:| {3,}).+?\\n([^\\n:;]+\\n)*)', text)]
+        partes = [
+            match[0]
+            for match in re.findall("([^\\n]+(;|:| {3,}).+?\\n([^\\n:;]+\\n)*)", text)
+        ]
         partesDict = {}
 
         for parte in partes:
-            temp = re.split('(;|:| {3,})', parte)
+            temp = re.split("(;|:| {3,})", parte)
             t = temp[0].strip()
 
             if t.find(".") == -1:
-                logging.warning(u"[LOOK ABBRV] A abreviação {} não possui ponto".format(unicode(t, 'utf-8')))
+                logging.warning(
+                    u"[LOOK ABBRV] A abreviação {} não possui ponto".format(
+                        unicode(t, "utf-8")
+                    )
+                )
 
             tipo = self.extendAbv(t)
             nome = re.sub(r"([\n\r]| {2,})", " ", temp[-1].strip())
@@ -56,7 +67,6 @@ class DecisaoParser():
 
         return dict(partesDict)
 
-
     def parseLawReferences(self, text):
         refs = re.split("((?:INC|PAR|LET|ART)[- :][\w\d]+)\s*", text)
         ref = {}
@@ -64,10 +74,9 @@ class DecisaoParser():
         nCaputs = nArt = nPar = nInc = nAli = 0
         refs = filter(None, refs)
 
-
         for r in refs:
             r = r.strip()
-            if r.startswith("ART"): 
+            if r.startswith("ART"):
                 if nArt or nCaputs:
                     lawRefs.append(dict(ref))
                     ref.pop("inciso", None)
@@ -103,25 +112,25 @@ class DecisaoParser():
                     nCaputs = 0
                 nAli = 1
                 ref["alinea"] = self.getMatchText(r, "LET[-: ]+(.+)")
-            elif r.startswith("\"CAPUT"):
-                ref["caput"] = 1  
+            elif r.startswith('"CAPUT'):
+                ref["caput"] = 1
                 nAli = nInc = nPar = nLet = 0
                 nCaputs = 1
                 ref.pop("inciso", None)
                 ref.pop("alinea", None)
                 ref.pop("paragrafo", None)
             elif r.startswith("REDAÇÃO"):
-                ref['redacao'] = self.getMatchText(r, "REDAÇÃO\s*(.+)")
+                ref["redacao"] = self.getMatchText(r, "REDAÇÃO\s*(.+)")
             elif r.startswith("INCLUÍDO"):
-                ref['incluido'] = self.getMatchText(r, "INCLUÍDO\s*(.+)")
+                ref["incluido"] = self.getMatchText(r, "INCLUÍDO\s*(.+)")
         if ref:
             lawRefs.append(dict(ref))
-        return lawRefs 
+        return lawRefs
 
     def parseLawDescription(self, text):
         if re.match("\s*(PAR|INC|ART|CAP|LET).*", text):
             return ""
-        desc = re.sub("[\*]+", '', text)
+        desc = re.sub("[\*]+", "", text)
         return desc.strip()
 
     def parseLaws(self, text):
@@ -129,7 +138,7 @@ class DecisaoParser():
         law = {}
         refs = {}
         lawLines = []
-        text = text.replace('\r', ' ')
+        text = text.replace("\r", " ")
         lines = text.split("\n")
 
         for l in lines:
@@ -140,66 +149,65 @@ class DecisaoParser():
                     if description:
                         law["descricao"] = description
                         lawLines.pop()
-                    law["refs"] = self.parseLawReferences(''.join(lawLines))
+                    law["refs"] = self.parseLawReferences("".join(lawLines))
                 if any(law):
                     laws.append(law)
                     law = {}
-                lawLines = [] 
+                lawLines = []
                 law["descricao"] = ""
                 law["refs"] = []
                 law["sigla"] = self.getMatchText(l, r"\s*LEG[-:]\w+\s+([^\s]+).*")
                 law["tipo"] = self.getMatchText(l, r"\s*LEG[-:](\w+).*")
                 law["ano"] = self.getMatchText(l, r".*ANO[-:](\d+).*")
-            elif l.startswith('***'):
+            elif l.startswith("***"):
                 law["descricao"] = l
             else:
-                lawLines.append(" "+l.strip())
-        #append last law
+                lawLines.append(" " + l.strip())
+        # append last law
         if law:
             if lawLines:
                 description = self.parseLawDescription(lawLines[-1])
                 law["descricao"] = description
                 if description:
                     lawLines.pop()
-            law["refs"] = self.parseLawReferences(''.join(lawLines))
+            law["refs"] = self.parseLawReferences("".join(lawLines))
             laws.append(law)
         return laws
 
     def getMatchText(self, text, regexExp):
         match = re.search(regexExp, text)
-        if  match == None:
-            return ''
+        if match == None:
+            return ""
         else:
             return (match.group(1)).strip()
 
     def removeExtraSpaces(self, text):
-        return re.sub('\s+', ' ', text).strip()
+        return re.sub("\s+", " ", text).strip()
 
     abbreviationsTable = {
-        "advd":   "advogado",
-        "adv":    "advogado",
-        "agd":    "agravado",
-        "agdv":   "agravado",
-        "agte":   "agravante",
+        "advd": "advogado",
+        "adv": "advogado",
+        "agd": "agravado",
+        "agdv": "agravado",
+        "agte": "agravante",
         "autore": "autor",
         "coator": "coator",
-        "embd":   "embargado",
-        "embgd":  "embargado",
-        "embte":  "embargante",
-        "impd":   "impetrado",
-        "imptd":  "impetrado",
-        "impt":   "impetrado",
-        "impte":  "impetrante",
-        "intd":   "intimado",
-        "pacte":  "paciente",
-        "proc":   "procurador",
-        "recd":  "recorrido",
+        "embd": "embargado",
+        "embgd": "embargado",
+        "embte": "embargante",
+        "impd": "impetrado",
+        "imptd": "impetrado",
+        "impt": "impetrado",
+        "impte": "impetrante",
+        "intd": "intimado",
+        "pacte": "paciente",
+        "proc": "procurador",
+        "recd": "recorrido",
         "recld": "reclamado",
         "reclte": "reclamante",
-        "recte":  "recorrente",
+        "recte": "recorrente",
         "relator": "relator",
-        "reqte":  "requerente"
-        #acusante
-        #acusado
+        "reqte": "requerente"
+        # acusante
+        # acusado
     }
- 

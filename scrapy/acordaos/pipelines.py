@@ -15,7 +15,6 @@ from scrapy.pipelines.files import FilesPipeline
 
 
 class MongoDBPipeline(object):
-
     def __init__(self, mongo_uri, mongo_db, mongo_collection):
         self.mongo_uri = mongo_uri
         self.mongo_db = mongo_db
@@ -24,9 +23,9 @@ class MongoDBPipeline(object):
     @classmethod
     def from_crawler(cls, crawler):
         return cls(
-            mongo_uri=crawler.settings.get('MONGO_URI'),
-            mongo_db=crawler.settings.get('MONGO_DATABASE'),
-            mongo_collection=crawler.settings.get('MONGO_COLLECTION')
+            mongo_uri=crawler.settings.get("MONGO_URI"),
+            mongo_db=crawler.settings.get("MONGO_DATABASE"),
+            mongo_collection=crawler.settings.get("MONGO_COLLECTION"),
         )
 
     def open_spider(self, spider):
@@ -37,7 +36,7 @@ class MongoDBPipeline(object):
         self.client.close()
 
     def process_item(self, item, spider):
-        if ('files' not in item) and ('file_urls' not in item):
+        if ("files" not in item) and ("file_urls" not in item):
             for data in item:
                 if not data:
                     raise DropItem("Missing {0} in:\n{1}!".format(data, item))
@@ -47,21 +46,22 @@ class MongoDBPipeline(object):
 
 
 class InteiroTeorPipeline(FilesPipeline):
-
     def get_media_requests(self, item, info):
         for data in item:
             if not data:
                 raise DropItem("Missing {0} in:\n{1}!".format(data, item))
 
-        for file_url in item['file_urls']:
+        for file_url in item["file_urls"]:
             yield scrapy.Request(file_url)
 
     def item_completed(self, results, item, info):
-        file_paths = [x['path'] for ok, x in results if ok]
+        file_paths = [x["path"] for ok, x in results if ok]
         if file_paths:
-            item['files'] = file_paths[0]
-            del item['file_urls']
+            item["files"] = file_paths[0]
+            del item["file_urls"]
         else:
-            logging.warning("Acordao {} nao possui inteiro teor!".format(item['acordaoId']))
+            logging.warning(
+                "Acordao {} nao possui inteiro teor!".format(item["acordaoId"])
+            )
 
         return item
