@@ -89,9 +89,7 @@ class STJParser(DecisaoParser):
         for i in range(0, len(lines)):
             if lines[i].startswith(" "):
                 continue
-            similarAcordaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
-            )
+            similarAcordaoId = lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             similarAcordaoId = similarAcordaoId.replace(
                 " ACÓRDÃO ELETRÔNICO", ""
             ).strip()

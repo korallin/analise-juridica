@@ -13,11 +13,7 @@ class DecisaoParser:
         word = self.abbreviationsTable.get(word, abv)
 
         if word == abv:
-            logging.warning(
-                "[NEW ABV] Doesn't exist abreviation for {}".format(
-                    abrev
-                )
-            )
+            logging.warning("[NEW ABV] Doesn't exist abreviation for {}".format(abrev))
 
         return word
 
@@ -76,9 +72,7 @@ class DecisaoParser:
 
             if t.find(".") == -1:
                 logging.warning(
-                    "[LOOK ABBRV] A abreviação {} não possui ponto".format(
-                        t
-                    )
+                    "[LOOK ABBRV] A abreviação {} não possui ponto".format(t)
                 )
 
             tipo = self.extendAbv(t)

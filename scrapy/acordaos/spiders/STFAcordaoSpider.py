@@ -20,7 +20,7 @@ class STFAcordaoSpider(Spider):
         "MONGO_COLLECTION": "acordaos",
         "ITEM_PIPELINES": {
             # "acordaos.pipelines.InteiroTeorPipeline": 1,
-            "acordaos.pipelines.MongoDBPipeline": 2,
+            "acordaos.pipelines.MongoDBPipeline": 2
         },
     }
 
@@ -109,7 +109,9 @@ class STFAcordaoSpider(Spider):
         self.fIndex += 1
 
         textDoc = doc.xpath('div[@class="processosJurisprudenciaAcordaos"]')
-        law_fields_dict["docHeader"] = parser.joinId(parser.make_string(textDoc.xpath("p[1]/strong//text()").extract()))
+        law_fields_dict["docHeader"] = parser.joinId(
+            parser.make_string(textDoc.xpath("p[1]/strong//text()").extract())
+        )
 
         law_fields_dict["acordaoId"] = parser.parseId(law_fields_dict["docHeader"][0])
         law_fields_dict["acordaoType"] = parser.parseType(law_fields_dict["acordaoId"])
@@ -125,7 +127,7 @@ class STFAcordaoSpider(Spider):
             law_fields_dict["docHeader"][dh_relator_index]
         )
         law_fields_dict["relator_para_acordao"] = parser.parseRelatorParaAcordao(
-            law_fields_dict["docHeader"][dh_relator_index+1]
+            law_fields_dict["docHeader"][dh_relator_index + 1]
         )
         law_fields_dict["revisor"] = parser.parseRevisor(
             law_fields_dict["docHeader"][-3]
@@ -141,13 +143,15 @@ class STFAcordaoSpider(Spider):
             textDoc.xpath("pre[1]/text()").extract()[0].strip()
         )
 
-        law_fields_dict["ementa"] = (
-            " ".join(parser.make_string(textDoc.xpath("strong[1]/div//text()").extract())).strip()
-        )
+        law_fields_dict["ementa"] = " ".join(
+            parser.make_string(textDoc.xpath("strong[1]/div//text()").extract())
+        ).strip()
 
-        headers = parser.make_string(textDoc.xpath("p/strong//text()").extract()[
-            len(law_fields_dict["docHeader"]) + 1 : -1
-        ])
+        headers = parser.make_string(
+            textDoc.xpath("p/strong//text()").extract()[
+                len(law_fields_dict["docHeader"]) + 1 : -1
+            ]
+        )
 
         if "Publicação" in headers:
             while headers.pop(0) != "Publicação":
@@ -156,12 +160,30 @@ class STFAcordaoSpider(Spider):
         # adicionar aos headers seções que ficam ocultas no documento
 
         bodies = parser.make_string(textDoc.xpath("pre/text()").extract()[1:])
-        dec_body = parser.parse_section(parser.make_string(textDoc.xpath("div/text()").extract())).strip()
+        dec_body = parser.parse_section(
+            parser.make_string(textDoc.xpath("div/text()").extract())
+        ).strip()
         bodies.append(dec_body)
-        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/div/text()").extract())))
-        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[1]/text()").extract())))
-        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[2]/text()").extract())))
-        bodies.append(parser.parse_section(parser.make_string(textDoc.xpath("div/pre[3]/text()").extract())))
+        bodies.append(
+            parser.parse_section(
+                parser.make_string(textDoc.xpath("div/div/text()").extract())
+            )
+        )
+        bodies.append(
+            parser.parse_section(
+                parser.make_string(textDoc.xpath("div/pre[1]/text()").extract())
+            )
+        )
+        bodies.append(
+            parser.parse_section(
+                parser.make_string(textDoc.xpath("div/pre[2]//text()").extract())
+            )
+        )
+        bodies.append(
+            parser.parse_section(
+                parser.make_string(textDoc.xpath("div/pre[3]/text()").extract())
+            )
+        )
 
         headers.extend(parser.make_string(textDoc.xpath("div/p//text()").extract()))
         sections = zip(headers, bodies)
@@ -173,12 +195,18 @@ class STFAcordaoSpider(Spider):
         law_fields_dict["partesRaw"] = self.getSectionBodyByHeader(
             "Parte", headers, bodies
         )
-        law_fields_dict["decision"] = self.getSectionBodyByHeader("Decisão", headers, bodies)
-        law_fields_dict["tagsRaw"] = self.getSectionBodyByHeader("Indexação", headers, bodies)
+        law_fields_dict["decision"] = self.getSectionBodyByHeader(
+            "Decisão", headers, bodies
+        )
+        law_fields_dict["tagsRaw"] = self.getSectionBodyByHeader(
+            "Indexação", headers, bodies
+        )
         law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
             "Legislação", headers, bodies
         )
-        law_fields_dict["obs"] = self.getSectionBodyByHeader("Observação", headers, bodies)
+        law_fields_dict["obs"] = self.getSectionBodyByHeader(
+            "Observação", headers, bodies
+        )
         law_fields_dict["similarRaw"] = self.getSectionBodyByHeader(
             "Acórdãos no mesmo", headers, bodies
         )

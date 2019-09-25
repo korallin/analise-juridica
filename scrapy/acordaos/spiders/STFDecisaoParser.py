@@ -135,7 +135,9 @@ class STFDecisaoParser(DecisaoParser):
 
     def parseRelatorParaAcordao(self, text):
         return (
-            self.getMatchText(text, "\s*Relator\(a\)\s+p\/\s+Acórdão:.+[Mm][Ii][Nn].\s*(.+)")
+            self.getMatchText(
+                text, "\s*Relator\(a\)\s+p\/\s+Acórdão:.+[Mm][Ii][Nn].\s*(.+)"
+            )
             .upper()
             .strip()
         )
@@ -213,44 +215,49 @@ class STFDecisaoParser(DecisaoParser):
 
     def parseAcordaosQuotes(self, txt):
         quotes = []
-        data = []
+        # data = []
         # O ideal é que as classes processuais fossem todas conhecidas para que apenas elas fossem reconhecidas
 
         # quando decisões do STF são prefixadas por pela string "STF:" a expressão regular abaixo não funciona.
         # Então remove-se a string sem prejuízo para a detecção das decisões citadas em txt
         txt = txt.replace("STF:", "")
         # remoção de citações a revista trimestral de jurisprudência do STF
-        txt = re.sub(r"RTJ(\-|\s+)?\d+\/\d+", "", txt)
-        decisoes_monoc = re.search(
-            (
-                "[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
-            ),
-            txt,
+        txt = re.sub(r"\([^\),\.;]+[\),\.;]", "", txt)
+        txt = re.sub(r"RTJ?(\-|\s+)?\d+(\/\d+)?", "", txt)
+        txt = re.sub(
+            r"(Número de páginas)?(Alteração)?(Revisão)?(Inclusão)?(Análise)?", "", txt
         )
-        acordaos = re.search(
+        txt = re.sub(r"(STJ):[^;\.]+", "", txt)
+        txt = re.sub(r"(TSE):[^;\.]+", "", txt)
+
+        dec = re.search(
             (
-                "[Aa]córdão(?:\s*\(?s\)?)? citado(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
+                "[Aa]c[óo]rd[ãa]o(?:\s*\(?s\)?)? [Cc]itado(?:\s*\(?s\)?)?\s*:\s*(\.(?!\s)*|[^:]*)?"
             ),
             txt,
         )
 
-        if decisoes_monoc:
-            data.append(decisoes_monoc)
-        if acordaos:
-            data.append(acordaos)
+        # if decisoes_monoc:
+        #     data.append(decisoes_monoc)
+        # if acordaos:
+        #     data.append(acordaos)
 
-        if data:
-            for dec in data:
-                dec = dec.group(1)
-                dec = re.split("[;,.()]", dec)
-                for q in dec:
-                    q = q.strip()
-                    q = re.match("([a-zA-Z]{2,}[ -]\d+[a-zA-Z]*).*", q)
-                    if q:
-                        q = q.group(1)
-                        q = q.replace("-", " ")
-                        q = q.strip().upper()
-                        quotes.append(self.normalizeId(q))
+        if dec:
+            # for dec in data:
+            dec = dec.group(1)
+            if (len(dec) > 2) and (dec[-2] == "."):
+                dec = dec[:-2]
+
+            dec = re.sub(r"(\d+)\.(\d+)", r"\1\2", dec)
+            dec = re.split("[;,.()]", dec)
+            while m:
+                m = m.group()
+                q = q.replace(m, "")
+                m = m.replace("-", " ")
+                m = m.strip().upper()
+                m = " ".join(m.split())
+                quotes.append(self.normalizeId(m))
+                m = re.search("([^\d]{2,}[\s-]+\d+[^\d]*)$", q)
         return quotes
 
     def parseSimilarAcordaos(self, raw):
@@ -261,9 +268,7 @@ class STFDecisaoParser(DecisaoParser):
         for i in range(0, len(lines)):
             if lines[i].startswith(" "):
                 continue
-            similarAcordaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
-            )
+            similarAcordaoId = lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             similarAcordaoId = similarAcordaoId.replace(
                 " ACÓRDÃO ELETRÔNICO", ""
             ).strip()
@@ -306,9 +311,7 @@ class STFDecisaoParser(DecisaoParser):
         for i in range(0, len(lines)):
             if lines[i].startswith(" "):
                 continue
-            similarDecisaoId = (
-                lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
-            )
+            similarDecisaoId = lines[i].replace(" PROCESSO ELETRÔNICO", "").strip()
             similarDecisaoId = similarDecisaoId.replace(
                 " ACÓRDÃO ELETRÔNICO", ""
             ).strip()

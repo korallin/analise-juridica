@@ -164,13 +164,9 @@ class STFDecMonocSpider(Spider):
         # método para descobrir se há alguma seção desconhecida/imprevista presente no documento
         self.new_section(sections, law_fields_dict["acordaoId"])
 
-        law_fields_dict["partesRaw"] = self.getSectionBodyByHeader(
-            "Parte", sections
-        )
+        law_fields_dict["partesRaw"] = self.getSectionBodyByHeader("Parte", sections)
         law_fields_dict["decision"] = self.getSectionBodyByHeader("Decisão", sections)
-        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader(
-            "Legislação", sections
-        )
+        law_fields_dict["lawsRaw"] = self.getSectionBodyByHeader("Legislação", sections)
         law_fields_dict["obs"] = self.getSectionBodyByHeader("Observação", sections)
         law_fields_dict["similarRaw"] = self.getSectionBodyByHeader(
             "Decisões no mesmo", sections
@@ -245,13 +241,7 @@ class STFDecMonocSpider(Spider):
     def new_section(self, sections, decisionId):
         for s in sections:
             new_section = True
-            for header in (
-                "Parte",
-                "Decisão",
-                "Legislação",
-                "Observação",
-                "Decisões",
-            ):
+            for header in ("Parte", "Decisão", "Legislação", "Observação", "Decisões"):
                 if s[0].startswith(header):
                     new_section = False
 

@@ -197,9 +197,7 @@ class STJSpider(Spider):
             + '//div[@id="itemlistaresultados"]'
         )
         for line in resultsLines:
-            if (
-                (line.xpath("./span[1]/text()").extract()[0]).strip()
-            ) == "Acórdãos":
+            if ((line.xpath("./span[1]/text()").extract()[0]).strip()) == "Acórdãos":
                 resultsLink = line.xpath("./span[2]/a/@href").extract()[0]
         yield Request(
             urllib.parse.urljoin("http://www.stj.jus.br/", resultsLink),
