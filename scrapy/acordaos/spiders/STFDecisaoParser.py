@@ -250,14 +250,18 @@ class STFDecisaoParser(DecisaoParser):
 
             dec = re.sub(r"(\d+)\.(\d+)", r"\1\2", dec)
             dec = re.split("[;,.()]", dec)
-            while m:
-                m = m.group()
-                q = q.replace(m, "")
-                m = m.replace("-", " ")
-                m = m.strip().upper()
-                m = " ".join(m.split())
-                quotes.append(self.normalizeId(m))
+            for q in dec:
+                q = q.strip()
+
                 m = re.search("([^\d]{2,}[\s-]+\d+[^\d]*)$", q)
+                while m:
+                    m = m.group()
+                    q = q.replace(m, "")
+                    m = m.replace("-", " ")
+                    m = m.strip().upper()
+                    m = " ".join(m.split())
+                    quotes.append(self.normalizeId(m))
+                    m = re.search("([^\d]{2,}[\s-]+\d+[^\d]*)$", q)
         return quotes
 
     def parseSimilarAcordaos(self, raw):
