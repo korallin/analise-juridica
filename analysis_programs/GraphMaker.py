@@ -9,18 +9,12 @@ import sys
 class GraphMaker:
     def __init__(
         self,
-        mongo_user,
-        mongo_password,
-        mongo_port,
+        mongo_uri,
         dbName,
         collections_in,
         collectionOutName,
     ):
-        client = MongoClient(
-            "mongodb://{}:{}@127.0.0.1:{}".format(
-                mongo_user, mongo_password, mongo_port
-            )
-        )
+        client = MongoClient(mongo_uri)
         self.db = client[dbName]
         self.collectionsIn = collections_in
         self.collectionOut = self.db[collectionOutName]
