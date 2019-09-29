@@ -29,13 +29,12 @@ def get_intersection_decisions_dataframe(filename):
     return df
 
 
-def plot_robustness_graph(filename):
+def plot_robustness_graph(df_perturbances, df_intersect):
     """
     """
-    df_prs = get_page_rank_relevance_measure(filename)
-    df_intersect = get_intersection_decisions_dataframe(filename)
-    df = df_prs.join(df_intersect)
+    df = df_perturbances.join(df_intersect)
     df["Attack level"] = ["10%", "20%", "30%"]
+    df.rename(columns={1: "$PR_1$", 2: "$PR_2$", "Intersect": "Intersection of $PR_1$ and $PR_2$"})
     df = df.set_index("Attack level")
 
     sns.set()
