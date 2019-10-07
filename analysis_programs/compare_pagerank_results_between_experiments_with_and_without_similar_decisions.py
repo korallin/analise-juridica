@@ -8,25 +8,6 @@ import scipy.stats as stats
 import seaborn as sns
 
 
-def compare_number_decs_between_experiments(db):
-    """
-    Checar se número de decisões no banco de dados é coerente com a não inclusão das decisões similares
-    Fazer isso comparando número de decisões de experimentos com e sem similares para ambos os PageRanks
-    """
-    ancient_collections = [
-        "stf_pr_1_acordaos_90_replaced_col_1",
-        "stf_pr_2_acordaos_90_par_1",
-    ]
-    new_collections = [
-        "stf_pr_1_acordaos_90_no_similars_1",
-        "stf_pr_2_acordaos_90_no_similars_1",
-    ]
-    print("Number of decisions of experimentos with and without similar decisions")
-    for col_ancient, col_new in zip(ancient_collections, new_collections):
-        print(col_ancient, col_new)
-        print(db[col_ancient].find({}).count(), db[col_new].find({}).count())
-
-
 def get_db_object():
     """
     """
@@ -222,7 +203,6 @@ def plot_robustness_graph(df_perturbances, df_intersect):
 
 if __name__ == "__main__":
     db = get_db_object()
-    compare_number_decs_between_experiments(db)
 
     df_all_decs_lst = get_decisions_dataframes_tabulated(
         "stf_pr_{}_acordaos_{}", [10, 20, 30], [1, 2]
