@@ -173,7 +173,12 @@ class STFDecMonocSpider(Spider):
         )
 
         law_fields_dict["partes"] = parser.parsePartes(law_fields_dict["partesRaw"])
-        law_fields_dict["quotes"] = parser.parseAcordaosQuotes(law_fields_dict["obs"])
+        law_fields_dict["quotes"] = parser.parseAcordaosQuotes(
+            law_fields_dict["obs"], dec_type="acordaos"
+        )
+        law_fields_dict["quotes_dec_monoc"] = parser.parseAcordaosQuotes(
+            law_fields_dict["obs"], dec_type="decisoes_monocraticas"
+        )
         law_fields_dict["decision_quotes"] = parser.parseAcordaosDecisionQuotes(
             law_fields_dict["decision"]
         )
@@ -209,6 +214,7 @@ class STFDecMonocSpider(Spider):
             decisao=parser.removeExtraSpaces(law_fields_dict["decision"]),
             observacao=parser.removeExtraSpaces(law_fields_dict["obs"]),
             citacoesObs=law_fields_dict["quotes"],
+            citacoesObsDecMonoc=law_fields_dict["quotes_dec_monoc"],
             citacoesDec=law_fields_dict["decision_quotes"],
             similaresTexto=re.sub(
                 "[\r\t ]+", " ", law_fields_dict["similarRaw"]

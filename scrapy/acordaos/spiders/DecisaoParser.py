@@ -42,7 +42,11 @@ class DecisaoParser:
         return object
 
     def parseUf(self, text):
-        return self.getMatchText(text, ".*\/.*-\s*(.*)").upper().strip()
+        return (
+            self.getMatchText(text, "\/\s*\w{,2}?[^\w]*\-?\s*([\w\s]{3,}\w)")
+            .upper()
+            .strip()
+        )
 
     def parseType(self, acordaoId):
         return re.sub("\d+\s*", "", acordaoId).strip()

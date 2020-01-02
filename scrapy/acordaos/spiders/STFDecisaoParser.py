@@ -124,7 +124,7 @@ class STFDecisaoParser(DecisaoParser):
         return idNormalized.replace(acNo, "").strip()
 
     def parseUfShort(self, text):
-        return self.getMatchText(text, ".*/\s*(\w*).*").upper().strip()
+        return self.getMatchText(text, ".*/\s*(\w{2})[^A-Za-z]+\-?").upper().strip()
 
     def parseRelator(self, text):
         return (
@@ -213,11 +213,8 @@ class STFDecisaoParser(DecisaoParser):
 
         return list(citacoesDec)
 
-    def parseAcordaosQuotes(self, txt):
+    def parseAcordaosQuotes(self, txt, dec_type):
         quotes = []
-        # data = []
-        # O ideal é que as classes processuais fossem todas conhecidas para que apenas elas fossem reconhecidas
-
         # quando decisões do STF são prefixadas por pela string "STF:" a expressão regular abaixo não funciona.
         # Então remove-se a string sem prejuízo para a detecção das decisões citadas em txt
         txt = txt.replace("STF:", "")
@@ -230,20 +227,15 @@ class STFDecisaoParser(DecisaoParser):
         txt = re.sub(r"(STJ):[^;\.]+", "", txt)
         txt = re.sub(r"(TSE):[^;\.]+", "", txt)
 
-        dec = re.search(
-            (
-                "[Aa]c[óo]rd[ãa]o(?:\s*\(?s\)?)? [Cc]itado(?:\s*\(?s\)?)?\s*:\s*(\.(?!\s)*|[^:]*)?"
-            ),
-            txt,
+        # Fazer um if aqui para acórdãos ou decisões monocráticas
+        search_pattern = (
+            "[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
+            if dec_type == "decisoes_monocraticas"
+            else "[Aa]c[óo]rd[ãa]o(?:\s*\(?s\)?)? [Cc]itado(?:\s*\(?s\)?)?\s*:\s*(\.(?!\s)*|[^:]*)?"
         )
-
-        # if decisoes_monoc:
-        #     data.append(decisoes_monoc)
-        # if acordaos:
-        #     data.append(acordaos)
+        dec = re.search((search_pattern), txt)
 
         if dec:
-            # for dec in data:
             dec = dec.group(1)
             if (len(dec) > 2) and (dec[-2] == "."):
                 dec = dec[:-2]

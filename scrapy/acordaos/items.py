@@ -30,6 +30,9 @@ class DecisaoItem(Item):
     observacao = Field()
     similaresTexto = Field()
     similares = Field()
+    tema = Field()
+    tese = Field()
+    citacoesObsDecMonoc = Field()
 
 
 class AcordaoItem(DecisaoItem):

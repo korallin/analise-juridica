@@ -140,7 +140,7 @@ class STFAcordaoSpider(Spider):
         )
 
         law_fields_dict["publicacao"] = parser.make_string(
-            textDoc.xpath("pre[1]/text()").extract()[0].strip()
+            " ".join(textDoc.xpath("pre[1]//text()").extract()).strip()
         )
 
         law_fields_dict["ementa"] = " ".join(
@@ -157,13 +157,16 @@ class STFAcordaoSpider(Spider):
             while headers.pop(0) != "Publicação":
                 continue
 
-        # adicionar aos headers seções que ficam ocultas no documento
-
         bodies = parser.make_string(textDoc.xpath("pre/text()").extract()[1:])
+        if ("DIVULG" in bodies[0]) or ("PUBLIC" in bodies[0]):
+            bodies.pop(0)
+
         dec_body = parser.parse_section(
             parser.make_string(textDoc.xpath("div/text()").extract())
         ).strip()
-        bodies.append(dec_body)
+        # insert in decision in the bodies list in the same index it is in the headers list
+        dec_index = headers.index("Decisão")
+        bodies.insert(dec_index, dec_body)
         bodies.append(
             parser.parse_section(
                 parser.make_string(textDoc.xpath("div/div/text()").extract())
@@ -213,10 +216,17 @@ class STFAcordaoSpider(Spider):
         law_fields_dict["doutrines"] = self.getSectionBodyByHeader(
             "Doutrina", headers, bodies
         )
+        law_fields_dict["tema"] = self.getSectionBodyByHeader("Tema", headers, bodies)
+        law_fields_dict["tese"] = self.getSectionBodyByHeader("Tese", headers, bodies)
 
         law_fields_dict["partes"] = parser.parsePartes(law_fields_dict["partesRaw"])
         law_fields_dict["tags"] = parser.parseTags(law_fields_dict["tagsRaw"])
-        law_fields_dict["quotes"] = parser.parseAcordaosQuotes(law_fields_dict["obs"])
+        law_fields_dict["quotes"] = parser.parseAcordaosQuotes(
+            law_fields_dict["obs"], dec_type="acordaos"
+        )
+        law_fields_dict["quotes_dec_monoc"] = parser.parseAcordaosQuotes(
+            law_fields_dict["obs"], dec_type="decisoes_monocraticas"
+        )
         law_fields_dict["decision_quotes"] = parser.parseAcordaosDecisionQuotes(
             law_fields_dict["ementa"]
         )
@@ -242,29 +252,32 @@ class STFAcordaoSpider(Spider):
         parser = self.parser
         item = AcordaoItem(
             cabecalho=parser.removeExtraSpaces(" ".join(law_fields_dict["docHeader"])),
-            acordaoId=law_fields_dict["acordaoId"],
             acordaoType=law_fields_dict["acordaoType"],
+            acordaoId=law_fields_dict["acordaoId"],
+            local=law_fields_dict["uf"],
+            localSigla=law_fields_dict["ufShort"],
             relator=law_fields_dict["relator"],
             relator_para_acordao=law_fields_dict["relator_para_acordao"],
             revisor=law_fields_dict["revisor"],
-            localSigla=law_fields_dict["ufShort"],
-            local=law_fields_dict["uf"],
-            partes=law_fields_dict["partes"],
-            partesTexto=re.sub("[\r\t ]+", " ", law_fields_dict["partesRaw"]).strip(),
-            publicacao=law_fields_dict["publicacao"],
-            orgaoJulg=law_fields_dict["orgaoJulg"],
             dataJulg=law_fields_dict["dataJulg"],
+            orgaoJulg=law_fields_dict["orgaoJulg"],
+            publicacao=law_fields_dict["publicacao"],
             dataPublic=law_fields_dict["dataPublic"],
-            legislacao=law_fields_dict["laws"],
-            legislacaoTexto=parser.removeExtraSpaces(law_fields_dict["lawsRaw"]),
+            partesTexto=re.sub("[\r\t ]+", " ", law_fields_dict["partesRaw"]).strip(),
+            partes=law_fields_dict["partes"],
             ementa=parser.removeExtraSpaces(law_fields_dict["ementa"]),
+            citacoesDec=law_fields_dict["decision_quotes"],
             decisao=parser.removeExtraSpaces(law_fields_dict["decision"]),
+            tema=law_fields_dict["tema"],
+            tese=law_fields_dict["tese"],
+            tagsTexto=law_fields_dict["tagsRaw"],
+            tags=law_fields_dict["tags"],
+            legislacaoTexto=parser.removeExtraSpaces(law_fields_dict["lawsRaw"]),
+            legislacao=law_fields_dict["laws"],
             observacao=parser.removeExtraSpaces(law_fields_dict["obs"]),
             citacoesObs=law_fields_dict["quotes"],
-            citacoesDec=law_fields_dict["decision_quotes"],
+            citacoesObsDecMonoc=law_fields_dict["quotes_dec_monoc"],
             doutrinas=law_fields_dict["doutrines"],
-            tags=law_fields_dict["tags"],
-            tagsTexto=law_fields_dict["tagsRaw"],
             similaresTexto=re.sub(
                 "[\r\t ]+", " ", law_fields_dict["similarRaw"]
             ).strip(),
