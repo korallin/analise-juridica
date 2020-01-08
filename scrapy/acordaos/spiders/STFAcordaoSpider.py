@@ -165,8 +165,12 @@ class STFAcordaoSpider(Spider):
             parser.make_string(textDoc.xpath("div/text()").extract())
         ).strip()
         # insert in decision in the bodies list in the same index it is in the headers list
-        dec_index = headers.index("Decisão")
-        bodies.insert(dec_index, dec_body)
+        if "Decisão" in headers:
+            dec_index = headers.index("Decisão")
+            bodies.insert(dec_index, dec_body)
+        else:
+            bodies.append(dec_body)
+
         bodies.append(
             parser.parse_section(
                 parser.make_string(textDoc.xpath("div/div/text()").extract())
