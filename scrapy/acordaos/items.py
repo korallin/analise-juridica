@@ -33,6 +33,7 @@ class DecisaoItem(Item):
     tema = Field()
     tese = Field()
     citacoesObsDecMonoc = Field()
+    citacoes_revistas = Field()
 
 
 class AcordaoItem(DecisaoItem):

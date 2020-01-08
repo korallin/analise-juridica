@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# to run this script do 'time ./teststf.sh' inside scrapy directory
+# to run this script do 'time bash ../automation_scripts/run_crawler_and_post_processing.sh' inside scrapy directory
 
 # decisoes="acordao decisao_monocratica"
 log_dir="/home/jackson/analise-juridica/scrapy_logs/"
@@ -19,8 +19,8 @@ for decisao in $decisoes
             anoI=$i$init_day
             anoF=$J$last_day
             if ((J > 2018)); then
-                J="2019"
-                last_day="0630"
+                J="2020"
+                last_day="0101"
                 anoF=$J$last_day
             fi;
             acordaoLogFileName=$log_dir$decisao"_$i-$((i+1)).log"

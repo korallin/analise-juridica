@@ -174,7 +174,7 @@ class STFAcordaoSpider(Spider):
         )
         bodies.append(
             parser.parse_section(
-                parser.make_string(textDoc.xpath("div/pre[1]/text()").extract())
+                parser.make_string(textDoc.xpath("div/pre[1]//text()").extract())
             )
         )
         bodies.append(
@@ -184,7 +184,7 @@ class STFAcordaoSpider(Spider):
         )
         bodies.append(
             parser.parse_section(
-                parser.make_string(textDoc.xpath("div/pre[3]/text()").extract())
+                parser.make_string(textDoc.xpath("div/pre[3]//text()").extract())
             )
         )
 
@@ -220,6 +220,9 @@ class STFAcordaoSpider(Spider):
         law_fields_dict["tese"] = self.getSectionBodyByHeader("Tese", headers, bodies)
 
         law_fields_dict["partes"] = parser.parsePartes(law_fields_dict["partesRaw"])
+        law_fields_dict["citacoes_revistas"] = parser.parse_citacoes_revistas(
+            law_fields_dict["publicacao"]
+        )
         law_fields_dict["tags"] = parser.parseTags(law_fields_dict["tagsRaw"])
         law_fields_dict["quotes"] = parser.parseAcordaosQuotes(
             law_fields_dict["obs"], dec_type="acordaos"
@@ -262,6 +265,7 @@ class STFAcordaoSpider(Spider):
             dataJulg=law_fields_dict["dataJulg"],
             orgaoJulg=law_fields_dict["orgaoJulg"],
             publicacao=law_fields_dict["publicacao"],
+            citacoes_revistas=law_fields_dict["citacoes_revistas"],
             dataPublic=law_fields_dict["dataPublic"],
             partesTexto=re.sub("[\r\t ]+", " ", law_fields_dict["partesRaw"]).strip(),
             partes=law_fields_dict["partes"],

@@ -7,6 +7,75 @@ import re
 from datetime import datetime, timedelta
 
 
+MAGAZINES = [
+    "MAG-CD",
+    "MAG-DVD",
+    "RGJ-CD",
+    "JTARS",
+    "BIBJURID-DVD",
+    "JCSTF",
+    "JPSTF",
+    "JPO-DVD",
+    "JBCC",
+    "JBC",
+    "JBT",
+    "JC",
+    "JTJ",
+    "JTJ-CD",
+    "JURISonline-INT",
+    "JurisSíntese-DVD",
+    "JurisSíntese-INT",
+    "LEXJTACSP",
+    "LEXSTF",
+    "LEXSTF-CD",
+    "MAG-INT",
+    "NRDF",
+    "PLENUMonline-INT",
+    "REPIOB",
+    "RADCOAST",
+    "RB",
+    "RCJ",
+    "RDA",
+    "RDC",
+    "RDP",
+    "RDTAPET",
+    "RDJTJDFT",
+    "RDJ",
+    "RET",
+    "RJDTACSP",
+    "RJADCOAS",
+    "RJTJRS",
+    "RJTJRS-INT",
+    "RDECTRAB",
+    "RDDP",
+    "RDDT",
+    "RMP",
+    "RT",
+    "RF",
+    "RIP",
+    "RIOBTP",
+    "RJTS",
+    "RJSP",
+    "RJMG",
+    "RJP",
+    "RJP-CD",
+    "REVJMG",
+    "REVJMG-INT",
+    "RLTR",
+    "RMDPPP",
+    "RNDJ",
+    "RPTGJ",
+    "RSJADV",
+    "RST",
+    "RSTP",
+    "RTFP",
+    "RTJ",
+    "RTJE",
+    "SINTESE-INT",
+    "COAD-INT",
+]
+
+
 class STFDecisaoParser(DecisaoParser):
 
     classes_processuais_dict = {
@@ -178,6 +247,43 @@ class STFDecisaoParser(DecisaoParser):
             return match.group(1).upper().strip()
         return ""
 
+    def parse_citacoes_revistas(self, publication):
+        mag_citations = []
+        for mag in MAGAZINES:
+            match = re.search(
+                "\s+" + mag + "[^\w]+.*VOL.+0*(\d+)\-?\d*\s*PP\-?0*(\d+)", publication
+            )
+            if match is None:
+                match = re.search(
+                    "\s+" + mag + "[^\w]+.*n\.\s*(\d+).*[pP]\.[^\d]*(\d+)", publication
+                )
+
+            # complementary patterns
+            # RJADCOAS v. 61, 2005, p. 548-553
+            if match is None:
+                match = re.search(
+                    "\s+" + mag + "[^\w]+.*v\.\s*(\d+).*[pP]\.[^\d]*(\d+)", publication
+                )
+
+            # RSJADV jul., 2012, p. 40-43
+            # RSJADV maio, 2012, p. 40-43
+            if match is None:
+                match = re.search(
+                    "\s+" + mag + "[^\w]+(\w{3,4})\.?.*p\.[^\d]*(\d+)", publication
+                )
+
+            # RJP v. 8, n. 45, 2012, 105-107
+            if match is None:
+                match = re.search(
+                    "\s+" + mag + "[^\w]+v\.\s*(\d+)\s*[^n]+n\..*,\s*(\d+)\-",
+                    publication,
+                )
+
+            if match is not None:
+                mag_citations.append(mag + " " + "/".join(match.groups()))
+
+        return mag_citations
+
     def parseAcordaosDecisionQuotes(self, txt):
         citacoes = re.findall(
             r"([A-Z]\w+)\s+([nN].\s+)?([0-9]+((\.[0-9]{3})+)?)(((\/\s*[A-Z]+)?((\-|–|\s+)[A-Z]\w+(((\-|–)[A-Z]\w+)+)?)?))(?!\/\d+|\.|\d+)",
@@ -227,7 +333,6 @@ class STFDecisaoParser(DecisaoParser):
         txt = re.sub(r"(STJ):[^;\.]+", "", txt)
         txt = re.sub(r"(TSE):[^;\.]+", "", txt)
 
-        # Fazer um if aqui para acórdãos ou decisões monocráticas
         search_pattern = (
             "[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
             if dec_type == "decisoes_monocraticas"
