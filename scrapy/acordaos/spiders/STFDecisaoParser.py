@@ -251,7 +251,8 @@ class STFDecisaoParser(DecisaoParser):
         mag_citations = []
         for mag in MAGAZINES:
             match = re.search(
-                "\s+" + mag + "[^\w]+.*VOL.+0*(\d+)\-?\d*\s*PP\-?0*(\d+)", publication
+                "\s+" + mag + "[^\w]+.*VOL\-?\s*0*(\d+)\-?\d*\s*PP\-?0*(\d+)",
+                publication,
             )
             if match is None:
                 match = re.search(
