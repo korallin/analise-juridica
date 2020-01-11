@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from scrapy.selector import Selector
-from scrapy.spiders import Spider
-from acordaos.items import AcordaoItem
-from acordaos.items import LawItem
 import re
 import time
 from datetime import datetime, timedelta
+import logging
+from scrapy.selector import Selector
+from scrapy.spiders import Spider
 from scrapy.http import Request
 from acordaos.spiders.STFDecisaoParser import STFDecisaoParser
-import logging
+from acordaos.items import AcordaoItem
+from acordaos.items import LawItem
 
 
 class STFAcordaoSpider(Spider):
@@ -158,7 +158,7 @@ class STFAcordaoSpider(Spider):
                 continue
 
         bodies = parser.make_string(textDoc.xpath("pre/text()").extract()[1:])
-        if ("DIVULG" in bodies[0]) or ("PUBLIC" in bodies[0]):
+        if re.search("\sDIVULG\-?\s?|\sREPUBLICAÇÃO\s*|\sPUBLIC\-?\s+", bodies[0]):
             bodies.pop(0)
 
         dec_body = parser.parse_section(
