@@ -161,36 +161,27 @@ class STFAcordaoSpider(Spider):
         if re.search("\sDIVULG\-?\s?|\sREPUBLICAÇÃO\s*|\sPUBLIC\-?\s+", bodies[0]):
             bodies.pop(0)
 
-        dec_body = parser.parse_section(
+        body_sec_text = parser.parse_section(
             parser.make_string(textDoc.xpath("div/text()").extract())
         ).strip()
         # insert in decision in the bodies list in the same index it is in the headers list
         if "Decisão" in headers:
             dec_index = headers.index("Decisão")
-            bodies.insert(dec_index, dec_body)
-        else:
+            bodies.insert(dec_index, body_sec_text)
+        elif body_sec_text != "":
             bodies.append(dec_body)
 
-        bodies.append(
-            parser.parse_section(
-                parser.make_string(textDoc.xpath("div/div/text()").extract())
-            )
+        body_sec_text = parser.parse_section(
+            parser.make_string(textDoc.xpath("div/div/text()").extract())
         )
-        bodies.append(
-            parser.parse_section(
-                parser.make_string(textDoc.xpath("div/pre[1]//text()").extract())
+        bodies.append(body_sec_text) if body_sec_text != "" else None
+        for i in range(1, 4):
+            body_sec_text = parser.parse_section(
+                parser.make_string(
+                    textDoc.xpath("div/pre[{}]//text()".format(i)).extract()
+                )
             )
-        )
-        bodies.append(
-            parser.parse_section(
-                parser.make_string(textDoc.xpath("div/pre[2]//text()").extract())
-            )
-        )
-        bodies.append(
-            parser.parse_section(
-                parser.make_string(textDoc.xpath("div/pre[3]//text()").extract())
-            )
-        )
+            bodies.append(body_sec_text) if body_sec_text != "" else None
 
         headers.extend(parser.make_string(textDoc.xpath("div/p//text()").extract()))
         sections = zip(headers, bodies)
