@@ -174,16 +174,20 @@ class STFAcordaoSpider(Spider):
         body_sec_text = parser.parse_section(
             parser.make_string(textDoc.xpath("div/div/text()").extract())
         )
+
         bodies.append(body_sec_text) if body_sec_text != "" else None
-        for i in range(1, 4):
+        headers_supplement = parser.make_string(
+            textDoc.xpath("div/p//text()").extract()
+        )
+        for i in range(1, len(headers_supplement)):
             body_sec_text = parser.parse_section(
                 parser.make_string(
                     textDoc.xpath("div/pre[{}]//text()".format(i)).extract()
                 )
             )
-            bodies.append(body_sec_text) if body_sec_text != "" else None
+            bodies.append(body_sec_text)
 
-        headers.extend(parser.make_string(textDoc.xpath("div/p//text()").extract()))
+        headers.extend(headers_supplement)
         sections = zip(headers, bodies)
 
         # método para descobrir se há alguma seção desconhecida/imprevista presente no documento
