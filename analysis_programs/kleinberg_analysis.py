@@ -151,7 +151,7 @@ def run_acordaos_kleinberg_experiments():
 
 if __name__ == '__main__':
     try:
-        tini = datetime.now()
+        tini = datetime.datetime.now()
         run_acordaos_kleinberg_experiments()
 
         os.system(
@@ -164,4 +164,4 @@ if __name__ == '__main__':
             % e
         )
         with open("kleinberg_error.log", "a") as f:
-            f.write("%d: %s\n\n" % ((datetime.now() - tini).seconds, e))
+            f.write("%d: %s\n\n" % ((datetime.datetime.now() - tini).seconds, e))
