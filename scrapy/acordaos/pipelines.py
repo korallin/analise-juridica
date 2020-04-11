@@ -41,7 +41,7 @@ class MongoDBPipeline(object):
                 if not data:
                     raise DropItem("Missing {0} in:\n{1}!".format(data, item))
 
-        self.db[self.collection_name].insert(dict(item))
+        self.db[self.collection_name].insert_one(dict(item))
         return item
 
 
