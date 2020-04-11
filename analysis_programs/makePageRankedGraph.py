@@ -92,9 +92,11 @@ def run_page_rank_iteration(args):
         [acordaos, quotes, quotedBy, similars] = graphMaker.buildDicts(
             query, removed_decisions, compute_similars
         )
-        [quotes, quotedBy] = graphMaker.removeInvalidAcordaosFromDicts(
-            acordaos, quotes, quotedBy
-        )
+        # Acordaos quye nao estao na lista de acordaos coletados cabam sendo removidos
+        # tambem, o que seria indesejavel
+        # [quotes, quotedBy] = graphMaker.removeInvalidAcordaosFromDicts(
+        #     acordaos, quotes, quotedBy
+        # )
 
         with open("page_ranking_status_{}.log".format(collection_out_iter_name), "a") as f:
             f.write("Number of decisions in DB: %d\n" % len(decisions_ids))
