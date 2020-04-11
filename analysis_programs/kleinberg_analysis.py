@@ -1,6 +1,9 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import os
 from math import ceil
 from random import randint
+import datetime
 from multiprocessing import Pool
 from pymongo import MongoClient
 from NetworkXDigraph import NetworkXDigraph
