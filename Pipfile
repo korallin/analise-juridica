@@ -33,9 +33,10 @@ cryptography = "*"
 pandas = "*"
 scikit-learn = "*"
 xlrd = "*"
-openpyxl = "*"
+openpyxl = "==3.0.1"
 seaborn = "*"
 jupyter = "*"
+tqdm = "*"
 
 [requires]
 python_version = "3.6"
