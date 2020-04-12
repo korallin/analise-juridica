@@ -108,13 +108,13 @@ class NetworkXDigraph:
             i += 1
             self.__print_progress()
             if i >= insert_step:
-                self.collection_out.insert(docs_to_insert)
+                self.collection_out.insert_many(docs_to_insert)
                 docs_to_insert = []
                 i = 0
 
         print("")
         if i > 0:
-            self.collection_out.insert(docs_to_insert)
+            self.collection_out.insert_one(docs_to_insert)
 
 
     def __print_progress(self):
