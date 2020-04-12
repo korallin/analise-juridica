@@ -4,6 +4,7 @@ import os
 from math import ceil
 from random import randint
 import datetime
+# import traceback
 from multiprocessing import Pool
 from pymongo import MongoClient
 from NetworkXDigraph import NetworkXDigraph
@@ -99,16 +100,16 @@ def run_hits_execution(args):
 
     print("Início da execução do kleinberg:", len(acordaos))
     # KLEINBERG authorities and hubs
-    try:
-        hubs, authorities = nx.hits(G, max_iter=1000)
-        graph.set_collections_out(collection_out_iter_name + "_{}".format(i))
+    # try:
+    hubs, authorities = nx.hits(G, max_iter=1000)
+    graph.set_collections_out(collection_out_iter_name + "_{}".format(i))
 
-        print("Execução:", collection_out_iter_name + "_{}".format(i), "está pronta para ser inserida no banco")
-        # Insert results
-        graph.insert_nodes(G, acordaos, authorities, hubs)
-        print(collection_out_iter_name + "_{}".format(i), "finalizada")
-    except Exception as e:
-        traceback.print_exc()
+    print("Execução:", collection_out_iter_name + "_{}".format(i), "está pronta para ser inserida no banco")
+    # Insert results
+    graph.insert_nodes(G, acordaos, authorities, hubs)
+    print(collection_out_iter_name + "_{}".format(i), "finalizada")
+    # except Exception as e:
+    #     traceback.print_exc()
 
 
 def run_acordaos_kleinberg_experiments():
@@ -148,7 +149,7 @@ def run_acordaos_kleinberg_experiments():
             for i in range(1, 11)
         ])
 
-    processes = 12
+    processes = 3
     pool = Pool(processes=processes)
     pool.map(run_hits_execution, kleinberg_iters)
     pool.close()

@@ -53,6 +53,8 @@ class NetworkXDigraph:
                 acordaos[docId] = Acordao(docId, doc["tribunal"], doc["relator"], False)
                 # ADICIONA ARCOS
                 for ac_cit in doc["citacoesObs"]:
+                    if ac_cit in removed_decisions:
+                        continue
                     if ac_cit not in acordaos:
                         G.add_node(ac_cit)
                         acordaos[ac_cit] = Acordao(ac_cit, "", "", False)
@@ -64,7 +66,7 @@ class NetworkXDigraph:
                         similarId = similar["acordaoId"]
                         if similarId not in removed_decisions:
                             for quotedId in doc["citacoesObs"]:
-                                if similarId not in acordaos:
+                                if (similarId not in acordaos) or (acordaos[similarId].getRelator() == ""):
                                     G.add_node(similarId)
                                     acordaos[similarId] = Acordao(
                                         similarId, doc["tribunal"], similar["relator"], True
@@ -114,7 +116,7 @@ class NetworkXDigraph:
 
         print("")
         if i > 0:
-            self.collection_out.insert_one(docs_to_insert)
+            self.collection_out.insert_many(docs_to_insert)
 
 
     def __print_progress(self):
