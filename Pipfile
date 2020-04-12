@@ -7,7 +7,7 @@ verify_ssl = true
 cffi = "*"
 characteristic = "==14.3.0"
 cssselect = "==0.9.1"
-decorator = "==4.0.6"
+decorator = ">=4.0.6"
 ipaddress = "==1.0.16"
 ipython = "*"
 lxml = "==3.5.0"
@@ -37,6 +37,7 @@ openpyxl = "==3.0.1"
 seaborn = "*"
 jupyter = "*"
 tqdm = "*"
+networkx = "*"
 
 [requires]
 python_version = "3.6"
