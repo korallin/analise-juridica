@@ -4,7 +4,7 @@ import os
 from math import ceil
 from random import randint
 import datetime
-# import traceback
+import traceback
 from multiprocessing import Pool
 from pymongo import MongoClient
 from NetworkXDigraph import NetworkXDigraph
@@ -68,20 +68,22 @@ def get_top_10_relatores():
 
 
 def run_hits_execution(args):
-    i, query, collections_name, percentage, compute_similars, collection_out_iter_name = args
+    (
+        i,
+        query,
+        collections_name,
+        percentage,
+        compute_similars,
+        collection_out_iter_name,
+    ) = args
     print("execution: ", i, collection_out_iter_name)
 
-    decisions_ids, collections = get_decisions_ids(
-        collections_name, query
-    )
+    decisions_ids, collections = get_decisions_ids(collections_name, query)
 
     MONGO_URI = os.getenv("MONGO_URI")
     MONGO_DATABASE = os.getenv("MONGO_DATABASE")
     graph = NetworkXDigraph(
-        MONGO_URI,
-        MONGO_DATABASE,
-        collections,
-        collection_out_iter_name,
+        MONGO_URI, MONGO_DATABASE, collections, collection_out_iter_name,
     )
     if i == 1:
         removed_decisions = []
@@ -100,16 +102,20 @@ def run_hits_execution(args):
 
     print("Início da execução do kleinberg:", len(acordaos))
     # KLEINBERG authorities and hubs
-    # try:
-    hubs, authorities = nx.hits(G, max_iter=1000)
-    graph.set_collections_out(collection_out_iter_name + "_{}".format(i))
+    try:
+        hubs, authorities = nx.hits(G, max_iter=1000)
+        graph.set_collections_out(collection_out_iter_name + "_{}".format(i))
 
-    print("Execução:", collection_out_iter_name + "_{}".format(i), "está pronta para ser inserida no banco")
-    # Insert results
-    graph.insert_nodes(G, acordaos, authorities, hubs)
-    print(collection_out_iter_name + "_{}".format(i), "finalizada")
-    # except Exception as e:
-    #     traceback.print_exc()
+        print(
+            "Execução:",
+            collection_out_iter_name + "_{}".format(i),
+            "está pronta para ser inserida no banco",
+        )
+        # Insert results
+        graph.insert_nodes(G, acordaos, authorities, hubs)
+        print(collection_out_iter_name + "_{}".format(i), "finalizada")
+    except Exception as e:
+        traceback.print_exc()
 
 
 def run_acordaos_kleinberg_experiments():
@@ -124,18 +130,38 @@ def run_acordaos_kleinberg_experiments():
     percentages = [10, 20, 30]
     for percentage in percentages:
         collection_out_iter_name = "stf_kleinberg_acordaos_{}".format(percentage)
-        kleinberg_iters.extend([
-            (i, query, collections_name, percentage, compute_similars, collection_out_iter_name)
-            for i in range(1, 11)
-        ])
+        kleinberg_iters.extend(
+            [
+                (
+                    i,
+                    query,
+                    collections_name,
+                    percentage,
+                    compute_similars,
+                    collection_out_iter_name,
+                )
+                for i in range(1, 11)
+            ]
+        )
 
     compute_similars = "N"
     percentage = 10
-    collection_out_iter_name = "stf_kleinberg_acordaos_{}_no_similars".format(percentage)
-    kleinberg_iters.extend([
-        (i, query, collections_name, percentage, compute_similars, collection_out_iter_name)
-        for i in range(1, 11)
-    ])
+    collection_out_iter_name = "stf_kleinberg_acordaos_{}_no_similars".format(
+        percentage
+    )
+    kleinberg_iters.extend(
+        [
+            (
+                i,
+                query,
+                collections_name,
+                percentage,
+                compute_similars,
+                collection_out_iter_name,
+            )
+            for i in range(1, 11)
+        ]
+    )
 
     compute_similars = "S"
     percentage = 10
@@ -143,11 +169,22 @@ def run_acordaos_kleinberg_experiments():
     for j, rel in enumerate(relatores):
         new_query = query.copy()
         new_query["relator"] = rel
-        collection_out_iter_name = "stf_kleinberg_acordaos_{}_rel_{}".format(percentage, (j + 1))
-        kleinberg_iters.extend([
-            (i, new_query, collections_name, percentage, compute_similars, collection_out_iter_name)
-            for i in range(1, 11)
-        ])
+        collection_out_iter_name = "stf_kleinberg_acordaos_{}_rel_{}".format(
+            percentage, (j + 1)
+        )
+        kleinberg_iters.extend(
+            [
+                (
+                    i,
+                    new_query,
+                    collections_name,
+                    percentage,
+                    compute_similars,
+                    collection_out_iter_name,
+                )
+                for i in range(1, 11)
+            ]
+        )
 
     processes = 3
     pool = Pool(processes=processes)
@@ -156,7 +193,7 @@ def run_acordaos_kleinberg_experiments():
     pool.join()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         tini = datetime.datetime.now()
         run_acordaos_kleinberg_experiments()

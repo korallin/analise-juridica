@@ -8,11 +8,7 @@ import networkx as nx
 
 class NetworkXDigraph:
     def __init__(
-        self,
-        mongo_uri,
-        db_name,
-        collection_in,
-        collection_out_name,
+        self, mongo_uri, db_name, collection_in, collection_out_name,
     ):
         client = MongoClient(mongo_uri)
         self.db = client[db_name]
@@ -65,13 +61,14 @@ class NetworkXDigraph:
                     for similar in doc["similares"]:
                         similarId = similar["acordaoId"]
                         if similarId not in removed_decisions:
+                            if (similarId not in acordaos) or (
+                                acordaos[similarId].getRelator() == ""
+                            ):
+                                G.add_node(similarId)
+                                acordaos[similarId] = Acordao(
+                                    similarId, doc["tribunal"], similar["relator"], True
+                                )
                             for quotedId in doc["citacoesObs"]:
-                                if (similarId not in acordaos) or (acordaos[similarId].getRelator() == ""):
-                                    G.add_node(similarId)
-                                    acordaos[similarId] = Acordao(
-                                        similarId, doc["tribunal"], similar["relator"], True
-                                    )
-
                                 G.add_edge(similarId, quotedId)
 
                 self.__print_progress()
@@ -117,7 +114,6 @@ class NetworkXDigraph:
         print("")
         if i > 0:
             self.collection_out.insert_many(docs_to_insert)
-
 
     def __print_progress(self):
         self.count += 1
