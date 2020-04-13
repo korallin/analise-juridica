@@ -8,11 +8,7 @@ import sys
 
 class GraphMaker:
     def __init__(
-        self,
-        mongo_uri,
-        dbName,
-        collections_in,
-        collectionOutName,
+        self, mongo_uri, dbName, collections_in, collectionOutName,
     ):
         client = MongoClient(mongo_uri)
         self.db = client[dbName]
@@ -137,6 +133,8 @@ class GraphMaker:
                     "citacoes": docQuotes,
                     "citadoPor": docQuotedBy,
                     "similares": docSimilars,
+                    "indegree": len(docQuotedBy),
+                    "outdegree": len(docQuotes),
                     "relator": doc.getRelator(),
                     "tribunal": doc.getTribunal(),
                     "pageRank": docPageRank,

@@ -38,6 +38,14 @@ class NetworkXDigraph:
         self.count = self.progress = 0
 
         for coll in self.collection_in:
+            decisions_set = list(coll.find({}, no_cursor_timeout=True))
+            dec_relator_trib = {
+                dec["acordaoId"]: [
+                    re.sub(r"\s*\(.+", "", dec["relator"]),
+                    dec["tribunal"],
+                ]
+                for dec in decisions_set
+            }
             docsFound = coll.find(query, no_cursor_timeout=True)
             for doc in docsFound:
                 if doc["acordaoId"] in removed_decisions:
@@ -53,7 +61,12 @@ class NetworkXDigraph:
                         continue
                     if ac_cit not in acordaos:
                         G.add_node(ac_cit)
-                        acordaos[ac_cit] = Acordao(ac_cit, "", "", False)
+                        relator, tribunal = (
+                            dec_relator_trib[ac_cit]
+                            if ac_cit in dec_relator_trib
+                            else ["", ""]
+                        )
+                        acordaos[ac_cit] = Acordao(ac_cit, relator, tribunal, False)
 
                     G.add_edge(docId, ac_cit)
 
@@ -94,8 +107,10 @@ class NetworkXDigraph:
             docs_to_insert.append(
                 {
                     "acordaoId": docId,
-                    # "citacoes": doc.getCitacoes(),
-                    "citadoPor": [tup[0] for tup in G.out_edges(docId)],
+                    "citacoes": [tup[0] for tup in G.out_edges(docId)],
+                    "citadoPor": [tup[0] for tup in G.in_edges(docId)],
+                    "indegree": len(G.in_edges(docId)),
+                    "outdegree": len(G.out_edges(docId)),
                     # "similares": doc.getSimilares(),
                     "relator": doc.getRelator(),
                     "tribunal": doc.getTribunal(),
