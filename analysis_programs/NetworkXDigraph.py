@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
+import re
 from Acordao import Acordao
 from pymongo import MongoClient
 import networkx as nx
@@ -66,7 +67,7 @@ class NetworkXDigraph:
                             if ac_cit in dec_relator_trib
                             else ["", ""]
                         )
-                        acordaos[ac_cit] = Acordao(ac_cit, relator, tribunal, False)
+                        acordaos[ac_cit] = Acordao(ac_cit, tribunal, relator, False)
 
                     G.add_edge(docId, ac_cit)
 

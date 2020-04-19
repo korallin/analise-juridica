@@ -186,7 +186,7 @@ def run_acordaos_kleinberg_experiments():
             ]
         )
 
-    processes = 3
+    processes = 12
     pool = Pool(processes=processes)
     pool.map(run_hits_execution, kleinberg_iters)
     pool.close()
