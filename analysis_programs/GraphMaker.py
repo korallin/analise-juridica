@@ -161,13 +161,13 @@ class GraphMaker:
             i += 1
             self.__printProgress()
             if i >= insertStep:
-                self.collectionOut.insert_one(docs2Insert)
+                self.collectionOut.insert_many(docs2Insert)
                 docs2Insert = []
                 i = 0
 
         print("")
         if i > 0:
-            self.collectionOut.insert_one(docs2Insert)
+            self.collectionOut.insert_many(docs2Insert)
 
     def __printProgress(self):
         self.count += 1
