@@ -87,8 +87,8 @@ class GraphMaker:
                         continue
                     if quotedId not in acordaos:
                         relator, tribunal = (
-                            dec_relator_trib[ac_cit]
-                            if ac_cit in dec_relator_trib
+                            dec_relator_trib[quotedId]
+                            if quotedId in dec_relator_trib
                             else ["", ""]
                         )
                         acordaos[quotedId] = Acordao(quotedId, tribunal, relator, False)
