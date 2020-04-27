@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import re
+import sys
 from pymongo import MongoClient
 from Acordao import Acordao
-import sys
 
 
 class GraphMaker:
