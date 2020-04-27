@@ -67,6 +67,14 @@ class GraphMaker:
         self.count = self.progress = 0
 
         for coll in self.collectionsIn:
+            decisions_set = list(coll.find({}, no_cursor_timeout=True))
+            dec_relator_trib = {
+                dec["acordaoId"]: [
+                    re.sub(r"\s*\(.+", "", dec["relator"]),
+                    dec["tribunal"],
+                ]
+                for dec in decisions_set
+            }
             docsFound = coll.find(query, no_cursor_timeout=True)
             for doc in docsFound:
                 if doc["acordaoId"] in removed_decisions:
@@ -74,9 +82,18 @@ class GraphMaker:
 
                 docId = doc["acordaoId"]
                 for quotedId in doc["citacoesObs"]:
-                    if quotedId not in removed_decisions:
-                        quotes = self.__addElemSetToDict(quotes, docId, quotedId)
-                        quotedBy = self.__addElemSetToDict(quotedBy, quotedId, docId)
+                    if quotedId in removed_decisions:
+                        continue
+                    if quotedId not in acordaos:
+                        relator, tribunal = (
+                            dec_relator_trib[ac_cit]
+                            if ac_cit in dec_relator_trib
+                            else ["", ""]
+                        )
+                        acordaos[quotedId] = Acordao(quotedId, tribunal, relator, False)
+
+                    quotes = self.__addElemSetToDict(quotes, docId, quotedId)
+                    quotedBy = self.__addElemSetToDict(quotedBy, quotedId, docId)
 
                 # similares são decisões (nós) virtuais que apontam para citacoes de 'docId'
                 if compute_similars == "S":
