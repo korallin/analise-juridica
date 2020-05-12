@@ -321,46 +321,96 @@ class STFDecisaoParser(DecisaoParser):
         return list(citacoesDec)
 
     def parseAcordaosQuotes(self, txt, dec_type):
+        """
+        https://pt.stackoverflow.com/questions/13598/significado-de-em-uma-regex
+        """
         quotes = []
-        # quando decisões do STF são prefixadas por pela string "STF:" a expressão regular abaixo não funciona.
+        # Quando decisões do STF são prefixadas por pela string "STF:" a expressão regular abaixo não funciona.
         # Então remove-se a string sem prejuízo para a detecção das decisões citadas em txt
-        txt = txt.replace("STF:", "")
-        # remoção de citações a revista trimestral de jurisprudência do STF
-        txt = re.sub(r"\([^\),\.;]+[\),\.;]", "", txt)
-        txt = re.sub(r"RTJ?(\-|\s+)?\d+(\/\d+)?", "", txt)
+        txt = re.sub(r"art\.", "art", txt, flags=re.IGNORECASE)
+        txt = re.sub("(STF:|\-?\s*(t|p)\w*\s*pleno|CASO\s+LÍDER)", "", txt, flags=re.IGNORECASE)
+        # Verificar se é usado o padrão que remove o máximo possível de caracteres após modificar o padrão aqui
+        # Em alguns espelhos o padrão que aparece no final acaba aparecendo no começo.
+        # Então não é possível remover todo o texto que vem depois.
         txt = re.sub(
-            r"(Número de páginas)?(Alteração)?(Revisão)?(Inclusão)?(Análise)?", "", txt
+            r"((Número\s*de\s*p[aá]ginas|Altera[aç][aã]o|Revis[aã]o|Inclus[aã]o|An[aá]lise|Obs\.|Vota[cç][aã]o|Resultado):)[^\.]*\.", "", txt, flags=re.IGNORECASE
         )
-        txt = re.sub(r"(STJ):[^;\.]+", "", txt)
-        txt = re.sub(r"(TSE):[^;\.]+", "", txt)
+        # Além disso, uma decisão específica começa com a string “Veja” Será feita uma exceção para este caso.
+        veja_pattern = r"(^Veja[^\.]*\.)?(.*)\-?\s*Veja.*"
+        while re.search(veja_pattern, txt, flags=re.IGNORECASE):
+            txt = re.sub(
+                veja_pattern, r"\2", txt, flags=re.IGNORECASE
+            )
+
+        # ver posteriormente que tipo de informação é inserida entre '()' nas citações
+        txt = re.sub(r"(STJ|TSE|TRE|TST|TRF\s*\-?[\s\w]*)\s*:.+[;\.]\s*", "", txt)
 
         search_pattern = (
-            "[Dd]ecis(?:ão|ões) monocráticas? citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
+            "[Dd]ecis(?:ão|ões)\s*monocráticas?\s*citada(?:\s*\(?s\)?)?\s*:\s*([^:]*)(?=\.[^:])"
             if dec_type == "decisoes_monocraticas"
-            else "[Aa]c[óo]rd[ãa]o(?:\s*\(?s\)?)? [Cc]itado(?:\s*\(?s\)?)?\s*:\s*(\.(?!\s)*|[^:]*)?"
+            else "[Aa]c[óo]rd[ãa]o\s*\(?\s*s?\s*\)?\s+[Cc]itado\s*\(?\s*s?\s*\)?\s*[:;,]\s*(\.(?!\s)*|[^:]*)?"
         )
-        dec = re.search((search_pattern), txt)
+        #     Acórdão seguido eventualmente de espaços, seguido eventualmente de (s) com eventuais espaços dentro,
+        #     seguido de espaços, seguido de Citado, seguido eventualmente de espaços, seguido eventualmente de (s)
+        #     com eventuais espaços dentro seguido de eventuais espaços e eventualmente ':', seguido de caracteres
+        #     que não sejam ':'. A última sequência (caracteres que não sejam ':') é que o que seve ser capturado.
+        dec = re.search((search_pattern), txt, flags=re.IGNORECASE)
 
         if dec:
             dec = dec.group(1)
+            dec = re.sub(r"[Dd]ecis(?:ão|ões)\s*monocráticas?\s*citada\s*\(?\s*s?\s*\)?\s*", "", dec, flags=re.IGNORECASE)
             if (len(dec) > 2) and (dec[-2] == "."):
                 dec = dec[:-2]
 
+            dec = re.sub(r"\..+(apensado|a).+aos.+autos[^\.]+\.", "", dec, flags=re.IGNORECASE)
+            dec = re.sub(r"\.[^\.]+[AO]s?[^:]+(foram|foi).+objeto.+(rejeitado|conhecido|recebido|acolhido)s[^\.]+\.", "",
+                         dec, flags=re.IGNORECASE)
+
             dec = re.sub(r"(\d+)\.(\d+)", r"\1\2", dec)
+            dec = re.sub(r"[,;]?[\w\d\s\.\/\-]+\((STJ|TSE|TST|TRE|TRF\s*\-?[\s\w]*)\)", "", dec)
+            # remover menções a revistas entre parênteses porque isso significa que o próprio
+            # id do acórdão citado já é referenciado
+            dec = re.sub("\(([A-Z]+\-?[\s\d]+\/\d+\-?\d*,?\s*)+\)", ",", dec)
+            dec = re.sub("\-\s*[A-Z]+\-?[\s\d]+\/\d+\-?\d*", ",", dec)
+            # manter citação à decisão e não à revista como no exemplo: 'TJ 169/557 (HC 73801)'
+            dec = re.sub(r"(\w+\-?[\s\d]+\/\d+\-?\d*)\s+\(([^\d]{2,}[\s-]+\d+[^\d\)]*)\)", r"\2,", dec)
+
+            # REMOVER CONTEÚDO ENTRE PARÊNTESES AQUI
+            while re.search(r"\([^\(\)]+\)", dec):
+                dec = re.sub(r"\([^\(\)]+\)", ",", dec)
+
+            # VER O EFEITO DO SPLIT NO PARÊNTESES PARA ENTENDER QUE PADRÃO É EXTRAÍDO
             dec = re.split("[;,.()]", dec)
             for q in dec:
+                # SIGNIFICA QUE ACABOU O PADRÃO DE DECISÕES
+                if re.search(r"embargos?\sde|(de|em)\sembargos?|RISTF|ESTRANGEIRA|(\-\s*STJ|\s+STJ|STJ\s+\-|TRF)", q, flags=re.IGNORECASE):
+                    return quotes
                 q = q.strip()
 
-                m = re.search("([^\d]{2,}[\s-]+\d+[^\d]*)$", q)
+                acordaoId_pattern = "([^\d\s]{2,}[\s-]+\d+[^\d\/]*)$"
+                m = re.search(acordaoId_pattern, q)
+                if m is None:
+                    n = re.search("([A-Z]+)\-?\s*(\d+\/\d+)", q)
+                    if (n is not None) and (not q.startswith("-")):
+                        n = " ".join(n.groups())
+                        # REPLACE CODE BELOW FOR SEARCH FOR TARNSLATING MAGAZINE IDS TO DECISION IDS
+                        if n in revistas_to_acordao_id_dict:
+                            quotes.append(revistas_to_acordao_id_dict[n])
+                        else:
+                            quotes.append(n)
+
                 while m:
                     m = m.group()
                     q = q.replace(m, "")
                     m = m.replace("-", " ")
                     m = m.strip().upper()
                     m = " ".join(m.split())
-                    quotes.append(self.normalizeId(m))
-                    m = re.search("([^\d]{2,}[\s-]+\d+[^\d]*)$", q)
-        return quotes
+                    m = normalizeId(m)
+                    quotes.append(m)
+                    m = re.search(acordaoId_pattern, q)
+        return sorted(set(quotes))
+
+
 
     def parseSimilarAcordaos(self, raw):
         similar = []
