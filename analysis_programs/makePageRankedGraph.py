@@ -53,7 +53,23 @@ def get_top_10_relatores():
     return relatores
 
 
-def get_removed_decisions(decisions_ids, percentage):
+def get_removed_decisions(db, coll_name, decisions_ids, percentage, iteration):
+    """
+    """
+    coll_names = db.collection_names()
+    removed_decisions_coll_name = (
+        re.search("acordaos_\d{2}(_rel_\d{1,2}|_no_similars)?", coll_name).group()
+        + "_removed"
+    )
+    if removed_decisions_coll_name in coll_names:
+        query_response = list(
+            db[removed_decisions_coll_name].find(
+                {"iteration": {"$eq": iteration}}, {"removed_decisions": 1}
+            )
+        )
+        removed_decisions = query_response[0]["removed_decisions"]
+        return removed_decisions
+
     removed_decisons_len = ceil(len(decisions_ids) * (percentage / 100.0))
     decisions_ids_len = len(decisions_ids)
     removed_decisions = []
@@ -64,31 +80,45 @@ def get_removed_decisions(decisions_ids, percentage):
             removed_decisions.append(decisions_ids[x])
             i += 1
 
+    removed_coll = self.db[removed_decisions_coll_name]
+    removed_coll.insert_one(
+        {"iteration": iteration, "removed_decisions": removed_decisions}
+    )
+
     return removed_decisions
 
 
 def run_page_rank_iteration(args):
     try:
-        i, query, collections_name, percentage, compute_similars, collection_out_iter_name, page_rank_mode = args
+        (
+            i,
+            query,
+            collections_name,
+            percentage,
+            compute_similars,
+            collection_out_iter_name,
+            page_rank_mode,
+        ) = args
 
-        decisions_ids, collections = get_decisions_ids(
-            collections_name, query
-        )
+        decisions_ids, collections = get_decisions_ids(collections_name, query)
 
         MONGO_URI = os.getenv("MONGO_URI")
         MONGO_DATABASE = os.getenv("MONGO_DATABASE")
         graphMaker = GraphMaker(
-            MONGO_URI,
-            MONGO_DATABASE,
-            collections,
-            collection_out_iter_name,
+            MONGO_URI, MONGO_DATABASE, collections, collection_out_iter_name,
         )
         if i == 1:
             removed_decisions = []
         else:
-            removed_decisions = get_removed_decisions(decisions_ids, percentage)
+            client = MongoClient(MONGO_URI)
+            db = client[MONGO_DATABASE]
+            removed_decisions = get_removed_decisions(
+                db, collection_out_iter_name, decisions_ids, percentage, i
+            )
 
-        graphMaker.save_removed_decisions(i, removed_decisions, collection_out_iter_name)
+        graphMaker.save_removed_decisions(
+            i, removed_decisions, collection_out_iter_name
+        )
         [acordaos, quotes, quotedBy, similars] = graphMaker.buildDicts(
             query, removed_decisions, compute_similars
         )
@@ -98,7 +128,9 @@ def run_page_rank_iteration(args):
         #     acordaos, quotes, quotedBy
         # )
 
-        with open("page_ranking_status_{}.log".format(collection_out_iter_name), "a") as f:
+        with open(
+            "page_ranking_status_{}.log".format(collection_out_iter_name), "a"
+        ) as f:
             f.write("Number of decisions in DB: %d\n" % len(decisions_ids))
             total_quotes = sum([len(q) for q in quotes.values()])
             f.write("Number of decisions been pointed (links): %d\n" % total_quotes)
@@ -121,18 +153,24 @@ def run_page_rank_iteration(args):
         pageRanks = pageRanker.calculatePageRanks(
             acordaos, quotes, quotedBy, int(page_rank_mode)
         )
-        with open("page_ranking_status_{}.log".format(collection_out_iter_name), "a") as f:
+        with open(
+            "page_ranking_status_{}.log".format(collection_out_iter_name), "a"
+        ) as f:
             f.write(
                 "calculated page rank in iteration %d in %d seconds\n"
                 % (i, (datetime.now() - t1).seconds)
             )
 
-        print("fim da execução do page rank:", collection_out_iter_name + "_{}".format(i))
+        print(
+            "fim da execução do page rank:", collection_out_iter_name + "_{}".format(i)
+        )
         graphMaker.set_collections_out(collection_out_iter_name + "_{}".format(i))
 
         t1 = datetime.now()
         graphMaker.insertNodes(acordaos, quotes, quotedBy, similars, pageRanks)
-        with open("page_ranking_status_{}.log".format(collection_out_iter_name), "a") as f:
+        with open(
+            "page_ranking_status_{}.log".format(collection_out_iter_name), "a"
+        ) as f:
             f.write("Time to insert nodes %d\n" % (datetime.now() - t1).seconds)
     except Exception as e:
         print("Ocorreu o erro:", e)
@@ -151,20 +189,44 @@ def run_acordaos_pagerank_experiments():
     page_ranks = [1, 2]
     for percentage in percentages:
         for page_rank in page_ranks:
-            collection_out_iter_name = "stf_pr_{}_acordaos_{}".format(page_rank, percentage)
-            page_rank_iters.extend([
-                (i, query, collections_name, percentage, compute_similars, collection_out_iter_name, page_rank)
-                for i in range(1, 11)
-            ])
+            collection_out_iter_name = "stf_pr_{}_acordaos_{}_no_loop".format(
+                page_rank, percentage
+            )
+            page_rank_iters.extend(
+                [
+                    (
+                        i,
+                        query,
+                        collections_name,
+                        percentage,
+                        compute_similars,
+                        collection_out_iter_name,
+                        page_rank,
+                    )
+                    for i in range(1, 11)
+                ]
+            )
 
     compute_similars = "N"
     percentage = 10
     for page_rank in page_ranks:
-        collection_out_iter_name = "stf_pr_{}_acordaos_{}_no_similars".format(page_rank, percentage)
-        page_rank_iters.extend([
-            (i, query, collections_name, percentage, compute_similars, collection_out_iter_name, page_rank)
-            for i in range(1, 11)
-        ])
+        collection_out_iter_name = "stf_pr_{}_acordaos_{}_no_similars_no_loop".format(
+            page_rank, percentage
+        )
+        page_rank_iters.extend(
+            [
+                (
+                    i,
+                    query,
+                    collections_name,
+                    percentage,
+                    compute_similars,
+                    collection_out_iter_name,
+                    page_rank,
+                )
+                for i in range(1, 11)
+            ]
+        )
 
     compute_similars = "S"
     percentage = 10
@@ -173,12 +235,23 @@ def run_acordaos_pagerank_experiments():
         new_query = query.copy()
         new_query["relator"] = rel
         for page_rank in page_ranks:
-            collection_out_iter_name = "stf_pr_{}_acordaos_{}_rel_{}".format(page_rank, percentage, (j + 1))
-            page_rank_iters.extend([
-                (i, new_query, collections_name, percentage, compute_similars, collection_out_iter_name, page_rank)
-                for i in range(1, 11)
-            ])
-
+            collection_out_iter_name = "stf_pr_{}_acordaos_{}_rel_{}_no_loop".format(
+                page_rank, percentage, (j + 1)
+            )
+            page_rank_iters.extend(
+                [
+                    (
+                        i,
+                        new_query,
+                        collections_name,
+                        percentage,
+                        compute_similars,
+                        collection_out_iter_name,
+                        page_rank,
+                    )
+                    for i in range(1, 11)
+                ]
+            )
 
     processes = 12
     pool = Pool(processes=processes)
@@ -187,7 +260,7 @@ def run_acordaos_pagerank_experiments():
     pool.join()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     try:
         tini = datetime.now()
         run_acordaos_pagerank_experiments()

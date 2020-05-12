@@ -83,7 +83,7 @@ class GraphMaker:
 
                 docId = doc["acordaoId"]
                 for quotedId in doc["citacoesObs"]:
-                    if quotedId in removed_decisions:
+                    if (quotedId in removed_decisions) or (docId == quotedId):
                         continue
                     if quotedId not in acordaos:
                         relator, tribunal = (
@@ -102,6 +102,8 @@ class GraphMaker:
                         similarId = similar["acordaoId"]
                         if similarId not in removed_decisions:
                             for quotedId in doc["citacoesObs"]:
+                                if quotedId == similarId:
+                                    continue
                                 quotes = self.__addElemSetToDict(
                                     quotes, similarId, quotedId
                                 )

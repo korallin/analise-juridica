@@ -58,7 +58,7 @@ class NetworkXDigraph:
                 acordaos[docId] = Acordao(docId, doc["tribunal"], doc["relator"], False)
                 # ADICIONA ARCOS
                 for ac_cit in doc["citacoesObs"]:
-                    if ac_cit in removed_decisions:
+                    if (ac_cit in removed_decisions) or (docId == ac_cit):
                         continue
                     if ac_cit not in acordaos:
                         G.add_node(ac_cit)
@@ -83,6 +83,8 @@ class NetworkXDigraph:
                                     similarId, doc["tribunal"], similar["relator"], True
                                 )
                             for quotedId in doc["citacoesObs"]:
+                                if quotedId == similarId:
+                                    continue
                                 G.add_edge(similarId, quotedId)
 
                 self.__print_progress()

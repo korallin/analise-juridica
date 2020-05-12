@@ -36,7 +36,23 @@ def get_decisions_ids(collections, query):
     return decisions_ids, colls
 
 
-def get_removed_decisions(decisions_ids, percentage):
+def get_removed_decisions(db, coll_name, decisions_ids, percentage, iteration):
+    """
+    """
+    coll_names = db.collection_names()
+    removed_decisions_coll_name = (
+        re.search("acordaos_\d{2}(_rel_\d{1,2}|_no_similars)?", coll_name).group()
+        + "_removed"
+    )
+    if removed_decisions_coll_name in coll_names:
+        query_response = list(
+            db[removed_decisions_coll_name].find(
+                {"iteration": {"$eq": iteration}}, {"removed_decisions": 1}
+            )
+        )
+        removed_decisions = query_response[0]["removed_decisions"]
+        return removed_decisions
+
     removed_decisons_len = ceil(len(decisions_ids) * (percentage / 100.0))
     decisions_ids_len = len(decisions_ids)
     removed_decisions = []
@@ -46,6 +62,11 @@ def get_removed_decisions(decisions_ids, percentage):
         if decisions_ids[x] not in removed_decisions:
             removed_decisions.append(decisions_ids[x])
             i += 1
+
+    removed_coll = self.db[removed_decisions_coll_name]
+    removed_coll.insert_one(
+        {"iteration": iteration, "removed_decisions": removed_decisions}
+    )
 
     return removed_decisions
 
@@ -88,7 +109,11 @@ def run_hits_execution(args):
     if i == 1:
         removed_decisions = []
     else:
-        removed_decisions = get_removed_decisions(decisions_ids, percentage)
+        client = MongoClient(MONGO_URI)
+        db = client[MONGO_DATABASE]
+        removed_decisions = get_removed_decisions(
+            db, collection_out_iter_name, decisions_ids, percentage, i
+        )
 
     graph.save_removed_decisions(i, removed_decisions, collection_out_iter_name)
 
@@ -129,7 +154,9 @@ def run_acordaos_kleinberg_experiments():
     # experimento kleinberg todas as decisões
     percentages = [10, 20, 30]
     for percentage in percentages:
-        collection_out_iter_name = "stf_kleinberg_acordaos_{}".format(percentage)
+        collection_out_iter_name = "stf_kleinberg_acordaos_{}_no_loop".format(
+            percentage
+        )
         kleinberg_iters.extend(
             [
                 (
@@ -146,7 +173,7 @@ def run_acordaos_kleinberg_experiments():
 
     compute_similars = "N"
     percentage = 10
-    collection_out_iter_name = "stf_kleinberg_acordaos_{}_no_similars".format(
+    collection_out_iter_name = "stf_kleinberg_acordaos_{}_no_similars_no_loop".format(
         percentage
     )
     kleinberg_iters.extend(
@@ -169,7 +196,7 @@ def run_acordaos_kleinberg_experiments():
     for j, rel in enumerate(relatores):
         new_query = query.copy()
         new_query["relator"] = rel
-        collection_out_iter_name = "stf_kleinberg_acordaos_{}_rel_{}".format(
+        collection_out_iter_name = "stf_kleinberg_acordaos_{}_rel_{}_no_loop".format(
             percentage, (j + 1)
         )
         kleinberg_iters.extend(
