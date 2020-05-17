@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+import re
 import sys
 from math import ceil
 from random import randint
@@ -67,8 +68,11 @@ def get_removed_decisions(db, coll_name, decisions_ids, percentage, iteration):
                 {"iteration": {"$eq": iteration}}, {"removed_decisions": 1}
             )
         )
-        removed_decisions = query_response[0]["removed_decisions"]
-        return removed_decisions
+        removed_decisions = (
+            query_response[0]["removed_decisions"] if len(query_response) > 0 else []
+        )
+        if len(removed_decisions) > 0:
+            return removed_decisions
 
     removed_decisons_len = ceil(len(decisions_ids) * (percentage / 100.0))
     decisions_ids_len = len(decisions_ids)
@@ -80,7 +84,7 @@ def get_removed_decisions(db, coll_name, decisions_ids, percentage, iteration):
             removed_decisions.append(decisions_ids[x])
             i += 1
 
-    removed_coll = self.db[removed_decisions_coll_name]
+    removed_coll = db[removed_decisions_coll_name]
     removed_coll.insert_one(
         {"iteration": iteration, "removed_decisions": removed_decisions}
     )
