@@ -132,7 +132,7 @@ def run_hits_execution(args):
     print("Início da execução do kleinberg:", len(acordaos))
     # KLEINBERG authorities and hubs
     try:
-        hubs, authorities = nx.hits(G, max_iter=1000)
+        hubs, authorities = nx.hits(G, max_iter=10000)
         graph.set_collections_out(collection_out_iter_name + "_{}".format(i))
 
         print(

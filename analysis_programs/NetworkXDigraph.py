@@ -133,6 +133,44 @@ class NetworkXDigraph:
         if i > 0:
             self.collection_out.insert_many(docs_to_insert)
 
+    def insert_nodes_pr(self, G, acordaos, page_ranks):
+        n_docs = len(acordaos)
+        self.one_percent = n_docs / 100
+        self.count = self.progress = 0
+        insert_step = n_docs
+        if n_docs > 10000:
+            insert_step = 10000
+
+        print("n acordaos %s to be inserted" % n_docs)
+
+        i = 0
+        docs_to_insert = []
+        for docId, doc in acordaos.items():
+            docs_to_insert.append(
+                {
+                    "acordaoId": docId,
+                    "citacoes": [tup[0] for tup in G.out_edges(docId)],
+                    "citadoPor": [tup[0] for tup in G.in_edges(docId)],
+                    "indegree": len(G.in_edges(docId)),
+                    "outdegree": len(G.out_edges(docId)),
+                    # "similares": doc.getSimilares(),
+                    "relator": doc.getRelator(),
+                    "tribunal": doc.getTribunal(),
+                    "pageRank": page_ranks[docId],
+                    "virtual": doc.getVirtual(),
+                }
+            )
+            i += 1
+            self.__print_progress()
+            if i >= insert_step:
+                self.collection_out.insert_many(docs_to_insert)
+                docs_to_insert = []
+                i = 0
+
+        print("")
+        if i > 0:
+            self.collection_out.insert_many(docs_to_insert)
+
     def __print_progress(self):
         self.count += 1
         if self.count >= self.one_percent:

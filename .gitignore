@@ -8,3 +8,9 @@ logs/*
 backups/*
 automation_scripts/backup_database.sh
 *.pyc
+*.log
+
+*.ipynb_checkpoints*
+*notebooks/images/*
+inteiros_teores.tar.gz
+
